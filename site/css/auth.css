@@ -1,0 +1,232 @@
+/* ==========================================
+   AUTH PAGES - Register & Login
+   Ecumap-style clean layout
+   ========================================== */
+
+/* Top bar with logo */
+.auth-topbar {
+  background: var(--dark);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+}
+
+.auth-topbar .brand-logo {
+  height: 75px;
+  object-fit: contain;
+}
+
+/* Main container */
+.auth-container {
+  min-height: calc(100vh - 82px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 48px 24px;
+  background: #fff;
+}
+
+/* Card */
+.auth-card {
+  width: 100%;
+  max-width: 720px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 40px 48px;
+}
+
+.auth-card h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 32px;
+}
+
+/* Form rows */
+.auth-card .form-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 0;
+}
+
+.auth-card .form-row .form-group {
+  flex: 1;
+}
+
+.auth-card .form-row-3 .form-group {
+  flex: 1;
+}
+
+/* Form group */
+.auth-card .form-group {
+  margin-bottom: 12px;
+}
+
+/* Input styles - ecumap clean look */
+.auth-card .form-control {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 0.95rem;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.auth-card .form-control:focus {
+  outline: none;
+  border-color: #80b3ff;
+  box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.15);
+}
+
+.auth-card .form-control::placeholder {
+  color: #999;
+}
+
+/* Highlighted input (email) */
+.auth-card .input-highlight {
+  background: #e8f0fe;
+  border-color: #c4d7f2;
+}
+
+/* Select */
+.auth-card select.form-control {
+  appearance: auto;
+  cursor: pointer;
+}
+
+/* Checkboxes */
+.auth-card .form-check {
+  margin-bottom: 16px;
+}
+
+.auth-card .form-check label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+}
+
+.auth-card .form-check input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Form hint */
+.auth-card .form-hint {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
+
+/* Address/Zip flex sizing */
+.auth-card .form-group-wide {
+  flex: 2;
+}
+
+.auth-card .form-group-narrow {
+  flex: 1;
+}
+
+/* Error message */
+.auth-card .form-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+.auth-card .form-error-hidden {
+  display: none;
+}
+
+/* Links */
+.link-primary {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link-primary:hover {
+  text-decoration: underline;
+}
+
+/* Register button */
+.btn-register {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Auth link */
+.auth-link {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 16px;
+}
+
+/* ---- Login specific ---- */
+.auth-card .form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.auth-card .form-actions label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Narrow card for login */
+.auth-card-narrow {
+  max-width: 480px;
+}
+
+/* Loading state */
+.btn-register:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .auth-card {
+    padding: 24px 20px;
+  }
+
+  .auth-card .form-row,
+  .auth-card .form-row-3 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .auth-card .form-row .form-group {
+    flex: unset;
+  }
+}

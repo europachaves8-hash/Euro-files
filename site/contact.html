@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact EUROFILES - Get in touch with our team">
+  <title>Contact Us | EUROFILES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="vehicles.html">Vehicle List</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">Login</a>
+        <a href="register.html" class="btn btn-sm btn-primary">Register</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav">
+    <button class="close-btn">&times;</button>
+    <a href="index.html">Home</a>
+    <a href="vehicles.html">Vehicle List</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span class="current">Contact Us</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Info -->
+        <div>
+          <h2 style="margin-bottom: 8px;">Get in Touch</h2>
+          <p class="text-light mb-4">Have questions about our services? Need a special tuning solution? We're here to help.</p>
+
+          <div class="contact-info-card">
+            <div class="icon">&#9993;</div>
+            <div>
+              <h4>Email</h4>
+              <p>info@ecufiles.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon">&#128337;</div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Monday - Friday: 09:00 - 20:00<br>Saturday: 09:00 - 16:00<br>Sunday: Closed</p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon">&#9889;</div>
+            <div>
+              <h4>Response Time</h4>
+              <p>We typically respond within 5-30 minutes during working hours.</p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon">&#128274;</div>
+            <div>
+              <h4>Member Support</h4>
+              <p>For faster support, please use the ticket system in your member area.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="card" style="padding: 40px;">
+          <h3 style="margin-bottom: 24px;">Send us a Message</h3>
+          <form id="contact-form" onsubmit="return validateForm('contact-form')">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" class="form-control" required>
+                <option value="">Select a topic</option>
+                <option value="general">General Inquiry</option>
+                <option value="pricing">Pricing Question</option>
+                <option value="technical">Technical Support</option>
+                <option value="custom">Custom Tuning Request</option>
+                <option value="partnership">Partnership</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="vehicle">Vehicle Info (optional)</label>
+              <input type="text" id="vehicle" class="form-control" placeholder="e.g., BMW 320d 2019, Bosch EDC17">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" placeholder="Describe your request..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="navbar-brand mb-3">
+            <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+          </div>
+          <p>Professional ECU chiptuning file service with 12+ years of experience.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vehicles.html">Vehicle List</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="login.html">Member Area</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Working Hours</h4>
+          <table class="footer-hours">
+            <tr><td>Mon - Fri</td><td>09:00 - 20:00</td></tr>
+            <tr><td>Saturday</td><td>09:00 - 16:00</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; 2014 - 2026 EUROFILES | All rights reserved</div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

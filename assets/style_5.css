@@ -1,0 +1,404 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../webicons/cars-icons/icomoon.eot?lwgc9y');
+    src:  url('../webicons/cars-icons/icomoon.eot?lwgc9y#iefix') format('embedded-opentype'),
+    url('../webicons/cars-icons/icomoon.ttf?lwgc9y') format('truetype'),
+    url('../webicons/cars-icons/icomoon.woff?lwgc9y') format('woff'),
+    url('../webicons/cars-icons/icomoon.svg?lwgc9y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alpina:before {
+    content: "\e900";
+}
+.icon-case:before {
+    content: "\e901";
+}
+.icon-caterpillar:before {
+    content: "\e902";
+}
+.icon-challenger:before {
+    content: "\e903";
+}
+.icon-citroen:before {
+    content: "\e904";
+}
+.icon-claas:before {
+    content: "\e905";
+}
+.icon-cummins:before {
+    content: "\e906";
+}
+.icon-dacia:before {
+    content: "\e907";
+}
+.icon-daf:before {
+    content: "\e908";
+}
+.icon-deutz:before {
+    content: "\e909";
+}
+.icon-fendt:before {
+    content: "\e90a";
+}
+.icon-ford-truck:before {
+    content: "\e90b";
+}
+.icon-harley-davidson:before {
+    content: "\e90c";
+}
+.icon-hino:before {
+    content: "\e90d";
+}
+.icon-honda:before {
+    content: "\e90e";
+}
+.icon-yanmar:before {
+    content: "\e90f";
+}
+.icon-iveco:before {
+    content: "\e910";
+}
+.icon-jcb:before {
+    content: "\e911";
+}
+.icon-john-deere:before {
+    content: "\e912";
+}
+.icon-kawasaki:before {
+    content: "\e913";
+}
+.icon-ktm:before {
+    content: "\e914";
+}
+.icon-mahindra:before {
+    content: "\e915";
+}
+.icon-man:before {
+    content: "\e916";
+}
+.icon-massey-ferguson:before {
+    content: "\e917";
+}
+.icon-mccormick:before {
+    content: "\e918";
+}
+.icon-mercury-marine:before {
+    content: "\e919";
+}
+.icon-new-holland:before {
+    content: "\e91a";
+}
+.icon-opel:before {
+    content: "\e91b";
+}
+.icon-peugeot:before {
+    content: "\e91c";
+}
+.icon-piaggio:before {
+    content: "\e91d";
+}
+.icon-renault:before {
+    content: "\e91e";
+}
+.icon-renault-truck:before {
+    content: "\e91f";
+}
+.icon-rover:before {
+    content: "\e920";
+}
+.icon-saab-iveco:before {
+    content: "\e921";
+}
+.icon-same:before {
+    content: "\e922";
+}
+.icon-scania:before {
+    content: "\e923";
+}
+.icon-seat:before {
+    content: "\e924";
+}
+.icon-skoda:before {
+    content: "\e925";
+}
+.icon-ssangyong:before {
+    content: "\e926";
+}
+.icon-steyr:before {
+    content: "\e927";
+}
+.icon-suzuki:before {
+    content: "\e928";
+}
+.icon-valtra:before {
+    content: "\e929";
+}
+.icon-volvo-penta:before {
+    content: "\e92a";
+}
+.icon-volvo-truck:before {
+    content: "\e92b";
+}
+.icon-vw-marine:before {
+    content: "\e92c";
+}
+.icon-acura:before {
+    content: "\e92d";
+}
+.icon-alfa-romeo-alt:before {
+    content: "\e92e";
+}
+.icon-alfa-romeo:before {
+    content: "\e92f";
+}
+.icon-am-general:before {
+    content: "\e930";
+}
+.icon-aston-martin-alt:before {
+    content: "\e931";
+}
+.icon-aston-martin:before {
+    content: "\e932";
+}
+.icon-audi:before {
+    content: "\e933";
+}
+.icon-bentley:before {
+    content: "\e934";
+}
+.icon-bmw-motorrad:before {
+    content: "\e935";
+}
+.icon-bmw:before {
+    content: "\e936";
+}
+.icon-bugatti:before {
+    content: "\e937";
+}
+.icon-buick:before {
+    content: "\e938";
+}
+.icon-cadillac:before {
+    content: "\e939";
+}
+.icon-chevrolet:before {
+    content: "\e93a";
+}
+.icon-chrysler:before {
+    content: "\e93b";
+}
+.icon-daewoo:before {
+    content: "\e93c";
+}
+.icon-dodge:before {
+    content: "\e93d";
+}
+.icon-eagle:before {
+    content: "\e93e";
+}
+.icon-ferrari:before {
+    content: "\e93f";
+}
+.icon-fiat-alt:before {
+    content: "\e940";
+}
+.icon-fiat:before {
+    content: "\e941";
+}
+.icon-fisker:before {
+    content: "\e942";
+}
+.icon-ford:before {
+    content: "\e943";
+}
+.icon-genesis:before {
+    content: "\e944";
+}
+.icon-geo:before {
+    content: "\e945";
+}
+.icon-gmc:before {
+    content: "\e946";
+}
+.icon-hyundai:before {
+    content: "\e947";
+}
+.icon-honda1:before {
+    content: "\e948";
+}
+.icon-hummer:before {
+    content: "\e949";
+}
+.icon-infiniti:before {
+    content: "\e94a";
+}
+.icon-isuzu:before {
+    content: "\e94b";
+}
+.icon-jaguar-alt:before {
+    content: "\e94c";
+}
+.icon-jaguar:before {
+    content: "\e94d";
+}
+.icon-jeep-alt:before {
+    content: "\e94e";
+}
+.icon-jeep:before {
+    content: "\e94f";
+}
+.icon-kia:before {
+    content: "\e950";
+}
+.icon-lamborghini-alt:before {
+    content: "\e951";
+}
+.icon-lamborghini:before {
+    content: "\e952";
+}
+.icon-lancia:before {
+    content: "\e953";
+}
+.icon-land-rover:before {
+    content: "\e954";
+}
+.icon-lexus:before {
+    content: "\e955";
+}
+.icon-lincoln:before {
+    content: "\e956";
+}
+.icon-lotus-alt:before {
+    content: "\e957";
+}
+.icon-lotus:before {
+    content: "\e958";
+}
+.icon-maybach:before {
+    content: "\e959";
+}
+.icon-maserati:before {
+    content: "\e95a";
+}
+.icon-mazda-alt:before {
+    content: "\e95b";
+}
+.icon-mazda:before {
+    content: "\e95c";
+}
+.icon-mclaren-alt:before {
+    content: "\e95d";
+}
+.icon-mclaren:before {
+    content: "\e95e";
+}
+.icon-mercedes-benz-alt:before {
+    content: "\e95f";
+}
+.icon-mercedes-benz:before {
+    content: "\e960";
+}
+.icon-mercedes:before {
+    content: "\e961";
+}
+.icon-mercury:before {
+    content: "\e962";
+}
+.icon-mini-alt:before {
+    content: "\e963";
+}
+.icon-mini:before {
+    content: "\e964";
+}
+.icon-mitsubishi:before {
+    content: "\e965";
+}
+.icon-nissan:before {
+    content: "\e966";
+}
+.icon-oldsmobile:before {
+    content: "\e967";
+}
+.icon-panoz:before {
+    content: "\e968";
+}
+.icon-plymouth:before {
+    content: "\e969";
+}
+.icon-pontiac:before {
+    content: "\e96a";
+}
+.icon-porsche:before {
+    content: "\e96b";
+}
+.icon-ram-alt:before {
+    content: "\e96c";
+}
+.icon-ram:before {
+    content: "\e96d";
+}
+.icon-rolls-royce:before {
+    content: "\e96e";
+}
+.icon-saab-alt:before {
+    content: "\e96f";
+}
+.icon-saab:before {
+    content: "\e970";
+}
+.icon-saturn:before {
+    content: "\e971";
+}
+.icon-scion:before {
+    content: "\e972";
+}
+.icon-smart:before {
+    content: "\e973";
+}
+.icon-spyker-alt:before {
+    content: "\e974";
+}
+.icon-spyker:before {
+    content: "\e975";
+}
+.icon-subaru-alt:before {
+    content: "\e976";
+}
+.icon-subaru:before {
+    content: "\e977";
+}
+.icon-suzuki1:before {
+    content: "\e978";
+}
+.icon-tesla:before {
+    content: "\e979";
+}
+.icon-toyota:before {
+    content: "\e97a";
+}
+.icon-volkswagen:before {
+    content: "\e97b";
+}
+.icon-volvo-alt:before {
+    content: "\e97c";
+}
+.icon-volvo:before {
+    content: "\e97d";
+}
