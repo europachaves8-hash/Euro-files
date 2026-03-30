@@ -8,7 +8,8 @@
   <title>Euro Files</title>
   <link rel="icon" type="image/png" href="assets/images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -48,8 +49,14 @@
     <a href="register.html">Register</a>
   </div>
 
-  <!-- ===== HERO ===== -->
+  <!-- ===== HERO (scroll-driven video) ===== -->
+  <div class="hero-scroll-wrapper">
   <section class="hero">
+    <canvas class="hero-video-canvas" id="heroCanvas"></canvas>
+    <video class="hero-video-src" muted playsinline preload="auto" id="heroVideo" style="display:none">
+      <source src="assets/Videos/hero-scroll.mp4" type="video/mp4">
+    </video>
+    <div class="hero-video-overlay"></div>
     <div class="hero-decoration"></div>
     <div class="container">
       <div class="hero-content">
@@ -160,6 +167,7 @@
       </div>
     </div>
   </section>
+  </div><!-- /.hero-scroll-wrapper -->
 
   <!-- ===== HOW IT WORKS ===== -->
   <section class="section">

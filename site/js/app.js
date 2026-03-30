@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initBrandFilter();
   initVehicleSelector();
   initStepsCarousel();
+  initScrollVideo();
 });
 
 // ---------- Navbar Scroll Effect ----------
@@ -181,6 +182,161 @@ function initStepsCarousel() {
       });
     });
   });
+}
+
+// ---------- Scroll-Driven Video (Canvas Frame Extraction) ----------
+function initScrollVideo() {
+  const wrapper = document.querySelector('.hero-scroll-wrapper');
+  const canvas = document.getElementById('heroCanvas');
+  const video = document.getElementById('heroVideo');
+  if (!wrapper || !canvas || !video) return;
+
+  const ctx = canvas.getContext('2d');
+  const frames = [];
+  let totalFrames = 0;
+  let extracting = false;
+  let ready = false;
+  let currentFrame = -1;
+
+  // Resize canvas to fill hero
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    // Redraw current frame after resize
+    if (ready && currentFrame >= 0 && frames[currentFrame]) {
+      drawFrame(currentFrame);
+    }
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  // Draw a frame onto canvas with cover-fit
+  function drawFrame(index) {
+    const img = frames[index];
+    if (!img) return;
+
+    const cw = canvas.width;
+    const ch = canvas.height;
+    const iw = img.width;
+    const ih = img.height;
+
+    // object-fit: cover math
+    const scale = Math.max(cw / iw, ch / ih);
+    const sw = iw * scale;
+    const sh = ih * scale;
+    const sx = (cw - sw) / 2;
+    const sy = (ch - sh) / 2;
+
+    ctx.clearRect(0, 0, cw, ch);
+    ctx.drawImage(img, sx, sy, sw, sh);
+    currentFrame = index;
+  }
+
+  // Extract all frames from video into ImageBitmap array
+  function extractFrames() {
+    if (extracting) return;
+    extracting = true;
+
+    const fps = 24; // assumed fps
+    const duration = video.duration;
+    totalFrames = Math.floor(duration * fps);
+    let extracted = 0;
+
+    // Show first frame ASAP
+    video.currentTime = 0;
+
+    function seekNext() {
+      if (extracted >= totalFrames) {
+        ready = true;
+        updateScrollFrame();
+        return;
+      }
+
+      const time = (extracted / totalFrames) * duration;
+      video.currentTime = time;
+    }
+
+    video.addEventListener('seeked', function onSeeked() {
+      // Capture frame to ImageBitmap (fast, off-main-thread)
+      createImageBitmap(video).then(bitmap => {
+        frames[extracted] = bitmap;
+
+        // Draw first frame immediately
+        if (extracted === 0) {
+          drawFrame(0);
+        }
+
+        extracted++;
+
+        // If enough frames extracted, allow scroll interaction early
+        if (extracted === 10 && !ready) {
+          ready = true;
+          updateScrollFrame();
+        }
+
+        seekNext();
+      }).catch(() => {
+        // Skip failed frame
+        extracted++;
+        seekNext();
+      });
+    });
+
+    seekNext();
+  }
+
+  // On scroll, pick the right frame and draw it
+  function updateScrollFrame() {
+    if (!frames.length) return;
+
+    const rect = wrapper.getBoundingClientRect();
+    const scrollDistance = wrapper.offsetHeight - window.innerHeight;
+    const scrolled = -rect.top;
+    const progress = Math.min(Math.max(scrolled / scrollDistance, 0), 1);
+
+    const maxFrame = frames.length - 1;
+    const targetFrame = Math.round(progress * maxFrame);
+
+    if (targetFrame !== currentFrame && frames[targetFrame]) {
+      drawFrame(targetFrame);
+    }
+
+    // Fade out hero content near the end
+    const heroContent = document.querySelector('.hero-content');
+    if (heroContent) {
+      const fadeStart = 0.65;
+      const fadeEnd = 0.9;
+      if (progress > fadeStart) {
+        const fadeProgress = (progress - fadeStart) / (fadeEnd - fadeStart);
+        heroContent.style.opacity = Math.max(1 - fadeProgress, 0);
+        heroContent.style.transform = 'translateY(' + (-fadeProgress * 40) + 'px)';
+      } else {
+        heroContent.style.opacity = 1;
+        heroContent.style.transform = 'translateY(0)';
+      }
+    }
+  }
+
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        updateScrollFrame();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+
+  // Start extraction when video is ready
+  video.addEventListener('loadeddata', () => {
+    extractFrames();
+  });
+
+  // If video already loaded
+  if (video.readyState >= 2) {
+    extractFrames();
+  }
 }
 
 // ---------- Simple Form Validation ----------
