@@ -66,7 +66,9 @@ for (const entry of raw) {
       ];
     }
 
-    item.push(d);
+    if (Object.keys(d).length > 0) {
+      item.push(d);
+    }
   }
 
   output.push(item);
