@@ -1453,6 +1453,187 @@ table tr:hover td {
   cursor: pointer;
 }
 
+/* ---------- Vehicle Details Page ---------- */
+.detail-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.detail-stat-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.detail-stat-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.detail-stat-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.detail-bar-group {
+  display: grid;
+  grid-template-columns: 70px 1fr 90px;
+  align-items: center;
+  gap: 12px;
+}
+
+.detail-bar-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-bar-track {
+  height: 28px;
+  background: var(--bg-gray);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.detail-bar {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  width: 0;
+}
+
+.detail-bar-original {
+  background: var(--dark);
+}
+
+.detail-bar-stage1 {
+  background: var(--primary);
+}
+
+.detail-bar-value {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-align: right;
+}
+
+.detail-stat-gain {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--success);
+  text-align: center;
+}
+
+/* Specs table */
+.detail-specs {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  margin-bottom: 40px;
+  box-shadow: var(--shadow);
+}
+
+.detail-specs h3 {
+  font-size: 1.15rem;
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.detail-specs-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-spec-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.detail-spec-row:last-child {
+  border-bottom: none;
+}
+
+.detail-spec-key {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+
+.detail-spec-val {
+  font-weight: 500;
+  font-size: 0.92rem;
+  color: var(--text-dark);
+}
+
+/* Description */
+.detail-description {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  margin-bottom: 40px;
+  box-shadow: var(--shadow);
+}
+
+.detail-description h3 {
+  font-size: 1.15rem;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+}
+
+.detail-description p {
+  color: var(--text);
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+/* CTA */
+.detail-cta {
+  text-align: center;
+  padding: 48px 32px;
+  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+}
+
+.detail-cta p {
+  color: rgba(255,255,255,0.75);
+  font-size: 1.05rem;
+  margin-bottom: 24px;
+}
+
+.detail-cta-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .detail-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .detail-bar-group {
+    grid-template-columns: 60px 1fr 70px;
+  }
+}
+
 /* ---------- Noise/Grain Overlay ---------- */
 body::after {
   content: '';

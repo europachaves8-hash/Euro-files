@@ -161,6 +161,29 @@ function initVehicleSelector() {
       engineSelect.disabled = true;
     }
   });
+
+  // Botao Find a File -> navegar para pagina de detalhes
+  const findBtn = document.getElementById('btn-find-file');
+  if (findBtn) {
+    findBtn.addEventListener('click', () => {
+      const make = makeSelect.value;
+      const model = modelSelect.value;
+      const engine = engineSelect.value;
+
+      if (!make) {
+        makeSelect.style.borderColor = 'var(--primary)';
+        makeSelect.focus();
+        return;
+      }
+
+      const params = new URLSearchParams();
+      params.set('make', make);
+      if (model) params.set('model', model);
+      if (engine && engine !== 'all') params.set('engine', engine);
+
+      window.location.href = 'vehicle-details.html?' + params.toString();
+    });
+  }
 }
 
 // ---------- Steps Carousel ----------

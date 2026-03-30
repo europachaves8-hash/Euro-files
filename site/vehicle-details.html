@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vehicle tuning details - Euro Files">
+  <title>Vehicle Details - Euro Files</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar scrolled">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="vehicles.html">Vehicle List</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">Login</a>
+        <a href="register.html" class="btn btn-sm btn-primary">Register</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav">
+    <button class="close-btn">&times;</button>
+    <a href="index.html">Home</a>
+    <a href="vehicles.html">Vehicle List</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </div>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <div class="page-header">
+    <h1 id="detail-title">Vehicle Details</h1>
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <a href="vehicles.html">Vehicle List</a>
+      <span>/</span>
+      <span class="current" id="breadcrumb-vehicle">--</span>
+    </div>
+  </div>
+
+  <!-- ===== VEHICLE DETAILS ===== -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Loading state -->
+      <div id="detail-loading" class="text-center" style="padding: 60px 0;">
+        <p style="font-size: 1.1rem; color: var(--text-light);">Carregando dados do veiculo...</p>
+      </div>
+
+      <!-- Not found state -->
+      <div id="detail-notfound" style="display:none; text-align:center; padding: 60px 0;">
+        <h3 style="margin-bottom: 12px;">Veiculo nao encontrado</h3>
+        <p style="color: var(--text-light); margin-bottom: 24px;">Nao encontramos dados para essa combinacao. Tente outra busca.</p>
+        <a href="index.html" class="btn btn-primary">Voltar ao inicio</a>
+      </div>
+
+      <!-- Vehicle content (hidden until loaded) -->
+      <div id="detail-content" style="display:none;">
+
+        <!-- Power & Torque Cards -->
+        <div class="detail-stats-grid">
+          <div class="detail-stat-card">
+            <div class="detail-stat-label">Power</div>
+            <div class="detail-stat-bars">
+              <div class="detail-bar-group">
+                <span class="detail-bar-label">Original</span>
+                <div class="detail-bar-track">
+                  <div class="detail-bar detail-bar-original" id="bar-power-orig"></div>
+                </div>
+                <span class="detail-bar-value" id="val-power-orig">--</span>
+              </div>
+              <div class="detail-bar-group">
+                <span class="detail-bar-label">Stage 1</span>
+                <div class="detail-bar-track">
+                  <div class="detail-bar detail-bar-stage1" id="bar-power-stage1"></div>
+                </div>
+                <span class="detail-bar-value" id="val-power-stage1">--</span>
+              </div>
+            </div>
+            <div class="detail-stat-gain" id="gain-power"></div>
+          </div>
+
+          <div class="detail-stat-card">
+            <div class="detail-stat-label">Torque</div>
+            <div class="detail-stat-bars">
+              <div class="detail-bar-group">
+                <span class="detail-bar-label">Original</span>
+                <div class="detail-bar-track">
+                  <div class="detail-bar detail-bar-original" id="bar-torque-orig"></div>
+                </div>
+                <span class="detail-bar-value" id="val-torque-orig">--</span>
+              </div>
+              <div class="detail-bar-group">
+                <span class="detail-bar-label">Stage 1</span>
+                <div class="detail-bar-track">
+                  <div class="detail-bar detail-bar-stage1" id="bar-torque-stage1"></div>
+                </div>
+                <span class="detail-bar-value" id="val-torque-stage1">--</span>
+              </div>
+            </div>
+            <div class="detail-stat-gain" id="gain-torque"></div>
+          </div>
+        </div>
+
+        <!-- Vehicle Specs Table -->
+        <div class="detail-specs">
+          <h3>Vehicle Specifications</h3>
+          <div class="detail-specs-table">
+            <div class="detail-spec-row">
+              <span class="detail-spec-key">Engine Type</span>
+              <span class="detail-spec-val" id="spec-engine-type">--</span>
+            </div>
+            <div class="detail-spec-row">
+              <span class="detail-spec-key">Engine Size</span>
+              <span class="detail-spec-val" id="spec-engine-size">--</span>
+            </div>
+            <div class="detail-spec-row">
+              <span class="detail-spec-key">ECU Type</span>
+              <span class="detail-spec-val" id="spec-ecu-type">--</span>
+            </div>
+            <div class="detail-spec-row">
+              <span class="detail-spec-key">Original Power</span>
+              <span class="detail-spec-val" id="spec-orig-power">--</span>
+            </div>
+            <div class="detail-spec-row">
+              <span class="detail-spec-key">Original Torque</span>
+              <span class="detail-spec-val" id="spec-orig-torque">--</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ECU File description -->
+        <div class="detail-description">
+          <h3>ECU Tuning File</h3>
+          <p id="detail-desc-text"></p>
+        </div>
+
+        <!-- CTA -->
+        <div class="detail-cta">
+          <p>Interessado nesse tuning? Crie uma conta gratuita e faca seu pedido.</p>
+          <div class="detail-cta-actions">
+            <a href="register.html" class="btn btn-primary btn-lg">Get Started Free</a>
+            <a href="contact.html" class="btn btn-outline btn-lg">Contact Us</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="navbar-brand mb-3">
+            <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+          </div>
+          <p>Professional ECU chiptuning file service with 12+ years of experience. Dyno and road tested files for all vehicle brands.</p>
+        </div>
+        <div>
+          <h4>Site Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vehicles.html">Vehicle List</a></li>
+            <li><a href="services.html">Chiptuning Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="login.html">Member Area</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Working Hours</h4>
+          <table class="footer-hours">
+            <tr><td>Monday - Friday</td><td>09:00 - 20:00</td></tr>
+            <tr><td>Saturday</td><td>09:00 - 16:00</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; 2014 - 2026 EUROFILES | All rights reserved</div>
+    </div>
+  </footer>
+
+  <script src="js/vehicle-details-data.js"></script>
+  <script src="js/vehicle-details.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
