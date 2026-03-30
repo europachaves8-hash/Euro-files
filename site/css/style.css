@@ -332,7 +332,7 @@ h4 { font-size: 1.25rem; }
 /* ---------- Scroll-Driven Video Hero ---------- */
 .hero-scroll-wrapper {
   position: relative;
-  height: 400vh; /* scroll runway — video plays across this height */
+  height: 240vh; /* hero desgruda em 140vh de scroll */
 }
 
 .hero {

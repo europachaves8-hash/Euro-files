@@ -309,28 +309,33 @@ function initScrollVideo() {
   }
 
   // On scroll, pick the right frame and draw it
+  // Video plays over 150vh, content fades by 135vh, hero unpins at 140vh
+  const videoRunway = 150 * window.innerHeight / 100; // 150vh in px
+  const fadeStartVh = 75;  // content starts fading at 75vh
+  const fadeEndVh = 135;   // content fully gone at 135vh
+
   function updateScrollFrame() {
     if (!frames.length) return;
 
     const rect = wrapper.getBoundingClientRect();
-    const scrollDistance = wrapper.offsetHeight - window.innerHeight;
-    const scrolled = -rect.top;
-    const progress = Math.min(Math.max(scrolled / scrollDistance, 0), 1);
+    const scrolled = Math.max(-rect.top, 0);
 
+    // Video progress mapped to 150vh (continues even after hero unpins)
+    const videoProgress = Math.min(scrolled / videoRunway, 1);
     const maxFrame = frames.length - 1;
-    const targetFrame = Math.round(progress * maxFrame);
+    const targetFrame = Math.round(videoProgress * maxFrame);
 
     if (targetFrame !== currentFrame && frames[targetFrame]) {
       drawFrame(targetFrame);
     }
 
-    // Fade out hero content near the end
+    // Content fade mapped to absolute vh values
+    const fadeStartPx = fadeStartVh * window.innerHeight / 100;
+    const fadeEndPx = fadeEndVh * window.innerHeight / 100;
     const heroContent = document.querySelector('.hero-content');
     if (heroContent) {
-      const fadeStart = 0.65;
-      const fadeEnd = 0.9;
-      if (progress > fadeStart) {
-        const fadeProgress = (progress - fadeStart) / (fadeEnd - fadeStart);
+      if (scrolled > fadeStartPx) {
+        const fadeProgress = Math.min((scrolled - fadeStartPx) / (fadeEndPx - fadeStartPx), 1);
         heroContent.style.opacity = Math.max(1 - fadeProgress, 0);
         heroContent.style.transform = 'translateY(' + (-fadeProgress * 40) + 'px)';
       } else {
