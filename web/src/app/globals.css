@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* ── Variaveis globais ── */
+@layer base {
+  :root {
+    --background: #f9fafb;
+    --foreground: #0a0a14;
+    --card: #ffffff;
+    --card-border: #e2e8f0;
+    --primary: #e63956;
+    --primary-dark: #c9273f;
+    --sidebar-bg: #0a0a14;
+    --sidebar-text: #a1a1aa;
+    --sidebar-active: #e63956;
+    --success: #2aac01;
+    --muted: #71717a;
+  }
+
+  body {
+    font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--background);
+    color: var(--foreground);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* ── Auth: inputs dark + autofill override ── */
+@layer components {
+  .auth-input {
+    background-color: #12121e;
+    border: 1px solid rgba(63, 63, 70, 0.5);
+    color: #fff;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+
+  .auth-input:focus {
+    border-color: rgba(230, 57, 86, 0.4);
+    background-color: #141420;
+    outline: none;
+  }
+
+  .auth-input:-webkit-autofill,
+  .auth-input:-webkit-autofill:hover,
+  .auth-input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #12121e inset !important;
+    -webkit-text-fill-color: #fff !important;
+    border-color: rgba(63, 63, 70, 0.5);
+    caret-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}

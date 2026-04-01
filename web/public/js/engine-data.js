@@ -1,0 +1,15287 @@
+// Auto-generated from ecumap_detalhes.json
+const ENGINE_DATA = {
+  "Acura": {
+    "RDX 2019 -> ...": [
+      "2.0T 272hp (kW) Nm"
+    ],
+    "TLX 2021 -> ....": [
+      "2.0T 272hp (kW) Nm"
+    ]
+  },
+  "Alfa Romeo": {
+    "147 2001-2005": [
+      "1.6 T-Spark 105hp (77kW) 140Nm",
+      "1.6 T-Spark 120hp (88kW) 146Nm",
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 115hp (85kW) 275Nm",
+      "1.9 JTD 136hp (100kW) 305Nm",
+      "1.9 JTD 140hp (103kW) 305Nm",
+      "2.0 T-Spark 150hp (110kW) 172Nm",
+      "3.2 V6 GTA 250hp (184kW) 300Nm"
+    ],
+    "147 2005 ->": [
+      "1.6 T-Spark 105hp (77kW) 140Nm",
+      "1.6 T-Spark 120hp (88kW) 146Nm",
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 115hp (85kW) 275Nm",
+      "1.9 JTD 120hp (88kW) 285Nm",
+      "1.9 JTD 126hp (93kW) 330Nm",
+      "1.9 JTD 136hp (100kW) 305Nm",
+      "1.9 JTD 140hp (103kW) 305Nm",
+      "1.9 JTD 150hp (110kW) 305Nm",
+      "1.9 JTD 170hp (125kW) 330Nm",
+      "2.0 T-Spark 150hp (110kW) 180Nm",
+      "3.2 V6 GTA 250hp (184kW) 300Nm"
+    ],
+    "156 1997 - 2003": [
+      "1.6i 120hp (88kW) 146Nm",
+      "1.8 T.Spark 16v 144hp (106kW) 169Nm",
+      "1.9 JTD 105hp (77kW) 255Nm",
+      "1.9 JTD 110hp (81kW) 275Nm",
+      "1.9 JTD 115hp (85kW) 275Nm",
+      "1.9 JTD 136hp (100kW) 305Nm",
+      "1.9 JTD 140hp (103kW) 305Nm",
+      "1.9 JTD 150hp (110kW) 305Nm",
+      "2.4 JTD 136hp (100kW) 310Nm",
+      "2.4 JTD 150hp (110kW) 304Nm",
+      "2.5 V6 190hp (140kW) 220Nm",
+      "3.2 V6 GTA 250hp (184kW) 300Nm"
+    ],
+    "156 2002 - 2005": [
+      "1.9 JTD 115hp (85kW) 275Nm",
+      "1.9 JTD 126hp (93kW) 330Nm",
+      "1.9 JTD 136hp (100kW) 305Nm",
+      "1.9 JTD 140hp (103kW) 305Nm",
+      "1.9 JTD 150hp (110kW) 305Nm",
+      "2.0 JTS 165hp (121kW) 206Nm",
+      "2.4 JTD 136hp (100kW) 310Nm",
+      "2.4 JTD 140hp (103kW) 304Nm",
+      "2.4 JTD 150hp (110kW) 304Nm",
+      "2.4 JTD 20V 175hp (129kW) 385Nm"
+    ],
+    "159 2005 ->": [
+      "1,8 MPI 140hp (103kW) 163Nm",
+      "1.750 TBI 200hp (147kW) 320Nm",
+      "1.9 JTDm 115hp (85kW) 275Nm",
+      "1.9 JTDm 120hp (88kW) 280Nm",
+      "1.9 JTDm 136hp (100kW) 320Nm",
+      "1.9 JTDm 16V 150hp (110kW) 320Nm",
+      "1.9 JTS 160hp (118kW) 190Nm",
+      "2.0 JTDm 140hp (103kW) 320Nm",
+      "2.0 JTDm 170hp (125kW) 360Nm",
+      "2.2 JTS 185hp (136kW) 230Nm",
+      "2.4 JTD 200hp (147kW) 400Nm",
+      "2.4 JTDm 20v Q4 210hp (154kW) 400Nm",
+      "3.2 JTS V6 239hp (176kW) 300Nm"
+    ],
+    "166 1999 - 2002": [
+      "2.4 JTD 136hp (100kW) 310Nm",
+      "2.4 JTD 140hp (103kW) 304Nm",
+      "2.4 JTD 150hp (110kW) 305Nm"
+    ],
+    "166 2003 - 2010": [
+      "2.4 JTD 150hp (110kW) 305Nm",
+      "2.4 JTD 163hp (120kW) 385Nm",
+      "2.4 JTD 175hp (129kW) 385Nm"
+    ],
+    "4C 2013 ->": [
+      "1750 TBI 240hp (176kW) 340Nm"
+    ],
+    "Brera 2006 - 2008": [
+      "2.2 JTS 185hp (136kW) 230Nm",
+      "2.4 JTDm 20V 200hp (147kW) 400Nm",
+      "3.2 JTS V6 260hp (191kW) 322Nm"
+    ],
+    "Brera 2008 - 2011": [
+      "1750 TBI 200hp (147kW) 320Nm",
+      "2.0 JTDm 163hp (120kW) 360Nm",
+      "2.0 JTDm 170hp (125kW) 360Nm",
+      "2.2 JTS 185hp (136kW) 230Nm",
+      "2.4 JTDm 20V 200hp (147kW) 400Nm",
+      "2.4 JTDm 20V 210hp (154kW) 400Nm",
+      "3.2 JTS V6 260hp (191kW) 322Nm"
+    ],
+    "Crosswagon 2005 - 2007": [
+      "1.9JTD 150hp (110kW) 305Nm"
+    ],
+    "GT All": [
+      "1.9 JTD 16V 170hp (125kW) 330Nm",
+      "1.9 JTD 16v 150hp (110kW) 305Nm",
+      "2.0 JTS 165hp (121kW) 206Nm",
+      "3.2 V6 240hp (176kW) 300Nm"
+    ],
+    "Giulia 2016 ->": [
+      "2.0T 200hp (147kW) 330Nm",
+      "2.0T Veloce 280hp (206kW) 400Nm",
+      "2.2 JTD 136hp (100kW) 380Nm",
+      "2.2 JTD 150hp (110kW) 380Nm",
+      "2.2 JTD 160hp (118kW) 450Nm",
+      "2.2 JTD 180hp (132kW) 450Nm",
+      "2.2 JTD 190hp (140kW) 450Nm",
+      "2.2 JTD 210hp (154kW) 470Nm",
+      "2.9 V6 Quadrifoglio 510hp (375kW) 600Nm"
+    ],
+    "Giulietta 2010 - 2014": [
+      "1.4 Turbo 105hp (77kW) 206Nm",
+      "1.4 Turbo 120hp (88kW) 206Nm",
+      "1.4 Turbo Multiair 170hp (125kW) 250Nm",
+      "1.6 JTDm 105hp (77kW) 320Nm",
+      "1.750 TBi Quadrifogilio Verde (173kW) 340Nm",
+      "2.0 JTDm 140hp (103kW) 320Nm",
+      "2.0 JTDm 170hp (125kW) 350Nm"
+    ],
+    "Giulietta 2014 - 2016": [
+      "1.4 Turbo 105hp (77kW) 206Nm",
+      "1.4 Turbo 120hp (88kW) 206Nm",
+      "1.4 Turbo Multiair 150hp (110kW) 250Nm",
+      "1.4 Turbo Multiair 170hp (125kW) 250Nm",
+      "1.6 JTDm 105hp (77kW) 320Nm",
+      "1.750 TBi Quadrifogilio Verde (176kW) 340Nm",
+      "2.0 JTDm 150hp (110kW) 380Nm",
+      "2.0 JTDm 175hp (129kW) 350Nm"
+    ],
+    "Giulietta 2016 ->": [
+      "1.4 Turbo 120hp (88kW) 215Nm",
+      "1.4 Turbo Multiair 150hp (110kW) 230Nm",
+      "1.4 Turbo Multiair 170hp (125kW) 250Nm",
+      "1.6 JTDm 120hp (88kW) 320Nm",
+      "1.750 TBi 240hp (176kW) 340Nm",
+      "2.0 JTDm 150hp (110kW) 380Nm",
+      "2.0 JTDm 175hp (129kW) 350Nm"
+    ],
+    "MiTo 2008 - 2013": [
+      "0.9 Twinair 85hp (62kW) 145Nm",
+      "1.3 JTDM 85hp (62kW) 200Nm",
+      "1.3 JTDM 90hp (66kW) 200Nm",
+      "1.3 JTDM 95hp (70kW) 200Nm",
+      "1.3 JTDM S&S 95hp (70kW) 200Nm",
+      "1.4 Multiair 135hp (99kW) 205Nm",
+      "1.4 Turbo 115hp (85kW) 200Nm",
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 155hp (114kW) 230Nm",
+      "1.4 Turbo 163hp (120kW) 250Nm",
+      "1.4 Turbo 170hp (125kW) 250Nm",
+      "1.4i 16v 78hp (57kW) 120Nm",
+      "1.4i 16v 95hp (70kW) 120Nm",
+      "1.6 JTDM 115hp (85kW) 320Nm",
+      "1.6 JTDM 120hp (88kW) 300Nm",
+      "GTA 235 (173kW) 340Nm"
+    ],
+    "MiTo 2013 - 2016": [
+      "0.9 TwinAir 105hp (77kW) 145Nm",
+      "1.3 JTDm 85hp (62kW) 200Nm",
+      "1.4 MultiAir 140hp (103kW) 230Nm",
+      "1.4 MultiAir 170hp (125kW) 250Nm",
+      "1.4 TwinAir 120hp (88kW) 206Nm"
+    ],
+    "MiTo 2016 ->": [
+      "0.9 TwinAir 105hp (77kW) 145Nm",
+      "0.9 TwinAir 90hp (66kW) 145Nm",
+      "1.3 JTDm 80hp (59kW) 200Nm",
+      "1.3 JTDm 95hp (70kW) 200Nm",
+      "1.4 Multiair 140hp (103kW) 230Nm",
+      "1.4 Multiair 170hp (125kW) 250Nm"
+    ],
+    "Spider All": [
+      "1750 Turbo (147kW) 320Nm",
+      "2.0 JTD 163hp (120kW) 360Nm",
+      "2.0 JTD 170hp (125kW) 360Nm",
+      "2.2 JTS 185hp (136kW) 230Nm",
+      "2.4 JTDm 20V 200hp (147kW) 400Nm",
+      "2.4 JTDm 20V 210hp (154kW) 400Nm",
+      "3.2 V6 JTS 260hp (191kW) 300Nm"
+    ],
+    "Stelvio 2017 ->": [
+      "2.0T 200hp (147kW) 330Nm",
+      "2.0T 280hp (206kW) 400Nm",
+      "2.2 JTD 150hp (110kW) 380Nm",
+      "2.2 JTD 180hp (132kW) 450Nm",
+      "2.2 JTD 210hp (154kW) 470Nm",
+      "2.2 JTDm 160hp (118kW) 450Nm",
+      "2.2 JTDm 190hp (140kW) 450Nm",
+      "2.9 V6 Turbo 510hp (375kW) 600Nm"
+    ]
+  },
+  "Alpina": {
+    "B3 All": [
+      "3.5i 360hp (265kW) 500Nm",
+      "Bi-Turbo 410hp (301kW) 600Nm",
+      "Bi-Turbo 462hp (340kW) 700Nm"
+    ],
+    "B3 S All": [
+      "3.5i 400hp (294kW) 540Nm"
+    ],
+    "B4 All": [
+      "B4 Bi-Turbo 410hp (301kW) 600Nm",
+      "B4 Bi-Turbo 440hp (kW) Nm"
+    ],
+    "B5 E60/E61 - 2005 - 2010": [
+      "4.4 V8 Bi-Turbo 507hp (373kW) 700Nm"
+    ],
+    "B5 F10/11 - 2010 - 2013": [
+      "B5 Bi-Turbo 540hp (397kW) 730Nm"
+    ],
+    "B5 F10/11 LCI - 2013 - 2017": [
+      "4.4 V8 Bi-Turbo 600hp (441kW) 800Nm"
+    ],
+    "B5 F90 - 2020 ->": [
+      "4.4 V8 Bi-Turbo 621hp (kW) Nm"
+    ],
+    "B6 All": [
+      "4.4 V8 Bi-Turbo 500hp (368kW) 700Nm",
+      "4.4 V8 Bi-Turbo 600hp (441kW) 800Nm",
+      "B6 Bi-Turbo 540hp (397kW) 730Nm"
+    ],
+    "B6 S All": [
+      "4.4 V8 Bi-Turbo 530hp (390kW) 725Nm"
+    ],
+    "B7 All": [
+      "4.4 V8 Bi-Turbo 507hp (373kW) 700Nm",
+      "4.4 V8 Bi-Turbo 608hp (447kW) 800Nm",
+      "B7 Bi-Turbo 540hp (397kW) 730Nm"
+    ],
+    "D3 E90/91 - 2005 - 2013": [
+      "2.0D 200hp (147kW) 410Nm",
+      "2.0D 214hp (157kW) 450Nm",
+      "D3 Bi-Turbo 350hp (257kW) 700Nm"
+    ],
+    "D3 F30/31 - 2013 - 2015": [
+      "D3 Bi-Turbo 350hp (257kW) 700Nm"
+    ],
+    "D3 F30/31 - LCI - 2015 ->": [
+      "D3 Bi-Turbo 350hp (257kW) 700Nm"
+    ],
+    "D4 All": [
+      "D4 Bi-Turbo 350hp (257kW) 700Nm"
+    ],
+    "D5 F10/11 - 2010 - 2016": [
+      "D5 Bi-Turbo 350hp (257kW) 700Nm"
+    ],
+    "D5 G30/31 LCI - 2020 ->": [
+      "3.0 Bi-Turbo 408hp (kW) Nm"
+    ],
+    "D5 G30/31- 2017 - 2019": [
+      "3.0 Bi-Turbo 388hp (285kW) 800Nm"
+    ],
+    "XD3 All": [
+      "3.0 Quad-Turbo 388hp (285kW) 770Nm",
+      "XD3 Bi-Turbo 350hp (257kW) 700Nm"
+    ],
+    "XD4 All": [
+      "3.0 Quad-Turbo 388hp (285kW) 770Nm"
+    ]
+  },
+  "Alpine": {
+    "A110 2017 ->": [
+      "1.8 Turbo 252hp (185kW) 320Nm",
+      "S 1.8 Turbo 292hp (215kW) 320Nm"
+    ]
+  },
+  "Aston Martin": {
+    "DB11 2016 ->": [
+      "4.0 V8 510hp (375kW) 650Nm",
+      "4.0 V8 535hp (kW) Nm",
+      "5.2 V12 Twinturbo 608hp (447kW) 700Nm",
+      "5.2 V12 Twinturbo 639hp (kW) Nm"
+    ],
+    "DB9 All": [
+      "5.9 V12 455hp (335kW) 570Nm",
+      "6.0 V12 470hp (346kW) 600Nm"
+    ],
+    "DBS All": [
+      "5.2 V8 Twinturbo Superleggera 725hp (533kW) 900Nm",
+      "5.9 V12 517hp (380kW) 570Nm"
+    ],
+    "DBX 2020 ->": [
+      "4.0 V8 Bi-Turbo 550hp (kW) Nm"
+    ],
+    "Rapide All": [
+      "6.0 V12 476hp (350kW) 600Nm",
+      "6.0 V12 560hp (412kW) 630Nm"
+    ],
+    "Vantage ... -> 2018": [
+      "4.3 V8 380hp (279kW) 410Nm",
+      "4.3 V8 400hp (294kW) 418Nm",
+      "4.7 V8 426hp (313kW) 470Nm",
+      "4.7 V8 S 436hp (321kW) 490Nm",
+      "6.0 V12 517hp (380kW) 570Nm"
+    ],
+    "Vantage 2018 ->": [
+      "4.0 V8 Bi-Turbo 510hp (375kW) 685Nm"
+    ],
+    "Virage All": [
+      "6.0 liter V12 490hp (360kW) 570Nm"
+    ]
+  },
+  "Audi": {
+    "80 1991 - 1995": [
+      "1.9 TDI 90hp (66kW) 202Nm"
+    ],
+    "A1 8X - 2010 - 2014": [
+      "1.2 TFSI 105hp (77kW) 175Nm",
+      "1.2 TFSI 86hp (63kW) 160Nm",
+      "1.4 TFSI 122hp (90kW) 200Nm",
+      "1.4 TFSI 140hp (CPTA) (103kW) 250Nm",
+      "1.4 TFSI 185hp (136kW) 250Nm",
+      "1.6 TDI CR 105hp (77kW) 250Nm",
+      "1.6 TDI CR 90hp (66kW) 230Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TFSI 256hp (188kW) 350Nm",
+      "S1 2.0 TFSI 231hp (170kW) 370Nm"
+    ],
+    "A1 8X - 2015 - 2017": [
+      "1.0 TFSI 110hp (81kW) 200Nm",
+      "1.0 TFSI 82hp (60kW) 160Nm",
+      "1.0 TFSI 95hp (70kW) 160Nm",
+      "1.4 TDI 90hp (66kW) 230Nm",
+      "1.4 TFSI (COD) 150hp (110kW) 250Nm",
+      "1.4 TFSI 125hp (92kW) 200Nm",
+      "1.6 TDI 116hp (85kW) 250Nm",
+      "1.8 TFSI 192hp (141kW) 250Nm",
+      "S1 2.0 TFSI 231hp (170kW) 370Nm"
+    ],
+    "A1 GB - 2018 ->": [
+      "25 TFSi (1.0T) 95hp (70kW) 175Nm",
+      "30 TFSi (1.0T) 116hp (85kW) 200Nm",
+      "35 TFSI (1.5T) 150hp (110kW) 250Nm",
+      "40 TFSI (2.0T) 200hp (147kW) 320Nm"
+    ],
+    "A2 8Z - 1999 - 2005": [
+      "1.2 TDI 60hp (44kW) 140Nm",
+      "1.4 TDI 75hp (55kW) 175Nm",
+      "1.4 TDI 90hp (66kW) 230Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6 FSI 110hp (81kW) 155Nm"
+    ],
+    "A3 2020 ->": [
+      "30 TDI (2.0D) 116hp (85kW) 250Nm",
+      "30 TFSI (1.0T) 110hp (81kW) 200Nm",
+      "35 TDI (2.0D) 150hp (110kW) 360Nm",
+      "35 TFSI (1.5T) 150hp (110kW) 250Nm",
+      "40 TFSI-e 204hp (kW) Nm",
+      "45 TFSI-e 245hp (kW) Nm"
+    ],
+    "A3 8L - 1996 - 2003": [
+      "1.6i 102hp (75kW) 148Nm",
+      "1.8T 20V 150hp (110kW) 210Nm",
+      "1.8T 20V 180hp (132kW) 235Nm",
+      "1.8i 20v 125hp (92kW) 170Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 90hp (66kW) 210Nm"
+    ],
+    "A3 8P - 2003 - 2008": [
+      "1.6 FSI 115hp (85kW) 155Nm",
+      "1.6i 102hp (75kW) 148Nm",
+      "1.8 TFSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 136hp (100kW) 320Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI DPF 136hp (100kW) 320Nm",
+      "2.0 TDI DPF 140hp (103kW) 320Nm",
+      "2.0 TDI DPF 163hp (120kW) 350Nm",
+      "2.0 TDI DPF 170hp (125kW) 350Nm",
+      "2.0 TFSI 200hp (147kW) 280Nm",
+      "3.2 V6 250hp (184kW) 320Nm"
+    ],
+    "A3 8P - 2008 - 2012": [
+      "1.2 TFSI 105hp (77kW) 175Nm",
+      "1.4 TFSI 122hp (90kW) 200Nm",
+      "1.4 TFSI 125hp (92kW) 200Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "1.8 TFSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TFSI 200hp (147kW) 280Nm",
+      "3.2 V6 250hp (184kW) 320Nm"
+    ],
+    "A3 8V - MK3 - 2019 ->": [
+      "30 TDI (1.6D) 116hp (85kW) 250Nm",
+      "30 TFSi (1.0T) 116hp (85kW) 200Nm",
+      "35 TDI (2.0D) 150hp (110kW) 340Nm",
+      "35 TFSI (1.5T) 150hp (110kW) 250Nm",
+      "40 TDI (2.0D) 184hp (135kW) 380Nm",
+      "40 TFSI (2.0T) 190hp (140kW) 320Nm"
+    ],
+    "A3 8V - Mk1 - 2012 - 2016": [
+      "1.2 TFSI 110hp (81kW) 175Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TFSI 122hp (CMBA-CPVA) (90kW) 200Nm",
+      "1.4 TFSI 125hp (CMBA-CPVA) (92kW) 200Nm",
+      "1.4 TFSI 125hp (CZCA) (92kW) 200Nm",
+      "1.4 TFSI 140hp (CHPA-CPTA) (103kW) 250Nm",
+      "1.4 TFSI 150hp (110kW) 250Nm",
+      "1.4 TGI G-Tron 110hp (81kW) 200Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 110hp (81kW) 250Nm",
+      "1.8 TFSI 180hp (132kW) 250Nm",
+      "2.0 TDI CR 110hp (81kW) 250Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TFSI 220hp (162kW) 258Nm",
+      "E-Tron 204hp (150kW) 350Nm",
+      "RS3 2.5 TFSI 367hp (270kW) 465Nm",
+      "S3 2.0 TFSI 300hp (221kW) 380Nm"
+    ],
+    "A3 8V - Mk2 - 2016 - 2019": [
+      "1.0 TFSI 115hp (85kW) 200Nm",
+      "1.4 TFSI (COD) 150hp (110kW) 250Nm",
+      "1.5 TFSI COD 150hp (110kW) 250Nm",
+      "1.6 TDI 110hp (81kW) 250Nm",
+      "1.6 TDI 116hp (85kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "2.0 TDI 184hp (135kW) 380Nm",
+      "2.0 TFSI 190hp (140kW) 320Nm",
+      "E-Tron 204hp (150kW) 350Nm"
+    ],
+    "A4 B5 - 1995 - 2001": [
+      "1.8 T 150hp (110kW) 210Nm",
+      "1.8 T 180hp (132kW) 210Nm",
+      "1.8i 20v 125hp (92kW) 170Nm",
+      "1.9 TDI 110hp (81kW) 240Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "1.9 TDI 75hp (55kW) 150Nm",
+      "1.9 TDI 90hp (66kW) 202Nm"
+    ],
+    "A4 B6 - 2001 - 2004": [
+      "1.6i 102hp (75kW) 148Nm",
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.8T 20v 163hp (120kW) 225Nm",
+      "1.8T 20v 190hp (140kW) 240Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0i 130hp (96kW) 195Nm",
+      "2.5 TDI 155hp (114kW) 310Nm",
+      "2.5 TDI 163hp (120kW) 350Nm",
+      "2.5 TDI 180hp (132kW) 370Nm",
+      "3.0 V6 220hp (162kW) 300Nm"
+    ],
+    "A4 B7 - 2004 - 2008": [
+      "1.6i 102hp (75kW) 148Nm",
+      "1.8 T 163hp (120kW) 225Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 136hp (100kW) 320Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI DPF 136hp (100kW) 320Nm",
+      "2.0 TDI DPF 140hp (103kW) 320Nm",
+      "2.0 TDI DPF 163hp (120kW) 350Nm",
+      "2.0 TDI DPF 170hp (125kW) 350Nm",
+      "2.0 TFSI 170hp (125kW) 280Nm",
+      "2.0 TFSI 200hp (147kW) 280Nm",
+      "2.0 TFSI DTM 220hp (162kW) 300Nm",
+      "2.0i 130hp (96kW) 195Nm",
+      "2.5 V6 TDI 163hp (120kW) 350Nm",
+      "2.7 V6 TDI 163hp (120kW) 380Nm",
+      "2.7 V6 TDI 180hp (132kW) 380Nm",
+      "3.0 V6 TDI 204hp (150kW) 450Nm",
+      "3.0 V6 TDI 233hp (171kW) 450Nm",
+      "3.2 FSI 256hp (188kW) 330Nm"
+    ],
+    "A4 B8 - 2008 - 2011": [
+      "1.8 TFSI 120hp (88kW) 230Nm",
+      "1.8 TFSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 120hp (88kW) 290Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TFSI 180hp (132kW) 320Nm",
+      "2.0 TFSI 211hp (155kW) 350Nm",
+      "2.0 TFSI Multitronic 180hp (132kW) 320Nm",
+      "2.7 V6 TDI 163hp (120kW) 400Nm",
+      "2.7 V6 TDI 190hp (140kW) 400Nm",
+      "3.0 TFSI 272hp (200kW) 400Nm",
+      "3.0 TFSI 290hp (213kW) 420Nm",
+      "3.0 V6 TDI 211hp (155kW) 500Nm",
+      "3.0 V6 TDI 240hp (176kW) 500Nm",
+      "3.2 FSI 265hp (195kW) 330Nm"
+    ],
+    "A4 B8 - 2012  - 2015": [
+      "1.4 TFSI 125hp (92kW) 200Nm",
+      "1.8 TFSI 120hp (88kW) 230Nm",
+      "1.8 TFSI 160hp (118kW) 250Nm",
+      "1.8 TFSI 170hp (125kW) 320Nm",
+      "2.0 TDI CR 120hp (88kW) 290Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TDI CR 190hp (140kW) 400Nm",
+      "2.0 TFSI 180hp (132kW) 320Nm",
+      "2.0 TFSI 211hp (155kW) 350Nm",
+      "2.0 TFSI 225hp (165kW) 350Nm",
+      "3.0 TFSI 272hp (200kW) 400Nm",
+      "3.0 V6 TDI 245hp (180kW) 500Nm",
+      "3.0 V6 TDI FW 204hp (150kW) 400Nm",
+      "RS4 4.2 V8 FSI 450hp (331kW) 430Nm",
+      "S4 3.0 TFSI 333hp (245kW) 440Nm"
+    ],
+    "A4 B9 - 2015 - 2018": [
+      "1.4 TFSI 150hp (110kW) 250Nm",
+      "2.0 TDI 122hp (90kW) 270Nm",
+      "2.0 TDI 136hp (100kW) 320Nm",
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TFSI 150hp (110kW) 270Nm",
+      "2.0 TFSI 190hp (140kW) 320Nm",
+      "2.0 TFSI 252hp (185kW) 370Nm",
+      "3.0 TDI FWD 218hp (160kW) 400Nm",
+      "3.0 TDI Quattro 218hp (160kW) 400Nm",
+      "3.0 TDI Quattro 272hp (200kW) 600Nm"
+    ],
+    "A4 B9 - 2019 ->": [
+      "30 TDI (2.0D) 122hp (90kW) 270Nm",
+      "30 TDI (2.0D) 136hp (100kW) 320Nm",
+      "35 TDI (2.0D) 150hp (110kW) 320Nm",
+      "35 TDI (2.0D) 163hp (120kW) 380Nm",
+      "35 TFSI (2.0T) 150hp (110kW) 270Nm",
+      "40 TDI (2.0D) 190hp (140kW) 400Nm",
+      "40 TFSI (2.0T) 190hp (140kW) 320Nm",
+      "40 TFSI (2.0T) 204hp (150kW) 320Nm",
+      "40 TFSI G-Tron (2.0T) 170hp (125kW) 270Nm",
+      "45 TDI (3.0D) 231hp (170kW) 500Nm",
+      "45 TFSI (2.0T) 245hp (180kW) 370Nm",
+      "45 TFSI (2.0T) 265hp (195kW) 370Nm",
+      "50 TDI (3.0D) 286hp (210kW) 620Nm"
+    ],
+    "A5 MK1 - 2007 - 2011": [
+      "1.8 TFSI 160hp (118kW) 250Nm",
+      "1.8 TFSI 170hp (125kW) 250Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TFSI 180hp (132kW) 320Nm",
+      "2.0 TFSI 211hp (155kW) 350Nm",
+      "2.7 TDI 163hp (120kW) 400Nm",
+      "2.7 TDI 190hp (140kW) 400Nm",
+      "3.0 TDI 204hp (150kW) 400Nm",
+      "3.0 TDI 211hp (155kW) 500Nm",
+      "3.0 TDI 240hp (176kW) 500Nm",
+      "3.2 FSI 265hp (195kW) 330Nm",
+      "RS5 4.2 V8 450hp (331kW) 430Nm",
+      "S5 3.0 TFSI 333hp (245kW) 440Nm"
+    ],
+    "A5 MK2 - 2012 - 2016": [
+      "1.8 TFSI 144hp (106kW) 280Nm",
+      "1.8 TFSI 170hp (125kW) 320Nm",
+      "1.8 TFSI 177hp (130kW) 320Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TDI CR 190hp (140kW) 400Nm",
+      "2.0 TFSI 211hp (155kW) 350Nm",
+      "2.0 TFSI 225hp (165kW) 350Nm",
+      "3.0 TDI 204hp (150kW) 400Nm",
+      "3.0 TDI 245hp (180kW) 500Nm",
+      "3.0 TFSI 272hp (200kW) 400Nm",
+      "RS5 4.2 V8 450hp (331kW) 430Nm",
+      "S5 3.0 TFSI 333hp (245kW) 440Nm"
+    ],
+    "A5 MK3 - 2019 ->": [
+      "35 TDI (2.0D) 150hp (110kW) 320Nm",
+      "35 TDI (2.0D) 163hp (120kW) 340Nm",
+      "35 TFSI (2.0T) 150hp (110kW) 270Nm",
+      "40 TDI (2.0D) 190hp (140kW) 400Nm",
+      "40 TFSI (2.0T) 190hp (140kW) 320Nm",
+      "40 TFSI (2.0T) 204hp (150kW) 320Nm",
+      "45 TDI (3.0D) 231hp (170kW) 500Nm",
+      "45 TFSI (2.0T) 245hp (180kW) 370Nm",
+      "45 TFSI (2.0T) 265hp (195kW) 370Nm",
+      "50 TDI (3.0D) 286hp (210kW) 620Nm"
+    ],
+    "A5 Mk3 - 2016 - 2018": [
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TFSI 190hp (140kW) 320Nm",
+      "2.0 TFSI 252hp (185kW) 370Nm",
+      "2.0 TFSI G-Tron 170hp (kW) Nm",
+      "3.0 TDI 218hp (160kW) 400Nm",
+      "3.0 TDI 272hp (200kW) 600Nm",
+      "3.0 TDI 286hp (210kW) 620Nm"
+    ],
+    "A6 C5 - 1997 - 2004": [
+      "1.8 T 150hp (110kW) 210Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 115hp (85kW) 310Nm",
+      "1.9 TDI 130hp (96kW) 285Nm",
+      "2.4i V6 170hp (125kW) 230Nm",
+      "2.5 TDI 150hp (110kW) 310Nm",
+      "2.5 TDI 163hp (120kW) 350Nm",
+      "2.5 TDI 180hp (132kW) 370Nm",
+      "2.7T 230hp (169kW) 310Nm",
+      "2.7T 250hp (184kW) 350Nm",
+      "2.8i 193hp (142kW) 280Nm",
+      "3.0 V6 220hp (162kW) 300Nm"
+    ],
+    "A6 C6 - 2004 - 2008": [
+      "2.0 TDI 136hp (100kW) 320Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI DPF 140hp (103kW) 320Nm",
+      "2.0 TFSI 170hp (125kW) 280Nm",
+      "2.0 TFSI 200hp (147kW) 280Nm",
+      "2.4i V6 177hp (130kW) 230Nm",
+      "2.7 TDI 163hp (120kW) 380Nm",
+      "2.7 TDI 180hp (132kW) 380Nm",
+      "2.8 FSI 210hp (154kW) 280Nm",
+      "3.0 TDI 225hp (165kW) 450Nm",
+      "3.0 TDI 233hp (171kW) 450Nm",
+      "3.2 FSI 255hp (188kW) 330Nm",
+      "4.2 FSI 335hp (246kW) 420Nm",
+      "5.2 FSI 435hp (320kW) 540Nm",
+      "RS6 5.0 TFSI 580hp (426kW) 650Nm"
+    ],
+    "A6 C6 - 2008 - 2010": [
+      "2.0 TDI 136hp (100kW) 320Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 163hp (120kW) 350Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TFSI 170hp (125kW) 280Nm",
+      "2.7 TDI 163hp (120kW) 450Nm",
+      "2.7 TDI 190hp (140kW) 450Nm",
+      "2.8 FSI 190hp (140kW) 280Nm",
+      "2.8 FSI 220hp (162kW) 280Nm",
+      "3.0 TDI 211hp (155kW) 500Nm",
+      "3.0 TDI 240hp (176kW) 500Nm",
+      "3.0 TFSI 290hp (213kW) 420Nm",
+      "4.2 FSI 350hp (257kW) 440Nm",
+      "5.2 FSI 435hp (320kW) 540Nm",
+      "RS6 5.0 TFSI 580hp (426kW) 650Nm"
+    ],
+    "A6 C7 - 2011 - 2018": [
+      "1.8 TFSI 190hp (140kW) 320Nm",
+      "2.0 TDI 136hp (100kW) 350Nm",
+      "2.0 TDI 150hp (110kW) 350Nm",
+      "2.0 TDI 163hp (120kW) 350Nm",
+      "2.0 TDI 177hp (130kW) 380Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TFSI 180hp (132kW) 320Nm",
+      "2.0 TFSI 252hp (185kW) 370Nm",
+      "2.0 TFSI Hybrid 245hp (180kW) 480Nm",
+      "3.0 TDI 190hp (140kW) 500Nm",
+      "3.0 TDI 211hp (155kW) 500Nm",
+      "3.0 TDI 245hp (180kW) 500Nm",
+      "3.0 TDI 272hp (200kW) 580Nm",
+      "3.0 TDI Bi-Turbo 313hp (230kW) 650Nm",
+      "3.0 TDI Bi-Turbo 320hp (235kW) 650Nm",
+      "3.0 TDI Bi-Turbo 326hp (240kW) 650Nm",
+      "3.0 TDI FWD 204hp (150kW) 400Nm",
+      "3.0 TDI FWD 218hp (160kW) 400Nm",
+      "3.0 TDI Quattro 204hp (150kW) 400Nm",
+      "3.0 TDI Quattro 218hp (160kW) 500Nm",
+      "3.0 TFSI 300hp (221kW) 440Nm",
+      "3.0 TFSI 333hp (245kW) 440Nm",
+      "RS6 4.0 TFSI 560hp (412kW) 700Nm",
+      "RS6 4.0 TFSI Performance 605hp (445kW) 750Nm",
+      "S6 4.0 TFSI 420hp (309kW) 550Nm",
+      "S6 4.0 TFSI 450hp (331kW) 550Nm"
+    ],
+    "A6 C8 - 2018 ->": [
+      "35 TDI (2.0D) 163hp (120kW) 370Nm",
+      "40 TDI (2.0D) 204hp (150kW) 400Nm",
+      "40 TFSI (2.0T) 190hp (140kW) 320Nm",
+      "45 TDI (3.0D) 231hp (170kW) 500Nm",
+      "45 TFSI (2.0T) 245hp (180kW) 370Nm",
+      "50 TDI (3.0D) 286hp (210kW) 620Nm",
+      "55 TDI (3.0D) 349hp (257kW) 700Nm",
+      "55 TFSI (3.0T) 340hp (250kW) 500Nm",
+      "55 TFSI-e 367hp (270kW) 500Nm"
+    ],
+    "A7 2018 ->": [
+      "40 TDI (2.0D) 204hp (150kW) 400Nm",
+      "45 TDI (3.0D) 231hp (170kW) 500Nm",
+      "45 TFSI (2.0T) 245hp (180kW) 370Nm",
+      "50 TDI (3.0D) 286hp (210kW) 600Nm",
+      "55 TFSI (3.0T) 340hp (250kW) 500Nm",
+      "55 TFSI-e 367hp (270kW) 500Nm"
+    ],
+    "A7 4G - 2010 - 2014": [
+      "3.0 TDI 245hp (180kW) 500Nm",
+      "3.0 TDI 245hp (180kW) 580Nm",
+      "3.0 TDI Bi-Turbo 313hp (230kW) 650Nm",
+      "3.0 TDI FWD 204hp (150kW) 400Nm",
+      "3.0 TDI Quattro 204hp (150kW) 400Nm",
+      "3.0 TFSI 300hp (221kW) 440Nm",
+      "3.0 TFSI 310hp (228kW) 440Nm",
+      "3.0 TFSI 330hp (243kW) 440Nm",
+      "RS7 4.0 TFSI 560hp (412kW) 700Nm",
+      "S7 4.0 TFSI 420hp (309kW) 550Nm",
+      "S7 4.0 TFSI 450hp (331kW) 550Nm"
+    ],
+    "A7 4G - 2014 - 2017": [
+      "1.8 TFSI 190hp (140kW) 320Nm",
+      "2.0 TFSI 252hp (185kW) 370Nm",
+      "3.0 TDI Bi-Turbo 320hp (235kW) 650Nm",
+      "3.0 TDI Bi-Turbo 326hp (240kW) 650Nm",
+      "3.0 TDI FWD 190hp (140kW) 400Nm",
+      "3.0 TDI FWD 218hp (160kW) 400Nm",
+      "3.0 TDI Quattro 190hp (140kW) 400Nm",
+      "3.0 TDI Quattro 218hp (160kW) 500Nm",
+      "3.0 TDI Quattro 272hp (200kW) 580Nm",
+      "3.0 TFSI 333hp (245kW) 440Nm"
+    ],
+    "A8 1994 - 1999": [
+      "2.5 TDI 150hp (110kW) 310Nm",
+      "2.5 TDI 180hp (132kW) 370Nm"
+    ],
+    "A8 D2 - 1999 - 2003": [
+      "2.5 TDI 150hp (110kW) 310Nm",
+      "2.5 TDI 180hp (132kW) 370Nm",
+      "3.3 TDI V8 225hp (165kW) 480Nm",
+      "3.7 V8 260hp (191kW) 350Nm",
+      "S8 4.2 V8 360hp (265kW) 430Nm"
+    ],
+    "A8 D3 - 2003 - 2010": [
+      "3.0 TDI 233hp (171kW) 450Nm",
+      "3.2 FSI 260hp (191kW) 330Nm",
+      "4.0 TDI 275hp (202kW) 650Nm",
+      "4.2 FSI 350hp (257kW) 440Nm",
+      "4.2 TDI 326hp (240kW) 650Nm",
+      "4.2i 335hp (246kW) 430Nm",
+      "6.0i W12 (331kW) 580Nm",
+      "S8 5.2 FSI 450hp (331kW) 540Nm"
+    ],
+    "A8 D4 - 2010 - 2016": [
+      "2.0 TFSI Hybrid 245hp (180kW) 480Nm",
+      "3.0 TDI 211hp (155kW) 550Nm",
+      "3.0 TDI 250hp (184kW) 550Nm",
+      "3.0 TDI 258hp (190kW) 580Nm",
+      "3.0 TDI Bi-Turbo 313hp (230kW) 650Nm",
+      "3.0 TDI FWD 204hp (150kW) 400Nm",
+      "3.0 TDI Quattro 204hp (150kW) 400Nm",
+      "3.0 TFSI 290hp (213kW) 420Nm",
+      "3.0 TFSI 310hp (228kW) 440Nm",
+      "4.0 TFSI 420hp (309kW) 600Nm",
+      "4.0 TFSI 435hp (320kW) 600Nm",
+      "4.0 TFSI 520hp (382kW) 650Nm",
+      "4.2 FSI 372hp (274kW) 445Nm",
+      "4.2 TDI 350hp (257kW) 800Nm",
+      "4.2 TDI 385hp (283kW) 850Nm",
+      "6.3 W12 500hp (368kW) 625Nm"
+    ],
+    "A8 D5 - 2016 -> ...": [
+      "50 TDI (3.0D) 286hp (210kW) 600Nm",
+      "55 TFSI (3.0T) 340hp (250kW) 500Nm",
+      "60 TDI 435hp (kW) Nm",
+      "60 TFSI-e 449hp (330kW) 700Nm"
+    ],
+    "Q2 2019 ->": [
+      "30 TDI (1.6D) 116hp (85kW) 250Nm",
+      "30 TFSI (1.0T) 116hp (85kW) 200Nm",
+      "35 TDI (2.0D) 150hp (110kW) 340Nm",
+      "35 TFSI (1.5T) 150hp (110kW) 250Nm",
+      "40 TFSI (2.0T) 190hp (140kW) 320Nm"
+    ],
+    "Q2 GA - 2016 - 2019": [
+      "1.0 TFSI 116hp (85kW) 200Nm",
+      "1.4 TFSI 150hp (110kW) 250Nm",
+      "1.6 TDI 116hp (85kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI 190hp (140kW) 400Nm"
+    ],
+    "Q3 2019 ->": [
+      "35 TDI (2.0D) 150hp (110kW) 340Nm",
+      "35 TFSI (1.5T) 150hp (110kW) 250Nm",
+      "40 TDI (2.0D) 190hp (140kW) 400Nm",
+      "40 TDI (2.0D) 200hp (147kW) 400Nm",
+      "40 TFSI (2.0T) 190hp (140kW) 320Nm",
+      "45 TFSI (2.0T) 230hp (169kW) 350Nm",
+      "45 TFSI-e 245hp (180kW) 400Nm"
+    ],
+    "Q3 U8 - 2011 - 2015": [
+      "1.4 TFSI 150hp (110kW) 250Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 380Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TFSI 170hp (125kW) 280Nm",
+      "2.0 TFSI 211hp (155kW) 300Nm",
+      "2.5 TFSI RS 310hp (228kW) 420Nm"
+    ],
+    "Q3 U8 - 2015 - 2018": [
+      "1.4 TFSI 125hp (92kW) 200Nm",
+      "1.4 TFSI 150hp (110kW) 250Nm",
+      "2.0 TDI CR 120hp (88kW) 290Nm",
+      "2.0 TDI CR 150hp (110kW) 340Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TFSI 180hp (132kW) 320Nm",
+      "2.0 TFSI 220hp (162kW) 350Nm",
+      "RS 2.5 TFSI 340hp (250kW) 450Nm",
+      "RS 2.5 TFSI Performance 367hp (270kW) 450Nm"
+    ],
+    "Q5 8R - 2008 - 2011": [
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TFSI 180hp (132kW) 320Nm",
+      "2.0 TFSI 211hp (155kW) 350Nm",
+      "2.0 TFSI Hybrid 245hp (180kW) 480Nm",
+      "3.0 TDI 211hp (155kW) 500Nm",
+      "3.0 TDI 240hp (176kW) 500Nm",
+      "3.2 FSI 270hp (199kW) 330Nm"
+    ],
+    "Q5 8R - 2012 - 2016": [
+      "1.4 TFSI 150hp (110kW) 250Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 380Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TDI CR 190hp (140kW) 400Nm",
+      "2.0 TFSI 180hp (132kW) 320Nm",
+      "2.0 TFSI 225hp (165kW) 350Nm",
+      "2.0 TFSI Hybrid 245hp (180kW) 480Nm",
+      "3.0 TDI 245hp (180kW) 580Nm",
+      "3.0 TDI 258hp (190kW) 580Nm",
+      "3.0 TFSI 272hp (200kW) 400Nm"
+    ],
+    "Q5 FY - MK1 - 2017 - 2018": [
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 380Nm",
+      "2.0 TDI CR 190hp (140kW) 380Nm",
+      "2.0 TFSI 252hp (185kW) 370Nm"
+    ],
+    "Q5 FY - MK2 - 2019 ->": [
+      "35 TDI MHEV (2.0D) 163hp (120kW) 380Nm",
+      "40 TDI (2.0D) 190hp (140kW) 400Nm",
+      "40 TDI MHEV (2.0D) 204hp (150kW) 400Nm",
+      "45 TFSI (2.0T) 252hp (185kW) 370Nm",
+      "45 TFSI MHEV (2.0T) 265hp (kW) Nm",
+      "50 TDI (3.0D) 286hp (210kW) 620Nm",
+      "50 TFSI-e 299hp (220kW) 450Nm",
+      "55 TFSI-e 367hp (270kW) 500Nm"
+    ],
+    "Q7 4L MK1 - 2006 - 2010": [
+      "3.0 TDI 211hp (155kW) 500Nm",
+      "3.0 TDI 233hp (171kW) 500Nm",
+      "3.0 TDI 240hp (176kW) 550Nm",
+      "3.6 FSI 280hp (206kW) 360Nm",
+      "4.2 FSI 350hp (257kW) 440Nm",
+      "4.2 TDI 326hp (240kW) 760Nm",
+      "6.0 V12 TDI 500hp (368kW) 1000Nm"
+    ],
+    "Q7 4L MK2 - 2010 - 2014": [
+      "3.0 TDI 204hp (150kW) 450Nm",
+      "3.0 TDI 240hp (176kW) 550Nm",
+      "3.0 TDI 245hp (180kW) 550Nm",
+      "3.0 TFSI 272hp (200kW) 400Nm",
+      "3.0 TFSI 333hp (245kW) 440Nm",
+      "3.6 FSI 280hp (206kW) 360Nm",
+      "4.2 FSI 350hp (257kW) 440Nm",
+      "4.2 TDI 340hp (250kW) 760Nm",
+      "6.0 V12 TDI 500hp (368kW) 1000Nm"
+    ],
+    "Q7 4M MK1 - 2015 - 2018": [
+      "2.0 TFSI 252hp (185kW) 370Nm",
+      "3.0 TDI CR 211hp (155kW) 500Nm",
+      "3.0 TDI CR 218hp (160kW) 500Nm",
+      "3.0 TDI CR 249hp (183kW) 600Nm",
+      "3.0 TDI CR 272hp (200kW) 600Nm",
+      "3.0 TDI E-Tron 373hp (274kW) 700Nm",
+      "3.0 TFSI 333hp (245kW) 440Nm",
+      "45 TDI 231hp (170kW) 500Nm",
+      "50 TDI 286hp (210kW) 620Nm"
+    ],
+    "Q7 4M MK2 - 2019 ->": [
+      "45 TDI (3.0D) 231hp (170kW) 500Nm",
+      "50 TDI (3.0D) 286hp (210kW) 620Nm",
+      "55 TFSI (3.0T) 340hp (250kW) 400Nm",
+      "55 TFSI-e 381hp (kW) Nm",
+      "60 TFSI-e 456hp (kW) Nm"
+    ],
+    "Q8 2018 ->": [
+      "45 TDI (3.0D) 231hp (170kW) 500Nm",
+      "50 TDI (3.0D) 286hp (210kW) 600Nm",
+      "55 TFSI (3.0T) 340hp (250kW) 500Nm",
+      "55 TFSI e Quattro 381hp (kW) Nm",
+      "60 TFSI e Quattro 462hp (kW) Nm"
+    ],
+    "R8 2007 - 2015": [
+      "4.2 FSI 420hp (309kW) 430Nm",
+      "4.2 FSI 430hp (316kW) 430Nm",
+      "5.2 FSI 525hp (386kW) 530Nm",
+      "5.2 FSI Plus 550hp (404kW) 530Nm",
+      "GT 560hp (412kW) 540Nm"
+    ],
+    "R8 2015 ->": [
+      "5.2 FSI 540hp (397kW) 530Nm",
+      "5.2 FSI 570hp (419kW) 560Nm",
+      "5.2 FSI Plus 610hp (449kW) 560Nm"
+    ],
+    "RS3 2011 - 2014": [
+      "2.5 TFSI 340hp (250kW) 450Nm"
+    ],
+    "RS3 2015 - 2017": [
+      "2.5 TFSI 367hp (270kW) 465Nm"
+    ],
+    "RS3 2017 - 2020": [
+      "2.5 TFSI 400hp (294kW) 480Nm"
+    ],
+    "RS3 2021 -> ...": [
+      "2.5 TFSI 400hp (kW) Nm"
+    ],
+    "RS4 B5 -> 2001": [
+      "2.7 V6 Biturbo 380hp (279kW) 440Nm"
+    ],
+    "RS4 B7 - 2004 - 2008": [
+      "4.2 FSI V8 420hp (309kW) 430Nm"
+    ],
+    "RS4 B8 - 2012 - 2017": [
+      "4.2 FSI 450hp (331kW) 430Nm"
+    ],
+    "RS4 B9 - MK1 - 2017 - 2019": [
+      "2.9 V6 Bi-Turbo 450hp (331kW) 600Nm"
+    ],
+    "RS4 B9 - MK2 - 2020 ->": [
+      "2.9 V6 Bi-Turbo 450hp (331kW) 600Nm"
+    ],
+    "RS5 8T - 2010 - 2016": [
+      "4.2 FSI 450hp (331kW) 430Nm"
+    ],
+    "RS5 F5 - MK1 - 2016 - 2019": [
+      "2.9 V6 TFSI 450hp (331kW) 600Nm"
+    ],
+    "RS5 F5 - MK2 - 2019 ->": [
+      "2.9 V6 TFSI 450hp (331kW) 600Nm"
+    ],
+    "RS6 C5 - 2002 - 2004": [
+      "4.2 Biturbo 450hp (331kW) 560Nm",
+      "4.2 Biturbo 480hp (353kW) 560Nm"
+    ],
+    "RS6 C6 - 2004 - 2011": [
+      "5.0 TFSI 580hp (426kW) 650Nm"
+    ],
+    "RS6 C7 - 2012 - 2019": [
+      "4.0 TFSI - 560hp (412kW) 700Nm",
+      "4.0 TFSI Performance 605hp (445kW) 750Nm"
+    ],
+    "RS6 C8 - 2020 ->": [
+      "4.0 TFSI 600hp (441kW) 800Nm"
+    ],
+    "RS7 C7 - 2013 - 2019": [
+      "4.0 TFSI 560hp (412kW) 700Nm",
+      "4.0 TFSI 605hp Performance (445kW) 750Nm"
+    ],
+    "RS7 C8 - 2020 ->": [
+      "4.0 TFSI 600hp (441kW) 800Nm"
+    ],
+    "RSQ3 -> 2015": [
+      "2.5 TFSI 310hp (228kW) 420Nm"
+    ],
+    "RSQ3 2015 - 2019": [
+      "2.5 TFSI 340hp (250kW) 450Nm",
+      "2.5 TFSI Performance 367hp (270kW) 465Nm"
+    ],
+    "RSQ3 2020 ->": [
+      "2.5 TFSI 400hp (294kW) 480Nm"
+    ],
+    "RSQ8 2020 ->": [
+      "4.0 V8 Bi-Turbo 600hp (441kW) 800Nm"
+    ],
+    "S1 2014 ->": [
+      "2.0 TFSI 231hp (170kW) 370Nm"
+    ],
+    "S3 All": [
+      "1.8T 20V 210hp (154kW) 270Nm",
+      "1.8T 20V 225hp (165kW) 280Nm",
+      "2.0 TFSI 265hp (195kW) 350Nm",
+      "2.0 TFSI 300hp (221kW) 380Nm",
+      "2.0 TFSI 310hp (228kW) 400Nm"
+    ],
+    "S4 B5 - > 2000": [
+      "2.7T 265hp (195kW) 400Nm"
+    ],
+    "S4 B6 - 2001 - 2004": [
+      "4.2 V8 344hp (253kW) 410Nm"
+    ],
+    "S4 B7 - 2004 - 2008": [
+      "4.2 V8 344hp (253kW) 410Nm"
+    ],
+    "S4 B8 - 2008  - 2016": [
+      "3.0 TFSI 333hp (245kW) 440Nm"
+    ],
+    "S4 B9 - MK1 - 2016 - 2019": [
+      "3.0 TFSI 354hp (260kW) 500Nm"
+    ],
+    "S4 B9 - MK2 - 2019 ->": [
+      "3.0 TDI V6 347hp (255kW) 700Nm",
+      "3.0 TFSI V6 354hp (260kW) 500Nm"
+    ],
+    "S5 8T - 2007 - 2016": [
+      "3.0 TFSI 333hp (245kW) 440Nm",
+      "4.2 V8 354hp (260kW) 440Nm"
+    ],
+    "S5 F5 - MK1 - 2016 - 2018": [
+      "2.9 V6 Bi-Turbo 355hp (261kW) 500Nm",
+      "S5 3.0 TFSI 354hp (260kW) 500Nm"
+    ],
+    "S5 F5 - MK2 - 2019 ->": [
+      "3.0 V6 TDI 347hp (255kW) 700Nm",
+      "S5 3.0 TFSI 354hp (260kW) 500Nm"
+    ],
+    "S6 C5 - 1999 - 2004": [
+      "4.2 V8 340hp (250kW) 420Nm"
+    ],
+    "S6 C6 - 2004 - 2012": [
+      "5.2 FSI V10 435hp (320kW) 540Nm"
+    ],
+    "S6 C7 - 2012 - 2019": [
+      "4.0 TFSI 420hp (309kW) 550Nm",
+      "4.0 TFSI 450hp (331kW) 550Nm"
+    ],
+    "S6 C8 - 2019 ->": [
+      "2.9 TFSI 450hp (331kW) 600Nm",
+      "3.0 TDI 347hp (255kW) 700Nm"
+    ],
+    "S7 2012 - 2019": [
+      "4.0 TFSI 420hp (309kW) 550Nm",
+      "4.0 TFSI 450hp (331kW) 550Nm"
+    ],
+    "S7 2019 ->": [
+      "2.9 TFSI 450hp (331kW) 600Nm",
+      "3.0 TDI 347hp (255kW) 700Nm"
+    ],
+    "S8 2006 - 2009": [
+      "5.2 FSI V10 450hp (331kW) 540Nm"
+    ],
+    "S8 2012 - 2018": [
+      "4.0 TFSI 520hp (382kW) 650Nm",
+      "4.0 TFSI Plus 605hp (445kW) 700Nm"
+    ],
+    "S8 2019 ->": [
+      "4.0 TFSI 571hp (420kW) 800Nm"
+    ],
+    "SQ2 2019 ->": [
+      "2.0 TFSi 300hp (221kW) 400Nm"
+    ],
+    "SQ5 8R - MK1 - 2012 - 2017": [
+      "3.0 TDI Bi-Turbo 313hp (230kW) 650Nm",
+      "3.0 TDI Bi-Turbo 326hp (240kW) 650Nm",
+      "3.0 TDI Bi-Turbo Plus 340hp (250kW) 700Nm",
+      "3.0 TFSI 354hp (260kW) 440Nm"
+    ],
+    "SQ5 FY - MK1 - 2017 - 2019": [
+      "3.0 TFSI 354hp (260kW) 500Nm"
+    ],
+    "SQ5 FY - MK2 - 2019 ->": [
+      "3.0 TDI 347hp (255kW) 700Nm",
+      "3.0 TDI V6 MHEV 341hp (251kW) 700Nm"
+    ],
+    "SQ7 4M - 2016 ->": [
+      "4.0 TDI Bi-Turbo 435hp (320kW) 900Nm",
+      "4.0 TFSI 507hp (373kW) 770Nm"
+    ],
+    "SQ8 2019 ->": [
+      "4.0 TDI Bi-Turbo 435hp (320kW) 900Nm",
+      "4.0 TFSI 507hp (373kW) 770Nm"
+    ],
+    "TT 1998 - 2006 ( 8N )": [
+      "1.8T 20V 150hp (110kW) 210Nm",
+      "1.8T 20V 163hp (120kW) 225Nm",
+      "1.8T 20V 180hp (132kW) 235Nm",
+      "1.8T 20V 225hp (165kW) 280Nm",
+      "3.2 V6 250hp (184kW) 320Nm"
+    ],
+    "TT 2006 - 2014 ( 8J )": [
+      "1.8 TFSI 160hp (118kW) 250Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TFSI 200hp (147kW) 280Nm",
+      "2.0 TFSI 211hp (155kW) 350Nm",
+      "2.0 TFSI S 272hp (200kW) 350Nm",
+      "2.5 TFSI RS 340hp (250kW) 450Nm",
+      "2.5 TFSI RS Plus 360hp (265kW) 465Nm",
+      "3.2 V6 250hp (184kW) 320Nm"
+    ],
+    "TT 2014 - 2018 ( 8S )": [
+      "1.8 TFSI 180hp (132kW) 250Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TFSI 230hp (169kW) 370Nm"
+    ],
+    "TT 2018 -> ( 8S II )": [
+      "40 TFSI 197hp (145kW) 320Nm",
+      "45 TFSI 245hp (180kW) 370Nm"
+    ],
+    "TT RS All": [
+      "2.5 TFSI RS 340hp (250kW) 450Nm",
+      "2.5 TFSI RS 400hp (294kW) 480Nm",
+      "2.5 TFSI RS Plus 360hp (265kW) 465Nm"
+    ],
+    "TT S All": [
+      "2.0 TFSI 272hp (200kW) 350Nm",
+      "2.0 TFSI 306hp (225kW) 400Nm",
+      "2.0 TFSI 310hp (228kW) 380Nm"
+    ]
+  },
+  "BMW": {
+    "1 Serie Sedan F52 - 2018 ->": [
+      "118i 136hp (100kW) 220Nm",
+      "120i 192hp (141kW) 280Nm",
+      "125i 231hp (170kW) 350Nm"
+    ],
+    "1 serie E87 - 2004 - 2007": [
+      "116i 115hp (85kW) 150Nm",
+      "118D 122hp (90kW) 280Nm",
+      "118i 129hp (95kW) 180Nm",
+      "120D 163hp (120kW) 340Nm",
+      "120i 150hp (110kW) 200Nm",
+      "130i 265hp (195kW) 315Nm",
+      "135i 306hp (225kW) 400Nm"
+    ],
+    "1 serie E87 - 2007 - 2011": [
+      "116D 115hp (85kW) 260Nm",
+      "116i 122hp (90kW) 160Nm",
+      "118D 136hp (100kW) 300Nm",
+      "118D 143hp (105kW) 300Nm",
+      "118i 143hp (105kW) 190Nm",
+      "120D 163hp (120kW) 340Nm",
+      "120D 177hp (130kW) 350Nm",
+      "120i 170hp (125kW) 210Nm",
+      "123D 204hp (150kW) 400Nm",
+      "125i 218hp (160kW) 270Nm",
+      "130i 265hp (195kW) 315Nm",
+      "135i - N54 306hp (225kW) 400Nm",
+      "135i - N55 - twinscroll 306hp (225kW) 400Nm",
+      "1M - 3.0i Bi-turbo 340hp (250kW) 500Nm"
+    ],
+    "1 serie F20 - 2011 - 2015": [
+      "114D 95hp (1598cc) (70kW) 235Nm",
+      "114i 102hp (75kW) 180Nm",
+      "116D 116hp (1598cc) (85kW) 260Nm",
+      "116D 116hp (1995cc) (85kW) 260Nm",
+      "116i 136hp (100kW) 220Nm",
+      "118D 136hp (100kW) 320Nm",
+      "118D 143hp (105kW) 320Nm",
+      "118i (1600cc) 170hp (125kW) 250Nm",
+      "120D 163hp (120kW) 380Nm",
+      "120D 184hp (135kW) 380Nm",
+      "120D 200hp (147kW) 420Nm",
+      "125D 211hp (1995cc) (155kW) 450Nm",
+      "125D 218hp (1995cc) (160kW) 450Nm",
+      "125i 218hp (160kW) 310Nm",
+      "M 135i 320hp (235kW) 450Nm"
+    ],
+    "1 serie F20 - 2015 - 2018": [
+      "114D 95hp (1496cc) (70kW) 235Nm",
+      "116D 116hp (1496cc) (85kW) 270Nm",
+      "116i 109hp (1499cc) (80kW) 180Nm",
+      "118D 150hp (110kW) 320Nm",
+      "118i 136hp (1499cc) (100kW) 220Nm",
+      "118i 136hp (1598cc) (100kW) 220Nm",
+      "120D 163hp (120kW) 380Nm",
+      "120D 190hp (140kW) 400Nm",
+      "120i 177hp (1598cc) (130kW) 250Nm",
+      "120i 184hp (1998cc) (B48B20B) (135kW) 290Nm",
+      "125D 211hp (1995cc) (155kW) 450Nm",
+      "125D 224hp (1995cc) (165kW) 450Nm",
+      "125i 218hp (160kW) 310Nm",
+      "125i 224hp (165kW) 310Nm",
+      "135i 326hp (240kW) 450Nm",
+      "M140i 340hp (250kW) 500Nm"
+    ],
+    "1 serie F40 - 2019 ->": [
+      "116D (1.5D) 116hp (85kW) 270Nm",
+      "116i (1.5T) 109hp (80kW) 190Nm",
+      "118D (2.0D) 150hp (110kW) 350Nm",
+      "118i (1.5T) 140hp (103kW) 220Nm",
+      "120D (2.0D) 163hp (120kW) 380Nm",
+      "120D (2.0D) 190hp (140kW) 400Nm",
+      "120i (1.6T) 177hp (130kW) 250Nm",
+      "120i (2.0T) 184hp (135kW) 290Nm",
+      "120i (2.0T) 184hp (B48B20B) (135kW) 290Nm",
+      "125D (2.0D) 211hp (kW) Nm",
+      "125D (2.0D) 224hp (kW) Nm",
+      "125i (2.0T) 218hp (160kW) 310Nm",
+      "128ti 265hp (kW) Nm",
+      "M135i 306hp (225kW) 450Nm"
+    ],
+    "1M E82 - 2011 ->": [
+      "3.0i Bi-turbo 340hp (250kW) 500Nm"
+    ],
+    "2 Serie GC 2020 ->": [
+      "216d (1.5D) 116hp (kW) Nm",
+      "218d (2.0D) 150hp (110kW) 320Nm",
+      "218i (1.5T) 140hp (103kW) 220Nm",
+      "220d (2.0D) 190hp (140kW) 400Nm",
+      "220i (2.0T) 178hp (kW) Nm",
+      "M235i 306hp (225kW) 450Nm"
+    ],
+    "2 serie Active Tourer 2014 - 2017": [
+      "214d (1496cc) 95hp (70kW) 220Nm",
+      "216d (1496cc) 116hp (85kW) 270Nm",
+      "216i (1499cc) 102hp (75kW) 180Nm",
+      "218d (1995cc) 136hp (100kW) 330Nm",
+      "218d (1995cc) 150hp (110kW) 330Nm",
+      "218i (1499cc) 136hp (100kW) 220Nm",
+      "220d (1995cc) 190hp (140kW) 400Nm",
+      "220i 192hp (141kW) 280Nm",
+      "225d (1995cc) 224hp (165kW) 450Nm",
+      "225i (1998cc) 231hp (170kW) 350Nm",
+      "225xe (1499cc) 225hp Hybrid (165kW) 385Nm"
+    ],
+    "2 serie Active Tourer 2018 ->": [
+      "215i (1499cc) 110hp (81kW) 190Nm",
+      "216d (1496cc) 120hp (88kW) 270Nm",
+      "218d (1995cc) 150hp (110kW) 350Nm",
+      "218d xDrive (1995cc) 150hp (110kW) 350Nm",
+      "218i (1499cc) 140hp (103kW) 220Nm",
+      "220d (1995cc) 190hp (140kW) 400Nm",
+      "220d xDrive(1995cc) 190hp (140kW) 400Nm",
+      "220i (1998cc) 190hp (140kW) 280Nm",
+      "225i xDrive (1998cc) 230hp (169kW) 350Nm",
+      "225xe (1499cc) 225hp Hybrid (165kW) 385Nm"
+    ],
+    "2 serie F2x - 2013 -> ...": [
+      "218d 136hp (100kW) 320Nm",
+      "218d 143hp (105kW) 320Nm",
+      "218d 150hp (110kW) 320Nm",
+      "218i 136hp (100kW) 220Nm",
+      "220d 163hp (120kW) 380Nm",
+      "220d 184hp (135kW) 380Nm",
+      "220d 190hp (140kW) 400Nm",
+      "220d 200hp (147kW) 420Nm",
+      "220i 184hp (135kW) 270Nm",
+      "225d 218hp (160kW) 450Nm",
+      "225d 224hp (165kW) 450Nm",
+      "228i 245hp (180kW) 350Nm",
+      "230i 252hp (185kW) 350Nm",
+      "M235i 326hp (240kW) 450Nm",
+      "M240i 340hp (250kW) 500Nm"
+    ],
+    "3 serie E36": [
+      "318 TDS 90hp (66kW) 190Nm",
+      "323i 170hp (125kW) 245Nm",
+      "325 TD 115hp (85kW) 245Nm",
+      "325 TDS 143hp (105kW) 260Nm"
+    ],
+    "3 serie E46 - 1998 - 2005": [
+      "316i 115hp (85kW) 175Nm",
+      "318D 115hp (85kW) 280Nm",
+      "318i 118hp (87kW) 180Nm",
+      "318i 136hp (100kW) 180Nm",
+      "318i 143hp (105kW) 200Nm",
+      "320D 136hp (100kW) 280Nm",
+      "320D 150hp (110kW) 330Nm",
+      "320i 150hp (110kW) 190Nm",
+      "320i 170hp (125kW) 210Nm",
+      "323i 170hp (125kW) 245Nm",
+      "325i 192hp (141kW) 245Nm",
+      "328i 193hp (142kW) 280Nm",
+      "330D 184hp (135kW) 390Nm",
+      "330D 193hp (142kW) 410Nm",
+      "330D 204hp (150kW) 410Nm",
+      "330i 231hp (170kW) 300Nm"
+    ],
+    "3 serie E90/E91 - 2005 - 2010": [
+      "316D 115hp (85kW) 260Nm",
+      "316i 122hp (90kW) 160Nm",
+      "318D 122hp (90kW) 280Nm",
+      "318D 136hp (100kW) 300Nm",
+      "318D 143hp (105kW) 300Nm",
+      "318i 143hp (105kW) 190Nm",
+      "320D 150hp (110kW) 330Nm",
+      "320D 163hp (120kW) 350Nm",
+      "320D 177hp (130kW) 350Nm",
+      "320i 150hp (110kW) 200Nm",
+      "320i 163hp (120kW) 200Nm",
+      "320i 170hp (125kW) 210Nm",
+      "320si 173hp (127kW) 200Nm",
+      "325D 177hp (130kW) 400Nm",
+      "325D 197hp (145kW) 400Nm",
+      "325i - N52 - 211hp (155kW) 250Nm",
+      "325i - N52 - 218hp (160kW) 250Nm",
+      "325i - N53 - 211hp (155kW) 270Nm",
+      "325i - N53 - 218hp (160kW) 270Nm",
+      "328i 230hp (169kW) 300Nm",
+      "330D 211hp (155kW) 500Nm",
+      "330D 231hp (170kW) 500Nm",
+      "330D 245hp (180kW) 520Nm",
+      "330i 258hp (190kW) 300Nm",
+      "330i 272hp (200kW) 320Nm",
+      "335D 286hp (210kW) 580Nm",
+      "335D 306hp (225kW) 600Nm",
+      "335i - N54 - 306hp (225kW) 400Nm",
+      "335i - N54 PPK - 326hp (240kW) 450Nm",
+      "335i - N55 Twinscroll - 306hp (225kW) 400Nm",
+      "M3 420hp (309kW) 400Nm"
+    ],
+    "3 serie E90/E91 - 2010 - 2011": [
+      "316D 115hp (85kW) 260Nm",
+      "316i 122hp (90kW) 160Nm",
+      "318D 136hp (100kW) 300Nm",
+      "318D 143hp (105kW) 300Nm",
+      "318i 143hp (105kW) 190Nm",
+      "320D 163hp (120kW) 380Nm",
+      "320D 184hp (135kW) 380Nm",
+      "320i 170hp (125kW) 210Nm",
+      "325D 204hp (150kW) 430Nm",
+      "325i - N53 - 211hp (155kW) 270Nm",
+      "325i - N53 - 218hp (160kW) 270Nm",
+      "328i 230hp (169kW) 300Nm",
+      "330D 211hp (155kW) 520Nm",
+      "330D 245hp (180kW) 520Nm",
+      "330i 272hp (200kW) 320Nm",
+      "335D 286hp (210kW) 580Nm",
+      "335D 306hp (225kW) 600Nm",
+      "335i - N55 Twinscroll - 306hp (225kW) 400Nm",
+      "335i - N55 Twinscroll PPK - 326hp (240kW) 400Nm",
+      "M3 420hp (309kW) 400Nm"
+    ],
+    "3 serie F3x - 2011 - 2015": [
+      "316D 116hp (1995cc) (85kW) 260Nm",
+      "316i 136hp (100kW) 220Nm",
+      "318D 136hp (1995cc) (100kW) 320Nm",
+      "318D 143hp (1995cc) (105kW) 320Nm",
+      "320D 163hp (120kW) 380Nm",
+      "320D 184hp (135kW) 380Nm",
+      "320D 200hp (147kW) 420Nm",
+      "320i (1600cc) 170hp (125kW) 250Nm",
+      "320i 184hp (135kW) 270Nm",
+      "325D 218hp (1995cc) (160kW) 450Nm",
+      "328D 180hp (132kW) 380Nm",
+      "328i 245hp (180kW) 350Nm",
+      "330D 258hp (190kW) 560Nm",
+      "335D xDrive 313hp (230kW) 630Nm",
+      "335i 306hp (225kW) 400Nm",
+      "M3 431hp (317kW) 550Nm",
+      "M3 Competition 450hp (331kW) 550Nm"
+    ],
+    "3 serie F3x LCI - 06 / 2015 - 2019": [
+      "316d 116hp (85kW) 270Nm",
+      "318d 150hp (110kW) 320Nm",
+      "318i (1500cc) 136hp (100kW) 220Nm",
+      "320d 190hp (140kW) 400Nm",
+      "320d Efficient dynamics 163hp (120kW) 400Nm",
+      "320i 184hp (135kW) 290Nm",
+      "320i 184hp (B48) (135kW) 290Nm",
+      "320i xDrive 184hp (135kW) 270Nm",
+      "325d (1995cc) 211hp (155kW) 450Nm",
+      "325d (1995cc) 218hp (160kW) 450Nm",
+      "325d (1995cc) 224hp (165kW) 450Nm",
+      "330D 258hp (190kW) 560Nm",
+      "330d xDrive 258hp (190kW) 560Nm",
+      "330e PHEV 252hp (185kW) 420Nm",
+      "330i 252hp (185kW) 350Nm",
+      "330i xDrive 252hp (185kW) 350Nm",
+      "335d xDrive 313hp (230kW) 630Nm",
+      "340i 326hp (240kW) 450Nm",
+      "340i xDrive 326hp (240kW) 450Nm"
+    ],
+    "3 serie G2x - 2019 ->": [
+      "318d 150hp (110kW) 320Nm",
+      "318i 156hp (115kW) 250Nm",
+      "320d 190hp (140kW) 400Nm",
+      "320d MHEV 190hp (140kW) 400Nm",
+      "320e PHEV 204hp (kW) Nm",
+      "320i (GPF) 184hp (135kW) 290Nm",
+      "320i 184hp (135kW) 300Nm",
+      "330d 265hp (195kW) 580Nm",
+      "330d MHEV 286hp (210kW) 650Nm",
+      "330e 252hp (185kW) 420Nm",
+      "330e Hybrid 292hp (215kW) 420Nm",
+      "330i 258hp (190kW) 400Nm",
+      "M340d MHEV 340hp (250kW) 700Nm",
+      "M340i 374hp (275kW) 500Nm"
+    ],
+    "3 serie GT F34 - 2012 - 2015": [
+      "318D 136hp (100kW) 320Nm",
+      "318D 143hp (105kW) 320Nm",
+      "320D 163hp (120kW) 380Nm",
+      "320D 184hp (135kW) 380Nm",
+      "320i 184hp (135kW) 270Nm",
+      "325D 218hp (160kW) 450Nm",
+      "328i 245hp (180kW) 350Nm",
+      "330D 258hp (190kW) 560Nm",
+      "330D PP 286hp (210kW) 600Nm",
+      "335D 313hp (230kW) 630Nm",
+      "335i 306hp (225kW) 400Nm"
+    ],
+    "3 serie GT F34 LCI - 2016 ->": [
+      "2.0T 272hp (kW) Nm"
+    ],
+    "4 serie F32/33 - 2013 - 2016": [
+      "418D 150hp (110kW) 320Nm",
+      "418i (1.5T) 136hp (100kW) 220Nm",
+      "420D 163hp (120kW) 380Nm",
+      "420D 184hp (135kW) 380Nm",
+      "420D 190hp (140kW) 400Nm",
+      "420i 184hp (135kW) 270Nm",
+      "425D 218hp (160kW) 450Nm",
+      "428i 245hp (180kW) 350Nm",
+      "430D 258hp (190kW) 560Nm",
+      "430i 252hp (185kW) 350Nm",
+      "435i 306hp (225kW) 400Nm",
+      "435xD 313hp (230kW) 630Nm",
+      "M4 - 431hp (317kW) 600Nm",
+      "M4 Competition 450hp (331kW) 550Nm",
+      "M4 GTS 500hp (368kW) 600Nm"
+    ],
+    "4 serie F32/33 - May/2016 - 2019": [
+      "418d 150hp (110kW) 320Nm",
+      "420d 163hp (120kW) 380Nm",
+      "420d 184hp (135kW) 380Nm",
+      "420d 190hp (140kW) 400Nm",
+      "420i 184hp (135kW) 270Nm",
+      "425d 224hp (165kW) 450Nm",
+      "430d 258hp (190kW) 560Nm",
+      "430i 252hp (185kW) 350Nm",
+      "435d 313hp (230kW) 630Nm",
+      "440i 326hp (240kW) 450Nm"
+    ],
+    "4 serie G22 - 2020 ->": [
+      "420d MHEV 190hp (140kW) 400Nm",
+      "420i 184hp (135kW) 300Nm",
+      "430i 258hp (190kW) 400Nm",
+      "M440d MHEV 340hp (250kW) 700Nm",
+      "M440i MHEV 374hp (275kW) 500Nm"
+    ],
+    "4 serie GC F36 - 2014 - 2016": [
+      "418D 136hp (100kW) 320Nm",
+      "418D 143hp (105kW) 320Nm",
+      "418D 150hp (110kW) 320Nm",
+      "420D 163hp (120kW) 380Nm",
+      "420D 184hp (135kW) 380Nm",
+      "420i 184hp (135kW) 270Nm",
+      "428i 245hp (180kW) 350Nm",
+      "430D 258hp (190kW) 560Nm",
+      "435D 313hp (230kW) 630Nm",
+      "435i 306hp (225kW) 400Nm",
+      "435i PP 339hp (249kW) 450Nm"
+    ],
+    "4 serie GC F36 - May/2016 ->": [
+      "418d 150hp (110kW) 320Nm",
+      "418i 136hp (100kW) 220Nm",
+      "420d 190hp (140kW) 400Nm",
+      "420i 184hp (135kW) 270Nm",
+      "425d 224hp (165kW) 450Nm",
+      "430d 258hp (190kW) 560Nm",
+      "430i 252hp (185kW) 350Nm",
+      "435d 313hp (230kW) 630Nm",
+      "435i 306hp (225kW) 400Nm",
+      "440i 326hp (240kW) 450Nm",
+      "440i MHEV 374hp (kW) Nm"
+    ],
+    "4 serie GC G22 - 2021 ->": [
+      "420D MHEV 190hp (kW) Nm",
+      "420i 184hp (kW) Nm",
+      "430i 245hp (kW) Nm",
+      "M440d MHEV 340hp (kW) Nm",
+      "M440i MHEV 374hp (kW) Nm"
+    ],
+    "5 serie E34": [
+      "524 TD 115hp (85kW) 220Nm",
+      "525 TD 115hp (85kW) 245Nm",
+      "525 TDS 143hp (105kW) 260Nm"
+    ],
+    "5 serie E39 - 1995 - 2003": [
+      "520D 136hp (100kW) 280Nm",
+      "520i 150hp (110kW) 190Nm",
+      "523i 170hp (125kW) 245Nm",
+      "525 TDS 143hp (105kW) 280Nm",
+      "525D 163hp (120kW) 350Nm",
+      "525i 192hp (141kW) 245Nm",
+      "528i 193hp (142kW) 280Nm",
+      "530D 184hp (135kW) 390Nm",
+      "530D 193hp (142kW) 410Nm",
+      "530i 231hp (170kW) 300Nm",
+      "540i 4.4 V8 286hp (210kW) 440Nm"
+    ],
+    "5 serie E60/61 - 2003 - 2010": [
+      "520D 150hp (110kW) 340Nm",
+      "520D 163hp (120kW) 340Nm",
+      "520D 163hp - 2008 (120kW) 350Nm",
+      "520D 177hp (130kW) 350Nm",
+      "520i 170hp (125kW) 210Nm",
+      "523i 177hp (130kW) 230Nm",
+      "525D 163hp (120kW) 400Nm",
+      "525D 177hp (130kW) 400Nm",
+      "525D 197hp (145kW) 400Nm",
+      "525i 192hp (141kW) 245Nm",
+      "525i 218hp (160kW) 250Nm",
+      "530D 218hp (160kW) 500Nm",
+      "530D 231hp (170kW) 500Nm",
+      "530D 235hp (173kW) 500Nm",
+      "530D 245hp (180kW) 520Nm",
+      "530i 231hp (170kW) 300Nm",
+      "530i 258hp (190kW) 300Nm",
+      "535D 272hp (200kW) 560Nm",
+      "535D 286hp (210kW) 580Nm",
+      "540i 306hp (225kW) 390Nm",
+      "545i 333hp (245kW) 450Nm",
+      "550i 367hp (270kW) 490Nm",
+      "M5 507hp (373kW) 520Nm"
+    ],
+    "5 serie F10/11 - 2010 - 2016": [
+      "518D 136hp (1995cc) (100kW) 360Nm",
+      "518D 143hp (1995cc) (105kW) 360Nm",
+      "518D 150hp (1995cc) (110kW) 360Nm",
+      "520D 163hp (120kW) 380Nm",
+      "520D 184hp (135kW) 380Nm",
+      "520D 190hp (140kW) 400Nm",
+      "520D 200hp (147kW) 420Nm",
+      "520i 184hp (135kW) 270Nm",
+      "523i 204hp (150kW) 270Nm",
+      "525D 204hp (2993cc) (150kW) 450Nm",
+      "525D 218hp (1995cc) (160kW) 450Nm",
+      "525i 218hp (160kW) 270Nm",
+      "528i 245hp (180kW) 350Nm",
+      "530D 245hp (180kW) 540Nm",
+      "530D 258hp (190kW) 560Nm",
+      "530i 272hp (200kW) 320Nm",
+      "535D 306hp (225kW) 600Nm",
+      "535D 313hp (230kW) 630Nm",
+      "535i 306hp (225kW) 400Nm",
+      "550i 407hp (299kW) 600Nm",
+      "550i Valvetronic 449hp (330kW) 650Nm",
+      "M 550D - 381hp (280kW) 740Nm",
+      "M5 \"30 Jahre Edition\" 600hp (441kW) 700Nm",
+      "M5 Bi-Turbo 560hp (412kW) 680Nm",
+      "M5 Competition 575hp (423kW) 680Nm"
+    ],
+    "5 serie G30/31 - 2016 - 2019": [
+      "518d 150hp (110kW) 350Nm",
+      "520d 190hp (140kW) 400Nm",
+      "520d MHEV 190hp (140kW) 400Nm",
+      "520i 170hp (125kW) 250Nm",
+      "520i 184hp (135kW) 290Nm",
+      "525d 231hp (170kW) 500Nm",
+      "530I 252hp (185kW) 350Nm",
+      "530d 265hp (195kW) 620Nm",
+      "530e IPerformance 252hp (185kW) 420Nm",
+      "540I 340hp (250kW) 450Nm",
+      "540d 320hp (235kW) 680Nm",
+      "M550I 462hp (340kW) 650Nm",
+      "M550I 530hp (390kW) 750Nm",
+      "M550d 400hp (294kW) 760Nm"
+    ],
+    "5 serie G30/31 LCI - 2020 ->": [
+      "520d 190hp (140kW) 400Nm",
+      "520d MHEV 190hp (140kW) 400Nm",
+      "520e 204hp (kW) Nm",
+      "520i 184hp (135kW) 290Nm",
+      "530I 252hp (kW) Nm",
+      "530d 286hp (kW) Nm",
+      "530e Phev 292hp (kW) Nm",
+      "540d MHEV 340hp (250kW) 700Nm",
+      "540i MHEV 333hp (kW) Nm",
+      "545e 286hp (kW) Nm",
+      "M550i 530hp (390kW) 750Nm"
+    ],
+    "5 serie GT F07 - 2009 - 2017": [
+      "520D 163hp (120kW) 380Nm",
+      "520D 184hp (135kW) 380Nm",
+      "520i 170hp (125kW) 250Nm",
+      "530D 211hp (155kW) 520Nm",
+      "530D 245hp (180kW) 540Nm",
+      "530D 258hp (190kW) 560Nm",
+      "535D 300hp (221kW) 600Nm",
+      "535D 313hp (230kW) 630Nm",
+      "535i 306hp (225kW) 400Nm",
+      "550i 407hp (299kW) 600Nm",
+      "550i 449hp (330kW) 650Nm"
+    ],
+    "6 serie E63 - 2004 - 2010": [
+      "630i 258hp (190kW) 300Nm",
+      "630i 272hp (200kW) 300Nm",
+      "635D 286hp (210kW) 580Nm",
+      "635D 306hp (225kW) 600Nm",
+      "645ci 333hp (245kW) 450Nm",
+      "650ci 367hp (270kW) 490Nm",
+      "M6 5.0 V10 - 507hp (373kW) 537Nm"
+    ],
+    "6 serie F12/F13 - 2011 -> ...": [
+      "640D 313hp (230kW) 630Nm",
+      "640i 320hp (235kW) 450Nm",
+      "650i 407hp (299kW) 600Nm",
+      "650i Valvetronic - 449hp (330kW) 650Nm",
+      "M6 V8 Bi-turbo 560hp (412kW) 680Nm",
+      "M6 V8 Competition Bi-turbo 600hp (441kW) 700Nm"
+    ],
+    "6 serie GT G32 - 2017 ->": [
+      "620D 190hp (140kW) 400Nm",
+      "630D 265hp (195kW) 620Nm",
+      "630i 258hp (190kW) 400Nm",
+      "640D 320hp (235kW) 680Nm",
+      "640i 340hp (250kW) 450Nm"
+    ],
+    "7 serie 2019 ->": [
+      "730d 265hp (195kW) 620Nm",
+      "730d MHEV 286hp (kW) Nm",
+      "740d 320hp (235kW) 680Nm",
+      "740d MHEV 340hp (250kW) 700Nm",
+      "740i 340hp (250kW) 450Nm",
+      "745e 394hp (290kW) 600Nm",
+      "750d 400hp (294kW) 760Nm",
+      "750i 530hp (390kW) 750Nm",
+      "M760i 585hp (430kW) 850Nm"
+    ],
+    "7 serie E38 - 1995 - 2001": [
+      "725 TDS 143hp (105kW) 280Nm",
+      "728i 193hp (142kW) 280Nm",
+      "730D 184hp (135kW) 390Nm",
+      "730D 193hp (142kW) 410Nm",
+      "730i 218hp (160kW) 290Nm",
+      "735i 238hp (175kW) 345Nm",
+      "740D 245hp (180kW) 560Nm"
+    ],
+    "7 serie E65 - 2002 - 2008": [
+      "730D 204hp (150kW) 410Nm",
+      "730D 211hp (155kW) 500Nm",
+      "730D 218hp (160kW) 500Nm",
+      "730D 231hp (170kW) 520Nm",
+      "730i 258hp (190kW) 300Nm",
+      "735i 272hp (200kW) 360Nm",
+      "740D 258hp (190kW) 600Nm",
+      "740i 306hp (225kW) 390Nm",
+      "745D 300hp (221kW) 700Nm",
+      "745i 333hp (245kW) 450Nm",
+      "750i 367hp (270kW) 490Nm",
+      "760i 445hp (327kW) 600Nm"
+    ],
+    "7 serie F01 - 2009 - 2015": [
+      "730D 211hp (155kW) 500Nm",
+      "730D 245hp (180kW) 520Nm",
+      "730D 258hp (190kW) 560Nm",
+      "740D 306hp (225kW) 600Nm",
+      "740D 313hp (230kW) 630Nm",
+      "740i 326hp (240kW) 450Nm",
+      "750D 381hp (280kW) 740Nm",
+      "750i 407hp (299kW) 600Nm",
+      "750i 450hp (331kW) 650Nm",
+      "750i Valvetronic 510hp (375kW) 750Nm",
+      "760i 544hp (400kW) 750Nm"
+    ],
+    "7 serie G11/G12 - 2016 - 2018": [
+      "720i 184hp (135kW) 290Nm",
+      "730d 265hp (195kW) 620Nm",
+      "730i - 258hp (190kW) 400Nm",
+      "740d 320hp (235kW) 680Nm",
+      "740e IPerformance 326hp (240kW) 500Nm",
+      "740i 326hp (240kW) 450Nm",
+      "750d 400hp (294kW) 760Nm",
+      "750i 450hp (331kW) 650Nm",
+      "M760i 610hp (449kW) 800Nm"
+    ],
+    "8 serie G15 - 2018 ->": [
+      "840d 320hp (235kW) 680Nm",
+      "840d MHEV 340hp (kW) Nm",
+      "840i 340hp (250kW) 500Nm",
+      "M850i 530hp (390kW) 750Nm"
+    ],
+    "8 serie GC 2019 ->": [
+      "840d 320hp (235kW) 680Nm",
+      "840i 340hp (250kW) 500Nm",
+      "850i 530hp (390kW) 750Nm"
+    ],
+    "M2 F87 - 2015 ->": [
+      "3.0 370hp (272kW) 500Nm",
+      "3.0 CS 450hp (331kW) 550Nm",
+      "3.0 Competition 410hp (301kW) 550Nm"
+    ],
+    "M3 E36 - 1991 - 1998": [
+      "M3 286hp (210kW) 320Nm",
+      "M3 321hp (236kW) 350Nm"
+    ],
+    "M3 E46 - 1998 - 2005": [
+      "M3 343hp (252kW) 365Nm",
+      "M3 CSL 360hp (265kW) 370Nm"
+    ],
+    "M3 E90 - 2005 - 2011": [
+      "4.0 V8 - 420hp (309kW) 400Nm"
+    ],
+    "M3 F80 - 2011 ->": [
+      "M3 431hp (317kW) 600Nm",
+      "M3 Competition 450hp (331kW) 600Nm"
+    ],
+    "M4 F82 - 2014 ->": [
+      "3.0 - 431hp (317kW) 550Nm",
+      "3.0 CS 460hp (338kW) 600Nm",
+      "3.0 Competition 450hp (331kW) 550Nm",
+      "3.0 GTS 500hp (368kW) 600Nm"
+    ],
+    "M4 G82 - 2021 ->": [
+      "3.0 480hp (kW) Nm",
+      "3.0 Competition 510hp (kW) Nm"
+    ],
+    "M5 E39 - 1995 - 2003": [
+      "5.0 V8 400hp (294kW) 500Nm"
+    ],
+    "M5 E60 - 2003 - 2010": [
+      "V10 507hp (373kW) 520Nm"
+    ],
+    "M5 F10 - 2010 - 2016": [
+      "V8 Bi-turbo \"30 Jahre Edition\" 600hp (441kW) 700Nm",
+      "V8 Bi-turbo 560hp (412kW) 680Nm",
+      "V8 Bi-turbo Competition 575hp (423kW) 680Nm"
+    ],
+    "M5 F90 - 2017 - 2019": [
+      "3.0 D Bi-Turbo 400hp (294kW) 760Nm",
+      "4.4 V8 Bi-Turbo 462hp (340kW) 650Nm",
+      "4.4 V8 Bi-Turbo 602hp (443kW) 750Nm",
+      "4.4 V8 Bi-Turbo Competition 625hp (460kW) 750Nm"
+    ],
+    "M5 G30 - 2020 ->": [
+      "4.4 V8 Bi-Turbo 602hp (kW) Nm",
+      "4.4 V8 Bi-Turbo Competition 625hp (kW) Nm"
+    ],
+    "M6 E63/E64 - 2003 - 2012": [
+      "V10 507hp (373kW) 520Nm"
+    ],
+    "M6 F06/F12/F13 - 2011 ->": [
+      "V8 4.4 Bi-Turbo 560hp (412kW) 680Nm",
+      "V8 4.4 Bi-Turbo Competition 600hp (441kW) 700Nm"
+    ],
+    "M8 2019 ->": [
+      "4.4 V8 Bi-Turbo 600hp (441kW) 750Nm",
+      "4.4 V8 Bi-Turbo Competition 625hp (460kW) 750Nm"
+    ],
+    "X1 (F48 LCI) - 2019 -> ...": [
+      "sDrive16d 116hp (85kW) 270Nm",
+      "sDrive18d 150hp (110kW) 350Nm",
+      "sDrive18i 140hp (103kW) 220Nm",
+      "sDrive20d 190hp (140kW) 400Nm",
+      "sDrive20i 192hp (141kW) 280Nm",
+      "xDrive18d 150hp (110kW) 350Nm",
+      "xDrive20d 190hp (140kW) 400Nm",
+      "xDrive20i 192hp (141kW) 280Nm",
+      "xDrive25d 231hp (kW) Nm",
+      "xDrive25e 220hp (kW) Nm",
+      "xDrive25i 231hp (170kW) 350Nm"
+    ],
+    "X1 E84 - 2009 - 2012": [
+      "1.8D 136hp (100kW) 300Nm",
+      "1.8D 143hp (105kW) 300Nm",
+      "1.8i 136hp (100kW) 200Nm",
+      "1.8i 150hp (110kW) 200Nm",
+      "2.0D 163hp (120kW) 350Nm",
+      "2.0D 177hp (130kW) 350Nm",
+      "2.3D 204hp (150kW) 400Nm"
+    ],
+    "X1 E84 - 2012 - 2015": [
+      "1.6D 116hp (1995cc) (85kW) 260Nm",
+      "1.8D 143hp (1995cc) (105kW) 320Nm",
+      "1.8i 150hp (110kW) 200Nm",
+      "2.0D 163hp (120kW) 380Nm",
+      "2.0D 184hp (135kW) 380Nm",
+      "2.0i 184hp (135kW) 270Nm",
+      "2.5D 218hp (1995cc) (160kW) 450Nm",
+      "2.8i 245hp (180kW) 350Nm"
+    ],
+    "X1 F48 - 2015 - 2018": [
+      "sDrive16d 116hp (85kW) 270Nm",
+      "sDrive18d 150hp (110kW) 320Nm",
+      "sDrive18i 136hp (100kW) 220Nm",
+      "sDrive20i 192hp (141kW) 280Nm",
+      "xDrive18d 150hp (110kW) 320Nm",
+      "xDrive20d 190hp (140kW) 400Nm",
+      "xDrive20i 192hp (141kW) 280Nm",
+      "xDrive25d 231hp (170kW) 450Nm",
+      "xDrive25i 231hp (170kW) 350Nm"
+    ],
+    "X2 2018 ->": [
+      "M35i 306hp (225kW) 450Nm",
+      "s16d 116hp (85kW) 270Nm",
+      "s18d / x18d 150hp (110kW) 350Nm",
+      "s18i 140hp (103kW) 220Nm",
+      "s20i / x20i 192hp (141kW) 280Nm",
+      "x20d 190hp (140kW) 400Nm",
+      "x25d 231hp (170kW) 450Nm",
+      "x25e 220hp (kW) Nm"
+    ],
+    "X3 E83 - 2004 - 2010": [
+      "1.8D 136hp (100kW) 300Nm",
+      "1.8D 143hp (105kW) 300Nm",
+      "2.0D 150hp (110kW) 330Nm",
+      "2.0D 163hp (120kW) 350Nm",
+      "2.0D 177hp (130kW) 350Nm",
+      "2.0i 150hp (110kW) 200Nm",
+      "2.5i 214hp (157kW) 250Nm",
+      "3.0D 204hp (150kW) 410Nm",
+      "3.0D 211hp (155kW) 500Nm",
+      "3.0D 218hp (160kW) 500Nm",
+      "3.0i 231hp (170kW) 300Nm",
+      "3.5D 286hp (210kW) 580Nm"
+    ],
+    "X3 F25 - 2011 - 2017": [
+      "1.8D 136hp (100kW) 320Nm",
+      "1.8D 143hp (105kW) 320Nm",
+      "1.8D 150hp (110kW) 360Nm",
+      "2.0D 163hp (120kW) 380Nm",
+      "2.0D 184hp (135kW) 380Nm",
+      "2.0D 190hp (140kW) 400Nm",
+      "2.0i 184hp (135kW) 270Nm",
+      "2.8i Turbo 245hp (180kW) 350Nm",
+      "3.0D 211hp (155kW) 540Nm",
+      "3.0D 245hp (180kW) 540Nm",
+      "3.0D 258hp (190kW) 560Nm",
+      "3.5D 313hp (230kW) 630Nm",
+      "3.5i 306hp (225kW) 400Nm"
+    ],
+    "X3 G01/08 - 2017 ->": [
+      "30e 252hp (185kW) 420Nm",
+      "M40i 360hp (265kW) 500Nm",
+      "sDrive20i 170hp (125kW) 250Nm",
+      "xDrive M40d 326hp (240kW) 680Nm",
+      "xDrive M40d MHEV 340hp (250kW) 700Nm",
+      "xDrive18d 150hp (110kW) 360Nm",
+      "xDrive20d 163hp (120kW) 400Nm",
+      "xDrive20d 190hp (140kW) 400Nm",
+      "xDrive20d MHEV 190hp (140kW) 400Nm",
+      "xDrive20i 184hp (135kW) 290Nm",
+      "xDrive25d 231hp (170kW) 500Nm",
+      "xDrive30d 265hp (195kW) 620Nm",
+      "xDrive30d MHEV 286hp (210kW) 650Nm",
+      "xDrive30e 292hp (215kW) 420Nm",
+      "xDrive30i 252hp (185kW) 350Nm"
+    ],
+    "X3 M 2019 ->": [
+      "3.0 xDrive Steptronic 480hp (353kW) 600Nm",
+      "3.0 xDrive Steptronic Competition 510hp (375kW) 600Nm"
+    ],
+    "X4 F26 - 2014 - 2017": [
+      "2.0d 190hp (140kW) 400Nm",
+      "2.0i 184hp (135kW) 270Nm",
+      "2.8i 245hp (180kW) 350Nm",
+      "3.0d 258hp (190kW) 560Nm",
+      "3.5d 313hp (230kW) 630Nm",
+      "3.5i 306hp (225kW) 400Nm",
+      "M40i 360hp (265kW) 500Nm"
+    ],
+    "X4 G02 - 2018 ->": [
+      "M40d 326hp (240kW) 680Nm",
+      "M40d MHEV 340hp (250kW) 700Nm",
+      "M40i 360hp (265kW) 500Nm",
+      "xDrive20d 190hp (140kW) 400Nm",
+      "xDrive20d MHEV 190hp (140kW) 400Nm",
+      "xDrive20i 184hp (135kW) 290Nm",
+      "xDrive25d 231hp (170kW) 500Nm",
+      "xDrive30d 265hp (195kW) 620Nm",
+      "xDrive30d MHEV 286hp (kW) Nm",
+      "xDrive30i 252hp (185kW) 350Nm"
+    ],
+    "X4 M 2019 ->": [
+      "3.0 xDrive Steptronic 480hp (353kW) 600Nm",
+      "3.0 xDrive Steptronic Competition 510hp (375kW) 600Nm"
+    ],
+    "X5 E53 - 2000 - 2007": [
+      "3.0D 184hp (135kW) 410Nm",
+      "3.0D 218hp (160kW) 500Nm",
+      "3.0i 231hp (170kW) 300Nm",
+      "3.0i 272hp (200kW) 315Nm",
+      "4.4i 286hp (210kW) 440Nm",
+      "4.4i 320hp (235kW) 440Nm",
+      "4.6i 347hp (255kW) 480Nm"
+    ],
+    "X5 E70 - 2007 - 2010": [
+      "3.0D 211hp (155kW) 500Nm",
+      "3.0D 235hp (173kW) 520Nm",
+      "3.0D 286hp (210kW) 580Nm",
+      "3.0i 272hp (200kW) 315Nm",
+      "4.8i 355hp (261kW) 475Nm",
+      "M 555hp (408kW) 680Nm"
+    ],
+    "X5 E70 - 2010 - 2013": [
+      "3.0D 211hp (155kW) 540Nm",
+      "3.0D 245hp (180kW) 540Nm",
+      "3.5D 286hp (210kW) 580Nm",
+      "3.5i 306hp (225kW) 400Nm",
+      "4.0D 306hp (225kW) 600Nm",
+      "5.0i 407hp (299kW) 600Nm",
+      "M 5.0D 381hp (280kW) 740Nm",
+      "M 555hp (408kW) 680Nm"
+    ],
+    "X5 F15 - 2013 - 2018": [
+      "2.5D 218hp (160kW) 450Nm",
+      "2.5D 231hp (170kW) 500Nm",
+      "2.8i 245hp (180kW) 350Nm",
+      "3.0D 258hp (190kW) 560Nm",
+      "3.5i 306hp (225kW) 400Nm",
+      "4.0D 313hp (230kW) 630Nm",
+      "4.0e Hybrid 313hp (230kW) 450Nm",
+      "5.0i 450hp (331kW) 650Nm",
+      "M 5.0D 381hp (280kW) 740Nm",
+      "xDrive 25d 231hp (170kW) 500Nm"
+    ],
+    "X5 G05 - 2018 ->": [
+      "M50i 530hp (390kW) 750Nm",
+      "xDrive M50d 400hp (294kW) 760Nm",
+      "xDrive25d 231hp (170kW) 500Nm",
+      "xDrive30d 265hp (195kW) 620Nm",
+      "xDrive30d MHEV 286hp (210kW) 650Nm",
+      "xDrive40d MHEV 340hp (250kW) 700Nm",
+      "xDrive40i 340hp (250kW) 450Nm",
+      "xDrive45e 394hp (290kW) 600Nm",
+      "xDrive50i 462hp (340kW) 650Nm"
+    ],
+    "X5 M All": [
+      "E70 - 4.4 Turbo 555hp (408kW) 680Nm",
+      "E70 - 5.0D 381hp (280kW) 740Nm",
+      "F15 - 5.0D 381hp (280kW) 740Nm",
+      "F85 - 4.4 Bi-Turbo 575hp (423kW) 750Nm",
+      "G05 - 4.4 Bi-Turbo 600hp (441kW) 750Nm",
+      "G05 - 4.4 Bi-Turbo Competition 625hp (460kW) 750Nm"
+    ],
+    "X6 E71 - 2008 - 2014": [
+      "3.0D 211hp (155kW) 520Nm",
+      "3.0D 235hp (173kW) 520Nm",
+      "3.0D 245hp (180kW) 520Nm",
+      "3.5D 286hp (210kW) 580Nm",
+      "3.5i 306hp (225kW) 400Nm",
+      "4.0D 306hp (225kW) 600Nm",
+      "5.0i 407hp (299kW) 600Nm",
+      "5.0i ActiveHybrid 486hp (357kW) 780Nm",
+      "M 5.0D 381hp (280kW) 740Nm",
+      "M 555hp (408kW) 680Nm"
+    ],
+    "X6 F16 - 2014 - 2018": [
+      "3.0D 258hp (190kW) 560Nm",
+      "3.5i 306hp (225kW) 400Nm",
+      "4.0D 313hp (230kW) 630Nm",
+      "5.0i 450hp (331kW) 650Nm",
+      "ActiveHybrid 486hp (357kW) 780Nm",
+      "M 555hp (408kW) 680Nm",
+      "M50d 381hp (280kW) 740Nm"
+    ],
+    "X6 G06 - 2019 ->": [
+      "M50i 530hp (390kW) 750Nm",
+      "xDrive M50d 400hp (294kW) 760Nm",
+      "xDrive30d 265hp (195kW) 620Nm",
+      "xDrive30d MHEV 286hp (210kW) 650Nm",
+      "xDrive40d MHEV 340hp (250kW) 700Nm",
+      "xDrive40i 340hp (250kW) 450Nm"
+    ],
+    "X6 M All": [
+      "E71 - 4.4 Turbo 555hp (408kW) 680Nm",
+      "F16 - 5.0D 381hp (280kW) 740Nm",
+      "F86 - 4.4 Turbo 575hp (423kW) 750Nm",
+      "G05 - 4.4 Bi-Turbo 600hp (441kW) 750Nm"
+    ],
+    "X7 G07 - 2018 ->": [
+      "M50i 530hp (390kW) 750Nm",
+      "xDrive M50d 400hp (294kW) 760Nm",
+      "xDrive30d 265hp (195kW) 620Nm",
+      "xDrive40d MHEV 340hp (250kW) 700Nm",
+      "xDrive40i 340hp (250kW) 450Nm",
+      "xDrive40i MHEV 333hp (kW) Nm",
+      "xDrive50i 462hp (340kW) 650Nm"
+    ],
+    "Z1 All": [
+      "2.5i 170hp (125kW) 222Nm"
+    ],
+    "Z3 All": [
+      "1.8i 118hp (87kW) 180Nm",
+      "2.0i 150hp (110kW) 190Nm",
+      "2.2i 170hp (125kW) 210Nm",
+      "2.8i 193hp (142kW) 280Nm",
+      "3.0i 231hp (170kW) 300Nm",
+      "M 3.2 321hp (236kW) 350Nm",
+      "M 3.2 325hp (239kW) 350Nm"
+    ],
+    "Z4 E85 - 2003 - 2008": [
+      "2.0i 150hp (110kW) 190Nm",
+      "2.2i 170hp (125kW) 210Nm",
+      "2.3i 204hp (150kW) 250Nm",
+      "2.5i 177hp (130kW) 230Nm",
+      "2.5i 192hp (141kW) 245Nm",
+      "2.5i 211hp (155kW) 250Nm",
+      "2.5si 218hp (160kW) 250Nm",
+      "3.0i 231hp (170kW) 300Nm",
+      "3.0i 258hp (190kW) 300Nm",
+      "3.0si 265hp (195kW) 315Nm",
+      "3.5i - N54 - 306hp (225kW) 400Nm",
+      "3.5i - N55 - Twinscroll - 306hp (225kW) 400Nm",
+      "3.5is - N54 - 340hp (250kW) 450Nm",
+      "M 3.2 343hp (252kW) 365Nm"
+    ],
+    "Z4 E89 - 2009 - 2018": [
+      "1.8i 156hp (115kW) 270Nm",
+      "2.0i 184hp (135kW) 270Nm",
+      "2.3i 204hp (150kW) 250Nm",
+      "2.8i 245hp (180kW) 350Nm",
+      "3.0i 258hp (190kW) 300Nm",
+      "3.5i - N54 - 306hp (225kW) 400Nm",
+      "3.5i - N55 - Twinscroll - 306hp (225kW) 400Nm",
+      "3.5is - N54 - 340hp (250kW) 450Nm"
+    ],
+    "Z4 G29 - 2019 ->": [
+      "20i 197hp (145kW) 320Nm",
+      "30i 258hp (190kW) 400Nm",
+      "M40i 340hp (250kW) 500Nm"
+    ],
+    "Z8 2002 - 2003": [
+      "5.0 V8 400hp (294kW) 500Nm"
+    ],
+    "i8 2014 ->": [
+      "i8 362hp (266kW) 570Nm",
+      "i8 374hp (275kW) 570Nm"
+    ]
+  },
+  "Bentley": {
+    "Bentayga 2016 - 2019": [
+      "4.0 V8 Bi-Turbo 550hp (404kW) 770Nm",
+      "6.0 W12 Bi-Turbo 608hp (447kW) 900Nm",
+      "S 4.0 V8 TDI 435hp (320kW) 900Nm"
+    ],
+    "Bentayga 2020 ->": [
+      "3.0T V6 Hybrid 449hp (kW) Nm",
+      "4.0 V8 Bi-Turbo 550hp (404kW) 770Nm"
+    ],
+    "Continental Flying Spur -> 2016": [
+      "4.0 TFSI V8 507hp (373kW) 660Nm",
+      "6.0 W12 Bi-Turbo 560hp (412kW) 650Nm",
+      "6.0 W12 Bi-Turbo 610hp (449kW) 750Nm",
+      "6.0 W12 Bi-Turbo 625hp (460kW) 800Nm"
+    ],
+    "Continental Flying Spur 2016 - 2019": [
+      "4.0 V8 S 528hp (388kW) 680Nm",
+      "6.0 TSI W12 625hp (460kW) 800Nm",
+      "6.0 TSI W12 635hp (467kW) 820Nm"
+    ],
+    "Continental Flying Spur 2019 ->": [
+      "4.0 Bi-Turbo V8 550hp (kW) Nm",
+      "6.0 TSI W12 635hp (kW) Nm"
+    ],
+    "Continental GT Speed All": [
+      "6.0 W12 Bi-Turbo 635hp (467kW) 820Nm",
+      "6.0 W12 Bi-Turbo 659hp (kW) Nm"
+    ],
+    "Continental GT/S 2011 - 2016": [
+      "4.0 TFSi V8 507hp (373kW) 660Nm",
+      "4.0 TFSi V8 S 528hp (388kW) 680Nm",
+      "6.0 W12 Bi-Turbo 575hp (423kW) 700Nm",
+      "6.0 W12 Bi-Turbo 625hp (460kW) 800Nm",
+      "6.0 W12 Bi-Turbo 635hp (467kW) 820Nm"
+    ],
+    "Continental GT/S 2017 ->": [
+      "6.0 TSI W12 626hp (460kW) 900Nm"
+    ],
+    "Continental GT3-R All": [
+      "4.0 TFSI V8 580hp (426kW) 700Nm"
+    ],
+    "Continental GTC All": [
+      "4.0 TFSI V8 507hp (373kW) 660Nm",
+      "4.0 TFSI V8 550hp (404kW) 770Nm",
+      "4.0 TFSI V8 S 528hp (388kW) 680Nm",
+      "6.0 W12 Bi-Turbo 560hp (412kW) 650Nm",
+      "6.0 W12 Bi-Turbo 610hp (449kW) 750Nm",
+      "6.0 W12 Bi-Turbo 630hp (463kW) 800Nm"
+    ],
+    "Mulsanne -> 2016": [
+      "6.75 V8 Bi-Turbo 537hp (395kW) 1100Nm"
+    ]
+  },
+  "Buick": {
+    "Cascada 2016 ->": [
+      "1.6 Turbo 200hp (147kW) 280Nm"
+    ],
+    "Century 1998 - 2005": [
+      "3.1 V6 160hp (118kW) 251Nm",
+      "3.1 V6 175hp (129kW) 251Nm"
+    ],
+    "Enclave 2008 - 2009": [
+      "3.6 V6 275hp (202kW) 366Nm",
+      "3.6 V6 288hp (212kW) 366Nm"
+    ],
+    "Enclave 2014 - 2020": [
+      "3.6 V6 288hp (212kW) 366Nm",
+      "3.6 V6 310hp (228kW) 361Nm"
+    ],
+    "Enclave 2021 -> ...": [
+      "3.6 V6 310hp (kW) Nm"
+    ],
+    "Encore 2012 - 2016": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.7 CDTi 130hp (96kW) 300Nm"
+    ],
+    "Encore 2016 - 2018": [
+      "1.4 Turbo 152hp (112kW) 235Nm",
+      "1.6 CDTi 110hp (81kW) 300Nm",
+      "1.6 CDTi 136hp (100kW) 320Nm"
+    ],
+    "Envision 2015 - 2017": [
+      "2.0 Turbo 252hp (185kW) 353Nm"
+    ],
+    "Envision 2018 ->": [
+      "1.5 Turbo 165hp (121kW) 250Nm",
+      "2.0 Turbo 252hp (185kW) 400Nm"
+    ],
+    "Envision Plus 2021 -> ...": [
+      "2.0T 237hp (kW) Nm"
+    ],
+    "Excelle GT All": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 Turbo 181hp (133kW) 235Nm",
+      "1.6i 121hp (89kW) 150Nm",
+      "1.8 ECOTEC 146hp (107kW) 177Nm"
+    ],
+    "GL8 All": [
+      "2.0T 260hp (191kW) 400Nm",
+      "2.4i 184hp (135kW) 233Nm",
+      "3.0 V6 254hp (187kW) 290Nm"
+    ],
+    "Lacrosse 2005 - 2009": [
+      "3.6 V6 240hp (176kW) 311Nm",
+      "3.8 V6 200hp (147kW) 312Nm",
+      "5.3 V8 300hp (221kW) 438Nm"
+    ],
+    "Lacrosse 2010 - 2016": [
+      "2.4i - 182hp (134kW) 233Nm",
+      "3.6 V6 240hp (176kW) 305Nm"
+    ],
+    "Lacrosse 2017 ->": [
+      "1.5 Turbo 170hp (125kW) 252Nm",
+      "2.0 Turbo 262hp (193kW) 350Nm",
+      "3.6 V6 310hp (228kW) 363Nm"
+    ],
+    "Lesabre 1997 - 2005": [
+      "3.8 V6 205hp (151kW) 310Nm"
+    ],
+    "Lucerne 2006 - 2009": [
+      "4.6 V8 275hp (202kW) 400Nm"
+    ],
+    "Park Avenue 1999 - 2005": [
+      "3.8 V6 240hp (176kW) 380Nm"
+    ],
+    "Rainier 2004 - 2007": [
+      "4.2 V8 279hp (205kW) 373Nm",
+      "5.3 V8 294hp (216kW) 441Nm",
+      "5.3 V8 304hp (224kW) 447Nm"
+    ],
+    "Regal 2010 ->": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 Turbo 180hp (132kW) 230Nm",
+      "2.0 Turbo 220hp (162kW) 350Nm",
+      "2.0 Turbo 255hp (188kW) 400Nm",
+      "2.0 Turbo 270hp (199kW) 400Nm",
+      "3.8 V6 240hp (176kW) 280Nm"
+    ],
+    "Rendezvous 2003 - 2005": [
+      "3.4 V6 185hp (136kW) 285Nm",
+      "3.5 V6 198hp (146kW) 289Nm"
+    ],
+    "Rendezvous 2005 ->": [
+      "3.6 V6 246hp (181kW) 314Nm"
+    ],
+    "Terraza -> 2007": [
+      "3.9 V6 240hp (176kW) 332Nm"
+    ],
+    "Verano 2013 - 2017": [
+      "1.5 Turbo 163hp (120kW) 250Nm",
+      "2.0 Turbo 250hp (184kW) 353Nm",
+      "2.4i 180hp (132kW) 232Nm"
+    ]
+  },
+  "Cadillac": {
+    "ATS 2013 ->": [
+      "2.0 Turbo 276hp (203kW) 353Nm",
+      "2.5i - 202hp (149kW) 259Nm",
+      "3.6 V6 321hp (236kW) 358Nm",
+      "3.6 V6 335hp (246kW) 386Nm",
+      "3.6 V6 480hp (353kW) 600Nm"
+    ],
+    "BLS 2006 - 2010": [
+      "1.9D 150hp (110kW) 320Nm",
+      "1.9D 180hp (132kW) 400Nm",
+      "2.0T 175hp (129kW) 265Nm",
+      "2.0T 210hp (154kW) 300Nm"
+    ],
+    "CT4 2020 ->": [
+      "-V 2.7T 330hp (kW) Nm",
+      "2.0T 240hp (kW) Nm",
+      "2.7T 309hp (kW) Nm"
+    ],
+    "CT5 2020 ->": [
+      "-V 3.0 Twin Turbo 335hp (kW) Nm",
+      "2.0T 240hp (kW) Nm"
+    ],
+    "CT6 2016 - 2019": [
+      "2.0T 269hp (198kW) 400Nm",
+      "3.0 V6 340hp (250kW) 385Nm",
+      "3.0T V6 409hp (301kW) 542Nm"
+    ],
+    "CTS 2002 - 2007": [
+      "2.8 V6 215hp (158kW) 262Nm",
+      "3.2 V6 24V 223hp (164kW) 298Nm",
+      "3.6 V6 257hp (189kW) 340Nm",
+      "5.7 V8 405hp (298kW) 533Nm",
+      "6.0 V8 405hp (298kW) 536Nm"
+    ],
+    "CTS 2008 - 2013": [
+      "2.0T 272hp (kW) Nm"
+    ],
+    "CTS 2014 ->": [
+      "2.0 Turbo 272hp (200kW) 350Nm",
+      "3.6 V6 325hp (239kW) 373Nm",
+      "3.6 V6 340hp (250kW) 386Nm",
+      "3.6 V6 426hp (313kW) 583Nm"
+    ],
+    "DTS 2006 - 2009": [
+      "3.6 V6 275hp (202kW) 400Nm"
+    ],
+    "Escalade 2002 - 2006": [
+      "5.3 V8 295hp (217kW) 454Nm",
+      "6.0 V8 345hp (254kW) 515Nm"
+    ],
+    "Escalade 2007 - 2013": [
+      "6.2 V8 403hp (296kW) 565Nm"
+    ],
+    "Escalade 2014 - 2019": [
+      "6.2 V8 420hp (309kW) 623Nm"
+    ],
+    "SLS -> 2012": [
+      "2.0 Turbo 270hp (199kW) 360Nm"
+    ],
+    "SRX 2004 - 2009": [
+      "2.0T 272hp (kW) Nm"
+    ],
+    "SRX 2010 - 2016": [
+      "3.0 V6 265hp (195kW) 302Nm",
+      "3.6 V6 308hp (226kW) 359Nm"
+    ],
+    "STS 2006 - 2010": [
+      "3.6 V6 255hp (188kW) 342Nm",
+      "4.4 V8 469hp (345kW) 595Nm",
+      "4.6 V8 320hp (235kW) 427Nm"
+    ],
+    "Seville All": [
+      "4.6 STS 305hp (224kW) 400Nm"
+    ],
+    "XLR 2006 - 2009": [
+      "4.4 Supercharged V8 443hp (326kW) 561Nm",
+      "4.6 V8 326hp (240kW) 423Nm"
+    ],
+    "XT4 2019 ->": [
+      "2.0 Turbo 240hp (kW) Nm"
+    ],
+    "XT5 2017 - 2019": [
+      "2.0T 261hp (192kW) 400Nm",
+      "3.6 V6 310hp (228kW) 367Nm"
+    ],
+    "XT5 2020 ->": [
+      "2.0T 272hp (kW) Nm"
+    ],
+    "XTS 2013 - 2016": [
+      "3.6 V6 304hp (224kW) 358Nm",
+      "3.6 V6 Twin Turbo 420hp (309kW) 583Nm"
+    ]
+  },
+  "Case": {
+    "AF All": [
+      "2377 8.3 CR 269hp (198kW) 1Nm",
+      "2377 8.3 Capspump 269hp (198kW) 1Nm",
+      "2388 8.3 CR 299hp (220kW) 1Nm",
+      "2388 8.3 Capspump 299hp (220kW) 1Nm",
+      "2577 8.3 CR 269hp (198kW) 1Nm",
+      "2577 8.3 Capspump 269hp (198kW) 1Nm",
+      "2588 8.3 CR 309hp (227kW) 1Nm",
+      "2588 8.3 Capspump 309hp (227kW) 1Nm",
+      "5088 8.3 CR 294hp (216kW) 1Nm",
+      "5130 6.7 Tier 4A 269hp (198kW) 1Nm",
+      "5140 6.7 Tier 4 312hp (229kW) 1Nm",
+      "6088 8.3 CR 355hp (261kW) 1Nm",
+      "6130 8.7 Tier 4A 325hp (239kW) 1Nm",
+      "6140 8.7 Tier 4 400hp (294kW) 1Nm",
+      "7010 9.0 FPT 355hp (261kW) 1Nm",
+      "7120 9.0 FPT 442hp (325kW) 1Nm",
+      "7130 8.7 Tier 4 449hp (330kW) 1Nm",
+      "7140 8.7 Tier 4A 354hp (260kW) 1Nm",
+      "7230 8.7 Tier 4A 386hp (284kW) 1Nm",
+      "7240 11.1 Tier 4 498hp (366kW) 1Nm",
+      "8010 10.3 412hp (303kW) 1Nm",
+      "8120 10.3 469hp (345kW) 1Nm",
+      "8230 12.9 Tier 4A 516hp (379kW) 1Nm",
+      "8240 12.9 Tier 4 571hp (420kW) 1Nm",
+      "9010 12.9 632hp (465kW) 1Nm",
+      "9120 12.9 529hp (389kW) 1Nm",
+      "9230 12.9 Tier 4A 506hp (372kW) 1Nm",
+      "9240 15.9 Tier 4 634hp (466kW) 1Nm"
+    ],
+    "AFX All": [
+      "4130 6.7 Tier 4A 250hp (184kW) 1Nm",
+      "5130 6.7 Tier 4A 268hp (197kW) 1Nm",
+      "5140 6.7 Tier 4A 275hp (202kW) 1Nm",
+      "6130 8.7 Tier 4B 320hp (235kW) 1Nm",
+      "6140 8.7 Tier 4A 355hp (261kW) 1Nm",
+      "7130 8.7 Tier 3 373hp (274kW) 1Nm",
+      "7140 8.7 Tier 4B 382hp (281kW) 1Nm",
+      "7240 11.1 Tier 4B 490hp (360kW) 1Nm",
+      "8240 12.9 Tier 4B 563hp (414kW) 1Nm",
+      "9240 15.9 Tier 4B 644hp (474kW) 1Nm"
+    ],
+    "CPX All": [
+      "420 8.3 264hp (194kW) 1Nm",
+      "620 8.3 345hp (kW) Nm"
+    ],
+    "CVX All": [
+      "1135 6.6 137hp (101kW) 570Nm",
+      "1145 6.6 147hp (108kW) 610Nm",
+      "1155 6.6 156hp (115kW) 660Nm",
+      "1170 6.6 171hp (126kW) 725Nm",
+      "1190 6.6 192hp (141kW) 790Nm",
+      "1195 6.6 196hp (144kW) 792Nm",
+      "140 6.6 141hp (104kW) 585Nm",
+      "150 6.6 151hp (111kW) 630Nm",
+      "160 6.6 160hp (118kW) 675Nm",
+      "175 6.6 175hp (129kW) 745Nm",
+      "195 6.6 196hp (144kW) 800Nm"
+    ],
+    "Dorado All": [
+      "F S75 70hp (51kW) 257Nm"
+    ],
+    "Farmall All": [
+      "105A 3.4 Tier 4A 106hp (78kW) 444Nm",
+      "105C 3.4 Tier 4A 106hp (78kW) 425Nm",
+      "105U 3.4 Tier 4A 106hp (78kW) 425Nm",
+      "110C 3.4 Tier 4B 107hp (79kW) 1Nm",
+      "115A 3.4 Tier 4A 113hp (83kW) 457Nm",
+      "115C 3.4 Tier 4A 113hp (83kW) 450Nm",
+      "115U 3.4 Tier 4A 113hp (83kW) 450Nm",
+      "120C 3.4 Tier 4B 117hp (86kW) 1Nm",
+      "75 3.4 Tier 4A 72hp (53kW) 292Nm",
+      "85A 3.4 Tier 4A 86hp (63kW) 351Nm",
+      "85C 3.4 Tier 4A 82hp (60kW) 328Nm",
+      "95A 3.4 Tier 4A 99hp (73kW) 407Nm",
+      "95C 3.4 Tier 4A 95hp (70kW) 390Nm",
+      "A65 2.9 65hp (48kW) 261Nm",
+      "C55 3.2 55hp (40kW) 221Nm",
+      "C65 3.2 64hp (47kW) 260Nm",
+      "C75 3.2 75hp (55kW) 310Nm",
+      "U106 3.4 107hp (79kW) 444Nm",
+      "U115 3.4 114hp (84kW) 461Nm",
+      "U95 3.4 99hp (73kW) 407Nm"
+    ],
+    "Farmlift All": [
+      "525 3.3 Tier 3 74hp (54kW) 261Nm",
+      "632 4.5 Tier 3 110hp (81kW) 498Nm",
+      "635 4.5 Tier 3 129hp (95kW) 590Nm",
+      "735 4.5 Tier 3 110hp (81kW) 590Nm",
+      "742 4.5 Tier 3 129hp (95kW) 590Nm",
+      "935 4.5 Tier 3 110hp (81kW) 498Nm"
+    ],
+    "Luxxum All": [
+      "100 3.4 Tier 4A 114hp (84kW) 491Nm",
+      "110 3.4 Tier 4A 107hp (79kW) 468Nm",
+      "120 3.4 Tier 4A 99hp (73kW) 430Nm"
+    ],
+    "MX All": [
+      "255 8.3 261hp (192kW) 1287Nm",
+      "270 8.3 279hp (205kW) 1258Nm",
+      "285 8.3 287HP (211kW) 1410Nm"
+    ],
+    "MXM All": [
+      "170 7.5 175hp (129kW) 790Nm",
+      "175 7.5 177hp (130kW) 790Nm",
+      "190 7.5 170hp (125kW) 650Nm"
+    ],
+    "MXU All": [
+      "110 4.5 116hp (85kW) 520Nm",
+      "125 6.7 125hp (92kW) 566Nm",
+      "135 6.7 136hp (100kW) 612Nm"
+    ],
+    "Magnum All": [
+      "180 6.7 FPT Tier 4B 182hp (134kW) 1Nm",
+      "180 6.7 Tier 4A 135hp (99kW) 1Nm",
+      "190 6.7 Tier 4A 197hp (145kW) 1Nm",
+      "210 6.7 Tier 4A 212hp (156kW) 1Nm",
+      "215 8.3 CR 178hp (131kW) 1740Nm",
+      "225 6.7 Tier 4A 224hp (165kW) 1117Nm",
+      "225 8.3 CR 224hp (165kW) 1117Nm",
+      "235 8.7 Tier 4A 235hp (173kW) 1157Nm",
+      "245 8.3 CR 245hp (180kW) 2002Nm",
+      "250 8.3 CR 252hp (185kW) 1271Nm",
+      "260 8.7 Tier 4A 257hp (189kW) 1267Nm",
+      "275 8.3 CR 275hp (202kW) 2226Nm",
+      "280 8.3 CR 279hp (205kW) 1395Nm",
+      "290 8.7 Tier 4A 284hp (209kW) 1397Nm",
+      "315 8.7 Tier 4A 311hp (229kW) 1531Nm",
+      "340 8.7 Tier 4A 340hp (250kW) 1671Nm"
+    ],
+    "Magnum CVT/CVX All": [
+      "200 6.7 Tier 4B 203hp (149kW) 1Nm",
+      "220 6.7 Tier 4B 220hp (162kW) 1Nm",
+      "240 6.7 Tier 4B 243hp (179kW) 1Nm",
+      "250 8.7 Tier 4B 250hp (184kW) 1229Nm",
+      "280 8.7 Tier 4B 280hp (206kW) 1381Nm",
+      "310 8.7 Tier 4B 311hp (229kW) 1531Nm",
+      "340 8.7 Tier 4B 340hp (250kW) 1671Nm",
+      "380 8.7 Tier 4B 379hp (279kW) 1850Nm"
+    ],
+    "Maxxum All": [
+      "110 4.5 Tier 3 112hp (82kW) 520Nm",
+      "115 4.5 Tier 4B 129hp (95kW) 1Nm",
+      "115 6.7 Tier 4A 117hp (86kW) 1Nm",
+      "120 4.5 Tier 4A 121hp (89kW) 1Nm",
+      "125 4.5 Tier 4B 138hp (101kW) 1Nm",
+      "125 6.7 Tier 4A 125hp (92kW) 682Nm",
+      "130 4.5 Tier 4A 130hp (96kW) 1Nm",
+      "135 4.5 Tier 4A 135hp (99kW) 605Nm",
+      "140 6.7 Tier 4A 141hp (104kW) 613Nm",
+      "145 4.5 Tier 4A 145hp (107kW) 650Nm",
+      "145 4.5 Tier 4B 158hp (116kW) 1Nm",
+      "150 6.7 Tier 4B 145hp (107kW) 1Nm",
+      "CVX 125 4.5 Tier 4B 142hp (104kW) 1Nm",
+      "CVX 135 4.5 Tier 4B 152hp (112kW) 1Nm"
+    ],
+    "Optum All": [
+      "270 6.7 CVX Tier 4B 271hp (199kW) 1194Nm",
+      "300 6.5 CVX Tier 4B 300hp (221kW) 1282Nm"
+    ],
+    "Patriot All": [
+      "2240 6.7 Tier 3 162hp (119kW) 1Nm",
+      "2240 6.7 Tier 4A 162hp (119kW) 1Nm",
+      "2250 6.7 Tier 4B 176hp (129kW) 1Nm",
+      "3230 6.7 Tier 3 223hp (164kW) 1020Nm",
+      "3240 6.7 Tier 4B 254hp (187kW) 1Nm",
+      "3320 6.7 Tier 3 249hp (183kW) 1Nm",
+      "3330 6.7 Tier 3 253hp (186kW) 1070Nm",
+      "3340 6.7 Tier 4B 228hp (168kW) 1Nm",
+      "4420 8.3 Tier 3 294hp (216kW) 1383Nm",
+      "4430 8.7 Tier 4A 330hp (243kW) 1470Nm",
+      "4440 8.7 Tier 4B 335hp (246kW) 1Nm"
+    ],
+    "Puma All": [
+      "125 6.7 127hp (93kW) 590Nm",
+      "130 6.7 Tier 4A 131hp (96kW) 631Nm",
+      "140 6.7 142hp (104kW) 640Nm",
+      "145 6.7 Tier 4A 146hp (107kW) 698Nm",
+      "150 6.7 Tier 4B 150hp (110kW) 700Nm",
+      "155 6.7 160hp (118kW) 690Nm",
+      "160 6.7 Tier 4A 160hp (118kW) 767Nm",
+      "165 6.7 167hp (123kW) 770Nm",
+      "165 6.7 Tier 4B 165hp (121kW) 770Nm",
+      "170 6.7 Tier 4A 167hp (123kW) 825Nm",
+      "175 6.7 Tier 4A 205hp (151kW) 770Nm",
+      "180 6.7 182hp (134kW) 840Nm",
+      "185 6.7 Tier 4A 184hp (135kW) 862Nm",
+      "185 6.7 Tier 4B 180hp (132kW) 840Nm",
+      "195 6.7 197hp (145kW) 860Nm",
+      "200 6.7 Tier 4A 200hp (147kW) 927Nm",
+      "200 6.7 Tier 4B 200hp (147kW) 930Nm",
+      "210 6.7 213hp (157kW) 860Nm",
+      "215 6.7 Tier 4A 214hp (157kW) 995Nm",
+      "220 6.7 Tier 4B 220hp (162kW) 1000Nm",
+      "225 6.7 224hp (165kW) 950Nm",
+      "230 6.7 Tier 4A 227hp (167kW) 1089Nm",
+      "240 6.7 Tier 4B 240hp (176kW) 1100Nm"
+    ],
+    "Quadtrac All": [
+      "385 12.9 Tier 4A 385hp (283kW) 1Nm",
+      "420 12.9 Tier 4B 420hp (309kW) 1Nm",
+      "435 12.9 Tier 4A 435hp (320kW) 1Nm",
+      "500 12.9 Tier 4A 500hp (368kW) 1Nm",
+      "540 12.9 Tier 4B 542hp (399kW) 1Nm",
+      "550 12.9 Tier 4A 595hp (437kW) 1Nm",
+      "580 12.9 Tier 4B 626hp (460kW) 1Nm",
+      "600 12.9 Tier 4A 646hp (475kW) 1Nm",
+      "620 12.9 Tier 4B 666hp (490kW) 1Nm"
+    ],
+    "Quantum All": [
+      "105F 4.5 Tier 3B 106hp (78kW) 425Nm",
+      "105N 4.5 Tier 3B 106hp (78kW) 425Nm",
+      "105V 4.5 Tier 3B 106hp (78kW) 425Nm",
+      "65V 3.2 Tier 3B 65hp (48kW) 290Nm",
+      "75F 3.2 Tier 3B 78hp (57kW) 330Nm",
+      "75N 3.2 Tier 3B 78hp (57kW) 330Nm",
+      "75V 3.2 Tier 3B 78hp (57kW) 330Nm",
+      "85F 3.2 Tier 3B 88hp (65kW) 352Nm",
+      "85V 3.2 Tier 3B 88hp (65kW) 352Nm",
+      "95F 4.5 Tier 3B 97hp (71kW) 398Nm",
+      "95N 4.5 Tier 3B 97hp (71kW) 398Nm",
+      "95V 4.5 Tier 3B 97hp (71kW) 398Nm"
+    ],
+    "STX All": [
+      "380 12.9 388hp (285kW) 1Nm",
+      "385 12.9 389hp (286kW) 1Nm",
+      "425 14.9 431hp (317kW) 2162Nm",
+      "435 12.9 441hp (324kW) 1Nm",
+      "450 14.9 457hp (336kW) 2263Nm",
+      "480 14.9 492hp (362kW) 2000Nm",
+      "485 12.9 491hp (361kW) 1Nm",
+      "530 14.9 543hp (399kW) 2000Nm",
+      "535 14.9 543hp (399kW) 1Nm"
+    ],
+    "Steiger All": [
+      "350 8.7 Tier 4A 350hp (257kW) 1Nm",
+      "370 8.7 Tier 4B 374hp (275kW) 1Nm",
+      "380 12.9 Tier 4A 388hp (285kW) 1Nm",
+      "385 12.9 Tier 4A 389hp (286kW) 1Nm",
+      "400 12.9 Tier 4A 400hp (294kW) 1Nm",
+      "420 12.9 Tier 4B 425hp (313kW) 1Nm",
+      "435 12.9 Tier 4A 441hp (324kW) 1Nm",
+      "450 12.9 Tier 4A 449hp (330kW) 1Nm",
+      "470 12.9 Tier 4A 476hp (350kW) 1Nm",
+      "485 12.9 Tier 4A 491hp (361kW) 1Nm",
+      "500 12.9 Tier 4A 500hp (368kW) 1Nm",
+      "500 12.9 Tier 4B 500hp (368kW) 1Nm",
+      "540 12.9 Tier 4B 543hp (399kW) 1Nm",
+      "550 12.9 Tier 4A 555hp (408kW) 1Nm",
+      "580 12.9 Tier 4B 589hp (433kW) 1Nm",
+      "600 12.9 Tier 4B 608hp (447kW) 1Nm",
+      "620 12.9 Tier 4B 628hp (462kW) 1Nm"
+    ],
+    "Titan All": [
+      "4530 8.7 Tier 4A 400hp (294kW) 1Nm",
+      "4540 8.7 Tier 4B 410hp (301kW) 1Nm"
+    ]
+  },
+  "Caterpillar": {
+    "3126B All": [
+      "7.2 - 193hp (142kW) 705Nm",
+      "7.2 - 214hp (157kW) 705Nm",
+      "7.2 - 214hp (157kW) 820Nm",
+      "7.2 - 234hp (172kW) 832Nm",
+      "7.2 - 234hp (172kW) 895Nm",
+      "7.2 - 253hp (186kW) 1085Nm",
+      "7.2 - 253hp (186kW) 895Nm",
+      "7.2 - 279hp (205kW) 1085Nm",
+      "7.2 - 279hp (205kW) 1166Nm",
+      "7.2 - 305hp (224kW) 1085Nm",
+      "7.2 - 305hp (224kW) 1166Nm",
+      "7.2 - 335hp (246kW) 1166Nm"
+    ],
+    "3126E All": [
+      "7.2 - 193hp (142kW) 705Nm",
+      "7.2 - 193hp (142kW) 820Nm",
+      "7.2 - 214hp (157kW) 705Nm",
+      "7.2 - 214hp (157kW) 821Nm",
+      "7.2 - 234hp (172kW) 732Nm",
+      "7.2 - 234hp (172kW) 896Nm",
+      "7.2 - 253hp (186kW) 1086Nm",
+      "7.2 - 253hp (186kW) 895Nm",
+      "7.2 - 279hp (205kW) 1085Nm",
+      "7.2 - 279hp (205kW) 1167Nm",
+      "7.2 - 305hp (224kW) 1085Nm",
+      "7.2 - 305hp (224kW) 1167Nm",
+      "7.2 - 335hp (246kW) 1167Nm"
+    ],
+    "3406E All": [
+      "14.6 - 360hp (265kW) 1836Nm",
+      "14.6 - 360hp (265kW) 1972Nm",
+      "14.6 - 381hp (280kW) 1972Nm",
+      "14.6 - 381hp (280kW) 2108Nm",
+      "14.6 - 441hp (324kW) 2108Nm",
+      "14.6 - 441hp (324kW) 2244Nm",
+      "14.6 - 441hp (324kW) 2380Nm",
+      "14.6 - 481hp (354kW) 2244Nm",
+      "14.6 - 481hp (354kW) 2380Nm",
+      "14.6 - 481hp (354kW) 2516Nm",
+      "14.6 - 507hp (373kW) 2380Nm",
+      "14.6 - 507hp (373kW) 2516Nm",
+      "14.6 - 558hp (410kW) 2516Nm"
+    ],
+    "C10OHE All": [
+      "10.3 - 305hp (224kW) 1050Nm",
+      "10.3 - 305hp (224kW) 1250Nm"
+    ],
+    "C11OHE All": [
+      "11.1 - 310hp (228kW) 1424Nm",
+      "11.1 - 340hp (250kW) 1695Nm",
+      "11.1 - 355hp (261kW) 1830Nm",
+      "11.1 - 355hp (261kW) 1966Nm",
+      "11.1 - 375hp (276kW) 1830Nm",
+      "11.1 - 375hp (276kW) 1966Nm"
+    ],
+    "C12OHE All": [
+      "12.0 - 335hp (246kW) 1350Nm",
+      "12.0 - 355hp (261kW) 1350Nm",
+      "12.0 - 379hp (279kW) 1450Nm",
+      "12.0 - 409hp (301kW) 1450Nm",
+      "12.0 - 426hp (313kW) 1550Nm",
+      "12.0 - 430hp (316kW) 1550Nm",
+      "12.0 - 456hp (335kW) 1550Nm",
+      "12.0 - 505hp (371kW) 1550Nm"
+    ],
+    "C13OHE All": [
+      "12.5 - 340hp (250kW) 2102Nm",
+      "12.5 - 385hp (283kW) 1966Nm",
+      "12.5 - 416hp (306kW) 1966Nm",
+      "12.5 - 437hp (321kW) 2102Nm",
+      "12.5 - 437hp (321kW) 2237Nm",
+      "12.5 - 437hp (321kW) 2373Nm",
+      "12.5 - 476hp (350kW) 2102Nm",
+      "12.5 - 476hp (350kW) 2237Nm",
+      "12.5 - 492hp (362kW) 2237Nm",
+      "12.5 DPF - 309hp (227kW) 1559Nm",
+      "12.5 DPF - 340hp (250kW) 1695Nm",
+      "12.5 DPF - 355hp (261kW) 1830Nm",
+      "12.5 DPF - 375hp (276kW) 1830Nm",
+      "12.5 DPF - 385hp (283kW) 1966Nm",
+      "12.5 DPF - 416hp (306kW) 1966Nm",
+      "12.5 DPF - 428hp (315kW) 2237Nm",
+      "12.5 DPF - 437hp (321kW) 2102Nm",
+      "12.5 DPF - 476hp (350kW) 2102Nm",
+      "12.5 DPF - 492hp (362kW) 2237Nm",
+      "12.5 DPF - 532hp (391kW) 2373Nm"
+    ],
+    "C15OHE All": [
+      "14.6 - 435hp (320kW) 1550Nm",
+      "14.6 - 475hp (349kW) 1650Nm",
+      "14.6 - 500hp (368kW) 1650Nm",
+      "14.6 - 514hp (378kW) 1850Nm",
+      "14.6 - 515hp (379kW) 1650Nm",
+      "14.6 - 525hp (386kW) 1850Nm",
+      "15.2 Acert - 441hp (324kW) 2102Nm",
+      "15.2 Acert - 441hp (324kW) 3473Nm",
+      "15.2 Acert - 481hp (354kW) 2238Nm",
+      "15.2 Acert - 481hp (354kW) 2509Nm",
+      "15.2 Acert - 507hp (373kW) 2238Nm",
+      "15.2 Acert - 507hp (373kW) 2509Nm",
+      "15.2 Acert - 608hp (447kW) 2509Nm",
+      "15.2 Acert 558hp (410kW) 2509Nm",
+      "15.2 DPF - 608hp (447kW) 2509Nm",
+      "15.2 DPF - 634hp (466kW) 2779Nm"
+    ],
+    "C16OHE All": [
+      "15.8 - 582hp (428kW) 1850Nm",
+      "15.8 - 609hp (448kW) 2050Nm"
+    ],
+    "C4 All": [
+      "TH336 Acert - 128hp (94kW) 499Nm",
+      "TH337 Acert 128hp (94kW) 499Nm",
+      "TH406 Acert - 128hp (94kW) 499Nm",
+      "TH407 Acert - 128hp (94kW) 499Nm"
+    ],
+    "C7OHE All": [
+      "7.2 Acert - 193hp (142kW) 705Nm",
+      "7.2 Acert - 214hp (157kW) 820Nm",
+      "7.2 Acert - 234hp (172kW) 732Nm",
+      "7.2 Acert - 234hp (172kW) 895Nm",
+      "7.2 Acert - 253hp (186kW) 1085Nm",
+      "7.2 Acert - 279hp (205kW) 1085Nm",
+      "7.2 Acert - 305hp (224kW) 1085Nm",
+      "7.2 Acert - 335hp (246kW) 1166Nm",
+      "7.2 DPF - 193hp (142kW) 705Nm",
+      "7.2 DPF - 214hp (157kW) 705Nm",
+      "7.2 DPF - 234hp (172kW) 759Nm",
+      "7.2 DPF - 253hp (186kW) 1085Nm",
+      "7.2 DPF - 279hp (205kW) 1085Nm",
+      "7.2 DPF - 335hp (246kW) 1166Nm",
+      "7.2 DPF - 355hp (261kW) 1166Nm",
+      "7.2 DPF 305hp (224kW) 1166Nm"
+    ],
+    "C9OHE All": [
+      "8.8 Acert - 219hp (161kW) 1496Nm",
+      "8.8 Acert - 340hp (250kW) 1428Nm",
+      "8.8 Acert - 356hp (262kW) 1562Nm",
+      "9.3 DPF - 290hp (213kW) 1206Nm",
+      "9.3 DPF - 340hp (250kW) 1559Nm",
+      "9.3 DPF - 355hp (261kW) 1695Nm",
+      "9.3 DPF - 370hp (272kW) 1695Nm",
+      "9.3 DPF - 409hp (301kW) 1695Nm",
+      "9.3 DPF - 431hp (317kW) 1695Nm"
+    ]
+  },
+  "Challenger": {
+    "1000 Series All": [
+      "1038 12.4 - 396hp (291kW) 1Nm",
+      "1042 12.4 - 435hp (320kW) 1Nm",
+      "1046 12.4 - 476hp (350kW) 1Nm",
+      "1050 12.4 - 517hp (380kW) 1Nm"
+    ],
+    "600 Series All": [
+      "660B 8.4 - 303hp (223kW) 1Nm",
+      "670B 8.4 - 355hp (261kW) 1Nm",
+      "680B 12.5 - 431hp (317kW) 1Nm"
+    ],
+    "MT All": [
+      "425 - 67hp (49kW) 1Nm",
+      "445 - 78hp (57kW) 1Nm",
+      "455 - 88hp (65kW) 1Nm",
+      "455D - 110hp (81kW) 1Nm",
+      "455E 4.9 - 110hp (81kW) 1Nm",
+      "465 - 99hp (73kW) 1Nm",
+      "465D - 120hp (88kW) 1Nm",
+      "465E 4.9 - 115hp (85kW) 1Nm",
+      "475B 4.9 - 140hp (103kW) 1Nm",
+      "475D - 130hp (96kW) 1Nm",
+      "475E 4.9 - 130hp (96kW) 1Nm",
+      "485D - 135hp (99kW) 1Nm",
+      "485D - 140hp (103kW) 1Nm",
+      "485E 4.9 - 140hp (103kW) 1Nm",
+      "495D - 150hp (110kW) 1Nm",
+      "495E 4.9 - 150hp (110kW) 1Nm",
+      "515D 6.6 - 120hp (88kW) 1Nm",
+      "525B 6.6 - 132hp (97kW) 1Nm",
+      "525D 6.6 - 130hp (96kW) 1Nm",
+      "535D 6.6 - 150hp (110kW) 1Nm",
+      "545D 6.6 - 165hp (121kW) 1Nm",
+      "555D 6.6 - 170hp (125kW) 1Nm",
+      "565D 6.6 - 180hp (132kW) 1Nm",
+      "575D 6.6 - 200hp (147kW) 1Nm",
+      "585D 7.4 - 220hp (162kW) 1Nm",
+      "595D 7.4 - 240hp (176kW) 1Nm",
+      "645 - 275hp (202kW) 1185Nm",
+      "645D 8.4 - 240hp (176kW) 1Nm",
+      "645E 8.4 - 270hp (199kW) 1Nm",
+      "655 - 301hp (221kW) 1295Nm",
+      "655C 8.4 - 264hp (194kW) 1Nm",
+      "655E 8.4 - 295hp (217kW) 1Nm",
+      "665 - 327hp (240kW) 1400Nm",
+      "665C 8.4 - 290hp (213kW) 1Nm",
+      "665E 8.4 - 320hp (235kW) 1Nm",
+      "675 - 357hp (263kW) 1492Nm",
+      "675C 8.4 - 320hp (235kW) 1Nm",
+      "675E 8.4 - 350hp (257kW) 1Nm",
+      "685 - 377hp (277kW) 1540Nm",
+      "685C 8.4 - 340hp (250kW) 1Nm",
+      "685E 8.4 - 370hp (272kW) 1Nm",
+      "745 - 272hp (200kW) 1Nm",
+      "745D 8.4 - 306hp (225kW) 1Nm",
+      "755 - 305hp (224kW) 1Nm",
+      "755E - 355hp (261kW) 1Nm",
+      "765 - 324hp (238kW) 1Nm",
+      "765E - 381hp (280kW) 1Nm",
+      "775E - 405hp (298kW) 1Nm",
+      "845E - 457hp (336kW) 1Nm",
+      "855E - 496hp (365kW) 1Nm",
+      "865C C18 Acert - 525hp (386kW) 1Nm",
+      "865E - 548hp (403kW) 1Nm",
+      "875C C18 Acert - 585hp (430kW) 1Nm",
+      "875E - 598hp (440kW) 1Nm",
+      "945C C15 Acert - 440hp (324kW) 1Nm",
+      "955C C15 Acert - 475hp (349kW) 1Nm",
+      "955E 16.8 - 500hp (368kW) 1Nm",
+      "965C C18 Acert - 525hp (386kW) 1Nm",
+      "965E 16.8 - 550hp (404kW) 1Nm",
+      "975C C18 Acert - 585hp (430kW) 1Nm",
+      "975E 16.8 - 600hp (441kW) 1Nm"
+    ],
+    "Rogator All": [
+      "618S 7.4 - 228hp (168kW) 1Nm",
+      "RG1100 8.4 - 343hp (252kW) 1455Nm",
+      "RG1300 8.4 - 375hp (276kW) 1539Nm",
+      "RG635D - 175hp (129kW) 1Nm",
+      "RG645 7.4 - 208hp (153kW) 1Nm",
+      "RG645D - 224hp (165kW) 1Nm",
+      "RG655 7.4 - 227hp (167kW) 1Nm",
+      "RG655D - 242hp (178kW) 1Nm",
+      "RG900 8.4 - 310hp (228kW) 1310Nm"
+    ],
+    "SPRA Coupe All": [
+      "7460 6.6 - 174hp (128kW) 1Nm",
+      "7660 6.6 - 174hp (128kW) 1Nm"
+    ],
+    "Terragator All": [
+      "2104 8.1 - 301hp (221kW) 1413Nm",
+      "2244 8.4 - 301hp (221kW) 1317Nm",
+      "3244 - 364hp (268kW) 450Nm",
+      "8333 8.4 - 334hp (246kW) 1068Nm",
+      "TG7300 8.4 - 366hp (269kW) 1510Nm",
+      "TG8300 8.4 - 398hp (293kW) 1540Nm",
+      "TG8400 8.4 - 398hp (293kW) 1540Nm"
+    ]
+  },
+  "Changan": {
+    "Raeton 2013 ->": [
+      "1.8T 176hp (129kW) 230Nm"
+    ]
+  },
+  "Chevrolet": {
+    "Astro 1995 - 2003": [
+      "4.3 V6 190hp (140kW) 339Nm"
+    ],
+    "Avalanche 2002 - 2006": [
+      "5.3 V8 295hp (217kW) 454Nm",
+      "8.1 V8 340hp (250kW) 606Nm"
+    ],
+    "Avalanche 2007 - 2013": [
+      "5.3 V8 320hp (235kW) 454Nm",
+      "6.0 V8 366hp (269kW) 510Nm"
+    ],
+    "Aveo / Sonic 2008 - 2011": [
+      "1.2i 16v 84hp (62kW) 114Nm",
+      "1.3 VCDI 75hp (55kW) 190Nm"
+    ],
+    "Aveo / Sonic 2011 - >": [
+      "1.2i 16v 86hp (63kW) 115Nm",
+      "1.3 VCDI 75hp (55kW) 190Nm",
+      "1.3 VCDI 95hp (70kW) 190Nm",
+      "1.4T RS (103kW) 200Nm",
+      "1.8 137hp (101kW) 169Nm"
+    ],
+    "Blazer 1998 - 2005": [
+      "4.3 V6 190hp (140kW) 353Nm"
+    ],
+    "Blazer 2019 ->": [
+      "2.0T 230hp (kW) Nm",
+      "2.5i 194hp (kW) Nm",
+      "3.6 V6 310hp (kW) Nm",
+      "650T 237hp (kW) Nm"
+    ],
+    "Camaro 1998 - 2002": [
+      "3.8 V6 200hp (147kW) 305Nm",
+      "5.7 V8 305hp (224kW) 454Nm"
+    ],
+    "Camaro 2010 - 2015": [
+      "3.6 V6 305hp (224kW) 375Nm",
+      "6.2 V8 405hp (298kW) 556Nm",
+      "6.2 V8 432hp (318kW) 569Nm",
+      "7.0 V8 505hp (371kW) 652Nm"
+    ],
+    "Camaro 2016 ->": [
+      "2.0T 272hp (200kW) 390Nm",
+      "3.6 V6 335hp (246kW) 385Nm",
+      "6.2 V8 SS 455hp (335kW) 617Nm",
+      "6.2 V8 ZL1 650hp (478kW) 881Nm"
+    ],
+    "Caprice 2010 ->": [
+      "3.6 V6 301hp (221kW) 359Nm",
+      "6.0 V8 355hp (261kW) 521Nm"
+    ],
+    "Captiva 2006 - 2011": [
+      "2.0 VCDI 127hp (93kW) 295Nm",
+      "2.0 VCDI 150hp (110kW) 320Nm",
+      "2.4i 136hp (100kW) 220Nm",
+      "3.2 V6 230hp (169kW) 297Nm"
+    ],
+    "Captiva 2011 - 2018": [
+      "2.2 VCDI 163hp (120kW) 350Nm",
+      "2.2 VCDI 184hp (135kW) 400Nm",
+      "2.4 LT 167hp (123kW) 230Nm",
+      "3.0 LTZ 258hp (190kW) 288Nm"
+    ],
+    "Cavelier 1997 - 2005": [
+      "2.2i 140hp (103kW) 203Nm",
+      "2.4i 152hp (112kW) 203Nm"
+    ],
+    "Cobalt 2005 - 2007": [
+      "2.0i 145hp (107kW) 210Nm",
+      "SS 2.0 Supercharged 205hp (151kW) 271Nm",
+      "SS 2.4i 173hp (127kW) 221Nm"
+    ],
+    "Cobalt 2008 - 2010": [
+      "2.0 Turbo 260hp (191kW) 350Nm",
+      "2.2 155hp (114kW) 203Nm",
+      "SS 2.4 173hp (127kW) 221Nm"
+    ],
+    "Colorado 2003 - 2012": [
+      "2.8i - 175hp (129kW) 251Nm",
+      "2.9i - 185hp (136kW) 258Nm",
+      "3.5i - 220hp (162kW) 305Nm",
+      "3.7i - 242hp (178kW) 328Nm",
+      "5.3 V8 300hp (221kW) 434Nm"
+    ],
+    "Colorado 2012 ->": [
+      "2.8 181hp (133kW) 500Nm",
+      "2.8d 184hp (135kW) 500Nm",
+      "3.6 V6 305hp (224kW) 365Nm"
+    ],
+    "Corvette (C5) 1997 - 2004": [
+      "5.7 V8 345hp (254kW) 470Nm"
+    ],
+    "Corvette (C6) 2005 - 2013": [
+      "6.0 V8 400hp (294kW) 540Nm",
+      "6.2 V8 430hp (316kW) 575Nm"
+    ],
+    "Corvette (C7) 2014 ->": [
+      "6.2 V8 455hp (335kW) 624Nm"
+    ],
+    "Corvette Z06 All": [
+      "6.2 V8 - 659hp (485kW) 881Nm",
+      "7.0 V8 512hp (376kW) 637Nm"
+    ],
+    "Corvette ZR1 All": [
+      "6.2 V8 Compressor 647hp (476kW) 819Nm"
+    ],
+    "Cruze -> 2017": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 Turbo 180hp (132kW) 235Nm",
+      "1.6i 16V 124hp (91kW) 154Nm",
+      "1.7D 110hp (81kW) 280Nm",
+      "1.7D 130hp (96kW) 300Nm",
+      "1.8i 141hp (104kW) 176Nm",
+      "2.0D 125hp (92kW) 300Nm",
+      "2.0D 150hp (110kW) 320Nm",
+      "2.0D 163hp (120kW) 360Nm"
+    ],
+    "Cruze 2017 - 2019": [
+      "1.4 Turbo 155hp (114kW) 240Nm",
+      "1.6 CDTI 140hp (103kW) 325Nm"
+    ],
+    "Cruze 2019 ->": [
+      "1.4 Turbo 153hp (112kW) 240Nm",
+      "1.6 CDTI 137hp (kW) Nm"
+    ],
+    "Epica 2006 - 2010": [
+      "2.0 VCDI 150hp (110kW) 320Nm"
+    ],
+    "Equinox 2005 - 2009": [
+      "3.4 V6 185hp (136kW) 280Nm",
+      "3.6 V6 264hp (194kW) 340Nm"
+    ],
+    "Equinox 2010 - 2017": [
+      "2.4i 182hp (134kW) 233Nm",
+      "3.0 V6 264hp (194kW) 301Nm"
+    ],
+    "Equinox 2018 ->": [
+      "1.5T 180hp (kW) Nm",
+      "1.6d 139hp (102kW) 325Nm",
+      "2.0T 260hp (191kW) 353Nm"
+    ],
+    "Express 2001 - 2007": [
+      "4.8 V8 275hp (202kW) 393Nm",
+      "5.3 V8 290hp (213kW) 441Nm",
+      "6.0 V8 304hp (224kW) 488Nm",
+      "6.6 V8 250hp (184kW) 624Nm"
+    ],
+    "Express 2008 - 2014": [
+      "4.8 V8 279hp (205kW) 400Nm",
+      "5.3 V8 310hp (228kW) 452Nm",
+      "6.0 V8 304hp (224kW) 488Nm",
+      "6.6 V8 250hp (184kW) 624Nm"
+    ],
+    "HHR 2005 - 2011": [
+      "2.0 Turbo 260hp (191kW) 350Nm",
+      "2.2i 143hp (105kW) 203Nm",
+      "2.4i 170hp (125kW) 222Nm"
+    ],
+    "Impala 2000 - 2005": [
+      "3.4 V6 180hp (132kW) 278Nm",
+      "3.8 V6 200hp (147kW) 305Nm"
+    ],
+    "Impala 2006 - 2014": [
+      "3.5 V6 211hp (155kW) 290Nm",
+      "3.6 V6 305hp (224kW) 355Nm",
+      "3.9 V6 245hp (180kW) 240Nm",
+      "SS 5.3 307hp (226kW) 438Nm"
+    ],
+    "Impala 2014 ->": [
+      "3.6 V6 305hp (224kW) 355Nm"
+    ],
+    "Lacetti 2005 - 2010": [
+      "2.0 VCDI 121hp (89kW) 280Nm"
+    ],
+    "Lumina 2012 ->": [
+      "6.0 V8 367pk (270kW) 530Nm"
+    ],
+    "Malibu 1997 - 2005": [
+      "2.2 145hp (107kW) 210Nm",
+      "2.4 150hp (110kW) 210Nm",
+      "3.1 V6 170hp (125kW) 258Nm"
+    ],
+    "Malibu 2006 - 2012": [
+      "2.4 169hp (124kW) 219Nm",
+      "3.5 V6 217hp (160kW) 290Nm",
+      "3.6 V6 252hp (185kW) 340Nm",
+      "3.9 V6 240hp (176kW) 325Nm"
+    ],
+    "Malibu 2013 - 2015": [
+      "1.6 Turbo 180hp (132kW) 230Nm",
+      "2.0 VCDi 160hp (118kW) 350Nm",
+      "2.0T 250hp (184kW) 350Nm",
+      "2.5 - 197hp (145kW) 259Nm"
+    ],
+    "Malibu 2016 - 2018": [
+      "1.5 Turbo 163hp (120kW) 250Nm",
+      "2.0 Turbo 250hp (184kW) 353Nm"
+    ],
+    "Malibu 2019 ->": [
+      "1.5 Turbo 165hp (121kW) 250Nm",
+      "2.0 Turbo 253hp (186kW) 353Nm"
+    ],
+    "Monte Carlo 1997 - 2005": [
+      "3.1 V6 160hp (118kW) 251Nm",
+      "3.4 V6 180hp (132kW) 278Nm",
+      "SS 3.8 Supercharged V6 240hp (176kW) 380Nm",
+      "SS 3.8 V6 200hp (147kW) 305Nm"
+    ],
+    "Monte Carlo 2006 - 2007": [
+      "3.5 V6 211hp (155kW) 290Nm",
+      "3.9 V6 242hp (178kW) 328Nm"
+    ],
+    "Nubira All": [
+      "2.0 VCDI 121hp (89kW) 280Nm"
+    ],
+    "Onix 2019 ->": [
+      "1.0T 116hp (kW) Nm"
+    ],
+    "Orlando 2011 - 2018": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "2.0D 130hp (96kW) 315Nm",
+      "2.0D 163hp (120kW) 360Nm"
+    ],
+    "S10 1997 - 2004": [
+      "2.2i - 120hp (88kW) 140Nm",
+      "4.3 V6 180hp (132kW) 325Nm"
+    ],
+    "S10 2012 ->": [
+      "2.8 CDTi 200hp (147kW) 500Nm"
+    ],
+    "SS 2014 ->": [
+      "6.2 V8 415hp (305kW) 563Nm"
+    ],
+    "SSR 2003 - 2006": [
+      "5.3 V8 305hp (224kW) 449Nm",
+      "6.0 V8 396hp (291kW) 549Nm"
+    ],
+    "Silverado 1999 - 2007": [
+      "4.3 V6 195hp (143kW) 353Nm",
+      "4.8 V8 285hp (210kW) 400Nm",
+      "5.3 V8 285hp (210kW) 425Nm",
+      "6.0 V8 300hp (221kW) 488Nm",
+      "8.1 V8 330hp (243kW) 610Nm"
+    ],
+    "Silverado 2007 - 2014": [
+      "4.3 V6 195hp (143kW) 260Nm",
+      "4.8 V8 295hp (217kW) 414Nm",
+      "5.3 V8 315hp (232kW) 458Nm",
+      "6.0 V8 360hp (265kW) 515Nm",
+      "6.2 V8 403hp (296kW) 565Nm",
+      "6.6 V8 397hp (292kW) 1037Nm"
+    ],
+    "Silverado 2014 ->": [
+      "2.7 Turbo 310hp (kW) Nm",
+      "4.3 V6 285hp (210kW) 414Nm",
+      "5.3 V8 355hp (261kW) 519Nm",
+      "6.0 V8 360hp (265kW) 542Nm",
+      "6.2 V8 420hp (309kW) 609Nm",
+      "6.6 V8 397hp (292kW) 1037Nm"
+    ],
+    "Spark 2010 ->": [
+      "1.0i 68hp (50kW) 93Nm",
+      "1.2i 81hp (60kW) 111Nm"
+    ],
+    "Suburban 2000 - 2006": [
+      "5.3 V8 295hp (217kW) 454Nm",
+      "6.0 V8 335hp (246kW) 508Nm",
+      "8.1 V8 325hp (239kW) 606Nm"
+    ],
+    "Suburban 2007 - 2014": [
+      "5.3 V8 320hp (235kW) 454Nm",
+      "6.0 V8 352hp (259kW) 517Nm",
+      "6.2 V8 426hp (313kW) 610Nm"
+    ],
+    "Suburban 2015 ->": [
+      "5.3 V8 355hp (261kW) 519Nm",
+      "6.2 V8 420hp (309kW) 623Nm"
+    ],
+    "Tahoe 2000 - 2006": [
+      "4.8 V8 285hp (210kW) 454Nm",
+      "5.3 V8 295hp (217kW) 454Nm"
+    ],
+    "Tahoe 2007 - 2013": [
+      "4.8 V8 295hp (217kW) 414Nm",
+      "5.3 V8 320hp (235kW) 461Nm",
+      "6.2 V8 405hp (298kW) 565Nm"
+    ],
+    "Tahoe 2014 ->": [
+      "5.3 V8 380hp (279kW) 416Nm"
+    ],
+    "Trailblazer All": [
+      "2.5d 163hp (120kW) 380Nm",
+      "2.8d 200hp (147kW) 500Nm",
+      "4.2i 279hp (205kW) 373Nm",
+      "5.3 V8 305hp (224kW) 447Nm",
+      "SS 6.0 V8 400hp (294kW) 542Nm"
+    ],
+    "Traverse 2009 - 2012": [
+      "3.6 V6 281hp (207kW) 361Nm",
+      "3.6 V6 288hp (212kW) 366Nm"
+    ],
+    "Traverse 2012 - 2017": [
+      "3.6 V6 281hp (207kW) 361Nm",
+      "3.6 V6 288hp (212kW) 366Nm"
+    ],
+    "Traverse 2018 ->": [
+      "2.0T 252hp (185kW) 400Nm",
+      "3.6 V6 314hp (kW) Nm"
+    ],
+    "Trax 2013 ->": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.7 VCDI 110hp (81kW) 260Nm",
+      "1.7 VCDI 130hp (96kW) 260Nm"
+    ],
+    "Uplander 2007 - 2009": [
+      "3.5 V6 203hp (149kW) 298Nm",
+      "3.9 V6 243hp (179kW) 325Nm"
+    ],
+    "Venture 1997 - 2005": [
+      "3.4 V6 185hp (136kW) 280Nm"
+    ]
+  },
+  "Chrysler": {
+    "200 2010 - 2016": [
+      "3.6 V6 283hp (208kW) 350Nm"
+    ],
+    "300C 2004 - 2011": [
+      "2.7 V6 190hp (140kW) 258Nm",
+      "3.0 CRD 211hp (155kW) 510Nm",
+      "3.0 CRD 218hp (160kW) 510Nm",
+      "3.5 V6 250hp (184kW) 339Nm",
+      "5.7 Hemi V8 340hp (250kW) 525Nm",
+      "SRT8 6.1 Hemi V8 425hp (313kW) 569Nm"
+    ],
+    "300C 2011 ->": [
+      "3.6 V6 292hp (215kW) 350Nm",
+      "5.7 Hemi V8 363hp (267kW) 534Nm",
+      "SRT8 6.4 Hemi V8 475hp (349kW) 637Nm"
+    ],
+    "Aspen 2004 - 2009": [
+      "4.7 V8 234hp (172kW) 393Nm",
+      "4.7 V8 303hp (223kW) 447Nm",
+      "5.7 Hemi V8 335hp (246kW) 502Nm"
+    ],
+    "Crossfire 2003 - 2008": [
+      "3.2 SRT6 335hp (246kW) 420Nm",
+      "3.2 V6 218hp (160kW) 310Nm"
+    ],
+    "Grand Voyager 2008 - 2011": [
+      "2.8 CRDi (120kW) 360Nm"
+    ],
+    "PT Cruiser 2004 - 2010": [
+      "1.6i 115hp (85kW) 157Nm",
+      "2.0i 140hp (103kW) 188Nm",
+      "2.2 CRD 121hp (89kW) 300Nm",
+      "2.2 CRD 150hp (110kW) 300Nm",
+      "GT 2.4 Turbo 215hp (158kW) 332Nm",
+      "GT 2.4 Turbo 230hp (169kW) 332Nm"
+    ],
+    "Pacifica 2004 - 2008": [
+      "4.0 V6 253hp (186kW) 355Nm"
+    ],
+    "Pacifica 2017 ->": [
+      "3.6 V6 287hp (211kW) 355Nm"
+    ],
+    "Sebring All": [
+      "2.0 CRD 140hp (103kW) 310Nm",
+      "2.0i 156hp (115kW) 190Nm",
+      "2.4i 143hp (105kW) 210Nm",
+      "2.7 V6 203hp (149kW) 262Nm",
+      "3.5 V6 235hp (173kW) 315Nm"
+    ],
+    "Town & Country 2005 - 2016": [
+      "3.3 V6 180hp (132kW) 278Nm",
+      "3.6 V8 283hp (208kW) 353Nm",
+      "3.8 V6 215hp (158kW) 332Nm",
+      "4.0 V8 250hp (184kW) 350Nm"
+    ],
+    "Voyager -> 2009": [
+      "2.5 CRD 140hp (103kW) 343Nm",
+      "2.5TD 115hp (85kW) 278Nm",
+      "2.8 CRD 150hp (110kW) 360Nm",
+      "2.8 CRD 163hp (120kW) 360Nm"
+    ],
+    "Voyager 2019 ->": [
+      "3.6 V6 291hp (kW) Nm"
+    ]
+  },
+  "Citroen": {
+    "Berlingo 1997 - 2002": [
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ],
+    "Berlingo 2002 - 2009": [
+      "1.6 HDi 16V 75hp (55kW) 175Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6i 16v 110hp (81kW) 147Nm",
+      "2.0 HDi 109hp (80kW) 250Nm",
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ],
+    "Berlingo 2008 - 2012": [
+      "1.6 HDi 16V 75hp (55kW) 185Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6 HDiF 8V 112hp (82kW) 260Nm",
+      "1.6 HDiF 8V 92hp (68kW) 230Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 VTi 98hp (72kW) 152Nm",
+      "2.0 HDiF 109hp (80kW) 250Nm"
+    ],
+    "Berlingo 2012 - 2015": [
+      "1.6 HDi 16V 75hp (55kW) 185Nm",
+      "1.6 HDiF 8V 112hp (82kW) 270Nm",
+      "1.6 HDiF 8V 115hp (85kW) 270Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 VTi 98hp (72kW) 152Nm",
+      "1.6 e-HDi 8V 92hp (68kW) 230Nm"
+    ],
+    "Berlingo 2015 - 2017": [
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 BlueHDI 8V 75hp (55kW) 230Nm"
+    ],
+    "Berlingo 2018 ->": [
+      "1.2 Puretech 110hp (81kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 102hp (75kW) 250Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.5 BlueHDI 75hp (55kW) 230Nm"
+    ],
+    "C-Crosser 2007 - 2012": [
+      "2.2 HDIF 156hp (115kW) 380Nm"
+    ],
+    "C-Elysee 2016 ->": [
+      "1.2 Puretech 82hp (60kW) 118Nm",
+      "1.6 BlueHDI 99hp (73kW) 254Nm"
+    ],
+    "C1 2005 - 2013": [
+      "1.0i 68hp (50kW) 93Nm",
+      "1.4 HDi 8V 55hp (40kW) 130Nm"
+    ],
+    "C1 2014 ->": [
+      "1.0 e-VTI 69hp (51kW) 95Nm",
+      "1.0 e-VTI 82hp (60kW) 116Nm"
+    ],
+    "C2 2003 - 2010": [
+      "1.4 HDi 8V 68hp (50kW) 150Nm",
+      "1.4i 8v 75hp (55kW) 117Nm",
+      "1.6 16v VTS 125hp (92kW) 140Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6i 16v 110hp (81kW) 147Nm"
+    ],
+    "C3 2002 - 2010": [
+      "1.1i 60hp (44kW) 94Nm",
+      "1.4 HDi 8V 70hp (51kW) 150Nm",
+      "1.4i 16v 90hp (66kW) 133Nm",
+      "1.4i 75hp (55kW) 120Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6i 16v 110hp (81kW) 147Nm"
+    ],
+    "C3 2010 - 2013": [
+      "1.0 VTi 68hp (50kW) 116Nm",
+      "1.1i 61hp (45kW) 95Nm",
+      "1.2 VTi 82hp (60kW) 116Nm",
+      "1.4 HDI 8V 70hp (51kW) 160Nm",
+      "1.4 VTI 95hp (70kW) 135Nm",
+      "1.4i 75hp (55kW) 120Nm",
+      "1.6 HDI 16V 110hp (81kW) 240Nm",
+      "1.6 HDI 16V 90hp (66kW) 215Nm",
+      "1.6 HDI 8V 112hp (82kW) 270Nm",
+      "1.6 HDI 8V 92hp (68kW) 230Nm",
+      "1.6 VTi 120hp (88kW) 156Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm"
+    ],
+    "C3 2013 - 2019": [
+      "1.0 PureTech 68hp (50kW) 116Nm",
+      "1.2 PureTech 110hp (81kW) 205Nm",
+      "1.2 PureTech 82hp (60kW) 116Nm",
+      "1.5 BlueHDI 100hp (74kW) 250Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 75hp (55kW) 233Nm",
+      "1.6 VTi 120hp (88kW) 156Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm",
+      "1.6 e-HDI 8V 92hp (68kW) 230Nm"
+    ],
+    "C3 2020 ->": [
+      "1.2 PureTech 110hp (81kW) 205Nm",
+      "1.2 PureTech 83hp (61kW) 118Nm",
+      "1.5 BlueHDI 102hp (75kW) 250Nm"
+    ],
+    "C3 Aircross 2017 ->": [
+      "1.2 Puretech 110hp (81kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm"
+    ],
+    "C3 Picasso 2009 - 2013": [
+      "1.4 VTi 95hp (70kW) 135Nm",
+      "1.6 HDi 16V 110hp (81kW) 240Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 HDi 8V 92hp (68kW) 230Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm"
+    ],
+    "C3 Picasso 2013 ->": [
+      "1.2 PureTech 110hp (81kW) 205Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 75hp (55kW) 233Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "1.6 e-HDi 8V 92hp (68kW) 230Nm"
+    ],
+    "C3-XR 2014 - 2018": [
+      "1.6 THP 167hp (123kW) 245Nm"
+    ],
+    "C3-XR 2019 -> ...": [
+      "1.2 Puretech 116hp (85kW) 190Nm"
+    ],
+    "C4 2004 - 2010": [
+      "1.6 HDi 16V 110hp (81kW) 240Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6 THP 150hp (110kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6i 16v 110hp (81kW) 147Nm",
+      "2.0 HDi 138hp (101kW) 320Nm",
+      "2.0i 16v 138hp (101kW) 190Nm",
+      "2.0i 16v vts 180hp (132kW) 202Nm"
+    ],
+    "C4 2010 - 2015": [
+      "1.2 e-THP 131hp (96kW) 230Nm",
+      "1.4 VTi 95hp (70kW) 135Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 HDi 8V 92hp (68kW) 230Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "2.0 HDi 136hp (100kW) 320Nm",
+      "2.0 HDi 150hp (110kW) 340Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "C4 2015 - 2019": [
+      "1.2 PureTech 110hp (81kW) 205Nm",
+      "1.2 PureTech 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm"
+    ],
+    "C4 2020 ->": [
+      "1.2 PureTech 100hp (74kW) 205Nm",
+      "1.2 PureTech 130hp (96kW) 230Nm",
+      "1.2 PureTech 155hp (114kW) 240Nm",
+      "1.5 BlueHDI 110hp (81kW) 250Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm"
+    ],
+    "C4 Aircross 2012 ->": [
+      "1.6 HDi 8V 115hp (85kW) 270Nm",
+      "1.6i 117hp (86kW) 154Nm"
+    ],
+    "C4 Cactus 2014 - 2018": [
+      "1.2 VTi 82hp (60kW) 118Nm",
+      "1.2 e-THP 110hp (81kW) 205Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 e-HDI 8V 92hp (68kW) 230Nm"
+    ],
+    "C4 Cactus 2018 ->": [
+      "1.2 Puretech 110hp (81kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 102hp (75kW) 250Nm",
+      "1.5 BlueHDI 120hp (88kW) 300Nm",
+      "1.6 BlueHDi 102hp (75kW) 254Nm"
+    ],
+    "C4 Picasso / C4 SpaceTourer 2006 - 2013": [
+      "1.6 HDi 16V 110hp (81kW) 240Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 THP 150hp (110kW) 240Nm",
+      "1.6 THP 155hp (114kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "2.0 HDI 138hp (101kW) 320Nm",
+      "2.0 HDI 150hp (110kW) 340Nm",
+      "2.0 HDI 163hp (120kW) 340Nm",
+      "2.0i 143hp (105kW) 200Nm"
+    ],
+    "C4 Picasso / C4 SpaceTourer 2013 - 2016": [
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 155hp (114kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDI 8V 112hp (82kW) 270Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm",
+      "1.6 e-HDI 8V 92hp (68kW) 230Nm",
+      "1.6 e-THP 165hp (121kW) 240Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 HDI 150hp (110kW) 340Nm"
+    ],
+    "C4 Picasso / C4 SpaceTourer 2017 ->": [
+      "1.2 PureTech 110hp (81kW) 205Nm",
+      "1.2 PureTech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.6 BlueHDi 100hp (74kW) 254Nm",
+      "1.6 BlueHDi 120hp (88kW) 254Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 BlueHDi 163hp (120kW) 400Nm"
+    ],
+    "C5 2001 - 2008": [
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "2.0 HDI 110hp (81kW) 250Nm",
+      "2.0 HDI 90hp (66kW) 205Nm",
+      "2.0 HDiF 138hp (101kW) 320Nm",
+      "2.0 HDiF FAP 136hp (100kW) 320Nm",
+      "2.0i 16v 136hp (100kW) 190Nm",
+      "2.0i HPi 143hp (105kW) 192Nm",
+      "2.2 HDI 136hp (100kW) 317Nm",
+      "2.2 HDiF 173hp (127kW) 370Nm",
+      "3.0i V6 210hp (154kW) 285Nm"
+    ],
+    "C5 2008 - >": [
+      "1.6 HDI 8V 112hp (82kW) 270Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm",
+      "2.0 HDI 163hp (120kW) 340Nm",
+      "2.0 HDI FAP 136hp (100kW) 320Nm",
+      "2.0i 16v 143hp (105kW) 200Nm",
+      "2.2 HDI 163hp (120kW) 370Nm",
+      "2.2 HDI 204hp (150kW) 450Nm",
+      "2.2 HDiF 173hp (127kW) 370Nm",
+      "2.7 HDI 208hp (153kW) 440Nm",
+      "3.0 HDI 207hp (152kW) 450Nm",
+      "3.0 HDI 241hp (177kW) 450Nm",
+      "3.0i V6 210hp (154kW) 285Nm"
+    ],
+    "C5 Aircross 2018 ->": [
+      "1.2 PureTech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.6 Puretech 180hp (132kW) 250Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm"
+    ],
+    "C6 2006 - 2013": [
+      "2.2 HDi 173hp (127kW) 370Nm",
+      "2.7 HDi 208hp (153kW) 440Nm",
+      "3.0 HDi 207hp (152kW) 450Nm",
+      "3.0 HDi 241hp (177kW) 450Nm",
+      "3.0i v6 215hp (158kW) 290Nm"
+    ],
+    "C6 2016 -> ...": [
+      "350 THP 167hp (123kW) 245Nm",
+      "380 THP 204hp (150kW) 280Nm"
+    ],
+    "C8 All": [
+      "2.0 HDi 109hp (80kW) 270Nm",
+      "2.0 HDi 120hp (88kW) 280Nm",
+      "2.0 HDi 136hp (100kW) 320Nm",
+      "2.0 HDi 138hp (101kW) 320Nm",
+      "2.0 HDi 163hp (120kW) 370Nm",
+      "2.0i 16v 143hp (105kW) 190Nm",
+      "2.2 HDi 130hp (96kW) 314Nm",
+      "2.2 HDi 163hp (120kW) 370Nm",
+      "2.2 HDi 173hp (127kW) 370Nm",
+      "3.0i v6 208hp (153kW) 285Nm"
+    ],
+    "DS 7 Crossback 2018 ->": [
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDi 130hp (96kW) 300Nm",
+      "1.6 PureTech 180hp (132kW) 250Nm",
+      "1.6 PureTech 225hp (165kW) 300Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm"
+    ],
+    "DS3 2010 - 2014": [
+      "1.2 VTi 82hp (60kW) 116Nm",
+      "1.4 HDi 8V 68hp (50kW) 160Nm",
+      "1.4 VTi 95hp (70kW) 135Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 HDi 8V 92hp (68kW) 230Nm",
+      "1.6 THP 150hp (110kW) 240Nm",
+      "1.6 THP 155hp (114kW) 240Nm",
+      "1.6 THP 200hp (147kW) 275Nm",
+      "1.6 THP 202hp (149kW) 275Nm",
+      "1.6 THP Sportchic 150hp (110kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 156Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm"
+    ],
+    "DS3 2014 - 2015": [
+      "1.2 PureTech 82hp (60kW) 118Nm",
+      "1.2 THP 110hp (81kW) 205Nm",
+      "1.4 e-HDi 8V 68hp (50kW) 160Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 285Nm",
+      "1.6 BlueHDi 8V 100hp (74kW) 254Nm",
+      "1.6 THP 155hp (114kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm"
+    ],
+    "DS3 2015 ->": [
+      "1.2 Puretech 110hp (81kW) 205Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 285Nm",
+      "1.6 BlueHDi 8V 100hp (74kW) 254Nm",
+      "1.6 THP 165hp (121kW) 240Nm"
+    ],
+    "DS4 2011 - 2015": [
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 THP 155hp (114kW) 240Nm",
+      "1.6 THP 163hp (120kW) 240Nm",
+      "1.6 THP 200hp (147kW) 275Nm",
+      "1.6 VTi 120hp (88kW) 158Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "DS4 2015 ->": [
+      "1.2 PureTech 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "1.6 THP 210hp (154kW) 285Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm"
+    ],
+    "DS5 2011 - 2015": [
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 156hp (115kW) 275Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "1.6 THP 200hp (147kW) 275Nm",
+      "1.6 THP 210hp (154kW) 275Nm",
+      "1.6 e-HDI 8V 112hp (82kW) 270Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm",
+      "2.0 HDI 163hp (120kW) 340Nm"
+    ],
+    "DS5 2015 ->": [
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "1.6 THP 210hp (154kW) 285Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm"
+    ],
+    "Jumper 2006 - 2012": [
+      "2.0 HDi 90hp (66kW) 205Nm",
+      "2.2 HDi 100hp (74kW) 240Nm",
+      "2.2 HDi 120hp (88kW) 320Nm",
+      "2.8 HDi 128hp (94kW) 300Nm",
+      "3.0 HDi 157hp (115kW) 400Nm"
+    ],
+    "Jumper 2012 - 2014": [
+      "2.2 HDi 110hp (81kW) 250Nm",
+      "2.2 HDi 130hp (96kW) 320Nm",
+      "2.2 HDi 150hp (110kW) 350Nm",
+      "3.0 HDi 180hp (132kW) 400Nm"
+    ],
+    "Jumper 2015 - 2019": [
+      "2.0 BlueHDI 110hp (81kW) 300Nm",
+      "2.0 BlueHDI 130hp (96kW) 340Nm",
+      "2.0 BlueHDI 160hp (118kW) 350Nm",
+      "2.2 HDi 110hp (81kW) 250Nm",
+      "2.2 HDi 130hp (96kW) 320Nm",
+      "2.2 HDi 150hp (110kW) 350Nm",
+      "2.2 HDi 160hp (118kW) 350Nm",
+      "3.0 HDi 180hp (132kW) 400Nm"
+    ],
+    "Jumper 2019 ->": [
+      "2.2 BlueHDI 120hp (88kW) 310Nm",
+      "2.2 BlueHDI 140hp (103kW) 340Nm",
+      "2.2 BlueHDI 165hp (121kW) 370Nm"
+    ],
+    "Jumpy -> 2016": [
+      "1.6 HDi 16V 115hp (85kW) 300Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "2.0 HDi 110hp (81kW) 250Nm",
+      "2.0 HDi 120hp (88kW) 300Nm",
+      "2.0 HDi 128hp (94kW) 300Nm",
+      "2.0 HDi 136hp (100kW) 320Nm",
+      "2.0 HDi 160hp (118kW) 340Nm",
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ],
+    "Jumpy 2016 - 2019": [
+      "1.6 BlueHDI 8V 115hp (85kW) 300Nm",
+      "1.6 BlueHDI 8V 95hp (70kW) 210Nm",
+      "2.0 BlueHDI 122hp (90kW) 310Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm"
+    ],
+    "Jumpy 2019 ->": [
+      "1.5 BlueHDI 100hp (74kW) 270Nm",
+      "1.5 BlueHDI 120hp (88kW) 300Nm",
+      "2.0 BlueHDI 120hp (88kW) 340Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 177hp (130kW) 400Nm"
+    ],
+    "Nemo All": [
+      "1.3 HDI 80hp (59kW) 200Nm",
+      "1.3 HDi 75hp (55kW) 190Nm",
+      "1.4 HDi 8V 70hp (51kW) 160Nm"
+    ],
+    "SpaceTourer 2016 ->": [
+      "1.5 BlueHDI 120hp (88kW) 300Nm",
+      "1.6 BlueHDi 8V 115hp (85kW) 300Nm",
+      "1.6 BlueHDi 8V 95hp (70kW) 210Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm"
+    ],
+    "Xantia All": [
+      "2.0 HDi 110hp (81kW) 250Nm",
+      "2.0 HDi 90hp (66kW) 205Nm",
+      "2.0T 150hp (110kW) 235Nm"
+    ],
+    "Xsara Picasso All": [
+      "1.4 HDi 8V 68 (50kW) 160Nm",
+      "1.6 HDi 16V 110hp (81kW) 240Nm",
+      "2.0 HDi 110hp (81kW) 250Nm",
+      "2.0 HDi 138hp (101kW) 320Nm",
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ]
+  },
+  "Claas": {
+    "Ares 546 All": [
+      "4.5 - 90hp (66kW) 368Nm"
+    ],
+    "Ares 547 All": [
+      "4.5 - 90hp (66kW) 371Nm"
+    ],
+    "Ares 556 All": [
+      "4.5 - 101hp (74kW) 415Nm"
+    ],
+    "Ares 557 All": [
+      "4.5 - 101hp (74kW) 415Nm"
+    ],
+    "Ares 566 All": [
+      "4.5 - 110hp (81kW) 430Nm"
+    ],
+    "Ares 567 All": [
+      "4.5 - 110hp (81kW) 430Nm"
+    ],
+    "Ares 577 All": [
+      "4.5 - 120hp (88kW) 486Nm"
+    ],
+    "Ares 616 All": [
+      "6.8 - 110hp (81kW) 457Nm"
+    ],
+    "Ares 617 All": [
+      "112 - 112hp (82kW) 463Nm",
+      "6.8 - 110hp (81kW) 460Nm"
+    ],
+    "Ares 656 All": [
+      "6.8 - 126hp (93kW) 528Nm"
+    ],
+    "Ares 657 All": [
+      "128 - 128hp (94kW) 533Nm",
+      "6.8 - 125hp (92kW) 530Nm"
+    ],
+    "Ares 696 All": [
+      "6.8 - 141hp (104kW) 585Nm"
+    ],
+    "Ares 697 All": [
+      "143 - 143hp (105kW) 591Nm",
+      "6.8 - 140hp (103kW) 588Nm"
+    ],
+    "Ares 816 All": [
+      "6.8 - 156hp (115kW) 664Nm"
+    ],
+    "Ares 826 All": [
+      "6.8 - 175hp (129kW) 759Nm"
+    ],
+    "Ares 836 All": [
+      "6.8 - 194hp (143kW) 820Nm",
+      "6.8 BJ 06 - 194hp (143kW) 820Nm"
+    ],
+    "Arion 410 All": [
+      "4.5 - 95hp (70kW) 420Nm"
+    ],
+    "Arion 420 All": [
+      "4.5 - 105hp (77kW) 465Nm"
+    ],
+    "Arion 430 All": [
+      "4.5 - 116hp (85kW) 495Nm"
+    ],
+    "Arion 510 All": [
+      "4.5 - 110hp (81kW) 477Nm"
+    ],
+    "Arion 520 All": [
+      "4.5 - 120hp (88kW) 526Nm"
+    ],
+    "Arion 530 All": [
+      "4.5 - 131hp (96kW) 541Nm"
+    ],
+    "Arion 540 All": [
+      "4.5 - 135hp (99kW) 585Nm"
+    ],
+    "Arion 610 All": [
+      "6.8 - 120hp (88kW) 580Nm",
+      "C 6.8 - 120hp (88kW) 527Nm"
+    ],
+    "Arion 620 All": [
+      "6.8 - 135hp (99kW) 580Nm",
+      "C 6.8 - 135hp (99kW) 571Nm"
+    ],
+    "Arion 630 All": [
+      "6.8 - 146hp (107kW) 633Nm",
+      "C 6.8 - 146hp (107kW) 630Nm"
+    ],
+    "Arion 640 All": [
+      "6.8 - 155hp (114kW) 657Nm"
+    ],
+    "Avero 160 All": [
+      "C6.6 CAT - 158hp (kW) Nm"
+    ],
+    "Avero 240 All": [
+      "C6.6 - 199hp (146kW) 2200Nm"
+    ],
+    "Axion 810 All": [
+      "6.8 - 163hp (120kW) 792Nm"
+    ],
+    "Axion 820 All": [
+      "6.8 - 184hp (135kW) 895Nm"
+    ],
+    "Axion 830 All": [
+      "6.8 - 196hp (144kW) 905Nm"
+    ],
+    "Axion 840 All": [
+      "6.8 - 205hp (151kW) 950Nm"
+    ],
+    "Axion 850 All": [
+      "6.8 - 224hp (165kW) 1020Nm"
+    ],
+    "Axion 920 All": [
+      "8.7 Tier 4A - 321hp (236kW) 1350Nm"
+    ],
+    "Axion 930 All": [
+      "8.7 Tier 4A - 352hp (259kW) 1450Nm"
+    ],
+    "Axion 940 All": [
+      "8.7 Tier 4A - 384hp (282kW) 1550Nm"
+    ],
+    "Axion 950 All": [
+      "8.7 Tier 4A - 416hp (306kW) 1650Nm"
+    ],
+    "Celtis 426 All": [
+      "4.5 - 72hp (53kW) 283Nm"
+    ],
+    "Celtis 436 All": [
+      "4.5 - 80hp (59kW) 333Nm"
+    ],
+    "Celtis 446 All": [
+      "4.5 - 90hp (66kW) 368Nm"
+    ],
+    "Celtis 456 All": [
+      "4.5 - 101hp (74kW) 415Nm"
+    ],
+    "Dominator 130 All": [
+      "6.6 - 125hp (kW) Nm",
+      "C6.6 - 125hp (92kW) 2200Nm"
+    ],
+    "Dominator 140 All": [
+      "C6.6 - 124hp (91kW) 2200Nm"
+    ],
+    "Dominator 150 All": [
+      "6.6 - 141hp (kW) Nm"
+    ],
+    "Jaguar 830 All": [
+      "12.8 - 354hp (kW) Nm"
+    ],
+    "Jaguar 850 All": [
+      "12.8 - 412hp (kW) Nm"
+    ],
+    "Jaguar 870 All": [
+      "16.0 - 453hp (kW) Nm"
+    ],
+    "Jaguar 890 All": [
+      "16.0 - 506hp (kW) Nm"
+    ],
+    "Jaguar 900 All": [
+      "16.0 - 623hp (kW) Nm"
+    ],
+    "Jaguar 960 All": [
+      "16.0 - 623hp (kW) Nm"
+    ],
+    "Jaguar 980 All": [
+      "12.8 - 830hp (kW) Nm"
+    ],
+    "Lexion 410 All": [
+      "321 - 321hp (236kW) 1Nm",
+      "7.2 - 196hp (kW) Nm"
+    ],
+    "Lexion 415 All": [
+      "7.2 - 200hp (kW) Nm"
+    ],
+    "Lexion 420 All": [
+      "7.2 - 220hp (kW) Nm"
+    ],
+    "Lexion 470 All": [
+      "8.8 - 321hp (kW) Nm"
+    ],
+    "Lexion 510 All": [
+      "6.6 - 220hp (kW) Nm"
+    ],
+    "Lexion 520 All": [
+      "6.6 - 260hp (kW) Nm"
+    ],
+    "Lexion 540 All": [
+      "8.8 - 295hp (kW) Nm",
+      "C6.6 - 260hp (kW) Nm",
+      "C6.6 CAT ACERT - 260hp (kW) Nm"
+    ],
+    "Lexion 550 All": [
+      "8.8 - 330hp (kW) Nm"
+    ],
+    "Lexion 560 All": [
+      "12.5 - 360hp (kW) Nm"
+    ],
+    "Lexion 570 All": [
+      "12.5 - 355hp (kW) Nm",
+      "12.5 - 394hp (kW) Nm"
+    ],
+    "Lexion 580 All": [
+      "16.0 - 430hp (kW) Nm"
+    ],
+    "Lexion 580R All": [
+      "12.5 C13 - 431hp (kW) Nm"
+    ],
+    "Lexion 585R All": [
+      "12.5 C13 - 431hp (kW) Nm"
+    ],
+    "Lexion 590 All": [
+      "12.5 C13 Acert - 431hp (kW) Nm"
+    ],
+    "Lexion 590R All": [
+      "12.5 C13 - 466hp (kW) Nm"
+    ],
+    "Lexion 595R All": [
+      "12.5 C13 - 466hp (kW) Nm"
+    ],
+    "Lexion 600 All": [
+      "16.0 - 500hp (kW) Nm",
+      "586 - 586hp (kW) Nm"
+    ],
+    "Lexion 620 All": [
+      "C6 6.6 Acert - 279hp (kW) Nm"
+    ],
+    "Lexion 630 All": [
+      "8.8 C9 Acert - 313hp (kW) Nm"
+    ],
+    "Lexion 640 All": [
+      "8.8 C9 Acert - 279hp (kW) Nm",
+      "C6.6 CAT - 279hp (kW) Nm"
+    ],
+    "Lexion 650 All": [
+      "8.8 C9 Acert - 313hp (kW) Nm"
+    ],
+    "Lexion 660 All": [
+      "8.8 C9 Acert - 355hp (kW) Nm"
+    ],
+    "Lexion 670 All": [
+      "12.5 C13 Alert - 390hp (kW) Nm"
+    ],
+    "Lexion 740 All": [
+      "12.5 C13 Acert - 390hp (kW) Nm"
+    ],
+    "Lexion 750 All": [
+      "12.5 C13 Acert - 431hp (kW) Nm"
+    ],
+    "Lexion 760 All": [
+      "16.0 - 476hp (kW) Nm"
+    ],
+    "Lexion 770 All": [
+      "16.0 - 530hp (kW) Nm"
+    ],
+    "MEGA 350 All": [
+      "6.4 - 220hp (kW) Nm"
+    ],
+    "MEGA 360 All": [
+      "6.4 - 245hp (kW) Nm"
+    ],
+    "Medion 310 All": [
+      "6.4 - 185hp (kW) Nm"
+    ],
+    "Medion 330 All": [
+      "6.4 - 220hp (kW) Nm"
+    ],
+    "Medion 340 All": [
+      "6.4 - 245hp (kW) Nm"
+    ],
+    "Tucano 330 All": [
+      "6.4 - 241hp (kW) Nm"
+    ],
+    "Tucano 340 All": [
+      "6.4 - 260hp (kW) Nm"
+    ],
+    "Tucano 430 All": [
+      "6.4 - 241hp (kW) Nm"
+    ],
+    "Tucano 440 All": [
+      "6.4 - 260hp (kW) Nm"
+    ],
+    "Tucano 450 All": [
+      "7.2 - 275hp (kW) Nm"
+    ],
+    "Tucano 470 All": [
+      "7.2 MB OM962 LA - 299hp (220kW) 2300Nm"
+    ],
+    "Xerion 3300 All": [
+      "355 - 355hp (kW) Nm",
+      "8.8 C9 Trac - 305hp (224kW) 1500Nm",
+      "8.8 C9 Trac Acert - 305hp (224kW) 1500Nm"
+    ],
+    "Xerion 3800 All": [
+      "8.8 C9 Trac - 344hp (253kW) 1620Nm",
+      "8.8 C9 Trac Acert - 344hp (253kW) 1620Nm"
+    ],
+    "Xerion 4500 All": [
+      "12.5 C13 Acert - 449hp (330kW) 2203Nm"
+    ],
+    "Xerion 5000 All": [
+      "12.5 C13 Acert - 487hp (358kW) 2353Nm"
+    ]
+  },
+  "Cupra": {
+    "Ateca 2018 - 2019": [
+      "2.0 TSI 300hp (221kW) 380Nm"
+    ],
+    "Ateca 2020 ->": [
+      "2.0 TSI 300hp (kW) Nm"
+    ],
+    "Formentor 2020 ->": [
+      "1.4 TSI Hybrid 204hp (kW) Nm",
+      "1.4 TSI Hybrid 245hp (kW) Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 360Nm",
+      "2.0 TSI 310hp (228kW) 400Nm"
+    ],
+    "Ibiza 2018 ->": [
+      "2.0 TSI 200hp (147kW) 320Nm"
+    ],
+    "Leon 2020 -> ...": [
+      "2.0 TFSI 310hp (kW) Nm"
+    ]
+  },
+  "DAF": {
+    "CF All": [
+      "180 5.9L (136kW) 770Nm",
+      "220 5.9L (162kW) 820Nm",
+      "250 (184kW) 950Nm",
+      "310 (228kW) 1275Nm",
+      "340 (250kW) 1600Nm",
+      "360 (265kW) 1450Nm",
+      "380 (279kW) 1750Nm",
+      "430 (316kW) 1950Nm",
+      "480 (353kW) 2100Nm",
+      "65 180hp (132kW) 700Nm",
+      "65 220hp (162kW) 820Nm",
+      "65 250hp (184kW) 950Nm",
+      "75 310hp (228kW) 1275Nm",
+      "75 360hp (265kW) 1450Nm",
+      "75 380hp (279kW) 1750Nm",
+      "85 410hp (301kW) 2000Nm",
+      "85 420hp (309kW) 1950Nm",
+      "85 460hp (338kW) 2300Nm",
+      "85 480hp (353kW) 2100Nm"
+    ],
+    "LF All": [
+      "45 135hp (99kW) 500Nm",
+      "45 140hp (103kW) 550Nm",
+      "45 150hp (110kW) 550Nm",
+      "45 160hp (118kW) 600Nm",
+      "45 170hp (125kW) 600Nm",
+      "45 180hp (132kW) 700Nm",
+      "45 220hp (162kW) 820Nm",
+      "45 250hp (184kW) 950Nm",
+      "45 285hp (210kW) 1020Nm",
+      "55 140hp (103kW) 550Nm",
+      "55 160hp (118kW) 600Nm",
+      "55 170hp (125kW) 600Nm",
+      "55 180hp (132kW) 700Nm",
+      "55 220hp (162kW) 820Nm",
+      "55 250hp (184kW) 950Nm",
+      "55 280hp (206kW) 1020Nm"
+    ],
+    "XF All": [
+      "105 410hp (301kW) 2000Nm",
+      "105 460hp (338kW) 2300Nm",
+      "105 510hp (375kW) 2500Nm",
+      "381 381hp (280kW) 1750Nm",
+      "430 428hp (315kW) 1950Nm",
+      "480 480hp (353kW) 2100Nm",
+      "530 530hp (390kW) 2350Nm",
+      "95 380hp (279kW) 1750Nm",
+      "95 430hp (316kW) 1950Nm",
+      "95 480hp (353kW) 2100Nm",
+      "95 530hp (390kW) 2350Nm"
+    ]
+  },
+  "DS": {
+    "3 / Cabrio 2015 ->": [
+      "1.2 Puretech 110hp (81kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 285Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "1.6 THP Performance 208hp (153kW) 300Nm"
+    ],
+    "3 Crossback 2019 ->": [
+      "1.2 Puretech 102hp (75kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.2 Puretech 155hp (114kW) 240Nm",
+      "1.5 BlueHDI 102hp (75kW) 250Nm",
+      "1.5 BlueHDI 110hp (81kW) 250Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm"
+    ],
+    "4 2015 ->": [
+      "1.2 PureTech 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDi 8V 115hp (85kW) 300Nm",
+      "1.6 BlueHDi 8V 120hp (88kW) 300Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "1.6 THP 200hp (147kW) 275Nm",
+      "1.6 THP 210hp (154kW) 285Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm"
+    ],
+    "4 Crossback 2015 ->": [
+      "1.2 PureTech 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm"
+    ],
+    "5 2015 ->": [
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 165hp (121kW) 240Nm",
+      "1.6 THP 210hp (154kW) 285Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm"
+    ],
+    "7 Crossback 2017 ->": [
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.6 Puretech 180hp (132kW) 250Nm",
+      "1.6 Puretech 225hp (165kW) 300Nm",
+      "1.6 Puretech Hybrid4 300hp (kW) Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm"
+    ],
+    "9 2021 -> ...": [
+      "1.6 Puretech 225hp (kW) Nm",
+      "1.6 Puretech PHEV 225hp (kW) Nm",
+      "1.6 Puretech PHEV 360hp (kW) Nm"
+    ]
+  },
+  "Dacia": {
+    "Dokker 2013 - 2016": [
+      "1.2 TCE 115hp (85kW) 200Nm",
+      "1.5 DCI 75hp (55kW) 180Nm",
+      "1.5 DCI 90hp (66kW) 190Nm",
+      "1.6 MPI 85hp (62kW) 134Nm"
+    ],
+    "Dokker 2017 ->": [
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.3 TCe 130hp (kW) Nm",
+      "1.3 TCe 150hp (kW) Nm",
+      "1.5 DCI 75hp (55kW) 200Nm",
+      "1.5 DCI 90hp (66kW) 220Nm"
+    ],
+    "Duster 2010 - 2017": [
+      "1.2 TCE 125hp (92kW) 205Nm",
+      "1.5 DCI 105hp (77kW) 240Nm",
+      "1.5 DCI 110hp (81kW) 240Nm",
+      "1.5 DCI 85hp (62kW) 200Nm",
+      "1.5 DCI 90hp (66kW) 200Nm",
+      "1.6i 16v 105hp (77kW) 148Nm"
+    ],
+    "Duster 2018 - 2020": [
+      "1.2 TCe 125hp (92kW) 205Nm",
+      "1.3 TCe 130hp (kW) Nm",
+      "1.3 TCe 150hp (kW) Nm",
+      "1.5 dCi 110hp (81kW) 240Nm",
+      "1.5 dCi 115hp (85kW) 260Nm",
+      "1.5 dCi 95hp (70kW) 240Nm"
+    ],
+    "Lodgy 2012 - 2017": [
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.5 DCI 110hp (81kW) 240Nm",
+      "1.5 DCI 90hp (66kW) 200Nm"
+    ],
+    "Lodgy 2017 ->": [
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.3 TCe 130hp (kW) Nm",
+      "1.5 DCI 110hp (81kW) 240Nm",
+      "1.5 DCI 90hp (66kW) 200Nm",
+      "1.5 dCi 115hp (85kW) 260Nm",
+      "1.5 dCi 95hp (70kW) 220Nm"
+    ],
+    "Logan 2004 - 2012": [
+      "1.2i 16V 75hp (55kW) 107Nm",
+      "1.4i 75hp (55kW) 112Nm",
+      "1.5 DCI 70hp (51kW) 160Nm",
+      "1.5 DCI 75hp (55kW) 180Nm",
+      "1.5 DCI 85hp (62kW) 200Nm",
+      "1.5 DCI 90hp (66kW) 200Nm",
+      "1.6i 105hp (77kW) 148Nm",
+      "1.6i 87hp (64kW) 128Nm"
+    ],
+    "Logan 2013 - 2015": [
+      "0.9 TCE 90hp (66kW) 135Nm",
+      "1.5 DCI 75hp (55kW) 200Nm",
+      "1.5 DCI 90hp (66kW) 200Nm"
+    ],
+    "Logan 2016 - 2020": [
+      "0.9 TCe 90hp (66kW) 135Nm",
+      "1.0 TCe 100hp (74kW) 160Nm",
+      "1.5 DCI 75hp (55kW) 200Nm",
+      "1.5 DCI 90hp (66kW) 200Nm",
+      "1.5 DCI 95hp (70kW) 220Nm"
+    ],
+    "Sandero 2008 - 2012": [
+      "1.2i 16V 75hp (55kW) 107Nm",
+      "1.4i 75hp (55kW) 112Nm",
+      "1.5 DCI 70hp (51kW) 160Nm",
+      "1.5 DCI 75hp (55kW) 180Nm",
+      "1.5 DCI 85hp (62kW) 200Nm",
+      "1.5 DCI 90hp (66kW) 200Nm",
+      "1.6i 16v 105hp (77kW) 148Nm",
+      "1.6i 8v 85hp (62kW) 135Nm"
+    ],
+    "Sandero 2013 - 2015": [
+      "0.9 TCE 90hp (66kW) 135Nm",
+      "1.5 DCi 75hp (55kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 200Nm"
+    ],
+    "Sandero 2016 - 2020": [
+      "0.9 TCe 90hp (66kW) 135Nm",
+      "1.0 SCe 73hp (54kW) 97Nm",
+      "1.0 TCe 100hp (74kW) 160Nm",
+      "1.5 DCi 75hp (55kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "RS 2.0 145hp (kW) Nm"
+    ]
+  },
+  "Daewoo": {
+    "Matiz All": [
+      "0.8 51hp (38kW) 69Nm"
+    ],
+    "Nubira All": [
+      "2.0 VCDi 121hp (89kW) 280Nm",
+      "2.0i 133hp (98kW) 184Nm"
+    ]
+  },
+  "Dallara": {
+    "Stradale 2017 ->": [
+      "2.3T Ecoboost 400hp (294kW) 500Nm"
+    ]
+  },
+  "Deutz Fahr": {
+    "Agrocompact 100 All": [
+      "4.0 - 90hp (66kW) 372Nm"
+    ],
+    "Agrocompact 75 All": [
+      "4.0 - 71hp (52kW) 279Nm",
+      "71 - 71hp (52kW) 257Nm"
+    ],
+    "Agrocompact 90 All": [
+      "4.0 - 83hp (61kW) 348Nm"
+    ],
+    "Agrofarm 410 All": [
+      "85 - 85hp (62kW) 320Nm"
+    ],
+    "Agrofarm 420 All": [
+      "4.0 - 99hp (73kW) 380Nm"
+    ],
+    "Agrofarm 430 All": [
+      "4.0 - 109hp (80kW) 400Nm"
+    ],
+    "Agrofarm TTV 410 All": [
+      "4.0 - 95hp (70kW) 380Nm"
+    ],
+    "Agrofarm TTV 420 All": [
+      "4.0 - 102hp (75kW) 400Nm"
+    ],
+    "Agroplus 67 All": [
+      "68 - 68hp (50kW) 260Nm"
+    ],
+    "Agroplus 77 All": [
+      "71 - 71hp (52kW) 257Nm"
+    ],
+    "Agroplus 87 All": [
+      "4.0 - 83hp (61kW) 348Nm"
+    ],
+    "Agrotron 130 MK3 All": [
+      "7.1 - 135hp (99kW) 512Nm"
+    ],
+    "Agrotron 140 MK3 All": [
+      "7.1 - 150hp (kW) Nm"
+    ],
+    "Agrotron 180.7 All": [
+      "7.1 - 163hp (120kW) 775Nm"
+    ],
+    "Agrotron 200 All": [
+      "240 - 240hp (176kW) 820Nm"
+    ],
+    "Agrotron 90 All": [
+      "4.0 - 90hp (66kW) 372Nm"
+    ],
+    "Agrotron 95 All": [
+      "92 - 92hp (68kW) 363Nm"
+    ],
+    "Agrotron K 100 All": [
+      "4.0 - 95hp (70kW) 396Nm"
+    ],
+    "Agrotron K 110 All": [
+      "6.1 - 103hp (76kW) 418Nm"
+    ],
+    "Agrotron K 120 All": [
+      "4.0 - 116hp (85kW) 447Nm"
+    ],
+    "Agrotron K 410 All": [
+      "4.0 - 88hp (65kW) 382Nm"
+    ],
+    "Agrotron K 420 All": [
+      "4.0 - 99hp (73kW) 413Nm"
+    ],
+    "Agrotron K 430 All": [
+      "4.0 - 112hp (82kW) 492Nm"
+    ],
+    "Agrotron K 610 All": [
+      "6.0 - 112hp (82kW) 436Nm"
+    ],
+    "Agrotron K 90 All": [
+      "4.0 - 84hp (62kW) 372Nm",
+      "84 - 84hp (62kW) 372Nm"
+    ],
+    "Agrotron M 600 All": [
+      "121 - 121hp (89kW) 599Nm",
+      "6.0 - 121hp (89kW) 527Nm"
+    ],
+    "Agrotron M 610 All": [
+      "132 - 132hp (97kW) 599Nm",
+      "6.0 - 132hp (97kW) 574Nm"
+    ],
+    "Agrotron M 615 All": [
+      "146 - 146hp (107kW) 599Nm"
+    ],
+    "Agrotron M 620 All": [
+      "6.0 - 155hp (114kW) 655Nm"
+    ],
+    "Agrotron M 625 All": [
+      "163 - 163hp (120kW) 659Nm"
+    ],
+    "Agrotron M 640 All": [
+      "6.0 - 170hp (125kW) 717Nm"
+    ],
+    "Agrotron M 650 All": [
+      "6.0 - 181hp (133kW) 749Nm"
+    ],
+    "Agrotron TTV 1160 All": [
+      "160 - 160hp (118kW) 615Nm"
+    ],
+    "Agrotron TTV 410 All": [
+      "114 - 114hp (84kW) 521Nm"
+    ],
+    "Agrotron TTV 420 All": [
+      "124 - 124hp (91kW) 566Nm"
+    ],
+    "Agrotron TTV 430 All": [
+      "134 - 134hp (99kW) 611Nm"
+    ],
+    "Agrotron TTV 610 All": [
+      "6.0 - 156hp (115kW) 606Nm"
+    ],
+    "Agrotron TTV 620 All": [
+      "6.0 - 156hp (115kW) 693Nm"
+    ],
+    "Agrotron TTV 630 All": [
+      "203 - 203hp (149kW) 746Nm",
+      "6.0 - 223hp (164kW) 851Nm"
+    ],
+    "Agrotron X710 All": [
+      "219 - 219hp (161kW) 961Nm",
+      "7.1 CR 4V - 200hp (147kW) 833Nm"
+    ],
+    "Agrotron X720 All": [
+      "262 - 262hp (193kW) 1052Nm",
+      "7.1 CR 4V - 250hp (184kW) 1028Nm"
+    ]
+  },
+  "Dodge": {
+    "Avenger 2007 - 2010": [
+      "2.0 CRD 140hp (103kW) 320Nm",
+      "2.4i 173hp (127kW) 225Nm",
+      "3.5 V6 235hp (173kW) 315Nm",
+      "3.6 V6 283hp (208kW) 383Nm"
+    ],
+    "Caliber 2006 - 2011": [
+      "2.0 CRD 140hp (103kW) 320Nm",
+      "2.0i 158hp (116kW) 191Nm",
+      "2.2 CRD 163hp (120kW) 320Nm",
+      "2.4i 172hp (126kW) 224Nm"
+    ],
+    "Caliber 2012 ->": [
+      "2.4 SRT4 295hp (217kW) 363Nm"
+    ],
+    "Caravan 2001 - 2007": [
+      "3.3 V6 180hp (132kW) 280Nm",
+      "3.8 V8 200hp (147kW) 332Nm"
+    ],
+    "Caravan 2008 ->": [
+      "3.6 V6 283hp (208kW) 353Nm",
+      "4.0 V6 251hp (185kW) 350Nm"
+    ],
+    "Challenger 2008 ->": [
+      "3.5 V6 250hp (184kW) 339Nm",
+      "3.6 V6 305hp (224kW) 363Nm",
+      "6.4 HEMI V8 470hp (346kW) 640Nm",
+      "Hellcat 6.2 V8 Supercharged 707hp (520kW) 880Nm",
+      "R/T 5.7 V8 372hp (274kW) 540Nm",
+      "SRT 392 6.4 V8 485hp (357kW) 644Nm",
+      "SRT8 6.1 V8 425hp (313kW) 570Nm"
+    ],
+    "Charger 2006 - 2010": [
+      "2.7 V6 190hp (140kW) 258Nm",
+      "3.5 V6 250hp (184kW) 339Nm",
+      "R/T 5.7 V8 370hp (272kW) 536Nm",
+      "SRT8 8.1 V8 432hp (318kW) 569Nm"
+    ],
+    "Charger 2011 - 2018": [
+      "3.6 V6 292hp (215kW) 353Nm",
+      "6.2 Hemi V8 Hellcat 707hp (520kW) 880Nm",
+      "R/T 5.7 Hemi V8 370hp (272kW) 536Nm",
+      "SRT 392 6.4 V8 485hp (357kW) 644Nm",
+      "SRT8 6.1 V8 425hp (313kW) 569Nm"
+    ],
+    "Dakota 2005 - 2011": [
+      "3.7 V6 210hp (154kW) 319Nm",
+      "4.7 V8 235hp (173kW) 400Nm",
+      "4.7 V8 265hp (195kW) 450Nm"
+    ],
+    "Dart 2013 - 2016": [
+      "2.0i 160hp (118kW) 210Nm"
+    ],
+    "Durango 2010 ->": [
+      "3.6 V6 290hp (213kW) 350Nm",
+      "5.7 V8 360hp (265kW) 530Nm",
+      "SRT 6.4 V8 Hemi 475hp (349kW) 637Nm"
+    ],
+    "Journey 2008 - 2011": [
+      "2.0 CRD 140hp (103kW) 320Nm",
+      "2.4i 170hp (125kW) 220Nm",
+      "2.7i V6 185hp (136kW) 256Nm",
+      "3.5 V6 235hp (173kW) 315Nm",
+      "3.6 V6 283hp (208kW) 353Nm"
+    ],
+    "Magnum 2005 - 2008": [
+      "3.5 V6 254hp (187kW) 339Nm",
+      "R/T 5.7 V8 345hp (254kW) 529Nm",
+      "SRT8 6.1 V8 425hp (313kW) 469Nm"
+    ],
+    "Neon 2000 - 2005": [
+      "SRT4 2.4i 215hp (158kW) 332Nm"
+    ],
+    "Nitro 2007 - 2010": [
+      "2.8 CRD 177hp (130kW) 420Nm",
+      "3.7 V6 210hp (154kW) 319Nm",
+      "4.0 V6 260hp (191kW) 359Nm"
+    ],
+    "Ram All": [
+      "1500 EcoDiesel 240hp (176kW) 570Nm",
+      "3.6 V6 305hp (224kW) 365Nm",
+      "3.7 V6 215hp (158kW) 319Nm",
+      "4.7 V8 235hp (173kW) 400Nm",
+      "5.7 Hemi V8 396hp (291kW) 552Nm",
+      "5.7 V8 345hp (254kW) 540Nm",
+      "6.4 Hemi V8 410hp (301kW) 582Nm",
+      "6.7 L6 350hp (257kW) 890Nm",
+      "6.7 L6 375hp (276kW) 1100Nm",
+      "6.7 L6 385hp (283kW) 1150Nm"
+    ],
+    "Viper 2008 ->": [
+      "8.4 V10 640hp (471kW) 815Nm",
+      "8.4 V10 SRT-10 600hp (441kW) 760Nm"
+    ]
+  },
+  "Fendt": {
+    "207 All": [
+      "3.3 - 60hp (44kW) 295Nm",
+      "Vario 70 - 70hp (51kW) 295Nm"
+    ],
+    "208 All": [
+      "3.3 - 71hp (52kW) 337Nm",
+      "Vario 80 - 80hp (59kW) 337Nm"
+    ],
+    "209 All": [
+      "3.3 - 80hp (59kW) 373Nm",
+      "Vario 90 - 90hp (66kW) 408Nm"
+    ],
+    "210 All": [
+      "3.3 - 90hp (66kW) 408Nm",
+      "Vario 100 - 100hp (74kW) 408Nm"
+    ],
+    "211 All": [
+      "3.3 - 101hp (74kW) 458Nm",
+      "Vario 110 - 110hp (81kW) 458Nm"
+    ],
+    "309 All": [
+      "Vario 4.0 - 94hp (69kW) 407Nm"
+    ],
+    "310 All": [
+      "Vario 4.0 CR - 99hp (73kW) 445Nm"
+    ],
+    "311 All": [
+      "Vario 4.0 CR - 114hp (84kW) 485Nm"
+    ],
+    "312 All": [
+      "Vario 4.0 CR - 124hp (kW) Nm"
+    ],
+    "313 All": [
+      "Vario 135 - 135hp (99kW) 590Nm"
+    ],
+    "409 All": [
+      "Vario 4.0 - 86hp (63kW) 414Nm"
+    ],
+    "410 All": [
+      "Vario 4.0 - 101hp (74kW) 479Nm"
+    ],
+    "411 All": [
+      "Vario 110 - 110hp (81kW) 512Nm",
+      "Vario 114 - 114hp (84kW) 505Nm",
+      "Vario 4.0 - 110hp (81kW) 516Nm",
+      "Viario 4.0 CR - 114hp (84kW) 485Nm"
+    ],
+    "412 All": [
+      "Vario 120 - 120hp (88kW) 550Nm",
+      "Vario 4.0 - 120hp (88kW) 522Nm",
+      "Vario 4.0 CR - 124hp (91kW) 516Nm",
+      "Viaro 124 - 124hp (kW) Nm"
+    ],
+    "413 All": [
+      "Vario 4.0 CR - 133hp (98kW) 589Nm"
+    ],
+    "414 All": [
+      "Vario 4.0 CR - 144hp (106kW) 613Nm"
+    ],
+    "415 All": [
+      "Vario 4.0 CR - 154hp (113kW) 657Nm"
+    ],
+    "5180E All": [
+      "175 - 175hp (kW) Nm"
+    ],
+    "5220E All": [
+      "220 - 220hp (162kW) 1Nm"
+    ],
+    "5250E All": [
+      "243 - 243hp (179kW) 1Nm",
+      "250 - 250hp (kW) Nm"
+    ],
+    "5255 L All": [
+      "6.6 SISU Tier 3B - 243hp (179kW) 1Nm"
+    ],
+    "5270E All": [
+      "275 - 275hp (kW) Nm"
+    ],
+    "6275 L All": [
+      "7.4 Tier 3B - 276hp (kW) Nm"
+    ],
+    "711 All": [
+      "Vario 5.7 - 116hp (85kW) 548Nm"
+    ],
+    "712 All": [
+      "Vario 5.7 - 125hp (92kW) 597Nm",
+      "Vario 6.1 CR - 132hp (97kW) 571Nm"
+    ],
+    "714 All": [
+      "167 - 167hp (123kW) 640Nm",
+      "6.1 Tier 4A - 128hp (94kW) 650Nm",
+      "Vario 144 - 144hp (106kW) 650Nm",
+      "Vario 5.7 - 140hp (103kW) 627Nm",
+      "Vario 6.1 CR - 150hp (110kW) 640Nm"
+    ],
+    "716 All": [
+      "6.1 Tier 4A - 147hp (108kW) 725Nm",
+      "Vario 163 - 163hp (120kW) 725Nm",
+      "Vario 5.7 - 160hp (118kW) 760Nm",
+      "Vario 6.1 CR - 167hp (123kW) 724Nm"
+    ],
+    "718 All": [
+      "6.1 Tier 4A - 165hp (121kW) 804Nm",
+      "Vario 181 - 181hp (133kW) 804Nm",
+      "Vario 6.1 CR - 181hp (133kW) 780Nm"
+    ],
+    "720 All": [
+      "210 - 210hp (154kW) 897Nm",
+      "6.1 Tier 4A - 185hp (136kW) 897Nm"
+    ],
+    "722 All": [
+      "222 - 222hp (163kW) 988Nm",
+      "6.1 Tier 4A - 205hp (151kW) 988Nm"
+    ],
+    "724 All": [
+      "237 - 237hp (174kW) 1058Nm",
+      "6.1 Tier 4A - 220hp (162kW) 1058Nm"
+    ],
+    "815 All": [
+      "5.7 - 150hp (110kW) 730Nm"
+    ],
+    "817 All": [
+      "Vario 5.7 - 165hp (121kW) 780Nm"
+    ],
+    "818 All": [
+      "Vario 186 - 186hp (137kW) 650Nm",
+      "Vario 5.7 - 180hp (132kW) 847Nm",
+      "Vario 6.1 CR - 186hp (137kW) 840Nm"
+    ],
+    "819 All": [
+      "Vario 200 - 200hp (147kW) 863Nm"
+    ],
+    "820 All": [
+      "Vario 6.1 - 207hp (152kW) 895Nm"
+    ],
+    "822 All": [
+      "220 - 220hp (162kW) 955Nm",
+      "6.1 Tier 4A - 200hp (147kW) 955Nm"
+    ],
+    "824 All": [
+      "240 - 240hp (176kW) 1040Nm",
+      "6.1 Tier 4A - 220hp (162kW) 1040Nm"
+    ],
+    "826 All": [
+      "260 - 260hp (191kW) 1120Nm",
+      "6.1 Tier 4A - 239hp (176kW) 1120Nm"
+    ],
+    "828 All": [
+      "280 - 280hp (206kW) 1210Nm",
+      "6.1 Tier 4A - 260hp (191kW) 1210Nm"
+    ],
+    "916 All": [
+      "6.1 Tier 4A - 260hp (191kW) 825Nm"
+    ],
+    "920 All": [
+      "Vario 6.9 - 209hp (154kW) 960Nm"
+    ],
+    "922 All": [
+      "Vario 215 - 215hp (158kW) 913Nm",
+      "Vario 7.1 CR - 220hp (kW) Nm"
+    ],
+    "924 All": [
+      "7.8 Tier 4A - 209hp (154kW) 1049Nm",
+      "Vario 6.9 - 239hp (176kW) 1045Nm",
+      "Vario 7.1 CR - 239hp (176kW) 1000Nm"
+    ],
+    "926 All": [
+      "Vario 6.9 - 271hp (199kW) 1180Nm"
+    ],
+    "927 All": [
+      "7.8 Tier 4A - 241hp (177kW) 1116Nm",
+      "Vario 264 - 264hp (194kW) 1100Nm",
+      "Vario 7.1 CR - 271hp (199kW) 1100Nm"
+    ],
+    "930 All": [
+      "7.8 Tier 4A - 271hp (199kW) 1234Nm",
+      "Vario 6.9 - 301hp (221kW) 1280Nm",
+      "Vario 7.1 CR -299hp (220kW) 1218Nm"
+    ],
+    "933 All": [
+      "7.8 Tier 4A - 301hp (221kW) 1326Nm",
+      "Vario 265 - 265hp (195kW) 1480Nm",
+      "Vario 324 - 324hp (238kW) 1310Nm",
+      "Vario 7.1 CR - 329hp (242kW) 1310Nm"
+    ],
+    "936 All": [
+      "7.8 Tier 4A - 330hp (243kW) 1326Nm",
+      "Vario 355 - 355hp (261kW) 1482Nm",
+      "Vario 7.1 CR - 360hp (265kW) 1482Nm"
+    ],
+    "939 All": [
+      "7.8 Tier 4A - 360hp (265kW) 1547Nm"
+    ],
+    "9460 R All": [
+      "12.5 CAT C13 Acert - 430hp (kW) Nm"
+    ],
+    "Katana 65 All": [
+      "16.0 Tier 3B - 653hp (kW) Nm"
+    ]
+  },
+  "Ferrari": {
+    "348 GTS/GTB/Spider All": [
+      "3.4 V8 320hp (235kW) 325Nm"
+    ],
+    "355 GTS/GTB/Spider All": [
+      "3.5 V8 380hp (279kW) 360Nm"
+    ],
+    "360 Modena/Spider All": [
+      "3.6 V8 401hp (295kW) 375Nm"
+    ],
+    "456 All": [
+      "5.5 V12 428hp (315kW) 490Nm"
+    ],
+    "458 Italia All": [
+      "4.5 V8 570hp (419kW) 540Nm",
+      "4.5 V8 Speciale 605hp (445kW) 540Nm"
+    ],
+    "488 GTB/Spider 2015 ->": [
+      "3.9 V8 Bi-Turbo 670hp (493kW) 760Nm",
+      "3.9 V8 Bi-Turbo Pista 720hp (529kW) 770Nm"
+    ],
+    "512TR All": [
+      "5.0 V12 428hp (315kW) 490Nm"
+    ],
+    "599 GTB All": [
+      "6.0 V12 620hp (456kW) 608Nm"
+    ],
+    "599 GTO All": [
+      "6.0 V12 670hp (493kW) 620Nm"
+    ],
+    "612 Scaglietti All": [
+      "5.7 V12 540hp (397kW) 588Nm"
+    ],
+    "812 Superfast 2017 ->": [
+      "6.5 V12 800hp (588kW) 718Nm"
+    ],
+    "California All": [
+      "3.9 V8 Turbo 560hp (412kW) 755Nm",
+      "4.3 V8 460hp (338kW) 485Nm"
+    ],
+    "F12 Berlinetta All": [
+      "6.3 V12 740hp (544kW) 690Nm"
+    ],
+    "F430 All": [
+      "4.3 V8 490hp (360kW) 465Nm",
+      "4.3 V8 510hp (375kW) 490Nm"
+    ],
+    "F8 Tributo / Spider 2020 -> ...": [
+      "3.9 V8 Bi-Turbo 710hp (522kW) 770Nm"
+    ],
+    "FF All": [
+      "6.2 V12 660hp (485kW) 683Nm"
+    ],
+    "GTC 4 Lusso 2016 ->": [
+      "3.9 V8 Bi-Turbo 610hp (449kW) 760Nm",
+      "6.3 V12 690hp (507kW) 697Nm"
+    ],
+    "M575 All": [
+      "5.8 V12 515hp (379kW) 589Nm"
+    ],
+    "Portofino 2017 ->": [
+      "3.9 V8 bi-Turbo 600hp (441kW) 760Nm"
+    ],
+    "Roma 2020 ->": [
+      "3.9 V8 Bi-Turbo 620hp (kW) Nm"
+    ]
+  },
+  "Fiat": {
+    "124 Spider 2016 ->": [
+      "1.4 MultiAir Turbo 140hp (103kW) 240Nm",
+      "1.4 MultiAir Turbo 170hp (125kW) 250Nm"
+    ],
+    "500 / 595 / 695 500 - 2007 - 2015": [
+      "0.9 Twinair 105hp (77kW) 145Nm",
+      "0.9 Twinair 60hp (44kW) 88Nm",
+      "0.9 Twinair 80hp (59kW) 140Nm",
+      "0.9 Twinair 85hp (62kW) 145Nm",
+      "1.2i 8v 69hp (51kW) 102Nm",
+      "1.3 JTDM 75hp (55kW) 190Nm",
+      "1.3 JTDM 85hp (62kW) 200Nm",
+      "1.3 JTDM 95hp (70kW) 200Nm",
+      "1.4 T-Jet 120hp (88kW) 206Nm",
+      "1.4i 16v 100hp (74kW) 131Nm",
+      "1.4i 16v 95hp (70kW) 127Nm",
+      "1.6 JTDM 105hp (77kW) 320Nm",
+      "1.6 JTDM 120hp (88kW) 320Nm",
+      "Abarth 1.4 T-Jet 135hp (99kW) 206Nm",
+      "Abarth 1.4 T-Jet 140hp (103kW) 206Nm",
+      "Abarth 1.4 T-Jet 160hp (118kW) 234Nm",
+      "Abarth 1.4 T-Jet 180hp (132kW) 230Nm",
+      "Abarth 595 Competizione 1.4 T-Jet 160hp (118kW) 234Nm",
+      "Abarth 595 Competizione 1.4 T-Jet 180hp (132kW) 230Nm",
+      "Abarth 695 Tributo Ferrari 1.4 T-Jet 180hp (132kW) 230Nm",
+      "Abarth 695 Tributo Maserati 1.4 T-Jet 180hp (132kW) 230Nm",
+      "Abarth Assetto Corse 1.4 T-Jet 190hp (140kW) 250Nm",
+      "Abarth Biposto 1.4 T-Jet 190hp (140kW) 250Nm"
+    ],
+    "500 / 595 / 695 595 / 695 - 2016 ->": [
+      "0.9 TwinAir 105hp (77kW) 145Nm",
+      "0.9 TwinAir 80hp (59kW) 145Nm",
+      "1.2i 8V 69hp (51kW) 102Nm",
+      "1.3 JTDM 95hp (70kW) 200Nm",
+      "Abarth 1.4 T-Jet 135hp (99kW) 206Nm",
+      "Abarth 1.4 T-Jet 140hp (103kW) 206Nm",
+      "Abarth 1.4 T-Jet 145hp (107kW) 210Nm",
+      "Abarth 595 Competizione 1.4 T-Jet 180hp (132kW) 230Nm",
+      "Abarth 595 Essesse 1.4 T-Jet 160hp (118kW) 234Nm",
+      "Abarth 595 Pista 1.4 T-Jet 160hp (118kW) 234Nm",
+      "Abarth 595 Turismo 1.4 T-Jet 160hp (118kW) 234Nm",
+      "Abarth 595 Turismo 1.4 T-Jet 165hp (121kW) 230Nm",
+      "Abarth 695 XSR 1.4 T-Jet 163hp (120kW) 230Nm",
+      "Abarth Biposto / Rivale 1.4 T-Jet 190hp (140kW) 250Nm"
+    ],
+    "500 L 2012 ->": [
+      "0.9 Twinair 105hp (77kW) 145Nm",
+      "0.9 Twinair 80hp (59kW) 140Nm",
+      "1.3 JTDM 85hp (62kW) 200Nm",
+      "1.3 JTDM 95hp (70kW) 200Nm",
+      "1.4 T-jet 120hp (88kW) 215Nm",
+      "1.4i 16v 95hp (70kW) 127Nm",
+      "1.6 JTDM 105hp (77kW) 320Nm",
+      "1.6 JTDM 120hp (88kW) 320Nm"
+    ],
+    "500 X 2015 - 2018": [
+      "1.3 Multijet 95hp (70kW) 200Nm",
+      "1.4T MultiAir 140hp (103kW) 230Nm",
+      "1.4T MultiAir 170hp (125kW) 250Nm",
+      "1.6 Multijet 120hp (88kW) 320Nm",
+      "2.0 Multijet 140hp (103kW) 350Nm"
+    ],
+    "500 X 2019 ->": [
+      "0.9 TwinAir 85hp (62kW) 145Nm",
+      "1.0 Firefly Turbo 120hp (88kW) 190Nm",
+      "1.3 Firefly Turbo 150hp (110kW) 270Nm",
+      "1.3 MultiJet 95hp (70kW) 200Nm",
+      "1.6 Multijet 120hp (88kW) 320Nm",
+      "2.0 Multijet 150hp (110kW) 350Nm"
+    ],
+    "Brava 1998 - 2001": [
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 105hp (77kW) 200Nm",
+      "1.9 JTD 110hp (81kW) 200Nm"
+    ],
+    "Bravo 2001 - 2007": [
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 105hp (77kW) 200Nm",
+      "1.9 JTD 115hp (85kW) 255Nm"
+    ],
+    "Bravo 2007 - 2015": [
+      "1.4 Multiair 140hp (103kW) 230Nm",
+      "1.4 T-Jet 120hp (88kW) 206Nm",
+      "1.4 T-Jet 150hp (110kW) 230Nm",
+      "1.4i 16v 90hp (66kW) 127Nm",
+      "1.6 M-JTD 105hp (77kW) 290Nm",
+      "1.6 M-JTD 120hp (88kW) 300Nm",
+      "1.6 M-JTD 90hp (66kW) 280Nm",
+      "1.9 M-JTD 115hp (85kW) 255Nm",
+      "1.9 M-JTD 120hp (88kW) 255Nm",
+      "1.9 M-JTD 16v 150hp (110kW) 305Nm",
+      "2.0 M-JTD 165hp (121kW) 360Nm"
+    ],
+    "Croma 2005 - 2008": [
+      "1.9 JTDm 115hp (85kW) 280Nm",
+      "1.9 JTDm 120hp (88kW) 280Nm",
+      "1.9 JTDm 136hp (100kW) 320Nm",
+      "1.9 JTDm 150hp (110kW) 305Nm",
+      "2.4 JTD 200hp (147kW) 400Nm"
+    ],
+    "Croma 2008 - 2011": [
+      "1.9 JTDm 115hp (85kW) 280Nm",
+      "1.9 JTDm 120hp (88kW) 280Nm",
+      "1.9 JTDm 136hp (100kW) 320Nm",
+      "1.9 JTDm 150hp (110kW) 320Nm",
+      "2.4 JTD 200hp (147kW) 400Nm"
+    ],
+    "Cronos 2018 ->": [
+      "1.8 E-torq 130hp (96kW) 182Nm"
+    ],
+    "Doblo 2001 - 2010": [
+      "1.3 JTD 70hp (51kW) 180Nm",
+      "1.3 JTD 75hp (55kW) 190Nm",
+      "1.3 JTD 85hp (62kW) 190Nm",
+      "1.4i 16v 95hp (70kW) 127Nm",
+      "1.6i 16v 105hp (77kW) 145Nm",
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 105hp (77kW) 205Nm",
+      "1.9 JTD 120hp (88kW) 280Nm"
+    ],
+    "Doblo 2010 - 2015": [
+      "1.3 M-JTD 75hp (55kW) 190Nm",
+      "1.3 M-JTD 90hp (66kW) 200Nm",
+      "1.4 T-Jet 120hp (88kW) 206Nm",
+      "1.4i 16v 95hp (70kW) 127Nm",
+      "1.6 M-JTD 105hp (77kW) 290Nm",
+      "1.6 M-JTD 90hp (66kW) 280Nm",
+      "1.6i 16v 105hp (77kW) 145Nm",
+      "2.0 M-JTD 135hp (99kW) 320Nm"
+    ],
+    "Doblo 2015 ->": [
+      "1.3 Multijet 90hp (66kW) 200Nm",
+      "1.4 T-Jet 120hp (88kW) 206Nm",
+      "1.6 Multijet 100hp (74kW) 320Nm",
+      "1.6 Multijet 105hp (77kW) 290Nm",
+      "1.6 Multijet 120hp (88kW) 320Nm",
+      "1.6 Multijet 90hp (66kW) 200Nm",
+      "2.0 M-JTD 135hp (99kW) 320Nm"
+    ],
+    "Ducato 2001 - 2011": [
+      "2.0 JTD 84hp (62kW) 192Nm",
+      "2.2 JTDM 100hp (74kW) 250Nm",
+      "2.3 JTD 110hp (81kW) 270Nm",
+      "2.3 JTDM 120hp (88kW) 320Nm",
+      "2.3 JTDM 130hp (96kW) 320Nm",
+      "2.8 JTD 127hp (93kW) 300Nm",
+      "2.8 JTD 145hp (107kW) 310Nm",
+      "3.0 JTDM 158hp (116kW) 400Nm"
+    ],
+    "Ducato 2011 - 2016": [
+      "115 Multijet 115hp (85kW) 280Nm",
+      "120 Multijet 120hp (88kW) 320Nm",
+      "130 Multijet 130hp (96kW) 320Nm",
+      "150 Multijet 148hp (109kW) 350Nm",
+      "160 Multijet 160hp (118kW) 400Nm",
+      "180 Multijet 177hp (130kW) 400Nm"
+    ],
+    "Ducato 2016 - 2019": [
+      "115 Multijet (EUR6) 115hp (85kW) 280Nm",
+      "130 Multijet (EUR6) 130hp (96kW) 320Nm",
+      "150 Multijet (EUR6) 150hp (110kW) 380Nm",
+      "180 Multijet (EUR6) 177hp (130kW) 400Nm"
+    ],
+    "Ducato 2019 ->": [
+      "2.3 Multijet 120hp (88kW) 320Nm",
+      "2.3 Multijet 140hp (103kW) 350Nm",
+      "2.3 Multijet 160hp (118kW) 400Nm",
+      "2.3 Multijet 180hp (132kW) 400Nm"
+    ],
+    "Fiorino All": [
+      "1.3 MJTD 75hp (55kW) 190Nm",
+      "1.3 MJTD 95hp (70kW) 200Nm"
+    ],
+    "Freemont 2012 ->": [
+      "2.0 JTDm 136hp (100kW) 350Nm",
+      "2.0 JTDm 140hp (103kW) 350Nm",
+      "2.0 JTDm 163hp (120kW) 360Nm",
+      "2.0 JTDm 170hp (125kW) 360Nm"
+    ],
+    "Fullback 2017 ->": [
+      "2.4D 150hp (110kW) 380Nm",
+      "2.4D 180hp (132kW) 430Nm"
+    ],
+    "Grande Punto 2005 ->": [
+      "1.3 JTD 70hp (51kW) 190Nm",
+      "1.3 JTD 75hp (55kW) 190Nm",
+      "1.3 JTD 90hp (66kW) 200Nm",
+      "1.3 Mjet 85hp (62kW) 200Nm",
+      "1.3 Mjet 95hp (70kW) 200Nm",
+      "1.4 T-Jet 150hp (110kW) 230Nm",
+      "1.4 T-jet 120hp (88kW) 206Nm",
+      "1.4i 16v 95hp (70kW) 127Nm",
+      "1.6 JTDm 120hp (88kW) 320Nm",
+      "1.9 JTD 120hp (88kW) 280Nm",
+      "1.9 JTD 130hp (96kW) 280Nm",
+      "Abarth 1.4 T-Jet 155hp (114kW) 230Nm",
+      "Abarth 1.4 T-Jet 165hp (121kW) 250Nm",
+      "Abarth Supersport 1.4 T-Jet 180hp (132kW) 270Nm"
+    ],
+    "Idea All": [
+      "1.3 JTD 70hp (51kW) 180Nm",
+      "1.3 JTD 90hp (66kW) 200Nm",
+      "1.3 Multijet 95hp (70kW) 200Nm",
+      "1.4i 16v 95hp (70kW) 128Nm",
+      "1.9 JTD 100hp (74kW) 260Nm"
+    ],
+    "Marea All": [
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 110hp (81kW) 200Nm",
+      "1.9 JTD 115hp (85kW) 203Nm",
+      "2.4 JTD 130hp (96kW) 310Nm"
+    ],
+    "Multipla All": [
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 105hp (77kW) 200Nm",
+      "1.9 JTD 110hp (81kW) 200Nm",
+      "1.9 JTD 115hp (85kW) 203Nm",
+      "1.9 Multijet 120hp (88kW) 206Nm"
+    ],
+    "Ottimo 2014 ->": [
+      "1.4 T-Jet 120hp (88kW) 207Nm",
+      "1.4 T-Jet 150hp (110kW) 231Nm"
+    ],
+    "Panda All": [
+      "0.9 Twinair 80hp (59kW) 145Nm",
+      "0.9 Twinair 85hp (62kW) 145Nm",
+      "1.2i 60hp (44kW) 102Nm",
+      "1.3 JTD 70hp (51kW) 145Nm",
+      "1.3 JTDm 75hp (55kW) 145Nm",
+      "1.3 JTDm 95hp (70kW) 200Nm",
+      "1.4 100hp SPORT (74kW) 131Nm"
+    ],
+    "Punto 2003->": [
+      "1.2i 16v 80hp (59kW) 114Nm",
+      "1.2i 8v 60hp (44kW) 102Nm",
+      "1.3 JTD 70hp (51kW) 180Nm",
+      "1.3 M-Jet 75hp (55kW) 190Nm",
+      "1.3 M-Jet 85hp (62kW) 204Nm",
+      "1.4i 16V 95hp (70kW) 128Nm",
+      "1.6 JTDm 120hp (88kW) 320Nm",
+      "1.9 JTD 100hp (74kW) 260Nm",
+      "1.9 JTD 80hp (59kW) 196Nm",
+      "1.9 JTD 85hp (62kW) 196Nm"
+    ],
+    "Punto 2012 ->": [
+      "0.9 Twinair 100hp (74kW) 145Nm",
+      "0.9 Twinair 85hp (62kW) 145Nm",
+      "1.3 Mjet 80hp (59kW) 200Nm",
+      "1.3 Mjet 85hp (62kW) 200Nm",
+      "1.3 Mjet 95hp (70kW) 200Nm",
+      "1.6 Mjet 120hp (88kW) 320Nm"
+    ],
+    "Punto EVO 2009 ->": [
+      "1.3 Mjet 70hp (51kW) 190Nm",
+      "1.3 Mjet 80hp (59kW) 200Nm",
+      "1.3 Mjet 85hp (62kW) 200Nm",
+      "1.3 Mjet 95hp (70kW) 200Nm",
+      "1.4 Multiair 135hp (99kW) 206Nm",
+      "1.6 Mjet 120hp (88kW) 320Nm",
+      "Abarth 1.4 T-jet 165hp (121kW) 250Nm",
+      "Abarth 1.4 T-jet Essesse 180hp (132kW) 270Nm",
+      "Abarth 1.4 T-jet Scorpione 180hp (132kW) 270Nm",
+      "Abarth 1.4 T-jet Supersport 180hp (132kW) 270Nm"
+    ],
+    "Qubo 2008 ->": [
+      "1.3 Mjet 75hp (55kW) 190Nm",
+      "1.3 Mjet 95hp (70kW) 200Nm"
+    ],
+    "Scudo 1995 - 2007": [
+      "2.0 JTD 109hp (80kW) 250Nm"
+    ],
+    "Scudo 2007 ->": [
+      "1.6 JTDm 120hp (88kW) 320Nm",
+      "1.6 JTDm 90hp (66kW) 180Nm",
+      "2.0 JTD 110hp (81kW) 250Nm",
+      "2.0 JTDm 120hp (88kW) 300Nm",
+      "2.0 JTDm 128hp (94kW) 300Nm",
+      "2.0 JTDm 136hp (100kW) 320Nm",
+      "2.0 JTDm 163hp (120kW) 360Nm"
+    ],
+    "Sedici All": [
+      "1.9 JTD 120hp (88kW) 280Nm",
+      "2.0 Mjet 135hp (99kW) 320Nm",
+      "2.0 Mjet 150hp (110kW) 367Nm"
+    ],
+    "Stilo 2001 - 2007": [
+      "1.9 JTD 100hp (74kW) 200Nm",
+      "1.9 JTD 115hp (85kW) 255Nm",
+      "1.9 JTD 120hp (88kW) 280Nm",
+      "1.9 JTD 140hp (103kW) 305Nm",
+      "1.9 JTD 150hp (110kW) 305Nm",
+      "1.9 JTD 80hp (59kW) 196Nm",
+      "2.4i 20v 170hp (125kW) 221Nm"
+    ],
+    "Strada All": [
+      "1.3 MJTD 85hp (62kW) 200Nm",
+      "1.3 MJTD 95hp (70kW) 200Nm",
+      "1.9 JTD 80hp (59kW) 196Nm"
+    ],
+    "Talento 2016 - 2019": [
+      "1.6 EcoJet TwinTurbo 125hp (92kW) 320Nm",
+      "1.6 EcoJet TwinTurbo 145hp (107kW) 340Nm",
+      "1.6 Ecojet 95hp (70kW) 260Nm",
+      "1.6 MultJet 120hp (88kW) 300Nm",
+      "1.6 MultJet 95hp (70kW) 260Nm"
+    ],
+    "Talento 2020 ->": [
+      "1.6 Ecojet 95hp (70kW) 260Nm",
+      "2.0 Ecojet 120hp (88kW) 320Nm",
+      "2.0 Ecojet 145hp (107kW) 350Nm",
+      "2.0 Ecojet 170hp (125kW) 380Nm"
+    ],
+    "Tipo 2016 - 2020": [
+      "1.3 Mjet 95hp (70kW) 200Nm",
+      "1.4 T-Jet 120hp (88kW) 215Nm",
+      "1.4i 95hp (70kW) 127Nm",
+      "1.6 Mjet 120hp (88kW) 320Nm",
+      "1.6i 110hp (81kW) 152Nm"
+    ],
+    "Toro 2016 ->": [
+      "2.0 Multijet 170hp (125kW) 350Nm"
+    ],
+    "Toro 2021 ->...": [
+      "1.3 Turbo 185hp (kW) Nm",
+      "2.0 Multijet 170hp (kW) Nm"
+    ],
+    "Ulysse All": [
+      "2.0 JTD 110hp (81kW) 250Nm",
+      "2.0 JTD 136hp (100kW) 320Nm",
+      "2.2 JTD 128hp (94kW) 314Nm"
+    ],
+    "Uno 2010 ->": [
+      "1.4 8v 85hp (62kW) 122Nm"
+    ],
+    "Viaggio 2014 ->": [
+      "1.4 T-Jet 120hp (88kW) 207Nm",
+      "1.4 T-Jet 150hp (110kW) 231Nm"
+    ]
+  },
+  "Ford": {
+    "B-Max 2012 ->": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.0 EcoBoost 120hp (88kW) 200Nm",
+      "1.0 EcoBoost 125hp (92kW) 200Nm",
+      "1.5 TDCI 75hp (55kW) 185Nm",
+      "1.5 TDCI 95hp (70kW) 215Nm",
+      "1.6 TDCI 95hp (70kW) 215Nm",
+      "1.6 Ti-VCT 105hp (77kW) 150Nm"
+    ],
+    "Bronco 2021 -> ...": [
+      "2.3T Ecoboost 270hp (kW) Nm",
+      "2.7T Ecoboost V6 310hp (kW) Nm"
+    ],
+    "Bronco Sport 2021 -> ...": [
+      "1.5T Ecoboost 181hp (kW) Nm",
+      "2.0T Ecoboost 245hp (kW) Nm"
+    ],
+    "C-Max 2007 - 2010": [
+      "1.6 TDCI 100hp (74kW) 215Nm",
+      "1.6 TDCI 109hp (80kW) 245Nm",
+      "1.6 TDCI 90hp (66kW) 200Nm",
+      "1.6i 16v 100hp (74kW) 157Nm",
+      "1.8 TDCI 115hp (85kW) 280Nm",
+      "2.0 TDCI 115hp (85kW) 300Nm",
+      "2.0 TDCI 136hp (100kW) 320Nm"
+    ],
+    "C-Max 2011 - 2015": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.0 EcoBoost 125hp (92kW) 200Nm",
+      "1.6 EcoBoost 150hp (110kW) 240Nm",
+      "1.6 EcoBoost 182hp (134kW) 240Nm",
+      "1.6 TDCI 115hp (85kW) 270Nm",
+      "1.6 TDCI 95hp (70kW) 230Nm",
+      "2.0 TDCI 115hp (85kW) 300Nm",
+      "2.0 TDCI 136hp (100kW) 320Nm",
+      "2.0 TDCI 140hp (103kW) 320Nm",
+      "2.0 TDCI 163hp (120kW) 340Nm"
+    ],
+    "C-Max 2015 ->": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.0 EcoBoost 125hp (92kW) 200Nm",
+      "1.5 EcoBoost 150hp (110kW) 240Nm",
+      "1.5 TDCI 105hp (77kW) 270Nm",
+      "1.5 TDCI 120hp (88kW) 270Nm",
+      "1.5 TDCI 95hp (70kW) 270Nm",
+      "2.0 TDCi 150hp (110kW) 370Nm",
+      "2.0 TDCi 170hp (125kW) 370Nm"
+    ],
+    "Crown Victoria 2005 - 2012": [
+      "4.6 V8 239hp (176kW) 382Nm"
+    ],
+    "E-Series 2006 - 2014": [
+      "4.6 V8 225hp (165kW) 388Nm",
+      "5.4 V8 255hp (188kW) 438Nm"
+    ],
+    "EcoSport 2014 - 2018": [
+      "1.0 EcoBoost 125hp (92kW) 200Nm",
+      "1.0 EcoBoost 140hp (103kW) 210Nm",
+      "1.5 TDCI 90hp (66kW) 204Nm",
+      "1.5 TDCI 95hp (70kW) 215Nm",
+      "1.5 Ti-VCT 112hp (82kW) 140Nm"
+    ],
+    "EcoSport 2018 ->": [
+      "1.0 Ecoboost 100hp (74kW) 170Nm",
+      "1.0 Ecoboost 125hp (92kW) 170Nm",
+      "1.0 Ecoboost 140hp (103kW) 170Nm",
+      "1.5 Ecoblue 125hp (92kW) 300Nm",
+      "1.5 TDCI 95hp (70kW) 215Nm"
+    ],
+    "Edge 2007 - 2015": [
+      "2.0 Ecoboost 245hp (180kW) 365Nm",
+      "3.5 V6 265hp (195kW) 339Nm",
+      "3.5 V6 285hp (210kW) 343Nm"
+    ],
+    "Edge 2016 - 2018": [
+      "2.0 Ecoboost 245hp (180kW) 373Nm",
+      "2.0 TDCi 180hp (132kW) 400Nm",
+      "2.0 TDCi 210hp (154kW) 450Nm",
+      "2.7 Ecoboost V6 315hp (232kW) 475Nm"
+    ],
+    "Edge 2019 ->": [
+      "2.0 Ecoblue 150hp (kW) Nm",
+      "2.0 Ecoblue Bi-TDCI 238hp (175kW) 500Nm",
+      "2.0T Ecoboost 245hp (180kW) 373Nm",
+      "2.7T Ecoboost 335hp (kW) Nm"
+    ],
+    "Escape 2007 - 2012": [
+      "2.3i 145hp (107kW) 200Nm",
+      "3.0 Duratec V6 203hp (149kW) 271Nm"
+    ],
+    "Escape 2013 - 2016": [
+      "1.6 Ecoboost 178hp (131kW) 249Nm",
+      "2.0 Ecoboost 240hp (176kW) 366Nm"
+    ],
+    "Escape 2017 - 2019": [
+      "1.5T Ecoboost 179hp (132kW) 240Nm",
+      "2.0T Ecoboost 245hp (180kW) 373Nm"
+    ],
+    "Everest 2015 - 2018": [
+      "2.0 Ecoblue 180hp (132kW) 420Nm",
+      "3.2 TDCI 195hp (143kW) 470Nm"
+    ],
+    "Everest 2018 ->": [
+      "2.0 Ecoblue 214hp (kW) Nm",
+      "2.3T Ecoboost 275hp (202kW) 455Nm",
+      "3.2 TDCI 195hp (143kW) 470Nm"
+    ],
+    "Excursion 1999 - 2005": [
+      "6.0 V8 325hp (239kW) 759Nm"
+    ],
+    "Expedition 2007 - 2017": [
+      "3.5T V6 Ecoboost 365hp (268kW) 569Nm",
+      "5.4 V8 310hp (228kW) 495Nm"
+    ],
+    "Explorer 2006 - 2010": [
+      "4.0 V8 210hp (154kW) 344Nm",
+      "4.6 V8 292hp (215kW) 427Nm"
+    ],
+    "Explorer 2011 - 2018": [
+      "2.0T Ecoboost 240hp (176kW) 366Nm",
+      "2.3 Ecoboost 280hp (206kW) 420Nm",
+      "3.5T V6 Ecoboost 370hp (272kW) 465Nm"
+    ],
+    "Explorer 2019 ->": [
+      "2.3 Ecoboost 300hp (kW) Nm",
+      "3.0 Ecoboost V6 PHEV 457hp (336kW) 825Nm",
+      "3.0 V6 365hp (kW) Nm",
+      "ST 3.0 V6 457hp (kW) Nm"
+    ],
+    "F-150 2008 - 2014": [
+      "3.5 Ecoboost 365hp (268kW) 569Nm",
+      "3.7 V6 302hp (222kW) 377Nm",
+      "4.6 V8 248hp (182kW) 399Nm",
+      "4.6 V8 292hp (215kW) 434Nm",
+      "5.0 V8 360hp (265kW) 515Nm",
+      "5.4 V8 310hp (228kW) 495Nm",
+      "6.2 V8 411hp (302kW) 588Nm"
+    ],
+    "F-150 2015 - 2017": [
+      "2.7 V6 325hp (239kW) 508Nm",
+      "3.5 V6 282hp (207kW) 343Nm",
+      "3.5T Ecoboost 375hp (276kW) 637Nm",
+      "5.0 V8 385hp (283kW) 525Nm"
+    ],
+    "F-150 2018 ->": [
+      "2.7T Ecoboost V6 325hp (239kW) 508Nm",
+      "3.3 TI-VCT V6 290hp (213kW) 359Nm",
+      "3.5T Ecoboost 375hp (276kW) 637Nm",
+      "3.5T Ecoboost Raptor 450hp (331kW) 691Nm",
+      "5.0 V8 395hp (290kW) 542Nm"
+    ],
+    "F-250 -> 2020": [
+      "5.4 V8 320hp (235kW) 529Nm",
+      "6.0 V8 325hp (239kW) 772Nm",
+      "6.2 V8 385hp (283kW) 549Nm",
+      "6.4 V8 350hp (257kW) 881Nm",
+      "6.7 V8 400hp (294kW) 1084Nm",
+      "6.7 V8 440hp (324kW) 1166Nm"
+    ],
+    "F-350 All": [
+      "5.4 V8 260hp (191kW) 475Nm",
+      "6.0 V8 325hp (239kW) 760Nm",
+      "6.4 V8 350hp (257kW) 880Nm",
+      "6.7 V8 400hp (294kW) 1084Nm",
+      "6.7 V8 440hp (324kW) 1166Nm",
+      "6.7d V8 475hp (kW) Nm"
+    ],
+    "F-450 All": [
+      "6.7 V8 400hp (294kW) 1086Nm",
+      "6.7 V8 440hp (324kW) 1166Nm"
+    ],
+    "F-550 All": [
+      "5.4 V8 310hp (228kW) 494Nm",
+      "6.0 V8 325hp (239kW) 772Nm",
+      "6.7 V8 400hp (294kW) 1086Nm",
+      "6.7 V8 440hp (324kW) 1166Nm",
+      "6.8 V10 362hp (266kW) 620Nm"
+    ],
+    "Fiesta MK8 - 2017 ->": [
+      "1.0T Ecoboost 100hp (74kW) 170Nm",
+      "1.0T Ecoboost 125hp (92kW) 170Nm",
+      "1.0T Ecoboost 140hp (103kW) 180Nm",
+      "1.0T Ecoboost 95hp (70kW) 170Nm",
+      "1.5 TDCi 120hp (88kW) 270Nm",
+      "1.5 TDCi 85hp (62kW) 215Nm",
+      "1.5T Ecoboost 200hp (147kW) 290Nm"
+    ],
+    "Fiesta Mk5 - 2001 - 2008": [
+      "1.25i 16v 70hp (51kW) 106Nm",
+      "1.3i 70hp (51kW) 106Nm",
+      "1.4 TDCI 68hp (50kW) 160Nm",
+      "1.4 TDCI 70hp (51kW) 160Nm",
+      "1.4i 16v 80hp (59kW) 124Nm",
+      "1.6 TDCI 16v 90hp (66kW) 204Nm",
+      "1.6i 16v 100hp (74kW) 146Nm",
+      "2.0i 16v ST 150hp (110kW) 190Nm"
+    ],
+    "Fiesta Mk6 - 2008 - 2012": [
+      "1.25i 60hp (44kW) 114Nm",
+      "1.25i 80hp (59kW) 114Nm",
+      "1.4 TDCI 68hp (50kW) 160Nm",
+      "1.4 TDCI 70hp (51kW) 160Nm",
+      "1.4i 16v 96hp (71kW) 128Nm",
+      "1.5 TDCI 95hp (70kW) 200Nm",
+      "1.6 TDCI 90hp (66kW) 204Nm",
+      "1.6 TDCI 95hp (70kW) 205Nm",
+      "1.6 TI-VCT 105hp (77kW) 152Nm",
+      "1.6 TI-VCT 120hp (88kW) 152Nm",
+      "1.6T STCI 180hp (132kW) 240Nm",
+      "1.6i 120hp (88kW) 152Nm"
+    ],
+    "Fiesta Mk7 - 2013 - 2017": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.0 EcoBoost 125hp (92kW) 200Nm",
+      "1.0 EcoBoost 140hp (103kW) 200Nm",
+      "1.0i 65hp (48kW) 105Nm",
+      "1.0i 80hp (59kW) 105Nm",
+      "1.5 TDCI 75hp (55kW) 185Nm",
+      "1.5 TDCI 95hp (70kW) 215Nm",
+      "1.5 Ti-VCT 112hp (82kW) 140Nm",
+      "1.6 TDCI 95hp  87gr CO2 (70kW) 200Nm",
+      "1.6 TDCI 95hp (70kW) 200Nm",
+      "1.6 Ti-VCT 105hp (77kW) 150Nm",
+      "ST - 1.6T 182hp (134kW) 290Nm",
+      "ST200 - 1.6T 200hp (147kW) 290Nm"
+    ],
+    "Figo 2015 - 2018": [
+      "1.5 TDCI 100hp (74kW) 215Nm",
+      "1.5 Ti-VCT 112hp (82kW) 136Nm"
+    ],
+    "Figo 2018 -> ...": [
+      "1.2 Ti-VCT 96hp (71kW) 120Nm",
+      "1.5 TDCI 101hp (74kW) 215Nm",
+      "1.5 Ti-VCT 123hp (90kW) 150Nm"
+    ],
+    "Five Hundred 2005 - 2007": [
+      "3.0 V6 205hp (151kW) 281Nm"
+    ],
+    "Flex 2009 - 2014": [
+      "3.5 V6 287hp (211kW) 344Nm"
+    ],
+    "Focus 1998 - 2005": [
+      "1.4i 16v 75hp (55kW) 125Nm",
+      "1.6 TDCi 109hp (80kW) 245Nm",
+      "1.6 TDCi 90hp (66kW) 200Nm",
+      "1.6 Ti-VCT 115hp (85kW) 155Nm",
+      "1.6i 16v 100hp (74kW) 145Nm",
+      "1.8 TDCi 100hp (74kW) 240Nm",
+      "1.8 TDCi 115hp (85kW) 250Nm",
+      "1.8 TDDI 75hp (55kW) 175Nm",
+      "1.8 TDDI 90hp (66kW) 200Nm",
+      "1.8i 115hp (85kW) 158Nm",
+      "2.0i 130hp (96kW) 174Nm",
+      "2.0i 16v ST 170hp (125kW) 196Nm",
+      "2.0i 16v turbo RS 215hp (158kW) 310Nm"
+    ],
+    "Focus 2004 - 2010": [
+      "1.4i 80hp (59kW) 124Nm",
+      "1.6 TDCi 100hp (74kW) 215Nm",
+      "1.6 TDCi 109hp (80kW) 245Nm",
+      "1.6 TDCi 90hp (66kW) 200Nm",
+      "1.6 Ti-VCT 115hp (85kW) 155Nm",
+      "1.6i 16v 100hp (74kW) 145Nm",
+      "1.8 TDCi 115hp (85kW) 280Nm",
+      "1.8i 125hp (92kW) 165Nm",
+      "2.0 TDCi 136hp (100kW) 320Nm",
+      "2.0i 16v 145hp (107kW) 185Nm",
+      "2.5 Turbo ST 225hp (165kW) 320Nm",
+      "RS 305hp (224kW) 440Nm",
+      "RS500 350hp (257kW) 460Nm"
+    ],
+    "Focus 2011 - 2014": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.0 EcoBoost 125hp (92kW) 200Nm",
+      "1.5 EcoBoost 150hp (110kW) 240Nm",
+      "1.6 EcoBoost 150hp (110kW) 240Nm",
+      "1.6 EcoBoost 182hp (134kW) 240Nm",
+      "1.6 TDCi 105hp (77kW) 240Nm",
+      "1.6 TDCi 115hp (85kW) 270Nm",
+      "1.6 TDCi 95hp (70kW) 230Nm",
+      "1.6 Ti-VCT 105hp (77kW) 150Nm",
+      "1.6 Ti-VCT 125hp (92kW) 160Nm",
+      "2.0 ST EcoBoost 250hp (184kW) 340Nm",
+      "2.0 TDCi 115hp (85kW) 300Nm",
+      "2.0 TDCi 136hp (100kW) 320Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.0 TDCi 163hp (120kW) 340Nm"
+    ],
+    "Focus 2014 - 2017": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.0 EcoBoost 125hp (92kW) 170Nm",
+      "1.5 EcoBoost 150hp (110kW) 240Nm",
+      "1.5 EcoBoost 182hp (134kW) 240Nm",
+      "1.5 TDCi 105hp (77kW) 270Nm",
+      "1.5 TDCi 120hp (88kW) 270Nm",
+      "1.5 TDCi 95hp (70kW) 270Nm",
+      "2.0 EcoBoost ST 250hp (184kW) 360Nm",
+      "2.0 TDCI ST 185hp (136kW) 400Nm",
+      "2.0 TDCi 150hp (110kW) 370Nm",
+      "2.3 EcoBoost RS 350hp (257kW) 440Nm"
+    ],
+    "Focus 2018 ->": [
+      "1.0 Ecoboost 100hp (74kW) 170Nm",
+      "1.0 Ecoboost 125hp (92kW) 170Nm",
+      "1.0 Ecoboost MHEV 125hp (92kW) 210Nm",
+      "1.0 Ecoboost MHEV 155hp (114kW) 240Nm",
+      "1.5 Ecoblue 120hp (88kW) 300Nm",
+      "1.5 Ecoblue 95hp (70kW) 300Nm",
+      "1.5 Ecoboost 150hp (110kW) 240Nm",
+      "1.5 Ecoboost 182hp (134kW) 240Nm",
+      "2.0 Ecoblue 150hp (kW) Nm",
+      "2.3 Ecoboost ST 280hp (206kW) 420Nm"
+    ],
+    "Freestar 2004 - 2007": [
+      "3.9 V6 195hp (143kW) 325Nm",
+      "4.2 V6 201hp (148kW) 357Nm"
+    ],
+    "Freestyle 2005 - 2007": [
+      "3.0 V6 205hp (151kW) 281Nm"
+    ],
+    "Fusion (USA) 2013 ->": [
+      "1.5 EcoBoost 150hp (110kW) 240Nm",
+      "1.5 EcoBoost 178hp (131kW) 240Nm",
+      "1.6 EcoBoost 180hp (132kW) 240Nm",
+      "2.0 EcoBoost 240hp (176kW) 340Nm",
+      "2.5 Duratec 175hp (129kW) 230Nm",
+      "2.7 Ecoboost V6 325hp (239kW) 515Nm"
+    ],
+    "Fusion 2002 - 2012": [
+      "1.4 TDCi 68hp (50kW) 160Nm",
+      "1.4i 16v 80hp (59kW) 124Nm",
+      "1.6 TDCi 90hp (66kW) 200Nm",
+      "1.6i 16v 100hp (74kW) 146Nm"
+    ],
+    "Fusion 2013 ->": [
+      "2.0 Turbo 240hp (176kW) 366Nm",
+      "2.7 Ecoboost Supercharged V6 325hp (239kW) 515Nm"
+    ],
+    "Galaxy 1995 - 2006": [
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 150hp (110kW) 310Nm",
+      "1.9 TDI 90hp (66kW) 202Nm"
+    ],
+    "Galaxy 2006 - 2015": [
+      "1.6 EcoBoost 160hp (118kW) 240Nm",
+      "1.6 TDCi 115hp (85kW) 270Nm",
+      "1.8 TDCi 100hp (74kW) 280Nm",
+      "1.8 TDCi 125hp (92kW) 320Nm",
+      "2.0 EcoBoost 203hp (149kW) 300Nm",
+      "2.0 TDCi 115hp (85kW) 300Nm",
+      "2.0 TDCi 130hp (96kW) 330Nm",
+      "2.0 TDCi 136hp EuroV >2010 (100kW) 340Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.0 TDCi 163hp (120kW) 340Nm",
+      "2.0i 16v 143hp (105kW) 190Nm",
+      "2.2 TDCi 175hp (129kW) 400Nm",
+      "2.2 TDCi 200hp (147kW) 420Nm"
+    ],
+    "Galaxy 2015 ->": [
+      "1.5 EcoBoost 160hp (118kW) 240Nm",
+      "2.0 EcoBoost 240hp (176kW) 345Nm",
+      "2.0 TDCi 120hp (88kW) 310Nm",
+      "2.0 TDCi 150hp (110kW) 370Nm",
+      "2.0 TDCi 180hp (132kW) 400Nm",
+      "2.0 TDCi 210hp (154kW) 450Nm"
+    ],
+    "Ka 1997 - 2008": [
+      "1.3i 8v 50hp (37kW) 97Nm",
+      "1.3i 8v 60hp (44kW) 103Nm",
+      "1.3i 8v 70hp (51kW) 106Nm",
+      "1.6i 16v 95hp (70kW) 135Nm"
+    ],
+    "Ka 2008 ->": [
+      "1.2i 16v 69hp (51kW) 102Nm",
+      "1.3 TDCi 75hp (55kW) 145Nm"
+    ],
+    "Kuga 2008 - 2013": [
+      "2.0 TDCi 136hp (100kW) 320Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.0 TDCi 163hp (120kW) 340Nm",
+      "2.5 Turbo 200hp (147kW) 320Nm"
+    ],
+    "Kuga 2013 - 2016": [
+      "1.5 EcoBoost 120hp (88kW) 240Nm",
+      "1.5 EcoBoost 150hp (110kW) 240Nm",
+      "1.5 EcoBoost 182hp (134kW) 240Nm",
+      "1.6 EcoBoost 150hp (110kW) 240Nm",
+      "1.6 EcoBoost 182hp (134kW) 240Nm",
+      "1.6 TDCi 95hp (70kW) 200Nm",
+      "2.0 EcoBoost 240hp (176kW) 340Nm",
+      "2.0 TDCi 120hp (88kW) 310Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.0 TDCi 150hp (110kW) 370Nm",
+      "2.0 TDCi 163hp (120kW) 340Nm",
+      "2.0 TDCi 180hp (132kW) 400Nm"
+    ],
+    "Kuga 2016 - 2019": [
+      "1.5 TDCi 120hp (88kW) 270Nm",
+      "1.5T Ecoboost 120hp (88kW) 240Nm",
+      "1.5T Ecoboost 150hp (110kW) 240Nm",
+      "1.5T Ecoboost 182hp (134kW) 240Nm",
+      "2.0 TDCi 120hp (88kW) 310Nm",
+      "2.0 TDCi 150hp (110kW) 370Nm",
+      "2.0 TDCi 180hp (132kW) 400Nm",
+      "2.0T Ecoboost 245hp (180kW) 394Nm"
+    ],
+    "Kuga 2019 ->": [
+      "1.5 Ecoblue 120hp (88kW) 300Nm",
+      "1.5T Ecoboost 120hp (88kW) 240Nm",
+      "1.5T Ecoboost 150hp (110kW) 240Nm",
+      "1.5T Ecoboost 182hp (134kW) 240Nm",
+      "2.0 Ecoblue 190hp (kW) Nm",
+      "2.0T Ecoboost 242hp (178kW) 394Nm"
+    ],
+    "Mondeo 2000 - 2007": [
+      "1.6i 16v 90hp (66kW) 140Nm",
+      "1.8i 16v 110hp (81kW) 165Nm",
+      "1.8i 16v 125hp (92kW) 170Nm",
+      "2.0 TDCi 115hp (85kW) 280Nm",
+      "2.0 TDCi 130hp (96kW) 330Nm",
+      "2.0 TDDi 115hp (85kW) 280Nm",
+      "2.0 TDDi 90hp (66kW) 245Nm",
+      "2.0i 16v 145hp (107kW) 190Nm",
+      "2.2 TDCi 155hp (114kW) 360Nm",
+      "2.5i v6 170hp (125kW) 220Nm",
+      "220 ST 226hp (166kW) 285Nm"
+    ],
+    "Mondeo 2007 - 2010": [
+      "1.8 TDCi 100hp (74kW) 280Nm",
+      "1.8 TDCi 125hp (92kW) 320Nm",
+      "2.0 SCTi 16v 203hp (149kW) 300Nm",
+      "2.0 TDCi 115hp (85kW) 300Nm",
+      "2.0 TDCi 115hp var.Turbo (85kW) 300Nm",
+      "2.0 TDCi 130hp (96kW) 320Nm",
+      "2.0 TDCi 136hp (100kW) 320Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.0 TDCi 163hp (120kW) 340Nm",
+      "2.2 TDCi 175hp (129kW) 400Nm",
+      "2.5T 220hp (162kW) 320Nm"
+    ],
+    "Mondeo 2010 - 2014": [
+      "1.6 EcoBoost 160hp (118kW) 240Nm",
+      "1.6 TDCi 115hp (85kW) 270Nm",
+      "2.0 EcoBoost 203hp (149kW) 300Nm",
+      "2.0 EcoBoost 240hp (176kW) 340Nm",
+      "2.0 TDCi 115hp (85kW) 300Nm",
+      "2.0 TDCi 136hp (100kW) 320Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.0 TDCi 163hp (120kW) 340Nm",
+      "2.2 TDCi 200hp (147kW) 420Nm",
+      "2.3 HE Duratec 161hp (118kW) 208Nm"
+    ],
+    "Mondeo 2015 - 2018": [
+      "1.0 EcoBoost 125hp (92kW) 170Nm",
+      "1.5 EcoBoost 160hp (118kW) 240Nm",
+      "1.5 TDCi 120hp (88kW) 270Nm",
+      "1.6 TDCi 115hp (85kW) 270Nm",
+      "2.0 EcoBoost 203hp (149kW) 345Nm",
+      "2.0 EcoBoost 240hp (176kW) 345Nm",
+      "2.0 TDCi 150hp (110kW) 350Nm",
+      "2.0 TDCi 180hp (132kW) 400Nm",
+      "2.0 TDCi Bi-Turbo 210hp (154kW) 450Nm"
+    ],
+    "Mondeo 2019 ->": [
+      "1.5 Ecoboost 165hp (121kW) 242Nm",
+      "2.0 Ecoblue 120hp (kW) Nm",
+      "2.0 Ecoblue 150hp (kW) Nm",
+      "2.0 Ecoblue 190hp (kW) Nm"
+    ],
+    "Mustang -> 2014": [
+      "3.7 V6 305hp (224kW) 380Nm",
+      "4.0 V6 205hp (151kW) 319Nm",
+      "GT 4.6 V8 300hp (221kW) 430Nm",
+      "GT 4.6 V8 319hp (235kW) 440Nm",
+      "GT 5.0 V8 420hp (309kW) 524Nm",
+      "GT500 5.4 V8 507hp (373kW) 650Nm"
+    ],
+    "Mustang 2015 - 2018": [
+      "2.3 EcoBoost 317hp (233kW) 434Nm",
+      "3.7 V6 305hp (224kW) 380Nm",
+      "5.2 V8 526hp (387kW) 582Nm",
+      "GT 5.0 V8 421hp (310kW) 542Nm",
+      "GT 5.0 V8 450hp (331kW) 569Nm"
+    ],
+    "Mustang 2018 -> ...": [
+      "2.3 Ecoboost 290hp (213kW) 450Nm",
+      "5.0 V8 GT 449hp (330kW) 529Nm",
+      "5.0 V8 GT Bullit 460hp (338kW) 529Nm"
+    ],
+    "Puma 2019 ->": [
+      "1.0 Ecoboost 125hp (92kW) 200Nm",
+      "1.0 Ecoboost 155hp (114kW) 220Nm",
+      "1.5 Ecoblue 120hp (88kW) 300Nm",
+      "1.5T Ecoboost ST 200hp (147kW) 290Nm"
+    ],
+    "Ranger -> 2010": [
+      "2.3i 143hp (105kW) 208Nm",
+      "2.5 TD 110hp (81kW) 266Nm",
+      "2.5 TDCi 143hp (105kW) 330Nm",
+      "3.0 TDCi 156hp (115kW) 380Nm",
+      "3.0 V6 148hp (109kW) 245Nm",
+      "4.0 V6 210hp (154kW) 344Nm"
+    ],
+    "Ranger 2011 - 2015": [
+      "2.2 TDCi 150hp (110kW) 375Nm",
+      "3.2 TDCi 200hp (147kW) 470Nm"
+    ],
+    "Ranger 2015 - 2018": [
+      "2.2 TDCi 130hp (96kW) 330Nm",
+      "2.2 TDCi 160hp (118kW) 375Nm",
+      "2.3 Ecoboost 270hp (199kW) 420Nm",
+      "3.2 TDCi 200hp (147kW) 470Nm"
+    ],
+    "Ranger 2019 ->": [
+      "2.0 Ecoblue 130hp (kW) Nm",
+      "2.0 Ecoblue 170hp (kW) Nm",
+      "2.0 Ecoblue 213hp (kW) Nm",
+      "3.2 TDCi 200hp (147kW) 470Nm"
+    ],
+    "Raptor 2010 - 2018": [
+      "3.5 Ecoboost Raptor 450hp (331kW) 691Nm",
+      "5.4 V8 310hp (228kW) 495Nm",
+      "6.2 V8 411hp (302kW) 588Nm"
+    ],
+    "Raptor 2019 ->": [
+      "2.0 Ecoblue Bi-Turbo 214hp (kW) Nm"
+    ],
+    "S-Max 2006 - 2010": [
+      "1.8 TDCi 125hp (92kW) 320Nm",
+      "2.0 TDCi 115hp (85kW) 300Nm",
+      "2.0 TDCi 130hp (96kW) 320Nm",
+      "2.0 TDCi 136hp (100kW) 320Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.2 TDCi 175hp (129kW) 400Nm",
+      "2.5 T 220hp (162kW) 320Nm"
+    ],
+    "S-Max 2010 - 2015": [
+      "1.6 EcoBoost 160hp (118kW) 240Nm",
+      "1.6 TDCi 115hp (85kW) 270Nm",
+      "2.0 EcoBoost 203hp (149kW) 300Nm",
+      "2.0 EcoBoost 240hp (176kW) 340Nm",
+      "2.0 TDCi 115hp (85kW) 300Nm",
+      "2.0 TDCi 140hp (103kW) 320Nm",
+      "2.0 TDCi 163hp (120kW) 340Nm",
+      "2.2 TDCi 200hp (147kW) 420Nm"
+    ],
+    "S-Max 2015 ->": [
+      "1.5 EcoBoost 160hp (118kW) 240Nm",
+      "2.0 EcoBoost 240hp (176kW) 340Nm",
+      "2.0 TDCi 120hp (88kW) 310Nm",
+      "2.0 TDCi 150hp (110kW) 350Nm",
+      "2.0 TDCi 180hp (132kW) 400Nm",
+      "2.0 TDCi 190hp (140kW) 400Nm",
+      "2.0 TDCi 210hp (154kW) 450Nm"
+    ],
+    "Sport trac 2007 - 2010": [
+      "4.0 V6 210hp (154kW) 344Nm"
+    ],
+    "Taurus All": [
+      "1.5T EcoBoost 182hp (134kW) 240Nm",
+      "2.0T Ecoboost 245hp (180kW) 373Nm",
+      "2.7T Ecoboost 330hp (243kW) 475Nm",
+      "3.0 V6 200hp (147kW) 271Nm",
+      "3.5 V6 263hp (193kW) 338Nm",
+      "3.5T Ecoboost 365hp (268kW) 474Nm"
+    ],
+    "Territory All": [
+      "2.7 V6 TDCi 190hp (140kW) 440Nm"
+    ],
+    "Tourneo All": [
+      "1.0 Ecoboost 100hp (74kW) 170Nm",
+      "1.5 TDCI 100hp (74kW) 185Nm",
+      "1.5 TDCI 120hp (88kW) 270Nm",
+      "1.8 TDCi 110hp (81kW) 280Nm",
+      "1.8 TDCi 75hp (55kW) 175Nm",
+      "1.8 TDCi 90hp (66kW) 220Nm"
+    ],
+    "Tourneo Connect 2014 - 2018": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.5 TDCi 100hp (74kW) 230Nm",
+      "1.5 TDCi 120hp (88kW) 230Nm",
+      "1.6 TDCi 115hp (85kW) 285Nm",
+      "1.6 TDCi 95hp (70kW) 230Nm",
+      "1.6T EcoBoost 150hp (110kW) 240Nm"
+    ],
+    "Tourneo Connect 2019 ->": [
+      "1.5 Ecoblue 100hp (74kW) 250Nm",
+      "1.5 Ecoblue 120hp (88kW) 270Nm",
+      "1.5 Ecoblue 75hp (55kW) 220Nm"
+    ],
+    "Tourneo Custom 2013 - 2016": [
+      "2.2 TDCI 100hp (74kW) 310Nm",
+      "2.2 TDCI 125hp (92kW) 350Nm",
+      "2.2 TDCI 155hp (114kW) 385Nm"
+    ],
+    "Tourneo Custom 2017 ->": [
+      "2.0 Ecoblue 105hp (77kW) 360Nm",
+      "2.0 Ecoblue 130hp (96kW) 385Nm",
+      "2.0 Ecoblue 170hp (125kW) 405Nm"
+    ],
+    "Transit 2019 -> ...": [
+      "2.0 TDCI Ecoblue 105hp (kW) Nm",
+      "2.0 TDCI Ecoblue 130hp (kW) Nm",
+      "2.0 TDCI Ecoblue 170hp (kW) Nm",
+      "2.0 TDCI Ecoblue 185hp (kW) Nm"
+    ],
+    "Transit 5th - 2000 - 2006": [
+      "2.0 DDi 85hp (62kW) 230Nm",
+      "2.0 TDCi 110hp (81kW) 285Nm",
+      "2.0 TDCi 125hp (92kW) 285Nm",
+      "2.0 TDDi 75hp (55kW) 220Nm",
+      "2.4 TDCi 125hp (92kW) 285Nm",
+      "2.4 TDCi 140hp (103kW) 375Nm"
+    ],
+    "Transit 6th - 2006 - 2013": [
+      "2.2 TDCi 115hp (85kW) 300Nm",
+      "2.2 TDCi 130hp (96kW) 310Nm",
+      "2.2 TDCi 140hp (103kW) 350Nm",
+      "2.2 TDCi 85hp (62kW) 250Nm",
+      "2.4 TDCi 100hp (74kW) 285Nm",
+      "2.4 TDCi 115hp (85kW) 310Nm",
+      "2.4 TDCi 140hp (103kW) 375Nm",
+      "3.2 TDCi 200hp (147kW) 470Nm"
+    ],
+    "Transit 7th - 2013 - 2016": [
+      "2.2 TDCi 100hp (74kW) 310Nm",
+      "2.2 TDCi 115hp (85kW) 300Nm",
+      "2.2 TDCi 125hp (92kW) 330Nm",
+      "2.2 TDCi 140hp (103kW) 350Nm",
+      "2.2 TDCi 155hp (114kW) 355Nm",
+      "2.2 TDCi 85hp (62kW) 250Nm",
+      "2.4 TDCi 100hp (74kW) 285Nm",
+      "2.4 TDCi 115hp (85kW) 310Nm",
+      "2.4 TDCi 140hp (103kW) 375Nm"
+    ],
+    "Transit 8th - 2017 - 2018": [
+      "2.0 TDCi EcoBlue 105hp (77kW) 360Nm",
+      "2.0 TDCi EcoBlue 130hp (96kW) 385Nm",
+      "2.0 TDCi EcoBlue 170hp (125kW) 405Nm"
+    ],
+    "Transit Connect 1st - 2002 - 2012": [
+      "1.8 TDCi 110hp (81kW) 280Nm",
+      "1.8 TDCi 75hp (55kW) 175Nm",
+      "1.8 TDCi 90hp (66kW) 220Nm"
+    ],
+    "Transit Connect 2th - 2013 - 2016": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.5 TDCi 100hp (74kW) 250Nm",
+      "1.5 TDCi 120hp (88kW) 270Nm",
+      "1.5 TDCi 75hp (55kW) 185Nm",
+      "1.6 EcoBoost 150hp (110kW) 240Nm",
+      "1.6 TDCi 115hp (85kW) 270Nm",
+      "1.6 TDCi 75hp (55kW) 220Nm",
+      "1.6 TDCi 95hp (70kW) 230Nm",
+      "2.5i Duractec 169hp (124kW) 231Nm"
+    ],
+    "Transit Connect 3th - 2016 ->": [
+      "1.0 Ecoboost 100hp (74kW) 170Nm",
+      "1.5 TDCi 100hp (74kW) 250Nm",
+      "1.5 TDCi 120hp (88kW) 270Nm",
+      "1.5 TDCi 75hp (55kW) 185Nm"
+    ],
+    "Transit Courier 2014 ->": [
+      "1.0 EcoBoost 100hp (74kW) 170Nm",
+      "1.5 TDCi 75hp (55kW) 185Nm",
+      "1.5 TDCi 95hp (70kW) 230Nm",
+      "1.6 TDCi 95hp (70kW) 230Nm"
+    ],
+    "Transit Custom 2013 - 2016": [
+      "2.2 TDCi 100hp (74kW) 310Nm",
+      "2.2 TDCi 125hp (92kW) 330Nm",
+      "2.2 TDCi 155hp (114kW) 385Nm"
+    ],
+    "Transit Custom 2017 - 2018": [
+      "2.0 TDCI Ecoblue 185hp (kW) Nm",
+      "2.0 TDCi Ecoblue 105hp (77kW) 360Nm",
+      "2.0 TDCi Ecoblue 130hp (96kW) 385Nm",
+      "2.0 TDCi Ecoblue 170hp (125kW) 405Nm"
+    ],
+    "Transit Custom 2019 -> ...": [
+      "2.0 TDCI Ecoblue 185hp (kW) Nm",
+      "2.0 TDCi Ecoblue 105hp (77kW) 360Nm",
+      "2.0 TDCi Ecoblue 130hp (96kW) 385Nm",
+      "2.0 TDCi Ecoblue 170hp (125kW) 405Nm",
+      "2.0 TDCi Ecoblue Hybrid 130hp (kW) Nm"
+    ]
+  },
+  "GMC": {
+    "Acadia 2007 - 2013": [
+      "3.6 V6 275hp (202kW) 251Nm",
+      "3.6 V6 288hp (212kW) 366Nm"
+    ],
+    "Acadia 2017 ->": [
+      "3.6 V6 310hp (228kW) 367Nm"
+    ],
+    "Canyon 2003 - 2012": [
+      "2.8i 175hp (129kW) 251Nm",
+      "2.9i 185hp (136kW) 258Nm",
+      "3.5 V6 220hp (162kW) 305Nm",
+      "3.7 V6 242hp (178kW) 328Nm",
+      "5.3 V8 300hp (221kW) 434Nm"
+    ],
+    "Canyon 2016 ->": [
+      "2.8 Duramax 181hp (133kW) 500Nm",
+      "3.6 V6 308hp (226kW) 373Nm"
+    ],
+    "Envoy 2002 - 2010": [
+      "4.2i - 270hp (199kW) 373Nm",
+      "5.3 V8 290hp (213kW) 441Nm",
+      "5.3 V8 300hp (221kW) 447Nm"
+    ],
+    "Safari 2001 - 2005": [
+      "4.3i - 190hp (140kW) 339Nm"
+    ],
+    "Savana 2003 ->": [
+      "4.3 V6 200hp (147kW) 353Nm",
+      "4.8 V8 275hp (202kW) 393Nm",
+      "5.3 V8 310hp (228kW) 453Nm",
+      "5.7 V8 255hp (188kW) 447Nm",
+      "6.0 V8 342hp (251kW) 506Nm",
+      "6.6 V8 365hp (268kW) 894Nm"
+    ],
+    "Sierra 1999 - 2007": [
+      "4.3 V6 200hp (147kW) 350Nm",
+      "4.8 V8 295hp (217kW) 414Nm",
+      "5.3 V8 295hp (217kW) 447Nm",
+      "6.0 V8 360hp (265kW) 525Nm",
+      "6.6 Duramax 365hp (268kW) 894Nm",
+      "8,1 V8 330hp (243kW) 610Nm"
+    ],
+    "Sierra 2008 - 2013": [
+      "4.3 V6 195hp (143kW) 353Nm",
+      "4.8 V8 302hp (222kW) 414Nm",
+      "5.3 V8 326hp (240kW) 472Nm",
+      "6.0 V8 360hp (265kW) 515Nm",
+      "6.2 V8 403hp (296kW) 565Nm",
+      "6.6 Duramax 365hp (268kW) 894Nm"
+    ],
+    "Sierra 2014 - 2016": [
+      "4.3 V6 285hp (210kW) 413Nm",
+      "5.3 V8 355hp (261kW) 519Nm",
+      "6.2 V8 420hp (309kW) 609Nm",
+      "6.6 Duramax 365hp (268kW) 894Nm"
+    ],
+    "Sierra 2017 ->": [
+      "4.3 V6 285hp (210kW) 413Nm",
+      "5.3 V8 355hp (261kW) 519Nm",
+      "6.0 V8 360hp (265kW) 515Nm",
+      "6.2 V8 420hp (309kW) 609Nm",
+      "6.6 V8 445hp (327kW) 1234Nm"
+    ],
+    "Sonoma 1997 - 2004": [
+      "2.2i 120hp (88kW) 190Nm",
+      "4.3 V6 195hp (143kW) 352Nm"
+    ],
+    "Terrain 2009 - 2015": [
+      "2.4i 182hp (134kW) 233Nm",
+      "3.0 V6 264hp (194kW) 301Nm",
+      "3.6 V6 301hp (221kW) 369Nm"
+    ],
+    "Terrain 2016 - 2017": [
+      "2.4i 182hp (134kW) 233Nm",
+      "3.6 V6 301hp (221kW) 369Nm"
+    ],
+    "Terrain 2017 - 2020": [
+      "1.5T 170hp (kW) Nm",
+      "1.6d 137hp (101kW) 325Nm",
+      "2.0T 252hp (185kW) 353Nm"
+    ],
+    "Yukon 2000 - 2006": [
+      "4.8 V8 275hp (202kW) 393Nm",
+      "5.3 V8 295hp (217kW) 447Nm",
+      "6.0 V8 329hp (242kW) 495Nm",
+      "8.1 V8 325hp (239kW) 597Nm"
+    ],
+    "Yukon 2007 - 2013": [
+      "4.8 V8 295hp (217kW) 393Nm",
+      "5.3 V8 320hp (235kW) 481Nm",
+      "6.0 V8 Hybrid 332hp (244kW) 498Nm",
+      "6.2 V8 405hp (298kW) 565Nm"
+    ],
+    "Yukon 2014 ->": [
+      "5.3 V8 340hp (250kW) 519Nm",
+      "6.2 V8 420hp (309kW) 610Nm"
+    ]
+  },
+  "GWM": {
+    "C50 All": [
+      "1.5 Turbo 126hp (93kW) 188Nm"
+    ],
+    "H3 2005 - 2012": [
+      "2.5 TCI 107hp (79kW) 300Nm"
+    ],
+    "H5 2010 ->": [
+      "2.0 16V TD 127hp (93kW) 310Nm",
+      "2.0 VGT diesel 150hp (110kW) 310Nm"
+    ],
+    "H6 All": [
+      "1.5T 150hp (110kW) 210Nm",
+      "2.0T 143hp (kW) Nm",
+      "2.0T 194hp (143kW) 314Nm"
+    ],
+    "Haval H9 2014 - 2019": [
+      "2.0T 210hp (154kW) 324Nm"
+    ],
+    "Haval H9 2020 ->": [
+      "2.0D 190hp (kW) Nm",
+      "2.0T 225hp (kW) Nm"
+    ],
+    "Steed 5 2012 ->": [
+      "2.0 VGT diesel 141hp (104kW) 305Nm"
+    ],
+    "V80 2008 - >": [
+      "1.5 Turbo 135hp (99kW) 188Nm"
+    ]
+  },
+  "Geely": {
+    "Bin Yue 2018 ->": [
+      "200T (1.0T) 136hp (kW) Nm",
+      "260T (1.5T) 177hp (130kW) 255Nm",
+      "260T PHEV (1.5T) 258hp (kW) Nm"
+    ],
+    "Bo Rui 2015 - 2017": [
+      "1.8 Turbo 161hp (118kW) 250Nm",
+      "2.4i 162hp (119kW) 210Nm",
+      "3.5i 275hp (202kW) 326Nm"
+    ],
+    "Bo Rui 2018 -> ...": [
+      "1.5T MHEV 193hp (kW) Nm",
+      "1.5T PHEV 261hp (kW) Nm"
+    ],
+    "Emgrand GT 2015 ->": [
+      "1.8 Turbo 161hp (118kW) 250Nm",
+      "2.4I 148hp (109kW) 215Nm",
+      "2.4I 162hp (119kW) 210Nm",
+      "3.5i 275hp (202kW) 326Nm"
+    ],
+    "Emgrand X7 2016 ->": [
+      "1.4 Turbo 133hp (98kW) 215Nm",
+      "2.0i 139hp (102kW) 191Nm",
+      "2.4i 148hp (109kW) 191Nm"
+    ]
+  },
+  "Genesis": {
+    "G70 2017 - 2020": [
+      "2.0 T-GDI 252hp (185kW) 350Nm",
+      "2.2D 202hp (149kW) 440Nm",
+      "3.3 T-GDI 370hp (272kW) 520Nm"
+    ],
+    "G70 2020 -> ...": [
+      "2.0 T-GDI 252hp (185kW) 350Nm",
+      "2.2 e-VGT 202hp (kW) Nm",
+      "3.3 T-GDI 370hp (272kW) 520Nm"
+    ],
+    "G80 2016 - 2020": [
+      "2.0T 245hp (180kW) 350Nm",
+      "3.3 T-GDI 370hp (272kW) 510Nm"
+    ],
+    "G80 2020 -> ...": [
+      "2.2 e-VGT 210hp (kW) Nm",
+      "2.5 T-GDI 304hp (kW) Nm",
+      "3.5 T-GDI 380hp (kW) Nm"
+    ],
+    "G90 2016 - 2018": [
+      "3.3 T-GDI 370hp (272kW) 510Nm"
+    ],
+    "G90 2018 -> ...": [
+      "3.7 T-GDI 370hp (272kW) 510Nm"
+    ],
+    "GV80 2020 -> ...": [
+      "2.5 T-GDI 304hp (kW) Nm",
+      "3.0D 278hp (kW) Nm",
+      "3.5 T-GDi 380hp (kW) Nm"
+    ]
+  },
+  "Holden": {
+    "Captiva 2007 - 2009": [
+      "2.0 VCDI 127hp (93kW) 295Nm",
+      "2.0 VCDI 150hp (110kW) 320Nm",
+      "3.2 V6 230hp (169kW) 297Nm"
+    ],
+    "Captiva 2013 ->": [
+      "2.2L 160hp (118kW) 350Nm",
+      "2.4L 165hp (121kW) 230Nm"
+    ],
+    "Colorado All": [
+      "2.8 181hp (133kW) 500Nm"
+    ],
+    "Commodore 1999 - 2005": [
+      "5.7 V8 306hp (225kW) 460Nm"
+    ],
+    "Commodore 2005 - 2008": [
+      "3.6 V6 235hp (173kW) 325Nm",
+      "6.0 V8 354hp (260kW) 510Nm",
+      "6.0 V8 Clubsport 412hp (303kW) 550Nm"
+    ],
+    "Commodore 2013 ->": [
+      "3.6 V6 280hp (206kW) 350Nm",
+      "6.0 V8 350hp (257kW) 517Nm",
+      "6.0 V8 360hp (265kW) 530Nm",
+      "6.2 V8 408hp (300kW) 570Nm"
+    ],
+    "Cruze 2012 - 2013": [
+      "1.4 90hp (66kW) 125Nm"
+    ],
+    "Monaro 2001 - 2005": [
+      "5.7 V8 306hp (225kW) 460Nm",
+      "5.7 V8 408hp (300kW) 460Nm"
+    ],
+    "Rodeo 2006 - 2007": [
+      "3.6 V6 211hp (155kW) 313Nm"
+    ],
+    "Trax 2013->": [
+      "1.4L 16v 140hp (103kW) 200Nm",
+      "1.6L 16v 115hp (85kW) 155Nm",
+      "1.7D 125hp (92kW) 300Nm",
+      "1.8L 16v 140hp (103kW) 175Nm"
+    ]
+  },
+  "Honda": {
+    "Accord All": [
+      "1.5 Turbo 192hp (141kW) 260Nm",
+      "2.0 Turbo 252hp (185kW) 370Nm",
+      "2.2 CTDi 140hp (103kW) 340Nm",
+      "2.2 i-DTEC 150hp (110kW) 350Nm",
+      "2.2 i-DTEC 180hp (132kW) 380Nm",
+      "2.4i 188hp (138kW) 245Nm"
+    ],
+    "Avencier 2016 ->": [
+      "240 Turbo 193hp (142kW) 243Nm",
+      "370 Turbo 272hp (200kW) 370Nm"
+    ],
+    "BR-V 2015 - 2019": [
+      "1.5 i-DTEC 99hp (73kW) 200Nm",
+      "1.5i 119hp (88kW) 145Nm"
+    ],
+    "Breeze 2020 ->": [
+      "1.5 Turbo 193hp (142kW) 243Nm"
+    ],
+    "CR-V 2002 - 2006": [
+      "2.2 CTDi 140hp (103kW) 340Nm"
+    ],
+    "CR-V 2007 - 2012": [
+      "2.2 CTDi 140hp (103kW) 340Nm",
+      "2.2 i-DTEC 150hp (110kW) 350Nm"
+    ],
+    "CR-V 2012 - 2015": [
+      "1.6 i-DTEC 120hp (88kW) 300Nm",
+      "1.6 i-DTEC 160hp (118kW) 350Nm",
+      "2.0 i-VTEC 155hp (114kW) 192Nm",
+      "2.2 i-DTEC 150hp (110kW) 350Nm"
+    ],
+    "CR-V 2015 - 2016": [
+      "1.6 i-DTEC 120hp (88kW) 300Nm",
+      "1.6 i-DTEC 160hp (118kW) 350Nm"
+    ],
+    "CR-V 2017 - 2019": [
+      "1.5 VTEC Turbo 173hp (127kW) 220Nm",
+      "1.5 VTEC Turbo 193hp (142kW) 243Nm",
+      "1.6 i-DTEC 120hp (88kW) 300Nm",
+      "1.6 i-DTEC 160hp (118kW) 350Nm"
+    ],
+    "City 2017 - 2019": [
+      "1.5 i-DTEC 99hp (73kW) 200Nm",
+      "1.5i 119hp (88kW) 145Nm"
+    ],
+    "City 2020 -> ...": [
+      "1.0T 122hp (kW) Nm"
+    ],
+    "Civic 2002 - 2005": [
+      "1.7 CDTi 100hp (74kW) 220Nm"
+    ],
+    "Civic 2006 - 2012": [
+      "1.4i 83hp (61kW) 119Nm",
+      "1.8i 16v 140hp (103kW) 173Nm",
+      "2.0 Type R i-VTEC 201hp (148kW) 193Nm",
+      "2.2 CTDi 140hp (103kW) 340Nm",
+      "2.2 i-DTEC 150hp (110kW) 350Nm"
+    ],
+    "Civic 2013 - 2016": [
+      "1.6 i-DTEC 120hp (88kW) 300Nm",
+      "1.8 i-VTEC 142hp (104kW) 174Nm",
+      "2.0 T Type R 310hp (228kW) 400Nm",
+      "2.2 i-DTEC 150hp (110kW) 350Nm"
+    ],
+    "Civic 2017 - 2020": [
+      "1.0 VTEC 129hp (95kW) 180Nm",
+      "1.5 VTEC 182hp (134kW) 240Nm",
+      "1.6 i-DTEC 120hp (88kW) 300Nm",
+      "2.0T Type-R 320hp (235kW) 400Nm"
+    ],
+    "Civic 2020 -> ...": [
+      "1.5T VTEC 182hp (134kW) 240Nm",
+      "1.6 iDTEC 120hp (88kW) 300Nm",
+      "2.0T Type R 306hp (225kW) 400Nm"
+    ],
+    "Crider 2018 ->": [
+      "1.0T 122hp (90kW) 173Nm"
+    ],
+    "FR-V 2004 - 2010": [
+      "2.2 CTDi 140hp (103kW) 340Nm"
+    ],
+    "HR-V 2015 - 2018": [
+      "1.6 i-DTEC 120hp (88kW) 300Nm"
+    ],
+    "HR-V 2018 ->": [
+      "1.5T VTEC 182hp (134kW) 240Nm",
+      "1.6 i-DTEC 120hp (88kW) 300Nm"
+    ],
+    "Jade 2017 ->": [
+      "1.5T VTEC 156hp (115kW) 203Nm"
+    ],
+    "Odyssey 2003 - 2008": [
+      "2.4i VTEC 200hp (147kW) 232Nm"
+    ],
+    "Odyssey 2008 - 2013": [
+      "2.4i 180hp (132kW) 218Nm",
+      "2.4i VTEC 200hp (147kW) 232Nm"
+    ],
+    "Odyssey 2013 ->": [
+      "2.4i 174hp (128kW) 225Nm"
+    ],
+    "S2000 2003 ->": [
+      "2.2 VTEC 240hp (176kW) 220Nm"
+    ],
+    "UR-V 2016 ->": [
+      "2.0 Turbo 272hp (200kW) 370Nm"
+    ]
+  },
+  "Hummer": {
+    "H1 -> 2006": [
+      "6.6 V8 305hp (224kW) 820Nm"
+    ],
+    "H2 2003 - 2007": [
+      "6.0 V8 316hp (232kW) 522Nm"
+    ],
+    "H2 2008 - 2009": [
+      "6.2 V8 393hp (289kW) 574Nm"
+    ],
+    "H3 2006 - 2010": [
+      "3.5 220hp (162kW) 305Nm",
+      "3.7 242hp (178kW) 328Nm",
+      "5.3 V8 300hp (221kW) 430Nm"
+    ]
+  },
+  "Hyundai": {
+    "Accent All": [
+      "1.5 CRDi 110hp (81kW) 240Nm",
+      "1.5 CRDi 82hp (60kW) 184Nm",
+      "1.6 CRDI 125hp (92kW) 260Nm",
+      "1.6 CRDI 90hp (66kW) 235Nm",
+      "1.6i 16v 120hp (88kW) 153Nm"
+    ],
+    "Aura 2020 ->": [
+      "1.0 T-GDI 100hp (74kW) 172Nm",
+      "1.2 CRDI 75hp (kW) Nm"
+    ],
+    "Bayon 2021 -> ...": [
+      "1.0 T-GDI 100hp (kW) Nm",
+      "1.0 T-GDI MHEV 100hp (kW) Nm",
+      "1.0 T-GDI MHEV 120hp (kW) Nm"
+    ],
+    "Creta / ix25 2015 - 2019": [
+      "1.4 CRDi 90hp (66kW) 219Nm",
+      "1.6 CRDi 128hp (94kW) 260Nm"
+    ],
+    "Elantra 2000 - 2006": [
+      "2.0 CRDi 112hp (82kW) 235Nm"
+    ],
+    "Elantra 2007 - 2016": [
+      "1.6 MPI 132hp (97kW) 157Nm"
+    ],
+    "Elantra 2016 - 2018": [
+      "1.6 T-GDi 204hp (150kW) 264Nm",
+      "2.0i 163hp (120kW) 203Nm"
+    ],
+    "Elantra 2018 - 2020": [
+      "1.4 T-GDI 130hp (96kW) 211Nm",
+      "1.6 T-GDI 204hp (150kW) 264Nm",
+      "2.0i 149hp (110kW) 179Nm"
+    ],
+    "Elantra 2021 -> ...": [
+      "1.6 T-GDI 201hp (kW) Nm",
+      "N 2.0 T-GDI 280hp (kW) Nm"
+    ],
+    "Genesis 2011 ->": [
+      "2.0 Turbo 213hp (157kW) 302Nm",
+      "2.0 Turbo 260hp (191kW) 353Nm",
+      "3.8 V6 306hp (225kW) 361Nm"
+    ],
+    "Getz 2002 - 2008": [
+      "1.5 CRDi 110hp (81kW) 235Nm",
+      "1.5 CRDi 82hp (60kW) 187Nm",
+      "1.5 CRDi 88hp (65kW) 215Nm",
+      "2.0 CRDi 113hp (83kW) 255Nm"
+    ],
+    "Grandeur 2005 - 2010": [
+      "2.2 CRDi 155hp (114kW) 343Nm"
+    ],
+    "H-Serie 2008 - 2015": [
+      "H200 2.5 CRDi 116hp (85kW) 343Nm",
+      "H200 2.5 CRDi 136hp (100kW) 343Nm",
+      "H200 2.5 CRDi 140hp (103kW) 343Nm",
+      "H300 2.5 CRDi 163hp (120kW) 392Nm",
+      "H300 2.5 CRDi 170hp (125kW) 392Nm"
+    ],
+    "H-Serie 2015 - 2018": [
+      "H200 2.5 CRDi 116hp (85kW) 343Nm",
+      "H200 2.5 CRDi 136hp (100kW) 343Nm",
+      "H300 2.5 CRDi 170hp (125kW) 392Nm"
+    ],
+    "H-Serie 2018 -> ...": [
+      "2.5D 175hp (129kW) 441Nm",
+      "H200 2.5 CRDi 116hp (85kW) 343Nm",
+      "H200 2.5 CRDi 136hp (100kW) 343Nm",
+      "H300 2.5 CRDi 170hp (125kW) 392Nm"
+    ],
+    "Kona 2017 ->": [
+      "1.0 T-GDI 120hp (88kW) 172Nm",
+      "1.6 CRDi 115hp (85kW) 260Nm",
+      "1.6 CRDi 136hp (100kW) 320Nm",
+      "1.6 T-GDI 177hp (130kW) 265Nm"
+    ],
+    "Matrix All": [
+      "1.5 CRDi 102hp (75kW) 235Nm",
+      "1.5 CRDi 110hp (81kW) 235Nm",
+      "1.5 CRDi 82hp (60kW) 187Nm"
+    ],
+    "Palisade 2019 ->": [
+      "2.2 CRDi 193hp (142kW) 441Nm",
+      "2.2 CRDi 200hp (147kW) 441Nm",
+      "3.8 GDI V6 295hp (217kW) 355Nm"
+    ],
+    "Santa Fe 2001 - 2006": [
+      "2.0 CRDi 112hp (82kW) 255Nm",
+      "2.0 CRDi 125hp (92kW) 285Nm",
+      "2.0 CRDi 150hp (110kW) 335Nm"
+    ],
+    "Santa Fe 2006 - 2014": [
+      "2.0 CRDi 150hp (110kW) 335Nm",
+      "2.2 CRDi 150hp (110kW) 350Nm",
+      "2.2 CRDi 197hp (145kW) 422Nm"
+    ],
+    "Santa Fe 2015 - 2018": [
+      "2.2 CRDI 200hp (147kW) 440Nm"
+    ],
+    "Santa Fe 2018 - 2020": [
+      "2.0 CRDi 150hp (kW) Nm",
+      "2.0 CRDi 185hp (kW) Nm",
+      "2.2 CRDi 200hp (147kW) 440Nm",
+      "2.4 GDI 185hp (kW) Nm"
+    ],
+    "Sonata All": [
+      "1.6 T-GDI 177hp (130kW) 265Nm",
+      "2.0 CRDi 136hp (100kW) 305Nm",
+      "2.0 CRDi 140hp (103kW) 305Nm",
+      "2.0 CRDi VGT 150hp (110kW) 305Nm",
+      "2.0 T-GDI 248hp (182kW) 353Nm"
+    ],
+    "Starex All": [
+      "2.5 CRDi 140hp (103kW) 343Nm",
+      "2.5 CRDi 170hp (125kW) 392Nm"
+    ],
+    "Terracan 2001 - 2007": [
+      "2.9 CRDi 150hp (110kW) 333Nm",
+      "2.9 CRDi 170hp (125kW) 392Nm"
+    ],
+    "Trajet 2000 - 2008": [
+      "2.0 CRDi 112hp (82kW) 255Nm"
+    ],
+    "Tucson 2004 - 2015": [
+      "2.0 CRDi 112hp (82kW) 245Nm",
+      "2.0 CRDi 140hp (103kW) 305Nm",
+      "2.0i 16v 140hp (103kW) 184Nm"
+    ],
+    "Tucson 2015 - 2018": [
+      "1.6 GDI 132hp (97kW) 161Nm",
+      "1.6 T-GDI 177hp (130kW) 265Nm",
+      "1.7 CRDi 116hp (85kW) 280Nm",
+      "1.7 CRDi 141hp (104kW) 340Nm",
+      "2.0 CRDi 136hp (100kW) 373Nm",
+      "2.0 CRDi 185hp (136kW) 400Nm"
+    ],
+    "Tucson 2018 - 2020": [
+      "1.6 CRDi 116hp (85kW) 280Nm",
+      "1.6 CRDi 136hp (100kW) 320Nm",
+      "1.6 GDI 132hp (97kW) 161Nm",
+      "1.6 T-GDI 177hp (130kW) 265Nm",
+      "2.0 CRDi 185hp (136kW) 400Nm"
+    ],
+    "Tucson 2021 ->": [
+      "1.6 CRDI 115hp (kW) Nm",
+      "1.6 CRDI 136hp (kW) Nm",
+      "1.6 T-GDI 150hp (kW) Nm",
+      "1.6 T-GDI 180hp (kW) Nm",
+      "1.6 T-GDI Hybrid 230hp (kW) Nm",
+      "1.6 T-GDI Hybrid 265hp (kW) Nm"
+    ],
+    "Veloster 2011 ->": [
+      "1.6 GDI 140hp (103kW) 167Nm",
+      "1.6 GDI Turbo 186hp (137kW) 265Nm",
+      "1.6 GDI Turbo 204hp (150kW) 265Nm",
+      "N 2.0 T-GDI 275hp (202kW) 353Nm"
+    ],
+    "Verna 2010 ->": [
+      "1.5 CRDi 110hp (81kW) 240Nm",
+      "1.6i 16V 112hp (82kW) 146Nm"
+    ],
+    "i10 2008 - 2018": [
+      "1.0i 69hp (51kW) 95Nm",
+      "1.1 CRDi 75hp (55kW) 153Nm",
+      "1.1i 66hp (49kW) 98Nm"
+    ],
+    "i10 2019 ->": [
+      "1.0 T-GDI 100hp (74kW) 172Nm"
+    ],
+    "i20 2008 - 2014": [
+      "1.1 CRDi 75hp (55kW) 180Nm",
+      "1.4 CDRi 90hp (66kW) 220Nm",
+      "1.4 CRDi 75hp (55kW) 220Nm",
+      "1.6 CRDi 128hp (94kW) 260Nm"
+    ],
+    "i20 2014 - 2018": [
+      "1.0 T-GDi 100hp (74kW) 172Nm",
+      "1.0 T-GDi 120hp (88kW) 172Nm",
+      "1.1 CRDi 75hp (55kW) 180Nm",
+      "1.2i 84hp (62kW) 122Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm"
+    ],
+    "i20 2018 - 2019": [
+      "1.0 T-GDi 100hp (74kW) 172Nm",
+      "1.0 T-GDi 120hp (88kW) 172Nm",
+      "1.4 CRDI 90hp (66kW) 220Nm"
+    ],
+    "i30 2007 - 2010": [
+      "1.6 CRDi 115hp (85kW) 255Nm",
+      "1.6 CRDi 90hp (66kW) 235Nm",
+      "2.0 CRDi 136hp (100kW) 304Nm",
+      "2.0 CRDi 140hp (103kW) 304Nm"
+    ],
+    "i30 2010 - 2015": [
+      "1.4 CRDi 90hp (66kW) 220Nm",
+      "1.6 CRDi 110hp (81kW) 255Nm",
+      "1.6 CRDi 115hp (85kW) 260Nm",
+      "1.6 CRDi 128hp (94kW) 260Nm",
+      "1.6 GDI Turbo 186hp (137kW) 265Nm"
+    ],
+    "i30 2015 - 2017": [
+      "1.6 CRDi 136hp (100kW) 280Nm",
+      "1.6 GDI Turbo 186hp (137kW) 265Nm",
+      "2.0 T-GDi N 250hp (184kW) 353Nm"
+    ],
+    "i30 2017 - 2020": [
+      "1.0 T-GDI 120hp (88kW) 171Nm",
+      "1.4 T-GDI 140hp (103kW) 242Nm",
+      "1.6 CRDi 110hp (81kW) 270Nm",
+      "1.6 CRDi 115hp (85kW) 280Nm",
+      "1.6 CRDi 136hp (100kW) 280Nm",
+      "1.6 CRDi 95hp (70kW) 280Nm",
+      "2.0 T-GDi N 250hp (184kW) 378Nm",
+      "2.0 T-GDi N Performance 275hp (202kW) 378Nm"
+    ],
+    "i30 2020 ->": [
+      "1.0 T-GDI 120hp (kW) Nm",
+      "1.0 T-GDI MHEV 120hp (kW) Nm",
+      "1.5 T-GDI MHEV 160hp (kW) Nm",
+      "1.6 CRDi 115hp (kW) Nm",
+      "1.6 CRDi iMT DCT MHEV 136hp (kW) Nm",
+      "1.6 CRDi iMT MHEV 136hp (kW) Nm",
+      "2.0 T-GDi N 280hp (kW) Nm"
+    ],
+    "i40 2011 ->": [
+      "1.7 CRDi 116hp (85kW) 260Nm",
+      "1.7 CRDi 136hp (100kW) 330Nm"
+    ],
+    "ix20 2010 - 2015": [
+      "1.4 CRDi 75hp (55kW) 220Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm"
+    ],
+    "ix20 2015 ->": [
+      "1.4 90hp Euro 6 (66kW) 137Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm",
+      "1.4 CRDi 90hp Euro 6 (66kW) 240Nm",
+      "1.6 125hp Euro 6 (92kW) 155Nm",
+      "1.6 CRDi 116hp (85kW) 255Nm"
+    ],
+    "ix35 2009 ->": [
+      "1.6 GDI 135hp (99kW) 165Nm",
+      "1.7 CRDi 116hp (85kW) 260Nm",
+      "2.0 16V 165hp (121kW) 205Nm",
+      "2.0 CRDi 136hp (100kW) 320Nm",
+      "2.0 CRDi 184hp (135kW) 383Nm",
+      "2.0i CVVT 163hp (120kW) 194Nm"
+    ],
+    "ix45 2013 ->": [
+      "2.0 CRDi 150hp (110kW) 380Nm",
+      "2.2 CRDi 200hp (147kW) 430Nm"
+    ],
+    "ix55 2008 ->": [
+      "3.0 V6 CRDi 240hp (176kW) 450Nm",
+      "3.0 V6 CRDi 250hp (184kW) 470Nm"
+    ]
+  },
+  "Infiniti": {
+    "EX All": [
+      "3.0d 211hp (155kW) 550Nm",
+      "3.0d 238hp (175kW) 550Nm",
+      "3.5 V6 295hp (217kW) 366Nm",
+      "3.7 V6 320hp (235kW) 366Nm"
+    ],
+    "FX 2008-2013": [
+      "3.0d 211hp (155kW) 550Nm",
+      "3.0d 238hp (175kW) 550Nm",
+      "3.5 V6 302hp (222kW) 355Nm",
+      "3.7 V6 320hp (235kW) 360Nm",
+      "3.7 V6 331hp (243kW) 366Nm",
+      "5.0 V8 390hp (287kW) 500Nm"
+    ],
+    "G25 2011 - 2012": [
+      "2.5 V6 218hp (160kW) 254Nm"
+    ],
+    "G35 All": [
+      "3.5 V6 306hp (225kW) 363Nm"
+    ],
+    "G37/M37 All": [
+      "3.0d 235hp (173kW) 550Nm",
+      "3.7 V6 320hp (235kW) 360Nm",
+      "3.7 V6 331hp (243kW) 366Nm"
+    ],
+    "M All": [
+      "3.0d 211hp (155kW) 550Nm",
+      "3.0d 238hp (175kW) 550Nm",
+      "5.6 V6 420hp (309kW) 565Nm"
+    ],
+    "Q30 2015 ->": [
+      "1.5d 109hp (80kW) 260Nm",
+      "1.6 Turbo 122hp (90kW) 200Nm",
+      "1.6 Turbo 156hp (115kW) 250Nm",
+      "2.0T 211hp (155kW) 350Nm",
+      "2.2d 170hp (125kW) 350Nm"
+    ],
+    "Q50 2013 - 2017": [
+      "2.0T 211hp (155kW) 350Nm",
+      "2.2d 170hp (125kW) 400Nm",
+      "3.0T 405hp (298kW) 475Nm",
+      "3.5 V6 Hybrid 365hp (268kW) 545Nm"
+    ],
+    "Q50 2017 ->": [
+      "2.0T 211hp (155kW) 350Nm",
+      "2.2d 170hp (125kW) 400Nm",
+      "3.5 V6 Hybrid 365hp (268kW) 545Nm",
+      "S 3.0T 405hp (298kW) 475Nm"
+    ],
+    "Q60 -> 2016": [
+      "3.7 V6 320hp (235kW) 360Nm"
+    ],
+    "Q60 2016 ->": [
+      "2.0T 211hp (155kW) 350Nm",
+      "3.0 Bi-Turbo 304hp (kW) Nm",
+      "S 3.0 Bi-Turbo 405hp (298kW) 475Nm"
+    ],
+    "Q70 2014 - 2015": [
+      "3.0d 238hp (175kW) 550Nm"
+    ],
+    "Q70 2015 ->": [
+      "2.2d 170hp (125kW) 400Nm",
+      "3.5 V6 Hybrid 365hp (268kW) 545Nm",
+      "3.7 V6 330hp (243kW) 366Nm",
+      "5.6 V8 416hp (306kW) 561Nm"
+    ],
+    "QX30 2016 ->": [
+      "2.0T 211hp (155kW) 350Nm",
+      "2.2d 170hp (125kW) 350Nm"
+    ],
+    "QX50 2013 - 2016": [
+      "3.0d 238hp (175kW) 550Nm"
+    ],
+    "QX50 2017 ->": [
+      "2.0 Turbo 272hp (200kW) 380Nm"
+    ],
+    "QX55 2020 -> ...": [
+      "2.0T 268hp (kW) Nm"
+    ],
+    "QX56 2010 ->": [
+      "5.6 V8 400hp (294kW) 560Nm"
+    ],
+    "QX60 2016 ->": [
+      "3.5 V6 262hp (193kW) 334Nm",
+      "3.5 V6 295hp (217kW) 366Nm"
+    ],
+    "QX70 2013 ->": [
+      "3.0d 238hp (175kW) 550Nm",
+      "3.7 V6 320hp (235kW) 360Nm",
+      "5.0 V8 390hp (287kW) 500Nm"
+    ],
+    "QX80 All": [
+      "5.6 V8 405hp (298kW) 560Nm"
+    ]
+  },
+  "Isuzu": {
+    "Ascender 2003 - 2008": [
+      "4.2 275hp (202kW) 373Nm",
+      "5.3 V8 305hp (224kW) 447Nm"
+    ],
+    "D-Max 2003 - 2012": [
+      "2.5 TDI 136hp (100kW) 280Nm",
+      "3.0 TDI 163hp (120kW) 360Nm"
+    ],
+    "D-Max 2012 - 2016": [
+      "2.5D twinturbo 163hp (120kW) 400Nm"
+    ],
+    "D-Max 2016 - 2019": [
+      "1.9D 164hp (121kW) 360Nm"
+    ],
+    "D-Max 2020 -> ...": [
+      "1.9D 164hp (121kW) 360Nm",
+      "3.0D 190hp (kW) Nm"
+    ],
+    "I-Series All": [
+      "I-280 2.8 175hp (129kW) 250Nm",
+      "I-290 2.9 185hp (136kW) 258Nm",
+      "I-350 3.5 220hp (162kW) 305Nm",
+      "I-370 3.7 242hp (178kW) 328Nm"
+    ],
+    "MU-X All": [
+      "2.5d 163hp (120kW) 400Nm",
+      "3.0d 177hp (130kW) 430Nm"
+    ]
+  },
+  "Iveco": {
+    "Daily -> 2016": [
+      "2.3 HPI 116hp (85kW) 270Nm",
+      "2.3 HPI 96hp (71kW) 240Nm",
+      "2.3 HPT 136hp (100kW) 350Nm",
+      "2.3 M-jet II 106hp (78kW) 270Nm",
+      "2.3 M-jet II 126hp (93kW) 320Nm",
+      "2.3 M-jet II 146hp (107kW) 350Nm",
+      "3.0 CR (EUR 5) 146hp (107kW) 350Nm",
+      "3.0 CR (EUR 5) 170hp (125kW) 400Nm",
+      "3.0 CR (EUR 6) 156hp (115kW) 350Nm",
+      "3.0 CR TwintT euro5 205hp (151kW) 470Nm",
+      "3.0 HPI 146hp (107kW) 340Nm",
+      "3.0 HPT 176hp (129kW) 380Nm"
+    ],
+    "Daily 2016 ->": [
+      "120 2.3 (EUR 6) 116hp (85kW) 320Nm",
+      "140 2.3 (EUR 6) 136hp (100kW) 350Nm",
+      "145 2.3 (EUR 6) 145hp (107kW) 350Nm",
+      "150 3.0 (EUR 6) 150hp (110kW) 350Nm",
+      "160 2.3 (EUR 6) 156hp (115kW) 350Nm",
+      "180 3.0 (EUR 6) 180hp (132kW) 430Nm",
+      "210 3.0 (EUR 6) 205hp (151kW) 470Nm"
+    ],
+    "EuroCargo All": [
+      "130hp (96kW) 440Nm",
+      "140hp (103kW) 460Nm",
+      "150hp (110kW) 500Nm",
+      "160hp (118kW) 530Nm",
+      "170hp (125kW) 575Nm",
+      "180hp (132kW) 590Nm",
+      "182hp (134kW) 610Nm",
+      "183hp (135kW) 650Nm",
+      "210hp (154kW) 690Nm",
+      "217hp (160kW) 680Nm",
+      "241hp (177kW) 840Nm",
+      "251hp (185kW) 850Nm",
+      "279hp (205kW) 950Nm",
+      "299hp (220kW) 1050Nm"
+    ],
+    "EuroStar All": [
+      "375hp (276kW) 1540Nm",
+      "390hp (287kW) 1850Nm",
+      "420hp (309kW) 1900Nm",
+      "430hp (316kW) 1900Nm",
+      "520hp (382kW) 2300Nm"
+    ],
+    "EuroTech All": [
+      "240hp (176kW) 840Nm",
+      "266hp (196kW) 930Nm",
+      "272hp (200kW) 950Nm",
+      "300hp (221kW) 1050Nm",
+      "310hp (228kW) 1115Nm",
+      "352hp (259kW) 1280Nm",
+      "375 (276kW) 1700Nm",
+      "390hp (287kW) 1850Nm",
+      "430hp (316kW) 1900Nm",
+      "470hp (346kW) 2200Nm",
+      "E24 CURSOR  245hp (180kW) 840Nm",
+      "E24 CURSOR 245hp (180kW) 840Nm",
+      "E27 CURSOR 273hp (201kW) 950Nm",
+      "E35 CURSOR 352hp (259kW) 1280Nm",
+      "E40 CURSOR 400hp (294kW) 1800Nm",
+      "E43 CURSOR 430hp (316kW) 1900Nm"
+    ],
+    "Eurotrakker All": [
+      "245hp E3 (180kW) 950Nm",
+      "273hp E3 (201kW) 950Nm",
+      "300 E3 (221kW) 1050Nm",
+      "310 E3 (228kW) 1115Nm",
+      "345 E3 (254kW) 1200Nm",
+      "350 E3 (257kW) 1280Nm",
+      "375 E3 (276kW) 1540Nm",
+      "380 E3 (279kW) 1800Nm",
+      "420 E3 (309kW) 1900Nm",
+      "440 E3 (324kW) 2100Nm",
+      "480 E3 (353kW) 2200Nm"
+    ],
+    "Stralis All": [
+      "273hp (201kW) 950Nm",
+      "310hp (228kW) 1300Nm",
+      "330hp (243kW) 1400Nm",
+      "350hp (257kW) 1280Nm",
+      "360hp (265kW) 1500Nm",
+      "400hp (294kW) 1800Nm",
+      "420hp (309kW) 1900Nm",
+      "430hp (316kW) 1900Nm",
+      "450hp (331kW) 2100Nm",
+      "480hp (353kW) 2200Nm",
+      "500hp (368kW) 2300Nm",
+      "540hp (397kW) 2350Nm",
+      "560hp (412kW) 2500Nm"
+    ]
+  },
+  "JCB": {
+    "541-70 All": [
+      "4.4 - 132hp (97kW) 532Nm"
+    ],
+    "Fastrac 2140 All": [
+      "5.9 - 155hp (114kW) 597Nm"
+    ],
+    "Fastrac 2155 All": [
+      "6.7 - 162hp (119kW) 641Nm"
+    ],
+    "Fastrac 2170 All": [
+      "6.7 - 173hp (127kW) 675Nm"
+    ],
+    "Fastrac 250 All": [
+      "248 - 248hp (182kW) 1179Nm"
+    ],
+    "Fastrac 3170 All": [
+      "5.9 - 173hp (127kW) 786Nm"
+    ],
+    "Fastrac 3190 All": [
+      "5.9 - 196hp (144kW) 750Nm"
+    ],
+    "Fastrac 3200 All": [
+      "6.7 - 194hp (143kW) 762Nm"
+    ],
+    "Fastrac 3220 All": [
+      "220 - 220hp (162kW) 823Nm",
+      "5.9 - 223hp (164kW) 786Nm"
+    ],
+    "Fastrac 3230 All": [
+      "223 - 223hp (164kW) 1176Nm",
+      "6.7 - 220hp (162kW) 837Nm"
+    ],
+    "Fastrac 7170 All": [
+      "6.7 - 175hp (129kW) 799Nm"
+    ],
+    "Fastrac 7200 All": [
+      "6.7 - 193hp (142kW) 931Nm"
+    ],
+    "Fastrac 7230 All": [
+      "6.7 - 223hp (164kW) 949Nm"
+    ],
+    "Fastrac 7270 All": [
+      "6.7 - 264hp (194kW) 990Nm"
+    ],
+    "Fastrac 8250 All": [
+      "8.3 - 264hp (194kW) 1179Nm"
+    ],
+    "Wheel loader 436 Agri All": [
+      "6.7 CR QSC - 177hp (130kW) 1066Nm"
+    ]
+  },
+  "Jac": {
+    "T6 2015 ->": [
+      "2.0 TDI 139hp (102kW) 320Nm"
+    ]
+  },
+  "Jaguar": {
+    "E Pace 2017 ->": [
+      "D150 (2.0D) 150hp (110kW) 380Nm",
+      "D180 (2.0D) 180hp (132kW) 430Nm",
+      "D240 (2.0D) 240hp (176kW) 500Nm",
+      "P200 (2.0T) 200hp (147kW) 340Nm",
+      "P250 (2.0T) 250hp (184kW) 365Nm",
+      "P300 (3.0T) 300hp (221kW) 400Nm"
+    ],
+    "F Pace 2015 - 2019": [
+      "2.0 Turbo 250hp (184kW) 365Nm",
+      "2.0 Turbo 300hp (221kW) 400Nm",
+      "2.0D 180hp (132kW) 430Nm",
+      "2.0D 240hp (176kW) 500Nm",
+      "3.0 V6 Supercharged 340hp (250kW) 450Nm",
+      "3.0 V6 Supercharged 380hp (279kW) 450Nm",
+      "3.0D 300hp (221kW) 700Nm",
+      "5.0 V8 SVR 550hp (404kW) 680Nm"
+    ],
+    "F Pace 2020 -> ...": [
+      "2.0 P400e 404hp (kW) Nm",
+      "2.0T 250hp (kW) Nm",
+      "2.0d MHEV 163hp (kW) Nm",
+      "2.0d MHEV 204hp (kW) Nm",
+      "3.0T MHEV 340hp (kW) Nm",
+      "3.0T MHEV 400hp (kW) Nm",
+      "3.0d MHEV 300hp (kW) Nm",
+      "5.0 V8 SVR 550hp (kW) Nm"
+    ],
+    "F type 2013 - 2019": [
+      "2.0 Turbo 300hp (221kW) 400Nm",
+      "3.0 V6 Supercharged 340hp (250kW) 450Nm",
+      "3.0 V6 Supercharged 380hp (279kW) 460Nm",
+      "5.0 V8 Supercharged 'Project 7' 575hp (423kW) 680Nm",
+      "5.0 V8 Supercharged 495hp (364kW) 625Nm",
+      "5.0 V8 Supercharged 550hp (404kW) 680Nm"
+    ],
+    "F type 2020 ->": [
+      "2.0 Turbo 300hp (221kW) 400Nm",
+      "5.0 V8 Supercharged 450hp (kW) Nm",
+      "R 5.0 V8 Supercharged 575hp (kW) Nm"
+    ],
+    "S Type All": [
+      "2.2D 155hp (114kW) 360Nm",
+      "2.5 V6 201hp (148kW) 250Nm",
+      "2.7D 207hp (152kW) 435Nm",
+      "3.0 V6 240hp (176kW) 300Nm",
+      "4.2 V8 300hp (221kW) 420Nm",
+      "4.2 V8 R 400hp (294kW) 541Nm"
+    ],
+    "X Type All": [
+      "2.0D 130hp (96kW) 330Nm",
+      "2.2D 155hp (114kW) 360Nm",
+      "2.5 V6 194hp (143kW) 244Nm",
+      "3.0 V6 231hp (170kW) 284Nm"
+    ],
+    "XE 2015 - 2018": [
+      "2.0 Turbo 200hp (147kW) 320Nm",
+      "2.0 Turbo 240hp (176kW) 340Nm",
+      "2.0 Turbo 300hp (221kW) 400Nm",
+      "2.0D 163hp (120kW) 380Nm",
+      "2.0D 180hp (132kW) 430Nm",
+      "3.0 V6 Supercharged 340hp (250kW) 450Nm"
+    ],
+    "XE 2019 ->": [
+      "D180 (2.0D) 180hp (kW) Nm",
+      "P250 (2.0T) 250hp (184kW) 365Nm",
+      "P300 (2.0T) 300hp (221kW) 400Nm"
+    ],
+    "XF -> 2015": [
+      "2.0 SC Turbo 240hp (176kW) 340Nm",
+      "2.2 D 163hp (120kW) 400Nm",
+      "2.2 D 190hp (140kW) 450Nm",
+      "2.2 D 200hp (147kW) 450Nm",
+      "2.7 TDV6 207hp (152kW) 435Nm",
+      "3.0 TDV6 211hp (155kW) 450Nm",
+      "3.0 TDV6 240hp (176kW) 500Nm",
+      "3.0 TDV6 275hp (202kW) 600Nm",
+      "3.0 V6 SC Turbo 340hp (250kW) 450Nm",
+      "4.2 V8 Supercharged 416hp (306kW) 560Nm",
+      "5.0 V8 385hp (283kW) 515Nm",
+      "5.0 V8 supercharged 510hp (375kW) 625Nm"
+    ],
+    "XF 2015 - 2019": [
+      "2.0 Turbo 240hp (176kW) 340Nm",
+      "2.0 Turbo 250hp (184kW) 365Nm",
+      "2.0 Turbo 300hp (221kW) 400Nm",
+      "2.0D 163hp (120kW) 380Nm",
+      "2.0D 180hp (132kW) 430Nm",
+      "2.0D 240hp (176kW) 500Nm",
+      "3.0 V6 Supercharged 340hp (250kW) 450Nm",
+      "3.0 V6 Supercharged 380hp (279kW) 450Nm",
+      "3.0D 300hp (221kW) 700Nm"
+    ],
+    "XF Sportbrake 2012 ->": [
+      "2.2D 163hp (120kW) 400Nm",
+      "2.2D 200hp (147kW) 450Nm",
+      "25d 240hp (176kW) 500Nm",
+      "3.0D 300hp (221kW) 700Nm",
+      "3.0D V6 240hp (176kW) 500Nm",
+      "3.0D V6 S 275hp (202kW) 600Nm"
+    ],
+    "XJ 2003 - 2009": [
+      "2.7 TDV6 207hp (152kW) 435Nm",
+      "4.2 V8 SC 400hp (294kW) 540Nm"
+    ],
+    "XJ 2009 ->": [
+      "2.0 SC Turbo 240hp (176kW) 340Nm",
+      "3.0 V6 SC Turbo 340hp (250kW) 450Nm",
+      "3.0D 275hp (202kW) 600Nm",
+      "3.0D 300hp (221kW) 700Nm",
+      "5.0 V8 385hp (283kW) 515Nm",
+      "5.0 V8 Supercharged 510hp (375kW) 625Nm",
+      "R 5.0 V8 Supercharged 550hp (404kW) 680Nm",
+      "R575 5.0 V8 Supercharged 575hp (423kW) 700Nm"
+    ],
+    "XKR All": [
+      "4.2 V8 Supercharged 416hp (306kW) 560Nm",
+      "5.0 V8 S Supercharged 550hp (404kW) 680Nm",
+      "5.0 V8 Supercharged 510hp (375kW) 625Nm"
+    ]
+  },
+  "Jeep": {
+    "Cherokee 2000 - 2005": [
+      "2.5 CRD 143hp (105kW) 343Nm",
+      "2.5 TD 115hp (85kW) 278Nm",
+      "2.7 CRD 163hp (120kW) 400Nm",
+      "2.8 CRD 150hp (110kW) 360Nm",
+      "2.8 CRD 163hp (120kW) 400Nm"
+    ],
+    "Cherokee 2005 - 2008": [
+      "2.8 CRD 158hp (116kW) 400Nm",
+      "2.8 CRD 163hp (120kW) 400Nm"
+    ],
+    "Cherokee 2008 - 2013": [
+      "2.8 CRD 163hp (120kW) 400Nm",
+      "2.8 CRD 177hp (130kW) 460Nm"
+    ],
+    "Cherokee 2014 ->": [
+      "2.0 CRD 140hp (103kW) 350Nm",
+      "2.0 CRD 170hp (125kW) 350Nm",
+      "2.0T 272hp (kW) Nm",
+      "2.2 CRD 185hp (136kW) 440Nm",
+      "2.2 CRD 200hp (147kW) 440Nm",
+      "3.2 V6 270hp (199kW) 324Nm"
+    ],
+    "Commander 2006 - 2010": [
+      "2.2 CRD 136hp (100kW) 320Nm",
+      "3.0 CRD 211hp (155kW) 510Nm",
+      "3.0 CRD 218hp (160kW) 510Nm",
+      "3.7 V8 210hp (154kW) 319Nm",
+      "4.7 V8 235hp (173kW) 393Nm",
+      "4.7 V8 305hp (224kW) 453Nm",
+      "5.7 Hemi V8 330hp (243kW) 500Nm",
+      "5.7 Hemi V8 357hp (263kW) 527Nm"
+    ],
+    "Commander 2011 - 2020": [
+      "2.2 CRD 136hp (100kW) 320Nm"
+    ],
+    "Compass 2006 - 2011": [
+      "2.0 CRD 140hp (103kW) 310Nm",
+      "2.0i 158hp (116kW) 191Nm",
+      "2.4i 172hp (126kW) 220Nm"
+    ],
+    "Compass 2011 - 2016": [
+      "2.1 CRD 136hp (100kW) 320Nm",
+      "2.2 CRD 136hp (100kW) 320Nm",
+      "2.2 CRD 163hp (120kW) 320Nm"
+    ],
+    "Compass 2017 - 2020": [
+      "1.4 Multiair 140hp (103kW) 230Nm",
+      "1.4 Multiair 170hp (125kW) 250Nm",
+      "1.6 Multijet 120hp (88kW) 320Nm",
+      "2.0 Multijet 140hp (103kW) 350Nm",
+      "2.0 Multijet 170hp (125kW) 350Nm"
+    ],
+    "Grand Cherokee 2001 - 2005": [
+      "2.7 CRD 163hp (120kW) 400Nm"
+    ],
+    "Grand Cherokee 2005 - 2011": [
+      "3.0 CRD 211hp (155kW) 510Nm",
+      "3.0 CRD 218hp (160kW) 510Nm",
+      "3.7 V6 215hp (158kW) 319Nm",
+      "4.7 V8 230hp (169kW) 400Nm",
+      "4.7 V8 305hp (224kW) 453Nm",
+      "5.7 Hemi V8 325hp (239kW) 500Nm",
+      "5.7 Hemi V8 357hp (263kW) 527Nm",
+      "6.1 Hemi V8 420hp (309kW) 569Nm"
+    ],
+    "Grand Cherokee 2011 ->": [
+      "2.0 M-Jet 140hp (103kW) 350Nm",
+      "2.0 M-Jet 180hp (132kW) 350Nm",
+      "3.0 CRD 190hp (140kW) 440Nm",
+      "3.0 CRD 241hp (177kW) 550Nm",
+      "3.0 CRD 250hp (184kW) 570Nm",
+      "3.6 V6 VVT 286hp (210kW) 347Nm",
+      "5.7 Hemi V8 360hp (265kW) 529Nm",
+      "SRT8 6.4 Hemi V8 475hp (349kW) 637Nm",
+      "Tackhawk 6.2 V8 Supercharged 707hp (520kW) 875Nm"
+    ],
+    "Grand Cherokee L 2021 -> ...": [
+      "3.6 V6 290hp (kW) Nm",
+      "5.7 V8 364hp (kW) Nm"
+    ],
+    "Liberty 2005 - 2012": [
+      "3.7 V6 - 210hp (154kW) 318Nm"
+    ],
+    "Patriot 2007 - 2011": [
+      "2.0 CRD 136hp (100kW) 320Nm",
+      "2.0i 158hp (116kW) 191Nm",
+      "2.2 CRD 163hp (120kW) 320Nm",
+      "2.4i 173hp (127kW) 223Nm"
+    ],
+    "Renegade 2014 - 2018": [
+      "1.4 Multiair 140hp (103kW) 230Nm",
+      "1.4 Multiair 170hp (125kW) 250Nm",
+      "1.6 JTDm 115hp (85kW) 320Nm",
+      "1.6 JTDm 120hp (88kW) 320Nm",
+      "2.0 JTDm 140hp (103kW) 350Nm",
+      "2.0 JTDm 170hp (125kW) 350Nm"
+    ],
+    "Renegade 2019 ->": [
+      "1.0 GSE 120hp (88kW) 190Nm",
+      "1.3 GSE 150hp (110kW) 270Nm",
+      "1.3 Multiair turbo 180hp (kW) Nm",
+      "1.6 Multijet 120hp (88kW) 320Nm",
+      "2.0 Multijet 140hp (103kW) 350Nm",
+      "2.0 Multijet 170hp (125kW) 350Nm"
+    ],
+    "Wagoneer 2021 -> ...": [
+      "5.7 V8 Hemi eTorque 397hp (kW) Nm"
+    ],
+    "Wrangler 2007 - 2010": [
+      "2.8 CRD 163-177hp (130kW) 410Nm",
+      "3.6 V6 285hp (210kW) 353Nm",
+      "3.8 V6 200hp (147kW) 321Nm"
+    ],
+    "Wrangler 2010 - 2016": [
+      "2.8 CRD 200hp (147kW) 410Nm",
+      "3.6 V6 285hp (210kW) 353Nm",
+      "3.8 V6 200hp (147kW) 321Nm"
+    ],
+    "Wrangler 2017 ->": [
+      "2.0T 272hp (200kW) 400Nm",
+      "2.2 CRDi 200hp (147kW) 450Nm",
+      "3.0 Ecodiesel 260hp (kW) Nm",
+      "3.6 V6 285hp (210kW) 353Nm"
+    ]
+  },
+  "John Deere": {
+    "1270D All": [
+      "9.0 - 218hp (160kW) 1100Nm"
+    ],
+    "1270E All": [
+      "9.0 - 231hp (170kW) 1125Nm"
+    ],
+    "1470D All": [
+      "9.0 - 245hp (180kW) 1250Nm"
+    ],
+    "1470E All": [
+      "9.0 - 258hp (190kW) 1250Nm"
+    ],
+    "4050 All": [
+      "112 - 112hp (82kW) 400Nm",
+      "116 - 116hp (85kW) 498Nm"
+    ],
+    "4630 All": [
+      "6.8 - 167hp (123kW) 512Nm"
+    ],
+    "5080R All": [
+      "4.5 CR 2V - 80hp (59kW) 334Nm"
+    ],
+    "5090R All": [
+      "4.5 CR 2V - 91hp (67kW) 376Nm"
+    ],
+    "5100R All": [
+      "4.5 CR 2V - 101hp (74kW) 416Nm"
+    ],
+    "6020 DE Pump All": [
+      "4.5 SE - 75hp (55kW) 330Nm"
+    ],
+    "6081H All": [
+      "279 - 279hp (205kW) 1200Nm"
+    ],
+    "6150R All": [
+      "4.5 - 105hp (77kW) 492Nm"
+    ],
+    "6170R All": [
+      "6.8 - 170hp (125kW) 796Nm"
+    ],
+    "6190R All": [
+      "6.8 - 190hp (140kW) 890Nm"
+    ],
+    "6210R All": [
+      "6.8 - 209hp (154kW) 983Nm"
+    ],
+    "6220 DE Pump All": [
+      "4.5 SE - 90hp (66kW) 410Nm"
+    ],
+    "6230 All": [
+      "100 - 100hp (74kW) 416Nm",
+      "4.5 CR 2V - 95hp (kW) Nm",
+      "4.5 CR 4V Premium - 95hp (kW) Nm"
+    ],
+    "6320 All": [
+      "4.5 CR - 101hp (74kW) 450Nm"
+    ],
+    "6330 All": [
+      "100 - 100hp (74kW) 457Nm",
+      "4.5 CR 4V Premium - 105hp (77kW) 471Nm"
+    ],
+    "6410 VP44 All": [
+      "4.5 - 105hp (77kW) 445Nm"
+    ],
+    "6420 All": [
+      "4.5 CR - 110hp (81kW) 500Nm",
+      "4.5 CR - 120hp (88kW) 480Nm"
+    ],
+    "6420 DE Pump All": [
+      "4.5 DE - 120hp (kW) Nm"
+    ],
+    "6420 VP44 All": [
+      "4.5 - 110hp (kW) Nm"
+    ],
+    "6530 All": [
+      "6.8 CR - 116hp (kW) Nm",
+      "6.8 CR 2V - 116hp (kW) Nm"
+    ],
+    "6534 All": [
+      "4.5 CR 2V - 125hp (92kW) 518Nm",
+      "4.5 CR 4V Premium - 125hp (92kW) 518Nm"
+    ],
+    "6620 All": [
+      "6.8 CR - 125hp (92kW) 520Nm"
+    ],
+    "6620 DE Pump All": [
+      "6.8 SE - 125hp (92kW) 520Nm"
+    ],
+    "6620 VP44 All": [
+      "6.8 - 125hp (92kW) 520Nm"
+    ],
+    "6630 All": [
+      "126 - 126hp (93kW) 530Nm",
+      "6.8 CR 2V - 135hp (kW) Nm",
+      "6.8 CR 4V Premium - 125hp (92kW) 550Nm"
+    ],
+    "6750 All": [
+      "12.5 - 364hp (kW) Nm"
+    ],
+    "6810 All": [
+      "125 - 125hp (92kW) 525Nm"
+    ],
+    "6810 VP44 All": [
+      "6.8 - 125hp (92kW) 561Nm"
+    ],
+    "6820 All": [
+      "6.8 CR - 135hp (99kW) 550Nm"
+    ],
+    "6820 VP44 All": [
+      "6.8 - 135hp (99kW) 550Nm"
+    ],
+    "6830 All": [
+      "135 - 135hp (99kW) 550Nm",
+      "6.8 CR 2V - 146hp (107kW) 657Nm",
+      "6.8 CR 4V Premium - 135hp (99kW) 646Nm"
+    ],
+    "6850 All": [
+      "12.5 - 439hp (kW) Nm"
+    ],
+    "6910 VP44 All": [
+      "6.8 S - 150hp (110kW) 665Nm"
+    ],
+    "6920 All": [
+      "6.8 CR - 150hp (110kW) 650Nm",
+      "6.8 S CR - 160hp (kW) Nm"
+    ],
+    "6920 VP44 All": [
+      "6.8 - 120hp (kW) Nm",
+      "6.8 S - 160hp (kW) Nm"
+    ],
+    "6930 All": [
+      "6.8 CR 2V - 155hp (114kW) 700Nm",
+      "6.8 CR 4V Premium - 150hp (110kW) 715Nm"
+    ],
+    "6950 All": [
+      "12.5 - 506hp (kW) Nm"
+    ],
+    "7130 All": [
+      "6.8 2V - 102hp (kW) Nm"
+    ],
+    "7200 Harvester All": [
+      "8.1 - 283hp (kW) Nm"
+    ],
+    "7215R All": [
+      "6.8 Tier 3B - 218hp (160kW) 1007Nm"
+    ],
+    "7230 All": [
+      "6.8 2V Premium - 112hp (kW) Nm",
+      "6.8 8V Premium - 112hp (kW) Nm"
+    ],
+    "7230R All": [
+      "9.0 Tier 3B - 234hp (172kW) 1077Nm"
+    ],
+    "7250 Harvester All": [
+      "9.0 - 382hp (kW) Nm"
+    ],
+    "7260R All": [
+      "9.0 Tier 3B - 264hp (194kW) 1217Nm"
+    ],
+    "7280R All": [
+      "9.0 Tier 3B - 284hp (209kW) 1305Nm"
+    ],
+    "7300 Harvester All": [
+      "12.5 - 371hp (kW) Nm"
+    ],
+    "7330 All": [
+      "6.8 2V Premium - 126hp (kW) Nm",
+      "6.8 4V Premium - 126hp (kW) Nm"
+    ],
+    "7350 Harvester All": [
+      "13.5 - 479hp (kW) Nm"
+    ],
+    "7400 Harvester All": [
+      "12.5 - 439hp (kW) Nm"
+    ],
+    "7500 Harvester All": [
+      "12.5 - 513hp (kW) Nm"
+    ],
+    "7610 All": [
+      "6.8 EDC - 140hp (103kW) 620Nm"
+    ],
+    "7630 All": [
+      "6.8 - 175hp (kW) Nm"
+    ],
+    "7700 Harvester All": [
+      "12.5 - 513hp (kW) Nm"
+    ],
+    "7710 All": [
+      "8.1 - 160hp (kW) Nm"
+    ]
+  },
+  "Kia": {
+    "Carens 2002 - 2011": [
+      "2.0 CRDi 112hp (82kW) 245Nm",
+      "2.0 CRDi 136hp (100kW) 305Nm",
+      "2.0 CRDi 140hp (103kW) 305Nm"
+    ],
+    "Carens 2013 - 2016": [
+      "1.7 CRDi 115hp (85kW) 260Nm",
+      "1.7 CRDi 136hp (100kW) 330Nm"
+    ],
+    "Carens 2016 ->": [
+      "1.7 CRDI 115hp (85kW) 260Nm",
+      "1.7 CRDI 141hp (104kW) 340Nm"
+    ],
+    "Carnival All": [
+      "2.2 CRDI 200hp (147kW) 431Nm",
+      "2.9 CRDi 144hp (106kW) 310Nm",
+      "2.9 CRDi 185hp (136kW) 343Nm"
+    ],
+    "Ceed 2007 - 2010": [
+      "1.6 CRDi 115hp (85kW) 255Nm",
+      "1.6 CRDi 90hp (66kW) 235Nm",
+      "2.0 CRDi 136hp (100kW) 305Nm",
+      "2.0 CRDi 140hp (103kW) 305Nm"
+    ],
+    "Ceed 2010 - 2015": [
+      "1.4 CRDi 100hp (74kW) 220Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm",
+      "1.6 CRDi 110hp (81kW) 260Nm",
+      "1.6 CRDi 115hp (85kW) 255Nm",
+      "1.6 CRDi 128hp (94kW) 260Nm",
+      "1.6 CRDi 90hp (66kW) 235Nm",
+      "1.6 GDi 135hp (99kW) 164Nm",
+      "1.6 T-GDi 204hp (150kW) 265Nm"
+    ],
+    "Ceed 2015 - 2017": [
+      "1.0 T-GDI 100hp (74kW) 170Nm",
+      "1.0 T-GDI 120hp (88kW) 170Nm",
+      "1.4 CRDI 90hp (66kW) 220Nm",
+      "1.6 CRDI 110hp (81kW) 260Nm",
+      "1.6 CRDI 136hp (100kW) 285Nm",
+      "1.6 T-GDI GT 204hp (150kW) 265Nm"
+    ],
+    "Ceed 2018 ->": [
+      "1.0 T-GDi 100hp (74kW) 170Nm",
+      "1.0 T-GDi 120hp (88kW) 170Nm",
+      "1.4 T-GDi 140hp (103kW) 242Nm",
+      "1.4i 100hp (74kW) 134Nm",
+      "1.6 CRDi 115hp (85kW) 280Nm",
+      "1.6 CRDi 136hp (100kW) 280Nm",
+      "1.6 GDi 132hp (97kW) 161Nm",
+      "1.6 T-GDI GT 204hp (150kW) 265Nm"
+    ],
+    "Cerato 2004 - 2006": [
+      "1.5 CRDi 102hp (75kW) 235Nm",
+      "1.6 CRDi 115hp (85kW) 235Nm",
+      "2.0 CRDi 112hp (82kW) 245Nm"
+    ],
+    "Cerato 2019 ->": [
+      "1.6 T-GDI 204hp (150kW) 265Nm"
+    ],
+    "K5 2010 - 2015": [
+      "1.7 CRDi 136hp (100kW) 325Nm",
+      "2.0 T-GDi 278hp (204kW) 365Nm",
+      "2.0i 163hp (120kW) 196Nm",
+      "2.4 GDI 204hp (150kW) 252Nm",
+      "2.4i 180hp (132kW) 231Nm"
+    ],
+    "K5 2016 - 2019": [
+      "1.6 T-GDI 178hp (131kW) 265Nm",
+      "1.7 CRDI 141hp (104kW) 340Nm",
+      "2.0 T-GDI 245hp (180kW) 350Nm",
+      "2.4i 185hp (136kW) 241Nm"
+    ],
+    "K5 2020 ->": [
+      "1.6 T-GDI 180hp (kW) Nm",
+      "2.5 T-GDI 290hp (kW) Nm"
+    ],
+    "K7 2010 - 2016": [
+      "2.4i 181hp (133kW) 231Nm",
+      "2.7 V6 166hp (122kW) 246Nm",
+      "2.7 V6 200hp (147kW) 254Nm",
+      "3.5 V6 290hp (213kW) 338Nm"
+    ],
+    "K7 2017 ->": [
+      "2.4i 192hp (141kW) 245Nm",
+      "3.3 GDI V6 294hp (216kW) 343Nm"
+    ],
+    "Magentis All": [
+      "2.0 CRDi 140hp (103kW) 305Nm"
+    ],
+    "Mohave All": [
+      "3.0 CRDI 250hp (184kW) 540Nm",
+      "3.8 24v V6 274hp (201kW) 369Nm"
+    ],
+    "Optima 2012 - 2015": [
+      "1.7 CRDi 136hp (100kW) 325Nm",
+      "2.0 T-GDI 278hp (204kW) 365Nm",
+      "2.4 GDI 194hp (143kW) 245Nm"
+    ],
+    "Optima 2016 - 2019": [
+      "1.6 CRDI 136hp (100kW) 320Nm",
+      "1.6 T-GDI 180hp (132kW) 265Nm",
+      "1.7 CRDI 141hp (104kW) 340Nm",
+      "2.0 T-GDI 245hp (180kW) 350Nm"
+    ],
+    "Picanto -> 2017": [
+      "1.1 CRDi 75hp (55kW) 153Nm"
+    ],
+    "Picanto 2017 ->": [
+      "1.0 66hp (49kW) 96Nm",
+      "1.0 T-GDI 100hp (74kW) 172Nm"
+    ],
+    "Rio 2005 - 2008": [
+      "1.5 CRDi 110hp (81kW) 235Nm"
+    ],
+    "Rio 2011 - 2014": [
+      "1.1 CRDi 75hp (55kW) 170Nm",
+      "1.2 CVVT 86hp (63kW) 121Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm",
+      "1.4i 16V 109hp (80kW) 137Nm"
+    ],
+    "Rio 2015 - 2016": [
+      "1.1 CRDi 75hp (55kW) 170Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm"
+    ],
+    "Rio 2017 - 2019": [
+      "1.0 T-GDI 100hp (74kW) 172Nm",
+      "1.0 T-GDI 120hp (88kW) 172Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm"
+    ],
+    "Rio 2020 ->": [
+      "1.0 T-GDI 100hp (kW) Nm",
+      "1.0 T-GDI 120hp (kW) Nm"
+    ],
+    "Seltos 2019 ->": [
+      "1.4 T-GDI 140hp (103kW) 242Nm",
+      "1.6 CRDI 136hp (kW) Nm",
+      "1.6 T-GDI 177hp (kW) Nm",
+      "2.0i 150hp (kW) Nm"
+    ],
+    "Sorento 2002 - 2007": [
+      "2.5 CRDi 140hp (103kW) 320Nm",
+      "2.5 CRDi 170hp (125kW) 392Nm"
+    ],
+    "Sorento 2007 - 2009": [
+      "2.5 CRDi 163hp (120kW) 392Nm",
+      "2.5 CRDi 170hp (125kW) 392Nm"
+    ],
+    "Sorento 2010 - 2015": [
+      "2.0 CRDI 150hp (110kW) 305Nm",
+      "2.2 CRDi 197hp (145kW) 430Nm",
+      "2.2 CRDi 200hp (147kW) 430Nm",
+      "2.5 CRDi 170hp (125kW) 392Nm"
+    ],
+    "Sorento 2015 - 2018": [
+      "2.2 CRDi 200hp (147kW) 430Nm"
+    ],
+    "Sorento 2018 - 2020": [
+      "2.0 T-GDI 240hp (176kW) 353Nm",
+      "2.2 CRDi 200hp (147kW) 430Nm"
+    ],
+    "Sorento 2020 ->": [
+      "1.6 T-GDI 230hp (kW) Nm",
+      "2.2 CRDI 200hp (kW) Nm"
+    ],
+    "Soul 2008 - 2013": [
+      "1.6 CRDi 115hp (85kW) 255Nm",
+      "1.6 CRDi 128hp (94kW) 260Nm",
+      "1.6 GDi 140hp (103kW) 166Nm",
+      "1.6 T-GDI 204hp (150kW) 265Nm"
+    ],
+    "Soul 2014 - 2015": [
+      "1.6 CRDi 128hp (94kW) 260Nm",
+      "1.6 GDi 140hp (103kW) 166Nm"
+    ],
+    "Soul 2016 ->": [
+      "1.6 CRDI 136hp (100kW) 285Nm",
+      "1.6 T-GDI 204hp (150kW) 265Nm"
+    ],
+    "Sportage 2004 - 2007": [
+      "2.0 CRDi 112hp (82kW) 245Nm",
+      "2.0 CRDi 140hp (103kW) 305Nm"
+    ],
+    "Sportage 2007 - 2010": [
+      "2.0 CRDi 140hp (103kW) 305Nm",
+      "2.0 CRDi 150hp (110kW) 305Nm"
+    ],
+    "Sportage 2010 - 2016": [
+      "1.6 GDi 135hp (99kW) 164Nm",
+      "1.7 CRDi 115hp (85kW) 260Nm",
+      "2.0 CRDi 136hp (100kW) 320Nm",
+      "2.0 CRDi 184hp (135kW) 392Nm"
+    ],
+    "Sportage 2016 - 2018": [
+      "1.6 T-GDI 177hp (130kW) 265Nm",
+      "1.7 CRDi 115hp (85kW) 260Nm",
+      "2.0 CRDi 136hp (100kW) 373Nm",
+      "2.0 CRDi 184hp (135kW) 392Nm"
+    ],
+    "Sportage 2018 - 2020": [
+      "1.6 CRDI 115hp (85kW) 280Nm",
+      "1.6 CRDI 136hp (100kW) 320Nm",
+      "1.6 CRDI MHEV 136hp (kW) Nm",
+      "1.6 GDI 132hp (97kW) 161Nm",
+      "1.6 T-GDI 177hp (130kW) 265Nm",
+      "2.0 CRDI 185hp (136kW) 400Nm",
+      "2.2 CRDI 200hp (147kW) 441Nm"
+    ],
+    "Stinger 2017 - 2019": [
+      "2.0 Turbo 255hp (188kW) 353Nm",
+      "2.2 CRDi 200hp (147kW) 440Nm",
+      "3.3 V6 Bi-Turbo 370hp (272kW) 510Nm"
+    ],
+    "Stinger 2020 ->": [
+      "2.0 Turbo 245hp (kW) Nm",
+      "2.2 CRDi 200hp (kW) Nm",
+      "3.3 V6 Bi-Turbo 366hp (kW) Nm"
+    ],
+    "Stonic 2017 - 2019": [
+      "1.0 T-GDI 100hp (74kW) 171Nm",
+      "1.0 T-GDI 120hp (88kW) 171Nm",
+      "1.0 T-GDI MHEV 120hp (kW) Nm",
+      "1.2 MPI 84hp (62kW) 122Nm",
+      "1.6 CRDi 110hp (81kW) 260Nm"
+    ],
+    "Telluride 2019 ->": [
+      "3.8 V6 291hp (214kW) 355Nm"
+    ],
+    "Venga 2009 ->": [
+      "1.4 CRDi 75hp (55kW) 220Nm",
+      "1.4 CRDi 77hp (57kW) 220Nm",
+      "1.4 CRDi 90hp (66kW) 220Nm",
+      "1.6 CRDi 115hp (85kW) 255Nm",
+      "1.6 CRDi 128hp (94kW) 260Nm"
+    ],
+    "Xceed 2019 ->": [
+      "1.0 T-GDI 120hp (88kW) 172Nm",
+      "1.4 T-GDI 140hp (103kW) 242Nm",
+      "1.6 CRDi 115hp (kW) Nm",
+      "1.6 CRDi 136hp (kW) Nm",
+      "1.6 T-GDI 204hp (150kW) 265Nm"
+    ]
+  },
+  "Krone": {
+    "BiG M 400 All": [
+      "12.8 - 381hp (280kW) 1900Nm"
+    ],
+    "BiG M 500 All": [
+      "12.5 - 499hp (kW) Nm"
+    ],
+    "BiG M II All": [
+      "12.0 - 360hp (kW) Nm"
+    ],
+    "BiG X 1000 All": [
+      "24.24 - 1031hp (kW) Nm"
+    ],
+    "BiG X 650 All": [
+      "16.0 - 624hp (kW) Nm"
+    ],
+    "BiG X 700 All": [
+      "16.16 - 669hp (kW) Nm"
+    ],
+    "BiG X 850 All": [
+      "24.24 - 826hp (kW) Nm"
+    ]
+  },
+  "Lamborghini": {
+    "Aventador All": [
+      "6.5 V12 700hp (515kW) 690Nm",
+      "S 6.5 V12 740hp (544kW) 690Nm",
+      "S 6.5 V12 750hp (551kW) 690Nm",
+      "SVJ 6.5 V12 770hp (566kW) 720Nm"
+    ],
+    "Gallardo All": [
+      "5.0 V10 500hp (368kW) 510Nm",
+      "5.0 V10 LP530-2 530hp (390kW) 510Nm",
+      "5.2 V10 LP550-2 550hp (404kW) 540Nm",
+      "5.2 V10 LP560-4 560hp (412kW) 540Nm",
+      "5.2 V10 LP570-4 Superleggera 570hp (419kW) 540Nm"
+    ],
+    "Huracan All": [
+      "5.2 V10 580-2 580hp (426kW) 540Nm",
+      "5.2 V10 610-4 610hp (449kW) 560Nm",
+      "EVO 640hp (471kW) 600Nm",
+      "Performante 640hp (471kW) 600Nm"
+    ],
+    "Murciélago All": [
+      "6.2 V12 580hp (426kW) 650Nm",
+      "6.5 V12 LP640-4 640hp (471kW) 660Nm",
+      "6.5 V12 LP670-4 SuperVeloce 670hp (kW) Nm"
+    ],
+    "Urus 2018 ->": [
+      "4.0 V8 Bi-Turbo 650hp (478kW) 850Nm"
+    ]
+  },
+  "Lamborghini Tractors": {
+    "F Plus 100 All": [
+      "4.0 - 90hp (66kW) 351Nm"
+    ],
+    "F Plus 55 All": [
+      "3.0 - 53hp (39kW) 190Nm"
+    ],
+    "F Plus 70 All": [
+      "3.0 - 68hp (50kW) 243Nm"
+    ],
+    "F Plus 75 All": [
+      "4.0 - 71hp (52kW) 257Nm"
+    ],
+    "F Plus 90 All": [
+      "4.0 - 83hp (61kW) 324Nm"
+    ],
+    "R2. 56 All": [
+      "3.0 - 53hp (39kW) 190Nm"
+    ],
+    "R2. 66 All": [
+      "3.0 - 68hp (50kW) 260Nm"
+    ],
+    "R2. 76 All": [
+      "4.0 - 71hp (52kW) 257Nm"
+    ],
+    "R2. 86 All": [
+      "4.0 - 83hp (61kW) 348Nm"
+    ],
+    "R3 Evo 100 All": [
+      "4.0 Tier 3 - 99hp (kW) Nm"
+    ],
+    "R3 Evo 110 All": [
+      "4.0 Tier 3 - 109hp (80kW) 400Nm"
+    ],
+    "R3 Evo 85 All": [
+      "4.0 Tier 3 - 86hp (63kW) 320Nm"
+    ],
+    "R3. 85 All": [
+      "4.0 - 82hp (60kW) 325Nm"
+    ],
+    "R3. 95 All": [
+      "4.0 - 91hp (67kW) 367Nm"
+    ],
+    "R4. 105 All": [
+      "6.0 - 101hp (74kW) 391Nm"
+    ],
+    "R4. 110 All": [
+      "4.0 - 109hp (80kW) 395Nm"
+    ],
+    "R4. 85 All": [
+      "4.0 - 86hp (63kW) 344Nm"
+    ],
+    "R4. 95 All": [
+      "4.0 - 91hp (67kW) 367Nm"
+    ],
+    "R5. 115 All": [
+      "6.0 - 114hp (84kW) 445Nm"
+    ],
+    "R5. 130 All": [
+      "6.0 - 128hp (94kW) 493Nm"
+    ],
+    "R6. 100 All": [
+      "4.0 - 101hp (74kW) 396Nm"
+    ],
+    "R6. 120 All": [
+      "4.0 - 120hp (88kW) 477Nm"
+    ],
+    "R6. 130 All": [
+      "6.0 - 126hp (93kW) 512Nm"
+    ],
+    "R6. 130S All": [
+      "7.1 - 125hp (92kW) 504Nm"
+    ],
+    "R6. 140S All": [
+      "7.1 - 136hp (100kW) 556Nm"
+    ],
+    "R6. 150 All": [
+      "6.0 - 150hp (110kW) 590Nm"
+    ],
+    "R6. 150.7 All": [
+      "7.1 - 150hp (110kW) 556Nm"
+    ],
+    "R6. 150S All": [
+      "7.1 - 146hp (107kW) 597Nm"
+    ],
+    "R6. 165.7 All": [
+      "7.1 - 170hp (125kW) 683Nm"
+    ],
+    "R6. 165S All": [
+      "7.1 - 163hp (120kW) 683Nm"
+    ],
+    "R6. 180.7 All": [
+      "7.1 - 170hp (125kW) 755Nm"
+    ],
+    "R6. VRT. 150 All": [
+      "6.0 CR Tier 3 - 165hp (121kW) 606Nm"
+    ],
+    "R6. VRT. 165.7 All": [
+      "7.1 - 162hp (119kW) 615Nm",
+      "7.1 - 162hp (kW) Nm"
+    ],
+    "R6. VRT. 170 All": [
+      "6.0 CR Tier 3 - 169hp (124kW) 693Nm"
+    ],
+    "R6. VRT. 190 All": [
+      "6.0 CR Tier 3 - 203hp (149kW) 851Nm"
+    ],
+    "R7. 175S All": [
+      "7.1 - 173hp (127kW) 735Nm"
+    ],
+    "R7. 190S All": [
+      "7.1 - 192hp (141kW) 780Nm"
+    ],
+    "R7. 200 All": [
+      "7.1 - 204hp (150kW) 820Nm"
+    ],
+    "R7. 210 All": [
+      "7.1 CR Tier 3 4V - 214hp (157kW) 836Nm"
+    ],
+    "R8. 215 All": [
+      "7.1 - 209hp (154kW) 1000Nm"
+    ],
+    "R8. 230 All": [
+      "7.1 - 322hp (237kW) 961Nm"
+    ],
+    "R8. 265 All": [
+      "7.1 - 261hp (192kW) 1040Nm"
+    ],
+    "R8. 270 All": [
+      "7.1 - 366hp (269kW) 1052Nm"
+    ],
+    "RS. 100 All": [
+      "4.0 - 90hp (66kW) 377Nm"
+    ],
+    "RS. 70 All": [
+      "3.0 - 68hp (50kW) 260Nm"
+    ],
+    "RS. 75 All": [
+      "4.0 - 71hp (52kW) 257Nm"
+    ],
+    "RS. 90 All": [
+      "4.0 - 83hp (61kW) 348Nm"
+    ],
+    "Victory Plus 230 All": [
+      "7.1 - 230hp (169kW) 890Nm"
+    ],
+    "Victory Plus 260 All": [
+      "7.1 - 261hp (192kW) 1040Nm"
+    ]
+  },
+  "Lancia": {
+    "Delta 2008 ->": [
+      "1.4 Multiair 140hp (103kW) 230Nm",
+      "1.4 T-jet 120hp (88kW) 206Nm",
+      "1.4 T-jet 150hp (110kW) 230Nm",
+      "1.6 JTDm 105hp (77kW) 320Nm",
+      "1.6 JTDm 120hp (88kW) 320Nm",
+      "1.8 DI T-Jet 200hp (147kW) 320Nm",
+      "1.9 JTDm 190hp (140kW) 400Nm",
+      "2.0 JTDm 165hp (121kW) 360Nm"
+    ],
+    "Kappa All": [
+      "2.4 JTD 136hp (100kW) 310Nm",
+      "2.4 JTD 140hp (103kW) 310Nm"
+    ],
+    "Lybra All": [
+      "1.9 JTD 105hp (77kW) 255Nm",
+      "1.9 JTD 110hp (81kW) 275Nm",
+      "1.9 JTD 115hp (85kW) 275Nm",
+      "2.4 JTD 140hp (103kW) 304Nm",
+      "2.4 JTD 150hp (110kW) 308Nm"
+    ],
+    "Musa All": [
+      "1.3 JTDm 70hp (51kW) 180Nm",
+      "1.3 JTDm 90hp (66kW) 200Nm",
+      "1.4i 16v 95hp (70kW) 128Nm",
+      "1.9 JTDm 100hp (74kW) 260Nm"
+    ],
+    "Phedra All": [
+      "2.0 JTD 110hp (81kW) 250Nm",
+      "2.0 JTD 120hp (88kW) 300Nm",
+      "2.0 JTDm 136hp (100kW) 320Nm",
+      "2.2 JTD 128hp (94kW) 314Nm",
+      "2.2 JTDm 170hp (125kW) 370Nm"
+    ],
+    "Thema 2011 ->": [
+      "3.0 Mjet 190hp (140kW) 440Nm",
+      "3.0 Mjet 240hp (176kW) 550Nm"
+    ],
+    "Thesis 2002 - 2008": [
+      "2.0 Turbo 185hp (136kW) 308Nm",
+      "2.4 JTD 10v 150hp (110kW) 305Nm",
+      "2.4 JTD 20v 175hp (129kW) 380Nm",
+      "2.4 JTDm 185hp (136kW) 390Nm"
+    ],
+    "Voyager 2011 ->": [
+      "2.8 Multijet 163hp (120kW) 360Nm",
+      "2.8 Multijet 178hp (131kW) 360Nm"
+    ],
+    "Ypsilon 2004 - 2011": [
+      "1.2i 16v 80hp (59kW) 114Nm",
+      "1.2i 8V 60hp (44kW) 102Nm",
+      "1.3 Multijet 105hp (77kW) 200Nm",
+      "1.3 Multijet 70hp (51kW) 180Nm",
+      "1.3 Multijet 90hp (66kW) 200Nm",
+      "1.4i 16v 95hp (70kW) 128Nm",
+      "1.4i 8v 77hp (57kW) 113Nm"
+    ],
+    "Ypsilon 2011 - 2015": [
+      "0.9 Twinair 80hp (59kW) 145Nm",
+      "0.9 Twinair 85hp (62kW) 145Nm",
+      "1.3 Multijet 90hp (66kW) 200Nm",
+      "1.3 Multijet 95hp (70kW) 200Nm"
+    ],
+    "Ypsilon 2016 ->": [
+      "0.9 Twinair 80hp (59kW) 145Nm",
+      "1.3 Multijet 95hp (70kW) 200Nm"
+    ]
+  },
+  "Land Rover": {
+    "Defender 2000 - 2007": [
+      "2.5 TD5 122hp (90kW) 300Nm"
+    ],
+    "Defender 2007 - 2011": [
+      "TD4 122hp (90kW) 360Nm"
+    ],
+    "Defender 2011 - 2018": [
+      "TD4 122hp (90kW) 360Nm"
+    ],
+    "Defender 2019 ->": [
+      "D200 (2.0D) 200hp (147kW) 430Nm",
+      "D250 (2.0D) 250hp (kW) Nm",
+      "P300 (2.0T) 300hp (221kW) 400Nm",
+      "P400 MHEV (3.0T) 400hp (294kW) 550Nm"
+    ],
+    "Discovery 1998 - 2004": [
+      "2.5 TD5 137hp (101kW) 300Nm",
+      "TD5 aut 137hp (101kW) 340Nm"
+    ],
+    "Discovery 2004 - 2016": [
+      "2.7 TDV6 190hp (140kW) 440Nm",
+      "3.0 SDV6 256hp (188kW) 600Nm",
+      "3.0 TDV6 211hp (155kW) 520Nm",
+      "3.0 TDV6 245hp (180kW) 600Nm",
+      "5.0 V8 375hp (276kW) 510Nm"
+    ],
+    "Discovery 2017 - 2020": [
+      "2.0 SD4 240hp (176kW) 500Nm",
+      "2.0 SI4 300hp (221kW) 400Nm",
+      "2.0 TD4 180hp (132kW) 420Nm",
+      "3.0 SD6 306hp (225kW) 700Nm",
+      "3.0 TD6 258hp (190kW) 600Nm",
+      "3.0 V6 Supercharged 340hp (250kW) 450Nm"
+    ],
+    "Discovery 2021 -> ...": [
+      "D250 (3.0D) MHEV 250hp (kW) Nm",
+      "D300 (3.0D) MHEV 300hp (kW) Nm",
+      "P300 (2.0T) 300hp (kW) Nm",
+      "P360 MHEV (3.0T) 360hp (kW) Nm"
+    ],
+    "Discovery Sport 2014 - 2019": [
+      "2.0 ED4 150hp (110kW) 380Nm",
+      "2.0 SD4 240hp (176kW) 500Nm",
+      "2.0 SI4 240hp (176kW) 340Nm",
+      "2.0 SI4 290hp (213kW) 400Nm",
+      "2.0 TD4 150hp (110kW) 380Nm",
+      "2.0 TD4 180hp (132kW) 380Nm",
+      "2.2 SD4 190hp (140kW) 420Nm",
+      "2.2 TD4 150hp (110kW) 380Nm"
+    ],
+    "Discovery Sport 2019 -> ...": [
+      "D150 (2.0D) 150hp (kW) Nm",
+      "D165 (2.0D) 165hp (kW) Nm",
+      "D180 (2.0D) 180hp (kW) Nm",
+      "D200 (2.0D) 200hp (kW) Nm",
+      "D240 (2.0D) 240hp (176kW) 500Nm",
+      "P200 (2.0T) 200hp (kW) Nm",
+      "P250 (2.0T) 250hp (184kW) 365Nm"
+    ],
+    "Evoque 2011 - 2015": [
+      "2.0 Si4 240hp (176kW) 340Nm",
+      "2.2 ED4 150hp (110kW) 380Nm",
+      "2.2 SD4 190hp (140kW) 420Nm",
+      "2.2 TD4 150hp (110kW) 400Nm"
+    ],
+    "Evoque 2015 - 2018": [
+      "2.0 ED4 150hp (110kW) 380Nm",
+      "2.0 Si4 240hp (176kW) 340Nm",
+      "2.0 TD4 150hp (110kW) 380Nm",
+      "2.0 TD4 180hp (132kW) 430Nm"
+    ],
+    "Evoque 2019 ->": [
+      "D150 (2.0D) 150hp (110kW) 380Nm",
+      "D165 (2.0D) 165hp (kW) Nm",
+      "D180 (2.0D) 180hp (132kW) 430Nm",
+      "D200 (2.0D) 200hp (kW) Nm",
+      "D240 (2.0D) 240hp (176kW) 500Nm",
+      "P160 (1.5T) MHEV 160hp (kW) Nm",
+      "P200 (2.0T) 200hp (147kW) 320Nm",
+      "P250 (2.0T) 250hp (184kW) 365Nm",
+      "P300 (2.0T) 300hp (221kW) 400Nm",
+      "P300e (1.5T) MHEV 309hp (kW) Nm"
+    ],
+    "Freelander 2003 - 2007": [
+      "2.0 TD4 112hp (82kW) 260Nm",
+      "2.5i V6 177hp (130kW) 240Nm"
+    ],
+    "Freelander 2007 - 2010": [
+      "2.2 TD4 150hp (110kW) 400Nm",
+      "2.2 TD4 160hp (118kW) 400Nm"
+    ],
+    "Freelander 2010 ->": [
+      "2.0 SI4 240hp (176kW) 340Nm",
+      "2.2 TD4 150hp (110kW) 420Nm",
+      "2.2 TD4 190hp (140kW) 420Nm"
+    ],
+    "Range Rover / Sport 1994 - 2002": [
+      "2.5 TD 136hp (100kW) 270Nm"
+    ],
+    "Range Rover / Sport 2002 - 2012 (L322)": [
+      "2.7 TDV6 190hp (140kW) 440Nm",
+      "3.0 TD6 177hp (130kW) 390Nm",
+      "3.0 TDV6 211hp (155kW) 600Nm",
+      "3.0 TDV6 245hp (180kW) 600Nm",
+      "3.0 TDV6 256hp (188kW) 600Nm",
+      "3.6 TDV8 272hp (200kW) 640Nm",
+      "4.2 V8 Supercharged 396hp (291kW) 560Nm",
+      "4.4 TDV8 313hp (230kW) 700Nm",
+      "4.4i V8 299hp (220kW) 425Nm",
+      "5.0 Supercharged 510hp (375kW) 625Nm"
+    ],
+    "Range Rover / Sport 2012 - 2018 (L405)": [
+      "2.0 Si4 300hp (221kW) 400Nm",
+      "3.0 SDV6 292hp (215kW) 600Nm",
+      "3.0 SDV6 306hp (225kW) 700Nm",
+      "3.0 SDV6 Hybrid 340hp (250kW) 760Nm",
+      "3.0 TDV6 211hp (155kW) 520Nm",
+      "3.0 TDV6 258hp (190kW) 600Nm",
+      "3.0 V6 Supercharged 340hp (250kW) 450Nm",
+      "4.4 SDV8 339hp (249kW) 740Nm",
+      "4.4 TDV8 313hp (230kW) 700Nm",
+      "5.0 Supercharged 510hp (375kW) 625Nm",
+      "5.0 Supercharged SVR 550hp (404kW) 680Nm"
+    ],
+    "Range Rover / Sport 2018 ->": [
+      "2.0 Si4 300hp (221kW) 400Nm",
+      "2.0T P400e 404hp (297kW) 640Nm",
+      "3.0 SDV6 249hp (183kW) 600Nm",
+      "3.0 SDV6 275hp (202kW) 625Nm",
+      "3.0 SDV6 306hp (225kW) 700Nm",
+      "3.0 TDV6 258hp (190kW) 600Nm",
+      "3.0 V6 Supercharged 340hp (250kW) 450Nm",
+      "4.4 SDV8 339hp (249kW) 740Nm",
+      "5.0 V8 Supercharged 525hp (386kW) 680Nm",
+      "5.0 V8 Supercharged SVR 565hp (415kW) 700Nm",
+      "P400 3.0T MHEV 400hp (kW) Nm",
+      "P400e 404hp (297kW) 640Nm"
+    ],
+    "Velar 2017 ->": [
+      "D180 (2.0D) 180hp (132kW) 430Nm",
+      "D240 (2.0D) 240hp (176kW) 500Nm",
+      "D275 (3.0D) 275hp (202kW) 625Nm",
+      "D300 (3.0D) 300hp (221kW) 700Nm",
+      "P250 (2.0T) 250hp (184kW) 365Nm",
+      "P300 (2.0T) 300hp (221kW) 400Nm",
+      "P340 (3.0T) 340hp (250kW) 450Nm",
+      "P380 (3.0T) 380hp (279kW) 460Nm"
+    ]
+  },
+  "Lexus": {
+    "ES 2019 ->": [
+      "300h 218hp (kW) Nm"
+    ],
+    "GS 2005 - 2012": [
+      "300 250hp (184kW) 310Nm",
+      "460 347hp (255kW) 460Nm"
+    ],
+    "GS 2012 - 2016": [
+      "250 - 209hp (154kW) 253Nm",
+      "300h 223hp (kW) Nm",
+      "350 - 317hp (kW) Nm",
+      "450h 345hp (kW) Nm"
+    ],
+    "GS 2016 ->": [
+      "300h 223hp (kW) Nm",
+      "450h 345hp (kW) Nm",
+      "F 477hp (kW) Nm"
+    ],
+    "IS 2005 - 2013": [
+      "200d 150hp (110kW) 340Nm",
+      "220d 177hp (130kW) 400Nm",
+      "250 - 208hp (153kW) 252Nm",
+      "F 5.0 V8 423hp (311kW) 505Nm"
+    ],
+    "IS 2013 - 2016": [
+      "200t 245hp (180kW) 350Nm",
+      "300h 223hp (kW) Nm",
+      "350i 311hp (229kW) 376Nm"
+    ],
+    "IS 2016 - 2020": [
+      "300 (2.0T) 241hp (177kW) 350Nm",
+      "300h 223hp (kW) Nm",
+      "350i V6 311hp (229kW) 376Nm"
+    ],
+    "IS 2021 -> ...": [
+      "300 (2.0T) 241hp (177kW) 350Nm",
+      "300i V6 260hp (191kW) 320Nm",
+      "350i V6 311hp (229kW) 376Nm"
+    ],
+    "LS 2013 - 2018": [
+      "460L 386hp (kW) Nm",
+      "600h - 445hp (kW) Nm"
+    ],
+    "LS 2018 ->": [
+      "500 - 420hp (309kW) 600Nm",
+      "500h - 359hp (kW) Nm"
+    ],
+    "NX 2015 - 2017": [
+      "200t 238hp (175kW) 350Nm",
+      "300h 155hp (114kW) 210Nm"
+    ],
+    "NX 2017 ->": [
+      "2.0 Turbo 240hp (176kW) 350Nm"
+    ],
+    "RC 2015 ->": [
+      "200t 245hp (180kW) 350Nm",
+      "300h - 233hp (171kW) 221Nm",
+      "350 - 306hp (225kW) 377Nm",
+      "F - 477hp (kW) Nm"
+    ],
+    "RX 2012 - 2015": [
+      "450h 299hp (kW) Nm"
+    ],
+    "RX 2015 ->": [
+      "2.0T 235hp (173kW) 350Nm"
+    ],
+    "UX 2018 ->": [
+      "200 - 177hp (kW) Nm",
+      "250h 177hp (kW) Nm"
+    ]
+  },
+  "Lincoln": {
+    "Aviator 2020 ->": [
+      "3.0T V6 400hp (294kW) 542Nm",
+      "3.0T V6 PHEV 494hp (kW) Nm"
+    ],
+    "Continental 2017 -> ...": [
+      "2.7 Ecoboost V6 335hp (246kW) 515Nm",
+      "3.0 Ecoboost V6 400hp (294kW) 542Nm"
+    ],
+    "Corsair 2019 ->": [
+      "2.0 Ecoboost 250hp (184kW) 373Nm",
+      "2.3 Ecoboost 280hp (206kW) 420Nm"
+    ],
+    "LS 2000 - 2006": [
+      "3.9 V8 280hp (206kW) 388Nm"
+    ],
+    "MKS 2008 - 2012": [
+      "3.5 V6 Ecoboost 365hp (268kW) 575Nm",
+      "3.7 V6 276hp (203kW) 374Nm"
+    ],
+    "MKT 2010 - 2014": [
+      "3.7 V6 268hp (197kW) 362Nm",
+      "3.7 V6 300hp (221kW) 366Nm"
+    ],
+    "MKX 2016 ->": [
+      "2.0T 245hp (180kW) 373Nm",
+      "2.7T 335hp (246kW) 515Nm"
+    ],
+    "MKZ 2017 ->": [
+      "2.0T Ecoboost 245hp (180kW) 373Nm",
+      "3.0T Ecoboost V6 350hp (257kW) 540Nm",
+      "3.0T Ecoboost V6 400hp (294kW) 540Nm"
+    ],
+    "Nautilus 2019 -> ...": [
+      "2.0T 250hp (kW) Nm",
+      "2.7T 335hp (kW) Nm"
+    ],
+    "Navigator 2003 - 2006": [
+      "5.4 V8 300hp (221kW) 481Nm"
+    ],
+    "Navigator 2007 ->": [
+      "3.5 Ecoboost 370hp (272kW) 583Nm",
+      "3.5 Ecoboost 456hp (kW) Nm",
+      "5.4 V8 310hp (228kW) 395Nm"
+    ],
+    "Towncar 2005 - 2012": [
+      "4.6 V8 239hp (176kW) 389Nm"
+    ]
+  },
+  "Lotus": {
+    "Elise All": [
+      "Elise Cup 246hp (181kW) 250Nm",
+      "R 192hp (141kW) 181Nm",
+      "S 136hp (100kW) 160Nm",
+      "SC 220hp (162kW) 250Nm"
+    ],
+    "Europa All": [
+      "SC 220hp (162kW) 272Nm"
+    ],
+    "Evora All": [
+      "3.5 V6 280hp (206kW) 350Nm",
+      "3.5 V6 400 406hp (kW) Nm",
+      "3.5 V6 S / SR 350hp (257kW) 400Nm"
+    ],
+    "Exige All": [
+      "1.8 192hp (141kW) 185Nm",
+      "Cup R 3.5 V6 366hp (269kW) 413Nm",
+      "S 221hp (163kW) 215Nm",
+      "S 3.5 V6 350hp (257kW) 400Nm"
+    ]
+  },
+  "Luxgen": {
+    "S5 2013 - 2015": [
+      "1.8T 150hp (110kW) 210Nm"
+    ],
+    "S5 2015 ->": [
+      "1.8T 170hp (125kW) 250Nm",
+      "1.8T 205hp (kW) Nm",
+      "2.0T 190hp (140kW) 274Nm"
+    ],
+    "U6 2013 ->": [
+      "1.8 Turbo 171hp (126kW) 265Nm",
+      "2.0 Turbo 191hp (140kW) 275Nm"
+    ]
+  },
+  "Lynk & Co": {
+    "01 2017 ->": [
+      "1.5T 178hp (131kW) 265Nm"
+    ],
+    "02 2018 ->": [
+      "1.5T 154hp (113kW) 245Nm",
+      "1.5T 178hp (131kW) 265Nm",
+      "2.0T 187hp (138kW) 300Nm"
+    ],
+    "03 2018 ->": [
+      "1.5T 154hp (113kW) 245Nm",
+      "1.5T 178hp (131kW) 265Nm",
+      "2.0T 187hp (138kW) 300Nm"
+    ]
+  },
+  "MAN": {
+    "TGE 2017 ->": [
+      "2.0 TDI CR 102hp (75kW) 300Nm",
+      "2.0 TDI CR 122hp (90kW) 340Nm",
+      "2.0 TDI CR 140hp (103kW) 340Nm",
+      "2.0 TDI CR 177hp (130kW) 400Nm"
+    ]
+  },
+  "MG": {
+    "550 2008 - >": [
+      "1.8L 130hp (96kW) 168Nm",
+      "1.8T 160hp (118kW) 215Nm"
+    ],
+    "6 2011 ->": [
+      "1.5T 169hp (124kW) 250Nm",
+      "1.8T 160hp (118kW) 215Nm",
+      "1.9D 150hp (110kW) 350Nm",
+      "45T Plug-in Hybrid 228hp (kW) Nm"
+    ],
+    "ZS All": [
+      "2.5 V6 180hp (132kW) 240Nm"
+    ],
+    "ZT All": [
+      "1.8i V4 160hp (118kW) 215Nm",
+      "2.0 CDTi 115hp (85kW) 260Nm",
+      "2.0 CDTi 131hp (96kW) 300Nm",
+      "2.5i V6 177hp (130kW) 240Nm",
+      "2.5i V6 190hp (140kW) 245Nm"
+    ]
+  },
+  "Mahindra": {
+    "Genio All": [
+      "2.2 CRDi 120hp (88kW) 290Nm",
+      "2.2 CRDi 140hp (103kW) 290Nm"
+    ],
+    "Quanto All": [
+      "2.2 CRDi 120hp (88kW) 290Nm",
+      "2.2 CRDi 140hp (103kW) 290Nm"
+    ],
+    "Scorpio All": [
+      "2.2 CR diesel 120hp (88kW) 270Nm"
+    ],
+    "XUV500 All": [
+      "2.2 CRDi 140hp (103kW) 330Nm",
+      "2.2 CRDi 170hp (125kW) 340Nm"
+    ],
+    "Xylo All": [
+      "2.2 CRDi 120hp (88kW) 290Nm",
+      "2.2 CRDi 140hp (103kW) 290Nm",
+      "2.5 CRDI 95hp (70kW) 218Nm"
+    ]
+  },
+  "Maserati": {
+    "Coupé 2002 - 2007": [
+      "GT 4.2 V8 390hp (287kW) 451Nm"
+    ],
+    "Ghibli 2013 - 2016": [
+      "3.0 V6 Bi-Turbo 330hp (243kW) 500Nm",
+      "3.0D V6 275hp (202kW) 600Nm",
+      "S 3.0 V6 Bi-Turbo 410hp (301kW) 550Nm"
+    ],
+    "Ghibli 2017 ->": [
+      "3.0 V6 350hp (257kW) 500Nm",
+      "3.0D V6 250hp (184kW) 600Nm",
+      "3.0D V6 275hp (202kW) 600Nm",
+      "3.8 V8 Bi-Turbo Trofeo 590hp (kW) Nm",
+      "S 3.0 V6 Bi-Turbo 410hp (301kW) 550Nm"
+    ],
+    "GranTurismo 2007 - 2016": [
+      "4.2 V8 405hp (298kW) 460Nm",
+      "4.7 V8 440hp (324kW) 490Nm"
+    ],
+    "GranTurismo 2017 ->": [
+      "4.7 V8 460hp (338kW) 520Nm"
+    ],
+    "Levante 2016 ->": [
+      "2.0T Hybrid 330hp (kW) Nm",
+      "3.0 V6 Bi-Turbo 350hp (257kW) 500Nm",
+      "3.0 V6 Bi-Turbo S 430hp (316kW) 580Nm",
+      "3.0D V6 250hp (184kW) 600Nm",
+      "3.0D V6 275hp (202kW) 600Nm",
+      "3.8 V8 Bi-Turbo GTS 550hp (404kW) 730Nm",
+      "3.8 V8 Bi-Turbo Trofeo 590hp (kW) Nm"
+    ],
+    "Quattroporte 2004 - 2012": [
+      "4.2 V8 400hp (294kW) 460Nm",
+      "4.7 V8 430hp (316kW) 490Nm",
+      "4.7 V8 440hp (324kW) 490Nm"
+    ],
+    "Quattroporte 2013 ->": [
+      "3.0 V6 Turbo 330hp (243kW) 500Nm",
+      "3.0D V6 275hp (202kW) 600Nm",
+      "3.8 V8 Bi-Turbo Trofeo 590hp (kW) Nm",
+      "3.8 V8 GTS 530hp (390kW) 650Nm",
+      "S 3.0 V6 Turbo 410hp (301kW) 550Nm",
+      "S 3.0 V6 Turbo 430hp (316kW) 580Nm"
+    ]
+  },
+  "Massey Fergusson": {
+    "Activa 7247S All": [
+      "7.4 - 275hp (kW) Nm"
+    ],
+    "Beta 7270 All": [
+      "8.4 - 335hp (kW) Nm"
+    ],
+    "Centora 7282 All": [
+      "8.4 - 384hp (kW) Nm"
+    ],
+    "Fortia 9895 All": [
+      "12.5 - 460hp (kW) Nm"
+    ],
+    "MF 5445 All": [
+      "129 - 129hp (95kW) 420Nm",
+      "4.4 - 101hp (74kW) 420Nm"
+    ],
+    "MF 5455 All": [
+      "105 CR - 105hp (77kW) 670Nm",
+      "4.4 - 112hp (82kW) 468Nm"
+    ],
+    "MF 5460 All": [
+      "124 CR - 124hp (91kW) 571Nm",
+      "4.4 - 116hp (85kW) 471Nm",
+      "4.4 CR - 125hp (92kW) 525Nm"
+    ],
+    "MF 5465 All": [
+      "6.0 - 120hp (88kW) 500Nm",
+      "6.6 CR Perkins - 132hp (97kW) 543Nm",
+      "6.6 CR Sisu - 120hp (88kW) 585Nm"
+    ],
+    "MF 5470 All": [
+      "135 CR - 135hp (99kW) 540Nm",
+      "4.4 CR - 135hp (99kW) 585Nm"
+    ],
+    "MF 5475 All": [
+      "6.6 CR Perkins - 144hp (106kW) 607Nm",
+      "6.6 CR Sisu - 135hp (99kW) 607Nm"
+    ],
+    "MF 5480 All": [
+      "144 CR - 144hp (kW) Nm",
+      "4.9 CR - 144hp (106kW) 625Nm"
+    ],
+    "MF 6445 All": [
+      "4.4 CR - 95hp (70kW) 400Nm"
+    ],
+    "MF 6455 All": [
+      "4.4 CR - 105hp (77kW) 463Nm"
+    ],
+    "MF 6460 All": [
+      "4.4 CR - 114hp (84kW) 538Nm",
+      "4.4 VP - 116hp (85kW) 471Nm"
+    ],
+    "MF 6465 All": [
+      "131 - 131hp (96kW) 500Nm",
+      "6.0 VP - 120hp (88kW) 500Nm",
+      "6.6 CR Perkins - 118hp (87kW) 543Nm",
+      "6.6 CR Sisu - 120hp (88kW) 585Nm"
+    ],
+    "MF 6470 All": [
+      "125 - 125hp (92kW) 600Nm",
+      "4.4 CR - 121hp (kW) Nm",
+      "4.4 VP - 125hp (92kW) 492Nm"
+    ],
+    "MF 6475 All": [
+      "146 - 146hp (107kW) 565Nm",
+      "6.0 CR Perkins - 135hp (99kW) 607Nm",
+      "6.0 VP - 135hp (99kW) 565Nm",
+      "6.6 CR Sisu - 135hp (99kW) 607Nm"
+    ],
+    "MF 6480 All": [
+      "175 - 175hp (129kW) 590Nm",
+      "6.0 CR Perkins - 146hp (107kW) 649Nm",
+      "6.0 VP - 146hp (107kW) 590Nm",
+      "6.6 CR Sisu - 135hp (99kW) 625Nm"
+    ],
+    "MF 6485 All": [
+      "6.6 CR - 160hp (118kW) 750Nm",
+      "6.6 VP - 155hp (114kW) 650Nm"
+    ],
+    "MF 6490 All": [
+      "170 CR Sisu - 170hp (kW) Nm",
+      "6.6 CR - 170hp (125kW) 796Nm",
+      "6.6 VP - 170hp (125kW) 720Nm"
+    ],
+    "MF 6495 All": [
+      "6.6 CR - 185hp (136kW) 841Nm",
+      "6.6 VP - 185hp (136kW) 780Nm"
+    ],
+    "MF 6497 All": [
+      "7.4 CR - 200hp (147kW) 883Nm"
+    ],
+    "MF 6499 All": [
+      "7.4 CR - 215hp (158kW) 928Nm",
+      "7.4 VP - 215hp (158kW) 864Nm"
+    ],
+    "MF 7465 All": [
+      "125 CR - 125hp (92kW) 500Nm",
+      "135 - 135hp (99kW) 585Nm",
+      "6.0 VP - 131hp (96kW) 500Nm",
+      "6.6 CR Perkins - 125hp (92kW) 585Nm",
+      "6.6 CR Sisu - 120hp (88kW) 585Nm"
+    ],
+    "MF 7475 All": [
+      "6.0 VP - 146hp (107kW) 590Nm",
+      "6.6 CR Perkins - 140hp (103kW) 681Nm",
+      "6.6 CR Sisu - 135hp (99kW) 607Nm"
+    ],
+    "MF 7480 All": [
+      "155 CR - 155hp (114kW) 590Nm",
+      "6.0 VP - 155hp (114kW) 590Nm",
+      "6.6 CR Perkins - 150hp (110kW) 711Nm",
+      "6.6 CR Sisu - 135hp (99kW) 625Nm"
+    ],
+    "MF 7485 All": [
+      "6.6 CR - 165hp (121kW) 836Nm",
+      "6.6 VP - 165hp (121kW) 650Nm"
+    ],
+    "MF 7490 All": [
+      "6.6 CR - 175hp (129kW) 880Nm",
+      "6.6 VP - 180hp (132kW) 720Nm"
+    ],
+    "MF 7495 All": [
+      "6.6 CR - 190hp (140kW) 904Nm",
+      "6.6 VP - 194hp (143kW) 780Nm"
+    ],
+    "MF 7497 All": [
+      "7.4 - 204hp (kW) Nm"
+    ],
+    "MF 7499 All": [
+      "7.4 - 220hp (kW) Nm"
+    ],
+    "MF 8450 All": [
+      "7.4 CR - 215hp (158kW) 970Nm",
+      "7.4 VP - 215hp (158kW) 864Nm"
+    ],
+    "MF 8460 All": [
+      "7.4 CR - 235hp (173kW) 1071Nm"
+    ],
+    "MF 8470 All": [
+      "8.4 CR - 260hp (191kW) 1195Nm",
+      "8.4 VP - 260hp (191kW) 1100Nm"
+    ],
+    "MF 8480 All": [
+      "8.4 CR - 290hp (213kW) 1280Nm",
+      "8.4 VP - 290hp (213kW) 1190Nm"
+    ],
+    "MF 8650 All": [
+      "270 CR Adblue - 270hp (199kW) 1185Nm",
+      "8.4 CR - 241hp (177kW) 1185Nm",
+      "8.4 Tier 4A - 241hp (177kW) 1185Nm"
+    ],
+    "MF 8660 All": [
+      "295 CR Adblue - 295hp (217kW) 1295Nm",
+      "8.4 CR - 269hp (198kW) 1295Nm",
+      "8.4 Tier 4A - 265hp (195kW) 1295Nm"
+    ],
+    "MF 8670 All": [
+      "320 CR Adblue - 320hp (235kW) 1400Nm",
+      "8.4 CR - 294hp (216kW) 1400Nm",
+      "8.4 Tier 4A - 290hp (213kW) 1400Nm"
+    ],
+    "MF 8680 All": [
+      "350 CR Adblue - 350hp (257kW) 1492Nm",
+      "8.4 CR - 325hp (239kW) 1492Nm",
+      "8.4 Tier 4A - 321hp (236kW) 1492Nm"
+    ],
+    "MF 8690 All": [
+      "370 CR Adblue - 370hp (272kW) 1540Nm",
+      "8.4 CR - 344hp (253kW) 1540Nm",
+      "8.4 Tier 4A - 462hp (340kW) 1540Nm"
+    ]
+  },
+  "Mazda": {
+    "2 2003 - 2006": [
+      "1.4 CiTD 68hp (50kW) 160Nm"
+    ],
+    "2 2007 - 2013": [
+      "1.3i 75hp (55kW) 121Nm",
+      "1.3i 86hp (63kW) 121Nm",
+      "1.4 CiTD 68hp (50kW) 160Nm",
+      "1.5i 103hp (76kW) 137Nm"
+    ],
+    "2 2014 - 2018": [
+      "1.5 SkyActiv-D 105hp (77kW) 220Nm",
+      "1.5 Skyactiv-G 115hp (85kW) 148Nm",
+      "1.5 Skyactiv-G 75hp (55kW) 148Nm",
+      "1.5 Skyactiv-G 90hp (66kW) 148Nm"
+    ],
+    "2 2019 ->": [
+      "1.5 SkyActiv-D 105hp (kW) Nm",
+      "1.5 SkyActiv-G 75hp (55kW) 135Nm",
+      "1.5 SkyActiv-G 90hp (66kW) 148Nm"
+    ],
+    "3 2003 - 2009": [
+      "1.4i 16v 84hp (62kW) 122Nm",
+      "1.6 CiTD 110hp (81kW) 245Nm",
+      "1.6 CiTD 90hp (66kW) 210Nm",
+      "1.6i 16v 105hp (77kW) 145Nm",
+      "2.0 CiTD 143hp (105kW) 360Nm",
+      "2.2 CiTD 185hp (136kW) 400Nm",
+      "MPS 260hp (191kW) 380Nm"
+    ],
+    "3 2009 - 2013": [
+      "1.6 CiTD 109hp (80kW) 240Nm",
+      "1.6 CiTD 115hp (85kW) 270Nm",
+      "2.2 CITD 150hp (110kW) 360Nm",
+      "2.2 CiTD 185hp (136kW) 400Nm",
+      "2.3 DISI Turbo MPS (191kW) 380Nm"
+    ],
+    "3 2013 - 2015": [
+      "1.5 SkyActiv-D 105hp (77kW) 270Nm",
+      "2.0 SkyActiv-G 120hp (88kW) 210Nm",
+      "2.0 SkyActiv-G 165hp (121kW) 210Nm",
+      "2.2 SkyActiv-D 150hp (110kW) 380Nm"
+    ],
+    "3 2016 - 2018": [
+      "1.5 Skyactiv-D 105hp (77kW) 270Nm",
+      "1.5 Skyactiv-G 100hp (74kW) 150Nm",
+      "2.0 SkyActiv-G 120hp (88kW) 210Nm",
+      "2.0 SkyActiv-G 165hp (121kW) 210Nm",
+      "2.2 SkyActiv-D 150hp (110kW) 380Nm"
+    ],
+    "3 2019 ->": [
+      "1.8 Skyactiv-D 115hp (85kW) 270Nm",
+      "2.0 SkyActiv-G 165hp (121kW) 210Nm",
+      "2.0 Skyactiv-G 122hp (90kW) 213Nm"
+    ],
+    "5 2004 ->": [
+      "1.6 CiTD 115hp (85kW) 270Nm",
+      "2.0 CiTD 110hp (81kW) 310Nm",
+      "2.0 CiTD 143hp (105kW) 360Nm"
+    ],
+    "6 2003 - 2008": [
+      "1.8i 16v 120hp (88kW) 165Nm",
+      "2.0 CiTD 120hp (88kW) 310Nm",
+      "2.0 CiTD 121hp (89kW) 320Nm",
+      "2.0 CiTD 136hp (100kW) 310Nm",
+      "2.0 CiTD 140hp (103kW) 330Nm",
+      "2.0 CiTD 143hp (105kW) 360Nm",
+      "2.3 DISI Turbo MPS (191kW) 380Nm",
+      "2.5 S-VT 170hp (125kW) 226Nm"
+    ],
+    "6 2008 - 2012": [
+      "2.0 CiTD 140hp (103kW) 330Nm",
+      "2.0i 16v 155hp (114kW) 193Nm",
+      "2.2 CiTD 129hp (95kW) 340Nm",
+      "2.2 CiTD 163hp (120kW) 360Nm",
+      "2.2 CiTD 180hp (132kW) 400Nm",
+      "2.2 CiTD 185hp (136kW) 400Nm",
+      "2.3 DISI Turbo MPS (191kW) 380Nm",
+      "2.5 S-VT 170hp (125kW) 226Nm"
+    ],
+    "6 2013 ->": [
+      "2.0 SkyActiv-G 145hp (107kW) 210Nm",
+      "2.0 SkyActiv-G 165hp (121kW) 210Nm",
+      "2.2 SkyActiv-D 150hp (110kW) 380Nm",
+      "2.2 SkyActiv-D 175hp (129kW) 420Nm",
+      "2.5 SkyActiv-G 192hp (141kW) 256Nm"
+    ],
+    "BT-50 All": [
+      "2.5 CiTD 143hp (105kW) 330Nm",
+      "3.0D 190hp (kW) Nm",
+      "3.2 TDCi 200hp (147kW) 470Nm"
+    ],
+    "CX-3 2015 - 2018": [
+      "1.5 SkyActiv-D 105hp (77kW) 270Nm",
+      "2.0 Skyactiv-G 120hp (88kW) 210Nm",
+      "2.0 Skyactiv-G 150hp (110kW) 204Nm",
+      "2.5 Skyactiv-G 192hp (141kW) 256Nm"
+    ],
+    "CX-3 2018 ->": [
+      "1.8 SkyActiv-D 115hp (85kW) 270Nm",
+      "2.0 Skyactiv-G 120hp (88kW) 210Nm",
+      "2.0 Skyactiv-G 150hp (110kW) 204Nm"
+    ],
+    "CX-30 2019 ->": [
+      "1.8 Skyactiv-D 115hp (85kW) 270Nm",
+      "2.0 Skyactiv-G 122hp (kW) Nm",
+      "2.0 e-Skyactiv G 122hp (kW) Nm",
+      "2.0 e-Skyactiv X 180hp (kW) Nm"
+    ],
+    "CX-5 2012 - 2016": [
+      "2.0 SkyActiv-G 145hp (107kW) 210Nm",
+      "2.0 SkyActiv-G 165hp (121kW) 210Nm",
+      "2.2 SkyActiv-D 150hp (110kW) 380Nm",
+      "2.2 SkyActiv-D 175hp (129kW) 420Nm",
+      "2.5 SkyActiv-G 192hp (141kW) 256Nm"
+    ],
+    "CX-5 2017 ->": [
+      "2.0 SkyActiv-G 160hp (118kW) 208Nm",
+      "2.0 SkyActiv-G 165hp (121kW) 210Nm",
+      "2.2 SkyActiv-D 150hp (110kW) 380Nm",
+      "2.2 SkyActiv-D 175hp (129kW) 420Nm",
+      "2.2 SkyActiv-D 184hp (135kW) 445Nm",
+      "2.5 SkyActiv-G 194hp (143kW) 258Nm",
+      "2.5 SkyActiv-G 250hp (184kW) 420Nm"
+    ],
+    "CX-7 2006 - 2009": [
+      "2.3 Turbo MPS 260hp (191kW) 380Nm"
+    ],
+    "CX-7 2009 - 2012": [
+      "2.2 CiTD 173hp (127kW) 400Nm",
+      "2.3 Turbo MPS 260hp (191kW) 380Nm"
+    ],
+    "CX-8 2017 ->": [
+      "2.2 SkyActiv-D 190hp (140kW) 450Nm",
+      "2.5 SkyActiv-G 192hp (141kW) 258Nm"
+    ],
+    "CX-9 2016 ->": [
+      "2.5 SkyActiv-G 230hp (169kW) 420Nm"
+    ],
+    "MPS All": [
+      "2.3 DISI Turbo MPS (191kW) 380Nm"
+    ],
+    "MPV All": [
+      "2.0 CiTD 136hp (100kW) 310Nm"
+    ],
+    "MX-5 2005 - 2009": [
+      "1.8i 16v 126hp (93kW) 167Nm",
+      "2.0i 16v 160hp (118kW) 188Nm"
+    ],
+    "MX-5 2015 ->": [
+      "1.5 SkyActiv-G 131hp (96kW) 150Nm",
+      "2.0 SkyActiv-G 160hp (118kW) 200Nm",
+      "2.0 SkyActiv-G 184hp (135kW) 205Nm"
+    ],
+    "RX-8 All": [
+      "1.3 192hp (141kW) 216Nm",
+      "1.3 231hp (170kW) 216Nm"
+    ]
+  },
+  "McCormick": {
+    "CX 60L All": [
+      "3.3 - 58hp (43kW) 205Nm"
+    ],
+    "CX 70L All": [
+      "3.3 - 69hp (51kW) 224Nm"
+    ],
+    "CX 80L All": [
+      "3.3 - 76hp (56kW) 285Nm"
+    ],
+    "CX 85L All": [
+      "3.3 - 82hp (60kW) 298Nm"
+    ],
+    "MC 105 All": [
+      "102 - 102hp (75kW) 415Nm"
+    ],
+    "MC 115 All": [
+      "4.4 - 118hp (87kW) 494Nm"
+    ],
+    "MC 120 All": [
+      "6.0 - 116hp (85kW) 487Nm"
+    ],
+    "MC 130 All": [
+      "4.4 CR - 125hp (92kW) 470Nm"
+    ],
+    "MC 135 All": [
+      "6.0 - 132hp (97kW) 555Nm"
+    ],
+    "MC 95 All": [
+      "90 - 90hp (66kW) 387Nm"
+    ],
+    "MTX 120 All": [
+      "6.7 - 116hp (85kW) 520Nm"
+    ],
+    "MTX 135 All": [
+      "6.7 - 131hp (96kW) 535Nm"
+    ],
+    "MTX 150 All": [
+      "6.7 - 152hp (112kW) 582Nm"
+    ],
+    "MTX 165 All": [
+      "6.7 - 162hp (119kW) 654Nm",
+      "6.7 CR - 162hp (119kW) 654Nm"
+    ],
+    "MTX 185 All": [
+      "6.7 - 182hp (134kW) 800Nm",
+      "6.7 CR - 182hp (134kW) 800Nm"
+    ],
+    "TTX 190 All": [
+      "6.7 - 180hp (132kW) 774Nm"
+    ],
+    "TTX 210 All": [
+      "6.7 - 199hp (146kW) 800Nm"
+    ],
+    "TTX 230 All": [
+      "6.7 - 214hp (157kW) 850Nm"
+    ],
+    "XTX 145 All": [
+      "115 - 115hp (kW) Nm",
+      "6.7 - 146hp (kW) Nm"
+    ],
+    "XTX 165 All": [
+      "6.7 - 166hp (kW) Nm"
+    ],
+    "XTX 185 All": [
+      "6.7 - 173hp (127kW) 700Nm"
+    ],
+    "XTX 185E All": [
+      "198 - 198hp (146kW) 700Nm"
+    ],
+    "XTX 200 All": [
+      "6.7 - 199hp (146kW) 800Nm"
+    ],
+    "XTX 200E All": [
+      "213 - 213hp (157kW) 800Nm"
+    ],
+    "XTX 215 All": [
+      "5.9 - 204hp (150kW) 800Nm",
+      "6.7 - 203hp (149kW) 850Nm"
+    ],
+    "XTX 215E All": [
+      "217 - 217hp (160kW) 800Nm"
+    ],
+    "ZTX 230 All": [
+      "8.3 - 230hp (169kW) 900Nm"
+    ],
+    "ZTX 260 All": [
+      "8.3 - 260hp (191kW) 1085Nm"
+    ],
+    "ZTX 280 All": [
+      "8.3 - 280hp (206kW) 1180Nm"
+    ]
+  },
+  "McLaren": {
+    "540C All": [
+      "3.8 V8 540hp (397kW) 540Nm"
+    ],
+    "570 S / Sprint / GT4 All": [
+      "3.8 V8 570hp (419kW) 600Nm"
+    ],
+    "570GT All": [
+      "3.8 V8 570hp (419kW) 600Nm"
+    ],
+    "600LT 2018 ->": [
+      "3.8 V8 600hp (441kW) 620Nm"
+    ],
+    "620R 2020 -> ...": [
+      "3.8 V8 620hp (456kW) 620Nm"
+    ],
+    "625C 2014 ->": [
+      "3.8 V8 625hp (460kW) 610Nm"
+    ],
+    "650S All": [
+      "3.8 V8 650hp (478kW) 678Nm"
+    ],
+    "675LT All": [
+      "3.8 V8 675hp (496kW) 700Nm"
+    ],
+    "720S 2017 ->": [
+      "4.0 V8 720hp (529kW) 770Nm"
+    ],
+    "765LT 2020 -> ...": [
+      "4.0 V8 765hp (kW) Nm"
+    ],
+    "GT 2019 -> ...": [
+      "4.0 V8 620hp (456kW) 630Nm"
+    ],
+    "MP4-12C All": [
+      "3.8 V8 625hp (460kW) 600Nm"
+    ],
+    "P1 All": [
+      "3.8 V8 916hp (674kW) 900Nm"
+    ],
+    "Senna All": [
+      "4.0 V8 800hp (588kW) 800Nm"
+    ]
+  },
+  "Mercedes-Benz": {
+    "A W168 - 2001 - 2004": [
+      "160 CDI 60hp (44kW) 160Nm",
+      "160 CDI 75hp (55kW) 160Nm",
+      "170 CDI 90hp (66kW) 180Nm",
+      "170 CDI 95hp (70kW) 180Nm"
+    ],
+    "A W169 - 2004 - 2012": [
+      "150 - 95hp (70kW) 140Nm",
+      "160 CDI 82hp (60kW) 180Nm",
+      "180 CDI 109hp (-<2009) (80kW) 250Nm",
+      "180 CDI 109hp (80kW) 250Nm",
+      "200 CDI 136hp (100kW) 300Nm",
+      "200 Turbo 193hp (142kW) 280Nm"
+    ],
+    "A W176 - 2012 - 2015": [
+      "160 CDI 90hp (66kW) 220Nm",
+      "180 CDI (1500cc) 109hp (80kW) 260Nm",
+      "180 CDI (1800cc) 109hp (80kW) 250Nm",
+      "180 CGi 122hp (90kW) 200Nm",
+      "200 CDI 136hp (100kW) 300Nm",
+      "200 CGi 156hp (115kW) 250Nm",
+      "220 - 184hp (135kW) 300Nm",
+      "220 CDI 163hp (120kW) 350Nm",
+      "220 CDI 170hp (125kW) 350Nm",
+      "250 Turbo 211hp (155kW) 350Nm",
+      "45 AMG 360hp (265kW) 450Nm"
+    ],
+    "A W176 - 2015 - 2018": [
+      "160 (1.6T) 102hp (75kW) 180Nm",
+      "160 CDI (1500ccc) 90hp (66kW) 240Nm",
+      "180 (1.6T) 122hp (90kW) 200Nm",
+      "180 CDI (1500ccc) 109hp (80kW) 260Nm",
+      "200 (1.6T) 156hp (115kW) 250Nm",
+      "200 CDI 136hp (100kW) 300Nm",
+      "200 CDI 4MATIC 136hp (100kW) 300Nm",
+      "220 CDI 177hp (130kW) 350Nm",
+      "250 (2.0T) 211hp (155kW) 350Nm",
+      "250 Sport (2.0T) 218hp (160kW) 350Nm",
+      "45 AMG (2.0T) 381hp (280kW) 475Nm"
+    ],
+    "A W177 - 2018 ->": [
+      "160 (1.3T) 109hp (kW) Nm",
+      "160d 95hp (70kW) 240Nm",
+      "180 (1.3T) 136hp (kW) Nm",
+      "180d (1.5D) 116hp (85kW) 260Nm",
+      "180d (2.0D) 116hp (85kW) 260Nm",
+      "200 (1.3T) 163hp (kW) Nm",
+      "200d 150hp (110kW) 320Nm",
+      "220 (2.0T) 190hp (140kW) 300Nm",
+      "220d 190hp (140kW) 400Nm",
+      "250 (2.0T) 224hp (165kW) 350Nm",
+      "35 AMG 306hp (225kW) 400Nm",
+      "45 AMG 387hp (285kW) 480Nm",
+      "45 AMG S 421hp (310kW) 500Nm"
+    ],
+    "AMG GT 4-door Coupé 2018 ->": [
+      "43 AMG 3.0 367hp (270kW) 500Nm",
+      "53 AMG 3.0 435hp (320kW) 520Nm",
+      "63 AMG 4.0 V8 Bi-Turbo 585hp (430kW) 800Nm",
+      "63 AMG S 4.0 V8 Bi-Turbo 640hp (471kW) 900Nm"
+    ],
+    "B W245 - 2005 - 2011": [
+      "150 - 95hp (70kW) 140Nm",
+      "180 CDI 109hp (80kW) 250Nm",
+      "200 CDI 136/140hp (103kW) 300Nm",
+      "200 Turbo 193hp (142kW) 280Nm",
+      "250 CDI 204hp (150kW) 500Nm"
+    ],
+    "B W246 - 2012 - 2014": [
+      "160 (1.6T) 102hp (75kW) 180Nm",
+      "160 CDI 90hp (66kW) 220Nm",
+      "180 CDI (1500cc) 109hp (80kW) 260Nm",
+      "180 CDI (1800cc) 109hp (80kW) 250Nm",
+      "180 CGi 122hp (90kW) 200Nm",
+      "200 CDI 136hp (100kW) 300Nm",
+      "200 CGi 156hp (115kW) 250Nm",
+      "220 CDI 170hp (125kW) 350Nm",
+      "220 CGI 184hp (135kW) 300Nm",
+      "250 CGI 211hp (155kW) 350Nm"
+    ],
+    "B W246 - 2014 - 2018": [
+      "160 (1.6T) 102hp (75kW) 180Nm",
+      "160 CDI 90hp (66kW) 240Nm",
+      "180 CDI (1500cc) 109hp (80kW) 260Nm",
+      "180 CDI (1800cc) 109hp (80kW) 250Nm",
+      "180 CGi 122hp (90kW) 200Nm",
+      "200 CDI 136hp (100kW) 300Nm",
+      "200 CGi 156hp (115kW) 250Nm",
+      "220 CDI 170hp (125kW) 350Nm",
+      "250 CGI 211hp (155kW) 350Nm"
+    ],
+    "B W247 - 2018 ->": [
+      "160 (1.3T) 109hp (kW) Nm",
+      "180 (1.3T) 136hp (kW) Nm",
+      "180d 116hp (85kW) 260Nm",
+      "200 (1.3T) 163hp (kW) Nm",
+      "200d - 150hp (110kW) 320Nm",
+      "220 (2.0T) 190hp (140kW) 300Nm",
+      "220d 190hp (140kW) 400Nm",
+      "250 (2.0T) 224hp (165kW) 350Nm"
+    ],
+    "C W202 - 1997 - 2000": [
+      "200 CDI 102hp (75kW) 235Nm",
+      "220 CDI 125hp (92kW) 300Nm",
+      "230 K - 193hp (142kW) 280Nm"
+    ],
+    "C W203 - 2000 - 2004": [
+      "180 K - 143hp (105kW) 220Nm",
+      "200 CDI 115hp (85kW) 250Nm",
+      "200 K - 163hp (120kW) 240Nm",
+      "220 CDI 143hp (105kW) 315Nm",
+      "240 V6 170hp (125kW) 240Nm",
+      "270 CDI 163hp (120kW) 370Nm",
+      "270 CDI 170hp (125kW) 400Nm",
+      "3.0 CDI AMG 231hp (170kW) 540Nm",
+      "32 AMG 354hp (260kW) 450Nm"
+    ],
+    "C W203 - 2004 - 2007": [
+      "180 K - 143hp (105kW) 220Nm",
+      "200 CDI 115hp (85kW) 250Nm",
+      "200 CDI 122hp (90kW) 270Nm",
+      "200 K - 163hp (120kW) 240Nm",
+      "220 CDI 136hp (100kW) 315Nm",
+      "220 CDI 150hp (110kW) 340Nm",
+      "230 K - 192hp (141kW) 260Nm",
+      "270 CDI 170hp (125kW) 400Nm",
+      "3.0 CDI AMG 231hp (170kW) 540Nm",
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "55 AMG 367hp (270kW) 510Nm"
+    ],
+    "C W204 - 2007 - 2010": [
+      "180 CDI 120hp (88kW) 300Nm",
+      "180 Kompressor (1600cc) 156hp (115kW) 230Nm",
+      "180 Kompressor (1800cc) 156hp (115kW) 230Nm",
+      "200 CDI 136hp (100kW) 270Nm",
+      "200 Kompressor (1800cc) 184hp (135kW) 250Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "250 CGI 204hp (150kW) 310Nm",
+      "280 CGI 231hp (170kW) 300Nm",
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "350 CDI 211hp (155kW) 540Nm",
+      "350 CDI 224hp (165kW) 510Nm",
+      "350 CDI 231hp (170kW) 540Nm",
+      "350 CGI 292hp (215kW) 365Nm",
+      "350i 272hp (200kW) 350Nm",
+      "63 AMG 457hp (336kW) 600Nm",
+      "63 AMG PPP 487hp (358kW) 600Nm"
+    ],
+    "C W204 - 2010 - 2014": [
+      "180 CDI 120hp (88kW) 310Nm",
+      "180 CGI 156hp (1600cc) (115kW) 250Nm",
+      "180 CGI 156hp (1800cc) (115kW) 250Nm",
+      "200 CDI 136hp (100kW) 360Nm",
+      "200 CGI 184hp (135kW) 270Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "250 CGI 204hp (150kW) 310Nm",
+      "300 CDI 231hp (170kW) 540Nm",
+      "350 CDI 211hp (155kW) 540Nm",
+      "350 CDI 231hp (170kW) 540Nm",
+      "350 CDI 265hp (195kW) 620Nm",
+      "350 CGI 292hp (215kW) 365Nm",
+      "350 V6 Blue Efficiency - 306hp (225kW) 370Nm",
+      "63 AMG 457hp (336kW) 600Nm",
+      "63 AMG Black Series 517hp (380kW) 620Nm",
+      "63 AMG Edition 507 (373kW) 610Nm"
+    ],
+    "C W205 - 2014 - 2018": [
+      "160 (1.6T) 129hp (95kW) 210Nm",
+      "180 (1600cc) 156hp (115kW) 250Nm",
+      "180 CDI (1600cc) 116hp (85kW) 280Nm",
+      "180 CDI (2100cc) 120hp (88kW) 300Nm",
+      "200 - 184hp (135kW) 300Nm",
+      "200 CDI (1600cc) 136hp (100kW) 320Nm",
+      "200 CDI (2100cc) 136hp (100kW) 360Nm",
+      "200d 160hp (118kW) 360Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 - 211hp (155kW) 350Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "300 - 245hp (180kW) 370Nm",
+      "300 CDI Hybrid 231hp (170kW) 550Nm",
+      "350 e Hybrid 279hp (205kW) 600Nm",
+      "400 - 333hp (245kW) 480Nm",
+      "43 AMG 367hp (270kW) 520Nm",
+      "450 AMG 367hp (270kW) 520Nm",
+      "63 AMG 476hp (350kW) 650Nm",
+      "63 AMG S 510hp (375kW) 700Nm"
+    ],
+    "C W205 - 2018 - 2020": [
+      "160 (1600cc) - 129hp (95kW) 210Nm",
+      "180 (1600cc) - 156hp (115kW) 250Nm",
+      "180d 122hp (90kW) 300Nm",
+      "200 (1500cc) - 184hp (135kW) 280Nm",
+      "200d 150hp (110kW) 320Nm",
+      "200d 160hp (118kW) 360Nm",
+      "220d 194hp (143kW) 400Nm",
+      "300 - 258hp (190kW) 370Nm",
+      "300d 245hp (180kW) 500Nm",
+      "300de 306hp (225kW) 700Nm",
+      "400 - 333hp (245kW) 480Nm",
+      "43 AMG 390hp (287kW) 520Nm",
+      "63 AMG 476hp (350kW) 700Nm",
+      "63 AMG S 510hp (375kW) 700Nm"
+    ],
+    "C W206 - 2021 -> ...": [
+      "180 (1.5T) 170hp (kW) Nm",
+      "200 (1.5T) 204hp (kW) Nm",
+      "200d (1.6D) 163hp (kW) Nm",
+      "220d (2.0D) 200hp (kW) Nm",
+      "300 (2.0T) {Power} (kW) Nm",
+      "300d (2.0D) 265hp (kW) Nm",
+      "300e (2.0T) 313hp (kW) Nm"
+    ],
+    "CL C215 - 2002 - 2006": [
+      "500 306hp (225kW) 460Nm",
+      "55 AMG 500hp (368kW) 700Nm",
+      "600 500hp (368kW) 800Nm",
+      "65 AMG 612hp (450kW) 1000Nm"
+    ],
+    "CL C216 - 2006 - 2010": [
+      "500 388hp (285kW) 530Nm",
+      "600 517hp (380kW) 830Nm",
+      "63 AMG 525hp (386kW) 630Nm",
+      "65 AMG 612hp (450kW) 1000Nm"
+    ],
+    "CL C216 - 2010 ->": [
+      "500 435hp (320kW) 700Nm",
+      "600 517hp (380kW) 830Nm",
+      "63 AMG 544hp (400kW) 800Nm",
+      "63 AMG PPK 557hp (410kW) 800Nm",
+      "65 AMG 630hp (463kW) 1000Nm"
+    ],
+    "CLA 2019 ->": [
+      "180 (1.3T) 136hp (kW) Nm",
+      "180d (1.5D) 116hp (85kW) 260Nm",
+      "200 (1.3T) 163hp (kW) Nm",
+      "200d (2.0D) 150hp (110kW) 320Nm",
+      "220 (2.0T) 190hp (140kW) 300Nm",
+      "220d (2.0D) 190hp (140kW) 400Nm",
+      "250 (2.0T) 224hp (165kW) 350Nm",
+      "250e 218hp (kW) Nm",
+      "35 AMG 306hp (225kW) 400Nm",
+      "45 AMG 387hp (285kW) 480Nm",
+      "45 AMG S 421hp (310kW) 500Nm"
+    ],
+    "CLA C117 - 2013 - 2016": [
+      "180 CDI (1500cc) 109hp (80kW) 260Nm",
+      "180 CGi 122hp (90kW) 200Nm",
+      "200 CDI (1800cc) 136hp (100kW) 300Nm",
+      "200 CDI (2100cc) 136hp (100kW) 300Nm",
+      "200 CGi 156hp (115kW) 250Nm",
+      "220 CDI 163hp (120kW) 350Nm",
+      "220 CDI 170hp (125kW) 350Nm",
+      "220 CDI 177hp (130kW) 350Nm",
+      "250 CGi 211hp (155kW) 350Nm",
+      "45 AMG 360hp (265kW) 450Nm"
+    ],
+    "CLA C117 - 2016 - 2019": [
+      "180 CDI (1500cc) 109hp (80kW) 260Nm",
+      "180 CGi 122hp (90kW) 200Nm",
+      "200 CDI 136hp (100kW) 300Nm",
+      "200 CGi 156hp (115kW) 250Nm",
+      "220 - 184hp (135kW) 300Nm",
+      "220 CDI 177hp (130kW) 350Nm",
+      "250 CGi 211hp (155kW) 350Nm",
+      "250 CGi Sport 218hp (160kW) 350Nm",
+      "45 AMG 381hp (280kW) 475Nm"
+    ],
+    "CLC 2008 - 2011": [
+      "200 CDI 122hp (90kW) 270Nm",
+      "220 CDI 136hp (100kW) 315Nm",
+      "220 CDI 150hp (110kW) 340Nm"
+    ],
+    "CLK W208 - 1997 - 2002": [
+      "200 K 163hp (120kW) 230Nm",
+      "230 K 193hp (142kW) 280Nm",
+      "270 CDI 163hp (120kW) 370Nm",
+      "320 - 218hp (160kW) 310Nm",
+      "430 - 279hp (205kW) 400Nm",
+      "55 AMG 347hp (255kW) 510Nm"
+    ],
+    "CLK W209 - 2003 - 2009": [
+      "200 K 163hp (120kW) 240Nm",
+      "200 K 184hp (135kW) 250Nm",
+      "220 CDI 136hp (100kW) 340Nm",
+      "220 CDI 150hp (110kW) 340Nm",
+      "240 V6 - 170hp (125kW) 240Nm",
+      "270 CDI 163hp (120kW) 400Nm",
+      "270 CDI 170hp (125kW) 400Nm",
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "320 V6 - 218hp (160kW) 310Nm",
+      "500 V8 - 306hp (225kW) 460Nm",
+      "55 AMG 367hp (270kW) 510Nm",
+      "63 AMG 481hp (354kW) 630Nm",
+      "63 AMG Black Series 508hp (374kW) 630Nm",
+      "CLK500 387hp (285kW) 530Nm"
+    ],
+    "CLS C218 - 2010 - 2014": [
+      "250 CDI 204hp (150kW) 500Nm",
+      "350 CDI 265hp (195kW) 620Nm",
+      "350 CDI Bluetec 252hp (185kW) 620Nm",
+      "500 Bi-Turbo 407hp (299kW) 600Nm",
+      "63 AMG Bi-Turbo 525hp (386kW) 700Nm",
+      "63 AMG PPP 557hp (410kW) 720Nm"
+    ],
+    "CLS C218 - 2014 - 2018": [
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "350 CDI 258hp (190kW) 620Nm",
+      "400 - 333hp (245kW) 480Nm",
+      "500 - 408hp (300kW) 600Nm",
+      "63 AMG 557hp (410kW) 720Nm",
+      "63 AMG S 585hp (430kW) 800Nm"
+    ],
+    "CLS C219 - 2004 - 2010": [
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "350 CDI 211hp (155kW) 540Nm",
+      "350 CDI 224hp (165kW) 540Nm",
+      "350 CGI  292hp (215kW) 365Nm",
+      "350i 272hp (200kW) 350Nm",
+      "500 306hp (225kW) 460Nm",
+      "500 388hp (285kW) 530Nm",
+      "55 AMG 476hp (350kW) 700Nm",
+      "63 AMG 514hp (378kW) 630Nm"
+    ],
+    "CLS C257 - 2018 - 2020": [
+      "220d (2.0D) 194hp (143kW) 400Nm",
+      "300d (2.0D) 245hp (180kW) 500Nm",
+      "350 (2.0T) 299hp (220kW) 400Nm",
+      "350d (3.0D) 286hp (210kW) 600Nm",
+      "400d (3.0D) 340hp (250kW) 700Nm",
+      "450 (3.0T) 367hp (270kW) 500Nm",
+      "450 (3.0T) 389hp (286kW) 500Nm",
+      "53 AMG 435hp (320kW) 520Nm"
+    ],
+    "CLS C257 - 2021 ->": [
+      "220d (2.0D) 194hp (kW) Nm",
+      "300d MHEV (2.0D) 265hp (kW) Nm",
+      "400d (3.0D) 330hp (kW) Nm",
+      "450 MHEV (3.0T) 367hp (kW) Nm",
+      "53 AMG 435hp (kW) Nm"
+    ],
+    "Citan 2013 - 2018": [
+      "108 CDI 75hp (55kW) 180Nm",
+      "109 CDI 90hp (66kW) 200Nm",
+      "111 CDI 110hp (81kW) 240Nm",
+      "112 - 114hp (84kW) 190Nm"
+    ],
+    "Citan 2019 ->": [
+      "108 CDI 80hp (59kW) 210Nm",
+      "109 CDI 95hp (70kW) 230Nm",
+      "111 CDI 116hp (85kW) 260Nm"
+    ],
+    "E 2020 ->": [
+      "200 (2.0T) 197hp (kW) Nm",
+      "200d (2.0d) 160hp (kW) Nm",
+      "220d (2.0d) 194hp (143kW) 400Nm",
+      "300 (2.0T) 258hp (kW) Nm",
+      "300de 316hp (232kW) 700Nm",
+      "300e 320hp (kW) Nm",
+      "400d (3.0D) 330hp (243kW) 700Nm",
+      "450 (3.0T) 367hp (kW) Nm",
+      "53 AMG 435hp (kW) Nm",
+      "63 AMG 571hp (kW) Nm",
+      "63 AMG S 612hp (kW) Nm"
+    ],
+    "E W210 - 1998 - 2002": [
+      "200 CDI 115hp (85kW) 250Nm",
+      "200 K 163hp (120kW) 240Nm",
+      "220 CDI 136hp (100kW) 315Nm",
+      "220 CDI 143hp (105kW) 315Nm",
+      "240 CGI 177hp (130kW) 240Nm",
+      "270 CDI 163-163hp (120kW) 370Nm",
+      "320 CDI 197hp (145kW) 470Nm",
+      "55 AMG 354hp (260kW) 530Nm"
+    ],
+    "E W211 - 2002 - 2006": [
+      "200 CDI 122hp (90kW) 270Nm",
+      "200 K 163hp (120kW) 240Nm",
+      "220 CDI 136hp (100kW) 315Nm",
+      "220 CDI 150hp (110kW) 340Nm",
+      "240 V6 - 170hp (125kW) 240Nm",
+      "270 CDI 177hp (130kW) 400Nm",
+      "280 CDI 177hp (130kW) 425Nm",
+      "280 CDI 190hp (140kW) 400Nm",
+      "320 CDI 204hp (150kW) 500Nm",
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "400 CDI 260hp (191kW) 560Nm",
+      "420 CDI 314hp (231kW) 730Nm",
+      "500 306hp (225kW) 460Nm",
+      "E 55 AMG 476hp (350kW) 700Nm"
+    ],
+    "E W211 - 2006 - 2009": [
+      "200 CDI 136hp (100kW) 340Nm",
+      "200 K 184hp (135kW) 250Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "280 CDI 190hp (140kW) 440Nm",
+      "300 CDI Bluetec 211hp (155kW) 540Nm",
+      "320 CDI 211hp (155kW) 540Nm",
+      "320 CDI 224hp (165kW) 540Nm",
+      "420 CDI 314hp (231kW) 730Nm",
+      "500 388hp (285kW) 530Nm",
+      "63 AMG 514hp (378kW) 630Nm"
+    ],
+    "E W212 - 2009 - 2013": [
+      "200 CDI 136hp (100kW) 360Nm",
+      "200 CGi 184hp (135kW) 270Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "250 CGi 204hp (150kW) 310Nm",
+      "300 CDI 204hp (150kW) 500Nm",
+      "300 CDI Bluetec 231hp (170kW) 540Nm",
+      "300 CGi 252hp (185kW) 340Nm",
+      "350 CDI 231hp (170kW) 540Nm",
+      "350 CDI 265hp (195kW) 620Nm",
+      "350 CDI Bluetec 252hp (185kW) 620Nm",
+      "350 CGi 272hp (200kW) 360Nm",
+      "350 CGi 292hp (215kW) 365Nm",
+      "350 CGi 306hp (225kW) 365Nm",
+      "500 - 388hp (285kW) 530Nm",
+      "500 - 408hp (300kW) 600Nm",
+      "63 AMG 525hp (386kW) 630Nm",
+      "63 AMG Bi-Turbo 525hp (386kW) 700Nm",
+      "63 AMG PPK 557hp (410kW) 720Nm"
+    ],
+    "E W212 - 2013 - 2016": [
+      "200 CDI 136hp (100kW) 360Nm",
+      "200 CDI BlueTEC 136hp (100kW) 360Nm",
+      "200 CGi 184hp (135kW) 300Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "220 CDI BlueTEC 163hp (120kW) 400Nm",
+      "220 CDI BlueTEC 170hp (125kW) 400Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "250 CDI BlueTec 204hp (150kW) 500Nm",
+      "250 CGi 211hp (155kW) 350Nm",
+      "300 CDI BlueTec Hybrid 231hp (170kW) 540Nm",
+      "300 CGi 252hp (185kW) 340Nm",
+      "350 CDI 252hp (185kW) 620Nm",
+      "350 CDI BlueTec 258hp (190kW) 620Nm",
+      "350 CGi 306hp (225kW) 370Nm",
+      "400 CGi 333hp (245kW) 480Nm",
+      "500 CGi 408hp (300kW) 600Nm",
+      "63 AMG 558hp (410kW) 720Nm",
+      "63 AMG S 585hp (430kW) 800Nm"
+    ],
+    "E W213 - 2016 - 2019": [
+      "200 (2.0T) 197hp (kW) Nm",
+      "200 - 184hp (135kW) 300Nm",
+      "200d 150hp (110kW) 360Nm",
+      "200d 160hp (118kW) 360Nm",
+      "220d 194hp (143kW) 400Nm",
+      "250 - 211hp (155kW) 350Nm",
+      "300 - 245hp (180kW) 370Nm",
+      "300d 245hp (180kW) 500Nm",
+      "300de 306hp (225kW) 700Nm",
+      "300e 320hp (235kW) 700Nm",
+      "350 - 299hp (220kW) 400Nm",
+      "350d 258hp (190kW) 620Nm",
+      "350d 286hp (210kW) 600Nm",
+      "350e Hybrid 286hp (210kW) 550Nm",
+      "400 - 333hp (245kW) 480Nm",
+      "400d 340hp (250kW) 700Nm",
+      "43 AMG 401hp (295kW) 520Nm",
+      "450 - 367hp (270kW) 500Nm",
+      "53 AMG 435hp (320kW) 520Nm",
+      "63 AMG 571hp (420kW) 750Nm",
+      "63 AMG S 612hp (450kW) 850Nm"
+    ],
+    "G -> 2017": [
+      "270 CDI 156hp (115kW) 400Nm",
+      "320 CDI 211hp (155kW) 540Nm",
+      "320 CDI 224hp (165kW) 540Nm",
+      "350 CDI  224hp (165kW) 540Nm",
+      "350 CDI 211hp (155kW) 540Nm",
+      "350 CDI 245hp (180kW) 600Nm",
+      "400 CDI 250hp (184kW) 560Nm",
+      "500 - 421hp (310kW) 610Nm",
+      "55 AMG 476hp (350kW) 700Nm",
+      "55 AMG 500hp (368kW) 700Nm",
+      "63 AMG 544hp (400kW) 760Nm",
+      "63 AMG 571hp (420kW) 760Nm",
+      "65 AMG 612hp (450kW) 1000Nm"
+    ],
+    "G 2018 ->": [
+      "350 (2.0T) 258hp (kW) Nm",
+      "350d (3.0D) 286hp (210kW) 600Nm",
+      "400d (3.0D) 340hp (250kW) 700Nm",
+      "500 - 422hp (310kW) 610Nm",
+      "63 AMG 585hp (430kW) 850Nm"
+    ],
+    "GL X164 - 2006 - 2012": [
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "350 CDI 211hp (155kW) 510Nm",
+      "350 CDI 224hp (165kW) 510Nm",
+      "350 CDI 265hp (195kW) 620Nm",
+      "420 CDI 306hp (225kW) 700Nm",
+      "450 - 340hp (250kW) 460Nm",
+      "450 CDI 306hp (225kW) 700Nm",
+      "500 - 388hp (285kW) 530Nm"
+    ],
+    "GL X166 - 2012 ->": [
+      "350 Bluetec 258hp (190kW) 620Nm",
+      "400 - 333hp (245kW) 480Nm",
+      "450 367hp (270kW) 500Nm",
+      "500 - 435hp (320kW) 700Nm",
+      "GL 63 AMG - 558hp (410kW) 760Nm"
+    ],
+    "GLA H247 - 2020 ->": [
+      "180 (1.3T) 136hp (kW) Nm",
+      "200 (1.3T) 163hp (kW) Nm",
+      "200d (2.0D) 150hp (110kW) 320Nm",
+      "220d (2.0d) 190hp (140kW) 400Nm",
+      "250 (2.0T) 224hp (165kW) 350Nm",
+      "35 AMG 306hp (225kW) 400Nm",
+      "45 AMG - 387hp (285kW) 480Nm",
+      "45 AMG S - 421hp (310kW) 500Nm"
+    ],
+    "GLA X156 - 2014 - 2016": [
+      "180 CDI (1500cc) 109hp (80kW) 260Nm",
+      "180 CGi 122hp (90kW) 200Nm",
+      "200 CDI 136hp (100kW) 300Nm",
+      "200 CDI 4 Matic 136hp (100kW) 300Nm",
+      "200 CGi 156hp (115kW) 250Nm",
+      "220 CDI 163hp (120kW) 350Nm",
+      "220 CDI 170hp (125kW) 350Nm",
+      "250 Turbo 211hp (155kW) 350Nm",
+      "45 AMG 360hp (265kW) 450Nm"
+    ],
+    "GLA X156 - 2017 - 2019": [
+      "180 (1.6T) 122hp (90kW) 200Nm",
+      "180d (1.5D) 109hp (80kW) 260Nm",
+      "200 (1.6T) 156hp (115kW) 250Nm",
+      "200d (2.2D) 136hp (100kW) 300Nm",
+      "220d (2.2D) 177hp (130kW) 350Nm",
+      "250 (2.0T) 211hp (155kW) 350Nm",
+      "35 AMG 306hp (225kW) 400Nm",
+      "45 AMG 381hp (280kW) 475Nm"
+    ],
+    "GLB 2019 ->": [
+      "180 (1.3T) 136hp (kW) Nm",
+      "180d (2.0D) 116hp (85kW) 280Nm",
+      "200 (1.3T) 163hp (kW) Nm",
+      "200d (2.0D) 150hp (110kW) 360Nm",
+      "220d (2.0D) 190hp (140kW) 400Nm",
+      "250 / 240 (2.0T) 224hp (165kW) 350Nm",
+      "35 AMG 306hp (225kW) 400Nm"
+    ],
+    "GLC 2015 - 2019": [
+      "200 4MATIC 184hp (135kW) 300Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 4MATIC 211hp (155kW) 350Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "300 - 245hp (180kW) 370Nm",
+      "350 CDI 258hp (190kW) 620Nm",
+      "350e Hybrid 327hp (240kW) 560Nm",
+      "43 AMG 367hp (270kW) 520Nm",
+      "63 AMG 476hp (350kW) 700Nm",
+      "63 AMG S 510hp (375kW) 700Nm"
+    ],
+    "GLC 2019 ->": [
+      "200 - 197hp (145kW) 320Nm",
+      "200d 163hp (120kW) 360Nm",
+      "220d 194hp (143kW) 400Nm",
+      "250/260 - 211hp (155kW) 350Nm",
+      "300 - 258hp (190kW) 370Nm",
+      "300d 245hp (180kW) 500Nm",
+      "300de 306hp (225kW) 700Nm",
+      "300e 320hp (235kW) 700Nm",
+      "400d 330hp (243kW) 700Nm",
+      "43 AMG 390hp (287kW) 520Nm",
+      "63 AMG 476hp (350kW) 650Nm",
+      "63 AMG S 510hp (375kW) 700Nm"
+    ],
+    "GLE 2015 - 2018": [
+      "250 CDI 4Matic 204hp (150kW) 500Nm",
+      "350 CDI 4Matic 258hp (190kW) 620Nm",
+      "400 4Matic 333hp (245kW) 480Nm",
+      "43 AMG 367hp (270kW) 520Nm",
+      "43 AMG 390hp (287kW) 520Nm",
+      "450 AMG 367hp (270kW) 520Nm",
+      "500 4Matic 435hp (320kW) 700Nm",
+      "500e 449hp (330kW) 650Nm",
+      "63 AMG 558hp (410kW) 700Nm",
+      "63 AMG S 585hp (430kW) 760Nm"
+    ],
+    "GLE 2019 ->": [
+      "300d (2.0D) 245hp (180kW) 500Nm",
+      "320 (3.0T) 272hp (200kW) 620Nm",
+      "350d (3.0D) 272hp (200kW) 600Nm",
+      "350de PHEV 320hp (235kW) 700Nm",
+      "400d (3.0D) 330hp (243kW) 700Nm",
+      "450 4Matic (3.0T) 367hp (270kW) 500Nm",
+      "53 AMG 435hp (320kW) 520Nm",
+      "580 4Matic (4.0T) 490hp (360kW) 700Nm"
+    ],
+    "GLK X204 - 2008 - 2010": [
+      "200 CDI 143hp (105kW) 350Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 540Nm",
+      "350 CDI 211hp (155kW) 540Nm",
+      "350 CDI 231hp (170kW) 540Nm"
+    ],
+    "GLK X204 - 2010 ->": [
+      "200 CDI 136hp (100kW) 350Nm",
+      "200 CDI 143hp (105kW) 350Nm",
+      "200 CGi 184hp (135kW) 300Nm",
+      "220 CDI 163hp (120kW) 400Nm",
+      "220 CDI 170hp (125kW) 400Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "250 CGi 211hp (155kW) 350Nm",
+      "350 CDI 265hp (195kW) 620Nm",
+      "350 CGI 306hp (225kW) 370Nm"
+    ],
+    "GLS 2015 - 2018": [
+      "350d 258hp (190kW) 620Nm",
+      "400 (3.0T) 333hp (245kW) 480Nm",
+      "500 (4.7 V8 TT) 455hp (335kW) 700Nm",
+      "63 AMG 585hp (430kW) 760Nm"
+    ],
+    "GLS 2019 ->": [
+      "350d 286hp (210kW) 600Nm",
+      "400d 331hp (243kW) 700Nm",
+      "450 (3.0T) 367hp (270kW) 500Nm",
+      "580 (4.0T) 490hp (360kW) 700Nm",
+      "600 - 558hp (kW) Nm",
+      "63 AMG V8 Bi-Turbo 612hp (450kW) 850Nm"
+    ],
+    "GT 2014 - 2017": [
+      "4.0 - 462hp (340kW) 600Nm",
+      "R 4.0 - 585hp (430kW) 700Nm",
+      "S 4.0 - 510hp (375kW) 650Nm"
+    ],
+    "GT 2017 ->": [
+      "4.0 - 476hp (350kW) 630Nm",
+      "Black Series 4.0 - 730hp (kW) Nm",
+      "C 4.0 - 557hp (410kW) 670Nm",
+      "R 4.0 - 585hp (430kW) 700Nm",
+      "Roadster S 4.0 - 522hp (384kW) 670Nm",
+      "S 4.0 - 522hp (384kW) 670Nm"
+    ],
+    "ML W163 - 1997 - 2005": [
+      "270 CDI 163hp (120kW) 370Nm",
+      "320 V6 - 218hp (160kW) 310Nm",
+      "350 V6 - 245hp (180kW) 350Nm",
+      "400 CDI 250hp (184kW) 560Nm",
+      "430 V8 - 272hp (200kW) 400Nm",
+      "55 AMG 347hp (255kW) 510Nm"
+    ],
+    "ML W164 - 2005 - 2009": [
+      "280 CDI 190hp (140kW) 440Nm",
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "420 CDI 306hp (225kW) 700Nm",
+      "500 V8 306hp (225kW) 460Nm",
+      "63 AMG 510hp (375kW) 630Nm"
+    ],
+    "ML W164 - 2009 - 2011": [
+      "300 CDI 190hp (140kW) 440Nm",
+      "300 CDI 204hp (150kW) 500Nm",
+      "350 CDI 211hp (155kW) 540Nm",
+      "350 CDI 224hp (165kW) 510Nm",
+      "350 CDI 231hp (170kW) 540Nm",
+      "450 CDI 306hp (225kW) 700Nm",
+      "63 AMG 510hp (375kW) 630Nm"
+    ],
+    "ML W166 - 2011 ->": [
+      "250 Bluetec 204hp (150kW) 500Nm",
+      "350 CDI 258hp (190kW) 620Nm",
+      "400 4 MATIC 333hp (245kW) 480Nm",
+      "500 biturbo - 408hp (300kW) 600Nm",
+      "63 AMG 525hp (386kW) 700Nm",
+      "63 AMG 558hp (410kW) 720Nm"
+    ],
+    "R 2006 - 2010": [
+      "280 CDI 190hp (140kW) 440Nm",
+      "300 CDI 190hp (140kW) 440Nm",
+      "320 CDI 211hp (155kW) 510Nm",
+      "320 CDI 224hp (165kW) 510Nm",
+      "350 BlueTec 211hp (155kW) 540Nm",
+      "350 CDI 224hp (165kW) 510Nm",
+      "500 V8 - 306hp (225kW) 460Nm",
+      "500 V8 - 388hp (285kW) 530Nm",
+      "63 AMG 510hp (375kW) 630Nm"
+    ],
+    "R 2010 - 2013": [
+      "300 CDI 190hp (140kW) 440Nm",
+      "350 272hp (200kW) 350Nm",
+      "350 BlueTec 210hp (154kW) 540Nm",
+      "350 CDI 265hp (195kW) 620Nm",
+      "500 V8 - 388hp (285kW) 530Nm"
+    ],
+    "S W220 - 1997 - 2002": [
+      "320 CDI 197hp (145kW) 470Nm",
+      "400 CDI 250hp (184kW) 560Nm",
+      "55 AMG 360hp (265kW) 530Nm",
+      "600 V12 - 367hp (270kW) 530Nm"
+    ],
+    "S W220 - 2002 - 2005": [
+      "320 CDI 204hp (150kW) 500Nm",
+      "400 CDI 250hp (184kW) 560Nm",
+      "55 AMG - 500hp (368kW) 700Nm",
+      "600 V12 - 500hp (368kW) 800Nm"
+    ],
+    "S W221 - 2005 - 2013": [
+      "250 CDI 204hp (150kW) 500Nm",
+      "320 CDI 211hp (155kW) 540Nm",
+      "320 CDI 235hp (173kW) 540Nm",
+      "350 CDI 235hp (173kW) 540Nm",
+      "350 CDI BlueTec 258hp (190kW) 620Nm",
+      "400 Hybrid 299hp (220kW) 384Nm",
+      "420 CDI 320hp (235kW) 730Nm",
+      "450 CDI 320hp (235kW) 730Nm",
+      "500 - 388hp (285kW) 530Nm",
+      "500 Turbo 435hp (320kW) 700Nm",
+      "600 V12 Turbo 517hp (380kW) 830Nm",
+      "63 AMG 525hp (386kW) 630Nm",
+      "63 AMG Turbo 544hp (400kW) 800Nm",
+      "65 AMG V12 Turbo 630hp (463kW) 1000Nm"
+    ],
+    "S W222 - 2013 - 2017": [
+      "300 Hybrid 231hp (170kW) 500Nm",
+      "350 CDI BlueTec 258hp (190kW) 620Nm",
+      "400 Hybrid 333hp (245kW) 370Nm",
+      "500 V8 Turbo 456hp (335kW) 700Nm",
+      "600 V12 Turbo 530hp (390kW) 830Nm",
+      "63 AMG V8 Turbo 585hp (430kW) 900Nm",
+      "65 AMG V12 Turbo 630hp (463kW) 1000Nm"
+    ],
+    "S W222 - 2017 - 2019": [
+      "350d 286hp (210kW) 600Nm",
+      "400d 340hp (250kW) 700Nm",
+      "450 - 367hp (270kW) 500Nm",
+      "560 - 469hp (345kW) 700Nm",
+      "560e 476hp (kW) Nm",
+      "600 - 530hp (kW) Nm",
+      "63 AMG S 612hp (450kW) 900Nm",
+      "65 AMG 630hp (463kW) 1000Nm",
+      "650 - 630hp (463kW) 1000Nm"
+    ],
+    "S W223 - 2020 ->": [
+      "350d (3.0D) 286hp (210kW) 600Nm",
+      "400d (3.0D) 330hp (243kW) 700Nm",
+      "450 (3.0T) MHEV 367hp (270kW) 500Nm",
+      "500 (3.0T) MHEV 435hp (320kW) 520Nm",
+      "580 (4.0T) 503hp (kW) Nm",
+      "580e 507hp (kW) Nm",
+      "63 AMG 650hp (kW) Nm",
+      "73 AMG 800hp (kW) Nm"
+    ],
+    "SL 2016 ->": [
+      "400 - 367hp (270kW) 500Nm",
+      "500 - 456hp (335kW) 700Nm",
+      "63 AMG V8 BiTurbo 585hp (430kW) 900Nm",
+      "65 AMG V12 BiTurbo 630hp (463kW) 1000Nm"
+    ],
+    "SL R230 - 2001 - 2011": [
+      "350 V6 245hp (180kW) 350Nm",
+      "500 V8 - 388hp (285kW) 530Nm",
+      "500 V8 306hp (225kW) 460Nm",
+      "55 AMG 476hp (350kW) 700Nm",
+      "55 AMG 500hp (368kW) 700Nm",
+      "55 AMG 517hp (380kW) 700Nm",
+      "600 V12 500hp (368kW) 800Nm",
+      "600 V12 Turbo 517hp (380kW) 830Nm",
+      "63 AMG 525hp (386kW) 630Nm",
+      "65 AMG BlackSeries Turbo 670hp (493kW) 1000Nm",
+      "65 AMG Turbo 612hp (450kW) 1000Nm"
+    ],
+    "SL R231 - 2012 - 2015": [
+      "400 V6 BiTurbo 333hp (245kW) 480Nm",
+      "500 V8 BiTurbo 435hp (320kW) 700Nm",
+      "63 AMG V8 BiTurbo 537hp (395kW) 800Nm",
+      "63 AMG V8 BiTurbo 585hp (430kW) 900Nm",
+      "65 AMG V12 BiTurbo 630hp (463kW) 1000Nm"
+    ],
+    "SLC 2016 ->": [
+      "180 (1.6T) 156hp (115kW) 250Nm",
+      "200 (2.0T) 184hp (135kW) 300Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "300 - 245hp (180kW) 370Nm",
+      "43 AMG 367hp (270kW) 520Nm",
+      "43 AMG 390hp (287kW) 520Nm"
+    ],
+    "SLK R170 - 2000 - 2004": [
+      "200 K 163hp (120kW) 230Nm",
+      "230 K 193hp (142kW) 280Nm",
+      "32 AMG 354hp (260kW) 450Nm"
+    ],
+    "SLK R171 - 2004 - 2010": [
+      "200 K 163hp (120kW) 240Nm",
+      "200 K 184hp (135kW) 250Nm",
+      "55 AMG 360hp (265kW) 510Nm"
+    ],
+    "SLK R172 - 2011 ->": [
+      "200 (1.8T) 184hp (135kW) 270Nm",
+      "250 (1.8T) 204hp (150kW) 310Nm",
+      "250 CDI 204hp (150kW) 500Nm",
+      "350 - 306hp (225kW) 370Nm",
+      "55 AMG V8 421hp (310kW) 540Nm"
+    ],
+    "SLS All": [
+      "6.2 V8 AMG 571hp (420kW) 650Nm"
+    ],
+    "Sprinter 2000 - 2010": [
+      "208/308/408 CDI 82hp (60kW) 200Nm",
+      "209/309/509 CDI 88hp (65kW) 220Nm",
+      "210/310 CDI 102hp (75kW) 220Nm",
+      "211/311/411 CDI 109hp (80kW) 280Nm",
+      "212/312 CDI 122hp (90kW) 280Nm",
+      "213/313/413 CDI 129hp (95kW) 305Nm",
+      "215/315/515 CDI 150hp (110kW) 330Nm",
+      "216/316/416 CDI 156hp (115kW) 330Nm",
+      "216/316/416 CDI 163hp (120kW) 360Nm",
+      "218/318/518 CDI 184hp (135kW) 400Nm"
+    ],
+    "Sprinter 2010 - 2014": [
+      "210/310/510 CDI 95hp (70kW) 250Nm",
+      "213/313/413/513 CDI 129hp (95kW) 305Nm",
+      "215/315/415/515 CDI 150hp (110kW) 340Nm",
+      "216/316/416/516 CDI 163hp (120kW) 360Nm",
+      "219/319/419/519 CDI 190hp (140kW) 440Nm"
+    ],
+    "Sprinter 2014 - 2016": [
+      "210/310/510 BlueTEC 95hp (70kW) 250Nm",
+      "213/313/413/513 BlueTEC 129hp (95kW) 305Nm",
+      "216/316/416/516 BlueTEC 163hp (120kW) 360Nm",
+      "219/319/519 BlueTEC 190hp (140kW) 440Nm"
+    ],
+    "Sprinter 2016 - 2018": [
+      "211/311/511 CDI 114pk (84kW) 300Nm",
+      "214/314/414/514 CDI 143pk (105kW) 330Nm",
+      "216/316/416/516 CDI 163pk (120kW) 360Nm",
+      "219/319/519 CDI 190pk (140kW) 440Nm"
+    ],
+    "Sprinter 2018 ->": [
+      "211/311 CDI 114hp (84kW) 300Nm",
+      "214/314 CDI 143hp (105kW) 330Nm",
+      "216/316 CDI 163hp (120kW) 360Nm",
+      "315 CDI 150hp (kW) Nm",
+      "317 CDI 170hp (kW) Nm",
+      "318/418 CDI 177hp (130kW) 380Nm",
+      "319/419/519 CDI 190hp (140kW) 440Nm"
+    ],
+    "V-Klasse 1999 - 2003": [
+      "200 CDI 102hp (75kW) 250Nm",
+      "220 CDI 122hp (90kW) 300Nm"
+    ],
+    "V-Klasse 2014 - 2018": [
+      "200 CDI 136hp (100kW) 330Nm",
+      "220 CDI 163hp (120kW) 380Nm",
+      "250 CDI BlueTec 190hp (140kW) 440Nm"
+    ],
+    "V-Klasse 2019 ->": [
+      "220d 163hp (120kW) 380Nm",
+      "250d 190hp (140kW) 440Nm",
+      "300d 240hp (176kW) 500Nm"
+    ],
+    "Vaneo 2002 - 2006": [
+      "1.7 CDI 75hp (55kW) 160Nm",
+      "1.7 CDI 90hp (66kW) 180Nm",
+      "2.0 CDI 109hp (80kW) 270Nm",
+      "2.2 CDI 150hp (110kW) 330Nm",
+      "3.0 CDI 204hp (150kW) 440Nm"
+    ],
+    "Viano 2003 - 2010": [
+      "2.0 CDI 109hp (80kW) 270Nm",
+      "2.0 CDI 116hp (85kW) 290Nm",
+      "2.2 CDI 150hp (110kW) 330Nm",
+      "3.0 CDI V6 204hp (150kW) 440Nm"
+    ],
+    "Viano 2010 ->": [
+      "2.0 CDI 136hp (100kW) 310Nm",
+      "2.2 CDI 163hp (120kW) 360Nm",
+      "3.0 CDI V6 224hp (165kW) 440Nm"
+    ],
+    "Vito 2020 ->": [
+      "110 CDI 102hp (75kW) 270Nm",
+      "114 CDI (1.8D) 136hp (100kW) 330Nm",
+      "114 CDI (2.0D) 136hp (100kW) 330Nm",
+      "116 CDI 163hp (120kW) 380Nm",
+      "119 CDI 190hp (140kW) 440Nm",
+      "124 CDI 239hp (176kW) 500Nm"
+    ],
+    "Vito W447 - 2015 - 2019": [
+      "109 CDI 88hp (1600cc) (65kW) 230Nm",
+      "110 CDI 102hp (1750cc) (75kW) 270Nm",
+      "111 CDI 114hp (1600cc) (84kW) 270Nm",
+      "114 CDI 136hp (2100cc) (100kW) 330Nm",
+      "116 CDI 163hp (2100cc) (120kW) 380Nm",
+      "119 BlueTEC 190hp (2100cc) (140kW) 440Nm"
+    ],
+    "Vito W638 - 1999 - 2003": [
+      "108 CDI 82hp (60kW) 200Nm",
+      "110 CDI 102hp (75kW) 250Nm",
+      "112 CDI 122hp (90kW) 300Nm"
+    ],
+    "Vito W639 - 2003 - 2010": [
+      "109 CDI 88hp (65kW) 220Nm",
+      "109 CDI 95hp (70kW) 250Nm",
+      "111 CDI 109hp (80kW) 270Nm",
+      "111 CDI 116hp (85kW) 290Nm",
+      "115 CDI 150hp (110kW) 330Nm",
+      "120 CDI V6 204hp (150kW) 440Nm"
+    ],
+    "Vito W639 - 2010 - 2014": [
+      "110 CDI 95hp (70kW) 250Nm",
+      "111 CDI 116hp (85kW) 290Nm",
+      "113 CDI 136hp (100kW) 310Nm",
+      "116 CDI 163hp (120kW) 360Nm",
+      "122 CDI V6 224hp (165kW) 440Nm"
+    ],
+    "X-Klasse 2017 ->": [
+      "220d 163hp (120kW) 403Nm",
+      "250d 190hp (140kW) 450Nm",
+      "350d 258hp (190kW) 550Nm"
+    ]
+  },
+  "Mercedes-Benz Trucks": {
+    "Actros Actros 18": [
+      "1831 313hp euro3 (230kW) 1530Nm",
+      "1832 320hp euro3+4+5 (235kW) 1650Nm",
+      "1835 354hp euro3 (260kW) 1730Nm",
+      "1836 360hp euro3+4+5 (265kW) 1850Nm",
+      "1840 394hp euro3 (290kW) 1850Nm",
+      "1841 408hp euro3+4+5 (300kW) 2000Nm",
+      "1843 428hp euro3 (315kW) 2000Nm",
+      "1844 435hp euro3+4+5 (320kW) 2100Nm",
+      "1846 456hp euro3+4+5 (335kW) 2200Nm",
+      "1848 476hp euro3+4+5 (350kW) 2300Nm",
+      "1850 503hp euro3 (370kW) 2400Nm",
+      "1851 510hp euro4+5 (375kW) 2400Nm",
+      "1853 530hp euro3 (390kW) 2400Nm",
+      "1854 537hp euro3 (395kW) 2400Nm",
+      "1855 551hp euro4+5 (405kW) 2600Nm",
+      "1857 571hp euro3 (420kW) 2700Nm",
+      "1858 578hp euro3 (425kW) 2700Nm",
+      "1860 598hp euro4+5 (440kW) 2800Nm"
+    ],
+    "Actros All": [
+      "2040 394hp (290kW) 1850Nm",
+      "2043 428hp (315kW) 2000Nm",
+      "2044 435hp (320kW) 2100Nm",
+      "2048 476hp (350kW) 2300Nm",
+      "2051 510hp (375kW) 2400Nm",
+      "2055 551hp (405kW) 2600Nm",
+      "2531 313hp (230kW) 1530Nm",
+      "2535 354hp (260kW) 1730Nm",
+      "2540 394hp (290kW) 1850Nm",
+      "2541 408hp (300kW) 2000Nm",
+      "2543 428hp (315kW) 2000Nm",
+      "2544 435hp (320kW) 2100Nm",
+      "2546 456hp (335kW) 2200Nm",
+      "2548 476hp (350kW) 2300Nm",
+      "2551 510hp (375kW) 2400Nm",
+      "2553 530hp (390kW) 2400Nm",
+      "2555 551hp (405kW) 2600Nm",
+      "2557 571hp (420kW) 2700Nm",
+      "2560 598hp (440kW) 2800Nm",
+      "2631 313hp (230kW) 1530Nm",
+      "2635 354hp (260kW) 1730Nm",
+      "2640 394hp (290kW) 1850Nm",
+      "2643 428hp (315kW) 2000Nm",
+      "2644 435hp (320kW) 2100Nm",
+      "2646 465hp (342kW) 2200Nm",
+      "2648 476hp (350kW) 2300Nm",
+      "2651 510hp (375kW) 2400Nm",
+      "2653 530hp (390kW) 2400Nm",
+      "2654 537hp (395kW) 2500Nm",
+      "2655 551hp (405kW) 2600Nm",
+      "2657 571hp (420kW) 2700Nm",
+      "2660 598hp (440kW) 2800Nm",
+      "3235 354hp (260kW) 1730Nm",
+      "3240 394hp (290kW) 1850Nm",
+      "3243 428hp (315kW) 2000Nm",
+      "3255 551hp (405kW) 2600Nm",
+      "3340 394hp (290kW) 1850Nm",
+      "3341 408hp (300kW) 2000Nm",
+      "3343 428hp (315kW) 2000Nm",
+      "3348 476hp (350kW) 2300Nm",
+      "3351 510hp (375kW) 2400Nm",
+      "3353 530hp (390kW) 2400Nm",
+      "3360 598hp (440kW) 2800Nm",
+      "4140 394hp (290kW) 1850Nm",
+      "4141 408hp (300kW) 2000Nm",
+      "4143 428hp (315kW) 2000Nm",
+      "4144 435hp (320kW) 2100Nm",
+      "4146 456hp (335kW) 2200Nm",
+      "4148 476hp (350kW) 2300Nm",
+      "4151 510hp (375kW) 2400Nm",
+      "BLACKEDITION 612hp (450kW) 2700Nm"
+    ],
+    "Atego All": [
+      "1015 150hp (110kW) 580Nm",
+      "1016 156hp (115kW) 610Nm",
+      "1017 170hp (125kW) 670Nm",
+      "1018 177hp (130kW) 675Nm",
+      "1022 218hp (160kW) 810Nm",
+      "1023 231hp (170kW) 810Nm",
+      "1024 238hp (175kW) 850Nm",
+      "1215 150hp (110kW) 580Nm",
+      "1216 156hp (115kW) 610Nm",
+      "1217 170hp (125kW) 670Nm",
+      "1218 177hp (130kW) 675Nm",
+      "1222 218hp (160kW) 810Nm",
+      "1223 231hp (170kW) 810Nm",
+      "1224 238hp (175kW) 850Nm",
+      "1226 256hp (188kW) 970Nm",
+      "1228 279hp (205kW) 1100Nm",
+      "1229 286hp (210kW) 1120Nm",
+      "1317 170hp (125kW) 670Nm",
+      "1318 177hp (130kW) 675Nm",
+      "1322 218hp (160kW) 810Nm",
+      "1323 231hp (170kW) 810Nm",
+      "1324 238hp (175kW) 850Nm",
+      "1326 256hp (188kW) 970Nm",
+      "1328 279hp (205kW) 1100Nm",
+      "1329 286hp (210kW) 1120Nm",
+      "1517 170hp (125kW) 670Nm",
+      "1518 177hp (130kW) 675Nm",
+      "1522 218hp (160kW) 810Nm",
+      "1523 231hp (170kW) 810Nm",
+      "1524 238hp (175kW) 850Nm",
+      "1526 256hp (188kW) 970Nm",
+      "1529 286hp (210kW) 1100Nm",
+      "1823 231hp (170kW) 810Nm",
+      "1828 279hp (205kW) 1100Nm",
+      "1833 326hp (240kW) 1300Nm",
+      "2528 279hp (205kW) 1100Nm",
+      "2628 279hp (205kW) 1100Nm",
+      "712 122hp (90kW) 470Nm",
+      "713 129hp (95kW) 500Nm",
+      "715 150hp (110kW) 580Nm",
+      "716 156hp (115kW) 610Nm",
+      "812 122hp (90kW) 470Nm",
+      "813 129hp (95kW) 500Nm",
+      "815 150hp (110kW) 580Nm",
+      "816 156hp (115kW) 610Nm",
+      "817 170hp (125kW) 670Nm",
+      "818 177hp (130kW) 675Nm",
+      "822 218hp (160kW) 810Nm",
+      "823 231hp (170kW) 810Nm",
+      "824 238hp (175kW) 850Nm",
+      "915 150hp (110kW) 580Nm",
+      "916 156hp (115kW) 610Nm",
+      "917 170hp (125kW) 670Nm",
+      "918 177hp (130kW) 675Nm",
+      "922 218hp (160kW) 810Nm",
+      "923 231hp (170kW) 810Nm",
+      "924 238hp (175kW) 850Nm"
+    ],
+    "Axor All": [
+      "1823 231hp (170kW) 810Nm",
+      "1824 238hp (175kW) 850Nm",
+      "1826 256hp (188kW) 970Nm",
+      "1828 279hp (205kW) 1100Nm",
+      "1829 286hp (210kW) 1120Nm",
+      "1833 326hp (240kW) 1300Nm",
+      "1835 354hp (260kW) 1850Nm",
+      "1836 360hp (265kW) 1850Nm",
+      "1840 401hp (295kW) 2000Nm",
+      "1843 428hp (315kW) 2100Nm",
+      "2523 231hp (170kW) 810Nm",
+      "2528 279hp (205kW) 1100Nm",
+      "2529 286hp (210kW) 1120Nm",
+      "2533 326hp (240kW) 1300Nm",
+      "2535 354hp (260kW) 1850Nm",
+      "2536 360hp (265kW) 1850Nm",
+      "2540 401hp (295kW) 2000Nm",
+      "2543 428hp (315kW) 2100Nm",
+      "2628 279hp (205kW) 1100Nm",
+      "2629 286hp (210kW) 1120Nm",
+      "2633 326hp (240kW) 1300Nm"
+    ],
+    "Econic All": [
+      "1823 231hp (170kW) 810Nm",
+      "1824 238hp (175kW) 850Nm",
+      "1828 279hp (205kW) 1100Nm",
+      "1829 286hp (210kW) 1120Nm",
+      "1833 326hp (240kW) 1300Nm",
+      "2623 231hp (170kW) 810Nm",
+      "2628 279hp (205kW) 1100Nm",
+      "2633 326hp (240kW) 1300Nm"
+    ]
+  },
+  "Mercury": {
+    "Grand Marquis 2003 - 2012": [
+      "4.6 V8 239hp (176kW) 382Nm"
+    ],
+    "Mariner 2005 - 2012": [
+      "2.5i 171hp (126kW) 232Nm",
+      "3.0 V6 240hp (176kW) 316Nm"
+    ],
+    "Mountaineer 2005 - 2010": [
+      "4.0 V6 210hp (154kW) 344Nm",
+      "4.6 V8 292hp (215kW) 427Nm"
+    ],
+    "Sable 2004 - 2009": [
+      "3.0 V6 201hp (148kW) 281Nm",
+      "3.5 V6 263hp (193kW) 338Nm"
+    ]
+  },
+  "Mini": {
+    "Clubman (2007 - 2010) - R55": [
+      "1.6D 110hp (81kW) 240Nm",
+      "1.6T 163hp (120kW) 240Nm",
+      "1.6T 174hp (128kW) 240Nm",
+      "1.6T 184hp (135kW) 240Nm",
+      "1.6T JCW 211hp (155kW) 280Nm"
+    ],
+    "Clubman (2010 - 2015) - R55": [
+      "1.6D 112hp (82kW) 270Nm",
+      "1.6D 90hp (66kW) 215Nm",
+      "1.6T 163hp (120kW) 240Nm",
+      "1.6T 184hp (135kW) 240Nm",
+      "1.6i 115hp (85kW) 160Nm",
+      "1.6i 122hp (90kW) 160Nm",
+      "1.6i 98hp (72kW) 153Nm",
+      "2.0D 112hp (82kW) 270Nm",
+      "2.0D 143hp (105kW) 305Nm"
+    ],
+    "Clubman (2015 - 2018) - F54": [
+      "1.5 Turbo 102hp (75kW) 180Nm",
+      "1.5 Turbo 136hp (100kW) 220Nm",
+      "1.5D 116hp (85kW) 270Nm",
+      "2.0 SD 190hp (140kW) 400Nm",
+      "2.0D 150hp (110kW) 330Nm",
+      "2.0T JCW 231hp (170kW) 350Nm",
+      "2.0T S 192hp (141kW) 280Nm"
+    ],
+    "Clubman (2019 ->) - F54 LCI": [
+      "1.5D 116hp (85kW) 270Nm",
+      "1.5T 102hp (75kW) 190Nm",
+      "1.5T 136hp (100kW) 220Nm",
+      "1.5T aut 102hp (75kW) 190Nm",
+      "1.5T aut 136hp (100kW) 220Nm",
+      "2.0D 150hp (110kW) 350Nm",
+      "2.0SD 190hp (140kW) 400Nm",
+      "2.0T S 192hp (141kW) 300Nm",
+      "2.0T S JCW 306hp (225kW) 450Nm"
+    ],
+    "Cooper F56 - 2014 - 2018": [
+      "1.5 Turbo 102hp (75kW) 190Nm",
+      "1.5 Turbo 136hp (100kW) 230Nm",
+      "1.5 Turbo 75hp (55kW) 160Nm",
+      "1.5D 116hp (85kW) 270Nm"
+    ],
+    "Cooper F56 - LCI - 2018 ->": [
+      "1.5D 116hp (85kW) 270Nm",
+      "1.5T 136hp (100kW) 220Nm",
+      "1.5T aut 136hp (100kW) 220Nm"
+    ],
+    "Cooper R50 - 2002 - 2007": [
+      "1.6i 115hp (85kW) 149Nm"
+    ],
+    "Cooper R56 - 2007 - 2010": [
+      "1.6D 109hp (80kW) 240Nm",
+      "1.6i 122hp (90kW) 160Nm"
+    ],
+    "Cooper R56 - 2010 - 2014": [
+      "1.6D 112hp (82kW) 270Nm",
+      "1.6i 115hp (85kW) 160Nm",
+      "1.6i 122hp (90kW) 160Nm",
+      "2.0D 112hp (82kW) 270Nm"
+    ],
+    "Cooper S D F56 - 2014 - 2018": [
+      "2.0D 170hp (125kW) 360Nm"
+    ],
+    "Cooper S D F56 - LCI - 2018 ->": [
+      "2.0D 170hp (125kW) 360Nm"
+    ],
+    "Cooper S D R56 - 2010 - 2014": [
+      "2.0D 112hp (82kW) 305Nm",
+      "2.0D 136hp (100kW) 305Nm",
+      "2.0D 143hp (105kW) 305Nm"
+    ],
+    "Cooper S F56 - 2014 - 2018": [
+      "2.0T 163hp (120kW) 280Nm",
+      "2.0T 192hp (141kW) 280Nm",
+      "2.0T AUT 192hp (141kW) 280Nm",
+      "2.0T JCW 231hp (170kW) 320Nm",
+      "2.0T JCW 231hp (B48) (170kW) 320Nm"
+    ],
+    "Cooper S F56 - LCI - 2018 ->": [
+      "2.0T 192hp (141kW) 280Nm",
+      "2.0T AUT 192hp (141kW) 280Nm",
+      "2.0T JCW 231hp (170kW) 320Nm",
+      "2.0T JCW GP 306hp (225kW) 450Nm"
+    ],
+    "Cooper S R53 - 2002 - 2007": [
+      "1.6T 163hp (120kW) 210Nm",
+      "1.6T GP 218hp (160kW) 250Nm",
+      "1.6T JCW 210hp (154kW) 240Nm"
+    ],
+    "Cooper S R56 - 2007 - 2014": [
+      "1.6T 163hp (120kW) 240Nm",
+      "1.6T 175hp (129kW) 240Nm",
+      "1.6T 184hp (135kW) 240Nm",
+      "1.6T GP2 218hp (160kW) 280Nm",
+      "1.6T JCW 211hp (155kW) 240Nm"
+    ],
+    "Countryman F60 - 2017 - 2019": [
+      "1.5D 116hp (85kW) 270Nm",
+      "1.5T 102hp (75kW) 180Nm",
+      "1.5T 136hp (100kW) 230Nm",
+      "1.5T aut 102hp (75kW) 180Nm",
+      "1.5T aut 136hp (100kW) 230Nm",
+      "2.0D 150hp (110kW) 330Nm",
+      "2.0SD 190hp (140kW) 400Nm",
+      "2.0T S 192hp (141kW) 280Nm",
+      "2.0T S JCW 231hp (170kW) 350Nm",
+      "2.0T S JCW 306hp (225kW) 450Nm",
+      "SE Hybrid ALL4 1.5T 224hp (165kW) 358Nm"
+    ],
+    "Countryman R60 - 2010 - 2016": [
+      "1.6D 112hp (82kW) 270Nm",
+      "1.6D 90hp (66kW) 215Nm",
+      "1.6T 184hp (135kW) 240Nm",
+      "1.6T JCW 218hp (160kW) 280Nm",
+      "1.6i 115hp (85kW) 160Nm",
+      "1.6i 122hp (90kW) 160Nm",
+      "1.6i 98hp (72kW) 153Nm",
+      "2.0D 112hp (82kW) 270Nm",
+      "2.0D 143hp (105kW) 305Nm"
+    ],
+    "One F56 - 2014 - 2018": [
+      "1.2 Turbo 102hp (75kW) 180Nm",
+      "1.2 Turbo 75hp (55kW) 180Nm",
+      "1.5 Turbo 102hp (75kW) 190Nm",
+      "1.5 Turbo 136hp (100kW) 230Nm",
+      "1.5 Turbo 75hp (55kW) 160Nm",
+      "1.5D 95hp (70kW) 220Nm"
+    ],
+    "One F56 - LCI - 2018 ->": [
+      "1.2T 102hp (75kW) 180Nm",
+      "1.2T 75hp (55kW) 180Nm",
+      "1.5D 95hp (70kW) 220Nm",
+      "1.5T 102hp (75kW) 190Nm",
+      "1.5T aut 102hp (75kW) 190Nm"
+    ],
+    "One R50 - 2002 - 2007": [
+      "1.4D 75hp (55kW) 180Nm",
+      "1.4D 88hp (65kW) 190Nm",
+      "1.6i 116hp (85kW) 150Nm",
+      "1.6i 90hp (66kW) 140Nm"
+    ],
+    "One R56 - 2007 - 2010": [
+      "1.4i 75hp (55kW) 120Nm",
+      "1.4i 95hp (70kW) 140Nm",
+      "1.6D 90hp (66kW) 210Nm",
+      "1.6i 98hp (72kW) 153Nm"
+    ],
+    "One R56 - 2010 - 2014": [
+      "1.4i 75hp (55kW) 120Nm",
+      "1.5D 95hp (70kW) 220Nm",
+      "1.6D 90hp (66kW) 215Nm",
+      "1.6i 115hp (85kW) 160Nm",
+      "1.6i 122hp (90kW) 160Nm",
+      "1.6i 75hp (55kW) 140Nm",
+      "1.6i 98hp (72kW) 153Nm"
+    ],
+    "Paceman 2013 ->": [
+      "1.6D 112hp (82kW) 270Nm",
+      "1.6T 163hp (120kW) 240Nm",
+      "1.6T 184hp (135kW) 240Nm",
+      "1.6T 190hp (140kW) 240Nm",
+      "1.6i 115hp (85kW) 160Nm",
+      "1.6i 122hp (90kW) 160Nm",
+      "2.0D 112hp (82kW) 270Nm",
+      "2.0D 136hp (100kW) 305Nm",
+      "2.0D 143hp (105kW) 305Nm",
+      "JCW 218hp (160kW) 280Nm"
+    ],
+    "Roadster R58 - 2012 ->": [
+      "1.6T 163hp (120kW) 240Nm",
+      "1.6T 184hp (135kW) 260Nm",
+      "1.6T JCW 211hp (155kW) 280Nm",
+      "1.6i 115hp (85kW) 160Nm",
+      "1.6i 122hp (90kW) 160Nm",
+      "1.6i 75hp (55kW) 122Nm",
+      "1.6i 98hp (72kW) 153Nm",
+      "2.0 SD 143hp (105kW) 305Nm"
+    ]
+  },
+  "Mitsubishi": {
+    "ASX 2010 - 2016": [
+      "1.6 DID 115hp (85kW) 270Nm",
+      "1.8 DID 115hp (85kW) 300Nm",
+      "1.8 DID 150hp (110kW) 300Nm",
+      "2.2 DID 150hp (110kW) 380Nm",
+      "2.2 DID 177hp (130kW) 400Nm"
+    ],
+    "ASX 2016 - 2019": [
+      "1.6 DID 115hp (85kW) 270Nm",
+      "2.2 DID 150hp (110kW) 380Nm"
+    ],
+    "Carisma All": [
+      "1.9 D 102hp (75kW) 215Nm",
+      "1.9 D 115hp (85kW) 265Nm"
+    ],
+    "Colt All": [
+      "1.5 Di-D 95hp (70kW) 210Nm",
+      "1.5 Turbo Ralliart 150hp (110kW) 210Nm"
+    ],
+    "Eclipse Cross 2017 ->": [
+      "1.5 T-MIVEC 163hp (120kW) 250Nm",
+      "2.2 DiD 150hp (110kW) 400Nm"
+    ],
+    "Fuso 2006 -> ...": [
+      "3.0 DDi 125hp (92kW) 294Nm",
+      "3.0 DDi 130hp (96kW) 300Nm",
+      "3.0 DDi 145hp (107kW) 362Nm"
+    ],
+    "Grandis 2004 - 2011": [
+      "2.0 DiD 136hp (100kW) 310Nm"
+    ],
+    "L200 All": [
+      "2.2 DiD 150hp (110kW) 400Nm",
+      "2.3 Di-D 150hp (110kW) 400Nm",
+      "2.4 DiD 154hp (113kW) 380Nm",
+      "2.4 DiD 181hp (133kW) 430Nm",
+      "2.5 DiD 115hp (85kW) 240Nm",
+      "2.5 DiD 136hp (100kW) 315Nm",
+      "2.5 DiD 178hp (131kW) 400Nm"
+    ],
+    "Lancer All": [
+      "1.8 DiD 116hp (85kW) 300Nm",
+      "1.8 DiD 150hp (110kW) 300Nm",
+      "2.0 DiD 140hp (103kW) 310Nm"
+    ],
+    "Lancer EVO IX": [
+      "2.0 Turbo 280hp (206kW) 355Nm",
+      "2.0 Turbo 295hp (217kW) 366Nm"
+    ],
+    "Lancer EVO X": [
+      "2.0 Turbo 295hp (217kW) 366Nm"
+    ],
+    "Montero 2015 - 2019": [
+      "2.4d 181hp (133kW) 430Nm",
+      "2.5 D-ID 136hp (100kW) 324Nm"
+    ],
+    "Montero 2019 ->": [
+      "2.4d 181hp (kW) Nm"
+    ],
+    "Outlander 2007 - 2012": [
+      "1.8 DiD 150hp (110kW) 300Nm",
+      "2.0 DiD 140hp (103kW) 310Nm",
+      "2.0 Turbo 202hp (149kW) 303Nm",
+      "2.2 DiD 140hp (103kW) 380Nm",
+      "2.2 DiD 156hp (115kW) 380Nm",
+      "2.2 DiD 177hp (130kW) 380Nm"
+    ],
+    "Outlander 2013 - 2016": [
+      "2.0i 150hp (110kW) 195Nm",
+      "2.2 DiD 150hp (110kW) 380Nm"
+    ],
+    "Outlander 2017 ->": [
+      "2.2 DiD 150hp (110kW) 380Nm"
+    ],
+    "Pajero All": [
+      "2.5 DiD 115hp (85kW) 240Nm",
+      "3.0 V6 230hp (169kW) 291Nm",
+      "3.2 DiD 160hp (118kW) 373Nm",
+      "3.2 DiD 170hp (125kW) 373Nm",
+      "3.2 DiD 190hp (140kW) 441Nm",
+      "3.2 DiD 200hp (147kW) 441Nm",
+      "Sport 2.4 DI-D 181hp (133kW) 430Nm"
+    ],
+    "Spacestar All": [
+      "1.9 DiD 102hp (75kW) 215Nm",
+      "1.9 DiD 115hp (85kW) 265Nm"
+    ],
+    "Triton All": [
+      "2.4 D4-D 181hp (kW) Nm",
+      "3.2 TDCi 160hp (118kW) 373Nm"
+    ]
+  },
+  "New Holland": {
+    "CR8070 All": [
+      "8.7 Tier 4A - 408hp (kW) Nm"
+    ],
+    "CR8080 All": [
+      "10.3 Tier 4A - 449hp (kW) Nm"
+    ],
+    "CR9060 Cursor Elevation 2010 Tier 3 All": [
+      "9.0 - 299hp (kW) Nm",
+      "9.0 - 354hp (kW) Nm"
+    ],
+    "CR9070 All": [
+      "10.3 Tier 4A - 449hp (kW) Nm"
+    ],
+    "CR9070 Cursor Elevation Tier 3 All": [
+      "10.3 - 435hp (kW) Nm"
+    ],
+    "CR9070 Tier 2 12 Pin All": [
+      "10.3 - 354hp (kW) Nm"
+    ],
+    "CR9080 All": [
+      "10.3 - 431hp (kW) Nm",
+      "12.9 Tier 4A - 476hp (kW) Nm"
+    ],
+    "CR9080 Cursor Elevation Tier 3 All": [
+      "12.9 - 490hp (kW) Nm"
+    ],
+    "CR9090 Cursor Elevation Tier 3 All": [
+      "12.9 - 544hp (kW) Nm"
+    ],
+    "CX5080 All": [
+      "6.7 Tier 4A - 238hp (kW) Nm"
+    ],
+    "CX6080 All": [
+      "6.7 Tier 4A - 272hp (kW) Nm"
+    ],
+    "CX6090 All": [
+      "8.7 Tier 4A - 299hp (kW) Nm"
+    ],
+    "CX7060 Cursor All": [
+      "9.0 - 272hp (kW) Nm"
+    ],
+    "CX7080 Cursor All": [
+      "9.0 - 299hp (kW) Nm"
+    ],
+    "CX8030 All": [
+      "9.0 - 258hp (kW) Nm"
+    ],
+    "CX8050 All": [
+      "8.7 Tier 4A - 326hp (kW) Nm"
+    ],
+    "CX8060 Cursor 2010 All": [
+      "9.0 - 299hp (kW) Nm"
+    ],
+    "CX8060 Cursor 2011 All": [
+      "9.0 - 286hp (kW) Nm"
+    ],
+    "CX8070 All": [
+      "9.0 Tier 4A - 326hp (kW) Nm"
+    ],
+    "CX8070 Cursor All": [
+      "9.0 - 326hp (kW) Nm"
+    ],
+    "CX8080 All": [
+      "8.7 Tier 4A - 360hp (kW) Nm"
+    ],
+    "CX8080 Cursor All": [
+      "9.0 - 354hp (kW) Nm"
+    ],
+    "CX8090 All": [
+      "10.3 Tier 4A - 449hp (kW) Nm"
+    ],
+    "CX8090 Cursor Tier 3 All": [
+      "10.3 - 405hp (kW) Nm"
+    ],
+    "FR9040 Cursor Tier 3 All": [
+      "10.3 - 396hp (291kW) 1820Nm"
+    ],
+    "FR9050 Cursor All": [
+      "12.9 - 466hp (343kW) 2145Nm"
+    ],
+    "FR9060 Cursor All": [
+      "12.9 - 578hp (425kW) 2470Nm"
+    ],
+    "FR9080 All": [
+      "18.0 - 639hp (kW) Nm",
+      "18.0 CAT C18 Acert - 685hp (504kW) 2939Nm"
+    ],
+    "FX30 All": [
+      "10.5 - 360hp (kW) Nm"
+    ],
+    "FX40 Tier 2 12 Pin All": [
+      "12.9 - 428hp (kW) Nm"
+    ],
+    "FX50 Tier 2 All": [
+      "12.9 - 481hp (kW) Nm"
+    ],
+    "FX60 All": [
+      "14.6 CAT C15 - 533hp (kW) Nm"
+    ],
+    "T5 All": [
+      "3.4 - 100hp (kW) Nm",
+      "3.4 - 108hp (79kW) 444Nm"
+    ],
+    "T6.120 All": [
+      "4.5 Tier 4A - 110hp (81kW) 590Nm"
+    ],
+    "T6.140 All": [
+      "4.5 Tier 4A - 110hp (81kW) 590Nm"
+    ],
+    "T6.150 All": [
+      "4.5 Tier 4A - 121hp (89kW) 634Nm"
+    ],
+    "T6.155 All": [
+      "6.7 Tier 4A - 116hp (85kW) 632Nm"
+    ],
+    "T6.160 All": [
+      "4.5 Tier 4A - 131hp (96kW) 676Nm"
+    ],
+    "T6.165 All": [
+      "6.7 Tier 4A - 125hp (92kW) 682Nm"
+    ],
+    "T6.175 All": [
+      "6.7 Tier 4A - 140hp (103kW) 726Nm"
+    ],
+    "T6010 All": [
+      "101 - 101hp (74kW) 400Nm"
+    ],
+    "T6020 Elite All": [
+      "4.5 - 112hp (82kW) 520Nm"
+    ],
+    "T6030 Elite All": [
+      "6.7 - 117hp (86kW) 543Nm"
+    ],
+    "T6040 Elite All": [
+      "4.5 - 121hp (89kW) 563Nm"
+    ],
+    "T6050 Elite All": [
+      "6.7 - 126hp (93kW) 593Nm"
+    ],
+    "T6060 Elite All": [
+      "4.5 - 132hp (kW) Nm"
+    ],
+    "T6070 Elite All": [
+      "6.7 - 141hp (104kW) 613Nm"
+    ],
+    "T6080 Elite All": [
+      "6.7 - 155hp (114kW) 690Nm"
+    ],
+    "T7.170 All": [
+      "6.7 Tier 4A - 125hp (92kW) 612Nm"
+    ],
+    "T7.185 All": [
+      "6.7 Tier 4A - 140hp (kW) Nm"
+    ],
+    "T7.200 All": [
+      "6.7 Tier 4A - 155hp (114kW) 740Nm"
+    ],
+    "T7.210 All": [
+      "6.7 Tier 4A - 165hp (121kW) 766Nm"
+    ],
+    "T7.220 All": [
+      "6.7 Tier 4A - 167hp (123kW) 825Nm"
+    ],
+    "T7.235 All": [
+      "6.7 Tier 4A - 185hp (136kW) 862Nm"
+    ],
+    "T7.250 All": [
+      "6.7 Tier 4A - 200hp (147kW) 927Nm"
+    ],
+    "T7.260 All": [
+      "6.7 Tier 4A - 215hp (158kW) 995Nm"
+    ],
+    "T7.270 All": [
+      "6.7 Tier 4A - 228hp (168kW) 1089Nm"
+    ],
+    "T7030 All": [
+      "6.7 - 167hp (123kW) 774Nm"
+    ],
+    "T7040 All": [
+      "6.7 - 182hp (134kW) 844Nm"
+    ],
+    "T7050 All": [
+      "6.7 - 197hp (kW) Nm"
+    ],
+    "T7060 All": [
+      "6.7 - 214hp (157kW) 866Nm"
+    ],
+    "T7070 All": [
+      "6.7 - 227hp (167kW) 1025Nm"
+    ],
+    "T7510 All": [
+      "6.6 - 141hp (104kW) 570Nm"
+    ],
+    "T7520 All": [
+      "6.6 - 151hp (111kW) 610Nm"
+    ],
+    "T7530 All": [
+      "6.6 - 160hp (kW) Nm"
+    ],
+    "T7540 All": [
+      "6.6 - 175hp (129kW) 725Nm"
+    ],
+    "T7550 All": [
+      "6.6 - 196hp (144kW) 792Nm"
+    ],
+    "T8.275 All": [
+      "8.7 Tier 4A - 194hp (kW) Nm"
+    ],
+    "T8.300 All": [
+      "8.7 Tier 4A - 257hp (189kW) 1267Nm"
+    ],
+    "T8.330 All": [
+      "8.7 Tier 4A - 284hp (209kW) 1397Nm"
+    ],
+    "T8.360 All": [
+      "8.7 Tier 4A - 311hp (229kW) 1531Nm"
+    ],
+    "T8.390 All": [
+      "8.7 Tier 4A - 340hp (250kW) 1671Nm"
+    ],
+    "T8010 All": [
+      "8.3 - 222hp (163kW) 1022Nm"
+    ],
+    "T8030 All": [
+      "8.3 - 273hp (201kW) 1285Nm"
+    ],
+    "T8040 All": [
+      "303 - 303hp (223kW) 1300Nm",
+      "8.3 - 303hp (223kW) 1367Nm"
+    ],
+    "T8050 All": [
+      "9.0 - 325hp (239kW) 1450Nm"
+    ],
+    "T9.390 All": [
+      "8.7 Tier 4A - 355hp (261kW) 1745Nm"
+    ],
+    "T9.450 All": [
+      "12.7 Tier 4A - 405hp (298kW) 1899Nm"
+    ],
+    "T9.505 All": [
+      "12.7 Tier 4A - 457hp (336kW) 2136Nm"
+    ],
+    "T9.560 All": [
+      "12.7 Tier 4A - 507hp (373kW) 2374Nm"
+    ],
+    "T9.615 All": [
+      "12.7 Tier 4A - 543hp (399kW) 2540Nm"
+    ],
+    "T9.670 All": [
+      "12.7 Tier 4A - 608hp (447kW) 2848Nm"
+    ],
+    "T9020 All": [
+      "9.0 - 339hp (249kW) 1625Nm"
+    ],
+    "T9030 All": [
+      "12.9 - 390hp (287kW) 1939Nm"
+    ],
+    "T9040 All": [
+      "12.9 - 441hp (324kW) 2188Nm"
+    ],
+    "T9050 All": [
+      "12.9 - 492hp (362kW) 2442Nm",
+      "15.0 Cummins QSX - 431hp (317kW) 2417Nm"
+    ],
+    "T9060 All": [
+      "15.0 - 543hp (399kW) 2563Nm"
+    ],
+    "TC5070 All": [
+      "6.7 Tier 4A - 211hp (kW) Nm"
+    ],
+    "TG 255 All": [
+      "8.3 Caps Pump - 257hp (189kW) 1220Nm"
+    ],
+    "TG 285 All": [
+      "8.3 Caps Pump - 283hp (208kW) 1396Nm"
+    ],
+    "TJ275 All": [
+      "8.3 Caps Pump - 282hp (207kW) 1386Nm"
+    ],
+    "TJ325 All": [
+      "9.0 Caps Pump - 329hp (242kW) 1560Nm"
+    ],
+    "TJ330 All": [
+      "9.0 - 335hp (kW) Nm"
+    ],
+    "TJ375 All": [
+      "14.9 - 381hp (280kW) 1871Nm"
+    ],
+    "TJ380 All": [
+      "12.9 Tier 3 - 385hp (kW) Nm"
+    ],
+    "TJ425 All": [
+      "14.9 - 430hp (kW) Nm"
+    ],
+    "TJ430 Tier 3 All": [
+      "12.9 - 435hp (kW) Nm"
+    ],
+    "TJ480 All": [
+      "14.9 - 487hp (kW) Nm"
+    ],
+    "TJ500 All": [
+      "14.9 - 507hp (373kW) 2363Nm"
+    ],
+    "TJ530 All": [
+      "14.9 - 537hp (kW) Nm"
+    ],
+    "TM 175 All": [
+      "7.5 - 177hp (130kW) 790Nm"
+    ],
+    "TM 190 All": [
+      "7.5 - 193hp (142kW) 864Nm"
+    ],
+    "TS 110 A All": [
+      "4.5 - 116hp (85kW) 520Nm"
+    ],
+    "TS 125 A All": [
+      "6.7 - 125hp (92kW) 566Nm"
+    ],
+    "TS 135 A All": [
+      "6.7 - 136hp (100kW) 612Nm"
+    ],
+    "TVT 135 All": [
+      "6.6 - 137hp (101kW) 570Nm"
+    ],
+    "TVT 145 All": [
+      "6.6 - 147hp (108kW) 610Nm"
+    ],
+    "TVT 155 All": [
+      "6.6 - 156hp (115kW) 660Nm"
+    ],
+    "TVT 170 All": [
+      "6.6 - 171hp (126kW) 725Nm"
+    ],
+    "TVT 190 All": [
+      "6.6 - 192hp (141kW) 790Nm"
+    ],
+    "TVT 195 All": [
+      "6.6 - 196hp (144kW) 792Nm"
+    ],
+    "Tj450 All": [
+      "14.9 - 456hp (335kW) 2263Nm"
+    ]
+  },
+  "Nissan": {
+    "350Z All": [
+      "3.5 V6 - 280hp (206kW) 350Nm",
+      "3.5 V6 - 300hp (221kW) 350Nm",
+      "3.5 V6 - 313hp (230kW) 358Nm"
+    ],
+    "370Z All": [
+      "3.7 V6 328hp (241kW) 363Nm",
+      "3.7 V6 331hp (243kW) 366Nm",
+      "3.7 V6 Nismo 344hp (253kW) 371Nm"
+    ],
+    "Almera All": [
+      "1.5 DCi 82hp (60kW) 185Nm",
+      "2.2 DCi 110hp (81kW) 230Nm",
+      "2.2 DCi 112hp (82kW) 248Nm",
+      "2.2 DCi 136hp (100kW) 304Nm",
+      "2.2TD 126hp (93kW) 280Nm"
+    ],
+    "Altima All": [
+      "3.5 V6 270hp (199kW) 340Nm"
+    ],
+    "Armada All": [
+      "5.6 V8 317hp (233kW) 385Nm",
+      "5.6 V8 390hp (287kW) 545Nm"
+    ],
+    "Cabstar All": [
+      "2.5 DCi 100hp (74kW) 260Nm",
+      "2.5 DCi 120hp (88kW) 300Nm",
+      "2.5 DCi 130hp (96kW) 270Nm",
+      "3.0 DCi 130hp (96kW) 300Nm",
+      "3.0 DCi 150hp (110kW) 350Nm",
+      "3.0 TD 110hp (81kW) 276Nm"
+    ],
+    "Cube All": [
+      "1.5 dci 85hp (62kW) 200Nm"
+    ],
+    "Evalia 2014 ->": [
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.5 DCi 90hp (66kW) 200Nm"
+    ],
+    "Frontier All": [
+      "4.0 V6 261hp (192kW) 381Nm"
+    ],
+    "Fuga All": [
+      "2.5 V6 223hp (164kW) 263Nm",
+      "3.5 V6 283hp (208kW) 358Nm"
+    ],
+    "GT-R 2009 ->": [
+      "3.8 V6 Turbo 485hp (357kW) 588Nm",
+      "3.8 V6 Turbo 530hp (390kW) 612Nm",
+      "3.8 V6 Turbo 550hp (404kW) 630Nm",
+      "3.8 V6 Turbo 570hp (419kW) 637Nm"
+    ],
+    "Interstar All": [
+      "2.5 DCI 100hp (74kW) 260Nm",
+      "2.5 DCI 120hp (88kW) 300Nm",
+      "2.5 DCI 145hp (107kW) 320Nm"
+    ],
+    "Juke 2010 ->": [
+      "1.2 DIG-T 115hp (85kW) 190Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.6 DIG-T 190hp (140kW) 240Nm",
+      "1.6 Turbo 200hp (147kW) 250Nm",
+      "1.6 Turbo Nismo RS 218hp (160kW) 280Nm",
+      "1.6i 117hp (86kW) 158Nm"
+    ],
+    "Kubistar All": [
+      "1.5 DCi 105hp (77kW) 240Nm",
+      "1.5 DCi 60hp (44kW) 170Nm",
+      "1.5 DCi 86hp (63kW) 200Nm"
+    ],
+    "Micra 2013 - 2016": [
+      "1.5 DCi 65hp (48kW) 160Nm",
+      "1.5 DCi 82hp (60kW) 185Nm",
+      "1.5 DCi 86hp (63kW) 200Nm"
+    ],
+    "Micra 2016 - 2020": [
+      "0.9 TCE 90hp (66kW) 140Nm",
+      "1.5 DCi 90hp (66kW) 220Nm"
+    ],
+    "Murano 2010 ->": [
+      "2.5 DCi 190hp (140kW) 450Nm",
+      "3.5 V6 260hp (191kW) 325Nm"
+    ],
+    "NP300 2005 - 2015": [
+      "2.5 DCi 129hp (95kW) 300Nm"
+    ],
+    "NP300 2016 - 2019": [
+      "2.3 DCi Bi-Turbo (Euro 5) 160hp (118kW) 403Nm",
+      "2.3 DCi Bi-Turbo (Euro 5) 190hp (140kW) 450Nm",
+      "2.3 DCi Bi-Turbo (Euro 6) 160hp (118kW) 403Nm",
+      "2.3 DCi Bi-Turbo (Euro 6) 190hp (140kW) 450Nm"
+    ],
+    "NP300 2019 ->": [
+      "2.3 dCi 163hp (120kW) 425Nm",
+      "2.3 dCi 190hp (140kW) 450Nm"
+    ],
+    "NV200 2009 ->": [
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.5 DCi 90hp (66kW) 200Nm"
+    ],
+    "NV300 2016 - 2019": [
+      "1.6 DCi (Euro 6) 120hp (88kW) 300Nm",
+      "1.6 DCi (Euro 6) 95hp (70kW) 260Nm",
+      "1.6 DCi Bi-Turbo (Euro 6) 125hp (92kW) 320Nm",
+      "1.6 DCi Bi-Turbo (Euro 6) 145hp (107kW) 340Nm"
+    ],
+    "NV400 2010 - 2016": [
+      "2.3 DCi 100hp (74kW) 285Nm",
+      "2.3 DCi 125hp (92kW) 310Nm",
+      "2.3 DCi 150hp (110kW) 350Nm"
+    ],
+    "NV400 2016 - 2019": [
+      "2.3 DCi (Euro 6) 110hp (81kW) 285Nm",
+      "2.3 DCi (Euro 6) 130hp (96kW) 340Nm",
+      "2.3 DCi Bi-Turbo (Euro 6) 145hp (107kW) 360Nm",
+      "2.3 DCi Bi-Turbo (Euro 6) 165hp (121kW) 380Nm",
+      "2.3 DCi Bi-Turbo (Euro 6) 170hp (125kW) 380Nm"
+    ],
+    "NV400 2020 ->": [
+      "2.3 DCi 135hp (kW) Nm",
+      "2.3 DCi 150hp (kW) Nm",
+      "2.3 DCi 180hp (kW) Nm"
+    ],
+    "Navara 2019 ->": [
+      "2.3 DCi Bi-turbo (Euro 6) 163hp (120kW) 425Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 190hp (140kW) 450Nm"
+    ],
+    "Navara D23 - 2016 - 2019": [
+      "2.3 DCi Bi-turbo (Euro 5) 160hp (118kW) 403Nm",
+      "2.3 DCi Bi-turbo (Euro 5) 190hp (140kW) 450Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 160hp (118kW) 403Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 190hp (140kW) 450Nm"
+    ],
+    "Navara D40 - 2005 - 2015": [
+      "2.5 DCi 174hp (128kW) 403Nm",
+      "2.5 DCi 190hp (140kW) 450Nm",
+      "2.5 Di 133hp (98kW) 304Nm",
+      "3.0 DCi 231hp (170kW) 550Nm",
+      "4.0 V6 269hp (198kW) 390Nm"
+    ],
+    "Note 2006 - 2009": [
+      "1.5 DCi 106hp (78kW) 240Nm",
+      "1.5 DCi 68hp (50kW) 160Nm",
+      "1.5 DCi 86hp (63kW) 200Nm",
+      "1.6i 110hp (81kW) 153Nm"
+    ],
+    "Note 2009 - 2013": [
+      "1.5 DCi 106hp (78kW) 240Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6i 110hp (81kW) 153Nm"
+    ],
+    "Note 2013 ->": [
+      "1.2 DIG 98hp (72kW) 147Nm",
+      "1.5 DCi 90hp (66kW) 200Nm"
+    ],
+    "Pathfinder 2005 ->": [
+      "2.5 DCi 163hp (120kW) 403Nm",
+      "2.5 DCi 174hp (128kW) 403Nm",
+      "2.5 DCi 190hp (140kW) 450Nm",
+      "3.0 DCi 231hp (170kW) 550Nm",
+      "4.0i V6 266hp (196kW) 385Nm",
+      "5.6i V8 310hp (228kW) 526Nm"
+    ],
+    "Patrol 1998 - 2009": [
+      "3.0 DI 158hp (116kW) 323Nm",
+      "3.0 DI 160hp (118kW) 380Nm"
+    ],
+    "Patrol 2014 ->": [
+      "5.6i V8 320hp (235kW) 527Nm",
+      "5.6i V8 405hp (298kW) 560Nm",
+      "5.6i V8 Nismo 428hp (315kW) 560Nm",
+      "VQ40 4.0 V6 275hp (202kW) 394Nm"
+    ],
+    "Primastar 2002 - 2006": [
+      "1.9 DCi 100hp (74kW) 240Nm",
+      "1.9 DCi 82hp (60kW) 190Nm",
+      "2.0 DCi 115hp (85kW) 290Nm",
+      "2.0 DCi 90hp (66kW) 240Nm",
+      "2.5 DCi 115hp (85kW) 290Nm",
+      "2.5 DCi 145hp (107kW) 320Nm"
+    ],
+    "Primastar 2007 ->": [
+      "2.0 DCi 114hp (84kW) 300Nm",
+      "2.0 DCi 90hp (66kW) 260Nm",
+      "2.5 DCi 146hp (107kW) 320Nm"
+    ],
+    "Primera 2002 - 2008": [
+      "1.9 DCi 115hp (85kW) 250Nm",
+      "1.9 DCi 120hp (88kW) 270Nm",
+      "2.2 DCi 126hp (93kW) 280Nm",
+      "2.2 DCi 138hp (101kW) 314Nm"
+    ],
+    "Pulsar 2014 ->": [
+      "1.2 DIG-T 115hp (85kW) 190Nm",
+      "1.2 DIG-T CVT 115hp (85kW) 165Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.6 DIG-T 190hp (140kW) 240Nm"
+    ],
+    "Qashqai 2007 - 2013": [
+      "1.5 DCi 106hp (78kW) 240Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6i 115hp (85kW) 156Nm",
+      "2.0 DCi 150hp (110kW) 320Nm"
+    ],
+    "Qashqai 2014 - 2016": [
+      "1.2 DIG-T 115hp (85kW) 190Nm",
+      "1.2 DIG-T CVT 115hp (85kW) 165Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DIG-T 163hp (120kW) 240Nm"
+    ],
+    "Qashqai 2017 - 2019": [
+      "1.2 DIG-T 115hp (85kW) 190Nm",
+      "1.2 DIG-T CVT 115hp (85kW) 165Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DIG-T 163hp (120kW) 240Nm"
+    ],
+    "Qashqai 2019 - 2020": [
+      "1.3 DIG-T 140hp (kW) Nm",
+      "1.3 DIG-T 160hp (kW) Nm",
+      "1.5 DCi 115hp (85kW) 285Nm",
+      "1.7 DCi 150hp (110kW) 340Nm"
+    ],
+    "Qashqai 2021 -> ...": [
+      "1.3 DIG-T MHEV 140hp (kW) Nm",
+      "1.3 DIG-T MHEV 160hp (kW) Nm"
+    ],
+    "Quest All": [
+      "3.5 V6 233hp (171kW) 318Nm"
+    ],
+    "Terrano 2 All": [
+      "2.7 TD 125hp (92kW) 280Nm"
+    ],
+    "X-Trail -> 2014": [
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "2.0 DCi 150hp (110kW) 320Nm",
+      "2.0 DCi 173hp (127kW) 360Nm",
+      "2.2 DCi 136hp (100kW) 314Nm"
+    ],
+    "X-Trail 2014 - 2017": [
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DIG-T 163hp (120kW) 240Nm",
+      "2.0 DCi 177hp (130kW) 380Nm"
+    ],
+    "X-Trail 2018 ->": [
+      "1.3 DIG-T 160hp (kW) Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DIG-T 163hp (120kW) 240Nm",
+      "1.7 dCi 150hp (110kW) 340Nm",
+      "2.0 DCi 177hp (130kW) 380Nm"
+    ],
+    "Z 2021 -> ...": [
+      "3.0 Twin Turbo V6 405hp (kW) Nm"
+    ]
+  },
+  "Oldsmobile": {
+    "Alero 1998 - 2004": [
+      "2.2i 140hp (103kW) 203Nm",
+      "2.4i 150hp (110kW) 210Nm",
+      "3.4 V6 170hp (125kW) 271Nm"
+    ],
+    "Bravada 1996 - 2001": [
+      "4.3 V6 203hp (149kW) 353Nm"
+    ],
+    "Bravada 2002 - 2004": [
+      "4.2i 270hp (199kW) 373Nm"
+    ],
+    "Silhouette 1997 - 2004": [
+      "3.4 V6 185hp (136kW) 280Nm"
+    ]
+  },
+  "Opel": {
+    "Adam 2013 ->": [
+      "1.0T 115hp (85kW) 166Nm",
+      "1.0T 90hp (66kW) 166Nm",
+      "1.2i 16v 68hp (50kW) 115Nm",
+      "1.4i 16v 100hp (74kW) 130Nm",
+      "1.4i 16v 87hp (64kW) 130Nm",
+      "S 1.4 Turbo 150hp (110kW) 220Nm"
+    ],
+    "Agila 2003 - 2008": [
+      "1.0i 12v 58hp (43kW) 85Nm",
+      "1.2i 16v 80hp (59kW) 110Nm",
+      "1.3 CDTi 70hp (51kW) 170Nm"
+    ],
+    "Agila 2008 ->": [
+      "1.2i 16v 86hp (63kW) 114Nm",
+      "1.2i 16v 94hp (69kW) 118Nm",
+      "1.3 CDTi 70hp (51kW) 170Nm"
+    ],
+    "Antara 2007 - 2011": [
+      "2.0 CDTi 126hp (93kW) 295Nm",
+      "2.0 CDTi 150hp (110kW) 320Nm",
+      "2.4i 16v 140hp (103kW) 220Nm",
+      "3.2i V6 227hp (167kW) 297Nm"
+    ],
+    "Antara 2011 - 2013": [
+      "2.0 CDTi 170hp (125kW) 400Nm",
+      "2.2 CDTi 163hp (120kW) 350Nm",
+      "2.2 CDTi 184hp (135kW) 400Nm"
+    ],
+    "Astra (G) - 1998 - 2004": [
+      "1.2i 16v 65hp (48kW) 110Nm",
+      "1.6i 16v 100hp (74kW) 150Nm",
+      "1.7 CDTi 80hp (59kW) 170Nm",
+      "1.7 DTI 16v 75hp (55kW) 165Nm",
+      "1.8i 16v 115hp (85kW) 170Nm",
+      "1.8i 16v 125hp (92kW) 170Nm",
+      "2.0 DI 82hp (60kW) 185Nm",
+      "2.0 DTI 100hp (74kW) 230Nm",
+      "2.0T OPC 200hp (147kW) 250Nm",
+      "2.0i 16v 136hp (100kW) 188Nm",
+      "2.0i 16v OPC 160hp (118kW) 188Nm",
+      "2.2 DTI 125hp (92kW) 280Nm",
+      "2.2i 16v 147hp (108kW) 203Nm"
+    ],
+    "Astra (H) - 2004 - 2009": [
+      "1.3 CDTi 90hp (66kW) 200Nm",
+      "1.4i 90hp (66kW) 125Nm",
+      "1.6 Turbo 180hp (132kW) 230Nm",
+      "1.6i 16v 105hp (77kW) 150Nm",
+      "1.6i 16v 115hp (85kW) 155Nm",
+      "1.7 CDTi 100hp (74kW) 240Nm",
+      "1.7 CDTi 110hp (81kW) 260Nm",
+      "1.7 CDTi 125hp (92kW) 280Nm",
+      "1.7 CDTi 80hp (59kW) 170Nm",
+      "1.8i 16v 140hp (103kW) 175Nm",
+      "1.9 CDTi 100hp (74kW) 260Nm",
+      "1.9 CDTi 120hp (88kW) 280Nm",
+      "1.9 CDTi 150hp (110kW) 320Nm",
+      "2.0 Turbo 170hp (125kW) 250Nm",
+      "2.0 Turbo 200hp (147kW) 262Nm",
+      "2.0 Turbo OPC 240hp (176kW) 320Nm"
+    ],
+    "Astra (J) - 2009 - 2015": [
+      "1.3 CDTi 95hp (70kW) 190Nm",
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.4i 100hp (74kW) 130Nm",
+      "1.4i 87hp (64kW) 130Nm",
+      "1.6 CDTi 110hp (81kW) 300Nm",
+      "1.6 CDTi 136hp (100kW) 320Nm",
+      "1.6 Turbo 170hp (125kW) 260Nm",
+      "1.6 Turbo 180hp (132kW) 230Nm",
+      "1.6 Turbo 200hp (147kW) 280Nm",
+      "1.6i 16v 115hp (85kW) 155Nm",
+      "1.7 CDTi 110hp (81kW) 260Nm",
+      "1.7 CDTi 125hp (92kW) 280Nm",
+      "1.7 CDTi 130hp (96kW) 300Nm",
+      "2.0 CDTi 160hp (118kW) 350Nm",
+      "2.0 CDTi 165hp (121kW) 350Nm",
+      "2.0 CDTi Bi-Turbo 195hp (143kW) 400Nm",
+      "2.0 Turbo OPC 280hp (206kW) 400Nm"
+    ],
+    "Astra (K) - 2015 - 2018": [
+      "1.0 Turbo 105hp (77kW) 170Nm",
+      "1.4 Turbo 125hp (92kW) 245Nm",
+      "1.4 Turbo 150hp (110kW) 245Nm",
+      "1.6 CDTI 95hp (70kW) 280Nm",
+      "1.6 CDTi 110hp (81kW) 300Nm",
+      "1.6 CDTi 136hp (100kW) 320Nm",
+      "1.6 CDTi Bi-Turbo 160hp (118kW) 350Nm",
+      "1.6 Turbo 200hp (147kW) 300Nm"
+    ],
+    "Astra 2019 ->": [
+      "1.2T 110hp (kW) Nm",
+      "1.2T 130hp (kW) Nm",
+      "1.2T 145hp (kW) Nm",
+      "1.4T 145hp (kW) Nm",
+      "1.5 CDTi 105hp (kW) Nm",
+      "1.5 CDTi 122hp (kW) Nm"
+    ],
+    "Cascada 2013 ->": [
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 Turbo 170hp (125kW) 260Nm",
+      "1.6 Turbo 200hp (147kW) 280Nm",
+      "2.0 CDTi 165hp (121kW) 350Nm",
+      "2.0 CDTi Bi-Turbo 195hp (143kW) 400Nm"
+    ],
+    "Combo (C) - 2001 - 2011": [
+      "1.3 CDTi 70hp (51kW) 170Nm",
+      "1.3 CDTi 75hp (55kW) 175Nm",
+      "1.7 CDTi 100hp (74kW) 240Nm",
+      "1.7 DI 65hp (48kW) 130Nm",
+      "1.7 DTI 75hp (55kW) 165Nm"
+    ],
+    "Combo (D) - 2012 - 2018": [
+      "1.3 CDTi 90hp (66kW) 200Nm",
+      "1.4 Turbo 120hp (88kW) 206Nm",
+      "1.6 CDTi 105hp (77kW) 290Nm",
+      "1.6 CDTi 90hp (66kW) 290Nm",
+      "2.0 CDTi 135hp (99kW) 320Nm"
+    ],
+    "Combo (E) - 2019 ->": [
+      "1.2T Puretech 110hp (81kW) 205Nm",
+      "1.2T Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 102hp (75kW) 250Nm",
+      "1.5 BlueHDI 131hp (96kW) 300Nm",
+      "1.5 BlueHDI 75hp (55kW) 230Nm"
+    ],
+    "Corsa (C) - 2000 - 2006": [
+      "1.0i 12v 60hp (44kW) 88Nm",
+      "1.2i 16v 75hp (55kW) 110Nm",
+      "1.2i 16v 80hp (59kW) 110Nm",
+      "1.3 CDTi 70hp (51kW) 170Nm",
+      "1.4i 16v 90hp (66kW) 125Nm",
+      "1.7 CDTi 100hp (74kW) 240Nm",
+      "1.7 DTI 65hp (48kW) 130Nm",
+      "1.7 DTI 75hp (55kW) 165Nm"
+    ],
+    "Corsa (D) - 2006 - 2015": [
+      "1.0i 12v 60hp (44kW) 88Nm",
+      "1.2i 16v 80hp (59kW) 110Nm",
+      "1.2i 16v 85hp (62kW) 115Nm",
+      "1.3 CDTI 90hp (66kW) 200Nm",
+      "1.3 CDTi 75hp (55kW) 170Nm",
+      "1.3 CDTi 95hp (70kW) 190Nm",
+      "1.3 CDTi 95hp (>2012) (70kW) 190Nm",
+      "1.4 Turbo 120hp (88kW) 175Nm",
+      "1.4i 16v 100hp (74kW) 130Nm",
+      "1.4i 16v 90hp (66kW) 125Nm",
+      "1.6 Turbo 150hp (110kW) 210Nm",
+      "1.6 turbo 180hp (132kW) 230Nm",
+      "1.7 CDTi 125hp (92kW) 280Nm",
+      "1.7 CDTi 130hp (96kW) 300Nm",
+      "OPC - 1.6 Turbo - Nurburgring 210hp (154kW) 250Nm",
+      "OPC - 1.6 Turbo 192hp (141kW) 230Nm"
+    ],
+    "Corsa (E) - 2015 - 2019": [
+      "1.0 Turbo 115hp (85kW) 170Nm",
+      "1.0 Turbo 90hp (66kW) 170Nm",
+      "1.2i 70hp (51kW) 115Nm",
+      "1.3 CDTi 75hp (55kW) 190Nm",
+      "1.3 CDTi 95hp (70kW) 190Nm",
+      "1.4 Turbo 100hp (74kW) 200Nm",
+      "1.4 Turbo 120hp (88kW) 230Nm",
+      "1.4 Turbo 150hp (110kW) 220Nm",
+      "1.4i 16v 90hp (66kW) 130Nm",
+      "1.6 T OPC 207hp (152kW) 245Nm"
+    ],
+    "Corsa (F) - 2019 ->": [
+      "1.2T 100hp (74kW) 205Nm",
+      "1.2T 130hp (96kW) 230Nm",
+      "1.5 CDTi 100hp (74kW) 250Nm"
+    ],
+    "Crossland X 2017 - 2020": [
+      "1.2 Turbo 110hp (81kW) 205Nm",
+      "1.2 Turbo 130hp (96kW) 230Nm",
+      "1.5 CDTi 102hp (75kW) 250Nm",
+      "1.5 CDTi 120hp (88kW) 300Nm",
+      "1.6 CDTi 100hp (74kW) 254Nm",
+      "1.6 CDTi 120hp (88kW) 300Nm"
+    ],
+    "Frontera All": [
+      "2.2 DTI 115hp (85kW) 260Nm"
+    ],
+    "GT 2007 - 2009": [
+      "2.0 Turbo 264hp (194kW) 350Nm"
+    ],
+    "Grandland X 2017 ->": [
+      "1.2 Turbo 130hp (96kW) 230Nm",
+      "1.5 CDTi 130hp (96kW) 300Nm",
+      "1.6 CDTi 120hp (88kW) 300Nm",
+      "1.6 Turbo 180hp (132kW) 250Nm",
+      "1.6 Turbo Hybrid 224hp (kW) Nm",
+      "1.6 Turbo Hybrid4 290hp (kW) Nm",
+      "2.0 CDTi 177hp (130kW) 400Nm"
+    ],
+    "Insignia 2008 - 2013": [
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 Turbo 180hp (132kW) 230Nm",
+      "1.6i 115hp (85kW) 155Nm",
+      "1.8i 140hp (103kW) 175Nm",
+      "2.0 CDTi 110hp (81kW) 260Nm",
+      "2.0 CDTi 130hp (96kW) 300Nm",
+      "2.0 CDTi 160hp (118kW) 350Nm",
+      "2.0 CDTi Bi-Turbo 195hp (143kW) 400Nm",
+      "2.0 Turbo 220hp (162kW) 350Nm",
+      "2.0 Turbo 250hp (184kW) 400Nm",
+      "2.8 OPC V6 Turbo 325hp (239kW) 435Nm",
+      "2.8 V6 Turbo 260hp (191kW) 350Nm"
+    ],
+    "Insignia 2013 - 2015": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 Turbo 170hp (125kW) 260Nm",
+      "2.0 CDTi 110hp (81kW) 260Nm",
+      "2.0 CDTi 120hp (88kW) 300Nm",
+      "2.0 CDTi 130hp (96kW) 300Nm",
+      "2.0 CDTi 140hp (103kW) 350Nm",
+      "2.0 CDTi 163hp (120kW) 350Nm",
+      "2.0 CDTi 170hp (125kW) 400Nm",
+      "2.0 CDTi Bi-Turbo 195hp (143kW) 400Nm",
+      "2.0 Turbo 250hp (184kW) 400Nm",
+      "2.8 V6 Turbo 250hp (184kW) 400Nm"
+    ],
+    "Insignia 2015 - 2017": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.4 Turbo 170hp (125kW) 260Nm",
+      "1.6 CDTI 160hp (118kW) 350Nm",
+      "1.6 CDTi 120hp (88kW) 320Nm",
+      "1.6 CDTi 136hp (100kW) 320Nm",
+      "1.6 Turbo 170hp (125kW) 260Nm",
+      "2.0 CDTi 170hp (125kW) 400Nm",
+      "2.0 Turbo 250hp (184kW) 400Nm",
+      "2.8 Bi-Turbo OPC 325hp (239kW) 435Nm"
+    ],
+    "Insignia 2017 - 2019": [
+      "1.5 Turbo 140hp (103kW) 250Nm",
+      "1.5 Turbo 165hp (121kW) 250Nm",
+      "1.6 CDTI 110hp (81kW) 300Nm",
+      "1.6 CDTI 136hp (100kW) 320Nm",
+      "1.6 Turbo 200hp (147kW) 300Nm",
+      "2.0 CDTI 170hp (125kW) 400Nm",
+      "GSi 2.0 CDTI Bi-Turbo 210hp (154kW) 480Nm",
+      "GSi 2.0 Turbo 260hp (191kW) 400Nm"
+    ],
+    "Insignia 2020 ->": [
+      "1.4T 145hp (kW) Nm",
+      "1.5d 122hp (kW) Nm",
+      "2.0T 170hp (kW) Nm",
+      "2.0T 200hp (kW) Nm",
+      "2.0d 174hp (kW) Nm",
+      "GSI 2.0T 260hp (191kW) 400Nm"
+    ],
+    "Meriva (A) - 2003 - 2010": [
+      "1.3 CDTi 70hp (51kW) 170Nm",
+      "1.3 CDTi 75hp (55kW) 170Nm",
+      "1.4i 16v 90hp (66kW) 125Nm",
+      "1.6i 16v 100hp (74kW) 150Nm",
+      "1.6i 16v 105hp (77kW) 150Nm",
+      "1.6i 8v 87hp (64kW) 138Nm",
+      "1.7 CDTi 100hp (74kW) 240Nm",
+      "1.7 DTI 75hp (55kW) 165Nm",
+      "1.8i 16v 125hp (92kW) 165Nm",
+      "OPC - 1.6 Turbo 180hp (132kW) 230Nm"
+    ],
+    "Meriva (B) - 2010 - 2013": [
+      "1.3 CDTi 75hp (55kW) 170Nm",
+      "1.3 CDTi 95hp (70kW) 180Nm",
+      "1.4 Turbo 120hp (88kW) 175Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.4i 16v 100hp (74kW) 130Nm",
+      "1.7 CDTi 100hp (74kW) 260Nm",
+      "1.7 CDTi 110hp (81kW) 280Nm",
+      "1.7 CDTi 130hp (96kW) 300Nm"
+    ],
+    "Meriva (B) - 2014 ->": [
+      "1.3 CDTi 95hp (70kW) 180Nm",
+      "1.4 Turbo 120hp (88kW) 175Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.4i 16v 100hp (74kW) 130Nm",
+      "1.6 CDTi 110hp (81kW) 300Nm",
+      "1.6 CDTi 136hp (100kW) 320Nm",
+      "1.7 CDTi 110hp (81kW) 280Nm"
+    ],
+    "Mokka 2012 - 2016": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 CDTI 136hp (100kW) 320Nm",
+      "1.6 DCTI 110hp (81kW) 300Nm",
+      "1.6i 115hp (85kW) 155Nm",
+      "1.7 CDTi 130hp (96kW) 300Nm"
+    ],
+    "Mokka 2016 - 2019": [
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.4 Turbo 152hp (112kW) 235Nm",
+      "1.6 CDTI 110hp (81kW) 300Nm",
+      "1.6 CDTI 136hp (100kW) 320Nm",
+      "1.6 Ecoflex 115hp (85kW) 155Nm"
+    ],
+    "Mokka 2020 ->": [
+      "1.2T 100hp (kW) Nm",
+      "1.2T 130hp (kW) Nm",
+      "1.5 CDTi 100hp (kW) Nm"
+    ],
+    "Mokka X 2019 ->": [
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 CDTI 110hp (81kW) 300Nm",
+      "1.6 CDTI 136hp (100kW) 320Nm",
+      "1.6 Ecoflex 115hp (85kW) 155Nm"
+    ],
+    "Movano (A) - 1998 - 2010": [
+      "1.9 CDTi 82hp (60kW) 200Nm",
+      "2.0 CDTi 115hp (85kW) 290Nm",
+      "2.2 CDTi 90hp (66kW) 260Nm",
+      "2.5 CDTi 100hp (74kW) 260Nm",
+      "2.5 CDTi 120hp (88kW) 300Nm",
+      "2.5 CDTi 135hp (99kW) 310Nm",
+      "2.5 CDTi 145hp (107kW) 320Nm",
+      "3.0 CDTi 136hp (100kW) 320Nm"
+    ],
+    "Movano (B) - 2010 - 2014": [
+      "2.3 CDTi 100hp (74kW) 285Nm",
+      "2.3 CDTi 125hp (92kW) 310Nm",
+      "2.3 CDTi 146hp (107kW) 350Nm"
+    ],
+    "Movano (B) - 2014 - 2016": [
+      "2.3 CDTi 110hp (81kW) 285Nm",
+      "2.3 CDTi 125hp (92kW) 310Nm",
+      "2.3 CDTi Bi-turbo 136hp (100kW) 340Nm",
+      "2.3 CDTi Bi-turbo 163hp (120kW) 360Nm"
+    ],
+    "Movano (B) - 2016 - 2018": [
+      "2.3 DCi (Euro 6) 110hp (81kW) 285Nm",
+      "2.3 DCi (Euro 6) 130hp (96kW) 340Nm",
+      "2.3 DCi (Euro 6) 170hp (125kW) 380Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 145hp (107kW) 360Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 165hp (121kW) 380Nm"
+    ],
+    "Movano 2019 ->": [
+      "2.3 CDTi 135hp (kW) Nm",
+      "2.3 CDTi 150hp (kW) Nm",
+      "2.3 CDTi 180hp (kW) Nm"
+    ],
+    "Omega (B) 1997 - 2003": [
+      "2.0 DTI 100hp (74kW) 205Nm",
+      "2.2 DTI 120hp (88kW) 280Nm",
+      "2.5 DTI 150hp (110kW) 300Nm"
+    ],
+    "Signum 2003 - 2008": [
+      "1.9 CDTi 100hp (74kW) 260Nm",
+      "1.9 CDTi 120hp (88kW) 280Nm",
+      "1.9 CDTi 150hp (110kW) 320Nm",
+      "2.0 Turbo 170hp (125kW) 265Nm",
+      "2.2i 16v 155hp (114kW) 220Nm",
+      "2.8 Turbo 230hp (169kW) 330Nm",
+      "2.8 Turbo 250hp (184kW) 340Nm",
+      "3.0 CDTi 184hp (135kW) 400Nm"
+    ],
+    "Speedster 2001 - 2005": [
+      "2.0 Turbo 200hp (147kW) 250Nm",
+      "2.2i 16v 147hp (108kW) 203Nm"
+    ],
+    "Tigra Twintop - 2004 - 2010": [
+      "1.3 CDTi 70hp (51kW) 170Nm",
+      "1.4i 16v 90hp (66kW) 125Nm",
+      "1.8i 16v 125hp (92kW) 165Nm"
+    ],
+    "Vectra (C) - 2002 - 2009": [
+      "1.6i 16v 100hp (74kW) 150Nm",
+      "1.8i 16v 140hp (103kW) 175Nm",
+      "1.9 CDTi 100hp (74kW) 260Nm",
+      "1.9 CDTi 16v 150hp (110kW) 320Nm",
+      "1.9 CDTi 8v 120hp (88kW) 280Nm",
+      "2.0 DI 82hp (60kW) 200Nm",
+      "2.0 DTI 16v 100hp (74kW) 205Nm",
+      "2.0 Turbo 175hp (129kW) 250Nm",
+      "2.2 DTI 16v 125hp (92kW) 280Nm",
+      "2.2i 16v 155hp (114kW) 220Nm",
+      "2.8T V6 255hp (188kW) 355Nm",
+      "2.8T V6 280hp (206kW) 355Nm",
+      "3.0 CDTi 177hp (130kW) 370Nm",
+      "3.0 CDTi 184hp (135kW) 400Nm"
+    ],
+    "Vivaro 2001 - 2014": [
+      "1.9 CDTi 100hp (74kW) 240Nm",
+      "1.9 DTI 82hp (60kW) 200Nm",
+      "2.0 CDTi 114hp (84kW) 290Nm",
+      "2.0 CDTi 90hp (66kW) 240Nm",
+      "2.5 CDTi 114hp (84kW) 290Nm",
+      "2.5 CDTi 135hp (99kW) 310Nm",
+      "2.5 CDTi 145hp (107kW) 320Nm"
+    ],
+    "Vivaro 2014 - 2016": [
+      "1.6 CDTI BiTurbo 120hp (88kW) 320Nm",
+      "1.6 CDTI BiTurbo 125hp (92kW) 320Nm",
+      "1.6 CDTI BiTurbo 140hp (103kW) 340Nm",
+      "1.6 CDTI BiTurbo 145hp (107kW) 340Nm",
+      "1.6 CDTi 115hp (85kW) 300Nm",
+      "1.6 CDTi 90hp (66kW) 260Nm",
+      "1.6 CDTi 95hp (70kW) 260Nm"
+    ],
+    "Vivaro 2016 - 2018": [
+      "1.6 DCi (Euro 6) 120hp (88kW) 320Nm",
+      "1.6 DCi (Euro 6) 95hp (70kW) 260Nm",
+      "1.6 DCi Bi-Turbo (Euro 6) 125hp (92kW) 320Nm",
+      "1.6 DCi Bi-Turbo (Euro 6) 145hp (107kW) 340Nm"
+    ],
+    "Vivaro 2019 ->": [
+      "1.5d 102hp (75kW) 270Nm",
+      "1.5d 120hp (88kW) 300Nm",
+      "2.0d 122hp (90kW) 340Nm",
+      "2.0d 150hp (110kW) 370Nm",
+      "2.0d 180hp (132kW) 400Nm"
+    ],
+    "Zafira (A) - 1999 - 2005": [
+      "1.6i 16v 100hp (74kW) 150Nm",
+      "1.8i 16v 115hp (85kW) 170Nm",
+      "1.8i 16v 125hp (92kW) 170Nm",
+      "2.0 DI  82hp (60kW) 185Nm",
+      "2.0 DTI 100hp (74kW) 230Nm",
+      "2.0 Turbo OPC 192hp (141kW) 250Nm",
+      "2.0 Turbo OPC 200hp (147kW) 250Nm",
+      "2.2i 16v 147hp (108kW) 203Nm"
+    ],
+    "Zafira (B) - 2005 - 2011": [
+      "1.6 Turbo 150hp (110kW) 210Nm",
+      "1.6i 16v 105hp (77kW) 150Nm",
+      "1.6i 16v 115hp (85kW) 155Nm",
+      "1.7 CDTi 110hp (81kW) 260Nm",
+      "1.7 CDTi 125hp (92kW) 280Nm",
+      "1.8i 16v 140hp (103kW) 175Nm",
+      "1.9 CDTi 100hp (74kW) 260Nm",
+      "1.9 CDTi 120hp (88kW) 280Nm",
+      "1.9 CDTi 150hp (110kW) 320Nm",
+      "2.0 Turbo 200hp (147kW) 262Nm",
+      "2.0 Turbo OPC 240hp (176kW) 320Nm",
+      "2.2i 16v 150hp (110kW) 215Nm"
+    ],
+    "Zafira (C) - 2011 - 2016": [
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 CDTi 120hp (88kW) 320Nm",
+      "1.6 CDTi 136hp (100kW) 320Nm",
+      "1.6 CNG Turbo 150hp (110kW) 210Nm",
+      "1.6 Turbo 170hp (125kW) 260Nm",
+      "1.6 Turbo 200hp (147kW) 280Nm",
+      "2.0 CDTi 110hp (81kW) 300Nm",
+      "2.0 CDTi 130hp (96kW) 300Nm",
+      "2.0 CDTi 165hp (121kW) 350Nm",
+      "2.0 CDTi 170hp (125kW) 400Nm",
+      "2.0 CDTi Bi-Turbo 195hp (143kW) 400Nm"
+    ],
+    "Zafira Life 2019 ->": [
+      "1.5d 102hp (75kW) 270Nm",
+      "1.5d 120hp (88kW) 300Nm",
+      "2.0d 150hp (110kW) 370Nm",
+      "2.0d 180hp (132kW) 400Nm"
+    ]
+  },
+  "Peugeot": {
+    "1007 2005 - 2009": [
+      "1.4 HDi 8V 68hp (50kW) 150Nm",
+      "1.4i 16v 88hp (65kW) 133Nm",
+      "1.4i 8v 75hp (55kW) 109Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6i 16v 110hp (81kW) 147Nm"
+    ],
+    "106 1996 - 2003": [
+      "1.1i 8v 60hp (44kW) 88Nm",
+      "1.6i 16v 120hp (88kW) 145Nm"
+    ],
+    "107 All": [
+      "1.0i 68hp (50kW) 93Nm",
+      "1.4 HDi 8V 55hp (40kW) 130Nm"
+    ],
+    "108 2014 ->": [
+      "1.0 e-VTi 68hp (50kW) 96Nm",
+      "1.2 e-VTi 82hp (60kW) 116Nm"
+    ],
+    "2008 2013 - 2016": [
+      "1.2T Puretech 110hp (81kW) 205Nm",
+      "1.2T Puretech 130hp (96kW) 230Nm",
+      "1.4 e-HDI 68hp (50kW) 160Nm",
+      "1.6 BlueHDi 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDi 8V 120hp (88kW) 300Nm",
+      "1.6 BlueHDi 8V 75hp (55kW) 230Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "1.6 e-HDi 8V 92hp (68kW) 230Nm"
+    ],
+    "2008 2016 - 2019": [
+      "1.2T Puretech 110hp (81kW) 205Nm",
+      "1.2T Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 100hp (74kW) 205Nm",
+      "1.6 BlueHDi 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDi 8V 120hp (88kW) 300Nm",
+      "1.6 BlueHDi 8V 75hp (55kW) 230Nm"
+    ],
+    "2008 2019 ->": [
+      "1.2 Puretech 100hp (74kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.2 Puretech 155hp (114kW) 240Nm",
+      "1.5 BlueHDi 110hp (81kW) 250Nm",
+      "1.5 BlueHDi 130hp (96kW) 300Nm"
+    ],
+    "206 All": [
+      "1.4 HDi 8V 68hp (50kW) 150Nm",
+      "1.4 HDiF 8V 70hp (51kW) 150Nm",
+      "1.4i 16v 88hp (65kW) 133Nm",
+      "1.4i 75hp (55kW) 120Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6i 16v 110hp (81kW) 147Nm",
+      "2.0 HDi 90hp (66kW) 205Nm",
+      "2.0i 16v GTI 138hp (101kW) 190Nm",
+      "2.0i 16v RC 177hp (130kW) 202Nm"
+    ],
+    "207 2006 ->": [
+      "1.4 HDi 8V 68hp (50kW) 160Nm",
+      "1.4 VTi 95hp (70kW) 136Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6 HDiF 8V 92hp (68kW) 230Nm",
+      "1.6 THP 150hp (110kW) 240Nm",
+      "1.6 THP 175hp (129kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6i 16v 109hp (80kW) 147Nm"
+    ],
+    "208 2012 - 2015": [
+      "1.0 VTi 68hp (50kW) 95Nm",
+      "1.2 VTi 82hp (60kW) 118Nm",
+      "1.2T Puretech 110hp (81kW) 205Nm",
+      "1.4 HDI 8V 68hp (50kW) 160Nm",
+      "1.4 VTi 95hp (70kW) 136Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 155hp (114kW) 260Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "1.6 e-HDi 8V 92hp (68kW) 230Nm",
+      "GTI 1.6 THP 200hp (147kW) 275Nm",
+      "GTI 1.6 THP 208hp (153kW) 300Nm"
+    ],
+    "208 2015 - 2018": [
+      "1.2T Puretech 110hp (81kW) 205Nm",
+      "1.5 BlueHDI 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 BlueHDI 8V 75hp (55kW) 230Nm",
+      "1.6 e-THP 165hp (121kW) 240Nm",
+      "GTI 1.6 e-THP 208hp (153kW) 275Nm"
+    ],
+    "208 2019 ->": [
+      "1.2 Puretech 100hp (74kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.2 Puretech 75hp (kW) Nm",
+      "1.5 BlueHDi 100hp (74kW) 250Nm"
+    ],
+    "3008 2009 - 2013": [
+      "1.6 HDi 16V 110hp (81kW) 240Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "2.0 HDI 163hp (120kW) 340Nm",
+      "2.0 HDi 150hp (110kW) 340Nm"
+    ],
+    "3008 2013 - 2016": [
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 HDI Hybrid4 200hp (147kW) 450Nm",
+      "2.0 HDi 150hp (110kW) 340Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "3008 2016 ->": [
+      "1.2T Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 300Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 Puretech 180hp (132kW) 250Nm",
+      "1.6 Puretech Hybrid4 300hp (kW) Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm",
+      "1.6 e-THP 165hp (121kW) 240Nm",
+      "1.6 e-THP 205hp (151kW) 275Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm"
+    ],
+    "306 All": [
+      "1.6i 16v 98hp (72kW) 138Nm",
+      "2.0 HDi 110hp (81kW) 250Nm",
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ],
+    "307 All": [
+      "1.4 HDi 8V 70hp (51kW) 160Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6i 16v 110hp (81kW) 147Nm",
+      "2.0 HDi 110hp (81kW) 250Nm",
+      "2.0 HDi 150hp (110kW) 340Nm",
+      "2.0 HDi 90hp (66kW) 205Nm",
+      "2.0 HDiF 136hp (100kW) 320Nm",
+      "2.0i 16v 138hp (101kW) 190Nm",
+      "2.0i 16v 143hp (105kW) 200Nm",
+      "3.0 V6 210hp (154kW) 285Nm",
+      "RC 2.0i 16v 177hp (130kW) 202Nm"
+    ],
+    "308 2007 - 2013": [
+      "1.4 VTi 95hp (70kW) 136Nm",
+      "1.4 VTi 98hp (72kW) 136Nm",
+      "1.6 HDiF 16V 110hp (81kW) 240Nm",
+      "1.6 HDiF 16V 90hp (66kW) 215Nm",
+      "1.6 HDiF 8V 92hp (68kW) 230Nm",
+      "1.6 THP 140hp (103kW) 240Nm",
+      "1.6 THP 150hp (110kW) 240Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 THP 175hp (129kW) 240Nm",
+      "1.6 THP 200hp (147kW) 275Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 112hp (82kW) 270Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 285Nm",
+      "2.0 HDi 136hp (100kW) 320Nm",
+      "2.0 HDi 150hp (110kW) 340Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "308 2013 - 2017": [
+      "1.2 e-THP 110hp (81kW) 205Nm",
+      "1.2 e-THP 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 120hp (88kW) 300Nm",
+      "1.6 HDi 115hp (85kW) 285Nm",
+      "1.6 HDiF 92hp (68kW) 230Nm",
+      "1.6 THP 125hp (92kW) 200Nm",
+      "1.6 THP 155hp (114kW) 240Nm",
+      "1.6 e-HDI 115hp (85kW) 270Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm",
+      "GT 1.6 THP 205hp (151kW) 285Nm",
+      "GTI 1.6 THP 250hp (184kW) 330Nm",
+      "GTI 1.6 THP 270hp (199kW) 330Nm"
+    ],
+    "308 2017 - 2020": [
+      "1.2 Puretech 110hp (81kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDi 100hp (74kW) 250Nm",
+      "1.5 BlueHDi 130hp (96kW) 300Nm",
+      "1.6 BlueHDI 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 120hp (88kW) 300Nm",
+      "1.6 Puretech 225hp (165kW) 300Nm",
+      "1.6 e-THP 205hp (151kW) 285Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm",
+      "GTI 1.6 e-THP 263hp (193kW) 340Nm",
+      "GTI 1.6 e-THP 270hp (199kW) 330Nm"
+    ],
+    "308 2021 ->": [
+      "1.2T Puretech 110hp (kW) Nm",
+      "1.2T Puretech 130hp (kW) Nm",
+      "1.5 BlueHDi 130hp (kW) Nm",
+      "1.6T Puretech Hybrid 180hp (kW) Nm",
+      "1.6T Puretech Hybrid 225hp (kW) Nm",
+      "GTI 1.6 e-THP 263hp (kW) Nm"
+    ],
+    "4007 2007 - 2011": [
+      "2.2 HDi 156hp (115kW) 380Nm"
+    ],
+    "4008 2012 ->": [
+      "1.6 HDi 8V 115hp (85kW) 270Nm",
+      "1.8 HDi 150hp (110kW) 300Nm"
+    ],
+    "406 All": [
+      "2.0 HDi 110hp (81kW) 250Nm",
+      "2.0 HDi 136hp (100kW) 320Nm",
+      "2.0 HDi 90hp (66kW) 205Nm",
+      "2.0i 16v 138hp (101kW) 190Nm",
+      "2.2 HDi 136hp (100kW) 314Nm",
+      "3.0 V6 210hp (154kW) 285Nm"
+    ],
+    "407 2004 - 2011": [
+      "1.6 HDiF 16V 109hp (80kW) 240Nm",
+      "2.0 HDiF 136hp (100kW) 320Nm",
+      "2.0 HDiF 163hp (120kW) 340Nm",
+      "2.0i 16v 136hp (100kW) 190Nm",
+      "2.2 HDiF 170hp (125kW) 370Nm",
+      "2.7 HDiF 204hp (150kW) 440Nm",
+      "3.0 HDiF 240hp (176kW) 450Nm",
+      "3.0i V6 211hp (155kW) 290Nm"
+    ],
+    "408 2014 ->": [
+      "1.2 e-THP 130hp (96kW) 230Nm",
+      "1.6 THP 163hp (120kW) 240Nm"
+    ],
+    "5008 2009 - 2013": [
+      "1.6 HDi 16V 110hp (81kW) 240Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDi 8V 112hp (82kW) 270Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "2.0 HDi 150hp (110kW) 340Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "5008 2013 - 2016": [
+      "1.2T Puretech 130hp (96kW) 230Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 160Nm",
+      "1.6 e-HDI 8V 115hp (85kW) 270Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 HDi 150hp (110kW) 340Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "5008 2017 ->": [
+      "1.2T Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 300Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 Puretech 180hp (132kW) 250Nm",
+      "1.6 e-THP 165hp (121kW) 240Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 180hp (132kW) 400Nm"
+    ],
+    "508 Ph1 - 2010 - 2014": [
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 THP 163hp (120kW) 240Nm",
+      "1.6 THP 184hp (135kW) 240Nm",
+      "1.6 VTi 120hp (88kW) 156Nm",
+      "1.6 e-HDi 8V 112hp (82kW) 270Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "2.0 BlueHDi 150hp (110kW) 370Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm",
+      "2.0 HDI Hybrid4 200hp (147kW) 450Nm",
+      "2.0 HDi 136hp (100kW) 320Nm",
+      "2.0 HDi 140hp (103kW) 320Nm",
+      "2.0 HDi 163hp (120kW) 340Nm",
+      "2.2 HDi 200hp (147kW) 450Nm"
+    ],
+    "508 Ph2 - 2014 - 2018": [
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 e-HDi 8V 115hp (85kW) 270Nm",
+      "1.6 e-THP 165hp (121kW) 240Nm",
+      "2.0 BlueHDi 150hp (110kW) 340Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm",
+      "2.0 HDI Hybrid4 200hp (147kW) 450Nm",
+      "2.0 HDi 163hp (120kW) 340Nm",
+      "2.2 HDi 204hp (150kW) 450Nm"
+    ],
+    "508 Ph3 - 2018 ->": [
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDi 130hp (96kW) 300Nm",
+      "1.6 Puretech Hybrid 180hp (132kW) 250Nm",
+      "1.6 Puretech Hybrid 225hp (165kW) 300Nm",
+      "2.0 BlueHDi 160hp (118kW) 400Nm",
+      "2.0 BlueHDi 180hp (132kW) 400Nm"
+    ],
+    "607 All": [
+      "2.0 HDi 110hp (81kW) 250Nm",
+      "2.0 HDi 136hp (100kW) 320Nm",
+      "2.0i 16v 138hp (101kW) 190Nm",
+      "2.2 HDi 170hp (125kW) 370Nm",
+      "2.2 HDiF 136hp (100kW) 314Nm",
+      "2.7 HDiF 204hp (150kW) 440Nm",
+      "3.0 HDiF 240hp (176kW) 450Nm",
+      "3.0i V6 210hp (154kW) 285Nm"
+    ],
+    "806 All": [
+      "2.0 HDi 109hp (80kW) 270Nm",
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ],
+    "807 All": [
+      "2.0 HDi 110hp (81kW) 270Nm",
+      "2.0 HDi 120hp (88kW) 300Nm",
+      "2.0 HDiF 136hp (100kW) 320Nm",
+      "2.0 HDiF 163hp (120kW) 340Nm",
+      "2.2 HDi 128hp (94kW) 314Nm",
+      "2.2 HDiF 163hp (120kW) 370Nm",
+      "2.2 HDiF 170hp (125kW) 370Nm",
+      "3.0 V6 210hp (154kW) 285Nm"
+    ],
+    "Bipper 2007 ->": [
+      "1.3 HDi 75hp (55kW) 190Nm",
+      "1.3 HDi 80hp (59kW) 200Nm",
+      "1.4 HDi 8V 70hp (51kW) 160Nm",
+      "1.4i 8v 75hp (55kW) 118Nm"
+    ],
+    "Boxer 2019 ->": [
+      "2.2 BlueHDI 120hp (88kW) 310Nm",
+      "2.2 BlueHDI 140hp (103kW) 340Nm",
+      "2.2 BlueHDI 165hp (121kW) 370Nm"
+    ],
+    "Boxer 3th - 2006 - 2012": [
+      "2.2 HDi 100hp (74kW) 250Nm",
+      "2.2 HDi 120hp (88kW) 320Nm",
+      "2.8 HDi 127hp (93kW) 300Nm",
+      "3.0 HDi 160hp (118kW) 400Nm"
+    ],
+    "Boxer 4th - 2012 - 2018": [
+      "2.0 BlueHDI 110hp (81kW) 285Nm",
+      "2.0 BlueHDI 130hp (96kW) 340Nm",
+      "2.0 BlueHDI 160hp (118kW) 350Nm",
+      "2.2 HDi 110hp (81kW) 250Nm",
+      "2.2 HDi 130hp (96kW) 320Nm",
+      "2.2 HDi 150hp (110kW) 350Nm",
+      "2.2 HDi 160hp (118kW) 350Nm",
+      "3.0 HDi 180hp (132kW) 400Nm"
+    ],
+    "Expert / Traveller -> 2016": [
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "2.0 HDI 90hp (66kW) 205Nm",
+      "2.0 HDi 110hp (81kW) 240Nm",
+      "2.0 HDi 120hp (88kW) 280Nm",
+      "2.0 HDi 128hp (->..2011) (94kW) 300Nm",
+      "2.0 HDi 128hp (2011->) (94kW) 300Nm",
+      "2.0 HDi 136hp (100kW) 315Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "Expert / Traveller 2016 - 2019": [
+      "1.5 BlueHDi 120hp (88kW) 300Nm",
+      "1.6 BlueHDI 8V 115hp (85kW) 300Nm",
+      "1.6 BlueHDI 8V 95hp (70kW) 210Nm",
+      "2.0 BlueHDI 120hp (88kW) 340Nm",
+      "2.0 BlueHDI 150hp (110kW) 370Nm",
+      "2.0 BlueHDI 177hp (130kW) 400Nm"
+    ],
+    "Expert / Traveller 2019 ->": [
+      "1.5 BlueHDi 100hp (74kW) 270Nm",
+      "1.5 BlueHDi 120hp (88kW) 300Nm",
+      "2.0 BlueHDI 120hp (88kW) 340Nm",
+      "2.0 BlueHDI 177hp (130kW) 400Nm"
+    ],
+    "Partner 1997 - 2002": [
+      "1.6i 16v 110hp (81kW) 147Nm",
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ],
+    "Partner 2002 - 2008": [
+      "1.6 HDi 16V 75hp (55kW) 185Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6i 16v 110hp (81kW) 147Nm",
+      "2.0 HDi 90hp (66kW) 205Nm"
+    ],
+    "Partner 2008 - 2012": [
+      "1.6 HDi 16V 110hp (81kW) 240Nm",
+      "1.6 HDi 16V 75hp (55kW) 185Nm",
+      "1.6 HDi 16V 90hp (66kW) 215Nm",
+      "1.6 HDi 8V 112hp (82kW) 270Nm",
+      "1.6 HDi 8V 92hp (68kW) 230Nm",
+      "1.6 VTi 120hp (88kW) 147Nm",
+      "1.6i 16v 110hp (81kW) 147Nm"
+    ],
+    "Partner 2012 - 2015": [
+      "1.6 HDi 16V 75hp (55kW) 185Nm",
+      "1.6 VTi 120hp (88kW) 147Nm",
+      "1.6 e-HDi 8V 92hp (68kW) 230Nm"
+    ],
+    "Partner 2015 - 2018": [
+      "1.2T Puretech 110hp (81kW) 205Nm",
+      "1.6 BlueHDI 8V 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 8V 120hp (88kW) 300Nm",
+      "1.6 BlueHDI 8V 75hp (55kW) 230Nm",
+      "1.6 VTi 120hp (88kW) 160Nm"
+    ],
+    "Partner 2018 ->": [
+      "1.2 Puretech 110hp (81kW) 205Nm",
+      "1.2 Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 100hp (74kW) 254Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.5 BlueHDI 75hp (55kW) 230Nm",
+      "1.6 BlueHDI 100hp (74kW) 254Nm",
+      "1.6 BlueHDI 75hp (55kW) 230Nm"
+    ],
+    "RCZ Ph1 - 2010 - 2013": [
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 THP 200hp (147kW) 275Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "RCZ Ph2 - 2013 ->": [
+      "1.6 THP 156hp (115kW) 240Nm",
+      "1.6 THP 200hp (147kW) 275Nm",
+      "1.6 THP 270hp (199kW) 330Nm",
+      "2.0 HDi 163hp (120kW) 340Nm"
+    ],
+    "Rifter 2018 ->": [
+      "1.2T Puretech 110hp (81kW) 205Nm",
+      "1.2T Puretech 130hp (96kW) 230Nm",
+      "1.5 BlueHDI 100hp (74kW) 254Nm",
+      "1.5 BlueHDI 130hp (96kW) 300Nm",
+      "1.5 BlueHDI 75hp (55kW) 230Nm"
+    ]
+  },
+  "Pontiac": {
+    "Bonneville 1997 - 2005": [
+      "3.8 Supercharged V6 240hp (176kW) 380Nm"
+    ],
+    "Firebird 1997 - 2002": [
+      "3.8 V6 200hp (147kW) 305Nm",
+      "5.7 V8 310hp (228kW) 461Nm"
+    ],
+    "G5 2006 - 2010": [
+      "2.2i 148hp (109kW) 206Nm",
+      "2.2i 155hp (114kW) 203Nm",
+      "2.4i 173hp (127kW) 221Nm"
+    ],
+    "G6 2004 - 2010": [
+      "2.4i 167hp (123kW) 220Nm",
+      "3.5 V6 211hp (155kW) 293Nm",
+      "3.5 V6 224hp (165kW) 298Nm",
+      "3.9 V6 240hp (176kW) 325Nm"
+    ],
+    "G8 2008 - 2010": [
+      "3.6 V6 256hp (188kW) 336Nm",
+      "6.0 V8 361hp (265kW) 522Nm",
+      "6.2 V8 415hp (305kW) 563Nm"
+    ],
+    "GTO 2004 - 2006": [
+      "5.7 V8 350hp (257kW) 495Nm",
+      "6.0 V8 400hp (294kW) 542Nm"
+    ],
+    "Grand Am 1997 - 2005": [
+      "2.2i 140hp (103kW) 200Nm",
+      "2.4i 150hp (110kW) 210Nm",
+      "3.1 V6 155hp (114kW) 251Nm",
+      "3.4 V6 170hp (125kW) 270Nm"
+    ],
+    "Grand Prix 1997 - 2003": [
+      "3.1 V6 175hp (129kW) 264Nm",
+      "3.8 Supercharged V6 240hp (176kW) 380Nm",
+      "3.8 V6 195hp (143kW) 325Nm"
+    ],
+    "Grand Prix 2004 - 2009": [
+      "5.3 V8 303hp (223kW) 438Nm"
+    ],
+    "Montana 1997 - 2005": [
+      "3.4 V6 185hp (136kW) 280Nm"
+    ],
+    "Montana 2006 - 2009": [
+      "3.5 V6 200hp (147kW) 298Nm",
+      "3.9 V6 240hp (176kW) 332Nm"
+    ],
+    "Solstice 2006 - 2010": [
+      "2.0 Turbo 260hp (191kW) 353Nm",
+      "2.4i 173hp (127kW) 222Nm"
+    ],
+    "Sunfire 1997 - 2005": [
+      "2.2i 140hp (103kW) 203Nm",
+      "2.4i 150hp (110kW) 210Nm"
+    ],
+    "Torrent 2007 - 2009": [
+      "3.4 V6 185hp (136kW) 285Nm"
+    ]
+  },
+  "Porsche": {
+    "911 1997 - 2006 ( 996 )": [
+      "3.4i 300hp (221kW) 340Nm",
+      "3.6i 320hp (235kW) 370Nm",
+      "3.6i 345hp (254kW) 370Nm",
+      "3.6i GT2 Turbo 462hp (340kW) 620Nm",
+      "3.6i GT3 360hp (265kW) 370Nm",
+      "3.6i GT3 RS 381hp (280kW) 385Nm",
+      "3.6i GT3 RS 400hp (294kW) 385Nm",
+      "3.6i Turbo 420hp (309kW) 560Nm",
+      "3.6i Turbo-S 450hp (331kW) 620Nm"
+    ],
+    "911 2004 - 2011 ( 997 )": [
+      "3.6i Turbo 480hp (353kW) 620Nm",
+      "3.8i Turbo 500hp (368kW) 650Nm",
+      "3.8i Turbo-S 530hp (390kW) 700Nm",
+      "Carrera 3.6i 325hp (239kW) 370Nm",
+      "Carrera 3.6i 345hp (254kW) 390Nm",
+      "Carrera 3.8i 376hp (276kW) 415Nm",
+      "Carrera GTS 3.8i 408hp (300kW) 420Nm",
+      "Carrera S 3.8i 355hp (261kW) 400Nm",
+      "Carrera S 3.8i 385hp (283kW) 420Nm",
+      "GT2 3.6i 530hp (390kW) 680Nm",
+      "GT2 RS 3.6i 620hp (456kW) 700Nm",
+      "GT3 3.6i 415hp (305kW) 405Nm",
+      "GT3 3.8i 435hp (320kW) 430Nm",
+      "GT3 RS 3.6i 415hp (305kW) 405Nm",
+      "GT3 RS 3.8i 435hp (320kW) 430Nm",
+      "GT3 RS 3.8i 450hp (331kW) 430Nm",
+      "GT3 RS 4.0i 500hp (368kW) 460Nm"
+    ],
+    "911 2011 - 2015 ( 991 )": [
+      "3.8i GTS 430hp (316kW) 440Nm",
+      "3.8i Turbo 520hp (382kW) 710Nm",
+      "3.8i Turbo S 560hp (412kW) 750Nm",
+      "4.0 GT3 RS 500hp (368kW) 460Nm",
+      "Carrera 3.4i 350hp (257kW) 390Nm",
+      "Carrera S 3.8i 400hp (294kW) 440Nm",
+      "GT3 3.8i 475hp (349kW) 440Nm"
+    ],
+    "911 2016 - 2018 (991.2)": [
+      "3.0T Carrera / 4 370hp (272kW) 450Nm",
+      "3.0T Carrera GTS / 4 GTS 450hp (331kW) 550Nm",
+      "3.0T Carrera S / 4S 420hp (309kW) 500Nm",
+      "3.8 Turbo GT2 RS 700hp (515kW) 750Nm",
+      "4.0 GT3 RS 520hp (382kW) 470Nm",
+      "GT3 500hp (368kW) 460Nm",
+      "R 500hp (368kW) 460Nm",
+      "Turbo 540hp (397kW) 660Nm",
+      "Turbo S 580hp (426kW) 700Nm"
+    ],
+    "911 2019 -> ... (992)": [
+      "3.0 Carrera 385hp (283kW) 450Nm",
+      "3.0 Carrera 4S 450hp (331kW) 530Nm",
+      "3.0 Carrera GTS 480hp (353kW) 570Nm",
+      "3.0 Carrera S 450hp (331kW) 530Nm",
+      "3.8 Bi-Turbo 580hp (426kW) 740Nm",
+      "3.8 Bi-Turbo S 650hp (478kW) 800Nm",
+      "4.0 GT3 520hp (382kW) 470Nm"
+    ],
+    "Boxster 1996 - 2004 ( 986 )": [
+      "2.5i 204hp (150kW) 245Nm",
+      "2.7i 211hp (155kW) 260Nm",
+      "2.7i 220hp (162kW) 260Nm",
+      "2.7i 228hp (168kW) 260Nm",
+      "3.2i 252hp (185kW) 305Nm",
+      "3.2i 260hp (191kW) 310Nm"
+    ],
+    "Boxster 2005 - 2011 ( 987 )": [
+      "2.7i 211hp (155kW) 270Nm",
+      "2.7i 240hp (176kW) 270Nm",
+      "2.9i 211hp (155kW) 290Nm",
+      "2.9i 256hp (188kW) 290Nm",
+      "S 3.2i 280hp (206kW) 320Nm",
+      "S 3.4i 295hp (217kW) 340Nm",
+      "S 3.4i 310hp (228kW) 360Nm",
+      "Spyder 3.4i 320hp (235kW) 360Nm"
+    ],
+    "Boxster 2011 - 2016 ( 981 )": [
+      "2.7i 211hp (155kW) 290Nm",
+      "2.7i 265hp (195kW) 280Nm",
+      "3.8i Spyder 375hp (276kW) 420Nm",
+      "GTS 3.4i 330hp (243kW) 360Nm",
+      "S 3.4i 315hp (232kW) 360Nm"
+    ],
+    "Boxster 2016 -> (718)": [
+      "2.0T 250hp (184kW) 310Nm",
+      "2.0T 300hp (221kW) 380Nm",
+      "GTS 2.5T 365hp (268kW) 430Nm",
+      "S 2.5T 350hp (257kW) 420Nm"
+    ],
+    "Carrera GT 980 - 2005 - 2007": [
+      "5.7i V10 - 612hp (450kW) 590Nm"
+    ],
+    "Cayenne 2018 ->": [
+      "3.0T E-Hybrid 462hp (340kW) 700Nm",
+      "3.0T V6 340hp (250kW) 450Nm",
+      "4.0 Turbo 550hp (404kW) 770Nm",
+      "4.0T GTS 460hp (338kW) 620Nm",
+      "4.0T S E-Hybrid 680hp (500kW) 900Nm",
+      "S 2.9 Bi-Turbo V6 440hp (324kW) 550Nm"
+    ],
+    "Cayenne 955 - 2002 - 2007": [
+      "3.2 V6 250hp (184kW) 320Nm",
+      "4.5 V8 Turbo 450hp (331kW) 620Nm",
+      "4.5 V8 Turbo 500hp (368kW) 700Nm",
+      "S 4.5 Turbo 520hp (382kW) 720Nm",
+      "S 4.5 V8 340hp (250kW) 420Nm"
+    ],
+    "Cayenne 957 - 2007 - 2010": [
+      "3.0 TDI 211hp (155kW) 550Nm",
+      "3.0 TDI 240hp (176kW) 550Nm",
+      "3.6 V6 290hp (213kW) 385Nm",
+      "4.8 Turbo 500hp (368kW) 700Nm",
+      "GTS 4.8 V8 405hp (298kW) 500Nm",
+      "S 4.8 Turbo 550hp (404kW) 750Nm",
+      "S 4.8 V8 385hp (283kW) 500Nm"
+    ],
+    "Cayenne 958 - 2010 - 2014": [
+      "3.0 S Hybrid 416hp (306kW) 590Nm",
+      "3.0 TDI 211hp (155kW) 550Nm",
+      "3.0 TDI 240hp (176kW) 550Nm",
+      "3.0 TDI 245hp (180kW) 550Nm",
+      "3.6i 300hp (221kW) 400Nm",
+      "4.8 Turbo 500hp (368kW) 700Nm",
+      "GTS 4.8 V8 420hp (309kW) 515Nm",
+      "S 4.2 TDI 382hp (281kW) 850Nm",
+      "S 4.8 Turbo 550hp (404kW) 750Nm",
+      "S 4.8 V8 400hp (294kW) 500Nm"
+    ],
+    "Cayenne 958 - 2014 - 2017": [
+      "3.0 TDI 211hp (155kW) 580Nm",
+      "3.0 TDI 262hp (193kW) 580Nm",
+      "4.2 TDI 385hp (283kW) 850Nm",
+      "4.8 Turbo 520hp (382kW) 750Nm",
+      "GTS 3.6T 440hp (324kW) 600Nm",
+      "S 3.0 E-Hybrid 416hp (306kW) 590Nm",
+      "S 3.6T 420hp (309kW) 550Nm",
+      "S 4.8 Turbo 570hp (419kW) 800Nm"
+    ],
+    "Cayenne Coupé 2019 ->": [
+      "3.0T E-Hybrid 462hp (340kW) 700Nm",
+      "3.0T V6 340hp (250kW) 450Nm",
+      "4.0 Turbo 550hp (404kW) 770Nm",
+      "4.0 Turbo GT 640hp (kW) Nm",
+      "4.0T GTS 460hp (338kW) 620Nm",
+      "4.0T S E-Hybrid 680hp (500kW) 900Nm",
+      "S 2.9 Bi-Turbo V6 440hp (324kW) 550Nm"
+    ],
+    "Cayman 2006 - 2013 ( 987 )": [
+      "2.7i 211hp (155kW) 273Nm",
+      "2.7i 245hp (180kW) 273Nm",
+      "2.9i 211hp (155kW) 300Nm",
+      "2.9i 265hp (195kW) 300Nm",
+      "3.4i 295hp (217kW) 340Nm",
+      "R 3.4i 330hp (243kW) 370Nm",
+      "S 3.4i 303hp (223kW) 340Nm",
+      "S 3.4i 320hp (235kW) 370Nm"
+    ],
+    "Cayman 2013 - 2015 ( 981 )": [
+      "2.7i 211hp (155kW) 290Nm",
+      "2.7i 275hp (202kW) 290Nm",
+      "3.4i 325hp (239kW) 370Nm",
+      "GT4 3.8i 385hp (283kW) 420Nm",
+      "GTS 3.4i 340hp (250kW) 360Nm"
+    ],
+    "Cayman 2016 -> ( 718 )": [
+      "2.0T 250hp (184kW) 310Nm",
+      "2.0T 300hp (221kW) 380Nm",
+      "GT4 (4.0) 420hp (309kW) 420Nm",
+      "GTS 2.5T 365hp (268kW) 430Nm",
+      "GTS 4.0 400hp (294kW) 420Nm",
+      "S 2.5T 350hp (257kW) 420Nm"
+    ],
+    "Macan 2014 - 2018": [
+      "2.0 TFSI 252hp (185kW) 370Nm",
+      "3.6 Bi-Turbo 400hp (294kW) 550Nm",
+      "3.6 Bi-Turbo Performance pack 440hp (324kW) 600Nm",
+      "GTS 3.0 Bi-Turbo 360hp (265kW) 500Nm",
+      "S 1 211hp (155kW) 580Nm",
+      "S 1 258hp (190kW) 580Nm",
+      "S 3.0 Bi-Turbo 340hp (250kW) 460Nm"
+    ],
+    "Macan 2019 - 2020": [
+      "2.0 TFSI 252hp (185kW) 370Nm",
+      "2.9 GTS 380hp (279kW) 520Nm",
+      "2.9 Turbo 440hp (324kW) 550Nm",
+      "S 3.0T 355hp (261kW) 480Nm"
+    ],
+    "Macan 2021 -> ...": [
+      "2.0 TFSI 265hp (kW) Nm",
+      "2.9 GTS 440hp (kW) Nm",
+      "2.9 S 380hp (kW) Nm"
+    ],
+    "Panamera 970 - 2009 - 2013": [
+      "3.0 Hybrid 380hp (279kW) 580Nm",
+      "3.0 S E-Hybrid 416hp (306kW) 590Nm",
+      "3.0 TDI 240hp (176kW) 550Nm",
+      "3.0 TDI 250hp (184kW) 550Nm",
+      "3.6i 300hp (221kW) 400Nm",
+      "4.8 Turbo 500hp (368kW) 700Nm",
+      "4S 4.8i 400hp (294kW) 500Nm",
+      "GTS 4.8 V8 430hp (316kW) 520Nm",
+      "S 4.8 Turbo 550hp (404kW) 750Nm"
+    ],
+    "Panamera 970 - 2013 - 2016": [
+      "3.0 TDI 250hp (184kW) 550Nm",
+      "3.0 V6 Bi TDI 300hp (221kW) 650Nm",
+      "3.6i 310hp (228kW) 400Nm",
+      "4.8 Turbo 520hp (382kW) 700Nm",
+      "4S 4.8i 420hp (309kW) 520Nm",
+      "GTS 4.8 V8 440hp (324kW) 520Nm",
+      "S 3.0 E-Hybrid 416hp (306kW) 590Nm",
+      "S 3.0T 420hp (309kW) 500Nm",
+      "S 4.8 Turbo 570hp (419kW) 800Nm"
+    ],
+    "Panamera 971 - 2017 - 2019": [
+      "2.9T 440hp (324kW) 550Nm",
+      "2.9T E-Hybrid 462hp (340kW) 700Nm",
+      "3.0T 330hp (243kW) 450Nm",
+      "4.0 Turbo 550hp (404kW) 770Nm",
+      "4.0T GTS 460hp (338kW) 620Nm",
+      "4.0T S E-Hybrid 680hp (500kW) 850Nm",
+      "4S 1 422hp (310kW) 850Nm"
+    ],
+    "Panamera 971 - 2020 ->": [
+      "2.9T V6 330hp (kW) Nm",
+      "2.9T V6 4 E-Hybrid 462hp (340kW) 700Nm",
+      "2.9T V6 4S 440hp (324kW) 550Nm",
+      "2.9T V6 4S E-Hybrid 560hp (412kW) 750Nm",
+      "4.0 Turbo 630hp (kW) Nm",
+      "4.0 Turbo S E-Hybrid 700hp (515kW) 850Nm",
+      "4.0T GTS 480hp (353kW) 620Nm"
+    ],
+    "Panamera Sport Turismo 2017 - 2019": [
+      "2.9T 440hp (324kW) 550Nm",
+      "3.0T 330hp (243kW) 450Nm",
+      "4 E-Hybrid 462hp (340kW) 700Nm",
+      "4.0 Turbo 550hp (404kW) 770Nm",
+      "4.0T GTS 460hp (338kW) 620Nm",
+      "4S 1 440hp (324kW) 850Nm",
+      "Turbo S E-Hybrid 680hp (500kW) 850Nm"
+    ],
+    "Panamera Sport Turismo 2020 ->": [
+      "2.9T V6 330hp (kW) Nm",
+      "2.9T V6 4S 440hp (324kW) 550Nm",
+      "2.9T V6 4S E-Hybrid 560hp (412kW) 750Nm",
+      "4.0 Turbo 630hp (463kW) 820Nm",
+      "4.0 Turbo S E-Hybrid 700hp (515kW) 850Nm",
+      "4.0T GTS 480hp (353kW) 620Nm"
+    ]
+  },
+  "Renault": {
+    "Alaskan 2017 ->": [
+      "2.3 dCi 160hp (118kW) 403Nm",
+      "2.3 dCi 190hp (140kW) 450Nm"
+    ],
+    "Arkana 2021 -> ...": [
+      "1.3 TCe 150hp (kW) Nm",
+      "1.4 TCe 140hp (kW) Nm"
+    ],
+    "Avantime 2001 - 2003": [
+      "2.0 Turbo 165hp (121kW) 250Nm",
+      "2.2 DCi 150hp (110kW) 320Nm"
+    ],
+    "Captur 2013 - 2018": [
+      "0.9 TCE 90hp (66kW) 135Nm",
+      "1.2 TCE 120hp (88kW) 190Nm",
+      "1.3 TCe 130hp (kW) Nm",
+      "1.3 TCe S 150hp (kW) Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.5 DCi 90hp (66kW) 220Nm"
+    ],
+    "Captur 2019 ->": [
+      "1.0 TCe 100hp (kW) Nm",
+      "1.3 TCe 130hp (kW) Nm",
+      "1.3 TCe 140hp (kW) Nm",
+      "1.3 TCe 155hp (kW) Nm",
+      "1.5 BlueDCi 115hp (85kW) 260Nm",
+      "1.5 BlueDCi 95hp (70kW) 240Nm"
+    ],
+    "Clio 2 - 2001 - 2005": [
+      "1.2i 16v 75hp (55kW) 105Nm",
+      "1.4 16v 98hp (72kW) 127Nm",
+      "1.5 DCi 100hp (74kW) 200Nm",
+      "1.5 DCi 65hp (48kW) 160Nm",
+      "1.5 DCi 70hp (51kW) 160Nm",
+      "1.5 DCi 82hp (60kW) 185Nm",
+      "1.5 DCi 85hp (62kW) 200Nm",
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "1.9 DTi 80hp (59kW) 160Nm",
+      "3.0i V6 230hp (169kW) 306Nm",
+      "3.0i V6 255hp (188kW) 300Nm",
+      "RS 2.0i 16v 172hp (126kW) 204Nm",
+      "RS 2.0i 16v 182hp (134kW) 200Nm"
+    ],
+    "Clio 3 - 2005 - 2012": [
+      "1.2 TCE 100hp (74kW) 155Nm",
+      "1.2i 16v 75hp (55kW) 105Nm",
+      "1.4i 16v 98hp (72kW) 127Nm",
+      "1.5 DCi 106hp (78kW) 240Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.5 DCi 70hp (51kW) 160Nm",
+      "1.5 DCi 75hp (55kW) 180Nm",
+      "1.5 DCi 86hp (63kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "GT 1.6i 16v 128hp (94kW) 155Nm",
+      "RS 2.0i 16v 197hp (145kW) 215Nm",
+      "RS 2.0i 16v 201hp (148kW) 215Nm"
+    ],
+    "Clio 4 - (ph1) - 2012 - 2016": [
+      "0.9 TCE 90hp (66kW) 135Nm",
+      "1.2 TCE 120hp (88kW) 190Nm",
+      "1.2 TCE 90hp (66kW) 135Nm",
+      "1.2i 16v 75hp (55kW) 105Nm",
+      "1.5 DCi 75hp (55kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 220Nm",
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "RS 1.6T 200hp (147kW) 240Nm",
+      "RS Trophy 1.6T 220hp (162kW) 260Nm"
+    ],
+    "Clio 4 - (ph2) - 2016 - 2018": [
+      "0.9 TCE 90hp (66kW) 140Nm",
+      "1.2 TCE 120hp (88kW) 205Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.5 DCi 75hp (55kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 220Nm",
+      "RS 1.6T 200hp (147kW) 260Nm",
+      "RS Trophy 1.6T 220hp (162kW) 280Nm"
+    ],
+    "Clio 5 - 2019 ->": [
+      "1.0 SCe 65hp (kW) Nm",
+      "1.0 SCe 75hp (kW) Nm",
+      "1.0 TCe 100hp (kW) Nm",
+      "1.0 TCe GPF 90hp (kW) Nm",
+      "1.3 TCe 130hp (kW) Nm",
+      "1.5 BlueDCi 115hp (85kW) 260Nm",
+      "1.5 BlueDCi 85hp (62kW) 220Nm"
+    ],
+    "Espace 2020 ->": [
+      "1.8 TCe 225hp (kW) Nm",
+      "2.0 Blue dCi 160hp (kW) Nm",
+      "2.0 Blue dCi 200hp (kW) Nm"
+    ],
+    "Espace Mk4 -> 2014": [
+      "1.9 DCi 115hp (85kW) 270Nm",
+      "1.9 DCi 120hp (88kW) 270Nm",
+      "1.9 DTi 98hp (72kW) 200Nm",
+      "2.0 DCi 130hp (96kW) 320Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 175hp (129kW) 360Nm",
+      "2.0 Turbo 170hp (125kW) 250Nm",
+      "2.2 DCi 16v 140hp (103kW) 320Nm",
+      "2.2 DCi 16v 150hp (110kW) 320Nm",
+      "3.0 DCi 180hp (132kW) 400Nm"
+    ],
+    "Espace Mk5 - 2015 ->": [
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DCi Bi-Turbo 160hp (118kW) 380Nm",
+      "1.6 TCE 200hp (147kW) 260Nm",
+      "1.8 TCe 225hp (165kW) 300Nm"
+    ],
+    "Express 2021 -> ...": [
+      "1.3 TCe 100hp (kW) Nm",
+      "1.5 dCi 75hp (55kW) 200Nm",
+      "1.5 dCi 95hp (70kW) 220Nm"
+    ],
+    "Fluence 2011 ->": [
+      "1.5 DCi 105hp (77kW) 240Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6i 16v 110hp (81kW) 152Nm",
+      "2.0 Turbo GT 180hp (132kW) 300Nm"
+    ],
+    "Kadjar 2015 - 2018": [
+      "1.2 TCE 130hp (96kW) 205Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DCi Bi-Turbo 160hp (118kW) 380Nm",
+      "1.6 TCe 163hp (120kW) 240Nm"
+    ],
+    "Kadjar 2019 ->": [
+      "1.3 TCe 140hp (kW) Nm",
+      "1.3 TCe 160hp (kW) Nm",
+      "1.5 DCi 116hp (85kW) 260Nm",
+      "1.7 DCi 150hp (110kW) 340Nm"
+    ],
+    "Kangoo 2001 - 2013": [
+      "1.5 DCi 105hp (77kW) 240Nm",
+      "1.5 DCi 61hp (45kW) 130Nm",
+      "1.5 DCi 65hp (48kW) 160Nm",
+      "1.5 DCi 68hp (50kW) 160Nm",
+      "1.5 DCi 70hp (51kW) 185Nm",
+      "1.5 DCi 75hp (55kW) 185Nm",
+      "1.5 DCi 82hp (60kW) 185Nm",
+      "1.5 DCi 85hp (62kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "1.9 DCi 80hp (59kW) 180Nm",
+      "1.9 DTI 80hp (59kW) 160Nm"
+    ],
+    "Kangoo 2013 - 2020": [
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.5 BlueDCi 115hp (85kW) 260Nm",
+      "1.5 BlueDCi 80hp (59kW) 210Nm",
+      "1.5 BlueDCi 95hp (70kW) 210Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.5 DCi 75hp (55kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 220Nm"
+    ],
+    "Kiger 2021 -> ...": [
+      "1.0 TCe {power) (kW) Nm"
+    ],
+    "Koleos 2008 - 2017": [
+      "2.0 DCi 150hp (110kW) 320Nm",
+      "2.0 DCi 175hp (129kW) 360Nm"
+    ],
+    "Koleos 2017 - 2018": [
+      "1.6 dCi 130hp (96kW) 320Nm",
+      "1.7 Blue dCi 150hp (110kW) 340Nm",
+      "2.0 dCi 175hp (129kW) 360Nm"
+    ],
+    "Laguna Coupé All": [
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "2.0 DCi 130hp (96kW) 320Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 175hp (129kW) 400Nm",
+      "2.0 DCi GT 180hp (132kW) 400Nm",
+      "2.0 Turbo 170hp (125kW) 270Nm",
+      "2.0 Turbo GT 205hp (151kW) 300Nm",
+      "3.0 DCi 235hp (173kW) 450Nm"
+    ],
+    "Laguna II - 2001 - 2007": [
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "1.9 DCi 100hp (74kW) 200Nm",
+      "1.9 DCi 110hp (81kW) 250Nm",
+      "1.9 DCi 115hp (85kW) 270Nm",
+      "1.9 DCi 120hp (88kW) 270Nm",
+      "1.9 DCi 130hp (96kW) 300Nm",
+      "1.9 DCi 95hp (70kW) 230Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 175hp (129kW) 360Nm",
+      "2.0 Turbo 163hp (120kW) 270Nm",
+      "2.0i 16v 135hp (99kW) 191Nm",
+      "2.2 DCi 150hp (110kW) 320Nm"
+    ],
+    "Laguna III - 2007 ->": [
+      "1.4 TCE 130hp (96kW) 190Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "2.0 DCi 130hp (96kW) 320Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 175hp (129kW) 360Nm",
+      "2.0 DCi GT 180hp (132kW) 400Nm",
+      "2.0 Turbo 170hp (125kW) 270Nm",
+      "2.0 Turbo GT 205hp (151kW) 300Nm",
+      "2.0i 16v 140hp (103kW) 191Nm",
+      "3.0 DCi 235hp (173kW) 450Nm"
+    ],
+    "Latitude 2011 ->": [
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 175hp (129kW) 380Nm",
+      "2.0 Turbo 170hp (125kW) 270Nm",
+      "3.0 DCi 235hp (173kW) 450Nm"
+    ],
+    "Mascott All": [
+      "2.5 DCi 120hp (88kW) 300Nm",
+      "2.8 DCi 100hp (74kW) 285Nm",
+      "2.8 DCi 125hp (92kW) 300Nm",
+      "2.8 DCi 145hp (107kW) 320Nm",
+      "3.0 DCi 115hp (85kW) 270Nm",
+      "3.0 DCi 136hp (100kW) 320Nm",
+      "3.0 DCi 156hp (115kW) 350Nm"
+    ],
+    "Master Mk2 - 1998 - 2010": [
+      "1.9 DCi 82hp (60kW) 200Nm",
+      "2.0 DCi 120hp (88kW) 300Nm",
+      "2.2 DCi 114hp (84kW) 290Nm",
+      "2.2 DCi 90hp (66kW) 260Nm",
+      "2.5 DCi 100hp (74kW) 290Nm",
+      "2.5 DCi 125hp (92kW) 300Nm",
+      "2.5 DCi 150hp (110kW) 350Nm",
+      "3.0 DCi 136hp (100kW) 320Nm",
+      "3.0 DCi 156hp (115kW) 350Nm"
+    ],
+    "Master Mk3 - 2010 - 2014": [
+      "2.3 DCI 100hp (74kW) 285Nm",
+      "2.3 DCI 125hp (92kW) 310Nm",
+      "2.3 DCI 146hp (107kW) 350Nm",
+      "2.3 DCI 150hp (110kW) 350Nm"
+    ],
+    "Master Mk4 - 2014 - 2016": [
+      "2.3 DCI 110hp (81kW) 285Nm",
+      "2.3 DCI 125hp (92kW) 310Nm",
+      "2.3 DCI 145hp (107kW) 350Nm",
+      "2.3 DCI BiTurbo 135hp (99kW) 340Nm",
+      "2.3 DCI BiTurbo 165hp (121kW) 360Nm"
+    ],
+    "Master Mk4 - 2016 - 2019": [
+      "2.3 DCI (Euro 6) 110hp (81kW) 285Nm",
+      "2.3 DCI (Euro 6) 130hp (96kW) 340Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 145hp (107kW) 360Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 165hp (121kW) 380Nm",
+      "2.3 DCi Bi-turbo (Euro 6) 170hp (125kW) 380Nm"
+    ],
+    "Master Mk5 - 2019 ->": [
+      "2.3 DCi 130hp (96kW) 330Nm",
+      "2.3 DCi 135hp (kW) Nm",
+      "2.3 DCi 145hp (107kW) 360Nm",
+      "2.3 DCi 150hp (kW) Nm",
+      "2.3 DCi 165hp (121kW) 380Nm",
+      "2.3 DCi 180hp (kW) Nm"
+    ],
+    "Maxity -> 2015": [
+      "2.5 DCi 110hp (81kW) 340Nm",
+      "2.5 DCi 130hp (96kW) 270Nm",
+      "2.5 DCi 136hp (100kW) 270Nm",
+      "3.0 DCi 150hp (110kW) 350Nm"
+    ],
+    "Maxity 2016 ->": [
+      "2.5 DCi 130hp (96kW) 300Nm",
+      "3.0 DCi 130hp (96kW) 300Nm",
+      "3.0 DCi 150hp (110kW) 350Nm"
+    ],
+    "Megane 2   - 2002 - 2008": [
+      "1.4i 16v 98hp (72kW) 127Nm",
+      "1.5 DCi 100hp (74kW) 200Nm",
+      "1.5 DCi 105hp (77kW) 240Nm",
+      "1.5 DCi 80hp (59kW) 185Nm",
+      "1.5 DCi 85hp (62kW) 200Nm",
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "1.6i 16v 115hp (85kW) 152Nm",
+      "1.9 DCi 102hp (75kW) 200Nm",
+      "1.9 DCi 115hp (85kW) 300Nm",
+      "1.9 DCi 120hp (88kW) 300Nm",
+      "1.9 DCi 130hp (96kW) 300Nm",
+      "1.9 DTI 100hp (74kW) 200Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 175hp (129kW) 380Nm",
+      "2.0 Turbo 165hp (121kW) 270Nm",
+      "2.0i 16v 136hp (100kW) 191Nm",
+      "RS 2.0 Turbo 225hp (165kW) 300Nm",
+      "RS 2.0 Turbo R26R 230hp (169kW) 310Nm"
+    ],
+    "Megane 3 - (ph1) - 2008 - 2012": [
+      "1.4 TCE 130hp (96kW) 190Nm",
+      "1.5 DCi 106hp (78kW) 240Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.5 DCi 85hp (62kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6i 16v 100hp (74kW) 148Nm",
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "1.9 DCi 130hp (96kW) 300Nm",
+      "2.0 DCi 150hp (110kW) 360Nm",
+      "2.0 DCi 160hp (118kW) 380Nm",
+      "2.0 TCE 180hp (132kW) 300Nm",
+      "2.0i 16v 140hp (103kW) 195Nm",
+      "GT 2.0T 220hp (162kW) 340Nm",
+      "RS 2.0T 250hp (184kW) 340Nm",
+      "RS 2.0T 265hp (195kW) 360Nm"
+    ],
+    "Megane 3 - (ph2) - 2012 - 2013": [
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.4 TCE 130hp (96kW) 190Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6i 16v 100hp (74kW) 148Nm",
+      "2.0i 16v 140hp (103kW) 195Nm",
+      "GT 2.0 TCE 180hp (132kW) 300Nm",
+      "GT 2.0 TCE 190hp (140kW) 300Nm",
+      "GT 2.0T 220hp (162kW) 340Nm",
+      "RS 2.0T 265hp (195kW) 360Nm"
+    ],
+    "Megane 3 - (ph3) - 2013 - 2015": [
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.2 TCE 130hp (96kW) 205Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.5 DCi 95hp (70kW) 240Nm",
+      "1.6 16V 110hp (81kW) 151Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "2.0 DCi 165hp (121kW) 380Nm",
+      "2.0 Turbo 220hp (162kW) 340Nm",
+      "RS 2.0T 265hp (195kW) 360Nm",
+      "RS 2.0T 275hp (202kW) 360Nm"
+    ],
+    "Megane 4 - (ph1) - 2016 - 2019": [
+      "1.2 TCE 100hp (74kW) 175Nm",
+      "1.2 TCE 130hp (96kW) 205Nm",
+      "1.3 TCe 115hp (kW) Nm",
+      "1.3 TCe 140hp (kW) Nm",
+      "1.3 TCe 160hp (kW) Nm",
+      "1.5 dCi 110hp (81kW) 260Nm",
+      "1.5 dCi 115hp (85kW) 260Nm",
+      "1.5 dCi 90hp (66kW) 220Nm",
+      "1.5 dCi 95hp (70kW) 240Nm",
+      "1.6 TCE GT 205hp (151kW) 280Nm",
+      "1.6 dCi 130hp (96kW) 320Nm",
+      "1.6 dCi 165hp (121kW) 380Nm",
+      "1.7 Blue dCi 150hp (110kW) 340Nm",
+      "RS 1.8 Turbo 280hp (206kW) 390Nm",
+      "RS Trophy 1.8 Turbo 300hp (221kW) 400Nm"
+    ],
+    "Modus All": [
+      "1.2 TCE 100hp (74kW) 145Nm",
+      "1.2i 16v 75hp (55kW) 105Nm",
+      "1.4i 16v 98hp (72kW) 127Nm",
+      "1.5 DCi 106hp (78kW) 240Nm",
+      "1.5 DCi 65hp (48kW) 160Nm",
+      "1.5 DCi 68hp (50kW) 160Nm",
+      "1.5 DCi 75hp (55kW) 180Nm",
+      "1.5 DCi 80hp (59kW) 185Nm",
+      "1.5 DCi 86hp (63kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6i 16v 112hp (82kW) 151Nm"
+    ],
+    "Scenic I - 1999 - 2003": [
+      "1.9 DCi 100hp (74kW) 200Nm",
+      "1.9 DCi 105hp (77kW) 200Nm",
+      "1.9 DTI 102hp (75kW) 200Nm",
+      "1.9 DTI 80hp (59kW) 160Nm"
+    ],
+    "Scenic II - 2003 - 2006": [
+      "1.4i 16v 98hp (72kW) 127Nm",
+      "1.5 DCi 100hp (74kW) 200Nm",
+      "1.5 DCi 105hp (77kW) 240Nm",
+      "1.5 DCi 80hp (59kW) 185Nm",
+      "1.5 DCi 85hp (62kW) 200Nm",
+      "1.6i 16v 110hp (81kW) 148Nm",
+      "1.6i 16v 115hp (85kW) 152Nm",
+      "1.9 DCi 115hp (85kW) 270Nm",
+      "1.9 DCi 120hp (88kW) 270Nm",
+      "1.9 DCi 130hp (96kW) 300Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 Turbo 165hp (121kW) 270Nm",
+      "2.0i 16v 136hp (100kW) 191Nm"
+    ],
+    "Scenic II - 2006 - 2009": [
+      "1.4i 16v 98hp (72kW) 127Nm",
+      "1.5 DCi 105hp (77kW) 240Nm",
+      "1.5 DCi 85hp (62kW) 200Nm",
+      "1.6i 16v 110hp (81kW) 152Nm",
+      "1.9 DCi 130hp (96kW) 300Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 Turbo 165hp (121kW) 270Nm",
+      "2.0i 16v 136hp (100kW) 191Nm"
+    ],
+    "Scenic III - 2009 - 2012": [
+      "1.4 TCE 130hp (96kW) 190Nm",
+      "1.5 DCi 110hp (81kW) 240Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6i 16v 110hp (81kW) 152Nm",
+      "1.9 DCi 130hp (96kW) 300Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 160hp (118kW) 380Nm",
+      "2.0i 16v 140hp (103kW) 195Nm"
+    ],
+    "Scenic III - 2012 - 2016": [
+      "1.2 TCE 110hp (81kW) 190Nm",
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.2 TCE 130hp (96kW) 205Nm",
+      "1.4 TCE 130hp (96kW) 190Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6i 16v 110hp (81kW) 152Nm",
+      "2.0 DCi 130hp (96kW) 320Nm",
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 160hp (118kW) 380Nm"
+    ],
+    "Scenic IV - 2016 - 2018": [
+      "1.2 TCE 115hp (85kW) 190Nm",
+      "1.2 TCE 130hp (96kW) 205Nm",
+      "1.5 DCi 110hp (81kW) 260Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DCi 160hp (118kW) 380Nm"
+    ],
+    "Scenic IV - 2018 ->": [
+      "1.3 TCE 115hp (kW) Nm",
+      "1.3 TCE 140hp (kW) Nm",
+      "1.3 TCE 160hp (kW) Nm",
+      "1.5 DCI 110hp - Hybrid Assist (81kW) 260Nm",
+      "1.7 Blue dCi 120hp (88kW) 300Nm",
+      "1.7 Blue dCi 150hp (110kW) 340Nm"
+    ],
+    "Talisman 2016 - 2019": [
+      "1.5 DCi 110hp (81kW) 250Nm",
+      "1.6 DCi 130hp (96kW) 320Nm",
+      "1.6 DCi 160hp (118kW) 380Nm",
+      "1.6 TCe 150hp (110kW) 220Nm",
+      "1.6 TCe 200hp (147kW) 260Nm",
+      "1.7 Blue dCi 120hp (88kW) 300Nm",
+      "1.7 Blue dCi 150hp (110kW) 340Nm",
+      "1.8 TCe 225hp (165kW) 300Nm",
+      "2.0 Blue dCi 160hp (118kW) 360Nm",
+      "2.0 Blue dCi 200hp (147kW) 400Nm"
+    ],
+    "Talisman 2020 ->": [
+      "1.3 TCE 140hp (kW) Nm",
+      "1.3 TCE 160hp (kW) Nm",
+      "1.7 BlueDCI 120hp (88kW) 300Nm",
+      "1.7 BlueDCI 150hp (110kW) 340Nm",
+      "1.8 TCE 225hp (kW) Nm",
+      "2.0 BlueDCI 160hp (118kW) 360Nm",
+      "2.0 BlueDCI 200hp (147kW) 400Nm"
+    ],
+    "Trafic 2001 - 2005": [
+      "1.9 DCi 100hp (74kW) 240Nm",
+      "1.9 DCi 82hp (60kW) 190Nm",
+      "2.5 DCi 135hp (99kW) 310Nm"
+    ],
+    "Trafic 2006 - 2014": [
+      "2.0 DCi 115hp (85kW) 290Nm",
+      "2.0 DCi 90hp (66kW) 240Nm",
+      "2.5 DCi 114hp (84kW) 290Nm",
+      "2.5 DCi 145hp (107kW) 320Nm",
+      "2.5 DCi 150hp (110kW) 320Nm"
+    ],
+    "Trafic 2014 - 2016": [
+      "1.6 DCi 115hp (85kW) 300Nm",
+      "1.6 DCi 90hp (66kW) 260Nm",
+      "1.6 DCi BiTurbo 120hp (88kW) 320Nm",
+      "1.6 DCi BiTurbo 140hp (103kW) 340Nm"
+    ],
+    "Trafic 2016 - 2019": [
+      "1.6 DCi 120hp (88kW) 320Nm",
+      "1.6 DCi 95hp (70kW) 260Nm",
+      "1.6 DCi BiTurbo 125hp (92kW) 320Nm",
+      "1.6 DCi BiTurbo 145hp (107kW) 340Nm"
+    ],
+    "Trafic 2019 ->": [
+      "1.6 DCi 95hp (70kW) 260Nm",
+      "2.0 DCi 120hp (88kW) 320Nm",
+      "2.0 DCi 145hp (107kW) 350Nm",
+      "2.0 DCi 170hp (125kW) 380Nm"
+    ],
+    "Twingo II - 2007 - 2014": [
+      "1.2 TCE 100hp (74kW) 145Nm",
+      "1.2i 16v 75hp (55kW) 105Nm",
+      "1.5 DCi 65hp (48kW) 160Nm",
+      "1.5 DCi 75hp (55kW) 180Nm",
+      "1.5 DCi 86hp (63kW) 200Nm",
+      "1.5 DCi 90hp (66kW) 200Nm",
+      "1.6i RS 133hp (98kW) 160Nm"
+    ],
+    "Twingo III - 2014 - 2019": [
+      "0.9 TCE 90hp (66kW) 135Nm",
+      "0.9 TCE GT 110hp (81kW) 170Nm",
+      "1.0 SCe 71hp (52kW) 91Nm"
+    ],
+    "Twingo III - 2019 ->": [
+      "0.9 TCe 92hp (68kW) 135Nm",
+      "1.0 SCe 65hp (48kW) 95Nm",
+      "1.0 SCe 73hp (54kW) 95Nm"
+    ],
+    "Vel Satis All": [
+      "2.0 DCi 150hp (110kW) 340Nm",
+      "2.0 DCi 175hp (129kW) 380Nm",
+      "2.0 Turbo 165hp (121kW) 250Nm",
+      "2.2 DCi 115hp (85kW) 250Nm",
+      "2.2 DCi 150hp (110kW) 320Nm",
+      "3.0 DCi 177hp (130kW) 350Nm"
+    ],
+    "Wind 2010 ->": [
+      "1.2 TCE 100hp (74kW) 152Nm",
+      "1.6i 133hp (98kW) 160Nm"
+    ]
+  },
+  "Renault truck": {
+    "Kerax All": [
+      "215hp (158kW) 700Nm",
+      "265hp (195kW) 900Nm",
+      "361hp (265kW) 1210Nm",
+      "370 DXI-11 (272kW) 1735Nm",
+      "410 DXI-11 (301kW) 1900Nm",
+      "412hp (303kW) 1870Nm"
+    ],
+    "Magnum All": [
+      "400hp (294kW) 1850Nm",
+      "440hp  OPTIDRIVER (324kW) 2240Nm",
+      "440hp (324kW) 2050Nm",
+      "460hp  DXI-13 (338kW) 2300Nm",
+      "480hp (353kW) 2250Nm",
+      "480hp OPTIDRIVER (353kW) 2440Nm",
+      "500hp DXI-13 (368kW) 2450Nm",
+      "530hp (390kW) 2300Nm"
+    ],
+    "Midlum All": [
+      "160hp DXI-5 (118kW) 580Nm",
+      "190hp DXI-5 (140kW) 690Nm",
+      "220hp (162kW) 700Nm",
+      "220hp DXI-5 (162kW) 800Nm",
+      "240hp DXI-7 (176kW) 920Nm",
+      "270hp (199kW) 900Nm",
+      "280 DXI-7 (206kW) 1050Nm"
+    ],
+    "Premium All": [
+      "270hp (199kW) 900Nm",
+      "320hp (235kW) 1210Nm",
+      "370hp (272kW) 1670Nm",
+      "420hp (309kW) 1870Nm"
+    ]
+  },
+  "Roewe": {
+    "550 2008 - >": [
+      "1.8T 160hp (118kW) 215Nm",
+      "1.8i 130hp (96kW) 168Nm"
+    ]
+  },
+  "Rolls Royce": {
+    "Cullinan 2018 ->": [
+      "6.75 V12 571hp (420kW) 850Nm"
+    ],
+    "Dawn All": [
+      "6.6 V12 571hp (420kW) 820Nm"
+    ],
+    "Ghost All": [
+      "6.6 V12 570hp (419kW) 820Nm",
+      "6.6 V12 612hp (450kW) 840Nm"
+    ],
+    "Wraith All": [
+      "6.6 V12 633hp (465kW) 795Nm"
+    ]
+  },
+  "Rover": {
+    "75 All": [
+      "2.0 CDTI 115hp (85kW) 260Nm",
+      "2.0 CDTI 131hp (96kW) 300Nm"
+    ]
+  },
+  "Saab": {
+    "9-3 1998 - 2002": [
+      "2.0 Turbo 150hp (110kW) 240Nm",
+      "2.0 Turbo 154hp (113kW) 219Nm",
+      "2.0 Turbo 185hp (136kW) 263Nm",
+      "2.0 Turbo 200hp (147kW) 283Nm",
+      "2.2 TiD 115hp (85kW) 260Nm"
+    ],
+    "9-3 2002 - 2007": [
+      "1.8 Turbo 150hp (110kW) 240Nm",
+      "1.9 TiD 120hp (88kW) 280Nm",
+      "1.9 TiD 150hp (110kW) 320Nm",
+      "2.0 Turbo 175hp (129kW) 265Nm",
+      "2.0 Turbo 185hp (136kW) 263Nm",
+      "2.0 Turbo 210hp (154kW) 300Nm",
+      "2.8 V6 Turbo 250hp (184kW) 350Nm"
+    ],
+    "9-3 2007 - 2010": [
+      "1.8 Turbo 150hp (110kW) 240Nm",
+      "1.8 Turbo 175hp (129kW) 265Nm",
+      "1.9 TTiD 180hp (132kW) 400Nm",
+      "1.9 TiD 120hp (88kW) 280Nm",
+      "1.9 TiD 150hp (110kW) 320Nm",
+      "2.0 Turbo 175hp (129kW) 265Nm",
+      "2.0 Turbo 200hp (147kW) 300Nm",
+      "2.0 Turbo 210hp (154kW) 300Nm",
+      "2.8 V6 Turbo 280hp (206kW) 400Nm"
+    ],
+    "9-3 2010 ->": [
+      "1.8 Turbo 150hp (110kW) 240Nm",
+      "1.9 TTiD 130hp (96kW) 320Nm",
+      "1.9 TTiD 160hp (118kW) 360Nm",
+      "1.9 TTiD 180hp (132kW) 400Nm",
+      "2.0 Turbo 175hp (129kW) 265Nm",
+      "2.0 Turbo 210hp (154kW) 300Nm",
+      "2.8 V6 Turbo 280hp (206kW) 400Nm"
+    ],
+    "9-4 X 2011 ->": [
+      "2.8 V6 Turbo 300hp (kW) Nm"
+    ],
+    "9-5 1997 - 2001": [
+      "2.0 Turbo 150hp (110kW) 240Nm",
+      "2.3 Turbo 170hp (125kW) 280Nm",
+      "2.3 Turbo 185hp (136kW) 280Nm",
+      "2.3 Turbo 230hp (169kW) 350Nm",
+      "3.0 V6 Turbo 200hp (147kW) 310Nm"
+    ],
+    "9-5 2001 - 2005": [
+      "2.0 Turbo 150hp (110kW) 240Nm",
+      "2.3 Turbo 185hp (136kW) 280Nm",
+      "2.3 Turbo 220hp (162kW) 310Nm",
+      "2.3 Turbo 250hp (184kW) 350Nm",
+      "3.0 TiD 176hp (129kW) 350Nm",
+      "3.0 V6 Turbo 200hp (147kW) 310Nm"
+    ],
+    "9-5 2005 - 2010": [
+      "1.9 TiD 150hp (110kW) 320Nm",
+      "2.0 Turbo 150hp (110kW) 240Nm",
+      "2.3 Turbo 185hp (136kW) 280Nm",
+      "2.3 Turbo 220hp (162kW) 310Nm",
+      "2.3 Turbo 260hp (191kW) 350Nm"
+    ],
+    "9-5 2010 - 2011": [
+      "1.6 Turbo 180hp (132kW) 230Nm",
+      "2.0 TTiD 190hp (140kW) 400Nm",
+      "2.0 TiD 160hp (118kW) 350Nm",
+      "2.0 Turbo 220hp (162kW) 350Nm",
+      "2.8 Turbo 300hp (221kW) 400Nm",
+      "3.0 TID V6 177hp (130kW) 350Nm",
+      "3.0 Turbo 200hp (147kW) 310Nm"
+    ],
+    "900 Cabriolet All": [
+      "2.0 Turbo 185hp (136kW) 230Nm"
+    ]
+  },
+  "Saturn": {
+    "Aura 2007 - 2009": [
+      "2.4i 170hp (125kW) 220Nm",
+      "3.5 V6 224hp (165kW) 298Nm",
+      "3.6 V6 252hp (185kW) 340Nm"
+    ],
+    "Ion 2003 - 2007": [
+      "2.0 Supercharged 205hp (151kW) 271Nm",
+      "2.2i 140hp (103kW) 197Nm",
+      "2.4i 175hp (129kW) 222Nm"
+    ],
+    "L-Series 2000 - 2004": [
+      "2.2i 140hp (103kW) 203Nm"
+    ],
+    "Outlook 2007 - 2010": [
+      "3.6 V6 275hp (202kW) 340Nm"
+    ],
+    "Relay 2004 - 2007": [
+      "3.5 V6 200hp (147kW) 300Nm"
+    ],
+    "Sky 2007 - 2010": [
+      "2.0 Turbo 260hp (191kW) 353Nm",
+      "2.4i 177hp (130kW) 235Nm"
+    ],
+    "Vue 2002 - 2007": [
+      "2.4i - 170hp (125kW) 220Nm",
+      "3.5 V6 250hp (184kW) 328Nm"
+    ],
+    "Vue 2008 - 2010": [
+      "2.4i - 170hp (125kW) 220Nm"
+    ]
+  },
+  "Scania trucks": {
+    "P-Serie All": [
+      "230 (169kW) 1050Nm",
+      "270 (199kW) 1250Nm",
+      "310 (228kW) 1550Nm",
+      "340 (250kW) 1700Nm",
+      "380 (279kW) 1900Nm",
+      "420 (309kW) 2100Nm"
+    ],
+    "R-Serie All": [
+      "230 (169kW) 1050Nm",
+      "270 (199kW) 1250Nm",
+      "310 (228kW) 1550Nm",
+      "340 (250kW) 1700Nm",
+      "380 (279kW) 1900Nm",
+      "420 (309kW) 2100Nm",
+      "470 (346kW) 2200Nm",
+      "480 (353kW) 2250Nm",
+      "500 (368kW) 2400Nm",
+      "560 (412kW) 2700Nm",
+      "580 (426kW) 2750Nm"
+    ]
+  },
+  "Seat": {
+    "Alhambra 1996 - 2000": [
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 90hp (66kW) 202Nm"
+    ],
+    "Alhambra 2000 - 2010": [
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.9 TDI 115hp (85kW) 310Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 90hp (66kW) 240Nm",
+      "2.0 TDI 140hp (103kW) 310Nm",
+      "2.0i 8v 115hp (85kW) 170Nm"
+    ],
+    "Alhambra 2010 ->": [
+      "1.4 TSI 150hp (110kW) 240Nm",
+      "2.0 TDI CR 115hp (85kW) 280Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "2.0 TSI 220hp (162kW) 350Nm"
+    ],
+    "Altea / XL 2004 - 2009": [
+      "1.2 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.6i 102hp (75kW) 148Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "FR 2.0 TFSI 200hp (147kW) 280Nm"
+    ],
+    "Altea / XL 2009 ->": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "1.6i 102hp (75kW) 148Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TSI 211hp (155kW) 280Nm"
+    ],
+    "Altea FreeTrack 2007 - 2009": [
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TSI 200hp (147kW) 280Nm"
+    ],
+    "Altea FreeTrack 2009 - 2013": [
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TSI 211hp (155kW) 280Nm"
+    ],
+    "Arona 2017 - 2020": [
+      "1.0 TGI 90hp (66kW) 160Nm",
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 160Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 115hp (85kW) 250Nm",
+      "1.6 TDI 95hp (70kW) 250Nm"
+    ],
+    "Arona 2021 -> ...": [
+      "1.0 TSI 110hp (kW) Nm",
+      "1.0 TSI 95hp (kW) Nm"
+    ],
+    "Arosa 1997 - 2001": [
+      "1.0i 8v 50hp (37kW) 86Nm",
+      "1.4 TDI 75hp (55kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 8v 60hp (44kW) 116Nm",
+      "1.7 SDI 60hp (44kW) 115Nm"
+    ],
+    "Arosa 2001 - 2004": [
+      "1.0i 8v 50hp (37kW) 86Nm",
+      "1.4 TDI 75hp (55kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 8v 60hp (44kW) 116Nm",
+      "1.7 SDI 60hp (44kW) 115Nm"
+    ],
+    "Ateca 2016 - 2019": [
+      "1.0 EcoTSI 115hp (85kW) 200Nm",
+      "1.4 EcoTSI 150hp (110kW) 250Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 115hp (85kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "FR 2.0 TDI 190hp (140kW) 400Nm",
+      "FR 2.0 TSI 190hp (140kW) 320Nm"
+    ],
+    "Ateca 2020 ->": [
+      "1.0 TSI 116hp (85kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TGI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI 115hp (85kW) 300Nm",
+      "2.0 TDI 150hp (110kW) 360Nm",
+      "2.0 TDI 190hp (kW) Nm",
+      "2.0 TSI 190hp (140kW) 320Nm"
+    ],
+    "Cordoba 6K - 1999 - 2003": [
+      "1.4i 8v 60hp (44kW) 116Nm",
+      "1.6i 16v 100hp (74kW) 145Nm",
+      "1.6i 8v 75hp (55kW) 135Nm",
+      "1.8 T 20v 156hp (115kW) 210Nm",
+      "1.9 SDI 68hp (50kW) 133Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 90hp (66kW) 210Nm"
+    ],
+    "Cordoba 6L - 2003 - 2009": [
+      "1.2i 12v 70hp (51kW) 112Nm",
+      "1.4 TDI 70hp (51kW) 155Nm",
+      "1.4 TDI 75hp (55kW) 155Nm",
+      "1.4 TDI 80hp (59kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.4i 16v 85hp (62kW) 130Nm",
+      "1.6i 16v 105hp (77kW) 153Nm",
+      "1.9 SDI 64hp (47kW) 125Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 130hp (96kW) 310Nm"
+    ],
+    "Exeo 2009 ->": [
+      "1.4 TFSI 125hp (92kW) 200Nm",
+      "1.8 TSI 120hp (88kW) 230Nm",
+      "1.8 TSI 150hp (110kW) 220Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 120hp (88kW) 290Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "2.0 TSI 210hp (154kW) 320Nm"
+    ],
+    "Ibiza 1999 - 2002 ( 6K )": [
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6i 8v 100hp (74kW) 145Nm",
+      "1.8T 20v 156hp (115kW) 210Nm",
+      "1.8T 20v 180hp (132kW) 235Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 90hp (66kW) 210Nm"
+    ],
+    "Ibiza 2002 - 2008 ( 6L )": [
+      "1.4 TDI 70hp (51kW) 155Nm",
+      "1.4 TDI 80hp (59kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.4i 16v 85hp (62kW) 132Nm",
+      "1.6i 16v 105hp (77kW) 153Nm",
+      "1.8T 20v 150hp (110kW) 220Nm",
+      "1.8T 20v 180hp (132kW) 245Nm",
+      "1.9 SDI 64hp (47kW) 125Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "2.0i 8v 115hp (85kW) 170Nm",
+      "Cupra 1.9 TDI 160hp (118kW) 330Nm"
+    ],
+    "Ibiza 2008 - 2015 ( 6J )": [
+      "1.2 TDI 75hp (55kW) 180Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.2i 60hp (44kW) 108Nm",
+      "1.2i 70hp (51kW) 112Nm",
+      "1.4 TDI 80hp (59kW) 195Nm",
+      "1.4 TSI 140hp (103kW) 250Nm",
+      "1.4 TSI 150hp (CAVF) (110kW) 220Nm",
+      "1.4 TSI 150hp (CTHF-CTJC) (110kW) 220Nm",
+      "1.4 TSI 180hp (CAVE) (132kW) 250Nm",
+      "1.4 TSI 180hp (CTHE-CTJC) (132kW) 250Nm",
+      "1.4i 16v 85hp (62kW) 132Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 75hp (55kW) 195Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "1.6i 16v 105hp (77kW) 153Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0 TDI 143hp (105kW) 320Nm"
+    ],
+    "Ibiza 2015 - 2017  ( 6J )": [
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 75hp (55kW) 160Nm",
+      "1.0 TSI 95hp (70kW) 160Nm",
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.2 TSI 90hp (66kW) 160Nm",
+      "1.4 EcoTSI 150hp (110kW) 250Nm",
+      "1.4 TDI 105hp (77kW) 250Nm",
+      "1.4 TDI 75hp (55kW) 210Nm",
+      "1.4 TDI 90hp (66kW) 230Nm",
+      "1.8 TSI Cupra 192hp (141kW) 320Nm"
+    ],
+    "Ibiza 2017 -> ( A0 )": [
+      "1.0 MPI 110hp (81kW) 155Nm",
+      "1.0 MPI 75hp (55kW) 95Nm",
+      "1.0 MPI 80hp (59kW) 95Nm",
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 175Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 115hp (85kW) 250Nm",
+      "1.6 TDI 80hp (59kW) 230Nm",
+      "1.6 TDI 95hp (70kW) 250Nm"
+    ],
+    "Ibiza 2021 -> ...": [
+      "1.0 TGI 90hp (kW) Nm",
+      "1.0 TSI 110hp (kW) Nm",
+      "1.0 TSI 115hp (kW) Nm",
+      "1.5 TSI 150hp (kW) Nm"
+    ],
+    "Leon 1M - 2000 - 2006": [
+      "1.4i 16v 75hp (55kW) 128Nm",
+      "1.6i 16v 105hp (77kW) 148Nm",
+      "1.6i 8v 100hp (74kW) 145Nm",
+      "1.8T 20v 180hp (132kW) 235Nm",
+      "1.8T 20v 210hp (154kW) 270Nm",
+      "1.8T 20v 225hp (165kW) 280Nm",
+      "1.8i 20v 125hp (92kW) 170Nm",
+      "1.9 SDI 68hp (50kW) 133Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 150hp (110kW) 320Nm",
+      "1.9 TDI 90hp (66kW) 210Nm"
+    ],
+    "Leon 1P - 2005 - 2012": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 86hp (63kW) 160Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4i 16v 85hp (62kW) 130Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TFSI 185hp (136kW) 270Nm",
+      "2.0 TFSI 200hp (147kW) 280Nm",
+      "2.0 TFSI 240hp (176kW) 300Nm",
+      "2.0 TFSI 265hp (195kW) 350Nm",
+      "2.0 TFSI 310hp (228kW) 420Nm",
+      "2.0 TFSI FR 210hp (154kW) 280Nm"
+    ],
+    "Leon 5F MK1 - 2012 - 2017": [
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 160Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.4 TGI 110hp (81kW) 200Nm",
+      "1.4 TSI 122hp (CMBA-CXSA) (90kW) 200Nm",
+      "1.4 TSI 125hp (CZCA) (92kW) 200Nm",
+      "1.4 TSI 140hp (CHPA) (103kW) 250Nm",
+      "1.4 TSI 150hp FR (110kW) 250Nm",
+      "1.6 TDI CR 105hp (77kW) 250Nm",
+      "1.6 TDI CR 110hp (81kW) 250Nm",
+      "1.6 TDI CR 90hp (66kW) 230Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TFSI 265hp (195kW) 350Nm",
+      "2.0 TFSI 280hp (206kW) 350Nm",
+      "2.0 TFSI 290hp (213kW) 350Nm"
+    ],
+    "Leon 5F MK2 - 2017 - 2019": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TGI 130hp (96kW) 200Nm",
+      "1.5 TSI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 115hp (85kW) 250Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI 184hp (135kW) 380Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "2.0 TSI Cupra 300hp (221kW) 380Nm"
+    ],
+    "Leon KL - 2020 ->": [
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 90hp (66kW) 160Nm",
+      "1.5 TSI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.5 e-TSI 150hp (kW) Nm",
+      "2.0 TDI 115hp (85kW) 300Nm",
+      "2.0 TDI 150hp (110kW) 360Nm",
+      "2.0 TSI 190hp (kW) Nm"
+    ],
+    "Mii 2012 ->": [
+      "1.0i 60hp (44kW) 92Nm",
+      "1.0i 75hp (55kW) 95Nm"
+    ],
+    "Tarraco 2019 ->": [
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TDI 200hp (147kW) 400Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "2.0 TSI PHEV 245hp (kW) Nm"
+    ],
+    "Toledo 1999 - 2004": [
+      "1.6i 16v 105hp (77kW) 148Nm",
+      "1.8T 20v 180hp (132kW) 235Nm",
+      "1.8i 20v 125hp (92kW) 170Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 150hp (110kW) 320Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.3 V5 150hp (110kW) 210Nm",
+      "2.3 V5 170hp (125kW) 225Nm"
+    ],
+    "Toledo 2004 - 2009": [
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 140hp (103kW) 320Nm"
+    ],
+    "Toledo 2013 ->": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.4 TDI 90hp (66kW) 230Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 140hp (103kW) 250Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 115hp (85kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm"
+    ]
+  },
+  "Skoda": {
+    "Citigo 2012 ->": [
+      "1.0 TSi 90hp (66kW) 160Nm",
+      "1.0i 60hp (44kW) 95Nm",
+      "1.0i 75hp (55kW) 95Nm"
+    ],
+    "Fabia 2000 - 2007": [
+      "1.4 TDI 70hp (51kW) 155Nm",
+      "1.4 TDI 75hp (55kW) 195Nm",
+      "1.4 TDI 80hp (59kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.9 SDI 64hp (47kW) 125Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "2.0i 8v 115hp (85kW) 170Nm"
+    ],
+    "Fabia 2007 - 2014": [
+      "1.2 TDI 75hp (55kW) 180Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.2i 60hp (44kW) 108Nm",
+      "1.2i 70hp (51kW) 112Nm",
+      "1.4 TDI 70hp (51kW) 155Nm",
+      "1.4 TDI 80hp (59kW) 195Nm",
+      "1.4 TSI RS 180hp (CAVE) (132kW) 250Nm",
+      "1.4 TSI RS 180hp (CTHE) (132kW) 250Nm",
+      "1.4i 16v 85hp (62kW) 132Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 75hp (55kW) 195Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "1.6i 16v 105hp (77kW) 153Nm",
+      "1.9 TDI 105hp (77kW) 250Nm"
+    ],
+    "Fabia 2015 - 2020": [
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 160Nm",
+      "1.0i 60hp (44kW) 95Nm",
+      "1.0i 75hp (55kW) 95Nm",
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.2 TSI 90hp (66kW) 160Nm",
+      "1.4 TDI CR 105hp (77kW) 250Nm",
+      "1.4 TDI CR 75hp (55kW) 210Nm",
+      "1.4 TDI CR 90hp (66kW) 230Nm"
+    ],
+    "Fabia 2021 -> ...": [
+      "1.0 TSI 110hp (kW) Nm",
+      "1.0 TSI 95hp (kW) Nm",
+      "1.0i 65hp (kW) Nm",
+      "1.0i 80hp (59kW) 95Nm",
+      "1.5 TSI 150hp (kW) Nm"
+    ],
+    "Kamiq 2019 ->": [
+      "1.0 TSi 115hp (85kW) 200Nm",
+      "1.0 TSi 95hp (70kW) 175Nm",
+      "1.5 TSi 150hp (110kW) 250Nm",
+      "1.5i 109hp (kW) Nm",
+      "1.6 TDI 115hp (85kW) 250Nm"
+    ],
+    "Karoq 2017 ->": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 116hp (85kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TDI Bi-Turbo RS 240hp (176kW) 500Nm",
+      "2.0 TSI 190hp (140kW) 320Nm"
+    ],
+    "Kodiaq 2017 - 2020": [
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 190hp (140kW) 400Nm",
+      "2.0 TSI 180hp (132kW) 320Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "RS 2.0 Bi-Turbo TDI 240hp (176kW) 500Nm"
+    ],
+    "Octavia 1997 - 2004": [
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.8T 20v 180hp (132kW) 235Nm",
+      "1.8i 20v 125hp (92kW) 170Nm",
+      "1.9 SDI 68hp (50kW) 130Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 115hp (85kW) 310Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 90hp (66kW) 210Nm"
+    ],
+    "Octavia 2004 - 2012": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6 FSI 115hp (85kW) 155Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TFSI RS 200hp (147kW) 280Nm"
+    ],
+    "Octavia 2013 - 2016": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 86hp (63kW) 160Nm",
+      "1.4 TSI 140hp (CHPA) (103kW) 250Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.4 TSI G-TEC 110hp (81kW) 200Nm",
+      "1.6 TDI CR 105hp (77kW) 250Nm",
+      "1.6 TDI CR 110hp (81kW) 250Nm",
+      "1.6 TDI CR 90hp (66kW) 230Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TSI RS 220hp (162kW) 350Nm",
+      "2.0 TSI RS Edition 230hp (169kW) 350Nm"
+    ],
+    "Octavia 2017 - 2019": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.2 TSI 86hp (63kW) 160Nm",
+      "1.4 TSI 140hp (CHPA) (103kW) 250Nm",
+      "1.4 TSI G-tec 110hp (81kW) 200Nm",
+      "1.4 TSi 150hp (CHPB) (110kW) 250Nm",
+      "1.5 TSI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI CR 110hp (81kW) 250Nm",
+      "1.6 TDI CR 115hp (85kW) 250Nm",
+      "1.6 TDI CR 90hp (66kW) 230Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "2.0 TSI RS 230hp (169kW) 350Nm",
+      "2.0 TSI RS 245hp (180kW) 370Nm"
+    ],
+    "Octavia 2020 ->": [
+      "1.0 TSI 110hp (kW) Nm",
+      "1.4 TSI iV 204hp (kW) Nm",
+      "1.5 TSI 150hp (kW) Nm",
+      "2.0 TDI 115hp (85kW) 300Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "2.0 TDI 200hp (147kW) 400Nm",
+      "2.0 TSI 190hp (140kW) 320Nm"
+    ],
+    "Rapid 2012 ->": [
+      "1.0 TSi 110hp (81kW) 200Nm",
+      "1.0 TSi 95hp (70kW) 160Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.2 TSI 90hp (66kW) 160Nm",
+      "1.4 TDI 105hp (77kW) 250Nm",
+      "1.4 TDI 75hp (55kW) 210Nm",
+      "1.4 TDI 90hp (66kW) 230Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.5 TDI 110hp (81kW) 250Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 116hp (85kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm"
+    ],
+    "Roomster 2006 - 2010": [
+      "1.2i 12v 65hp (48kW) 112Nm",
+      "1.4 TDI 70hp (51kW) 155Nm",
+      "1.4 TDI 80hp (59kW) 195Nm",
+      "1.4i 16v 86hp (63kW) 132Nm",
+      "1.6i 16v 105hp (77kW) 153Nm",
+      "1.9 TDI 105hp (77kW) 250Nm"
+    ],
+    "Roomster 2010 ->": [
+      "1.2 TDI 75hp (55kW) 180Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 86hp (63kW) 160Nm",
+      "1.2i 70hp (51kW) 112Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm"
+    ],
+    "Scala 2019 ->": [
+      "1.0 TSi 116hp (85kW) 200Nm",
+      "1.0 TSi 95hp (70kW) 175Nm",
+      "1.5 TSI Edition S 190hp (kW) Nm",
+      "1.5 TSi 150hp (110kW) 250Nm",
+      "1.6 TDi 115hp (85kW) 250Nm"
+    ],
+    "Superb 2002 - 2008": [
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "1.9 TDI 130hp (96kW) 285Nm",
+      "2.0 TDI 136hp (100kW) 320Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0i 8v 115hp (85kW) 172Nm",
+      "2.5 TDI V6 155hp (114kW) 310Nm",
+      "2.5 TDI V6 163hp (120kW) 350Nm",
+      "2.8 V6 193hp (142kW) 280Nm"
+    ],
+    "Superb 2008 - 2015": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 140hp (103kW) 250Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "3.6 FSI 260hp (191kW) 350Nm"
+    ],
+    "Superb 2015 - 2019": [
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI CR 120hp (88kW) 280Nm",
+      "1.8 TSI 180hp (132kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 340Nm",
+      "2.0 TDI CR 190hp (140kW) 400Nm",
+      "2.0 TSI 220hp (162kW) 350Nm",
+      "2.0 TSI 280hp (206kW) 350Nm"
+    ],
+    "Superb 2019 ->": [
+      "1.4 TSI iV 218hp (160kW) 400Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 120hp (88kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI 190hp (140kW) 380Nm",
+      "2.0 TDI 200hp (147kW) 400Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "2.0 TSI 272hp (200kW) 350Nm"
+    ],
+    "Yeti 2009 - 2014": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 110hp (81kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm"
+    ],
+    "Yeti 2014 ->": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 110hp (81kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm"
+    ]
+  },
+  "Smart": {
+    "City 2002 - 2004": [
+      "0.8 CDI 45hp (33kW) 110Nm",
+      "1.0 Turbo 84hp (62kW) 120Nm",
+      "1.0 Turbo Brabus 98hp (72kW) 140Nm"
+    ],
+    "Crossblade 2002 - 2003": [
+      "0.6 Turbo 70hp (51kW) 108Nm"
+    ],
+    "ForFour 2004 - 2014": [
+      "1.5 CDI 68hp (50kW) 160Nm",
+      "1.5 DCI 95hp (70kW) 210Nm",
+      "1.5 Turbo 177hp (130kW) 230Nm"
+    ],
+    "ForFour 2014 ->": [
+      "0.9 Turbo 90hp (66kW) 135Nm",
+      "1.0i 61hp (45kW) 91Nm",
+      "1.0i 71hp (52kW) 91Nm"
+    ],
+    "ForTwo -> 2014": [
+      "0.8 CDI 41hp (30kW) 100Nm",
+      "0.8 CDI 45hp (33kW) 110Nm",
+      "0.8 CDI 54hp (40kW) 130Nm",
+      "0.9 Turbo 90hp (66kW) 135Nm",
+      "1.0 Turbo 84hp (62kW) 120Nm",
+      "1.0 Turbo Brabus 102hp (75kW) 147Nm",
+      "1.0 Turbo Brabus 98hp (72kW) 140Nm",
+      "1.0i 61hp (45kW) 92Nm",
+      "1.0i 71hp (52kW) 89Nm",
+      "Ultimate 112 - 112hp (82kW) 150Nm"
+    ],
+    "ForTwo 2014 ->": [
+      "0.8 CDI 54hp (40kW) 130Nm",
+      "0.9 Turbo 90hp (66kW) 135Nm",
+      "0.9 Turbo Brabus 109hp (80kW) 170Nm",
+      "1.0i 61hp (45kW) 92Nm",
+      "1.0i 71hp (52kW) 89Nm"
+    ],
+    "Roadster 2003 - 2006": [
+      "0.7 Turbo 62hp (46kW) 95Nm",
+      "0.7 Turbo 82hp (60kW) 110Nm",
+      "0.7 Turbo Brabus 101hp (74kW) 130Nm"
+    ]
+  },
+  "SsangYong": {
+    "Actyon All": [
+      "2.0 Xdi 136hp (100kW) 310Nm",
+      "2.0 Xdi 141hp (104kW) 310Nm",
+      "2.0 Xdi 155hp (114kW) 360Nm",
+      "2.2 e-XDI 178hp (131kW) 400Nm"
+    ],
+    "Korando 2011 - 2018": [
+      "2.0 XDi 150hp (110kW) 360Nm",
+      "2.0 XDi 175hp (129kW) 360Nm",
+      "2.2 e-XDI 178hp (131kW) 400Nm"
+    ],
+    "Korando 2019 ->": [
+      "1.5 T-GDI 163hp (kW) Nm",
+      "1.6 e-XDI 136hp (kW) Nm"
+    ],
+    "Kyron All": [
+      "200 XDi 141hp (104kW) 310Nm",
+      "270 XDi 165hp (121kW) 345Nm"
+    ],
+    "Musso 2018 - 2020": [
+      "2.2 e-XDi 181hp (133kW) 420Nm"
+    ],
+    "Rexton -> 2016": [
+      "2.0 XDi 155hp (114kW) 360Nm",
+      "2.2 e-XDI 178hp (131kW) 400Nm",
+      "270 XDi 163hp (120kW) 345Nm",
+      "270 XDi 180hp (132kW) 402Nm"
+    ],
+    "Rexton 2017 ->": [
+      "2.0 e-XGDi 225hp (kW) Nm",
+      "2.2 e-XDI 181hp (133kW) 420Nm"
+    ],
+    "Rodius All": [
+      "2.0 XDi 155hp (114kW) 360Nm",
+      "2.2 e-XDI 178hp (131kW) 400Nm",
+      "270 XDi 165hp (121kW) 345Nm"
+    ],
+    "Tivoli 2015 - 2019": [
+      "1.6 e-XDI 115hp (85kW) 300Nm"
+    ],
+    "Tivoli 2020 ->": [
+      "1.2 T-GDI 128hp (kW) Nm",
+      "1.5 T-GDI 163hp (kW) Nm",
+      "1.6 e-XDI 136hp (kW) Nm"
+    ],
+    "XLV 2016 ->": [
+      "1.6 e-XDI 115hp (85kW) 300Nm"
+    ]
+  },
+  "Steyr": {
+    "4100 All": [
+      "101 - 101hp (74kW) 435Nm"
+    ],
+    "4110 All": [
+      "4.4 - 112hp (82kW) 520Nm"
+    ],
+    "4115 All": [
+      "4.5 - 116hp (85kW) 520Nm"
+    ],
+    "4120 All": [
+      "4.4 - 121hp (89kW) 563Nm"
+    ],
+    "4130 All": [
+      "4.4 - 132hp (97kW) 594Nm"
+    ],
+    "6115 All": [
+      "116 - 116hp (85kW) 520Nm",
+      "6.7 - 117hp (86kW) 543Nm"
+    ],
+    "6125 All": [
+      "6.7 - 125hp (92kW) 566Nm",
+      "6.7 - 126hp (93kW) 593Nm"
+    ],
+    "6130 All": [
+      "6.7 CVT Ecotech Tier 4A - 131hp (96kW) 631Nm"
+    ],
+    "6135 All": [
+      "6.6 CVT - 137hp (101kW) 570Nm",
+      "6.7 - 136hp (100kW) 612Nm"
+    ],
+    "6140 All": [
+      "6.6 CVT - 141hp (104kW) 585Nm",
+      "6.7 - 141hp (104kW) 613Nm"
+    ],
+    "6145 All": [
+      "6.6 CVT - 147hp (108kW) 610Nm",
+      "6.7 CVT Ecotech Tier 4A - 146hp (107kW) 698Nm"
+    ],
+    "6150 All": [
+      "151 CVT - 151hp (111kW) 520Nm",
+      "6.6 CVT - 151hp (111kW) 630Nm"
+    ],
+    "6155 All": [
+      "6.6 CVT - 156hp (115kW) 660Nm"
+    ],
+    "6160 All": [
+      "6.6 CVT - 160hp (118kW) 675Nm",
+      "6.7 CVT Ecotech Tier 4A - 160hp (118kW) 767Nm"
+    ],
+    "6165 All": [
+      "6.7 CVT - 167hp (123kW) 774Nm"
+    ],
+    "6170 All": [
+      "6.6 CVT - 171hp (126kW) 725Nm",
+      "6.7 CVT Ecotech Tier 4A - 167hp (123kW) 825Nm"
+    ],
+    "6175 All": [
+      "6.6 CVT - 175hp (129kW) 745Nm"
+    ],
+    "6180 All": [
+      "6.7 CVT - 182hp (134kW) 844Nm"
+    ],
+    "6185 All": [
+      "6.7 CVT Ecotech Tier 4A - 185hp (136kW) 863Nm"
+    ],
+    "6190 All": [
+      "6.6 CVT - 192hp (141kW) 790Nm"
+    ],
+    "6195 All": [
+      "6.6 CVT - 196hp (144kW) 792Nm"
+    ],
+    "6200 All": [
+      "6.7 CVT - 197hp (145kW) 860Nm"
+    ],
+    "6205 All": [
+      "6.7 CVT Ecotech Tier 4A - 200hp (147kW) 927Nm"
+    ],
+    "6215 All": [
+      "6.7 CVT Ecotech Tier 4A - 215hp (158kW) 995Nm"
+    ],
+    "6230 All": [
+      "6.7 CVT Ecotech Tier 4A - 227hp (167kW) 1089Nm"
+    ]
+  },
+  "Subaru": {
+    "BRZ 2012 - 2016": [
+      "2.0i 200hp (147kW) 205Nm"
+    ],
+    "BRZ 2017 - 2020": [
+      "2.0i - 205hp (151kW) 211Nm"
+    ],
+    "BRZ 2021 -> ...": [
+      "2.4i 231hp (kW) Nm"
+    ],
+    "Forester -> 2008": [
+      "2.0 XT 177hp (130kW) 245Nm",
+      "2.5 Turbo 210hp (154kW) 320Nm",
+      "2.5 Turbo 230hp (169kW) 320Nm"
+    ],
+    "Forester 2008 - 2017": [
+      "2.0 D boxer 147hp (108kW) 350Nm",
+      "2.0 XT 240hp (176kW) 350Nm",
+      "2.5 Turbo 230hp (169kW) 320Nm"
+    ],
+    "Forester 2018 - 2020": [
+      "1.8 Turbo 180hp (kW) Nm",
+      "2.0 D boxer 148hp (109kW) 350Nm",
+      "2.0 XT 241hp (177kW) 350Nm",
+      "2.5i 181hp (kW) Nm"
+    ],
+    "Impreza 2003 - 2005": [
+      "2.0T WRX 225hp (165kW) 300Nm",
+      "2.0T WRX STi 265hp (195kW) 340Nm"
+    ],
+    "Impreza 2008 ->": [
+      "2.0 D Boxer 150hp (110kW) 350Nm",
+      "2.0T 268hp (197kW) 350Nm",
+      "2.5T WRX 230hp (169kW) 320Nm",
+      "2.5T WRX STI 300hp (221kW) 407Nm"
+    ],
+    "Legacy 2008 - 2014": [
+      "2.0 D Boxer 150hp (110kW) 350Nm",
+      "2.0i 150hp (110kW) 196Nm",
+      "2.5 170hp (125kW) 230Nm",
+      "2.5T GT 265hp (195kW) 350Nm"
+    ],
+    "Legacy 2015 - 2018": [
+      "2.0 D Boxer 150hp (110kW) 350Nm",
+      "3.6i 256hp (188kW) 335Nm"
+    ],
+    "Levorg 2015 - 2019": [
+      "1.6T GT 170hp (125kW) 250Nm",
+      "2.0 GT 150hp (110kW) 198Nm",
+      "2.0 GT-S 268hp (197kW) 350Nm"
+    ],
+    "Liberty 2014 ->": [
+      "2.0GT-S 295hp (217kW) 400Nm",
+      "3.6VCT 260hp (191kW) 350Nm"
+    ],
+    "Outback All": [
+      "2.0 D Boxer 150hp (110kW) 350Nm",
+      "2.4 Turbo 260hp (kW) Nm",
+      "2.5i 181hp (kW) Nm"
+    ],
+    "Trezia 2011 ->": [
+      "1.4D 90hp (66kW) 205Nm"
+    ],
+    "Tribeca 2008 - 2010": [
+      "3.6i 258hp (190kW) 350Nm"
+    ],
+    "WRX 2007 - 2014": [
+      "2.0L 304hp (224kW) 422Nm"
+    ],
+    "WRX 2015 - 2017": [
+      "2.0T 286hp (210kW) 350Nm",
+      "2.5 STi 300hp (221kW) 407Nm"
+    ],
+    "XV 2012 - 2016": [
+      "2.0 D Boxer 150hp (110kW) 350Nm",
+      "2.0i 150hp (110kW) 197Nm"
+    ],
+    "XV 2017 ->": [
+      "1.6i 114hp (84kW) 150Nm",
+      "2.0i 156hp (115kW) 196Nm"
+    ]
+  },
+  "Suzuki": {
+    "Baleno 2017 ->": [
+      "1.0 Boosterjet 112hp (82kW) 170Nm",
+      "RS 1.0 Turbo 100hp (74kW) 150Nm"
+    ],
+    "Ciaz All": [
+      "1.2d 90hp (66kW) 200Nm",
+      "1.4i 92hp (68kW) 130Nm",
+      "1.5d 95hp (70kW) 225Nm",
+      "1.5i 105hp (77kW) 138Nm"
+    ],
+    "Grand Vitara 1999 - 2005": [
+      "2.0 TD 109hp (80kW) 250Nm",
+      "2.0 TD 90hp (66kW) 205Nm",
+      "2.0 TDI 109hp (80kW) 270Nm"
+    ],
+    "Grand Vitara 2005 - 2012": [
+      "1.9 DDiS 129hp (95kW) 300Nm",
+      "2.4i 169hp (124kW) 227Nm"
+    ],
+    "Grand Vitara 2012 ->": [
+      "1.9 DDiS 129hp (95kW) 300Nm",
+      "2.4i 169hp (124kW) 227Nm"
+    ],
+    "Ignis All": [
+      "1.3 DDiS (51kW) 170Nm"
+    ],
+    "Jimny All": [
+      "1.3i 85hp (62kW) 110Nm",
+      "1.5 D 65hp (48kW) 160Nm",
+      "1.5 DDiS 86hp (63kW) 200Nm",
+      "1.5D 102hp (kW) Nm"
+    ],
+    "Kizashi 2010 ->": [
+      "2.4i 178hp (131kW) 230Nm"
+    ],
+    "Liana All": [
+      "1.4 DDiS 90hp (66kW) 200Nm"
+    ],
+    "SX4 All": [
+      "1.0 Boosterjet 112hp (82kW) 170Nm",
+      "1.4 Boosterjet 140hp (103kW) 220Nm",
+      "1.6 DDiS 120hp (88kW) 320Nm",
+      "1.6 DDiS 90hp (66kW) 215Nm",
+      "1.6i 107hp (79kW) 145Nm",
+      "1.6i 120hp (88kW) 156Nm",
+      "1.9 DDiS 120hp (88kW) 280Nm",
+      "2.0 DDiS 134hp (99kW) 320Nm"
+    ],
+    "SX4 S-Cross 2013 ->": [
+      "1.0 Boosterjet 110hp (81kW) 170Nm",
+      "1.4 Boosterjet 140hp (103kW) 220Nm",
+      "1.6 DDiS 120hp (88kW) 320Nm",
+      "1.6i 120hp (88kW) 156Nm"
+    ],
+    "Splash All": [
+      "1.2i 86hp (63kW) 114Nm",
+      "1.2i 94hp (69kW) 114Nm",
+      "1.3 DDiS 75hp (55kW) 190Nm"
+    ],
+    "Swift 2005 - 2010": [
+      "1.3 DDiS 69hp (51kW) 170Nm",
+      "1.6 Sport 125hp (92kW) 148Nm"
+    ],
+    "Swift 2011 - 2016": [
+      "1.2i 12v 94hp (69kW) 118Nm",
+      "1.3 DDiS 75hp (55kW) 190Nm",
+      "1.6 VVT S 136hp (100kW) 160Nm"
+    ],
+    "Swift 2017 ->": [
+      "1.0 Boosterjet 112hp (82kW) 170Nm",
+      "1.2 MHEV 90hp (kW) Nm",
+      "1.2i 90hp (66kW) 120Nm",
+      "1.4 Boosterjet 140hp (103kW) 230Nm",
+      "1.4 Boosterjet MHEV 129hp (95kW) 235Nm"
+    ],
+    "Vitara 2015 - 2017": [
+      "1.4 Boosterjet 140hp (103kW) 220Nm",
+      "1.6 DDIS 120hp (88kW) 320Nm",
+      "1.6i 120hp (88kW) 156Nm"
+    ],
+    "Vitara 2018 ->": [
+      "1.0 Boosterjet 112hp (82kW) 170Nm",
+      "1.4 Boosterjet 140hp (103kW) 220Nm",
+      "1.4 Boosterjet MHEV 129hp (95kW) 235Nm"
+    ],
+    "Wagon R All": [
+      "1.3 DDiS 69hp (51kW) 170Nm"
+    ],
+    "XL7 2007 - 2009": [
+      "3.6 V6 252hp (185kW) 329Nm"
+    ]
+  },
+  "Tesla": {
+    "Model S 2013 - 2016": [
+      "60 - 306hp (kW) Nm",
+      "60 - 388hp (kW) Nm",
+      "70 - 320hp (kW) Nm",
+      "70D - 334hp (kW) Nm",
+      "85 - 367hp (kW) Nm",
+      "85D - 422hp (kW) Nm",
+      "90D - 525hp (kW) Nm",
+      "P85D - 700hp (kW) Nm",
+      "P90D - 762hp (kW) Nm"
+    ],
+    "Model S 2016 ->": [
+      "100D - 422hp (kW) Nm",
+      "60 - 320hp (kW) Nm",
+      "60D - 332hp (kW) Nm",
+      "70 - 320hp (kW) Nm",
+      "70D - 334hp (kW) Nm",
+      "75 - 320hp (kW) Nm",
+      "75D - 334p (kW) Nm",
+      "90D - 422hp (kW) Nm",
+      "P100D - 612hp (kW) Nm",
+      "P90D - 469hp (kW) Nm"
+    ],
+    "Model X 2016 ->": [
+      "100D - 417hp (kW) Nm",
+      "60D - 328hp (kW) Nm",
+      "75D - 328hp (kW) Nm",
+      "90D - 417hp (kW) Nm",
+      "P100D - 612hp (kW) Nm",
+      "P90D - 463hp (kW) Nm"
+    ]
+  },
+  "Toyota": {
+    "4Runner N280 - 2009 ->": [
+      "4.0-V6 245hp (180kW) 380Nm"
+    ],
+    "Alphard 2002 - 2008": [
+      "2.4i 160hp (118kW) 220Nm",
+      "3.0i V6 220hp (162kW) 328Nm"
+    ],
+    "Alphard 2008 - 2015": [
+      "2.4i 170hp (125kW) 235Nm",
+      "3.5i 280hp (206kW) 330Nm"
+    ],
+    "Alphard 2015 ->": [
+      "2.5i 180hp (132kW) 235Nm",
+      "3.5i 280hp (206kW) 330Nm",
+      "3.5i 300hp (221kW) 362Nm"
+    ],
+    "Auris 2006 - 2012": [
+      "1.4 D4-D 90hp (66kW) 200Nm",
+      "2.0 D4-D 126hp (93kW) 310Nm",
+      "2.0 D4-D 128hp (94kW) 300Nm",
+      "2.2 D4-D 177hp (130kW) 400Nm"
+    ],
+    "Auris 2012 - 2015": [
+      "1.4 D4-D 90hp (66kW) 205Nm",
+      "1.6 D4-D 112hp (82kW) 270Nm",
+      "2.0 D4-D 124hp (91kW) 310Nm"
+    ],
+    "Auris 2015 - 2018": [
+      "1.2T 8v 116hp (85kW) 185Nm",
+      "1.6 D4D 112hp (82kW) 270Nm"
+    ],
+    "Avelon 2015 - 2018": [
+      "2.5i 203hp (kW) Nm",
+      "3.5i V6 268hp (kW) Nm"
+    ],
+    "Avelon 2018 ->": [
+      "2.5i 218hp (kW) Nm",
+      "3.5i V6 301hp (kW) Nm"
+    ],
+    "Avensis 2003 - 2009": [
+      "2.0 D-4D 116hp (85kW) 280Nm",
+      "2.0 D-4D 126hp (93kW) 300Nm",
+      "2.2 D-4D 150hp (110kW) 310Nm",
+      "2.2 D-4D dcat 177hp (130kW) 400Nm"
+    ],
+    "Avensis 2009 - 2015": [
+      "2.0 D-4D 124hp (91kW) 310Nm",
+      "2.2 D-4D 150hp (110kW) 340Nm",
+      "2.2 D-4D dcat 177hp (130kW) 400Nm"
+    ],
+    "Avensis 2015 ->": [
+      "1.6 D-4D 112hp (82kW) 270Nm",
+      "2.0 D-4D 143hp (105kW) 320Nm"
+    ],
+    "Aygo All": [
+      "1.0i 68hp (50kW) 93Nm",
+      "1.4 D-4D 55hp (40kW) 130Nm"
+    ],
+    "CH-R 2016 ->": [
+      "1.2T 116hp (85kW) 185Nm"
+    ],
+    "Corolla 2002 - 2007": [
+      "1.4 D-4D 90hp (66kW) 200Nm",
+      "2.0 D-4D 116hp (85kW) 280Nm",
+      "2.0 D-4D 126hp (93kW) 300Nm",
+      "2.2 D-4D 136hp (100kW) 310Nm",
+      "2.2 D-4D 150hp (110kW) 340Nm",
+      "2.2 D-4D dcat 177hp (130kW) 400Nm"
+    ],
+    "Corolla 2007 - 2011": [
+      "1.4 D-4D 90hp (66kW) 190Nm",
+      "2.0 D-4D 126hp (93kW) 300Nm"
+    ],
+    "Corolla 2019 ->": [
+      "1.2 Turbo 116hp (85kW) 185Nm",
+      "1.8 Hybrid 122hp (kW) Nm",
+      "2.0 Hybrid 180hp (kW) Nm"
+    ],
+    "Crown 2018 ->": [
+      "2.0T 235hp (173kW) 350Nm"
+    ],
+    "Fortuner 2015 - 2019": [
+      "2.4d 150hp (110kW) 400Nm",
+      "2.8d 177hp (130kW) 420Nm",
+      "4.0i V6 238hp (175kW) 376Nm"
+    ],
+    "GT86 2012 - 2016": [
+      "2.0i 200hp (147kW) 205Nm"
+    ],
+    "GT86 2016 - 2020": [
+      "2.0i - 205hp (151kW) 205Nm"
+    ],
+    "Hiace All": [
+      "2.5 D-4D 102hp (75kW) 260Nm",
+      "2.5 D-4D 117hp (86kW) 294Nm",
+      "2.5 D-4D 88hp (65kW) 192Nm",
+      "2.7 VVT-I 160hp (118kW) 240Nm",
+      "3.0 D-4D 125hp (92kW) 315Nm",
+      "3.0 D-4D 170hp (125kW) 360Nm"
+    ],
+    "Highlander 2017 ->": [
+      "2.0 Turbo 220hp (162kW) 350Nm",
+      "2.7i 188hp (138kW) 225Nm",
+      "3.5 V6 249hp (183kW) 356Nm",
+      "3.5 V6 269hp (198kW) 358Nm"
+    ],
+    "Hilux 2005 - 2015": [
+      "2.5 D-4D 102hp (75kW) 260Nm",
+      "2.5 D-4D 120hp (88kW) 325Nm",
+      "2.5 D-4D 144hp (106kW) 343Nm",
+      "3.0 D-4D 163hp (120kW) 343Nm",
+      "3.0 D-4D 171hp (126kW) 360Nm"
+    ],
+    "Hilux 2015 - 2019": [
+      "2.4 D-4D 150hp (110kW) 400Nm",
+      "2.5 D-4D 144hp (106kW) 343Nm",
+      "2.8 D-4D 177hp (130kW) 420Nm",
+      "3.0 D-4D 171hp (126kW) 360Nm",
+      "4.0-VVTi 280hp (206kW) 375Nm"
+    ],
+    "Hilux 2020 ->": [
+      "2.4d 150hp (110kW) 400Nm",
+      "2.8d 204hp (150kW) 500Nm"
+    ],
+    "IQ 2009 ->": [
+      "1.0 VVT-i 68hp (50kW) 91Nm",
+      "1.3 VVT-I 98hp (72kW) 125Nm",
+      "1.4 D-4D 90hp (66kW) 190Nm"
+    ],
+    "Landcruiser 2002 - 2010": [
+      "3.0 D-4D 163hp (120kW) 343Nm",
+      "3.0 D-4D 166hp (122kW) 410Nm",
+      "3.0 D-4D 173hp (127kW) 410Nm",
+      "4.0 V6 250hp (184kW) 382Nm",
+      "4.2 TD 204hp (150kW) 430Nm",
+      "4.5 D4-D 286hp (210kW) 650Nm",
+      "4.7 V8 235hp (173kW) 434Nm"
+    ],
+    "Landcruiser 2010 - 2013": [
+      "3.0 D-4D 190hp (140kW) 420Nm",
+      "4.0 V6 280hp (206kW) 360Nm"
+    ],
+    "Landcruiser 2013 - 2020": [
+      "2.8 D-4D 177hp (130kW) 450Nm",
+      "3.0 D-4D 190hp (140kW) 420Nm",
+      "4.5 D-4D V8 272hp (200kW) 650Nm",
+      "4.6 VVTi 320hp (235kW) 460Nm",
+      "5.7 VVTi 380hp (279kW) 545Nm"
+    ],
+    "Landcruiser 2021 -> ...": [
+      "3.3 D-4D V6 309hp (kW) Nm",
+      "3.5 Twin Turbo V6 415hp (kW) Nm"
+    ],
+    "Previa All": [
+      "2.0 D-4D 116hp (85kW) 250Nm"
+    ],
+    "ProAce 2014 - 2016": [
+      "1.6 D-4D 90hp (66kW) 180Nm",
+      "2.0 D-4D 128hp (94kW) 320Nm",
+      "2.0 D-4D 150hp (110kW) 370Nm"
+    ],
+    "ProAce 2016 - 2019": [
+      "1.5 D-4D 102hp Euro6 (75kW) 270Nm",
+      "1.6 D-4D 115hp Euro6 (85kW) 300Nm",
+      "1.6 D-4D 95hp Euro6 (70kW) 210Nm",
+      "2.0 D-4D 120hp Euro6 (88kW) 340Nm",
+      "2.0 D-4D 150hp Euro6 (110kW) 370Nm",
+      "2.0 D-4D 180hp Euro6 (132kW) 400Nm"
+    ],
+    "ProAce 2020 ->": [
+      "1.5 D-4D 100hp (74kW) 270Nm",
+      "1.5 D-4D 120hp (88kW) 300Nm",
+      "2.0 D-4D 122hp (90kW) 340Nm",
+      "2.0 D-4D 150hp (110kW) 370Nm",
+      "2.0 D-4D 177hp (130kW) 400Nm"
+    ],
+    "Proace City 2019 ->": [
+      "1.2T 110hp (81kW) 205Nm",
+      "1.2T 130hp (96kW) 230Nm",
+      "1.5 D-4D 100hp (74kW) 270Nm",
+      "1.5 D-4D 130hp (96kW) 300Nm"
+    ],
+    "Quantum All": [
+      "2.5 D-4D 102hp (75kW) 132Nm",
+      "2.5 D-4D 88hp (65kW) 192Nm",
+      "2.7 VVT-I 160hp (118kW) 240Nm",
+      "3.0 D-4D 125hp (92kW) 315Nm",
+      "3.0 D-4D 170hp (125kW) 360Nm"
+    ],
+    "Rav4 2005 - 2013": [
+      "2.2 D-4D 136hp (100kW) 310Nm",
+      "2.2 D-4D 150hp (110kW) 340Nm",
+      "2.2 D-Cat 177hp (130kW) 400Nm",
+      "2.4 VVT-i 167hp (123kW) 224Nm"
+    ],
+    "Rav4 2013 - 2015": [
+      "2.0 D-4D 124hp (91kW) 310Nm",
+      "2.0 D-4D 150hp (110kW) 340Nm"
+    ],
+    "Rav4 2016 ->": [
+      "2.0 D4D 143hp (105kW) 320Nm",
+      "2.0 VVT-i 152hp (112kW) 195Nm"
+    ],
+    "Supra 2019 ->": [
+      "2.0T 258hp (190kW) 400Nm",
+      "3.0T 340hp (250kW) 500Nm"
+    ],
+    "Tacoma 2005 - 2015": [
+      "2.7i 159hp (117kW) 244Nm",
+      "4.0i V6 236hp (174kW) 361Nm"
+    ],
+    "Tacoma 2016 ->": [
+      "2.7i 159hp (117kW) 244Nm",
+      "3.5 V6 278hp (204kW) 360Nm"
+    ],
+    "Tundra 2015 ->": [
+      "4.6L V8 310hp (228kW) 440Nm",
+      "5.7L V8 380hp (279kW) 540Nm"
+    ],
+    "Urban Cruiser All": [
+      "1.4 D-4D 90hp (66kW) 190Nm"
+    ],
+    "Verso 2007 - 2009": [
+      "2.2 D-4D 136hp (100kW) 310Nm",
+      "2.2 D-4D dcat 177hp (130kW) 400Nm"
+    ],
+    "Verso 2009 - 2013": [
+      "2.0 D-4D 126hp (93kW) 310Nm",
+      "2.2 D-4D 136hp (100kW) 340Nm",
+      "2.2 D-4D 150hp (110kW) 340Nm",
+      "2.2 D-4D dcat 177hp (130kW) 400Nm"
+    ],
+    "Verso 2014 ->": [
+      "1.6 D-4D 112hp (82kW) 270Nm",
+      "2.0 D4-D 126hp (93kW) 310Nm"
+    ],
+    "Verso S 2011 ->": [
+      "1.4 D-4D 90hp (66kW) 205Nm"
+    ],
+    "Yaris All": [
+      "1.0i 68hp (50kW) 90Nm",
+      "1.4 D-4D 55hp (40kW) 130Nm",
+      "1.4 D-4D 75hp (55kW) 180Nm",
+      "1.4 D-4D 90hp (66kW) 190Nm",
+      "GR 1.6T (kW) Nm"
+    ]
+  },
+  "Valtra": {
+    "6400 All": [
+      "4.4 HI - 105hp (77kW) 440Nm"
+    ],
+    "6550 All": [
+      "4.4 HI - 105hp (77kW) 440Nm"
+    ],
+    "6850 All": [
+      "4.4 HI - 125hp (92kW) 500Nm"
+    ],
+    "C 120 All": [
+      "4.4 - 120hp (88kW) 500Nm",
+      "4.4 E - 120hp (88kW) 580Nm"
+    ],
+    "C 130 All": [
+      "4.4 - 135hp (99kW) 510Nm"
+    ],
+    "C 150 All": [
+      "4.4 - 150hp (110kW) 580Nm"
+    ],
+    "M 120 All": [
+      "4.4 - 120hp (88kW) 500Nm",
+      "4.4 E - 120hp (88kW) 580Nm"
+    ],
+    "M 130 All": [
+      "4.4 - 135hp (99kW) 510Nm"
+    ],
+    "M 150 All": [
+      "4.5 - 150hp (110kW) 580Nm"
+    ],
+    "N 101 All": [
+      "4.4 - 110hp (81kW) 460Nm",
+      "4.4 CR - 110hp (81kW) 460Nm"
+    ],
+    "N 111 All": [
+      "4.4 - 122hp (90kW) 500Nm"
+    ],
+    "N 121 All": [
+      "4.4 - 131hp (96kW) 540Nm"
+    ],
+    "N 122 All": [
+      "4.4 - 133hp (98kW) 560Nm"
+    ],
+    "N 141 All": [
+      "150 - 150hp (110kW) 580Nm",
+      "4.9 - 141hp (104kW) 580Nm"
+    ],
+    "N 91 All": [
+      "4.4 - 102hp (75kW) 405Nm"
+    ],
+    "S 232 All": [
+      "8.4 - 326hp (240kW) 1185Nm"
+    ],
+    "S 233 All": [
+      "8.4 Tier 4A - 271hp (199kW) 1195Nm"
+    ],
+    "S 240 All": [
+      "8.4 - 246hp (181kW) 970Nm"
+    ],
+    "S 262 All": [
+      "8.4 - 360hp (265kW) 1295Nm"
+    ],
+    "S 263 All": [
+      "8.4 Tier 4A - 295hp (217kW) 1310Nm"
+    ],
+    "S 280 All": [
+      "8.4 - 280hp (206kW) 1075Nm"
+    ],
+    "S 292 All": [
+      "8.4 - 394hp (290kW) 1400Nm"
+    ],
+    "S 293 All": [
+      "8.4 Tier 4A - 321hp (236kW) 1455Nm"
+    ],
+    "S 322 All": [
+      "8.4 - 428hp (315kW) 1492Nm"
+    ],
+    "S 323 All": [
+      "8.4 Tier 4A - 351hp (258kW) 1540Nm"
+    ],
+    "S 353 All": [
+      "8.4 Tier 4A - 370hp (272kW) 1540Nm"
+    ],
+    "T 120 All": [
+      "6.2 - 120hp (88kW) 505Nm"
+    ],
+    "T 121 All": [
+      "126 - 126hp (93kW) 550Nm",
+      "6.6 - 133hp (98kW) 550Nm"
+    ],
+    "T 130 All": [
+      "6.2 - 135hp (99kW) 550Nm"
+    ],
+    "T 131 All": [
+      "141 - 141hp (104kW) 580Nm",
+      "6.6 - 148hp (109kW) 580Nm"
+    ],
+    "T 132 All": [
+      "6.6 - 135hp (99kW) 580Nm"
+    ],
+    "T 133 All": [
+      "6.6 Tier 4A - 141hp (104kW) 580Nm"
+    ],
+    "T 140 All": [
+      "6.2 - 146hp (107kW) 655Nm"
+    ],
+    "T 150 All": [
+      "6.6 - 155hp (114kW) 625Nm"
+    ],
+    "T 151E All": [
+      "151 - 151hp (111kW) 620Nm",
+      "6.6 - 159hp (117kW) 680Nm"
+    ],
+    "T 152 All": [
+      "6.6 - 150hp (110kW) 630Nm"
+    ],
+    "T 153 All": [
+      "6.6 Tier 4A - 155hp (114kW) 640Nm"
+    ],
+    "T 160 All": [
+      "6.2 - 160hp (118kW) 650Nm"
+    ],
+    "T 161 All": [
+      "160 - 160hp (118kW) 660Nm",
+      "6.6 - 170hp (125kW) 660Nm"
+    ],
+    "T 162 All": [
+      "6.6 - 167hp (123kW) 675Nm"
+    ],
+    "T 162e All": [
+      "6.6 - 159hp (117kW) 790Nm"
+    ],
+    "T 163e All": [
+      "7.4 Tier 4A - 170hp (125kW) 740Nm"
+    ],
+    "T 170 All": [
+      "6.3 - 170hp (125kW) 655Nm",
+      "7.4 - 184hp (135kW) 670Nm"
+    ],
+    "T 171 All": [
+      "171 - 171hp (126kW) 670Nm",
+      "7.4 - 180hp (132kW) 670Nm"
+    ],
+    "T 172 All": [
+      "6.6 - 170hp (125kW) 715Nm"
+    ],
+    "T 173 All": [
+      "7.4 Tier 4A - 180hp (132kW) 660Nm"
+    ],
+    "T 180 All": [
+      "7.4 - 175hp (129kW) 660Nm",
+      "7.4 - 184hp (135kW) 670Nm",
+      "7.4 - 190hp (140kW) 745Nm"
+    ],
+    "T 182 All": [
+      "7.4 - 180hp (132kW) 750Nm"
+    ],
+    "T 183 All": [
+      "7.4 Tier 4A - 188hp (138kW) 770Nm"
+    ],
+    "T 190 All": [
+      "7.4 - 175hp (129kW) 660Nm",
+      "7.4 - 189hp (139kW) 680Nm",
+      "7.4 - 190hp (140kW) 745Nm",
+      "7.4 - 211hp (155kW) 830Nm"
+    ],
+    "T 191 All": [
+      "175 - 175hp (129kW) 680Nm",
+      "7.4 - 185hp (136kW) 680Nm"
+    ],
+    "T 193 All": [
+      "7.4 Tier 4A - 190hp (140kW) 668Nm"
+    ],
+    "T 202 All": [
+      "7.4 - 190hp (140kW) 800Nm"
+    ],
+    "T 203 All": [
+      "7.4 Tier 4A - 204hp (150kW) 800Nm"
+    ],
+    "T 213 All": [
+      "7.4 Tier 4A - 215hp (158kW) 850Nm"
+    ],
+    "XM 130 All": [
+      "4.4 - 135hp (99kW) 510Nm"
+    ],
+    "XM 150 All": [
+      "4.4 - 150hp (110kW) 580Nm"
+    ]
+  },
+  "Vauxhall": {
+    "Astra 2009 - 2015": [
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 Turbo 200hp (147kW) 280Nm"
+    ],
+    "Insignia 2008 - 2013": [
+      "1.6T 180hp (132kW) 230Nm",
+      "2.0 Turbo 220hp (162kW) 350Nm",
+      "2.0 Turbo 250hp (184kW) 400Nm"
+    ],
+    "Insignia 2013 - 2015": [
+      "1.6T 180hp (132kW) 230Nm"
+    ],
+    "Vectra 2002 - 2009": [
+      "2.8T V6 250hp (184kW) 350Nm",
+      "2.8T V6 280hp (206kW) 350Nm"
+    ],
+    "Zafira (A) - 1999 - 2005": [
+      "1.6i 16v 100hp (74kW) 150Nm",
+      "1.8i 16v 115hp (85kW) 170Nm",
+      "1.8i 16v 125hp (92kW) 170Nm",
+      "2.0 DI 82hp (60kW) 185Nm",
+      "2.0 DTi 100hp (74kW) 230Nm",
+      "2.0 Turbo OPC 192hp (141kW) 250Nm",
+      "2.0 Turbo OPC 200hp (147kW) 250Nm",
+      "2.2i 16v 147hp (108kW) 203Nm"
+    ],
+    "Zafira (B) - 2005 - 2011": [
+      "1.6 Turbo 150hp (110kW) 210Nm",
+      "1.6i 16v 105hp (77kW) 150Nm",
+      "1.6i 16v 115hp (85kW) 155Nm",
+      "1.7 CDTi 110hp (81kW) 260Nm",
+      "1.7 CDTi 125hp (92kW) 280Nm",
+      "1.8i 16v 140hp (103kW) 175Nm",
+      "1.9 CDTi 100hp (74kW) 260Nm",
+      "1.9 CDTi 120hp (88kW) 280Nm",
+      "1.9 CDTi 150hp (110kW) 320Nm",
+      "2.0 Turbo OPC 200hp (147kW) 262Nm",
+      "2.0 Turbo OPC 240hp (176kW) 320Nm",
+      "2.2i 16v 150hp (110kW) 215Nm"
+    ],
+    "Zafira (C) - 2011 - 2016": [
+      "1.4 Turbo 120hp (88kW) 200Nm",
+      "1.4 Turbo 140hp (103kW) 200Nm",
+      "1.6 CDTi 120hp (88kW) 320Nm",
+      "1.6 CDTi 136hp (100kW) 320Nm",
+      "1.6 CNG Turbo 150hp (110kW) 210Nm",
+      "1.6 Turbo 170hp (125kW) 260Nm",
+      "1.6 Turbo 200hp (147kW) 280Nm",
+      "2.0 CDTi 110hp (81kW) 300Nm",
+      "2.0 CDTi 130hp (96kW) 300Nm",
+      "2.0 CDTi 165hp (121kW) 350Nm",
+      "2.0 CDTi 170hp (125kW) 400Nm",
+      "2.0 CDTi Bi-Turbo 195hp (143kW) 400Nm"
+    ]
+  },
+  "Volkswagen": {
+    "Amarok 2011 - 2016": [
+      "2.0 TDI CR 122hp (90kW) 340Nm",
+      "2.0 TDI CR 140hp (103kW) 340Nm",
+      "2.0 TDI CR 163hp (120kW) 400Nm",
+      "2.0 TDI CR 180hp (132kW) 400Nm",
+      "2.0 TSI 160hp (118kW) 300Nm"
+    ],
+    "Amarok 2016 ->": [
+      "3.0 V6 TDI 163hp (120kW) 500Nm",
+      "3.0 V6 TDI 204hp (150kW) 500Nm",
+      "3.0 V6 TDI 224hp (165kW) 550Nm",
+      "3.0 V6 TDI 258hp (190kW) 580Nm"
+    ],
+    "Arteon 2017 - 2019": [
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TDI 240hp (176kW) 500Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "2.0 TSI 272hp (200kW) 350Nm",
+      "2.0 TSI 280hp (206kW) 350Nm"
+    ],
+    "Atlas 2017 ->": [
+      "2.0 TSI 238hp (175kW) 350Nm",
+      "3.6 V6 280hp (206kW) 370Nm"
+    ],
+    "Bora 1998 - 2005": [
+      "1.4i 16v 75hp (55kW) 128Nm",
+      "1.6 FSI 110hp (81kW) 155Nm",
+      "1.6i 16v 105hp (77kW) 148Nm",
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.8T 20v 180hp (132kW) 235Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 150hp (110kW) 320Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0i 8v 115hp (85kW) 170Nm",
+      "2.3 V5 150hp (110kW) 205Nm",
+      "2.3 V5 170hp (125kW) 220Nm",
+      "2.8 V6 204hp (150kW) 270Nm"
+    ],
+    "Caddy Mk2 - 1995 - 2004": [
+      "1.9 SDI 68hp (50kW) 140Nm",
+      "1.9 TDI 90hp (66kW) 200Nm"
+    ],
+    "Caddy Mk3 - 2004 - 2010": [
+      "1.4i 16v 75hp (55kW) 127Nm",
+      "1.4i 16v 80hp (59kW) 132Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 75hp (55kW) 210Nm",
+      "1.9 TDI 90hp (66kW) 200Nm",
+      "2.0 SDI 69hp (51kW) 140Nm",
+      "2.0 TDI 140hp (103kW) 320Nm"
+    ],
+    "Caddy Mk3 - 2010 - 2015": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 86hp (63kW) 160Nm",
+      "1.6 TDI CR 102hp (75kW) 250Nm",
+      "1.6 TDI CR 75hp (55kW) 225Nm",
+      "2.0 TDI CR 110hp (81kW) 280Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm"
+    ],
+    "Caddy Mk4 - 2015 - 2016": [
+      "1.0 TSI 102hp (75kW) 175Nm",
+      "1.2 TSI 84hp (62kW) 160Nm",
+      "1.4 TGI 110hp (81kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 220Nm",
+      "1.6 TDI CR 102hp (75kW) 250Nm",
+      "1.6 TDI CR 75hp (55kW) 225Nm",
+      "2.0 TDI CR 102hp (75kW) 250Nm",
+      "2.0 TDI CR 110hp (81kW) 280Nm",
+      "2.0 TDI CR 122hp (90kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 75hp (55kW) 225Nm"
+    ],
+    "Caddy Mk4 - 2016 - 2019": [
+      "1.0 TSI 102hp (75kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.4 TGI 110hp (81kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "2.0 TDI CR 102hp (75kW) 250Nm",
+      "2.0 TDI CR 122hp (90kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 75hp (55kW) 225Nm"
+    ],
+    "Caddy Mk5 - 2020 ->": [
+      "1.0 TSI 116hp (85kW) 200Nm",
+      "1.5 TSI 114hp (84kW) 220Nm",
+      "2.0 TDI CR 102hp (75kW) 280Nm",
+      "2.0 TDI CR 122hp (90kW) 320Nm",
+      "2.0 TDI CR 75hp (55kW) 225Nm"
+    ],
+    "Crafter 2002 - 2011": [
+      "2.5 TDI 109hp (80kW) 280Nm",
+      "2.5 TDI 136hp (100kW) 300Nm",
+      "2.5 TDI 164hp (121kW) 350Nm",
+      "2.5 TDI 88hp (65kW) 220Nm"
+    ],
+    "Crafter 2011 - 2016": [
+      "2.0 TDI CR (EUR 6) 102hp (75kW) 250Nm",
+      "2.0 TDI CR (EUR 6) 140hp (103kW) 340Nm",
+      "2.0 TDI CR (EUR 6) 177hp (130kW) 400Nm",
+      "2.0 TDI CR 109hp (80kW) 300Nm",
+      "2.0 TDI CR 136hp (100kW) 340Nm",
+      "2.0 TDI CR 143hp (105kW) 340Nm",
+      "2.0 TDI CR 163hp (120kW) 400Nm"
+    ],
+    "Crafter 2017 ->": [
+      "2.0 TDI CR (EUR 6) 102hp (75kW) 300Nm",
+      "2.0 TDI CR (EUR 6) 140hp (103kW) 340Nm",
+      "2.0 TDI CR (EUR 6) 177hp (130kW) 400Nm"
+    ],
+    "Eos 2006 - 2011": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "1.6 FSI 115hp (85kW) 155Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "2.0 TSI 210hp (154kW) 280Nm",
+      "3.2 V6 250hp (184kW) 330Nm"
+    ],
+    "Eos 2011 - 2013": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TSI 210hp (154kW) 280Nm"
+    ],
+    "Fox 2005 - 2011": [
+      "1.4 TDI 70hp (51kW) 155Nm",
+      "1.4i 8v 75hp (55kW) 124Nm"
+    ],
+    "Golf GTI Golf 4 - 1997 - 2003": [
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.8T 20v 180hp (132kW) 235Nm",
+      "2.3 VR5 170hp (125kW) 225Nm"
+    ],
+    "Golf GTI Golf 5  - 2003 - 2008": [
+      "2.0 TFSI 200hp (147kW) 280Nm",
+      "2.0 TFSI Edition 30 - 230hp (169kW) 300Nm"
+    ],
+    "Golf GTI Golf 6  - 2009 - 2012": [
+      "2.0 TSI 210hp (154kW) 280Nm",
+      "2.0 TSI Edition 35 - 235hp (173kW) 300Nm",
+      "2.0 TSI R 270hp (199kW) 350Nm"
+    ],
+    "Golf GTI Golf 7 - 2012 - 2019": [
+      "2.0 TSI 220hp (162kW) 350Nm",
+      "2.0 TSI Clubsport 265hp (195kW) 350Nm",
+      "2.0 TSI GTI TCR 290hp (213kW) 380Nm",
+      "2.0 TSI Performance 230hp (169kW) 350Nm",
+      "2.0 TSI Performance 245hp (180kW) 360Nm",
+      "2.0 TSI R 300hp (221kW) 380Nm"
+    ],
+    "Golf GTI Golf 8 ->": [
+      "2.0 TFSI GTI 245hp (kW) Nm",
+      "2.0 TFSI GTI Clubsport 300hp (kW) Nm"
+    ],
+    "Golf Golf 3 - 1991 - 1997": [
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 90hp (66kW) 202Nm",
+      "2.0i 16v GTI 150hp (110kW) 180Nm",
+      "2.0i 8v GTI 115hp (85kW) 168Nm",
+      "2.8 VR6 174hp (128kW) 235Nm",
+      "2.9 VR6 190hp (140kW) 245Nm"
+    ],
+    "Golf Golf 4 - 1997 - 2003": [
+      "1.4i 75hp (55kW) 128Nm",
+      "1.6 FSI 110hp (81kW) 155Nm",
+      "1.6i 16v 105hp (77kW) 148Nm",
+      "1.8T 20v GTI 150hp (110kW) 210Nm",
+      "1.8T 20v GTI 180hp (132kW) 235Nm",
+      "1.8i 20v 125hp (92kW) 170Nm",
+      "1.9 SDI 68hp (50kW) 133Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 150hp (110kW) 320Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0i 8v 115hp (85kW) 170Nm",
+      "2.3 VR5 150hp (110kW) 205Nm",
+      "2.3 VR5 GTI 170hp (125kW) 225Nm",
+      "2.8 VR6 204hp (150kW) 270Nm",
+      "R32 VR6 242hp (178kW) 320Nm"
+    ],
+    "Golf Golf 5  - 2003 - 2008": [
+      "1.4 FSI 90hp (66kW) 130Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 140hp (CAVD) (103kW) 220Nm",
+      "1.4 TSI GT 170hp (125kW) 240Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6 FSI 115hp (85kW) 155Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 SDI 75hp (55kW) 140Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TFSI GTI 200hp (147kW) 280Nm",
+      "2.0 TFSI GTI 230hp (169kW) 300Nm",
+      "2.0 TFSI GTI 240hp (176kW) 330Nm",
+      "R32 250hp (184kW) 320Nm"
+    ],
+    "Golf Golf 6  - 2009 - 2012": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "1.4i 16v 80hp (59kW) 132Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 110hp (81kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR GTD 170hp (125kW) 350Nm",
+      "2.0 TSI GTI 210hp (154kW) 280Nm",
+      "2.0 TSI GTI Edition 35 - 235hp (173kW) 300Nm",
+      "2.0 TSI R  270hp (199kW) 350Nm",
+      "2.5i 170hp (125kW) 240Nm"
+    ],
+    "Golf Golf 7 - 2012 - 2016": [
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 160Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.4 TGI 110hp (81kW) 200Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 140hp (103kW) 250Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.4 TSI GTE 204hp (150kW) 350Nm",
+      "1.6 TDI CR 105hp (77kW) 250Nm",
+      "1.6 TDI CR 110hp (2016 ->) (81kW) 250Nm",
+      "1.6 TDI CR 110hp (81kW) 250Nm",
+      "1.6 TDI CR 90hp (66kW) 210Nm",
+      "1.6i 16v 110hp (81kW) 155Nm",
+      "1.8 TFSI 180hp (132kW) 250Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR GTD 184hp (135kW) 380Nm",
+      "2.0 TSI GTI 220hp (162kW) 350Nm",
+      "2.0 TSI GTI Clubsport 265hp (195kW) 350Nm",
+      "2.0 TSI GTI Performance 230hp (169kW) 350Nm",
+      "2.0 TSI R 300hp (221kW) 380Nm"
+    ],
+    "Golf Golf 7 - 2017 - 2019": [
+      "1.0 TSI  85hp (62kW) 175Nm",
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 116hp (85kW) 200Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI GTE 204hp (150kW) 350Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI Bluemotion 130hp (96kW) 200Nm",
+      "1.6 TDI 115hp (85kW) 250Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 320Nm",
+      "2.0 TDI CR GTD 184hp (135kW) 380Nm",
+      "2.0 TSI - R 310hp (228kW) 380Nm",
+      "2.0 TSI GTI 230hp (169kW) 350Nm",
+      "2.0 TSI GTI Performance 245hp (180kW) 360Nm",
+      "2.0 TSI GTI TCR 290hp (213kW) 380Nm"
+    ],
+    "Golf Golf 8 - 2020 ->": [
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 90hp (66kW) 160Nm",
+      "1.4 TSI GTE 204hp (kW) Nm",
+      "1.4 TSI GTE 242hp (kW) Nm",
+      "1.5 TSI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.5 e-TSI 130hp (kW) Nm",
+      "1.5 e-TSI 150hp (kW) Nm",
+      "2.0 TDI 115hp (85kW) 300Nm",
+      "2.0 TDI 150hp (110kW) 360Nm",
+      "2.0 TDI GTD 200hp (147kW) 400Nm",
+      "2.0 TSI GTI 245hp (kW) Nm",
+      "R 2.0 TFSI 320hp (kW) Nm"
+    ],
+    "Golf Sportsvan 2014 ->": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI CR 110hp (81kW) 250Nm",
+      "1.6 TDI CR 115hp (85kW) 250Nm",
+      "1.6 TDI CR 90hp (66kW) 210Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm"
+    ],
+    "Jetta 2005 - 2011": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 140hp (103kW) 220Nm",
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "1.4 TSI GT 170hp (125kW) 240Nm",
+      "1.6 FSI 115hp (85kW) 155Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 90hp (66kW) 240Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TSI 200hp (147kW) 280Nm"
+    ],
+    "Jetta 2011 - 2014": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "1.4 TSI Hybride 150hp (110kW) 250Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.8 TSI 170hp (125kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TSI 200hp (147kW) 280Nm"
+    ],
+    "Jetta 2014 - 2018": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.8 TSI 180hp (132kW) 320Nm",
+      "2.0 TDI CR 110hp (81kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TSI 210hp (154kW) 280Nm",
+      "2.0 TSI 220hp (162kW) 280Nm"
+    ],
+    "Jetta 2019 ->": [
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 160hp (kW) Nm",
+      "2.0 TSI GLI 228hp (168kW) 350Nm"
+    ],
+    "LT All": [
+      "2.5 TDI 102hp (75kW) 210Nm",
+      "2.5 TDI 109hp (80kW) 270Nm",
+      "2.5 TDI 90hp (66kW) 220Nm",
+      "2.8 TDI 130hp (96kW) 300Nm",
+      "2.8 TDI 158hp (116kW) 330Nm"
+    ],
+    "Lamando 2014 ->": [
+      "2.0 TSI 220hp (162kW) 350Nm",
+      "230 TSI 131hp (96kW) 225Nm",
+      "280 TSI 150hp (110kW) 250Nm",
+      "330 TSI 180hp (132kW) 300Nm"
+    ],
+    "Lavida 2008 - 2012": [
+      "1.4 TSI 131hp (96kW) 220Nm"
+    ],
+    "Lavida 2012 - 2018": [
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.4 TSI 131hp (96kW) 220Nm"
+    ],
+    "Lavida 2018 ->": [
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.4 TSI 131hp (96kW) 220Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5i 116hp (85kW) 150Nm"
+    ],
+    "Lupo 1997 - 2005": [
+      "1.2 TDI 61hp (45kW) 140Nm",
+      "1.4 FSI 105hp (77kW) 130Nm",
+      "1.4 TDI 75hp (55kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6i 16v GTI 125hp (92kW) 152Nm",
+      "1.7 SDI 60hp (44kW) 115Nm"
+    ],
+    "Magotan 2015 ->": [
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TSI 200hp (147kW) 280Nm"
+    ],
+    "New Beetle 1998 - 2011": [
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0i 8v 115hp (85kW) 170Nm",
+      "2.3 V5 170hp (125kW) 220Nm",
+      "3.2i V6 224hp (165kW) 320Nm"
+    ],
+    "New Beetle 2011 - 2016": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 85hp (62kW) 160Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 110hp (81kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 340Nm",
+      "2.0 TSI 200hp (147kW) 280Nm"
+    ],
+    "New Beetle 2016 ->": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 350Nm",
+      "2.0 TSI 220hp (162kW) 350Nm"
+    ],
+    "Passat / Magotan B5 - 1996 - 2005": [
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.8i 20v 125hp (92kW) 173Nm",
+      "1.9 TDI 100hp (74kW) 250Nm",
+      "1.9 TDI 115hp (85kW) 285Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0 TDI 136hp (100kW) 335Nm",
+      "2.0i 20v 130hp (96kW) 195Nm",
+      "2.0i 8v 115hp (85kW) 172Nm",
+      "2.3 V5 150hp (110kW) 205Nm",
+      "2.3 V5 170hp (125kW) 220Nm",
+      "2.5 TDI 150hp (110kW) 310Nm",
+      "2.5 TDI 163hp (120kW) 350Nm",
+      "2.5 TDI 180hp (132kW) 370Nm",
+      "2.8 V6 193hp (142kW) 280Nm",
+      "4.0 W8 275hp (202kW) 370Nm"
+    ],
+    "Passat / Magotan B6 - 2005 - 2010": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.6 FSI 115hp (85kW) 155Nm",
+      "1.6 TDI CR 105hp (77kW) 250Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 120hp (88kW) 320Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 163hp (120kW) 350Nm",
+      "2.0 TDI 170hp (125kW) 350Nm",
+      "2.0 TDI CR 110hp (81kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "3.2 FSI 250hp (184kW) 320Nm",
+      "3.6 FSI 280hp (206kW) 360Nm",
+      "R36 - 300hp (221kW) 350Nm"
+    ],
+    "Passat / Magotan B7 - 2010 - 2014": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 220Nm",
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "1.6 TDI CR 105hp (77kW) 250Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TSI 210hp (154kW) 280Nm",
+      "3.6 V6 300hp (221kW) 350Nm"
+    ],
+    "Passat / Magotan B8 - 2014 - 2019": [
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.4 TSI GTE 218hp (160kW) 400Nm",
+      "1.6 TDI CR 120hp (88kW) 250Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TDI Bi-Turbo 240hp (176kW) 500Nm",
+      "2.0 TDI CR 150hp (110kW) 340Nm",
+      "2.0 TDI CR 190hp (140kW) 400Nm",
+      "2.0 TSI - R 280hp (206kW) 350Nm",
+      "2.0 TSI 220hp (162kW) 350Nm"
+    ],
+    "Passat / Magotan B8 - 2019 ->": [
+      "1.4 TSI GTE 218hp (160kW) 400Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 120hp (88kW) 250Nm",
+      "2.0 TDI 122hp (90kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 360Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TDI 240hp (176kW) 500Nm",
+      "2.0 TSI 150hp (110kW) 270Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "2.0 TSI 272hp (200kW) 350Nm"
+    ],
+    "Passat CC All": [
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "1.8 TSI 160hp (118kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 143hp (105kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "2.0 TSI 210hp (154kW) 280Nm",
+      "3.6 FSI 300hp (221kW) 360Nm"
+    ],
+    "Phaeton All": [
+      "3.0 TDI 211hp (155kW) 450Nm",
+      "3.0 TDI 224hp (165kW) 450Nm",
+      "3.0 TDI 233hp (171kW) 450Nm",
+      "3.0 TDI 240hp (176kW) 500Nm",
+      "3.0 TDI 245hp (180kW) 500Nm",
+      "3.2 V6 241hp (177kW) 315Nm",
+      "3.6 V6 280hp (206kW) 370Nm",
+      "4.2 V8 335hp (246kW) 430Nm",
+      "5.0 TDI V10 313hp (230kW) 750Nm",
+      "6.0 W12 420hp (309kW) 550Nm",
+      "6.0 W12 450hp (331kW) 560Nm"
+    ],
+    "Phideon 2017 ->": [
+      "2.0 TFSI 225hp (165kW) 350Nm"
+    ],
+    "Polo 1999 - 2001 ( 6N2 )": [
+      "1.4 TDI 75hp (55kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.6i 16v GTI 125hp (92kW) 152Nm",
+      "1.9 SDI 64hp (47kW) 125Nm"
+    ],
+    "Polo 2001 - 2005 ( 9N )": [
+      "1.2i 16v 64hp (47kW) 112Nm",
+      "1.4 TDI 75hp (55kW) 195Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 16v 75hp (55kW) 126Nm",
+      "1.9 SDI 64hp (47kW) 125Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 130hp (96kW) 320Nm"
+    ],
+    "Polo 2005 - 2009 ( 9N3 )": [
+      "1.4 FSI 85hp (62kW) 130Nm",
+      "1.4 TDI 70hp (51kW) 155Nm",
+      "1.4 TDI 80hp (59kW) 195Nm",
+      "1.4 TDI Bluemotion 80hp (59kW) 190Nm",
+      "1.4i 16v 100hp (74kW) 126Nm",
+      "1.4i 16v 80hp (59kW) 132Nm",
+      "1.6i 16v 105hp (77kW) 148Nm",
+      "1.8 T GTI 150hp (110kW) 220Nm",
+      "1.8 T GTI Cup 180hp (132kW) 235Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 130hp (96kW) 310Nm"
+    ],
+    "Polo 2009 - 2014 ( 6R )": [
+      "1.2 TDI 75hp (55kW) 180Nm",
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.2 TSI 90hp (66kW) 160Nm",
+      "1.2i 12v 60hp (44kW) 108Nm",
+      "1.2i 12v 70hp (51kW) 112Nm",
+      "1.4 TSI Blue GT 140hp (103kW) 250Nm",
+      "1.4i 16v 85hp (62kW) 132Nm",
+      "1.6 TDI 105hp (77kW) 250Nm",
+      "1.6 TDI 75hp (55kW) 195Nm",
+      "1.6 TDI 90hp (66kW) 230Nm",
+      "2.0 TSI 220hp (162kW) 350Nm",
+      "GTI 1.4 TSI 180hp (132kW) 250Nm"
+    ],
+    "Polo 2014 - 2017 ( 6C )": [
+      "1.0 TSI 110hp (81kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 160Nm",
+      "1.0i 60hp (44kW) 95Nm",
+      "1.0i 75hp (55kW) 95Nm",
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.2 TSI 90hp (66kW) 160Nm",
+      "1.4 TDI 105hp (77kW) 250Nm",
+      "1.4 TDI 75hp (55kW) 210Nm",
+      "1.4 TDI 90hp (66kW) 230Nm",
+      "1.4 TSI Blue GT 140hp (103kW) 250Nm",
+      "1.4 TSI Blue GT 150hp (110kW) 250Nm",
+      "1.8 TSI GTI 192hp (141kW) 320Nm"
+    ],
+    "Polo 2017 ->": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 175Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 80hp (59kW) 230Nm",
+      "1.6 TDI 95hp (70kW) 250Nm",
+      "2.0 TSI GTI 200hp (147kW) 320Nm"
+    ],
+    "Polo 2021 -> ...": [
+      "1.0 TGI 90hp (kW) Nm",
+      "1.0 TSI 110hp (kW) Nm",
+      "1.0 TSI 95hp (kW) Nm"
+    ],
+    "Scirocco 2008 - 2014": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 160hp (CAVD) (118kW) 240Nm",
+      "1.4 TSI 160hp (CTHD-CTKA) (118kW) 240Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "2.0 TSI 210hp (154kW) 280Nm",
+      "2.0 TSI R 265hp (195kW) 350Nm"
+    ],
+    "Scirocco 2014 ->": [
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TSI 180hp (132kW) 320Nm",
+      "2.0 TSI 220hp (162kW) 350Nm",
+      "2.0 TSI R 280hp (206kW) 350Nm"
+    ],
+    "Sharan 2000 - 2010": [
+      "1.8T 20v 150hp (110kW) 210Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 115hp (85kW) 310Nm",
+      "1.9 TDI 130hp (96kW) 310Nm",
+      "1.9 TDI 90hp (66kW) 240Nm",
+      "2.0 TDI 140hp (103kW) 310Nm",
+      "2.0i 8v 115hp (85kW) 166Nm",
+      "2.8 V6 204hp (150kW) 265Nm"
+    ],
+    "Sharan 2010 - 2015": [
+      "1.4 TSI 150hp (CAVA) (110kW) 240Nm",
+      "1.4 TSI 150hp (CTHA) (110kW) 240Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TSI 200hp (147kW) 280Nm"
+    ],
+    "Sharan 2016 ->": [
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI CR 150hp (110kW) 340Nm",
+      "2.0 TDI CR 185hp (136kW) 380Nm",
+      "2.0 TSI 200hp (147kW) 280Nm",
+      "2.0 TSI 220hp (162kW) 350Nm"
+    ],
+    "T-Cross 2019 ->": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.0 TSI 95hp (70kW) 175Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 95hp (70kW) 250Nm"
+    ],
+    "T-Roc 2017 ->": [
+      "1.0 TSI 115hp (85kW) 200Nm",
+      "1.4 TSI 130hp (96kW) 225Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 115hp (85kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "R 2.0 TSI 300hp (221kW) 400Nm"
+    ],
+    "Tacqua 2020 -> ...": [
+      "1.4 TSI 150hp (110kW) 250Nm"
+    ],
+    "Taigo 2021 -> ...": [
+      "1.0 TSI 110hp (kW) Nm",
+      "1.0 TSI 95hp (kW) Nm",
+      "1.5 TSI 150hp (kW) Nm"
+    ],
+    "Talagon 2021 -> ...": [
+      "2.0 TSI 186hp (kW) Nm",
+      "2.0 TSI 220hp (kW) Nm",
+      "2.5 TSI 299hp (kW) Nm"
+    ],
+    "Tayron 2019 ->": [
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "2.0 TSI 186hp (137kW) 280Nm",
+      "2.0 TSI 220hp (162kW) 350Nm"
+    ],
+    "Teramont 2017 ->": [
+      "2.0 TSI 220hp (162kW) 350Nm",
+      "2.5T V6 295hp (217kW) 500Nm"
+    ],
+    "Tiguan 2020 -> ...": [
+      "1.4 e-Hybrid 245hp (kW) Nm",
+      "1.5 TSI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI CR 122hp (90kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 200hp (147kW) 400Nm",
+      "R 2.0 TFSI 320hp (kW) Nm"
+    ],
+    "Tiguan Allspace 2017 ->": [
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "2.0 TDI 190hp (140kW) 400Nm",
+      "2.0 TDI 200hp (147kW) 400Nm",
+      "2.0 TDI Bi-Turbo 240hp (176kW) 500Nm",
+      "2.0 TSI 180hp (132kW) 280Nm",
+      "2.0 TSI 220hp (162kW) 350Nm"
+    ],
+    "Tiguan NZ - 2007 - 2011": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 150hp (CAVA) (110kW) 240Nm",
+      "2.0 TDI CR 110hp (81kW) 280Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 163hp (120kW) 350Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TFSI 170hp (125kW) 280Nm",
+      "2.0 TFSI 200hp (147kW) 280Nm"
+    ],
+    "Tiguan NZ - 2011 - 2015": [
+      "1.4 TSI 122hp (90kW) 200Nm",
+      "1.4 TSI 150hp (CTHA) (110kW) 240Nm",
+      "1.4 TSI 160hp (118kW) 240Nm",
+      "2.0 TDI CR 110hp (81kW) 280Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm",
+      "2.0 TSI 180hp (132kW) 280Nm",
+      "2.0 TSI 210hp (154kW) 280Nm"
+    ],
+    "Tiguan NZ - 2016 - 2020": [
+      "1.4 TSI 125hp (92kW) 200Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 130hp (96kW) 200Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "2.0 TDI CR 110hp (81kW) 280Nm",
+      "2.0 TDI CR 115hp (85kW) 320Nm",
+      "2.0 TDI CR 150hp (110kW) 320Nm",
+      "2.0 TDI CR 184hp (135kW) 380Nm",
+      "2.0 TDI CR 190hp (140kW) 400Nm",
+      "2.0 TDI CR Bi-Turbo 240hp (176kW) 500Nm",
+      "2.0 TSI 180hp (132kW) 320Nm",
+      "2.0 TSI 190hp (140kW) 320Nm",
+      "2.0 TSI 220hp (162kW) 350Nm",
+      "2.0 TSI 230hp (169kW) 350Nm"
+    ],
+    "Tiguan X 2020 ->": [
+      "330 TSI 186hp (kW) Nm",
+      "380 TSI 220hp (kW) Nm"
+    ],
+    "Touareg 2002 - 2007": [
+      "2.5 TDI 163hp (120kW) 400Nm",
+      "2.5 TDI 174hp (128kW) 400Nm",
+      "3.0 TDI 211hp (155kW) 500Nm",
+      "3.0 TDI 225hp (165kW) 500Nm",
+      "3.2i V6 220hp (162kW) 305Nm",
+      "3.2i V6 241hp (177kW) 315Nm",
+      "3.6i V6 280hp (206kW) 360Nm",
+      "4.2i V8 310hp (228kW) 410Nm",
+      "5.0 TDI V10 313hp (230kW) 750Nm",
+      "6.0i W12 450hp (331kW) 600Nm"
+    ],
+    "Touareg 2007 - 2010": [
+      "2.5 TDI 163hp (120kW) 400Nm",
+      "2.5 TDI 174hp (128kW) 400Nm",
+      "3.0 TDI 211hp (155kW) 500Nm",
+      "3.0 TDI 225hp (165kW) 500Nm",
+      "3.0 TDI 240hp (176kW) 500Nm",
+      "3.2i V6 241hp (177kW) 315Nm",
+      "3.6i V6 280hp (206kW) 360Nm",
+      "5.0 TDI V10 313hp (230kW) 750Nm",
+      "5.0 TDI V10 R50 350hp (257kW) 850Nm"
+    ],
+    "Touareg 2010 - 2014": [
+      "3.0 TDI 204hp (150kW) 400Nm",
+      "3.0 TDI 211hp (155kW) 550Nm",
+      "3.0 TDI 245hp (180kW) 550Nm",
+      "3.0 TDI 262hp (193kW) 580Nm",
+      "3.0 TFSI 333hp (245kW) 440Nm",
+      "3.6i FSI 280hp (206kW) 360Nm",
+      "4.2 V8 TDI 340hp (250kW) 800Nm"
+    ],
+    "Touareg 2015 - 2018": [
+      "3.0 TDI 204hp (150kW) 450Nm",
+      "3.0 TDI 262hp (193kW) 580Nm",
+      "3.0 TSI 380hp (279kW) 580Nm"
+    ],
+    "Touareg 2018 ->": [
+      "2.0 TSI 252hp (185kW) 370Nm",
+      "2.0T GTE 367hp (270kW) 700Nm",
+      "3.0 V6 TDI 231hp (170kW) 500Nm",
+      "3.0 V6 TDI 286hp (210kW) 600Nm",
+      "3.0 V6 TSI 340hp (250kW) 500Nm",
+      "4.0 V8 TDI 422hp (310kW) 900Nm",
+      "R Plug-in V6 462hp (kW) Nm"
+    ],
+    "Touran 2003 - 2010": [
+      "1.4 TSI 140hp (CAVC) (103kW) 220Nm",
+      "1.4 TSI 170hp (CAVB) (125kW) 240Nm",
+      "1.6 FSI 115hp (85kW) 155Nm",
+      "1.6i 8v 102hp (75kW) 148Nm",
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 90hp (66kW) 210Nm",
+      "2.0 FSI 150hp (110kW) 200Nm",
+      "2.0 TDI 136hp (100kW) 320Nm",
+      "2.0 TDI 140hp (103kW) 320Nm",
+      "2.0 TDI 170hp (125kW) 350Nm"
+    ],
+    "Touran 2010 - 2015": [
+      "1.2 TSI 105hp (77kW) 175Nm",
+      "1.4 TSI 140hp (CAVC) (103kW) 220Nm",
+      "1.4 TSI 140hp (CTHC) (103kW) 220Nm",
+      "1.4 TSI 170hp (CTHB) (125kW) 240Nm",
+      "1.6 TDI CR 105hp (77kW) 250Nm",
+      "1.6 TDI CR 90hp (66kW) 230Nm",
+      "2.0 TDI CR 136hp (100kW) 320Nm",
+      "2.0 TDI CR 140hp (103kW) 320Nm",
+      "2.0 TDI CR 170hp (125kW) 350Nm",
+      "2.0 TDI CR 177hp (130kW) 380Nm"
+    ],
+    "Touran 2015 ->": [
+      "1.2 TSI 110hp (81kW) 175Nm",
+      "1.4 TSI 150hp (110kW) 250Nm",
+      "1.5 TSI 150hp (110kW) 250Nm",
+      "1.6 TDI 110hp (81kW) 250Nm",
+      "1.6 TDI 116hp (85kW) 250Nm",
+      "1.8 TSI 180hp (132kW) 250Nm",
+      "2.0 TDI 122hp (90kW) 270Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "2.0 TDI 190hp (140kW) 400Nm"
+    ],
+    "Transporter / Multivan T4 - 1999 - 2004": [
+      "2.5 TDI 102hp (75kW) 250Nm",
+      "2.5 TDI 150hp (110kW) 295Nm",
+      "2.5 TDI 88hp (65kW) 195Nm"
+    ],
+    "Transporter / Multivan T5 - 2003 - 2009": [
+      "1.9 TDI 105hp (77kW) 250Nm",
+      "1.9 TDI 86hp (63kW) 200Nm",
+      "2.5 TDI 130hp (96kW) 340Nm",
+      "2.5 TDI 174hp (128kW) 400Nm"
+    ],
+    "Transporter / Multivan T5 - 2009 - 2015": [
+      "2.0 TDI CR 102hp (75kW) 250Nm",
+      "2.0 TDI CR 114hp (84kW) 250Nm",
+      "2.0 TDI CR 140hp (103kW) 340Nm",
+      "2.0 TDI CR 180hp (132kW) 400Nm",
+      "2.0 TDI CR 84hp (62kW) 220Nm",
+      "2.0 TSI 150hp (110kW) 280Nm",
+      "2.0 TSI 204hp (150kW) 350Nm"
+    ],
+    "Transporter / Multivan T6 - 2015 - 2018": [
+      "2.0 TDI CR (EUR 6) 102hp (75kW) 250Nm",
+      "2.0 TDI CR (EUR 6) 114hp (84kW) 250Nm",
+      "2.0 TDI CR (EUR 6) 150hp (110kW) 320Nm",
+      "2.0 TDI CR (EUR 6) 204hp (150kW) 450Nm",
+      "2.0 TDI CR (EUR 6) 84hp (62kW) 220Nm",
+      "2.0 TDI CR 140hp (103kW) 340Nm",
+      "2.0 TDI CR 180hp (132kW) 400Nm",
+      "2.0 TSI 150hp (110kW) 280Nm",
+      "2.0 TSI 204hp (150kW) 350Nm"
+    ],
+    "Transporter / Multivan T6 - 2019 ->": [
+      "2.0 TDI 110hp (81kW) 250Nm",
+      "2.0 TDI 150hp (110kW) 340Nm",
+      "2.0 TDI 198hp (146kW) 450Nm",
+      "2.0 TDI 204hp (150kW) 450Nm",
+      "2.0 TDI 90hp (66kW) 220Nm"
+    ],
+    "Up 2012 ->": [
+      "1.0 TSI 90hp (66kW) 160Nm",
+      "1.0 TSI GTI 115hp (85kW) 200Nm",
+      "1.0i 60hp (44kW) 95Nm",
+      "1.0i 75hp (55kW) 95Nm"
+    ],
+    "Vento 1992 - 1998": [
+      "1.9 TDI 100hp (74kW) 240Nm",
+      "1.9 TDI 110hp (81kW) 235Nm",
+      "1.9 TDI 90hp (66kW) 202Nm",
+      "2.0i 8v 115hp (85kW) 170Nm"
+    ],
+    "Viloran 2020 ->": [
+      "2.0 TSI 184hp (kW) Nm",
+      "2.0 TSI 220hp (kW) Nm"
+    ]
+  },
+  "Volvo": {
+    "C30 2006 - 2008": [
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 163hp (120kW) 340Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.4 D5 180hp aut (132kW) 350Nm",
+      "2.5 T5 220hp (162kW) 320Nm",
+      "2.5 T5 230hp (169kW) 320Nm"
+    ],
+    "C30 2009 - 2013": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D4 177hp (130kW) 400Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.5 T5 230hp (169kW) 320Nm"
+    ],
+    "C70 1999 - 2005": [
+      "2.0T 163hp (120kW) 230Nm",
+      "2.4T 193hp (142kW) 270Nm",
+      "T5 240hp (176kW) 330Nm"
+    ],
+    "C70 2006 - 2009": [
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 163hp (120kW) 350Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.4 D5 180hp aut (132kW) 350Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "T5 220hp (162kW) 320Nm",
+      "T5 230hp (169kW) 320Nm"
+    ],
+    "C70 2009 ->": [
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D4 177hp (130kW) 400Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.4 D5 180hp aut (132kW) 350Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5 T5 220hp (162kW) 320Nm",
+      "2.5 T5 230hp (169kW) 320Nm"
+    ],
+    "S40 2000 - 2004": [
+      "1.9D 102hp (75kW) 215Nm",
+      "1.9D 115hp (85kW) 265Nm",
+      "2.0T 165hp (121kW) 240Nm",
+      "T4 200hp (147kW) 300Nm"
+    ],
+    "S40 2004 - 2007": [
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 163hp (120kW) 350Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.4 D5 180hp aut (132kW) 350Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "T5 220hp (162kW) 320Nm"
+    ],
+    "S40 2007 - 2012": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D4 177hp (130kW) 400Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 163hp (120kW) 400Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.4 D5 180hp aut (132kW) 350Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "T5 220hp (162kW) 320Nm",
+      "T5 230hp (169kW) 320Nm"
+    ],
+    "S60 2000 - 2004": [
+      "2.0T 180hp (132kW) 240Nm",
+      "2.4 D5 163hp (120kW) 340Nm",
+      "2.4D 130hp (96kW) 280Nm",
+      "2.4T 200hp (147kW) 285Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5T 210hp (154kW) 320Nm",
+      "R 2.5T (221kW) 400Nm",
+      "T5 250hp (184kW) 330Nm"
+    ],
+    "S60 2004 - 2009": [
+      "2.0T 180hp (132kW) 240Nm",
+      "2.4 D5 163hp (120kW) 340Nm",
+      "2.4 D5 185hp (136kW) 400Nm",
+      "2.4D 126hp (93kW) 300Nm",
+      "2.4D 130hp (96kW) 280Nm",
+      "2.4T 200hp (147kW) 285Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5T 210hp (154kW) 320Nm",
+      "R 2.5T 300hp (221kW) 400Nm",
+      "T5 260hp (191kW) 350Nm"
+    ],
+    "S60 2010 - 2014": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6 T3 150hp (110kW) 240Nm",
+      "1.6 T4 180hp (132kW) 240Nm",
+      "2.0 D3 136hp (100kW) 350Nm",
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.0T 203hp (149kW) 300Nm",
+      "2.4 D5 205hp (151kW) 420Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm",
+      "3.0 T6 304hp (224kW) 440Nm"
+    ],
+    "S60 2015 - 2017": [
+      "1.5 T3 152hp (112kW) 250Nm",
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6 T3 150hp (110kW) 240Nm",
+      "1.6 T4 180hp (132kW) 240Nm",
+      "2.0 D2 120hp (88kW) 280Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D3 Polestar 163hp (120kW) 320Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 D4 181hp (133kW) 400Nm",
+      "2.0 D4 Polestar 200hp (147kW) 440Nm",
+      "2.0 D5 225hp (165kW) 470Nm",
+      "2.0 T3 152hp (112kW) 250Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.0 T5 Polestar 253hp (186kW) 400Nm",
+      "2.0 T6 306hp (225kW) 440Nm",
+      "2.0 T6 Polestar 310hp (228kW) 430Nm",
+      "2.0 T6 Polestar 367hp (270kW) 470Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm"
+    ],
+    "S60 2018 ->": [
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 T4 197hp (145kW) 300Nm",
+      "2.0 T5 250hp (184kW) 350Nm",
+      "2.0 T6 310hp (228kW) 400Nm"
+    ],
+    "S70 1997 - 2000": [
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5 TDI 140hp (103kW) 290Nm",
+      "2.5D 140hp (103kW) 290Nm",
+      "2.5T 193hp (142kW) 270Nm",
+      "R 240hp aut (176kW) 330Nm",
+      "R 250hp (184kW) 350Nm",
+      "T5 241hp (177kW) 330Nm"
+    ],
+    "S80 1998 - 2006": [
+      "2.4 D5 163hp (120kW) 340Nm",
+      "2.4D 130hp (96kW) 280Nm",
+      "2.4T 200hp (147kW) 285Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5D 140hp (103kW) 290Nm",
+      "2.5T 210hp (154kW) 320Nm",
+      "T6 272hp (200kW) 380Nm"
+    ],
+    "S80 2006 - 2011": [
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 T4 180hp (132kW) 240Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.0T 203hp (149kW) 300Nm",
+      "2.4 D5 185hp (136kW) 400Nm",
+      "2.4 D5 205hp (151kW) 420Nm",
+      "2.4D 163hp (120kW) 340Nm",
+      "2.4D 175hp (129kW) 420Nm",
+      "2.5T 200hp (147kW) 300Nm",
+      "2.5T 231hp (170kW) 340Nm",
+      "T6 285hp (210kW) 400Nm",
+      "T6 304hp (224kW) 440Nm"
+    ],
+    "S80 2012 ->": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "2.0 D3 136hp (100kW) 350Nm",
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 D4 181hp (133kW) 400Nm",
+      "2.0 T4 180hp (132kW) 240Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm",
+      "T6 304hp (224kW) 440Nm"
+    ],
+    "S90 2016 ->": [
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 D4 200hp (147kW) 440Nm",
+      "2.0 D4 Polestar 200hp (147kW) 440Nm",
+      "2.0 D5 235hp (173kW) 480Nm",
+      "2.0 D5 Polestar 240hp (176kW) 500Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 254hp (187kW) 350Nm",
+      "2.0 T5 Polestar 261hp (192kW) 400Nm",
+      "2.0 T6 320hp (235kW) 400Nm",
+      "2.0 T6 Polestar 334hp (kW) Nm",
+      "2.0 T8 407hp (kW) Nm"
+    ],
+    "V40 1998 - 2004": [
+      "1.9 TD 90hp (66kW) 176Nm",
+      "1.9D 102hp (75kW) 215Nm",
+      "1.9D 115hp (85kW) 265Nm",
+      "1.9D 95hp (70kW) 190Nm",
+      "2.0 T 160hp (118kW) 230Nm",
+      "2.0 T 165hp (121kW) 240Nm",
+      "T4 200hp (147kW) 300Nm"
+    ],
+    "V40 2012 - 2015": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6 T2 120hp (88kW) 240Nm",
+      "1.6 T3 150hp (110kW) 240Nm",
+      "1.6 T4 180hp (132kW) 240Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D4 177hp (130kW) 400Nm",
+      "2.0 D4 181hp (133kW) 400Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 T4 180hp (132kW) 300Nm",
+      "2.0 T5 213hp (157kW) 300Nm",
+      "2.5 T5 254hp (187kW) 360Nm"
+    ],
+    "V40 2015 ->": [
+      "1.5T T2 122hp (90kW) 220Nm",
+      "1.5T T3 152hp (112kW) 250Nm",
+      "2.0 D2 120hp (88kW) 280Nm",
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 T2 122hp (90kW) 240Nm",
+      "2.0 T3 152hp (112kW) 250Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 245hp (180kW) 350Nm"
+    ],
+    "V40 Cross Country 2013 ->": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6 T3 150hp (110kW) 270Nm",
+      "1.6 T4 180hp (132kW) 270Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D4 177hp (130kW) 400Nm",
+      "2.0 D4 190hp (140kW) 230Nm",
+      "2.0 T3 152hp (112kW) 250Nm",
+      "2.0 T4 180hp (132kW) 300Nm",
+      "2.0 T5 213hp (157kW) 300Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.5 T5 254hp (187kW) 360Nm"
+    ],
+    "V50 2004 - 2007": [
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.4 D5 180hp aut (132kW) 350Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5 T5 220hp (162kW) 320Nm",
+      "2.5 T5 230hp (169kW) 320Nm"
+    ],
+    "V50 2007 - 2012": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 D4 177hp (130kW) 400Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.4 D5 163hp (120kW) 400Nm",
+      "2.4 D5 180hp (132kW) 400Nm",
+      "2.4 D5 180hp aut (132kW) 350Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5 T5 220hp (162kW) 320Nm",
+      "2.5 T5 230hp (169kW) 320Nm"
+    ],
+    "V60 2010 - 2014": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6 T3 150hp (110kW) 240Nm",
+      "1.6 T4 180hp (132kW) 240Nm",
+      "2.0 D3 136hp (100kW) 350Nm",
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 D4 181hp (133kW) 400Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0T 203hp (149kW) 300Nm",
+      "2.4 D4 163hp aut (120kW) 420Nm",
+      "2.4 D4 181hp (133kW) 420Nm",
+      "2.4 D5 205hp (151kW) 420Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm",
+      "2.4 D6 Hybrid 285hp (210kW) 620Nm",
+      "T6 304hp (224kW) 440Nm",
+      "T6 350hp (257kW) 500Nm"
+    ],
+    "V60 2015 - 2017": [
+      "1.5T T2 122hp (90kW) 220Nm",
+      "1.5T T3 152hp (112kW) 250Nm",
+      "2.0 D2 120hp (88kW) 280Nm",
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D3 Polestar 163hp (120kW) 320Nm",
+      "2.0 D4 181hp (133kW) 400Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 D4 Polestar 200hp (147kW) 440Nm",
+      "2.0 D5 225hp (165kW) 470Nm",
+      "2.0 T3 152hp (112kW) 250Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.0 T5 Polestar 253hp (186kW) 400Nm",
+      "2.0 T6 306hp (225kW) 440Nm",
+      "2.0 T6 Polestar 310hp (228kW) 430Nm",
+      "2.0 T6 Polestar 367hp (270kW) 470Nm",
+      "2.4 D6 290hp (213kW) 640Nm"
+    ],
+    "V60 2018 ->": [
+      "2.0 B5 MHEV 250hp (kW) Nm",
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 T4 197hp (145kW) 300Nm",
+      "2.0 T5 254hp (187kW) 350Nm",
+      "2.0 T6 310hp (228kW) 400Nm",
+      "2.0 T6 Polestar 367hp (270kW) 470Nm"
+    ],
+    "V60 Cross Country 2015 ->": [
+      "1.5T T2 122hp (90kW) 220Nm",
+      "1.5T T3 152hp (112kW) 250Nm",
+      "2.0 D2 120hp (88kW) 280Nm",
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 D5 225hp (165kW) 470Nm",
+      "2.0 T3 152hp (112kW) 250Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.4 D4 190hp (140kW) 420Nm"
+    ],
+    "V70 1997 - 2000": [
+      "2.0 T5 225hp (165kW) 310Nm",
+      "2.3 R 240hp (176kW) 330Nm",
+      "2.3 R 250hp (184kW) 350Nm",
+      "2.3 R 265hp (195kW) 350Nm",
+      "2.3 T5 240hp (176kW) 330Nm",
+      "2.4T 193hp (142kW) 270Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5 TDI 140hp (103kW) 290Nm",
+      "2.5D 140hp (103kW) 290Nm",
+      "2.5T 193hp (142kW) 270Nm"
+    ],
+    "V70 2000 - 2008": [
+      "2.0T 180hp (132kW) 240Nm",
+      "2.3 T5 250hp (184kW) 330Nm",
+      "2.3 T5 260hp (191kW) 350Nm",
+      "2.4 D5 163hp (120kW) 340Nm",
+      "2.4D 126hp (93kW) 300Nm",
+      "2.4D 130hp (96kW) 280Nm",
+      "2.4D 163hp (120kW) 340Nm",
+      "2.4T 200hp (147kW) 285Nm",
+      "2.4i 140hp (103kW) 220Nm",
+      "2.5 R 300hp (221kW) 400Nm",
+      "2.5D 140hp (103kW) 290Nm",
+      "2.5T 210hp (154kW) 320Nm",
+      "D5 185hp (136kW) 400Nm"
+    ],
+    "V70 2007 - 2011": [
+      "1.6 T4 180hp (132kW) 240Nm",
+      "1.6D 109hp (80kW) 240Nm",
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0D 136hp (100kW) 320Nm",
+      "2.0T 203hp (149kW) 300Nm",
+      "2.4D 163hp (120kW) 340Nm",
+      "2.4D 175hp (129kW) 420Nm",
+      "2.5T 200hp (147kW) 300Nm",
+      "2.5T 231hp (170kW) 340Nm",
+      "D5 185hp (136kW) 400Nm",
+      "D5 205hp (151kW) 420Nm",
+      "T6 285hp (210kW) 400Nm",
+      "T6 304hp (224kW) 440Nm"
+    ],
+    "V70 2011 ->": [
+      "1.6 D2 115hp (85kW) 270Nm",
+      "1.6 T4 180hp (132kW) 240Nm",
+      "2.0 D2 120hp (88kW) 280Nm",
+      "2.0 D3 136hp (100kW) 350Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 D3 Polestar 163hp (120kW) 400Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 D4 181hp (133kW) 400Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.0 T5 Polestar 253hp (186kW) 400Nm",
+      "2.4 D4 163hp aut (120kW) 420Nm",
+      "2.4 D4 181hp 5 cyl (133kW) 420Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm",
+      "T6 304hp (224kW) 440Nm"
+    ],
+    "V90 2016 ->": [
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 D4 Polestar 200hp (147kW) 440Nm",
+      "2.0 D5 235hp (173kW) 480Nm",
+      "2.0 D5 240hp (176kW) 500Nm",
+      "2.0 D5 Polestar 240hp (176kW) 500Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 254hp (187kW) 350Nm",
+      "2.0 T5 Polestar 261hp (192kW) 400Nm",
+      "2.0 T6 320hp (235kW) 400Nm",
+      "2.0 T6 Polestar 334hp (kW) Nm",
+      "2.0 T8 407hp (kW) Nm"
+    ],
+    "XC40 2017 ->": [
+      "1.5 T2 129hp (95kW) 245Nm",
+      "1.5 T3 156hp (115kW) 265Nm",
+      "1.5 T3 163hp (120kW) 265Nm",
+      "1.5 T4 PHEV 211hp (kW) Nm",
+      "1.5 T5 PHEV 262hp (kW) Nm",
+      "2.0 B4 MHEV 197hp (kW) Nm",
+      "2.0 B5 MHEV 211hp (kW) Nm",
+      "2.0 D3 150hp (110kW) 320Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 T4 190hp (140kW) 300Nm",
+      "2.0 T5 247hp (182kW) 350Nm"
+    ],
+    "XC60 2008 - 2013": [
+      "2.0 D3 136hp (100kW) 350Nm",
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0T 203hp (149kW) 300Nm",
+      "2.4 D5 185hp (136kW) 400Nm",
+      "2.4 D5 205hp (151kW) 420Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm",
+      "2.4D 163hp  >2011 (120kW) 420Nm",
+      "2.4D 163hp (120kW) 340Nm",
+      "2.4D 175hp (129kW) 420Nm",
+      "T6 285hp (210kW) 400Nm",
+      "T6 304hp (224kW) 440Nm"
+    ],
+    "XC60 2013 - 2017": [
+      "2.0 D3 136hp (100kW) 350Nm",
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D3 Polestar 163hp (120kW) 380Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 D4 181hp (133kW) 420Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 D4 Polestar 200hp (147kW) 440Nm",
+      "2.0 T5 240hp (176kW) 320Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.0 T5 Polestar 261hp (192kW) 400Nm",
+      "2.4 D3 163hp (120kW) 420Nm",
+      "2.4 D4 181hp 5 cyl (133kW) 420Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm",
+      "2.4 D5 220hp (162kW) 440Nm",
+      "2.4 D5 Polestar 230hp (169kW) 470Nm",
+      "T6 306hp (225kW) 440Nm",
+      "T6 Polestar 310hp (228kW) 430Nm"
+    ],
+    "XC60 2017 - 2020": [
+      "2.0 D3 150hp (110kW) 350Nm",
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 D4 Polestar 200hp (147kW) 440Nm",
+      "2.0 D5 235hp (173kW) 480Nm",
+      "2.0 T4 190hp (kW) Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.0 T5 250hp (184kW) 350Nm",
+      "2.0 T5 Polestar 261hp (192kW) 400Nm",
+      "2.0 T6 320hp (kW) Nm",
+      "T8 Twin Engine 407hp (kW) Nm"
+    ],
+    "XC70 2002 - 2007": [
+      "2.4 D5 163hp (120kW) 340Nm",
+      "2.4 D5 185hp (136kW) 400Nm",
+      "2.4T 200hp (147kW) 285Nm",
+      "2.5T 193hp (142kW) 270Nm",
+      "2.5T 210hp (154kW) 320Nm"
+    ],
+    "XC70 2007 - 2011": [
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.4 D3 163hp (120kW) 420Nm",
+      "2.4 D5 185hp (136kW) 400Nm",
+      "2.4 D5 205hp (151kW) 420Nm",
+      "2.4 D5 215hp (158kW) 440Nm",
+      "2.4D 163hp (120kW) 420Nm",
+      "2.4D 175hp (129kW) 420Nm",
+      "3.2 - 238hp (175kW) 320Nm",
+      "3.2 - 243hp (179kW) 320Nm",
+      "T6 285hp (210kW) 400Nm",
+      "T6 304hp (224kW) 440Nm"
+    ],
+    "XC70 2012 ->": [
+      "2.0 D3 163hp (120kW) 400Nm",
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.0 D4 181hp (133kW) 400Nm",
+      "2.0 T5 245hp (180kW) 350Nm",
+      "2.4 D3/D4 163hp (120kW) 420Nm",
+      "2.4 D3/D4 163hp aut (120kW) 420Nm",
+      "2.4 D3/D4 Polestar 215hp (158kW) 440Nm",
+      "2.4 D4 181hp (133kW) 420Nm",
+      "2.4 D5 185hp (136kW) 400Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4 D5 215hp aut (158kW) 440Nm",
+      "2.4 D5 Polestar 230hp (169kW) 470Nm",
+      "T6 304hp (224kW) 440Nm",
+      "T6 Polestar 329hp (242kW) 480Nm"
+    ],
+    "XC90 2002 - 2014": [
+      "2.0 D4 163hp (120kW) 400Nm",
+      "2.4 D3 163hp (120kW) 340Nm",
+      "2.4 D4 163hp (120kW) 340Nm",
+      "2.4 D5 200hp (147kW) 420Nm",
+      "2.4 D5 205hp (151kW) 420Nm",
+      "2.4 D5 215hp (158kW) 420Nm",
+      "2.4D 163hp eur4 (120kW) 340Nm",
+      "2.5T 210hp (154kW) 320Nm",
+      "3.2 - 238hp (175kW) 320Nm",
+      "3.2 - 243hp (179kW) 320Nm",
+      "D5 163hp eur3 (120kW) 340Nm",
+      "D5 185hp eur4 (136kW) 400Nm",
+      "T6 272hp (200kW) 380Nm",
+      "T6 285hp (210kW) 400Nm",
+      "V8 315hp (232kW) 440Nm"
+    ],
+    "XC90 2014 ->": [
+      "2.0 D4 190hp (140kW) 400Nm",
+      "2.0 D5 225hp (165kW) 470Nm",
+      "2.0 D5 235hp (173kW) 480Nm",
+      "2.0 D5 Polestar 240hp (176kW) 500Nm",
+      "2.0 T5 254hp (187kW) 350Nm",
+      "2.0 T6 320hp (235kW) 400Nm",
+      "2.0 T8 TE AWD Hybrid 407hp (299kW) 640Nm"
+    ]
+  },
+  "Volvo Trucks": {
+    "FE 1e generatie": [
+      "240hp (176kW) 920Nm",
+      "240hp Euro 5 (kW) Nm",
+      "280hp (206kW) 1050Nm",
+      "320hp (235kW) 1200Nm"
+    ],
+    "FE 2e generatie Euro 5": [
+      "240hp (kW) Nm",
+      "260hp (kW) Nm",
+      "300hp (kW) Nm",
+      "340hp (kW) Nm"
+    ],
+    "FH 2009 --> Euro 5": [
+      "13 460hp 12.8L (kW) Nm",
+      "13 500hp 12.8L (kW) Nm",
+      "13 540hp 12.8L (kW) Nm",
+      "16 540hp 16.1L (kW) Nm",
+      "16 600hp 16.1L (kW) Nm",
+      "16 700hp 16.1L (kW) Nm",
+      "16 750hp 16.1L (kW) Nm"
+    ],
+    "FH Euro 3 Euro 4 -->2006": [
+      "12 380hp (279kW) 1850Nm",
+      "12 420hp (309kW) 2000Nm",
+      "12 460hp (338kW) 2200Nm",
+      "12 500hp (368kW) 2400Nm",
+      "13 400hp Euro4 (294kW) 2000Nm",
+      "13 440hp Euro4 (324kW) 2200Nm",
+      "13 480hp Euro4 (353kW) 2400Nm",
+      "13 520hp Euro4 (382kW) 2500Nm",
+      "16 550hp Euro3 (404kW) 2500Nm",
+      "16 580hp Euro3 (426kW) 2800Nm",
+      "16 610hp Euro3 (449kW) 2800Nm",
+      "16 660hp Euro3 (485kW) 3100Nm"
+    ],
+    "FL -->2006  Euro 3": [
+      "220hp 5.5L I6 (kW) Nm",
+      "250hp 5.5L I6 (kW) Nm"
+    ],
+    "FL 2007 --> Euro 4": [
+      "240hp 7.2L I6 (kW) Nm",
+      "280hp 7.2L I6 (kW) Nm"
+    ],
+    "FL 2009 --> Euro 5": [
+      "240hp 7.2L I6 (kW) Nm",
+      "260hp 7.2L I6 (kW) Nm",
+      "290hp 7.2L I (kW) Nm"
+    ],
+    "FM 1e generatie": [
+      "12 340hp (250kW) 1700Nm",
+      "12 380hp (279kW) 1850Nm",
+      "12 420hp (309kW) 2000Nm",
+      "12 460hp (338kW) 2200Nm",
+      "13 360hp (265kW) 1800Nm",
+      "13 400hp (294kW) 2000Nm",
+      "13 440hp (324kW) 2200Nm",
+      "13 480hp (353kW) 2400Nm",
+      "9 260hp (191kW) 1250Nm",
+      "9 300hp (221kW) 1400Nm",
+      "9 340hp (250kW) 1600Nm",
+      "9 360hp (265kW) 1700Nm",
+      "9 380hp (279kW) 1700Nm"
+    ]
+  },
+  "WEY": {
+    "VV5 2017 ->": [
+      "2.0T 197hp (145kW) 335Nm"
+    ],
+    "VV7 2017 ->": [
+      "2.0T 234hp (172kW) 360Nm"
+    ]
+  }
+};

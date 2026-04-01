@@ -79,74 +79,101 @@
       <!-- Vehicle content (hidden until loaded) -->
       <div id="detail-content" style="display:none;">
 
-        <!-- Power & Torque Cards -->
-        <div class="detail-stats-grid">
-          <div class="detail-stat-card">
-            <div class="detail-stat-label">Power</div>
-            <div class="detail-stat-bars">
-              <div class="detail-bar-group">
-                <span class="detail-bar-label">Original</span>
-                <div class="detail-bar-track">
-                  <div class="detail-bar detail-bar-original" id="bar-power-orig"></div>
+        <!-- Top row: Power chart + Details side by side -->
+        <div class="detail-top-grid">
+
+          <!-- Power Card -->
+          <div class="detail-chart-card">
+            <h3>Power</h3>
+            <div class="detail-chart">
+              <div class="detail-chart-row">
+                <span class="detail-chart-label">Original</span>
+                <div class="detail-chart-bar-wrap">
+                  <div class="detail-chart-bar detail-chart-bar-orig" id="bar-power-orig"></div>
                 </div>
-                <span class="detail-bar-value" id="val-power-orig">--</span>
               </div>
-              <div class="detail-bar-group">
-                <span class="detail-bar-label">Stage 1</span>
-                <div class="detail-bar-track">
-                  <div class="detail-bar detail-bar-stage1" id="bar-power-stage1"></div>
+              <div class="detail-chart-row">
+                <span class="detail-chart-label">Stage 1</span>
+                <div class="detail-chart-bar-wrap">
+                  <div class="detail-chart-bar detail-chart-bar-stage1" id="bar-power-stage1"></div>
                 </div>
-                <span class="detail-bar-value" id="val-power-stage1">--</span>
+              </div>
+              <div class="detail-chart-scale" id="scale-power"></div>
+            </div>
+            <div class="detail-chart-values">
+              <div class="detail-chart-val-row">
+                <span class="detail-chart-val-label">Original</span>
+                <span class="detail-chart-val-hp" id="val-power-orig-hp">--</span>
+                <span class="detail-chart-val-kw" id="val-power-orig-kw">--</span>
+              </div>
+              <div class="detail-chart-val-row">
+                <span class="detail-chart-val-label">Stage 1</span>
+                <span class="detail-chart-val-hp" id="val-power-stage1-hp">--</span>
+                <span class="detail-chart-val-kw" id="val-power-stage1-kw">--</span>
+                <span class="detail-chart-val-or">or</span>
+                <span class="detail-chart-val-gain" id="gain-power">--</span>
               </div>
             </div>
-            <div class="detail-stat-gain" id="gain-power"></div>
           </div>
 
-          <div class="detail-stat-card">
-            <div class="detail-stat-label">Torque</div>
-            <div class="detail-stat-bars">
-              <div class="detail-bar-group">
-                <span class="detail-bar-label">Original</span>
-                <div class="detail-bar-track">
-                  <div class="detail-bar detail-bar-original" id="bar-torque-orig"></div>
-                </div>
-                <span class="detail-bar-value" id="val-torque-orig">--</span>
+          <!-- Details Card -->
+          <div class="detail-specs-card">
+            <h3>Details</h3>
+            <div class="detail-specs-table">
+              <div class="detail-spec-row">
+                <span class="detail-spec-key">Engine type</span>
+                <span class="detail-spec-val" id="spec-engine-type">--</span>
               </div>
-              <div class="detail-bar-group">
-                <span class="detail-bar-label">Stage 1</span>
-                <div class="detail-bar-track">
-                  <div class="detail-bar detail-bar-stage1" id="bar-torque-stage1"></div>
-                </div>
-                <span class="detail-bar-value" id="val-torque-stage1">--</span>
+              <div class="detail-spec-row">
+                <span class="detail-spec-key">Engine size</span>
+                <span class="detail-spec-val" id="spec-engine-size">--</span>
+              </div>
+              <div class="detail-spec-row">
+                <span class="detail-spec-key">ECU type</span>
+                <span class="detail-spec-val" id="spec-ecu-type">--</span>
+              </div>
+              <div class="detail-spec-row">
+                <span class="detail-spec-key">Original power</span>
+                <span class="detail-spec-val" id="spec-orig-power">--</span>
+              </div>
+              <div class="detail-spec-row">
+                <span class="detail-spec-key">Original torque</span>
+                <span class="detail-spec-val" id="spec-orig-torque">--</span>
               </div>
             </div>
-            <div class="detail-stat-gain" id="gain-torque"></div>
           </div>
         </div>
 
-        <!-- Vehicle Specs Table -->
-        <div class="detail-specs">
-          <h3>Vehicle Specifications</h3>
-          <div class="detail-specs-table">
-            <div class="detail-spec-row">
-              <span class="detail-spec-key">Engine Type</span>
-              <span class="detail-spec-val" id="spec-engine-type">--</span>
+        <!-- Torque Card (full width below) -->
+        <div class="detail-chart-card">
+          <h3>Torque</h3>
+          <div class="detail-chart">
+            <div class="detail-chart-row">
+              <span class="detail-chart-label">Original</span>
+              <div class="detail-chart-bar-wrap">
+                <div class="detail-chart-bar detail-chart-bar-orig" id="bar-torque-orig"></div>
+              </div>
             </div>
-            <div class="detail-spec-row">
-              <span class="detail-spec-key">Engine Size</span>
-              <span class="detail-spec-val" id="spec-engine-size">--</span>
+            <div class="detail-chart-row">
+              <span class="detail-chart-label">Stage 1</span>
+              <div class="detail-chart-bar-wrap">
+                <div class="detail-chart-bar detail-chart-bar-stage1" id="bar-torque-stage1"></div>
+              </div>
             </div>
-            <div class="detail-spec-row">
-              <span class="detail-spec-key">ECU Type</span>
-              <span class="detail-spec-val" id="spec-ecu-type">--</span>
+            <div class="detail-chart-scale" id="scale-torque"></div>
+          </div>
+          <div class="detail-chart-values">
+            <div class="detail-chart-val-row">
+              <span class="detail-chart-val-label">Original</span>
+              <span class="detail-chart-val-hp" id="val-torque-orig-nm">--</span>
+              <span class="detail-chart-val-kw" id="val-torque-orig-ftlb">--</span>
             </div>
-            <div class="detail-spec-row">
-              <span class="detail-spec-key">Original Power</span>
-              <span class="detail-spec-val" id="spec-orig-power">--</span>
-            </div>
-            <div class="detail-spec-row">
-              <span class="detail-spec-key">Original Torque</span>
-              <span class="detail-spec-val" id="spec-orig-torque">--</span>
+            <div class="detail-chart-val-row">
+              <span class="detail-chart-val-label">Stage 1</span>
+              <span class="detail-chart-val-hp" id="val-torque-stage1-nm">--</span>
+              <span class="detail-chart-val-kw" id="val-torque-stage1-ftlb">--</span>
+              <span class="detail-chart-val-or">or</span>
+              <span class="detail-chart-val-gain" id="gain-torque">--</span>
             </div>
           </div>
         </div>
@@ -159,7 +186,7 @@
 
         <!-- CTA -->
         <div class="detail-cta">
-          <p>Interessado nesse tuning? Crie uma conta gratuita e faca seu pedido.</p>
+          <p>Interested in this tune? Create a free account and place your order.</p>
           <div class="detail-cta-actions">
             <a href="register.html" class="btn btn-primary btn-lg">Get Started Free</a>
             <a href="contact.html" class="btn btn-outline btn-lg">Contact Us</a>

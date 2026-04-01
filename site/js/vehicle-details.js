@@ -1,6 +1,6 @@
 // ==========================================
 // Vehicle Details Page - Renderizacao
-// Formato dos dados: [make, model, engine, {detalhes}?]
+// Formato: [make, model, engine, {detalhes}?]
 // Detalhes: et=engine_type, es=engine_size, ec=ecu_type,
 //           op=orig_power, ot=orig_torque,
 //           p=[orig_hp, orig_kw, stage1_hp, stage1_kw, gain_hp, gain_kw]
@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // Buscar o veiculo na base
   const vehicle = findVehicle(make, model, engine);
 
   if (!vehicle) {
@@ -32,19 +31,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function findVehicle(make, model, engine) {
-  // Busca exata
   let result = VEHICLE_DETAILS.find(v =>
     v[0] === make && v[1] === model && v[2] === engine
   );
   if (result) return result;
 
-  // Busca parcial: make + model (sem engine especifico)
   if (model) {
     result = VEHICLE_DETAILS.find(v => v[0] === make && v[1] === model);
     if (result) return result;
   }
 
-  // Busca so por make (retorna primeiro resultado)
   result = VEHICLE_DETAILS.find(v => v[0] === make);
   return result || null;
 }
@@ -54,61 +50,89 @@ function showNotFound() {
   document.getElementById('detail-notfound').style.display = 'block';
 }
 
+// Gera escala numerica: 0, step, step*2, ..., max
+function buildScale(max) {
+  const steps = 5;
+  const stepSize = Math.ceil(max / steps / 10) * 10;
+  const ticks = [];
+  for (let i = 0; i <= steps; i++) {
+    ticks.push(i * stepSize);
+  }
+  return ticks;
+}
+
+function renderScale(containerId, maxVal) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  const ticks = buildScale(maxVal);
+  el.innerHTML = ticks.map(t => '<span>' + t + '</span>').join('');
+  return ticks[ticks.length - 1]; // retorna o max da escala
+}
+
 function renderVehicle(v, make, model, engine) {
   const details = v[3] || {};
   const titulo = make + ' ' + (model || '') + ' ' + (engine || '');
 
-  // Atualizar header
+  // Header
   document.getElementById('detail-title').textContent = titulo;
   document.getElementById('breadcrumb-vehicle').textContent = make + (model ? ' ' + model : '');
   document.title = titulo + ' - Euro Files';
 
-  // Specs table
+  // Specs
   setText('spec-engine-type', details.et || '--');
   setText('spec-engine-size', details.es || '--');
   setText('spec-ecu-type', details.ec || '--');
   setText('spec-orig-power', details.op || '--');
   setText('spec-orig-torque', details.ot || '--');
 
-  // Power bars
+  // Power
   if (details.p) {
-    const p = details.p;
-    const maxPower = Math.max(p[2], p[0]) * 1.15; // stage1 + margem
+    var p = details.p;
+    var scaleMax = renderScale('scale-power', Math.max(p[0], p[2]) * 1.2);
 
-    setText('val-power-orig', p[0] + 'HP (' + p[1] + 'kW)');
-    setText('val-power-stage1', p[2] + 'HP (' + p[3] + 'kW)');
-    document.getElementById('gain-power').textContent = '+ ' + p[4] + 'HP (+ ' + p[5] + 'kW)';
+    setText('val-power-orig-hp', p[0] + 'HP');
+    setText('val-power-orig-kw', p[1] + 'kW');
+    setText('val-power-stage1-hp', p[2] + 'HP');
+    setText('val-power-stage1-kw', p[3] + 'kW');
+    document.getElementById('gain-power').textContent = '+ ' + p[4] + 'HP ' + p[5] + 'kW';
 
-    // Animar barras com delay
-    setTimeout(() => {
-      document.getElementById('bar-power-orig').style.width = ((p[0] / maxPower) * 100) + '%';
-      document.getElementById('bar-power-stage1').style.width = ((p[2] / maxPower) * 100) + '%';
-    }, 100);
+    setTimeout(function() {
+      document.getElementById('bar-power-orig').style.width = ((p[0] / scaleMax) * 100) + '%';
+      document.getElementById('bar-power-stage1').style.width = ((p[2] / scaleMax) * 100) + '%';
+    }, 150);
   } else {
-    setText('val-power-orig', details.op || '--');
-    setText('val-power-stage1', 'N/A');
-    document.getElementById('gain-power').textContent = 'Stage 1 data not available';
-    document.getElementById('gain-power').style.color = 'var(--text-light)';
+    setText('val-power-orig-hp', '--');
+    setText('val-power-orig-kw', '');
+    setText('val-power-stage1-hp', 'N/A');
+    setText('val-power-stage1-kw', '');
+    var gpEl = document.getElementById('gain-power');
+    if (gpEl) { gpEl.textContent = 'No stage data'; gpEl.style.background = 'var(--bg-gray)'; gpEl.style.color = 'var(--text-light)'; }
+    renderScale('scale-power', 100);
   }
 
-  // Torque bars
+  // Torque
   if (details.t) {
-    const t = details.t;
-    const maxTorque = Math.max(t[2], t[0]) * 1.15;
+    var t = details.t;
+    var tScaleMax = renderScale('scale-torque', Math.max(t[0], t[2]) * 1.2);
 
-    setText('val-torque-orig', t[0] + 'Nm (' + t[1] + 'ft-lb)');
-    setText('val-torque-stage1', t[2] + 'Nm (' + t[3] + 'ft-lb)');
-    document.getElementById('gain-torque').textContent = '+ ' + t[4] + 'Nm (+ ' + t[5] + 'ft-lb)';
+    setText('val-torque-orig-nm', t[0] + 'NM');
+    setText('val-torque-orig-ftlb', t[1] + 'FT-LB');
+    setText('val-torque-stage1-nm', t[2] + 'NM');
+    setText('val-torque-stage1-ftlb', t[3] + 'FT-LB');
+    document.getElementById('gain-torque').textContent = '+ ' + t[4] + 'NM ' + t[5] + 'FT-LB';
 
-    setTimeout(() => {
-      document.getElementById('bar-torque-orig').style.width = ((t[0] / maxTorque) * 100) + '%';
-      document.getElementById('bar-torque-stage1').style.width = ((t[2] / maxTorque) * 100) + '%';
-    }, 100);
+    setTimeout(function() {
+      document.getElementById('bar-torque-orig').style.width = ((t[0] / tScaleMax) * 100) + '%';
+      document.getElementById('bar-torque-stage1').style.width = ((t[2] / tScaleMax) * 100) + '%';
+    }, 150);
   } else {
-    setText('val-torque-orig', details.ot || '--');
-    setText('val-torque-stage1', 'N/A');
-    document.getElementById('gain-torque').textContent = 'Stage 1 data not available';
-    document.getElementById('gain-torque').style.color = 'var(--text-light)';
+    setText('val-torque-orig-nm', '--');
+    setText('val-torque-orig-ftlb', '');
+    setText('val-torque-stage1-nm', 'N/A');
+    setText('val-torque-stage1-ftlb', '');
+    var gtEl = document.getElementById('gain-torque');
+    if (gtEl) { gtEl.textContent = 'No stage data'; gtEl.style.background = 'var(--bg-gray)'; gtEl.style.color = 'var(--text-light)'; }
+    renderScale('scale-torque', 100);
   }
 
   // Description
@@ -118,12 +142,12 @@ function renderVehicle(v, make, model, engine) {
     'The software is tested on dyno bench and optimized for best performance and efficiency. ' +
     'Stage 1 chiptuning provides more power, smoother torque, less fuel consumption and better throttle response.';
 
-  // Trocar estados de visibilidade
+  // Mostrar conteudo
   document.getElementById('detail-loading').style.display = 'none';
   document.getElementById('detail-content').style.display = 'block';
 }
 
 function setText(id, text) {
-  const el = document.getElementById(id);
+  var el = document.getElementById(id);
   if (el) el.textContent = text;
 }

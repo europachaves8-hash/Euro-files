@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="High quality chiptuning files | Fast excellent support">
+  <meta name="keywords" content="ECU files, tuning files, chiptuning files, ecu remap">
+  <title>Euro Files</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+      </a>
+      <div class="nav-links">
+        <a href="/" class="active">Home</a>
+        <a href="vehicles.html">Vehicle List</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="/auth/login" class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">Login</a>
+        <a href="/auth/register" class="btn btn-sm btn-primary">Register</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav">
+    <button class="close-btn">&times;</button>
+    <a href="/">Home</a>
+    <a href="vehicles.html">Vehicle List</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+    <a href="/auth/login">Login</a>
+    <a href="/auth/register">Register</a>
+  </div>
+
+  <!-- ===== HERO (scroll-driven video) ===== -->
+  <div class="hero-scroll-wrapper">
+  <section class="hero">
+    <canvas class="hero-video-canvas" id="heroCanvas"></canvas>
+    <video class="hero-video-src" muted playsinline preload="auto" id="heroVideo" style="display:none">
+      <source src="assets/Videos/hero-scroll.mp4" type="video/mp4">
+    </video>
+    <div class="hero-video-overlay"></div>
+    <div class="hero-decoration"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Online <span>Euro Files</span> Service</h1>
+        <p>12+ years of experience delivering dyno and road tested chiptuning files individually developed by our team. Fast, simple and guaranteed results.</p>
+        <div class="hero-actions">
+          <a href="/auth/register" class="btn btn-lg btn-primary">Get Started Free</a>
+          <a href="services.html" class="btn btn-lg btn-white">Our Services</a>
+        </div>
+
+        <!-- Vehicle Selector inside hero -->
+        <div class="hero-selector">
+          <h3>Compare file tuning options for your vehicle</h3>
+          <div class="selector-row">
+          <div class="form-group">
+            <label for="sel-make">Make</label>
+            <select id="sel-make" class="form-control">
+              <option value="">Select</option>
+              <option>Acura</option>
+              <option>Alfa Romeo</option>
+              <option>Alpina</option>
+              <option>Alpine</option>
+              <option>Aston Martin</option>
+              <option>Audi</option>
+              <option>Bentley</option>
+              <option>BMW</option>
+              <option>Buick</option>
+              <option>Cadillac</option>
+              <option>Case</option>
+              <option>Caterpillar</option>
+              <option>Challenger</option>
+              <option>Changan</option>
+              <option>Chevrolet</option>
+              <option>Chrysler</option>
+              <option>Citroen</option>
+              <option>Claas</option>
+              <option>Cupra</option>
+              <option>DAF</option>
+              <option>DS</option>
+              <option>Dacia</option>
+              <option>Daewoo</option>
+              <option>Dallara</option>
+              <option>Deutz Fahr</option>
+              <option>Dodge</option>
+              <option>Fendt</option>
+              <option>Ferrari</option>
+              <option>Fiat</option>
+              <option>Ford</option>
+              <option>GMC</option>
+              <option>GWM</option>
+              <option>Geely</option>
+              <option>Genesis</option>
+              <option>Holden</option>
+              <option>Honda</option>
+              <option>Hummer</option>
+              <option>Hyundai</option>
+              <option>Infiniti</option>
+              <option>Isuzu</option>
+              <option>Iveco</option>
+              <option>JCB</option>
+              <option>Jac</option>
+              <option>Jaguar</option>
+              <option>Jeep</option>
+              <option>John Deere</option>
+              <option>Kia</option>
+              <option>Krone</option>
+              <option>Lamborghini</option>
+              <option>Lamborghini Tractors</option>
+              <option>Lancia</option>
+              <option>Land Rover</option>
+              <option>Lexus</option>
+              <option>Lincoln</option>
+              <option>Lotus</option>
+              <option>Luxgen</option>
+              <option>Lynk &amp; Co</option>
+              <option>MAN</option>
+              <option>MG</option>
+              <option>Mahindra</option>
+              <option>Maserati</option>
+              <option>Massey Fergusson</option>
+              <option>Mazda</option>
+              <option>McCormick</option>
+              <option>McLaren</option>
+              <option>Mercedes-Benz</option>
+              <option>Mercedes-Benz Trucks</option>
+              <option>Mercury</option>
+              <option>Mini</option>
+              <option>Mitsubishi</option>
+              <option>New Holland</option>
+              <option>Nissan</option>
+              <option>Oldsmobile</option>
+              <option>Opel</option>
+              <option>Peugeot</option>
+              <option>Pontiac</option>
+              <option>Porsche</option>
+              <option>Renault</option>
+              <option>Renault truck</option>
+              <option>Roewe</option>
+              <option>Rolls Royce</option>
+              <option>Rover</option>
+              <option>Saab</option>
+              <option>Saturn</option>
+              <option>Scania trucks</option>
+              <option>Seat</option>
+              <option>Skoda</option>
+              <option>Smart</option>
+              <option>SsangYong</option>
+              <option>Steyr</option>
+              <option>Subaru</option>
+              <option>Suzuki</option>
+              <option>Tesla</option>
+              <option>Toyota</option>
+              <option>Valtra</option>
+              <option>Vauxhall</option>
+              <option>Volkswagen</option>
+              <option>Volvo</option>
+              <option>Volvo Trucks</option>
+              <option>WEY</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel-model">Model / Generation</label>
+            <select id="sel-model" class="form-control" disabled>
+              <option value="">Select</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel-engine">Engine</label>
+            <select id="sel-engine" class="form-control" disabled>
+              <option value="">Select</option>
+            </select>
+          </div>
+        </div>
+          <button type="button" class="btn btn-primary" id="btn-find-file">Find a File</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div><!-- /.hero-scroll-wrapper -->
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title" data-animate="up">
+        <div class="badge">In 4 Simple Steps</div>
+        <h2>How It Works?</h2>
+        <p>Start using our ECU file service in just a few minutes</p>
+      </div>
+
+      <!-- Step tabs -->
+      <div class="steps-tabs" data-animate="scale">
+        <button class="step-tab active" data-step="1">1</button>
+        <button class="step-tab" data-step="2">2</button>
+        <button class="step-tab" data-step="3">3</button>
+        <button class="step-tab" data-step="4">4</button>
+      </div>
+
+      <!-- Step panels -->
+      <div class="steps-carousel" data-animate="up">
+        <div class="step-panel active" data-panel="1">
+          <div class="step-panel-img" data-animate="left">
+            <img src="assets/images/main_public_images_shares_Modules_Spotlight_register-login_png.png" alt="Register">
+          </div>
+          <div class="step-panel-info" data-animate="right">
+            <h3>Create a free account</h3>
+            <p>Start with a free registration. It will only take a couple of minutes. No credit card or any pre-payment is needed.</p>
+          </div>
+        </div>
+        <div class="step-panel" data-panel="2">
+          <div class="step-panel-img" data-animate="left">
+            <img src="assets/images/main_public_images_shares_Modules_Spotlight_credits-purchase_png.png" alt="Buy Credits">
+          </div>
+          <div class="step-panel-info" data-animate="right">
+            <h3>Buy credits</h3>
+            <p>Purchase credits to start placing your ECU file requests. All transactions are securely processed by PayPal. Use our electronic invoicing system. Track all your previous purchases in a history log.</p>
+          </div>
+        </div>
+        <div class="step-panel" data-panel="3">
+          <div class="step-panel-img" data-animate="left">
+            <img src="assets/images/main_public_images_shares_Modules_Spotlight_place-ticket_png.png" alt="Upload File">
+          </div>
+          <div class="step-panel-info" data-animate="right">
+            <h3>Upload an original file</h3>
+            <p>Upload and store the original ECU file. Communicate with an assigned ticket manager. Track each ticket progress. Review all current and previous tickets.</p>
+          </div>
+        </div>
+        <div class="step-panel" data-panel="4">
+          <div class="step-panel-img" data-animate="left">
+            <img src="assets/images/main_public_images_shares_Modules_Spotlight_closed-ticket-details_png.png" alt="Download Tune">
+          </div>
+          <div class="step-panel-info" data-animate="right">
+            <h3>Download the tuning file</h3>
+            <p>Get a notification directly to your email once your tuning file is ready. Review a ticket details. Download the file. Return any time you want - the file will be securely stored for an unlimited time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES PREVIEW ===== -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-title" data-animate="up">
+        <div class="badge">What We Offer</div>
+        <h2>Chiptuning Services</h2>
+        <p>Professional ECU tuning solutions for all vehicle types</p>
+      </div>
+
+      <div class="tuning-grid">
+        <div class="tuning-item" data-animate>Stage 1 Remap</div>
+        <div class="tuning-item" data-animate>Stage 2 Remap</div>
+        <div class="tuning-item" data-animate>Stage 3 Remap</div>
+        <div class="tuning-item" data-animate>DPF / FAP OFF</div>
+        <div class="tuning-item" data-animate>EGR OFF</div>
+        <div class="tuning-item" data-animate>DTC OFF</div>
+        <div class="tuning-item" data-animate>AdBlue / SCR OFF</div>
+        <div class="tuning-item" data-animate>Lambda / O2 / Decat OFF</div>
+        <div class="tuning-item" data-animate>GPF / OPF OFF</div>
+        <div class="tuning-item" data-animate>Speed Limiter / VMAX OFF</div>
+        <div class="tuning-item" data-animate>Pop And Bangs / Crackles</div>
+        <div class="tuning-item" data-animate>Popcorn / Hard Cut Diesel</div>
+        <div class="tuning-item" data-animate>Launch Control</div>
+        <div class="tuning-item" data-animate>Start-Stop OFF</div>
+        <div class="tuning-item" data-animate>Intake / Swirl Flaps OFF</div>
+        <div class="tuning-item" data-animate>EVAP OFF</div>
+        <div class="tuning-item" data-animate>Throttle Body OFF</div>
+        <div class="tuning-item" data-animate>Rev Limiter</div>
+        <div class="tuning-item" data-animate>IMMO OFF</div>
+        <div class="tuning-item" data-animate>E85 Flexfuel</div>
+        <div class="tuning-item" data-animate>Cold Start Sound OFF</div>
+        <div class="tuning-item" data-animate>Torque Monitoring OFF</div>
+        <div class="tuning-item" data-animate>Hot Start / Cold Start Fix</div>
+        <div class="tuning-item" data-animate>Sport Display BMW/MINI</div>
+        <div class="tuning-item" data-animate>MAF Sensor OFF</div>
+        <div class="tuning-item" data-animate>Octane Adaptation</div>
+        <div class="tuning-item" data-animate>Rail / MAP Calibration</div>
+        <div class="tuning-item" data-animate>Cylinder On Demand OFF</div>
+        <div class="tuning-item" data-animate>Hard Cut Limiter</div>
+        <div class="tuning-item" data-animate>Readiness Calibration</div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="services.html" class="btn btn-primary">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ECU INFO ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title" data-animate="up">
+        <div class="badge">Why Choose Us</div>
+        <h2>ECU Tuning Files from EUROFILES</h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+        <div data-animate="left">
+          <h4 style="margin-bottom: 16px;">Our Services</h4>
+          <ul style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
+            <li>&#10148; Individually Developed Maps</li>
+            <li>&#10148; Custom STAGE 1 / STAGE 2 / STAGE 3 Tune</li>
+            <li>&#10148; High Quality Services</li>
+            <li>&#10148; Agri, Truck & Boat Tuning Files</li>
+            <li>&#10148; Motorcycle / Motorbike Tuning Files</li>
+            <li>&#10148; Low Prices</li>
+            <li>&#10148; Processing Time 5min - 30min</li>
+            <li>&#10148; Real-time Fast Support</li>
+            <li>&#10148; Dyno & Road Tested Files</li>
+            <li>&#10148; Special ECU Tuning Requests</li>
+          </ul>
+        </div>
+        <div data-animate="up">
+          <h4 style="margin-bottom: 16px;">Solutions Available</h4>
+          <ul style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
+            <li>&#10148; DPF / FAP OFF</li>
+            <li>&#10148; EGR OFF</li>
+            <li>&#10148; DTC OFF</li>
+            <li>&#10148; AdBlue / SCR OFF</li>
+            <li>&#10148; Lambda / O2 / Decat OFF</li>
+            <li>&#10148; Speed Limiter / VMAX OFF</li>
+            <li>&#10148; Pop And Bangs / Crackles</li>
+            <li>&#10148; Launch Control</li>
+            <li>&#10148; Start-Stop OFF</li>
+            <li>&#10148; IMMO OFF</li>
+          </ul>
+        </div>
+        <div data-animate="right">
+          <h4 style="margin-bottom: 16px;">Payment & Security</h4>
+          <ul style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
+            <li>&#10148; Secure PayPal Payments</li>
+            <li>&#10148; Visa / MasterCard Accepted</li>
+            <li>&#10148; Instant Invoices</li>
+            <li>&#10148; Big WinOLS Database</li>
+            <li>&#10148; Dragy GPS Tested Results</li>
+            <li>&#10148; Damos / Map Packs</li>
+            <li>&#10148; Free Independent Advice</li>
+            <li>&#10148; Manual Solutions</li>
+            <li>&#10148; Special Requests Welcome</li>
+            <li>&#10148; Unlimited File Storage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section">
+    <div class="container" data-animate="scale">
+      <h2>Ready to Get Started?</h2>
+      <p>Create your free account today and get professional ECU tuning files within minutes.</p>
+      <a href="/auth/register" class="btn btn-lg btn-white">Create Free Account</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="navbar-brand mb-3">
+            <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+          </div>
+          <p>Professional ECU chiptuning file service with 12+ years of experience. Dyno and road tested files for all vehicle brands.</p>
+        </div>
+        <div>
+          <h4>Site Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="vehicles.html">Vehicle List</a></li>
+            <li><a href="services.html">Chiptuning Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="/auth/login">Member Area</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Working Hours</h4>
+          <table class="footer-hours">
+            <tr><td>Monday - Friday</td><td>09:00 - 20:00</td></tr>
+            <tr><td>Saturday</td><td>09:00 - 16:00</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </table>
+          <div class="mt-3">
+            <h4>We Serve</h4>
+            <div class="footer-brands">
+              <a href="vehicles.html">BMW</a>
+              <a href="vehicles.html">Audi</a>
+              <a href="vehicles.html">Mercedes</a>
+              <a href="vehicles.html">VW</a>
+              <a href="vehicles.html">Ford</a>
+              <a href="vehicles.html">Porsche</a>
+              <a href="vehicles.html">Toyota</a>
+              <a href="vehicles.html">Renault</a>
+              <a href="vehicles.html">Opel</a>
+              <a href="vehicles.html">Skoda</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; 2014 - 2026 EUROFILES | All rights reserved</div>
+    </div>
+  </footer>
+
+  <script src="js/vehicle-data.js"></script>
+  <script src="js/engine-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

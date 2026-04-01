@@ -1454,101 +1454,150 @@ table tr:hover td {
 }
 
 /* ---------- Vehicle Details Page ---------- */
-.detail-stats-grid {
+
+/* Top grid: Power chart + Details side by side */
+.detail-top-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
-.detail-stat-card {
+/* Chart cards (Power / Torque) */
+.detail-chart-card {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 32px;
+  padding: 28px 32px;
   box-shadow: var(--shadow);
+  margin-bottom: 24px;
 }
 
-.detail-stat-label {
-  font-size: 1.1rem;
+.detail-chart-card h3 {
+  font-size: 1.3rem;
   font-weight: 700;
-  color: var(--text-dark);
   margin-bottom: 20px;
   letter-spacing: -0.02em;
 }
 
-.detail-stat-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.detail-chart {
+  margin-bottom: 20px;
 }
 
-.detail-bar-group {
+.detail-chart-row {
   display: grid;
-  grid-template-columns: 70px 1fr 90px;
+  grid-template-columns: 65px 1fr;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+  margin-bottom: 6px;
 }
 
-.detail-bar-label {
+.detail-chart-label {
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--text-light);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
-.detail-bar-track {
-  height: 28px;
+.detail-chart-bar-wrap {
+  height: 22px;
   background: var(--bg-gray);
-  border-radius: 6px;
+  border-radius: 3px;
   overflow: hidden;
+  position: relative;
 }
 
-.detail-bar {
+.detail-chart-bar {
   height: 100%;
-  border-radius: 6px;
-  transition: width 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-radius: 3px;
+  transition: width 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   width: 0;
 }
 
-.detail-bar-original {
-  background: var(--dark);
+.detail-chart-bar-orig {
+  background: #4a2d6b;
 }
 
-.detail-bar-stage1 {
-  background: var(--primary);
+.detail-chart-bar-stage1 {
+  background: #2aac01;
 }
 
-.detail-bar-value {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--text-dark);
-  text-align: right;
+/* Scale ticks under bars */
+.detail-chart-scale {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 75px;
+  margin-top: 4px;
+  font-size: 0.72rem;
+  color: var(--text-light);
 }
 
-.detail-stat-gain {
-  margin-top: 16px;
-  padding-top: 14px;
+/* Values section under chart */
+.detail-chart-values {
   border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+
+.detail-chart-val-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.detail-chart-val-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  min-width: 60px;
+}
+
+.detail-chart-val-hp {
+  background: var(--bg-gray);
+  padding: 4px 12px;
+  border-radius: 4px;
   font-size: 0.9rem;
   font-weight: 700;
-  color: var(--success);
-  text-align: center;
+  color: var(--text-dark);
 }
 
-/* Specs table */
-.detail-specs {
+.detail-chart-val-kw {
+  background: var(--bg-gray);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-light);
+  text-transform: uppercase;
+}
+
+.detail-chart-val-or {
+  font-size: 0.82rem;
+  color: var(--text-light);
+}
+
+.detail-chart-val-gain {
+  background: #2aac01;
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Details / Specs card */
+.detail-specs-card {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 32px;
-  margin-bottom: 40px;
+  padding: 28px 32px;
   box-shadow: var(--shadow);
 }
 
-.detail-specs h3 {
-  font-size: 1.15rem;
+.detail-specs-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
   margin-bottom: 20px;
   letter-spacing: -0.02em;
 }
@@ -1561,7 +1610,7 @@ table tr:hover td {
 .detail-spec-row {
   display: flex;
   justify-content: space-between;
-  padding: 12px 0;
+  padding: 10px 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -1571,14 +1620,15 @@ table tr:hover td {
 
 .detail-spec-key {
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   color: var(--text);
 }
 
 .detail-spec-val {
   font-weight: 500;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   color: var(--text-dark);
+  text-align: right;
 }
 
 /* Description */
@@ -1586,8 +1636,8 @@ table tr:hover td {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 32px;
-  margin-bottom: 40px;
+  padding: 28px 32px;
+  margin-bottom: 24px;
   box-shadow: var(--shadow);
 }
 
@@ -1626,11 +1676,8 @@ table tr:hover td {
 }
 
 @media (max-width: 768px) {
-  .detail-stats-grid {
+  .detail-top-grid {
     grid-template-columns: 1fr;
-  }
-  .detail-bar-group {
-    grid-template-columns: 60px 1fr 70px;
   }
 }
 

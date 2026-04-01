@@ -181,7 +181,7 @@ function initVehicleSelector() {
       if (model) params.set('model', model);
       if (engine && engine !== 'all') params.set('engine', engine);
 
-      window.location.href = 'vehicle-details.html?' + params.toString();
+      window.location.href = 'vehicle-details?' + params.toString();
     });
   }
 }
