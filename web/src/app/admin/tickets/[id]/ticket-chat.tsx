@@ -94,7 +94,7 @@ export function TicketChat({
           user_id: userId,
           sender_name: userName,
           sender_role: isAdmin ? "admin" : "client",
-          message: text.trim() || null,
+          message: text.trim() || (file ? `Attached: ${file.name}` : ""),
         })
         .select()
         .single();
@@ -116,10 +116,9 @@ export function TicketChat({
             .insert({
               order_id: ticketId,
               message_id: msg.id,
-              uploaded_by: userId,
+              user_id: userId,
               file_name: file.name,
               file_path: filePath,
-              file_url: filePath,
               file_size: file.size,
               file_type: isAdmin ? "modified" : "attachment",
             })

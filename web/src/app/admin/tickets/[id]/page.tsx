@@ -58,6 +58,7 @@ export default async function TicketDetailPage({
 
   const originalFile = (files || []).find((f: any) => f.file_type === "original");
   const modifiedFile = (files || []).find((f: any) => f.file_type === "modified");
+  const attachments = (files || []).filter((f: any) => f.file_type === "attachment");
 
   const createdAt = new Date(ticket.created_at).toLocaleDateString("en-GB", {
     day: "2-digit",
@@ -212,6 +213,26 @@ export default async function TicketDetailPage({
                   <p className="text-sm text-zinc-400">
                     Modified file not yet available
                   </p>
+                </div>
+              )}
+
+              {attachments.length > 0 && (
+                <div className="mt-4 pt-4 border-t border-zinc-100">
+                  <p className="text-[10px] font-semibold text-zinc-500 uppercase tracking-wider mb-2">
+                    Attachments ({attachments.length})
+                  </p>
+                  <div className="space-y-2">
+                    {attachments.map((f: any) => (
+                      <div key={f.id} className="flex items-center justify-between p-3 bg-zinc-50 rounded-lg">
+                        <div>
+                          <p className="text-sm font-medium text-zinc-800">{f.file_name}</p>
+                          <p className="text-xs text-zinc-400">
+                            {f.file_size ? `${(f.file_size / 1024).toFixed(1)} KB` : ""}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>

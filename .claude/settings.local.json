@@ -28,7 +28,9 @@
       "Bash(npx next:*)",
       "Bash(find \"/c/Users/João Vithor/Documents/Europa Chaves/web/Euro Files/Euro-files/web/src/app\" -name \"page.tsx\" -exec grep -l \"profile\\\\|settings\\\\|account\" {} \\\\;)",
       "Bash(xargs wc:*)",
-      "Bash(du -sh web/sql/engines_part_* web/sql/06_seed_engines.sql)"
+      "Bash(du -sh web/sql/engines_part_* web/sql/06_seed_engines.sql)",
+      "Bash(gh auth:*)",
+      "Bash(npx vercel:*)"
     ]
   }
 }
