@@ -1150,7 +1150,7 @@ select.form-control {
 /* ---------- Page Header (inner pages) ---------- */
 .page-header {
   background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
-  padding: 140px 0 40px;
+  padding: 180px 0 40px;
   text-align: center;
 }
 
