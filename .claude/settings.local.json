@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls web/public/css/style.css web/public/*.html)",
+      "Bash(netstat -ano)",
+      "Bash(tasklist)",
+      "Bash(wmic process:*)",
+      "Bash(tasklist /v /fi \"PID eq 41244\")",
+      "Bash(npx serve:*)",
+      "Bash(find . -type f \\\\\\( -name \"*.md\" -o -name \"README*\" -o -name \"*.config.*\" -o -name \".env*\" \\\\\\) ! -path \"*/node_modules/*\" -exec ls -la {} \\\\;)",
+      "Bash(ls -la site/*.html)",
+      "Bash(ls -la web/public/*.html)",
+      "Bash(cp site/js/engine-data.js web/public/js/engine-data.js)",
+      "Bash(cp site/js/vehicle-data.js web/public/js/vehicle-data.js)",
+      "Bash(cp site/js/vehicle-data.json web/public/js/vehicle-data.json)",
+      "Bash(cp site/js/vehicle-details-data.js web/public/js/vehicle-details-data.js)",
+      "Bash(cp site/js/vehicle-details.js web/public/js/vehicle-details.js)",
+      "Bash(cp site/index.html web/public/home.html)",
+      "Bash(cp site/vehicles.html web/public/vehicles.html)",
+      "Bash(cp site/services.html web/public/services.html)",
+      "Bash(cp site/pricing.html web/public/pricing.html)",
+      "Bash(cp site/contact.html web/public/contact.html)",
+      "Bash(split -l 3000 web/sql/06_seed_engines.sql web/sql/engines_part_)",
+      "Bash(ls -la web/sql/engines_part_*)",
+      "Bash(node -e ':*)",
+      "Bash(node scripts/insert-engines.js)",
+      "Bash(xargs grep:*)",
+      "Bash(npx next:*)",
+      "Bash(find \"/c/Users/João Vithor/Documents/Europa Chaves/web/Euro Files/Euro-files/web/src/app\" -name \"page.tsx\" -exec grep -l \"profile\\\\|settings\\\\|account\" {} \\\\;)",
+      "Bash(xargs wc:*)",
+      "Bash(du -sh web/sql/engines_part_* web/sql/06_seed_engines.sql)"
+    ]
+  }
+}

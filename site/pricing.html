@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Price list - ECU files pricing and credits">
+  <meta name="description" content="Price list - ECU files pricing in EUR">
   <title>Pricing | ECU Files | EUROFILES</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,19 +15,19 @@
   <!-- NAVBAR -->
   <nav class="navbar scrolled">
     <div class="container">
-      <a href="index.html" class="navbar-brand">
+      <a href="/" class="navbar-brand">
         <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
       </a>
       <div class="nav-links">
-        <a href="index.html">Home</a>
+        <a href="/">Home</a>
         <a href="vehicles.html">Vehicle List</a>
         <a href="services.html">Services</a>
         <a href="pricing.html" class="active">Pricing</a>
         <a href="contact.html">Contact</a>
       </div>
       <div class="nav-actions">
-        <a href="login.html" class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">Login</a>
-        <a href="register.html" class="btn btn-sm btn-primary">Register</a>
+        <a href="/auth/login" class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">Login</a>
+        <a href="/auth/register" class="btn btn-sm btn-primary">Register</a>
       </div>
       <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
@@ -34,7 +35,7 @@
 
   <div class="mobile-nav">
     <button class="close-btn">&times;</button>
-    <a href="index.html">Home</a>
+    <a href="/">Home</a>
     <a href="vehicles.html">Vehicle List</a>
     <a href="services.html">Services</a>
     <a href="pricing.html">Pricing</a>
@@ -46,20 +47,20 @@
     <div class="container">
       <h1>Pricing</h1>
       <div class="breadcrumb">
-        <a href="index.html">Home</a>
+        <a href="/">Home</a>
         <span>/</span>
         <span class="current">Pricing</span>
       </div>
     </div>
   </div>
 
-  <!-- PRICING INTRO -->
+  <!-- PRICING -->
   <section class="section">
     <div class="container">
       <div class="section-title">
-        <div class="badge">Flexible Pricing</div>
-        <h2>Login and Buy Credits for ECU Files</h2>
-        <p>Buy more credits and you will get better price. We work with PayPal and accept credit cards as well.</p>
+        <div class="badge">Transparent Pricing</div>
+        <h2>Simple Pricing in EUR</h2>
+        <p>Pay per service, no credit system. We accept PayPal and credit cards.</p>
       </div>
 
       <!-- Pricing by Vehicle Type -->
@@ -71,86 +72,75 @@
               <tr>
                 <th>Vehicle Type</th>
                 <th>Service</th>
-                <th>Credits</th>
-                <th>Approx. EUR</th>
+                <th>Price (EUR)</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td>Car / SUV</td><td>Stage 1 Remap</td><td>3 - 5 credits</td><td>~30 - 50 EUR</td></tr>
-              <tr><td>Car / SUV</td><td>Stage 2 Remap</td><td>4 - 6 credits</td><td>~40 - 60 EUR</td></tr>
-              <tr><td>Car / SUV</td><td>DPF/EGR/DTC Removal</td><td>2 - 4 credits</td><td>~20 - 40 EUR</td></tr>
-              <tr><td>Car / SUV</td><td>Pop & Bangs / Crackles</td><td>3 - 5 credits</td><td>~30 - 50 EUR</td></tr>
-              <tr><td>Truck</td><td>Stage 1 Remap</td><td>5 - 8 credits</td><td>~50 - 80 EUR</td></tr>
-              <tr><td>Truck</td><td>DPF/EGR/AdBlue Removal</td><td>4 - 7 credits</td><td>~40 - 70 EUR</td></tr>
-              <tr><td>Agriculture</td><td>Stage 1 Remap</td><td>5 - 10 credits</td><td>~50 - 100 EUR</td></tr>
-              <tr><td>Agriculture</td><td>DPF/EGR Removal</td><td>4 - 8 credits</td><td>~40 - 80 EUR</td></tr>
-              <tr><td>Motorcycle</td><td>Stage 1 Remap</td><td>3 - 5 credits</td><td>~30 - 50 EUR</td></tr>
+              <tr><td>Car / SUV</td><td>Stage 1 Remap</td><td>30 - 50 &euro;</td></tr>
+              <tr><td>Car / SUV</td><td>Stage 2 Remap</td><td>40 - 60 &euro;</td></tr>
+              <tr><td>Car / SUV</td><td>DPF/EGR/DTC Removal</td><td>20 - 40 &euro;</td></tr>
+              <tr><td>Car / SUV</td><td>Pop & Bangs / Crackles</td><td>30 - 50 &euro;</td></tr>
+              <tr><td>Truck</td><td>Stage 1 Remap</td><td>50 - 80 &euro;</td></tr>
+              <tr><td>Truck</td><td>DPF/EGR/AdBlue Removal</td><td>40 - 70 &euro;</td></tr>
+              <tr><td>Agriculture</td><td>Stage 1 Remap</td><td>50 - 100 &euro;</td></tr>
+              <tr><td>Agriculture</td><td>DPF/EGR Removal</td><td>40 - 80 &euro;</td></tr>
+              <tr><td>Motorcycle</td><td>Stage 1 Remap</td><td>30 - 50 &euro;</td></tr>
             </tbody>
           </table>
         </div>
-        <p class="text-center text-light mt-2" style="font-size: 0.85rem;">* Prices are approximate and may vary depending on the specific vehicle model and ECU type</p>
+        <p class="text-center text-light mt-2" style="font-size: 0.85rem;">* Prices may vary depending on the specific vehicle model and ECU type</p>
       </div>
 
-      <!-- Credit Packages -->
-      <h3 class="text-center mb-4">Credit Packages</h3>
+      <!-- Volume Discounts -->
       <div class="pricing-grid">
         <div class="pricing-card" data-animate>
-          <h3>Starter</h3>
-          <p class="text-light">Perfect for trying out</p>
-          <div class="price"><span class="currency">&#8364;</span>50<span> / 5 credits</span></div>
+          <h3>Single Service</h3>
+          <p class="text-light">Pay as you go</p>
+          <div class="price"><span class="currency">from </span>20<span>&euro;</span></div>
           <ul class="pricing-features">
-            <li>5 Credits</li>
-            <li>10.00 EUR per credit</li>
+            <li>Any single ECU service</li>
             <li>PayPal or Credit Card</li>
-            <li>Instant delivery</li>
+            <li>Fast turnaround</li>
             <li>Email support</li>
           </ul>
-          <a href="register.html" class="btn btn-outline" style="width: 100%; justify-content: center;">Get Started</a>
+          <a href="/auth/register" class="btn btn-outline" style="width: 100%; justify-content: center;">Get Started</a>
         </div>
 
         <div class="pricing-card featured" data-animate>
-          <h3>Professional</h3>
-          <p class="text-light">Best value for regular use</p>
-          <div class="price"><span class="currency">&#8364;</span>150<span> / 20 credits</span></div>
+          <h3>Regular Client</h3>
+          <p class="text-light">5% off on all services</p>
+          <div class="price"><span class="currency">from </span>100<span>&euro; spent</span></div>
           <ul class="pricing-features">
-            <li>20 Credits</li>
-            <li>7.50 EUR per credit</li>
-            <li>5% discount applied</li>
-            <li>PayPal or Credit Card</li>
+            <li>5% discount on all orders</li>
             <li>Priority support</li>
-            <li>Instant delivery</li>
+            <li>PayPal or Credit Card</li>
+            <li>Fast turnaround</li>
           </ul>
-          <a href="register.html" class="btn btn-primary" style="width: 100%; justify-content: center;">Get Started</a>
+          <a href="/auth/register" class="btn btn-primary" style="width: 100%; justify-content: center;">Get Started</a>
         </div>
 
         <div class="pricing-card" data-animate>
           <h3>Business</h3>
-          <p class="text-light">For high-volume shops</p>
-          <div class="price"><span class="currency">&#8364;</span>400<span> / 60 credits</span></div>
+          <p class="text-light">10% off for high volume</p>
+          <div class="price"><span class="currency">from </span>200<span>&euro; spent</span></div>
           <ul class="pricing-features">
-            <li>60 Credits</li>
-            <li>6.67 EUR per credit</li>
-            <li>10% discount applied</li>
-            <li>PayPal or Credit Card</li>
+            <li>10% discount on all orders</li>
             <li>VIP support</li>
-            <li>Instant delivery</li>
+            <li>PayPal or Credit Card</li>
+            <li>Fastest turnaround</li>
           </ul>
-          <a href="register.html" class="btn btn-outline" style="width: 100%; justify-content: center;">Get Started</a>
+          <a href="/auth/register" class="btn btn-outline" style="width: 100%; justify-content: center;">Get Started</a>
         </div>
-      </div>
-
-      <div class="text-center mt-4">
-        <p class="text-light">Volume discounts: <strong>5% off</strong> for orders from 100-200 EUR &bull; <strong>10% off</strong> for orders above 200 EUR</p>
       </div>
     </div>
   </section>
 
-  <!-- KNOW YOUR PRICE -->
+  <!-- PRICE CALCULATOR -->
   <section class="section bg-light">
     <div class="container" style="max-width: 600px;">
       <div class="card" style="text-align: center; padding: 48px;">
-        <h3>Know Your Order Price</h3>
-        <p class="text-light mb-3">Select vehicle type and services to calculate estimated price</p>
+        <h3>Estimate Your Price</h3>
+        <p class="text-light mb-3">Select vehicle type and service to see estimated cost</p>
         <div class="form-group">
           <select class="form-control" id="calc-vehicle">
             <option value="">Select vehicle type</option>
@@ -170,13 +160,12 @@
             <option value="dtc">DTC Removal</option>
             <option value="adblue">AdBlue Removal</option>
             <option value="popbang">Pop & Bangs</option>
-            <option value="other">Other Service</option>
           </select>
         </div>
-        <div style="background: var(--bg-light); border-radius: var(--radius-sm); padding: 24px; margin-top: 16px;">
+        <div id="calc-result" style="background: var(--bg-light); padding: 24px; margin-top: 16px;">
           <p class="text-light" style="font-size: 0.85rem;">Estimated Price</p>
-          <p style="font-size: 2.5rem; font-weight: 800; color: var(--primary);">0.00 <span style="font-size: 1rem; font-weight: 400;">EUR / credit</span></p>
-          <p class="text-light" style="font-size: 0.8rem;">Select vehicle and service to calculate</p>
+          <p id="calc-price" style="font-size: 2.5rem; font-weight: 800; color: var(--primary);">&mdash;</p>
+          <p id="calc-hint" class="text-light" style="font-size: 0.8rem;">Select vehicle and service to calculate</p>
         </div>
       </div>
     </div>
@@ -186,8 +175,8 @@
   <section class="cta-section">
     <div class="container">
       <h2>Ready to Start?</h2>
-      <p>Register for free and buy credits to start using our ECU file service.</p>
-      <a href="register.html" class="btn btn-lg btn-white">Register Now</a>
+      <p>Register for free and start using our ECU file service today.</p>
+      <a href="/auth/register" class="btn btn-lg btn-white">Register Now</a>
     </div>
   </section>
 
@@ -204,7 +193,7 @@
         <div>
           <h4>Navigation</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="vehicles.html">Vehicle List</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="pricing.html">Pricing</a></li>
@@ -216,7 +205,7 @@
           <ul class="footer-links">
             <li><a href="#">Terms & Conditions</a></li>
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="login.html">Member Area</a></li>
+            <li><a href="/auth/login">Member Area</a></li>
           </ul>
         </div>
         <div>

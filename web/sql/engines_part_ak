@@ -1,0 +1,3000 @@
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'GS 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300h 223hp (kW) Nm', 'Petrol', '300', 223
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'GS 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350 - 317hp (kW) Nm', 'Petrol', '350', 317
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'GS 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '450h 345hp (kW) Nm', 'Petrol', '450', 345
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'GS 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300h 223hp (kW) Nm', 'Petrol', '300', 223
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'GS 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '450h 345hp (kW) Nm', 'Petrol', '450', 345
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'GS 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'F 477hp (kW) Nm', 'Petrol', '', 477
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'GS 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200d 150hp (110kW) 340Nm', 'Petrol', '200', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2005 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220d 177hp (130kW) 400Nm', 'Petrol', '220', 177
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2005 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 - 208hp (153kW) 252Nm', 'Petrol', '250', 208
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2005 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'F 5.0 V8 423hp (311kW) 505Nm', 'Petrol', '', 423
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2005 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200t 245hp (180kW) 350Nm', 'Petrol', '200', 245
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2013 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300h 223hp (kW) Nm', 'Petrol', '300', 223
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2013 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350i 311hp (229kW) 376Nm', 'Petrol', '350', 311
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2013 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300 (2.0T) 241hp (177kW) 350Nm', 'Petrol', '300', 241
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2016 - 2020'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300h 223hp (kW) Nm', 'Petrol', '300', 223
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2016 - 2020'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350i V6 311hp (229kW) 376Nm', 'Petrol', '350', 311
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2016 - 2020'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300 (2.0T) 241hp (177kW) 350Nm', 'Petrol', '300', 241
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2021 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300i V6 260hp (191kW) 320Nm', 'Petrol', '300', 260
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2021 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350i V6 311hp (229kW) 376Nm', 'Petrol', '350', 311
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'IS 2021 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '460L 386hp (kW) Nm', 'Petrol', '460', 386
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'LS 2013 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '600h - 445hp (kW) Nm', 'Petrol', '600', 445
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'LS 2013 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '500 - 420hp (309kW) 600Nm', 'Petrol', '500', 420
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'LS 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '500h - 359hp (kW) Nm', 'Petrol', '500', 359
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'LS 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200t 238hp (175kW) 350Nm', 'Petrol', '200', 238
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'NX 2015 - 2017'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300h 155hp (114kW) 210Nm', 'Petrol', '300', 155
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'NX 2015 - 2017'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Turbo 240hp (176kW) 350Nm', 'Petrol', '2.0', 240
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'NX 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200t 245hp (180kW) 350Nm', 'Petrol', '200', 245
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'RC 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '300h - 233hp (171kW) 221Nm', 'Petrol', '300', 233
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'RC 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350 - 306hp (225kW) 377Nm', 'Petrol', '350', 306
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'RC 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'F - 477hp (kW) Nm', 'Petrol', '', 477
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'RC 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '450h 299hp (kW) Nm', 'Petrol', '450', 299
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'RX 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T 235hp (173kW) 350Nm', 'Petrol', '2.0', 235
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'RX 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 - 177hp (kW) Nm', 'Petrol', '200', 177
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'UX 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250h 177hp (kW) Nm', 'Petrol', '250', 177
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lexus' AND vm.name = 'UX 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0T V6 400hp (294kW) 542Nm', 'Petrol', '3.0', 400
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Aviator 2020 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0T V6 PHEV 494hp (kW) Nm', 'Petrol', '3.0', 494
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Aviator 2020 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.7 Ecoboost V6 335hp (246kW) 515Nm', 'Petrol', '2.7', 335
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Continental 2017 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 Ecoboost V6 400hp (294kW) 542Nm', 'Petrol', '3.0', 400
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Continental 2017 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Ecoboost 250hp (184kW) 373Nm', 'Petrol', '2.0', 250
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Corsair 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.3 Ecoboost 280hp (206kW) 420Nm', 'Petrol', '2.3', 280
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Corsair 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.9 V8 280hp (206kW) 388Nm', 'Petrol', '3.9', 280
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'LS 2000 - 2006'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.5 V6 Ecoboost 365hp (268kW) 575Nm', 'Petrol', '3.5', 365
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKS 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.7 V6 276hp (203kW) 374Nm', 'Petrol', '3.7', 276
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKS 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.7 V6 268hp (197kW) 362Nm', 'Petrol', '3.7', 268
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKT 2010 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.7 V6 300hp (221kW) 366Nm', 'Petrol', '3.7', 300
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKT 2010 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T 245hp (180kW) 373Nm', 'Petrol', '2.0', 245
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKX 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.7T 335hp (246kW) 515Nm', 'Petrol', '2.7', 335
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKX 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T Ecoboost 245hp (180kW) 373Nm', 'Petrol', '2.0', 245
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKZ 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0T Ecoboost V6 350hp (257kW) 540Nm', 'Petrol', '3.0', 350
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKZ 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0T Ecoboost V6 400hp (294kW) 540Nm', 'Petrol', '3.0', 400
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'MKZ 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T 250hp (kW) Nm', 'Petrol', '2.0', 250
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Nautilus 2019 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.7T 335hp (kW) Nm', 'Petrol', '2.7', 335
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Nautilus 2019 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '5.4 V8 300hp (221kW) 481Nm', 'Petrol', '5.4', 300
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Navigator 2003 - 2006'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.5 Ecoboost 370hp (272kW) 583Nm', 'Petrol', '3.5', 370
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Navigator 2007 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.5 Ecoboost 456hp (kW) Nm', 'Petrol', '3.5', 456
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Navigator 2007 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '5.4 V8 310hp (228kW) 395Nm', 'Petrol', '5.4', 310
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Navigator 2007 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.6 V8 239hp (176kW) 389Nm', 'Petrol', '4.6', 239
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lincoln' AND vm.name = 'Towncar 2005 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'Elise Cup 246hp (181kW) 250Nm', 'Petrol', '', 246
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Elise All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'R 192hp (141kW) 181Nm', 'Petrol', '', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Elise All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'S 136hp (100kW) 160Nm', 'Petrol', '', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Elise All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'SC 220hp (162kW) 250Nm', 'Petrol', '', 220
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Elise All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'SC 220hp (162kW) 272Nm', 'Petrol', '', 220
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Europa All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.5 V6 280hp (206kW) 350Nm', 'Petrol', '3.5', 280
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Evora All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.5 V6 400 406hp (kW) Nm', 'Petrol', '3.5', 406
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Evora All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.5 V6 S / SR 350hp (257kW) 400Nm', 'Petrol', '3.5', 350
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Evora All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8 192hp (141kW) 185Nm', 'Petrol', '1.8', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Exige All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'Cup R 3.5 V6 366hp (269kW) 413Nm', 'Petrol', '', 366
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Exige All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'S 221hp (163kW) 215Nm', 'Petrol', '', 221
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Exige All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'S 3.5 V6 350hp (257kW) 400Nm', 'Petrol', '', 350
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lotus' AND vm.name = 'Exige All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8T 150hp (110kW) 210Nm', 'Petrol', '1.8', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Luxgen' AND vm.name = 'S5 2013 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8T 170hp (125kW) 250Nm', 'Petrol', '1.8', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Luxgen' AND vm.name = 'S5 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8T 205hp (kW) Nm', 'Petrol', '1.8', 205
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Luxgen' AND vm.name = 'S5 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T 190hp (140kW) 274Nm', 'Petrol', '2.0', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Luxgen' AND vm.name = 'S5 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8 Turbo 171hp (126kW) 265Nm', 'Petrol', '1.8', 171
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Luxgen' AND vm.name = 'U6 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Turbo 191hp (140kW) 275Nm', 'Petrol', '2.0', 191
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Luxgen' AND vm.name = 'U6 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5T 178hp (131kW) 265Nm', 'Petrol', '1.5', 178
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lynk & Co' AND vm.name = '01 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5T 154hp (113kW) 245Nm', 'Petrol', '1.5', 154
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lynk & Co' AND vm.name = '02 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5T 178hp (131kW) 265Nm', 'Petrol', '1.5', 178
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lynk & Co' AND vm.name = '02 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T 187hp (138kW) 300Nm', 'Petrol', '2.0', 187
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lynk & Co' AND vm.name = '02 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5T 154hp (113kW) 245Nm', 'Petrol', '1.5', 154
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lynk & Co' AND vm.name = '03 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5T 178hp (131kW) 265Nm', 'Petrol', '1.5', 178
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lynk & Co' AND vm.name = '03 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T 187hp (138kW) 300Nm', 'Petrol', '2.0', 187
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Lynk & Co' AND vm.name = '03 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 TDI CR 102hp (75kW) 300Nm', 'Diesel', '2.0', 102
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MAN' AND vm.name = 'TGE 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 TDI CR 122hp (90kW) 340Nm', 'Diesel', '2.0', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MAN' AND vm.name = 'TGE 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 TDI CR 140hp (103kW) 340Nm', 'Diesel', '2.0', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MAN' AND vm.name = 'TGE 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 TDI CR 177hp (130kW) 400Nm', 'Diesel', '2.0', 177
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MAN' AND vm.name = 'TGE 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8L 130hp (96kW) 168Nm', 'Petrol', '1.8', 130
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = '550 2008 - >'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8T 160hp (118kW) 215Nm', 'Petrol', '1.8', 160
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = '550 2008 - >'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5T 169hp (124kW) 250Nm', 'Petrol', '1.5', 169
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = '6 2011 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8T 160hp (118kW) 215Nm', 'Petrol', '1.8', 160
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = '6 2011 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.9D 150hp (110kW) 350Nm', 'Petrol', '1.9', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = '6 2011 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '45T Plug-in Hybrid 228hp (kW) Nm', 'Hybrid', '45', 228
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = '6 2011 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 V6 180hp (132kW) 240Nm', 'Petrol', '2.5', 180
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = 'ZS All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8i V4 160hp (118kW) 215Nm', 'Petrol', '1.8', 160
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = 'ZT All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CDTi 115hp (85kW) 260Nm', 'Diesel', '2.0', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = 'ZT All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CDTi 131hp (96kW) 300Nm', 'Diesel', '2.0', 131
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = 'ZT All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5i V6 177hp (130kW) 240Nm', 'Petrol', '2.5', 177
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = 'ZT All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5i V6 190hp (140kW) 245Nm', 'Petrol', '2.5', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'MG' AND vm.name = 'ZT All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 120hp (88kW) 290Nm', 'Diesel', '2.2', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Genio All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 140hp (103kW) 290Nm', 'Diesel', '2.2', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Genio All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 120hp (88kW) 290Nm', 'Diesel', '2.2', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Quanto All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 140hp (103kW) 290Nm', 'Diesel', '2.2', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Quanto All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CR diesel 120hp (88kW) 270Nm', 'Diesel', '2.2', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Scorpio All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 140hp (103kW) 330Nm', 'Diesel', '2.2', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'XUV500 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 170hp (125kW) 340Nm', 'Diesel', '2.2', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'XUV500 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 120hp (88kW) 290Nm', 'Diesel', '2.2', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Xylo All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CRDi 140hp (103kW) 290Nm', 'Diesel', '2.2', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Xylo All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 CRDI 95hp (70kW) 218Nm', 'Diesel', '2.5', 95
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mahindra' AND vm.name = 'Xylo All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'GT 4.2 V8 390hp (287kW) 451Nm', 'Petrol', '', 390
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Coupé 2002 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 V6 Bi-Turbo 330hp (243kW) 500Nm', 'Petrol', '3.0', 330
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2013 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0D V6 275hp (202kW) 600Nm', 'Petrol', '3.0', 275
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2013 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'S 3.0 V6 Bi-Turbo 410hp (301kW) 550Nm', 'Petrol', '', 410
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2013 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 V6 350hp (257kW) 500Nm', 'Petrol', '3.0', 350
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0D V6 250hp (184kW) 600Nm', 'Petrol', '3.0', 250
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0D V6 275hp (202kW) 600Nm', 'Petrol', '3.0', 275
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 Bi-Turbo Trofeo 590hp (kW) Nm', 'Petrol', '3.8', 590
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'S 3.0 V6 Bi-Turbo 410hp (301kW) 550Nm', 'Petrol', '', 410
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Ghibli 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.2 V8 405hp (298kW) 460Nm', 'Petrol', '4.2', 405
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'GranTurismo 2007 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.7 V8 440hp (324kW) 490Nm', 'Petrol', '4.7', 440
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'GranTurismo 2007 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.7 V8 460hp (338kW) 520Nm', 'Petrol', '4.7', 460
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'GranTurismo 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0T Hybrid 330hp (kW) Nm', 'Hybrid', '2.0', 330
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Levante 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 V6 Bi-Turbo 350hp (257kW) 500Nm', 'Petrol', '3.0', 350
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Levante 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 V6 Bi-Turbo S 430hp (316kW) 580Nm', 'Petrol', '3.0', 430
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Levante 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0D V6 250hp (184kW) 600Nm', 'Petrol', '3.0', 250
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Levante 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0D V6 275hp (202kW) 600Nm', 'Petrol', '3.0', 275
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Levante 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 Bi-Turbo GTS 550hp (404kW) 730Nm', 'Petrol', '3.8', 550
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Levante 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 Bi-Turbo Trofeo 590hp (kW) Nm', 'Petrol', '3.8', 590
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Levante 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.2 V8 400hp (294kW) 460Nm', 'Petrol', '4.2', 400
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.7 V8 430hp (316kW) 490Nm', 'Petrol', '4.7', 430
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.7 V8 440hp (324kW) 490Nm', 'Petrol', '4.7', 440
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 V6 Turbo 330hp (243kW) 500Nm', 'Petrol', '3.0', 330
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0D V6 275hp (202kW) 600Nm', 'Petrol', '3.0', 275
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 Bi-Turbo Trofeo 590hp (kW) Nm', 'Petrol', '3.8', 590
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 GTS 530hp (390kW) 650Nm', 'Petrol', '3.8', 530
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'S 3.0 V6 Turbo 410hp (301kW) 550Nm', 'Petrol', '', 410
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'S 3.0 V6 Turbo 430hp (316kW) 580Nm', 'Petrol', '', 430
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Maserati' AND vm.name = 'Quattroporte 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 - 275hp (kW) Nm', 'Petrol', '7.4', 275
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'Activa 7247S All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 - 335hp (kW) Nm', 'Petrol', '8.4', 335
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'Beta 7270 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 - 384hp (kW) Nm', 'Petrol', '8.4', 384
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'Centora 7282 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '12.5 - 460hp (kW) Nm', 'Petrol', '12.5', 460
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'Fortia 9895 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '129 - 129hp (95kW) 420Nm', 'Petrol', '129', 129
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5445 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 - 101hp (74kW) 420Nm', 'Petrol', '4.4', 101
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5445 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '105 CR - 105hp (77kW) 670Nm', 'Petrol', '105', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5455 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 - 112hp (82kW) 468Nm', 'Petrol', '4.4', 112
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5455 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '124 CR - 124hp (91kW) 571Nm', 'Petrol', '124', 124
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5460 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 - 116hp (85kW) 471Nm', 'Petrol', '4.4', 116
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5460 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 CR - 125hp (92kW) 525Nm', 'Petrol', '4.4', 125
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5460 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 - 120hp (88kW) 500Nm', 'Petrol', '6.0', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Perkins - 132hp (97kW) 543Nm', 'Petrol', '6.6', 132
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 120hp (88kW) 585Nm', 'Petrol', '6.6', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '135 CR - 135hp (99kW) 540Nm', 'Petrol', '135', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5470 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 CR - 135hp (99kW) 585Nm', 'Petrol', '4.4', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5470 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Perkins - 144hp (106kW) 607Nm', 'Petrol', '6.6', 144
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 135hp (99kW) 607Nm', 'Petrol', '6.6', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '144 CR - 144hp (kW) Nm', 'Petrol', '144', 144
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.9 CR - 144hp (106kW) 625Nm', 'Petrol', '4.9', 144
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 5480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 CR - 95hp (70kW) 400Nm', 'Petrol', '4.4', 95
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6445 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 CR - 105hp (77kW) 463Nm', 'Petrol', '4.4', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6455 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 CR - 114hp (84kW) 538Nm', 'Petrol', '4.4', 114
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6460 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 VP - 116hp (85kW) 471Nm', 'Petrol', '4.4', 116
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6460 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '131 - 131hp (96kW) 500Nm', 'Petrol', '131', 131
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 VP - 120hp (88kW) 500Nm', 'Petrol', '6.0', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Perkins - 118hp (87kW) 543Nm', 'Petrol', '6.6', 118
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 120hp (88kW) 585Nm', 'Petrol', '6.6', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '125 - 125hp (92kW) 600Nm', 'Petrol', '125', 125
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6470 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 CR - 121hp (kW) Nm', 'Petrol', '4.4', 121
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6470 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 VP - 125hp (92kW) 492Nm', 'Petrol', '4.4', 125
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6470 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '146 - 146hp (107kW) 565Nm', 'Petrol', '146', 146
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 CR Perkins - 135hp (99kW) 607Nm', 'Petrol', '6.0', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 VP - 135hp (99kW) 565Nm', 'Petrol', '6.0', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 135hp (99kW) 607Nm', 'Petrol', '6.6', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '175 - 175hp (129kW) 590Nm', 'Petrol', '175', 175
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 CR Perkins - 146hp (107kW) 649Nm', 'Petrol', '6.0', 146
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 VP - 146hp (107kW) 590Nm', 'Petrol', '6.0', 146
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 135hp (99kW) 625Nm', 'Petrol', '6.6', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR - 160hp (118kW) 750Nm', 'Petrol', '6.6', 160
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6485 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 VP - 155hp (114kW) 650Nm', 'Petrol', '6.6', 155
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6485 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '170 CR Sisu - 170hp (kW) Nm', 'Petrol', '170', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6490 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR - 170hp (125kW) 796Nm', 'Petrol', '6.6', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6490 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 VP - 170hp (125kW) 720Nm', 'Petrol', '6.6', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6490 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR - 185hp (136kW) 841Nm', 'Petrol', '6.6', 185
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6495 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 VP - 185hp (136kW) 780Nm', 'Petrol', '6.6', 185
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6495 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 CR - 200hp (147kW) 883Nm', 'Petrol', '7.4', 200
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6497 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 CR - 215hp (158kW) 928Nm', 'Petrol', '7.4', 215
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6499 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 VP - 215hp (158kW) 864Nm', 'Petrol', '7.4', 215
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 6499 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '125 CR - 125hp (92kW) 500Nm', 'Petrol', '125', 125
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '135 - 135hp (99kW) 585Nm', 'Petrol', '135', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 VP - 131hp (96kW) 500Nm', 'Petrol', '6.0', 131
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Perkins - 125hp (92kW) 585Nm', 'Petrol', '6.6', 125
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 120hp (88kW) 585Nm', 'Petrol', '6.6', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7465 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 VP - 146hp (107kW) 590Nm', 'Petrol', '6.0', 146
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Perkins - 140hp (103kW) 681Nm', 'Petrol', '6.6', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 135hp (99kW) 607Nm', 'Petrol', '6.6', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7475 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '155 CR - 155hp (114kW) 590Nm', 'Petrol', '155', 155
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 VP - 155hp (114kW) 590Nm', 'Petrol', '6.0', 155
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Perkins - 150hp (110kW) 711Nm', 'Petrol', '6.6', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR Sisu - 135hp (99kW) 625Nm', 'Petrol', '6.6', 135
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR - 165hp (121kW) 836Nm', 'Petrol', '6.6', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7485 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 VP - 165hp (121kW) 650Nm', 'Petrol', '6.6', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7485 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR - 175hp (129kW) 880Nm', 'Petrol', '6.6', 175
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7490 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 VP - 180hp (132kW) 720Nm', 'Petrol', '6.6', 180
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7490 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 CR - 190hp (140kW) 904Nm', 'Petrol', '6.6', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7495 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.6 VP - 194hp (143kW) 780Nm', 'Petrol', '6.6', 194
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7495 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 - 204hp (kW) Nm', 'Petrol', '7.4', 204
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7497 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 - 220hp (kW) Nm', 'Petrol', '7.4', 220
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 7499 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 CR - 215hp (158kW) 970Nm', 'Petrol', '7.4', 215
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8450 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 VP - 215hp (158kW) 864Nm', 'Petrol', '7.4', 215
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8450 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '7.4 CR - 235hp (173kW) 1071Nm', 'Petrol', '7.4', 235
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8460 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 CR - 260hp (191kW) 1195Nm', 'Petrol', '8.4', 260
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8470 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 VP - 260hp (191kW) 1100Nm', 'Petrol', '8.4', 260
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8470 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 CR - 290hp (213kW) 1280Nm', 'Petrol', '8.4', 290
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 VP - 290hp (213kW) 1190Nm', 'Petrol', '8.4', 290
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8480 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '270 CR Adblue - 270hp (199kW) 1185Nm', 'Petrol', '270', 270
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8650 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 CR - 241hp (177kW) 1185Nm', 'Petrol', '8.4', 241
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8650 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 Tier 4A - 241hp (177kW) 1185Nm', 'Petrol', '8.4', 241
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8650 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '295 CR Adblue - 295hp (217kW) 1295Nm', 'Petrol', '295', 295
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8660 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 CR - 269hp (198kW) 1295Nm', 'Petrol', '8.4', 269
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8660 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 Tier 4A - 265hp (195kW) 1295Nm', 'Petrol', '8.4', 265
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8660 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '320 CR Adblue - 320hp (235kW) 1400Nm', 'Petrol', '320', 320
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8670 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 CR - 294hp (216kW) 1400Nm', 'Petrol', '8.4', 294
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8670 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 Tier 4A - 290hp (213kW) 1400Nm', 'Petrol', '8.4', 290
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8670 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350 CR Adblue - 350hp (257kW) 1492Nm', 'Petrol', '350', 350
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8680 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 CR - 325hp (239kW) 1492Nm', 'Petrol', '8.4', 325
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8680 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 Tier 4A - 321hp (236kW) 1492Nm', 'Petrol', '8.4', 321
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8680 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '370 CR Adblue - 370hp (272kW) 1540Nm', 'Petrol', '370', 370
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8690 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 CR - 344hp (253kW) 1540Nm', 'Petrol', '8.4', 344
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8690 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.4 Tier 4A - 462hp (340kW) 1540Nm', 'Petrol', '8.4', 462
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Massey Fergusson' AND vm.name = 'MF 8690 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.4 CiTD 68hp (50kW) 160Nm', 'Petrol', '1.4', 68
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2003 - 2006'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.3i 75hp (55kW) 121Nm', 'Petrol', '1.3', 75
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2007 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.3i 86hp (63kW) 121Nm', 'Petrol', '1.3', 86
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2007 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.4 CiTD 68hp (50kW) 160Nm', 'Petrol', '1.4', 68
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2007 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5i 103hp (76kW) 137Nm', 'Petrol', '1.5', 103
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2007 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 SkyActiv-D 105hp (77kW) 220Nm', 'Petrol', '1.5', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 Skyactiv-G 115hp (85kW) 148Nm', 'Petrol', '1.5', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 Skyactiv-G 75hp (55kW) 148Nm', 'Petrol', '1.5', 75
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 Skyactiv-G 90hp (66kW) 148Nm', 'Petrol', '1.5', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 SkyActiv-D 105hp (kW) Nm', 'Petrol', '1.5', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 SkyActiv-G 75hp (55kW) 135Nm', 'Petrol', '1.5', 75
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 SkyActiv-G 90hp (66kW) 148Nm', 'Petrol', '1.5', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '2 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.4i 16v 84hp (62kW) 122Nm', 'Petrol', '1.4', 84
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2003 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.6 CiTD 110hp (81kW) 245Nm', 'Petrol', '1.6', 110
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2003 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.6 CiTD 90hp (66kW) 210Nm', 'Petrol', '1.6', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2003 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.6i 16v 105hp (77kW) 145Nm', 'Petrol', '1.6', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2003 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 143hp (105kW) 360Nm', 'Petrol', '2.0', 143
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2003 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CiTD 185hp (136kW) 400Nm', 'Petrol', '2.2', 185
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2003 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, 'MPS 260hp (191kW) 380Nm', 'Petrol', '', 260
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2003 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.6 CiTD 109hp (80kW) 240Nm', 'Petrol', '1.6', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2009 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.6 CiTD 115hp (85kW) 270Nm', 'Petrol', '1.6', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2009 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CITD 150hp (110kW) 360Nm', 'Petrol', '2.2', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2009 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CiTD 185hp (136kW) 400Nm', 'Petrol', '2.2', 185
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2009 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.3 DISI Turbo MPS (191kW) 380Nm', 'Petrol', '2.3', NULL
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2009 - 2013'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 SkyActiv-D 105hp (77kW) 270Nm', 'Petrol', '1.5', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2013 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 120hp (88kW) 210Nm', 'Petrol', '2.0', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2013 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 165hp (121kW) 210Nm', 'Petrol', '2.0', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2013 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 150hp (110kW) 380Nm', 'Petrol', '2.2', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2013 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 Skyactiv-D 105hp (77kW) 270Nm', 'Petrol', '1.5', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2016 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 Skyactiv-G 100hp (74kW) 150Nm', 'Petrol', '1.5', 100
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2016 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 120hp (88kW) 210Nm', 'Petrol', '2.0', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2016 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 165hp (121kW) 210Nm', 'Petrol', '2.0', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2016 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 150hp (110kW) 380Nm', 'Petrol', '2.2', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2016 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8 Skyactiv-D 115hp (85kW) 270Nm', 'Petrol', '1.8', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 165hp (121kW) 210Nm', 'Petrol', '2.0', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Skyactiv-G 122hp (90kW) 213Nm', 'Petrol', '2.0', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '3 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.6 CiTD 115hp (85kW) 270Nm', 'Petrol', '1.6', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '5 2004 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 110hp (81kW) 310Nm', 'Petrol', '2.0', 110
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '5 2004 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 143hp (105kW) 360Nm', 'Petrol', '2.0', 143
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '5 2004 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8i 16v 120hp (88kW) 165Nm', 'Petrol', '1.8', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 120hp (88kW) 310Nm', 'Petrol', '2.0', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 121hp (89kW) 320Nm', 'Petrol', '2.0', 121
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 136hp (100kW) 310Nm', 'Petrol', '2.0', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 140hp (103kW) 330Nm', 'Petrol', '2.0', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 143hp (105kW) 360Nm', 'Petrol', '2.0', 143
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.3 DISI Turbo MPS (191kW) 380Nm', 'Petrol', '2.3', NULL
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 S-VT 170hp (125kW) 226Nm', 'Petrol', '2.5', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2003 - 2008'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 140hp (103kW) 330Nm', 'Petrol', '2.0', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0i 16v 155hp (114kW) 193Nm', 'Petrol', '2.0', 155
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CiTD 129hp (95kW) 340Nm', 'Petrol', '2.2', 129
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CiTD 163hp (120kW) 360Nm', 'Petrol', '2.2', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CiTD 180hp (132kW) 400Nm', 'Petrol', '2.2', 180
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CiTD 185hp (136kW) 400Nm', 'Petrol', '2.2', 185
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.3 DISI Turbo MPS (191kW) 380Nm', 'Petrol', '2.3', NULL
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 S-VT 170hp (125kW) 226Nm', 'Petrol', '2.5', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2008 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 145hp (107kW) 210Nm', 'Petrol', '2.0', 145
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 165hp (121kW) 210Nm', 'Petrol', '2.0', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 150hp (110kW) 380Nm', 'Petrol', '2.2', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 175hp (129kW) 420Nm', 'Petrol', '2.2', 175
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 SkyActiv-G 192hp (141kW) 256Nm', 'Petrol', '2.5', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = '6 2013 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 CiTD 143hp (105kW) 330Nm', 'Petrol', '2.5', 143
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'BT-50 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0D 190hp (kW) Nm', 'Petrol', '3.0', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'BT-50 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.2 TDCi 200hp (147kW) 470Nm', 'Diesel', '3.2', 200
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'BT-50 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 SkyActiv-D 105hp (77kW) 270Nm', 'Petrol', '1.5', 105
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-3 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Skyactiv-G 120hp (88kW) 210Nm', 'Petrol', '2.0', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-3 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Skyactiv-G 150hp (110kW) 204Nm', 'Petrol', '2.0', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-3 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 Skyactiv-G 192hp (141kW) 256Nm', 'Petrol', '2.5', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-3 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8 SkyActiv-D 115hp (85kW) 270Nm', 'Petrol', '1.8', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-3 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Skyactiv-G 120hp (88kW) 210Nm', 'Petrol', '2.0', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-3 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Skyactiv-G 150hp (110kW) 204Nm', 'Petrol', '2.0', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-3 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8 Skyactiv-D 115hp (85kW) 270Nm', 'Petrol', '1.8', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-30 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 Skyactiv-G 122hp (kW) Nm', 'Petrol', '2.0', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-30 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 e-Skyactiv G 122hp (kW) Nm', 'Petrol', '2.0', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-30 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 e-Skyactiv X 180hp (kW) Nm', 'Petrol', '2.0', 180
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-30 2019 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 145hp (107kW) 210Nm', 'Petrol', '2.0', 145
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 165hp (121kW) 210Nm', 'Petrol', '2.0', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 150hp (110kW) 380Nm', 'Petrol', '2.2', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 175hp (129kW) 420Nm', 'Petrol', '2.2', 175
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 SkyActiv-G 192hp (141kW) 256Nm', 'Petrol', '2.5', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2012 - 2016'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 160hp (118kW) 208Nm', 'Petrol', '2.0', 160
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 165hp (121kW) 210Nm', 'Petrol', '2.0', 165
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 150hp (110kW) 380Nm', 'Petrol', '2.2', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 175hp (129kW) 420Nm', 'Petrol', '2.2', 175
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 184hp (135kW) 445Nm', 'Petrol', '2.2', 184
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 SkyActiv-G 194hp (143kW) 258Nm', 'Petrol', '2.5', 194
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 SkyActiv-G 250hp (184kW) 420Nm', 'Petrol', '2.5', 250
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-5 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.3 Turbo MPS 260hp (191kW) 380Nm', 'Petrol', '2.3', 260
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-7 2006 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 CiTD 173hp (127kW) 400Nm', 'Petrol', '2.2', 173
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-7 2009 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.3 Turbo MPS 260hp (191kW) 380Nm', 'Petrol', '2.3', 260
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-7 2009 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.2 SkyActiv-D 190hp (140kW) 450Nm', 'Petrol', '2.2', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-8 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 SkyActiv-G 192hp (141kW) 258Nm', 'Petrol', '2.5', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-8 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.5 SkyActiv-G 230hp (169kW) 420Nm', 'Petrol', '2.5', 230
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'CX-9 2016 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.3 DISI Turbo MPS (191kW) 380Nm', 'Petrol', '2.3', NULL
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'MPS All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 CiTD 136hp (100kW) 310Nm', 'Petrol', '2.0', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'MPV All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.8i 16v 126hp (93kW) 167Nm', 'Petrol', '1.8', 126
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'MX-5 2005 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0i 16v 160hp (118kW) 188Nm', 'Petrol', '2.0', 160
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'MX-5 2005 - 2009'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.5 SkyActiv-G 131hp (96kW) 150Nm', 'Petrol', '1.5', 131
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'MX-5 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 160hp (118kW) 200Nm', 'Petrol', '2.0', 160
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'MX-5 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '2.0 SkyActiv-G 184hp (135kW) 205Nm', 'Petrol', '2.0', 184
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'MX-5 2015 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.3 192hp (141kW) 216Nm', 'Petrol', '1.3', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'RX-8 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '1.3 231hp (170kW) 216Nm', 'Petrol', '1.3', 231
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mazda' AND vm.name = 'RX-8 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.3 - 58hp (43kW) 205Nm', 'Petrol', '3.3', 58
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'CX 60L All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.3 - 69hp (51kW) 224Nm', 'Petrol', '3.3', 69
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'CX 70L All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.3 - 76hp (56kW) 285Nm', 'Petrol', '3.3', 76
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'CX 80L All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.3 - 82hp (60kW) 298Nm', 'Petrol', '3.3', 82
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'CX 85L All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '102 - 102hp (75kW) 415Nm', 'Petrol', '102', 102
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MC 105 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 - 118hp (87kW) 494Nm', 'Petrol', '4.4', 118
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MC 115 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 - 116hp (85kW) 487Nm', 'Petrol', '6.0', 116
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MC 120 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.4 CR - 125hp (92kW) 470Nm', 'Petrol', '4.4', 125
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MC 130 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.0 - 132hp (97kW) 555Nm', 'Petrol', '6.0', 132
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MC 135 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '90 - 90hp (66kW) 387Nm', 'Petrol', '90', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MC 95 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 116hp (85kW) 520Nm', 'Petrol', '6.7', 116
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MTX 120 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 131hp (96kW) 535Nm', 'Petrol', '6.7', 131
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MTX 135 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 152hp (112kW) 582Nm', 'Petrol', '6.7', 152
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MTX 150 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 162hp (119kW) 654Nm', 'Petrol', '6.7', 162
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MTX 165 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 CR - 162hp (119kW) 654Nm', 'Petrol', '6.7', 162
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MTX 165 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 182hp (134kW) 800Nm', 'Petrol', '6.7', 182
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MTX 185 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 CR - 182hp (134kW) 800Nm', 'Petrol', '6.7', 182
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'MTX 185 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 180hp (132kW) 774Nm', 'Petrol', '6.7', 180
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'TTX 190 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 199hp (146kW) 800Nm', 'Petrol', '6.7', 199
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'TTX 210 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 214hp (157kW) 850Nm', 'Petrol', '6.7', 214
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'TTX 230 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '115 - 115hp (kW) Nm', 'Petrol', '115', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 145 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 146hp (kW) Nm', 'Petrol', '6.7', 146
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 145 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 166hp (kW) Nm', 'Petrol', '6.7', 166
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 165 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 173hp (127kW) 700Nm', 'Petrol', '6.7', 173
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 185 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '198 - 198hp (146kW) 700Nm', 'Petrol', '198', 198
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 185E All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 199hp (146kW) 800Nm', 'Petrol', '6.7', 199
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 200 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '213 - 213hp (157kW) 800Nm', 'Petrol', '213', 213
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 200E All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '5.9 - 204hp (150kW) 800Nm', 'Petrol', '5.9', 204
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 215 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '6.7 - 203hp (149kW) 850Nm', 'Petrol', '6.7', 203
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 215 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '217 - 217hp (160kW) 800Nm', 'Petrol', '217', 217
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'XTX 215E All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.3 - 230hp (169kW) 900Nm', 'Petrol', '8.3', 230
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'ZTX 230 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.3 - 260hp (191kW) 1085Nm', 'Petrol', '8.3', 260
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'ZTX 260 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '8.3 - 280hp (206kW) 1180Nm', 'Petrol', '8.3', 280
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McCormick' AND vm.name = 'ZTX 280 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 540hp (397kW) 540Nm', 'Petrol', '3.8', 540
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '540C All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 570hp (419kW) 600Nm', 'Petrol', '3.8', 570
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '570 S / Sprint / GT4 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 570hp (419kW) 600Nm', 'Petrol', '3.8', 570
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '570GT All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 600hp (441kW) 620Nm', 'Petrol', '3.8', 600
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '600LT 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 620hp (456kW) 620Nm', 'Petrol', '3.8', 620
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '620R 2020 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 625hp (460kW) 610Nm', 'Petrol', '3.8', 625
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '625C 2014 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 650hp (478kW) 678Nm', 'Petrol', '3.8', 650
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '650S All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 675hp (496kW) 700Nm', 'Petrol', '3.8', 675
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '675LT All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.0 V8 720hp (529kW) 770Nm', 'Petrol', '4.0', 720
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '720S 2017 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.0 V8 765hp (kW) Nm', 'Petrol', '4.0', 765
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = '765LT 2020 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.0 V8 620hp (456kW) 630Nm', 'Petrol', '4.0', 620
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = 'GT 2019 -> ...'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 625hp (460kW) 600Nm', 'Petrol', '3.8', 625
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = 'MP4-12C All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.8 V8 916hp (674kW) 900Nm', 'Petrol', '3.8', 916
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = 'P1 All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '4.0 V8 800hp (588kW) 800Nm', 'Petrol', '4.0', 800
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'McLaren' AND vm.name = 'Senna All'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 CDI 60hp (44kW) 160Nm', 'Petrol', '160', 60
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W168 - 2001 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 CDI 75hp (55kW) 160Nm', 'Petrol', '160', 75
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W168 - 2001 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '170 CDI 90hp (66kW) 180Nm', 'Petrol', '170', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W168 - 2001 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '170 CDI 95hp (70kW) 180Nm', 'Petrol', '170', 95
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W168 - 2001 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '150 - 95hp (70kW) 140Nm', 'Petrol', '150', 95
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W169 - 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 CDI 82hp (60kW) 180Nm', 'Petrol', '160', 82
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W169 - 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI 109hp (-<2009) (80kW) 250Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W169 - 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI 109hp (80kW) 250Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W169 - 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 136hp (100kW) 300Nm', 'Petrol', '200', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W169 - 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 Turbo 193hp (142kW) 280Nm', 'Petrol', '200', 193
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W169 - 2004 - 2012'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 CDI 90hp (66kW) 220Nm', 'Petrol', '160', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI (1500cc) 109hp (80kW) 260Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI (1800cc) 109hp (80kW) 250Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CGi 122hp (90kW) 200Nm', 'Petrol', '180', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 136hp (100kW) 300Nm', 'Petrol', '200', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CGi 156hp (115kW) 250Nm', 'Petrol', '200', 156
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 - 184hp (135kW) 300Nm', 'Petrol', '220', 184
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 163hp (120kW) 350Nm', 'Petrol', '220', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 170hp (125kW) 350Nm', 'Petrol', '220', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 Turbo 211hp (155kW) 350Nm', 'Petrol', '250', 211
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '45 AMG 360hp (265kW) 450Nm', 'Petrol', '45', 360
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2012 - 2015'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 (1.6T) 102hp (75kW) 180Nm', 'Petrol', '160', 102
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 CDI (1500ccc) 90hp (66kW) 240Nm', 'Petrol', '160', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 (1.6T) 122hp (90kW) 200Nm', 'Petrol', '180', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI (1500ccc) 109hp (80kW) 260Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 (1.6T) 156hp (115kW) 250Nm', 'Petrol', '200', 156
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 136hp (100kW) 300Nm', 'Petrol', '200', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 4MATIC 136hp (100kW) 300Nm', 'Petrol', '200', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 177hp (130kW) 350Nm', 'Petrol', '220', 177
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 (2.0T) 211hp (155kW) 350Nm', 'Petrol', '250', 211
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 Sport (2.0T) 218hp (160kW) 350Nm', 'Petrol', '250', 218
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '45 AMG (2.0T) 381hp (280kW) 475Nm', 'Petrol', '45', 381
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W176 - 2015 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 (1.3T) 109hp (kW) Nm', 'Petrol', '160', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160d 95hp (70kW) 240Nm', 'Petrol', '160', 95
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 (1.3T) 136hp (kW) Nm', 'Petrol', '180', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180d (1.5D) 116hp (85kW) 260Nm', 'Petrol', '180', 116
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180d (2.0D) 116hp (85kW) 260Nm', 'Petrol', '180', 116
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 (1.3T) 163hp (kW) Nm', 'Petrol', '200', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200d 150hp (110kW) 320Nm', 'Petrol', '200', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 (2.0T) 190hp (140kW) 300Nm', 'Petrol', '220', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220d 190hp (140kW) 400Nm', 'Petrol', '220', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 (2.0T) 224hp (165kW) 350Nm', 'Petrol', '250', 224
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '35 AMG 306hp (225kW) 400Nm', 'Petrol', '35', 306
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '45 AMG 387hp (285kW) 480Nm', 'Petrol', '45', 387
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '45 AMG S 421hp (310kW) 500Nm', 'Petrol', '45', 421
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'A W177 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '43 AMG 3.0 367hp (270kW) 500Nm', 'Petrol', '43', 367
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'AMG GT 4-door Coupé 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '53 AMG 3.0 435hp (320kW) 520Nm', 'Petrol', '53', 435
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'AMG GT 4-door Coupé 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '63 AMG 4.0 V8 Bi-Turbo 585hp (430kW) 800Nm', 'Petrol', '63', 585
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'AMG GT 4-door Coupé 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '63 AMG S 4.0 V8 Bi-Turbo 640hp (471kW) 900Nm', 'Petrol', '63', 640
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'AMG GT 4-door Coupé 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '150 - 95hp (70kW) 140Nm', 'Petrol', '150', 95
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W245 - 2005 - 2011'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI 109hp (80kW) 250Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W245 - 2005 - 2011'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 136/140hp (103kW) 300Nm', 'Petrol', '200', 140
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W245 - 2005 - 2011'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 Turbo 193hp (142kW) 280Nm', 'Petrol', '200', 193
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W245 - 2005 - 2011'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 CDI 204hp (150kW) 500Nm', 'Petrol', '250', 204
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W245 - 2005 - 2011'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 (1.6T) 102hp (75kW) 180Nm', 'Petrol', '160', 102
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 CDI 90hp (66kW) 220Nm', 'Petrol', '160', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI (1500cc) 109hp (80kW) 260Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI (1800cc) 109hp (80kW) 250Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CGi 122hp (90kW) 200Nm', 'Petrol', '180', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 136hp (100kW) 300Nm', 'Petrol', '200', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CGi 156hp (115kW) 250Nm', 'Petrol', '200', 156
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 170hp (125kW) 350Nm', 'Petrol', '220', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CGI 184hp (135kW) 300Nm', 'Petrol', '220', 184
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 CGI 211hp (155kW) 350Nm', 'Petrol', '250', 211
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2012 - 2014'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 (1.6T) 102hp (75kW) 180Nm', 'Petrol', '160', 102
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 CDI 90hp (66kW) 240Nm', 'Petrol', '160', 90
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI (1500cc) 109hp (80kW) 260Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI (1800cc) 109hp (80kW) 250Nm', 'Petrol', '180', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CGi 122hp (90kW) 200Nm', 'Petrol', '180', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 136hp (100kW) 300Nm', 'Petrol', '200', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CGi 156hp (115kW) 250Nm', 'Petrol', '200', 156
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 170hp (125kW) 350Nm', 'Petrol', '220', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 CGI 211hp (155kW) 350Nm', 'Petrol', '250', 211
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W246 - 2014 - 2018'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '160 (1.3T) 109hp (kW) Nm', 'Petrol', '160', 109
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 (1.3T) 136hp (kW) Nm', 'Petrol', '180', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180d 116hp (85kW) 260Nm', 'Petrol', '180', 116
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 (1.3T) 163hp (kW) Nm', 'Petrol', '200', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200d - 150hp (110kW) 320Nm', 'Petrol', '200', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 (2.0T) 190hp (140kW) 300Nm', 'Petrol', '220', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220d 190hp (140kW) 400Nm', 'Petrol', '220', 190
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 (2.0T) 224hp (165kW) 350Nm', 'Petrol', '250', 224
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'B W247 - 2018 ->'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 102hp (75kW) 235Nm', 'Petrol', '200', 102
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W202 - 1997 - 2000'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 125hp (92kW) 300Nm', 'Petrol', '220', 125
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W202 - 1997 - 2000'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '230 K - 193hp (142kW) 280Nm', 'Petrol', '230', 193
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W202 - 1997 - 2000'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 K - 143hp (105kW) 220Nm', 'Petrol', '180', 143
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 115hp (85kW) 250Nm', 'Petrol', '200', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 K - 163hp (120kW) 240Nm', 'Petrol', '200', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 143hp (105kW) 315Nm', 'Petrol', '220', 143
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '240 V6 170hp (125kW) 240Nm', 'Petrol', '240', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '270 CDI 163hp (120kW) 370Nm', 'Petrol', '270', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '270 CDI 170hp (125kW) 400Nm', 'Petrol', '270', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 CDI AMG 231hp (170kW) 540Nm', 'Petrol', '3.0', 231
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '32 AMG 354hp (260kW) 450Nm', 'Petrol', '32', 354
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2000 - 2004'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 K - 143hp (105kW) 220Nm', 'Petrol', '180', 143
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 115hp (85kW) 250Nm', 'Petrol', '200', 115
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 122hp (90kW) 270Nm', 'Petrol', '200', 122
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 K - 163hp (120kW) 240Nm', 'Petrol', '200', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 136hp (100kW) 315Nm', 'Petrol', '220', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 150hp (110kW) 340Nm', 'Petrol', '220', 150
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '230 K - 192hp (141kW) 260Nm', 'Petrol', '230', 192
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '270 CDI 170hp (125kW) 400Nm', 'Petrol', '270', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '3.0 CDI AMG 231hp (170kW) 540Nm', 'Petrol', '3.0', 231
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '320 CDI 211hp (155kW) 510Nm', 'Petrol', '320', 211
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '320 CDI 224hp (165kW) 510Nm', 'Petrol', '320', 224
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '55 AMG 367hp (270kW) 510Nm', 'Petrol', '55', 367
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W203 - 2004 - 2007'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI 120hp (88kW) 300Nm', 'Petrol', '180', 120
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 Kompressor (1600cc) 156hp (115kW) 230Nm', 'Petrol', '180', 156
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 Kompressor (1800cc) 156hp (115kW) 230Nm', 'Petrol', '180', 156
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 CDI 136hp (100kW) 270Nm', 'Petrol', '200', 136
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '200 Kompressor (1800cc) 184hp (135kW) 250Nm', 'Petrol', '200', 184
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 163hp (120kW) 400Nm', 'Petrol', '220', 163
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '220 CDI 170hp (125kW) 400Nm', 'Petrol', '220', 170
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 CDI 204hp (150kW) 500Nm', 'Petrol', '250', 204
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '250 CGI 204hp (150kW) 310Nm', 'Petrol', '250', 204
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '280 CGI 231hp (170kW) 300Nm', 'Petrol', '280', 231
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '320 CDI 211hp (155kW) 510Nm', 'Petrol', '320', 211
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '320 CDI 224hp (165kW) 510Nm', 'Petrol', '320', 224
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350 CDI 211hp (155kW) 540Nm', 'Petrol', '350', 211
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350 CDI 224hp (165kW) 510Nm', 'Petrol', '350', 224
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350 CDI 231hp (170kW) 540Nm', 'Petrol', '350', 231
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350 CGI 292hp (215kW) 365Nm', 'Petrol', '350', 292
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '350i 272hp (200kW) 350Nm', 'Petrol', '350', 272
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '63 AMG 457hp (336kW) 600Nm', 'Petrol', '63', 457
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '63 AMG PPP 487hp (358kW) 600Nm', 'Petrol', '63', 487
+FROM vehicle_models vm
+JOIN vehicle_brands vb ON vm.brand_id = vb.id
+WHERE vb.name = 'Mercedes-Benz' AND vm.name = 'C W204 - 2007 - 2010'
+ON CONFLICT DO NOTHING;
+INSERT INTO vehicle_engines (model_id, name, fuel_type, displacement, power_hp)
+SELECT vm.id, '180 CDI 120hp (88kW) 310Nm', 'Petrol', '180', 120
+FROM vehicle_models vm

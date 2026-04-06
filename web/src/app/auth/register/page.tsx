@@ -39,392 +39,173 @@ function RegisterForm() {
     e.preventDefault();
     setError("");
 
-    if (password !== confirmPassword) {
-      setError("As senhas nao coincidem");
-      return;
-    }
-
-    if (password.length < 6) {
-      setError("A senha deve ter pelo menos 6 caracteres");
-      return;
-    }
-
-    if (!agreePrivacy) {
-      setError("Voce deve concordar com a Privacy Policy");
-      return;
-    }
-
-    if (!isPrivate && !company.trim()) {
-      setError("Company is required for business accounts");
-      return;
-    }
+    if (password !== confirmPassword) { setError("Passwords do not match."); return; }
+    if (password.length < 6) { setError("Password must be at least 6 characters."); return; }
+    if (!agreePrivacy) { setError("You must agree to the Privacy Policy."); return; }
+    if (!isPrivate && !company.trim()) { setError("Company is required for business accounts."); return; }
 
     setLoading(true);
-
     const supabase = createClient();
     const { error: authError } = await supabase.auth.signUp({
-      email,
-      password,
+      email, password,
       options: {
         data: {
-          first_name: firstName,
-          last_name: lastName,
-          phone,
-          is_private: isPrivate,
-          company: isPrivate ? null : company,
-          company_reg: isPrivate ? null : companyReg,
-          vat_number: isPrivate ? null : vatNumber,
-          country,
-          city,
-          address,
-          zip,
+          first_name: firstName, last_name: lastName, phone, is_private: isPrivate,
+          company: isPrivate ? null : company, company_reg: isPrivate ? null : companyReg,
+          vat_number: isPrivate ? null : vatNumber, country, city, address, zip,
         },
       },
     });
 
-    if (authError) {
-      setError(authError.message);
-      setLoading(false);
-      return;
-    }
-
+    if (authError) { setError(authError.message); setLoading(false); return; }
     router.push("/auth/login?registered=true");
   }
 
-  const inputClass =
-    "auth-input w-full h-[48px] px-5 rounded-2xl text-[14px] font-medium";
-  const labelClass =
-    "block text-[11px] font-semibold text-zinc-400 mb-2 tracking-[0.15em] uppercase";
-  const selectClass =
-    "auth-input w-full h-[48px] px-4 rounded-2xl text-[14px] font-medium appearance-none cursor-pointer";
+  const inputClass = "w-full h-[46px] px-4 border-2 border-[#e2e8f0] text-sm font-medium text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors bg-white";
+  const labelClass = "block text-xs font-semibold text-[#4a5568] mb-2 uppercase tracking-wider";
+  const selectClass = inputClass + " appearance-none cursor-pointer";
 
   return (
-    <div className="min-h-dvh flex font-[Outfit,sans-serif]">
-      {/* Branding — lado esquerdo */}
-      <div className="hidden lg:flex flex-1 bg-[#060609] items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,rgba(230,57,86,0.12),transparent_70%)]" />
-        <div className="relative z-10 max-w-[340px]">
-          <h2 className="text-[2.8rem] font-extrabold text-white leading-[1.05] mb-5 tracking-[-0.04em]">
-            Join the
-            <br />
-            <span className="text-[#e63956]">EuroFiles</span>
-            <br />
-            Network
+    <div className="min-h-dvh flex">
+      {/* Left: Branding */}
+      <div className="hidden lg:flex flex-1 bg-[#1e1e1e] items-center justify-center relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,rgba(212,25,32,0.08),transparent_70%)]" />
+        <div className="relative z-10 max-w-[380px] px-8">
+          <Link href="/" className="inline-block mb-10">
+            <span className="text-3xl font-[900] tracking-tight italic">
+              <span className="text-[#d41920]">EURO</span>
+              <span className="text-white">FILES</span>
+            </span>
+          </Link>
+          <h2 className="text-[2.5rem] font-extrabold text-white leading-[1.1] mb-4 tracking-[-0.03em]">
+            Join the EuroFiles Network
           </h2>
-          <p className="text-zinc-500 text-[15px] leading-[1.7] max-w-[300px]">
-            Create your account and get access to professional ECU tuning files
-            from our expert team.
+          <p className="text-[#718096] text-[15px] leading-[1.7]">
+            Create your account and get access to professional ECU tuning files from our expert team.
           </p>
         </div>
       </div>
 
-      {/* Form — lado direito */}
-      <div className="flex-1 bg-[#0a0a14] flex items-center justify-center px-6 py-12 sm:px-8 overflow-y-auto">
+      {/* Right: Form */}
+      <div className="flex-1 bg-white flex items-center justify-center px-6 py-8 overflow-y-auto">
         <div className="w-full max-w-[480px]">
-          {/* Logo */}
-          <div className="mb-10">
-            <Link href="/home.html" className="inline-block">
-              <span className="text-[1.75rem] font-extrabold text-white tracking-[-0.04em]">
-                Euro<span className="text-[#e63956]">Files</span>
+          <div className="lg:hidden mb-6">
+            <Link href="/">
+              <span className="text-2xl font-[900] tracking-tight italic">
+                <span className="text-[#d41920]">EURO</span>
+                <span className="text-[#1e1e1e]">FILES</span>
               </span>
             </Link>
-            <p className="text-zinc-600 text-[13px] mt-2 font-medium">
-              Create your account
-            </p>
           </div>
 
+          <h1 className="text-2xl font-extrabold text-[#1a202c] mb-1 tracking-tight">Register</h1>
+          <p className="text-sm text-[#718096] mb-6">Create your free account</p>
+
+          {error && (
+            <div className="bg-red-50 border border-red-200 px-4 py-3 text-red-600 text-sm mb-5 font-medium">{error}</div>
+          )}
+
           <form onSubmit={handleRegister}>
-            {/* ── Personal Info ── */}
-            <div className="grid grid-cols-2 gap-4 mb-5">
+            <div className="grid grid-cols-2 gap-4 mb-4">
               <div>
-                <label htmlFor="reg-first-name" className={labelClass}>
-                  Name *
-                </label>
-                <input
-                  id="reg-first-name"
-                  type="text"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  required
-                  placeholder="John"
-                  className={inputClass}
-                />
+                <label className={labelClass}>Name *</label>
+                <input value={firstName} onChange={(e) => setFirstName(e.target.value)} required placeholder="John" className={inputClass} />
               </div>
               <div>
-                <label htmlFor="reg-last-name" className={labelClass}>
-                  Surname *
-                </label>
-                <input
-                  id="reg-last-name"
-                  type="text"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                  required
-                  placeholder="Doe"
-                  className={inputClass}
-                />
+                <label className={labelClass}>Surname *</label>
+                <input value={lastName} onChange={(e) => setLastName(e.target.value)} required placeholder="Doe" className={inputClass} />
               </div>
             </div>
 
-            <div className="mb-5">
-              <label htmlFor="reg-phone" className={labelClass}>
-                Phone
-              </label>
-              <input
-                id="reg-phone"
-                type="tel"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                placeholder="+351 912 345 678"
-                className={inputClass}
-              />
+            <div className="mb-4">
+              <label className={labelClass}>Phone</label>
+              <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="+351 912 345 678" className={inputClass} />
             </div>
 
-            {/* ── Private person toggle ── */}
-            <div className="mb-5">
-              <label className="flex items-center gap-3 cursor-pointer group">
-                <input
-                  type="checkbox"
-                  checked={isPrivate}
-                  onChange={(e) => setIsPrivate(e.target.checked)}
-                  className="w-4 h-4 rounded border-zinc-700 bg-[#12121e] text-[#e63956] focus:ring-[#e63956]/30 cursor-pointer"
-                />
-                <span className="text-[13px] text-zinc-400 font-medium group-hover:text-zinc-300 transition-colors">
-                  I am a private person
-                </span>
-              </label>
-            </div>
+            <label className="flex items-center gap-3 cursor-pointer mb-4">
+              <input type="checkbox" checked={isPrivate} onChange={(e) => setIsPrivate(e.target.checked)} className="w-4 h-4 accent-[#d41920] cursor-pointer" />
+              <span className="text-sm text-[#4a5568] font-medium">I am a private person</span>
+            </label>
 
-            {/* ── Company fields (hidden if private) ── */}
             {!isPrivate && (
-              <div className="mb-5 space-y-4">
-                <div className="grid grid-cols-3 gap-3">
-                  <div>
-                    <label htmlFor="reg-company" className={labelClass}>
-                      Company *
-                    </label>
-                    <input
-                      id="reg-company"
-                      type="text"
-                      value={company}
-                      onChange={(e) => setCompany(e.target.value)}
-                      required={!isPrivate}
-                      placeholder="Company name"
-                      className={inputClass}
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="reg-company-reg" className={labelClass}>
-                      Reg. Number
-                    </label>
-                    <input
-                      id="reg-company-reg"
-                      type="text"
-                      value={companyReg}
-                      onChange={(e) => setCompanyReg(e.target.value)}
-                      placeholder="Optional"
-                      className={inputClass}
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="reg-vat" className={labelClass}>
-                      VAT Number
-                    </label>
-                    <input
-                      id="reg-vat"
-                      type="text"
-                      value={vatNumber}
-                      onChange={(e) => setVatNumber(e.target.value)}
-                      placeholder="Optional"
-                      className={inputClass}
-                    />
-                  </div>
+              <div className="grid grid-cols-3 gap-3 mb-4">
+                <div>
+                  <label className={labelClass}>Company *</label>
+                  <input value={company} onChange={(e) => setCompany(e.target.value)} required={!isPrivate} placeholder="Company" className={inputClass} />
+                </div>
+                <div>
+                  <label className={labelClass}>Reg. Number</label>
+                  <input value={companyReg} onChange={(e) => setCompanyReg(e.target.value)} placeholder="Optional" className={inputClass} />
+                </div>
+                <div>
+                  <label className={labelClass}>VAT Number</label>
+                  <input value={vatNumber} onChange={(e) => setVatNumber(e.target.value)} placeholder="Optional" className={inputClass} />
                 </div>
               </div>
             )}
 
-            {/* ── Address ── */}
-            <div className="grid grid-cols-2 gap-4 mb-5">
+            <div className="grid grid-cols-2 gap-4 mb-4">
               <div>
-                <label htmlFor="reg-country" className={labelClass}>
-                  Country *
-                </label>
-                <select
-                  id="reg-country"
-                  value={country}
-                  onChange={(e) => setCountry(e.target.value)}
-                  required
-                  className={selectClass}
-                >
-                  <option value="">Select country</option>
-                  {COUNTRIES.map((c) => (
-                    <option key={c} value={c}>
-                      {c}
-                    </option>
-                  ))}
+                <label className={labelClass}>Country *</label>
+                <select value={country} onChange={(e) => setCountry(e.target.value)} required className={selectClass}>
+                  <option value="">Select</option>
+                  {COUNTRIES.map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
               <div>
-                <label htmlFor="reg-city" className={labelClass}>
-                  City *
-                </label>
-                <input
-                  id="reg-city"
-                  type="text"
-                  value={city}
-                  onChange={(e) => setCity(e.target.value)}
-                  required
-                  placeholder="Your city"
-                  className={inputClass}
-                />
+                <label className={labelClass}>City *</label>
+                <input value={city} onChange={(e) => setCity(e.target.value)} required placeholder="City" className={inputClass} />
               </div>
             </div>
 
-            <div className="grid grid-cols-[1fr_140px] gap-4 mb-7">
+            <div className="grid grid-cols-[1fr_130px] gap-4 mb-5">
               <div>
-                <label htmlFor="reg-address" className={labelClass}>
-                  Address *
-                </label>
-                <input
-                  id="reg-address"
-                  type="text"
-                  value={address}
-                  onChange={(e) => setAddress(e.target.value)}
-                  required
-                  placeholder="Street and number"
-                  className={inputClass}
-                />
+                <label className={labelClass}>Address *</label>
+                <input value={address} onChange={(e) => setAddress(e.target.value)} required placeholder="Street and number" className={inputClass} />
               </div>
               <div>
-                <label htmlFor="reg-zip" className={labelClass}>
-                  Zip *
-                </label>
-                <input
-                  id="reg-zip"
-                  type="text"
-                  value={zip}
-                  onChange={(e) => setZip(e.target.value)}
-                  required
-                  placeholder="1000-001"
-                  className={inputClass}
-                />
+                <label className={labelClass}>Zip *</label>
+                <input value={zip} onChange={(e) => setZip(e.target.value)} required placeholder="1000-001" className={inputClass} />
               </div>
             </div>
 
-            {/* ── Separator ── */}
-            <div className="border-t border-zinc-800/50 mb-7" />
+            <div className="border-t border-[#e2e8f0] mb-5" />
 
-            {/* ── Credentials ── */}
-            <div className="mb-5">
-              <label htmlFor="reg-email" className={labelClass}>
-                E-Mail *
-              </label>
-              <input
-                id="reg-email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                autoComplete="email"
-                className={inputClass}
-                placeholder="your@email.com"
-              />
+            <div className="mb-4">
+              <label className={labelClass}>Email *</label>
+              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required autoComplete="email" placeholder="your@email.com" className={inputClass} />
             </div>
 
             <div className="grid grid-cols-2 gap-4 mb-1">
               <div>
-                <label htmlFor="reg-password" className={labelClass}>
-                  Password *
-                </label>
-                <input
-                  id="reg-password"
-                  type="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                  className={inputClass}
-                  placeholder="Min. 6 characters"
-                />
+                <label className={labelClass}>Password *</label>
+                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required placeholder="Min. 6 chars" className={inputClass} />
               </div>
               <div>
-                <label htmlFor="reg-confirm-password" className={labelClass}>
-                  Confirm *
-                </label>
-                <input
-                  id="reg-confirm-password"
-                  type="password"
-                  value={confirmPassword}
-                  onChange={(e) => setConfirmPassword(e.target.value)}
-                  required
-                  className={inputClass}
-                  placeholder="Repeat password"
-                />
+                <label className={labelClass}>Confirm *</label>
+                <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required placeholder="Repeat" className={inputClass} />
               </div>
             </div>
+            <p className="text-[11px] text-[#718096] mb-5">Must be at least 6 characters long</p>
 
-            <p className="text-[11px] text-zinc-600 mb-6">
-              Must be at least 6 characters long
-            </p>
+            <label className="flex items-center gap-3 cursor-pointer mb-6">
+              <input type="checkbox" checked={agreePrivacy} onChange={(e) => setAgreePrivacy(e.target.checked)} className="w-4 h-4 accent-[#d41920] cursor-pointer" />
+              <span className="text-sm text-[#4a5568] font-medium">
+                I agree with this site <a href="#" className="text-[#d41920] font-semibold hover:underline">Privacy Policy</a>
+              </span>
+            </label>
 
-            {/* ── Privacy Policy ── */}
-            <div className="mb-7">
-              <label className="flex items-center gap-3 cursor-pointer group">
-                <input
-                  type="checkbox"
-                  checked={agreePrivacy}
-                  onChange={(e) => setAgreePrivacy(e.target.checked)}
-                  className="w-4 h-4 rounded border-zinc-700 bg-[#12121e] text-[#e63956] focus:ring-[#e63956]/30 cursor-pointer"
-                />
-                <span className="text-[13px] text-zinc-400 font-medium group-hover:text-zinc-300 transition-colors">
-                  I agree with this site{" "}
-                  <a
-                    href="/privacy"
-                    className="text-[#e63956] hover:text-[#ff5c75] transition-colors"
-                  >
-                    Privacy Policy
-                  </a>
-                </span>
-              </label>
-            </div>
-
-            {/* Error */}
-            {error && (
-              <div className="bg-red-500/8 border border-red-500/12 rounded-2xl px-5 py-4 text-red-400 text-[13px] mb-6 font-medium">
-                {error}
-              </div>
-            )}
-
-            {/* Submit */}
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full h-[52px] bg-[#e63956] hover:bg-[#d42e4a] active:scale-[0.98] text-white font-bold rounded-2xl text-[15px] transition-all duration-150 disabled:opacity-50 cursor-pointer tracking-tight"
-            >
+            <button type="submit" disabled={loading} className="w-full h-[48px] bg-[#d41920] hover:bg-[#b01018] text-white font-bold text-sm uppercase tracking-wider transition-all disabled:opacity-50 cursor-pointer">
               {loading ? "Creating account..." : "Register"}
             </button>
           </form>
 
-          {/* Footer links */}
-          <div className="mt-8 text-center">
-            <p className="text-[13px] text-zinc-600">
-              Already have an account?{" "}
-              <Link
-                href="/auth/login"
-                className="text-[#e63956] hover:text-[#ff5c75] font-semibold transition-colors"
-              >
-                Sign in
-              </Link>
-            </p>
-          </div>
-
-          <div className="mt-4 mb-8 text-center">
-            <Link
-              href="/home.html"
-              className="text-[12px] text-zinc-700 hover:text-zinc-400 transition-colors"
-            >
-              ← Back to site
-            </Link>
-          </div>
+          <p className="mt-5 text-center text-sm text-[#718096]">
+            Already have an account? <Link href="/auth/login" className="text-[#d41920] font-semibold hover:underline">Sign In</Link>
+          </p>
+          <p className="mt-2 mb-6 text-center">
+            <Link href="/" className="text-xs text-[#718096] hover:text-[#4a5568]">&larr; Back to site</Link>
+          </p>
         </div>
       </div>
     </div>
@@ -432,9 +213,5 @@ function RegisterForm() {
 }
 
 export default function RegisterPage() {
-  return (
-    <Suspense>
-      <RegisterForm />
-    </Suspense>
-  );
+  return <Suspense><RegisterForm /></Suspense>;
 }

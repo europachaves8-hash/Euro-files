@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="assets/images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -49,15 +49,8 @@
     <a href="/auth/register">Register</a>
   </div>
 
-  <!-- ===== HERO (scroll-driven video) ===== -->
-  <div class="hero-scroll-wrapper">
+  <!-- ===== HERO ===== -->
   <section class="hero">
-    <canvas class="hero-video-canvas" id="heroCanvas"></canvas>
-    <video class="hero-video-src" muted playsinline preload="auto" id="heroVideo" style="display:none">
-      <source src="assets/Videos/hero-scroll.mp4" type="video/mp4">
-    </video>
-    <div class="hero-video-overlay"></div>
-    <div class="hero-decoration"></div>
     <div class="container">
       <div class="hero-content">
         <h1>Online <span>Euro Files</span> Service</h1>
@@ -66,11 +59,16 @@
           <a href="/auth/register" class="btn btn-lg btn-primary">Get Started Free</a>
           <a href="services.html" class="btn btn-lg btn-white">Our Services</a>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Vehicle Selector inside hero -->
-        <div class="hero-selector">
-          <h3>Compare file tuning options for your vehicle</h3>
-          <div class="selector-row">
+  <!-- ===== VEHICLE SELECTOR ===== -->
+  <section class="vehicle-selector-section">
+    <div class="container">
+      <div class="vehicle-selector-box">
+        <h3>Compare file tuning options for your vehicle</h3>
+        <div class="selector-row">
           <div class="form-group">
             <label for="sel-make">Make</label>
             <select id="sel-make" class="form-control">
@@ -191,11 +189,9 @@
           </div>
         </div>
           <button type="button" class="btn btn-primary" id="btn-find-file">Find a File</button>
-        </div>
       </div>
     </div>
   </section>
-  </div><!-- /.hero-scroll-wrapper -->
 
   <!-- ===== HOW IT WORKS ===== -->
   <section class="section">
@@ -227,11 +223,11 @@
         </div>
         <div class="step-panel" data-panel="2">
           <div class="step-panel-img" data-animate="left">
-            <img src="assets/images/main_public_images_shares_Modules_Spotlight_credits-purchase_png.png" alt="Buy Credits">
+            <img src="assets/images/main_public_images_shares_Modules_Spotlight_credits-purchase_png.png" alt="Place Order">
           </div>
           <div class="step-panel-info" data-animate="right">
-            <h3>Buy credits</h3>
-            <p>Purchase credits to start placing your ECU file requests. All transactions are securely processed by PayPal. Use our electronic invoicing system. Track all your previous purchases in a history log.</p>
+            <h3>Place your order</h3>
+            <p>Choose your service and pay directly in EUR. All transactions are securely processed by PayPal or credit card. Use our electronic invoicing system. Track all your purchases in a history log.</p>
           </div>
         </div>
         <div class="step-panel" data-panel="3">
@@ -315,47 +311,47 @@
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
         <div data-animate="left">
           <h4 style="margin-bottom: 16px;">Our Services</h4>
-          <ul style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
-            <li>&#10148; Individually Developed Maps</li>
-            <li>&#10148; Custom STAGE 1 / STAGE 2 / STAGE 3 Tune</li>
-            <li>&#10148; High Quality Services</li>
-            <li>&#10148; Agri, Truck & Boat Tuning Files</li>
-            <li>&#10148; Motorcycle / Motorbike Tuning Files</li>
-            <li>&#10148; Low Prices</li>
-            <li>&#10148; Processing Time 5min - 30min</li>
-            <li>&#10148; Real-time Fast Support</li>
-            <li>&#10148; Dyno & Road Tested Files</li>
-            <li>&#10148; Special ECU Tuning Requests</li>
+          <ul class="list-dash" style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
+            <li>Individually Developed Maps</li>
+            <li>Custom STAGE 1 / STAGE 2 / STAGE 3 Tune</li>
+            <li>High Quality Services</li>
+            <li>Agri, Truck & Boat Tuning Files</li>
+            <li>Motorcycle / Motorbike Tuning Files</li>
+            <li>Low Prices</li>
+            <li>Processing Time 5min - 30min</li>
+            <li>Real-time Fast Support</li>
+            <li>Dyno & Road Tested Files</li>
+            <li>Special ECU Tuning Requests</li>
           </ul>
         </div>
         <div data-animate="up">
           <h4 style="margin-bottom: 16px;">Solutions Available</h4>
-          <ul style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
-            <li>&#10148; DPF / FAP OFF</li>
-            <li>&#10148; EGR OFF</li>
-            <li>&#10148; DTC OFF</li>
-            <li>&#10148; AdBlue / SCR OFF</li>
-            <li>&#10148; Lambda / O2 / Decat OFF</li>
-            <li>&#10148; Speed Limiter / VMAX OFF</li>
-            <li>&#10148; Pop And Bangs / Crackles</li>
-            <li>&#10148; Launch Control</li>
-            <li>&#10148; Start-Stop OFF</li>
-            <li>&#10148; IMMO OFF</li>
+          <ul class="list-dash" style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
+            <li>DPF / FAP OFF</li>
+            <li>EGR OFF</li>
+            <li>DTC OFF</li>
+            <li>AdBlue / SCR OFF</li>
+            <li>Lambda / O2 / Decat OFF</li>
+            <li>Speed Limiter / VMAX OFF</li>
+            <li>Pop And Bangs / Crackles</li>
+            <li>Launch Control</li>
+            <li>Start-Stop OFF</li>
+            <li>IMMO OFF</li>
           </ul>
         </div>
         <div data-animate="right">
           <h4 style="margin-bottom: 16px;">Payment & Security</h4>
-          <ul style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
-            <li>&#10148; Secure PayPal Payments</li>
-            <li>&#10148; Visa / MasterCard Accepted</li>
-            <li>&#10148; Instant Invoices</li>
-            <li>&#10148; Big WinOLS Database</li>
-            <li>&#10148; Dragy GPS Tested Results</li>
-            <li>&#10148; Damos / Map Packs</li>
-            <li>&#10148; Free Independent Advice</li>
-            <li>&#10148; Manual Solutions</li>
-            <li>&#10148; Special Requests Welcome</li>
-            <li>&#10148; Unlimited File Storage</li>
+          <ul class="list-dash" style="color: var(--text); line-height: 2.2; font-size: 0.95rem;">
+            <li>Secure PayPal Payments</li>
+            <li>Visa / MasterCard Accepted</li>
+            <li>Instant Invoices</li>
+            <li>Big WinOLS Database</li>
+            <li>Dragy GPS Tested Results</li>
+            <li>Damos / Map Packs</li>
+            <li>Free Independent Advice</li>
+            <li>Manual Solutions</li>
+            <li>Special Requests Welcome</li>
+            <li>Unlimited File Storage</li>
           </ul>
         </div>
       </div>

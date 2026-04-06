@@ -5,18 +5,22 @@ import { usePathname, useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase-browser";
 import {
   LayoutDashboard,
-  ShoppingCart,
+  Ticket,
+  PlusCircle,
   Package,
-  MessageSquare,
+  Mail,
+  User,
   ArrowLeft,
   LogOut,
 } from "lucide-react";
 
 const navItems = [
   { href: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/admin/orders", label: "Orders", icon: ShoppingCart },
-  { href: "/admin/products", label: "Products", icon: Package },
-  { href: "/admin/contacts", label: "Contacts", icon: MessageSquare },
+  { href: "/admin/tickets", label: "My Tickets", icon: Ticket },
+  { href: "/admin/tickets/new", label: "Create Ticket", icon: PlusCircle },
+  { href: "/admin/products", label: "Services", icon: Package },
+  { href: "/admin/contacts", label: "Messages", icon: Mail },
+  { href: "/admin/profile", label: "Profile", icon: User },
 ];
 
 export function AdminSidebar() {
@@ -31,55 +35,84 @@ export function AdminSidebar() {
   }
 
   return (
-    <aside className="w-[220px] bg-[#0e1117] flex flex-col min-h-[100dvh] shrink-0">
-      {/* Header */}
-      <div className="px-5 pt-5 pb-4">
-        <Link
-          href="/"
-          className="flex items-center gap-2 text-zinc-500 text-xs hover:text-zinc-300 transition-colors mb-4"
-        >
-          <ArrowLeft size={14} />
-          Back to site
+    <aside className="w-[220px] bg-[#1e1e1e] flex flex-col min-h-[100dvh] shrink-0">
+      {/* Logo */}
+      <div className="px-4 pt-4 pb-3 border-b border-white/5">
+        <Link href="/" className="block">
+          <img
+            src="/assets/images/logo.png"
+            alt="EUROFILES"
+            className="w-full h-auto object-contain"
+          />
         </Link>
-        <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-[#e63956] flex items-center justify-center">
-            <span className="text-white text-xs font-bold">EF</span>
-          </div>
-          <span className="text-white font-semibold text-sm tracking-tight">
-            Admin Panel
-          </span>
-        </div>
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 px-3 mt-2">
+      <nav className="flex-1 px-3 mt-4">
+        <p className="px-3 mb-2 text-[10px] font-semibold text-white/30 uppercase tracking-[0.15em]">
+          Navigation
+        </p>
         {navItems.map((item) => {
-          const isActive = pathname === item.href;
+          const isActive =
+            pathname === item.href ||
+            (item.href === "/admin/tickets" &&
+              pathname.startsWith("/admin/tickets") &&
+              !pathname.includes("/new"));
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium mb-0.5 transition-all ${
+              className={`flex items-center gap-3 px-3 py-2.5 text-[13px] font-medium mb-0.5 transition-all ${
                 isActive
-                  ? "bg-[#e63956] text-white"
-                  : "text-zinc-400 hover:text-white hover:bg-white/5"
+                  ? "bg-[#d41920] text-white"
+                  : "text-white/50 hover:text-white hover:bg-white/5"
               }`}
             >
-              <item.icon size={18} strokeWidth={1.8} />
+              <item.icon size={17} strokeWidth={1.8} />
               {item.label}
             </Link>
           );
         })}
+
+        {/* Quick Links */}
+        <p className="px-3 mt-6 mb-2 text-[10px] font-semibold text-white/30 uppercase tracking-[0.15em]">
+          Quick Links
+        </p>
+        <Link
+          href="/"
+          className="flex items-center gap-3 px-3 py-2.5 text-[13px] text-white/40 hover:text-white hover:bg-white/5 transition-all"
+        >
+          <ArrowLeft size={17} strokeWidth={1.8} />
+          Back to Website
+        </Link>
       </nav>
 
+      {/* Working Hours */}
+      <div className="px-5 pb-3">
+        <p className="text-[10px] font-semibold text-white/30 uppercase tracking-[0.15em] mb-2">
+          Working Hours
+        </p>
+        <div className="text-[11px] text-white/40 space-y-0.5">
+          <div className="flex justify-between">
+            <span>Mon-Fri</span><span className="text-white/60">09:00 - 20:00</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Saturday</span><span className="text-white/60">09:00 - 16:00</span>
+          </div>
+          <div className="flex justify-between">
+            <span className="text-[#d41920]">Sunday</span><span className="text-[#d41920]">Closed</span>
+          </div>
+        </div>
+      </div>
+
       {/* Logout */}
-      <div className="px-3 pb-5">
+      <div className="px-3 pb-5 border-t border-white/5 pt-3">
         <button
           onClick={handleLogout}
-          className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-zinc-500 hover:text-red-400 hover:bg-white/5 transition-all w-full cursor-pointer"
+          className="flex items-center gap-3 px-3 py-2.5 text-[13px] text-white/40 hover:text-[#d41920] hover:bg-white/5 transition-all w-full cursor-pointer"
         >
-          <LogOut size={18} strokeWidth={1.8} />
-          Sair
+          <LogOut size={17} strokeWidth={1.8} />
+          Logout
         </button>
       </div>
     </aside>

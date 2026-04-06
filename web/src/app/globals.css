@@ -14,6 +14,7 @@
     --sidebar-active: #e63956;
     --success: #2aac01;
     --muted: #71717a;
+    --radius: 12px;
   }
 
   body {
@@ -21,6 +22,17 @@
     background: var(--background);
     color: var(--foreground);
     -webkit-font-smoothing: antialiased;
+  }
+
+  /* Remove default border-radius from all buttons */
+  button,
+  [role="button"] {
+    border-radius: 0;
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
   }
 }
 

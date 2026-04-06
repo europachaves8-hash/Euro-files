@@ -37,133 +37,119 @@ function LoginForm() {
   }
 
   return (
-    <div className="min-h-dvh flex font-[Outfit,sans-serif]">
-      {/* Branding — lado esquerdo */}
-      <div className="hidden lg:flex flex-1 bg-[#060609] items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,rgba(230,57,86,0.12),transparent_70%)]" />
-        <div className="relative z-10 max-w-[340px]">
-          <h2 className="text-[2.8rem] font-extrabold text-white leading-[1.05] mb-5 tracking-[-0.04em]">
-            Professional
-            <br />
-            ECU <span className="text-[#e63956]">Tuning</span>
-            <br />
-            Files
+    <div className="min-h-dvh flex">
+      {/* Left: Branding */}
+      <div className="hidden lg:flex flex-1 bg-[#1e1e1e] items-center justify-center relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,rgba(212,25,32,0.08),transparent_70%)]" />
+        <div className="relative z-10 max-w-[380px] px-8">
+          <Link href="/" className="inline-block mb-10">
+            <span className="text-3xl font-[900] tracking-tight italic">
+              <span className="text-[#d41920]">EURO</span>
+              <span className="text-white">FILES</span>
+            </span>
+          </Link>
+          <h2 className="text-[2.5rem] font-extrabold text-white leading-[1.1] mb-4 tracking-[-0.03em]">
+            Professional ECU Tuning Files
           </h2>
-          <p className="text-zinc-500 text-[15px] leading-[1.7] max-w-[300px]">
-            12+ years delivering dyno and road tested chiptuning files,
-            individually developed by our team.
+          <p className="text-[#718096] text-[15px] leading-[1.7]">
+            12+ years delivering dyno and road tested chiptuning files, individually developed by our team.
           </p>
+          <div className="mt-8 flex gap-6 text-sm text-white/40">
+            <div><span className="text-white font-bold text-lg">100+</span><br />Brands</div>
+            <div><span className="text-white font-bold text-lg">12+</span><br />Years</div>
+            <div><span className="text-white font-bold text-lg">24h</span><br />Support</div>
+          </div>
         </div>
       </div>
 
-      {/* Form — lado direito */}
-      <div className="flex-1 bg-[#0a0a14] flex items-center justify-center px-6 py-12 sm:px-8">
-        <div className="w-full max-w-[380px]">
-          {/* Logo */}
-          <div className="mb-14">
-            <Link href="/home.html" className="inline-block">
-              <span className="text-[1.75rem] font-extrabold text-white tracking-[-0.04em]">
-                Euro<span className="text-[#e63956]">Files</span>
+      {/* Right: Form */}
+      <div className="flex-1 bg-white flex items-center justify-center px-6 py-12">
+        <div className="w-full max-w-[400px]">
+          <div className="lg:hidden mb-8">
+            <Link href="/" className="inline-block">
+              <span className="text-2xl font-[900] tracking-tight italic">
+                <span className="text-[#d41920]">EURO</span>
+                <span className="text-[#1e1e1e]">FILES</span>
               </span>
             </Link>
-            <p className="text-zinc-600 text-[13px] mt-2 font-medium">
-              Sign in to your account
-            </p>
           </div>
 
+          <h1 className="text-2xl font-extrabold text-[#1a202c] mb-1 tracking-tight">
+            Sign In
+          </h1>
+          <p className="text-sm text-[#718096] mb-8">
+            Enter your credentials to access your account
+          </p>
+
           {registered && (
-            <div className="bg-emerald-500/8 border border-emerald-500/15 rounded-2xl px-5 py-4 text-emerald-400 text-[13px] mb-8 font-medium">
-              Conta criada com sucesso. Faca login.
+            <div className="bg-emerald-50 border border-emerald-200 px-4 py-3 text-emerald-700 text-sm mb-6 font-medium">
+              Account created successfully. Please sign in.
+            </div>
+          )}
+
+          {error && (
+            <div className="bg-red-50 border border-red-200 px-4 py-3 text-red-600 text-sm mb-6 font-medium">
+              {error}
             </div>
           )}
 
           <form onSubmit={handleLogin}>
-            {/* Email */}
-            <div className="mb-7">
-              <label
-                htmlFor="login-email"
-                className="block text-[11px] font-semibold text-zinc-400 mb-3 tracking-[0.15em] uppercase"
-              >
-                EMAIL
+            <div className="mb-5">
+              <label className="block text-xs font-semibold text-[#4a5568] mb-2 uppercase tracking-wider">
+                Email
               </label>
               <input
-                id="login-email"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 autoComplete="email"
-                className="auth-input w-full h-[52px] px-5 rounded-2xl text-[15px] font-medium"
+                className="w-full h-[48px] px-4 border-2 border-[#e2e8f0] text-sm font-medium text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors"
                 placeholder="your@email.com"
               />
             </div>
 
-            {/* Password */}
-            <div className="mb-10">
-              <div className="flex items-center justify-between mb-3">
-                <label
-                  htmlFor="login-password"
-                  className="text-[11px] font-semibold text-zinc-400 tracking-[0.15em] uppercase"
-                >
-                  PASSWORD
+            <div className="mb-6">
+              <div className="flex items-center justify-between mb-2">
+                <label className="text-xs font-semibold text-[#4a5568] uppercase tracking-wider">
+                  Password
                 </label>
-                <button
-                  type="button"
-                  className="text-[12px] text-zinc-600 hover:text-[#e63956] transition-colors font-medium"
-                >
+                <button type="button" className="text-xs text-[#d41920] font-semibold hover:underline">
                   Forgot password?
                 </button>
               </div>
               <input
-                id="login-password"
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
                 autoComplete="current-password"
-                className="auth-input w-full h-[52px] px-5 rounded-2xl text-[15px] font-medium"
+                className="w-full h-[48px] px-4 border-2 border-[#e2e8f0] text-sm font-medium text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors"
                 placeholder="Enter your password"
               />
             </div>
 
-            {/* Error */}
-            {error && (
-              <div className="bg-red-500/8 border border-red-500/12 rounded-2xl px-5 py-4 text-red-400 text-[13px] mb-6 font-medium">
-                {error}
-              </div>
-            )}
-
-            {/* Submit */}
             <button
               type="submit"
               disabled={loading}
-              className="w-full h-[52px] bg-[#e63956] hover:bg-[#d42e4a] active:scale-[0.98] text-white font-bold rounded-2xl text-[15px] transition-all duration-150 disabled:opacity-50 cursor-pointer tracking-tight"
+              className="w-full h-[48px] bg-[#d41920] hover:bg-[#b01018] text-white font-bold text-sm uppercase tracking-wider transition-all disabled:opacity-50 cursor-pointer"
             >
-              {loading ? "Signing in..." : "Sign in"}
+              {loading ? "Signing in..." : "Sign In"}
             </button>
           </form>
 
-          {/* Footer links */}
-          <div className="mt-10 text-center">
-            <p className="text-[13px] text-zinc-600">
-              Don&apos;t have an account?{" "}
-              <Link
-                href="/auth/register"
-                className="text-[#e63956] hover:text-[#ff5c75] font-semibold transition-colors"
-              >
-                Create one
-              </Link>
-            </p>
-          </div>
-
-          <div className="mt-5 text-center">
-            <Link
-              href="/home.html"
-              className="text-[12px] text-zinc-700 hover:text-zinc-400 transition-colors"
-            >
-              ← Back to site
+          <p className="mt-6 text-center text-sm text-[#718096]">
+            Don&apos;t have an account?{" "}
+            <Link href="/auth/register" className="text-[#d41920] font-semibold hover:underline">
+              Register Free
             </Link>
-          </div>
+          </p>
+
+          <p className="mt-3 text-center">
+            <Link href="/" className="text-xs text-[#718096] hover:text-[#4a5568] transition-colors">
+              &larr; Back to site
+            </Link>
+          </p>
         </div>
       </div>
     </div>

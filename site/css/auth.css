@@ -32,7 +32,7 @@
   max-width: 720px;
   background: #fff;
   border: 1px solid #e0e0e0;
-  border-radius: 4px;
+  border-radius: 0;
   padding: 40px 48px;
 }
 
@@ -68,9 +68,9 @@
   width: 100%;
   padding: 12px 14px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 0;
   font-size: 0.95rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   color: #333;
   background: #fff;
   transition: border-color 0.2s, box-shadow 0.2s;
@@ -142,7 +142,7 @@
   border: 1px solid #fecaca;
   color: #dc2626;
   padding: 10px 14px;
-  border-radius: 4px;
+  border-radius: 0;
   font-size: 0.85rem;
   margin-bottom: 16px;
 }
@@ -171,7 +171,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   display: flex;
   justify-content: center;

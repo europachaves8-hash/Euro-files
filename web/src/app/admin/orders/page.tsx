@@ -49,7 +49,7 @@ export default async function OrdersPage() {
             )}
             {orders.map((order: any) => (
               <tr key={order.id} className="hover:bg-zinc-50/50 transition-colors">
-                <td className="px-5 py-3.5 text-sm font-mono text-zinc-700">
+                <td className="px-5 py-3.5 text-sm text-zinc-700">
                   #{order.id.slice(0, 8)}
                 </td>
                 <td className="px-5 py-3.5 text-sm text-zinc-600">
@@ -70,7 +70,7 @@ export default async function OrdersPage() {
                     {order.status}
                   </span>
                 </td>
-                <td className="px-5 py-3.5 text-sm font-semibold text-zinc-800 text-right font-mono">
+                <td className="px-5 py-3.5 text-sm font-semibold text-zinc-800 text-right">
                   €{Number(order.total_credits || 0).toFixed(2)}
                 </td>
                 <td className="px-5 py-3.5 text-sm text-zinc-400 text-right">
