@@ -34,7 +34,7 @@
 /* ---------- Reset & Base ---------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   font-family: var(--font);
@@ -1548,20 +1548,68 @@ table tr:hover td {
 }
 
 @media (max-width: 768px) {
-  h1 { font-size: 2rem; }
-  h2 { font-size: 1.75rem; }
-  .section { padding: 50px 0; }
-  .hero-content h1 { font-size: 2.2rem; }
-  .hero-stats { flex-wrap: wrap; gap: 24px; }
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.5rem; }
+  .section { padding: 40px 0; }
+  .container { padding: 0 16px; }
+
+  /* Navbar */
   .nav-links { display: none; }
+  .nav-actions { display: none; }
   .nav-toggle { display: block; }
+  .navbar .container { padding: 0 16px; }
+  .navbar-brand img,
+  .brand-logo { height: 60px; }
+  .navbar { padding: 8px 0; }
+  .navbar.scrolled { padding: 6px 0; }
+
+  /* Hero */
+  .hero { padding: 120px 0 60px; min-height: auto; }
+  .hero-content h1 { font-size: 1.8rem; }
+  .hero-content p { font-size: 0.95rem; }
+  .hero-actions { flex-direction: column; }
+  .hero-actions .btn { width: 100%; justify-content: center; }
+  .hero-stats { flex-wrap: wrap; gap: 24px; }
+
+  /* Buttons */
+  .btn-lg { padding: 14px 24px; font-size: 0.95rem; }
+
+  /* Vehicle Selector */
+  .vehicle-selector-section { padding: 0 0 40px; }
+
+  /* Page Header */
+  .page-header { padding: 120px 0 30px; }
+  .page-header h1 { font-size: 1.75rem; }
+
+  /* Steps */
+  .steps-carousel { min-height: auto; }
+  .step-panel-img img { max-height: 250px; object-fit: contain; }
+
+  /* Tuning Grid */
+  .tuning-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+
+  /* Pricing */
   .features-list { flex-wrap: wrap; gap: 16px; justify-content: center; }
   .pricing-card.featured { transform: none; }
   .pricing-card.featured:hover { transform: translateY(-4px); }
+
+  /* Auth */
   .auth-page { flex-direction: column; }
   .auth-left { min-height: 30vh; padding: 32px; }
   .form-row { grid-template-columns: 1fr; }
-  .footer-grid { grid-template-columns: 1fr; }
+
+  /* CTA */
+  .cta-section { padding: 50px 0; }
+  .cta-section h2 { font-size: 1.5rem; }
+  .cta-section p { font-size: 0.95rem; }
+
+  /* Footer */
+  .footer { padding: 40px 0 0; }
+  .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+  .footer .brand-logo { height: 50px; }
+  .footer-brands { font-size: 0.8rem; }
+
+  /* Brands / Grids */
   .brands-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
   .steps-grid { grid-template-columns: 1fr; }
 }
