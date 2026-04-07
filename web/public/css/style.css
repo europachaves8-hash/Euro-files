@@ -15,8 +15,8 @@
   --text-light: #718096;
   --text-dark: #1a202c;
   --bg: #ffffff;
-  --bg-light: #f7fafc;
-  --bg-gray: #edf2f7;
+  --bg-light: #f5f5f5;
+  --bg-gray: #eeeeee;
   --border: #e2e8f0;
   --success: #38a169;
   --info: #3182ce;
@@ -1624,9 +1624,10 @@ table tr:hover td {
   z-index: 999;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 80px 32px 32px;
+  gap: 20px;
   opacity: 0;
   pointer-events: none;
   transition: var(--transition);
