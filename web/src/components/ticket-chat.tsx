@@ -150,7 +150,7 @@ export function TicketChat({
   }
 
   return (
-    <div className="bg-white rounded-xl border border-zinc-200/60 shadow-[0_1px_3px_rgba(0,0,0,0.04)] flex flex-col h-[700px]">
+    <div className="bg-white rounded-xl border border-zinc-200/60 shadow-[0_1px_3px_rgba(0,0,0,0.04)] flex flex-col h-[450px] md:h-[700px]">
       <div className="px-5 py-4 border-b border-zinc-100 flex items-center justify-between shrink-0">
         <h2 className="font-semibold text-zinc-900">
           Comments / Response

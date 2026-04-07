@@ -301,7 +301,7 @@ export default function NewTicketPage() {
       case 1: return !!vehicleType;
       case 2: return !!(finalBrand && finalModel);
       case 3: return !!fuelType && !!selectedPower;
-      case 4: return true; // ECU details are optional
+      case 4: return !!readingTool && !!ecuProducer;
       case 5: return !!clientName;
       case 6: return !!file;
       default: return false;

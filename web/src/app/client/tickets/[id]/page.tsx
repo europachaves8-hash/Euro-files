@@ -104,7 +104,7 @@ export default async function ClientTicketDetailPage({
               <h2 className="font-semibold text-zinc-900">Ticket Details</h2>
             </div>
             <div className="p-5">
-              <div className="grid grid-cols-2 gap-y-3 gap-x-8 text-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-8 text-sm">
                 <div className="flex justify-between">
                   <span className="text-zinc-500">Vehicle</span>
                   <span className="font-medium text-zinc-800 text-right">{vehicle || "\u2014"}</span>

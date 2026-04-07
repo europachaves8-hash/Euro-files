@@ -1,4 +1,4 @@
-import { AdminSidebar } from "@/components/admin-sidebar";
+import { AdminLayoutShell } from "@/components/admin-layout-shell";
 import { createClient } from "@/lib/supabase-server";
 import { redirect } from "next/navigation";
 
@@ -22,10 +22,5 @@ export default async function AdminLayout({
     }
   }
 
-  return (
-    <div className="flex min-h-[100dvh]">
-      <AdminSidebar />
-      <main className="flex-1 bg-[#f5f5f5] p-6 overflow-auto">{children}</main>
-    </div>
-  );
+  return <AdminLayoutShell>{children}</AdminLayoutShell>;
 }

@@ -1,4 +1,4 @@
-import { ClientSidebar } from "@/components/client-sidebar";
+import { ClientLayoutShell } from "@/components/client-layout-shell";
 import { createClient } from "@/lib/supabase-server";
 import { redirect } from "next/navigation";
 
@@ -22,10 +22,5 @@ export default async function ClientLayout({
     }
   }
 
-  return (
-    <div className="flex min-h-[100dvh]">
-      <ClientSidebar />
-      <main className="flex-1 bg-[#f5f5f5] p-6 overflow-auto">{children}</main>
-    </div>
-  );
+  return <ClientLayoutShell>{children}</ClientLayoutShell>;
 }

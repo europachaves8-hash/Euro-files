@@ -10,6 +10,7 @@ import {
   User,
   ArrowLeft,
   LogOut,
+  X,
 } from "lucide-react";
 
 const navItems = [
@@ -19,7 +20,7 @@ const navItems = [
   { href: "/client/profile", label: "Profile", icon: User },
 ];
 
-export function ClientSidebar() {
+export function ClientSidebar({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   const pathname = usePathname();
 
   async function handleLogout() {
@@ -29,9 +30,24 @@ export function ClientSidebar() {
   }
 
   return (
-    <aside className="w-[220px] bg-[#1e1e1e] flex flex-col min-h-[100dvh] shrink-0">
-      {/* Logo */}
-      <div className="px-4 pt-4 pb-3 border-b border-white/5">
+    <>
+      {/* Mobile overlay */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/60 md:hidden"
+          onClick={onClose}
+        />
+      )}
+      <aside className={`w-[220px] bg-[#1e1e1e] flex flex-col min-h-[100dvh] shrink-0 ${isOpen ? "fixed inset-y-0 left-0 z-50" : "hidden"} md:relative md:flex md:z-auto`}>
+        {/* Mobile close button */}
+        <button
+          onClick={onClose}
+          className="absolute top-3 right-3 p-1 text-white/50 hover:text-white md:hidden"
+        >
+          <X size={20} />
+        </button>
+        {/* Logo */}
+        <div className="px-4 pt-4 pb-3 border-b border-white/5">
         <Link href="/" className="block">
           <img
             src="/assets/images/logo.png"
@@ -110,5 +126,6 @@ export function ClientSidebar() {
         </button>
       </div>
     </aside>
+    </>
   );
 }

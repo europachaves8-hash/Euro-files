@@ -301,7 +301,7 @@ export default function NewTicketPage() {
       case 1: return !!vehicleType;
       case 2: return !!(finalBrand && finalModel);
       case 3: return !!fuelType && !!selectedPower;
-      case 4: return true; // ECU details are optional
+      case 4: return !!readingTool && !!ecuProducer;
       case 5: return !!clientName;
       case 6: return !!file;
       default: return false;
@@ -1297,7 +1297,7 @@ export default function NewTicketPage() {
           </div>
 
           {/* Terms & Privacy */}
-          <div className="space-y-3 mb-5">
+          <div className="space-y-3 mb-5 flex flex-col items-end">
             <label className="flex items-start gap-3 cursor-pointer group">
               <div
                 className={`w-5 h-5 mt-0.5 border-2 flex items-center justify-center shrink-0 transition-all ${

@@ -78,7 +78,7 @@ export default async function ClientDashboardPage() {
   return (
     <div>
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between flex-wrap gap-2 mb-6">
         <div>
           <h1 className="text-2xl font-extrabold tracking-tight text-[#1a202c]">
             Dashboard
@@ -182,8 +182,8 @@ export default async function ClientDashboardPage() {
             </div>
           </div>
         ) : (
-          <div>
-            <table className="w-full">
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[600px]">
               <thead>
                 <tr className="border-b border-[#e2e8f0]">
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Status</th>

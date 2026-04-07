@@ -68,7 +68,7 @@ export default async function ClientTicketsPage() {
       </div>
 
       {/* Table */}
-      <div className="bg-white rounded-xl border border-zinc-200/60 shadow-[0_1px_3px_rgba(0,0,0,0.04)] overflow-hidden">
+      <div className="bg-white rounded-xl border border-zinc-200/60 shadow-[0_1px_3px_rgba(0,0,0,0.04)] overflow-x-auto">
         {tickets.length === 0 ? (
           <div className="text-center py-16">
             <div className="w-14 h-14 rounded-2xl bg-zinc-100 flex items-center justify-center mx-auto mb-4">
@@ -84,7 +84,7 @@ export default async function ClientTicketsPage() {
             </Link>
           </div>
         ) : (
-          <table className="w-full">
+          <table className="w-full min-w-[600px]">
             <thead>
               <tr className="border-b border-zinc-100 bg-zinc-50/50">
                 <th className="text-left text-[10px] font-semibold text-zinc-500 uppercase tracking-widest px-5 py-3">
