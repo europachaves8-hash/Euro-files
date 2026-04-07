@@ -186,7 +186,7 @@ export default function ProductsPage() {
     <div className="relative">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold tracking-tight text-zinc-900">Products</h1>
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-900">Services</h1>
         <div className="flex items-center gap-3">
           <span className="text-xs font-semibold text-zinc-500 bg-zinc-100 px-3 py-1.5">
             {products.length} services
