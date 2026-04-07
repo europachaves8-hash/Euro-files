@@ -137,6 +137,21 @@ export default async function TicketDetailPage({
                     €{Number(ticket.price_eur || ticket.total_credits || 0).toFixed(2)}
                   </span>
                 </div>
+                <div className="flex justify-between">
+                  <span className="text-zinc-500">Payment</span>
+                  <span className={`font-semibold ${ticket.payment_status === "paid" ? "text-emerald-600" : "text-amber-600"}`}>
+                    {ticket.payment_status === "paid" ? "Paid" : "Unpaid"}
+                    {ticket.payment_method && ` (${ticket.payment_method})`}
+                  </span>
+                </div>
+                {ticket.paid_at && (
+                  <div className="flex justify-between">
+                    <span className="text-zinc-500">Paid at</span>
+                    <span className="font-medium text-zinc-800">
+                      {new Date(ticket.paid_at).toLocaleString("en-GB", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" })}
+                    </span>
+                  </div>
+                )}
               </div>
 
               {ticket.notes && (
