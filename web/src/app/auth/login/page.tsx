@@ -58,7 +58,7 @@ function LoginForm() {
       </div>
 
       {/* Right: Form */}
-      <div className="flex-1 bg-white flex items-center justify-center px-6 py-12">
+      <div className="flex-1 bg-[#1e1e1e] lg:bg-white flex items-center justify-center px-6 py-12">
         <div className="w-full max-w-[400px]">
           <div className="lg:hidden mb-8">
             <Link href="/" className="inline-block">
@@ -66,7 +66,7 @@ function LoginForm() {
             </Link>
           </div>
 
-          <h1 className="text-2xl font-extrabold text-[#1a202c] mb-1 tracking-tight">
+          <h1 className="text-2xl font-extrabold text-white lg:text-[#1a202c] mb-1 tracking-tight">
             Sign In
           </h1>
           <p className="text-sm text-[#718096] mb-8">
@@ -87,7 +87,7 @@ function LoginForm() {
 
           <form onSubmit={handleLogin}>
             <div className="mb-5">
-              <label className="block text-xs font-semibold text-[#4a5568] mb-2 uppercase tracking-wider">
+              <label className="block text-xs font-semibold text-white/60 lg:text-[#4a5568] mb-2 uppercase tracking-wider">
                 Email
               </label>
               <input
@@ -96,14 +96,14 @@ function LoginForm() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 autoComplete="email"
-                className="w-full h-[48px] px-4 border-2 border-[#e2e8f0] text-sm font-medium text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors"
+                className="w-full h-[48px] px-4 border-2 border-white/20 lg:border-[#e2e8f0] bg-white/10 lg:bg-white text-sm font-medium text-white lg:text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors"
                 placeholder="your@email.com"
               />
             </div>
 
             <div className="mb-6">
               <div className="flex items-center justify-between mb-2">
-                <label className="text-xs font-semibold text-[#4a5568] uppercase tracking-wider">
+                <label className="text-xs font-semibold text-white/60 lg:text-[#4a5568] uppercase tracking-wider">
                   Password
                 </label>
                 <button type="button" className="text-xs text-[#d41920] font-semibold hover:underline">
@@ -116,7 +116,7 @@ function LoginForm() {
                 onChange={(e) => setPassword(e.target.value)}
                 required
                 autoComplete="current-password"
-                className="w-full h-[48px] px-4 border-2 border-[#e2e8f0] text-sm font-medium text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors"
+                className="w-full h-[48px] px-4 border-2 border-white/20 lg:border-[#e2e8f0] bg-white/10 lg:bg-white text-sm font-medium text-white lg:text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors"
                 placeholder="Enter your password"
               />
             </div>

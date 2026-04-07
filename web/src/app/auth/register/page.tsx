@@ -60,8 +60,8 @@ function RegisterForm() {
     window.location.href = "/auth/login?registered=true";
   }
 
-  const inputClass = "w-full h-[46px] px-4 border-2 border-[#e2e8f0] text-sm font-medium text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors bg-white";
-  const labelClass = "block text-xs font-semibold text-[#4a5568] mb-2 uppercase tracking-wider";
+  const inputClass = "w-full h-[46px] px-4 border-2 border-white/20 lg:border-[#e2e8f0] bg-white/10 lg:bg-white text-sm font-medium text-white lg:text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors";
+  const labelClass = "block text-xs font-semibold text-white/60 lg:text-[#4a5568] mb-2 uppercase tracking-wider";
   const selectClass = inputClass + " appearance-none cursor-pointer";
 
   return (
@@ -83,7 +83,7 @@ function RegisterForm() {
       </div>
 
       {/* Right: Form */}
-      <div className="flex-1 bg-white flex items-center justify-center px-6 py-8 overflow-y-auto">
+      <div className="flex-1 bg-[#1e1e1e] lg:bg-white flex items-center justify-center px-6 py-8 overflow-y-auto">
         <div className="w-full max-w-[480px]">
           <div className="lg:hidden mb-6">
             <Link href="/">
@@ -91,7 +91,7 @@ function RegisterForm() {
             </Link>
           </div>
 
-          <h1 className="text-2xl font-extrabold text-[#1a202c] mb-1 tracking-tight">Register</h1>
+          <h1 className="text-2xl font-extrabold text-white lg:text-[#1a202c] mb-1 tracking-tight">Register</h1>
           <p className="text-sm text-[#718096] mb-6">Create your free account</p>
 
           {error && (
