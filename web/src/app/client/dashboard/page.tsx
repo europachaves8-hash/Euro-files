@@ -182,8 +182,37 @@ export default async function ClientDashboardPage() {
             </div>
           </div>
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[600px]">
+          <div>
+            {/* Mobile card view */}
+            <div className="md:hidden divide-y divide-[#f0f0f0]">
+              {stats.recentOrders.map((order: any) => {
+                const vehicle = [order.vehicle_make, order.vehicle_model].filter(Boolean).join(" ");
+                const date = new Date(order.created_at).toLocaleDateString("en-GB", {
+                  day: "2-digit", month: "2-digit", year: "numeric",
+                });
+                return (
+                  <Link key={order.id} href={`/client/tickets/${order.id}`} className="flex items-center justify-between px-5 py-4 hover:bg-[#fafafa] transition-colors">
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 ${statusStyle[order.status] || statusStyle.pending}`}>
+                          {order.status?.replace("_", " ")}
+                        </span>
+                        <span className="text-[10px] text-[#718096]">#{order.id.slice(0, 8)}</span>
+                      </div>
+                      <p className="text-sm font-semibold text-[#1a202c] truncate">{vehicle || "\u2014"}</p>
+                      <p className="text-[11px] text-[#718096]">{date}</p>
+                    </div>
+                    <div className="text-right ml-3 shrink-0">
+                      <p className="text-sm font-bold text-[#1a202c]">&euro;{Number(order.price_eur || order.total_credits || 0).toFixed(2)}</p>
+                      <Eye size={14} className="text-[#d41920] ml-auto mt-1" />
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+            {/* Desktop table view */}
+            <div className="hidden md:block overflow-x-auto">
+            <table className="w-full">
               <thead>
                 <tr className="border-b border-[#e2e8f0]">
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Status</th>
@@ -242,6 +271,7 @@ export default async function ClientDashboardPage() {
               <Link href="/client/tickets" className="text-xs font-semibold text-[#d41920] hover:underline">
                 View all tickets &rarr;
               </Link>
+            </div>
             </div>
           </div>
         )}
