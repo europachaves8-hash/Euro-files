@@ -2,17 +2,19 @@ import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
-const PAYPAL_API =
-  process.env.PAYPAL_MODE === "live"
+function getPayPalApi() {
+  return process.env.PAYPAL_MODE === "live"
     ? "https://api-m.paypal.com"
     : "https://api-m.sandbox.paypal.com";
+}
 
 async function getAccessToken() {
+  const clientId = process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
   const auth = Buffer.from(
-    `${process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID}:${process.env.PAYPAL_CLIENT_SECRET}`
+    `${clientId}:${process.env.PAYPAL_CLIENT_SECRET}`
   ).toString("base64");
 
-  const res = await fetch(`${PAYPAL_API}/v1/oauth2/token`, {
+  const res = await fetch(`${getPayPalApi()}/v1/oauth2/token`, {
     method: "POST",
     headers: {
       Authorization: `Basic ${auth}`,
@@ -37,7 +39,7 @@ export async function GET(request: Request) {
   try {
     // Capture the payment
     const accessToken = await getAccessToken();
-    const captureRes = await fetch(`${PAYPAL_API}/v2/checkout/orders/${token}/capture`, {
+    const captureRes = await fetch(`${getPayPalApi()}/v2/checkout/orders/${token}/capture`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${accessToken}`,
