@@ -12,39 +12,38 @@
   <style>
     .brand-hero {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 24px;
+      text-align: center;
       margin-top: 24px;
-      justify-content: center;
     }
     .brand-hero-logo {
-      width: 90px;
-      height: 90px;
+      width: 80px;
+      height: 80px;
       object-fit: contain;
-      background: rgba(255,255,255,0.15);
-      padding: 14px;
-      flex-shrink: 0;
+      margin-bottom: 16px;
+      filter: brightness(0) invert(1);
     }
     .brand-hero-info h1 {
-      margin: 0 0 8px;
+      margin: 0 0 12px;
       font-size: 2.2rem;
       color: #fff;
       font-weight: 800;
     }
     .brand-hero-info p {
-      margin: 0;
-      color: rgba(255,255,255,0.7);
+      margin: 0 auto;
+      color: rgba(255,255,255,0.6);
       font-size: 0.95rem;
-      max-width: 600px;
-      line-height: 1.6;
+      max-width: 550px;
+      line-height: 1.7;
     }
     @media (max-width: 768px) {
-      .brand-hero {
-        flex-direction: column;
-        text-align: center;
-      }
       .brand-hero-info h1 {
         font-size: 1.6rem;
+      }
+      .brand-hero-logo {
+        width: 60px;
+        height: 60px;
       }
     }
     .model-card {
