@@ -29,11 +29,12 @@
 
   // --- Brand logo ---
   const logoEl = document.getElementById('brand-logo');
-  if (logoEl && logoUrl) {
+  const logoWrapper = document.getElementById('brand-logo-wrapper');
+  if (logoEl && logoWrapper && logoUrl) {
     logoEl.src = logoUrl;
     logoEl.alt = brand + ' logo';
-    logoEl.style.display = 'block';
-    logoEl.onerror = function () { this.style.display = 'none'; };
+    logoWrapper.style.display = 'flex';
+    logoEl.onerror = function () { logoWrapper.style.display = 'none'; };
   }
 
   // --- Brand name ---

@@ -83,68 +83,52 @@
         <p>Pay per service, no credit system. We accept PayPal and credit cards.</p>
       </div>
 
-      <!-- Pricing by Vehicle Type -->
+      <!-- Pricing Table -->
       <div style="margin-bottom: 60px;">
-        <h3 class="text-center mb-4">Pricing by Vehicle Type</h3>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>Vehicle Type</th>
                 <th>Service</th>
                 <th>Price (EUR)</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td>Car / SUV</td><td>Stage 1 Remap</td><td>30 - 50 &euro;</td></tr>
-              <tr><td>Car / SUV</td><td>Stage 2 Remap</td><td>40 - 60 &euro;</td></tr>
-              <tr><td>Car / SUV</td><td>DPF/EGR/DTC Removal</td><td>20 - 40 &euro;</td></tr>
-              <tr><td>Car / SUV</td><td>Pop & Bangs / Crackles</td><td>30 - 50 &euro;</td></tr>
-              <tr><td>Truck</td><td>Stage 1 Remap</td><td>50 - 80 &euro;</td></tr>
-              <tr><td>Truck</td><td>DPF/EGR/AdBlue Removal</td><td>40 - 70 &euro;</td></tr>
-              <tr><td>Agriculture</td><td>Stage 1 Remap</td><td>50 - 100 &euro;</td></tr>
-              <tr><td>Agriculture</td><td>DPF/EGR Removal</td><td>40 - 80 &euro;</td></tr>
-              <tr><td>Motorcycle</td><td>Stage 1 Remap</td><td>30 - 50 &euro;</td></tr>
+              <tr><td>Stage 1 Remap</td><td>From 30 &euro;</td></tr>
+              <tr><td>Stage 2 Remap</td><td>From 40 &euro;</td></tr>
+              <tr><td>DPF / FAP Removal</td><td>From 20 &euro;</td></tr>
+              <tr><td>EGR Removal</td><td>From 20 &euro;</td></tr>
+              <tr><td>AdBlue / SCR Removal</td><td>From 30 &euro;</td></tr>
+              <tr><td>DTC Removal</td><td>From 15 &euro;</td></tr>
+              <tr><td>Pop &amp; Bangs / Crackles</td><td>From 30 &euro;</td></tr>
             </tbody>
           </table>
         </div>
-        <p class="text-center text-light mt-2" style="font-size: 0.85rem;">* Prices may vary depending on the specific vehicle model and ECU type</p>
+        <p class="text-center text-light mt-2" style="font-size: 0.85rem;">* Final price depends on the vehicle type, model and ECU. You will see the exact price before payment.</p>
       </div>
 
     </div>
   </section>
 
-  <!-- PRICE CALCULATOR -->
+  <!-- HOW IT WORKS -->
   <section class="section bg-light">
-    <div class="container" style="max-width: 600px;">
-      <div class="card" style="text-align: center; padding: 48px;">
-        <h3>Estimate Your Price</h3>
-        <p class="text-light mb-3">Select vehicle type and service to see estimated cost</p>
-        <div class="form-group">
-          <select class="form-control" id="calc-vehicle">
-            <option value="">Select vehicle type</option>
-            <option value="car">Car / SUV</option>
-            <option value="truck">Truck</option>
-            <option value="agri">Agriculture</option>
-            <option value="moto">Motorcycle</option>
-          </select>
+    <div class="container" style="max-width: 700px; text-align: center;">
+      <h3 style="margin-bottom: 32px;">How It Works</h3>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;">
+        <div>
+          <div style="width: 48px; height: 48px; background: var(--primary); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; font-weight: 800; font-size: 1.2rem;">1</div>
+          <h4 style="font-size: 0.95rem; margin-bottom: 6px;">Open a Ticket</h4>
+          <p class="text-light" style="font-size: 0.85rem;">Upload your original ECU file and select the services you need.</p>
         </div>
-        <div class="form-group">
-          <select class="form-control" id="calc-service">
-            <option value="">Select service</option>
-            <option value="stage1">Stage 1 Remap</option>
-            <option value="stage2">Stage 2/3 Remap</option>
-            <option value="dpf">DPF/FAP Removal</option>
-            <option value="egr">EGR Removal</option>
-            <option value="dtc">DTC Removal</option>
-            <option value="adblue">AdBlue Removal</option>
-            <option value="popbang">Pop & Bangs</option>
-          </select>
+        <div>
+          <div style="width: 48px; height: 48px; background: var(--primary); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; font-weight: 800; font-size: 1.2rem;">2</div>
+          <h4 style="font-size: 0.95rem; margin-bottom: 6px;">Pay &amp; We Work</h4>
+          <p class="text-light" style="font-size: 0.85rem;">Pay the exact price shown. Our engineers modify your file.</p>
         </div>
-        <div id="calc-result" style="background: var(--bg-light); padding: 24px; margin-top: 16px;">
-          <p class="text-light" style="font-size: 0.85rem;">Estimated Price</p>
-          <p id="calc-price" style="font-size: 2.5rem; font-weight: 800; color: var(--primary);">&mdash;</p>
-          <p id="calc-hint" class="text-light" style="font-size: 0.8rem;">Select vehicle and service to calculate</p>
+        <div>
+          <div style="width: 48px; height: 48px; background: var(--primary); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; font-weight: 800; font-size: 1.2rem;">3</div>
+          <h4 style="font-size: 0.95rem; margin-bottom: 6px;">Download</h4>
+          <p class="text-light" style="font-size: 0.85rem;">Receive your modified file ready to flash.</p>
         </div>
       </div>
     </div>

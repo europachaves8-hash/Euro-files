@@ -17,12 +17,21 @@
       text-align: center;
       margin-top: 24px;
     }
-    .brand-hero-logo {
-      width: 80px;
-      height: 80px;
-      object-fit: contain;
+    .brand-hero-logo-wrapper {
+      width: 90px;
+      height: 90px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-bottom: 16px;
-      filter: brightness(0) invert(1);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+    }
+    .brand-hero-logo {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
     }
     .brand-hero-info h1 {
       margin: 0 0 12px;
@@ -185,7 +194,9 @@
         <span class="current" id="breadcrumb-brand">Loading...</span>
       </div>
       <div class="brand-hero" id="brand-hero">
-        <img id="brand-logo" class="brand-hero-logo" src="" alt="" style="display:none;">
+        <div class="brand-hero-logo-wrapper" id="brand-logo-wrapper" style="display:none;">
+          <img id="brand-logo" class="brand-hero-logo" src="" alt="">
+        </div>
         <div class="brand-hero-info">
           <h1 id="brand-name">Loading...</h1>
           <p id="brand-description"></p>
