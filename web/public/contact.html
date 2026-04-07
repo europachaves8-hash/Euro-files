@@ -224,11 +224,13 @@
 
       try {
         const fullMessage = vehicle ? message + '\n\nVehicle: ' + vehicle : message;
-        const { error } = await supabaseClient.from('contacts').insert({
-          name, email, subject, message: fullMessage
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, subject, message: fullMessage })
         });
 
-        if (error) throw error;
+        if (!res.ok) throw new Error('Failed');
 
         document.getElementById('contact-success').style.display = 'block';
         e.target.reset();
