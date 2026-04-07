@@ -1620,17 +1620,15 @@ table tr:hover td {
 .mobile-nav {
   position: fixed;
   inset: 0;
-  background: rgba(30,30,30,0.98);
+  background: var(--dark);
   z-index: 999;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 80px 32px 32px;
-  gap: 20px;
+  padding: 0;
   opacity: 0;
   pointer-events: none;
   transition: var(--transition);
+  overflow-y: auto;
 }
 
 .mobile-nav.open {
@@ -1638,21 +1636,92 @@ table tr:hover td {
   pointer-events: all;
 }
 
-.mobile-nav a {
-  color: #fff;
-  font-size: 1.3rem;
-  font-weight: 600;
+.mobile-nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
 .mobile-nav .close-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
   background: none;
-  border: none;
+  border: 1px solid rgba(255,255,255,0.2);
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.mobile-nav .close-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.mobile-nav-links a {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 14px 24px;
+  transition: var(--transition);
+}
+
+.mobile-nav-links a:hover {
+  background: rgba(255,255,255,0.05);
+  color: var(--primary);
+}
+
+.mobile-nav-actions {
+  display: flex;
+  gap: 12px;
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.mobile-nav-info {
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.mobile-nav-info h5 {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.mobile-nav-info p {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.mobile-nav-brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 20px 24px;
+}
+
+.mobile-nav-brands span {
+  color: rgba(255,255,255,0.4);
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(255,255,255,0.05);
+  padding: 4px 10px;
 }
 
 /* ---------- Vehicle Details Page ---------- */
