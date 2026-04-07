@@ -31,7 +31,8 @@ export async function POST(req: NextRequest) {
 
     // Send email via Resend
     const { error: emailError } = await resend.emails.send({
-      from: "EUROFILES <onboarding@resend.dev>",
+      from: "EUROFILES <noreply@eurofiles.es>",
+      replyTo: "support@eurofiles.es",
       to: toEmail,
       subject: `Re: ${subject || "Your message"} — EUROFILES`,
       html: `
