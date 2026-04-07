@@ -178,7 +178,7 @@ export function TicketFiles({
                   </div>
 
                   {/* File card */}
-                  <div className={`flex-1 flex items-center justify-between p-3 rounded-lg mb-2 ${config.bg}`}>
+                  <div className={`flex-1 flex items-center justify-between p-3 rounded-lg mb-2 overflow-hidden ${config.bg}`}>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2 mb-0.5">
                         <span className={`text-[10px] font-bold uppercase tracking-wider ${config.color}`}>
