@@ -3,11 +3,8 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 function getPayPalApi() {
-  const mode = process.env.PAYPAL_MODE;
-  console.log("[PayPal] PAYPAL_MODE env value:", JSON.stringify(mode));
-  // Force live if PAYPAL_CLIENT_ID starts with "A" (live keys start differently than sandbox)
-  const clientId = process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "";
-  const isLive = mode === "live" || clientId.startsWith("AUC");
+  const mode = (process.env.PAYPAL_MODE || "").trim();
+  const isLive = mode === "live";
   return isLive
     ? "https://api-m.paypal.com"
     : "https://api-m.sandbox.paypal.com";
@@ -25,13 +22,8 @@ function getBaseUrl(request: Request): string {
 }
 
 async function getAccessToken() {
-  const clientId = process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
-  const clientSecret = process.env.PAYPAL_CLIENT_SECRET;
-  const apiBase = getPayPalApi();
-
-  console.log("[PayPal] Mode:", process.env.PAYPAL_MODE);
-  console.log("[PayPal] API:", apiBase);
-  console.log("[PayPal] Client ID starts with:", clientId?.substring(0, 10));
+  const clientId = (process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "").trim();
+  const clientSecret = (process.env.PAYPAL_CLIENT_SECRET || "").trim();
 
   const auth = Buffer.from(`${clientId}:${clientSecret}`).toString("base64");
 

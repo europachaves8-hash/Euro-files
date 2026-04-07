@@ -3,18 +3,17 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 function getPayPalApi() {
-  const mode = process.env.PAYPAL_MODE;
-  const clientId = process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "";
-  const isLive = mode === "live" || clientId.startsWith("AUC");
-  return isLive
+  const mode = (process.env.PAYPAL_MODE || "").trim();
+  return mode === "live"
     ? "https://api-m.paypal.com"
     : "https://api-m.sandbox.paypal.com";
 }
 
 async function getAccessToken() {
-  const clientId = process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
+  const clientId = (process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "").trim();
+  const clientSecret = (process.env.PAYPAL_CLIENT_SECRET || "").trim();
   const auth = Buffer.from(
-    `${clientId}:${process.env.PAYPAL_CLIENT_SECRET}`
+    `${clientId}:${clientSecret}`
   ).toString("base64");
 
   const res = await fetch(`${getPayPalApi()}/v1/oauth2/token`, {
