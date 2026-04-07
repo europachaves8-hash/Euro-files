@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initAnimations();
   initBrandSearch();
   initBrandFilter();
+  initBrandCardLinks();
   initVehicleSelector();
   initStepsCarousel();
   initScrollVideo();
@@ -295,6 +296,17 @@ function initBrandSearch() {
     document.querySelectorAll('.brand-card').forEach(card => {
       const name = card.querySelector('.brand-name').textContent.toLowerCase();
       card.style.display = name.includes(query) ? '' : 'none';
+    });
+  });
+}
+
+// ---------- Brand Card Click → Brand Details ----------
+function initBrandCardLinks() {
+  document.querySelectorAll('.brand-card').forEach(card => {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', () => {
+      const name = card.querySelector('.brand-name').textContent;
+      window.location.href = 'brand-details.html?brand=' + encodeURIComponent(name);
     });
   });
 }

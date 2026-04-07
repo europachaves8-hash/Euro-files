@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional ECU tuning files for all models">
+  <title>Brand Details | Tuning Files | EUROFILES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .brand-hero {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-top: 16px;
+    }
+    .brand-hero-logo {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 10px;
+    }
+    .brand-hero-info h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+    .brand-hero-info p {
+      margin: 0;
+      opacity: 0.8;
+      font-size: 0.95rem;
+      max-width: 600px;
+    }
+    .model-card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      margin-bottom: 12px;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    .model-card-header {
+      display: flex;
+      align-items: center;
+      padding: 16px 20px;
+      cursor: pointer;
+      transition: background 0.2s;
+      user-select: none;
+    }
+    .model-card-header:hover {
+      background: #f8f9fa;
+    }
+    .model-card-header h3 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      flex: 1;
+    }
+    .engine-count {
+      font-size: 0.8rem;
+      color: #888;
+      margin-right: 12px;
+      white-space: nowrap;
+    }
+    .expand-icon {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #888;
+      transition: transform 0.25s;
+      display: inline-block;
+    }
+    .model-card.open .expand-icon {
+      transform: rotate(90deg);
+    }
+    .model-card-engines {
+      padding: 0 20px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .engine-link {
+      display: block;
+      padding: 10px 14px;
+      background: #f5f7fa;
+      border-radius: 8px;
+      color: #1a1a2e;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.15s, color 0.15s;
+    }
+    .engine-link:hover {
+      background: var(--primary, #e63946);
+      color: #fff;
+    }
+    .brand-not-found {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .brand-not-found h2 {
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+    }
+    .brand-not-found p {
+      color: #666;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled">
+    <div class="container">
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <a href="/" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+      </a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="vehicles.html">Vehicle List</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="/auth/login" class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">Login</a>
+        <a href="/auth/register" class="btn btn-sm btn-primary">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-nav">
+    <div class="mobile-nav-header">
+      <a href="/" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo" style="height:48px;">
+      </a>
+      <button class="close-btn">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="/">Home</a>
+      <a href="vehicles.html">Vehicle List</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="mobile-nav-actions">
+      <a href="/auth/login" class="btn btn-sm btn-outline" style="border-color:rgba(255,255,255,0.3);color:#fff;width:100%;text-align:center;">Login</a>
+      <a href="/auth/register" class="btn btn-sm btn-primary" style="width:100%;text-align:center;">Register</a>
+    </div>
+    <div class="mobile-nav-info">
+      <h5>Working Hours</h5>
+      <p>Mon - Fri: 09:00 - 20:00</p>
+      <p>Saturday: 09:00 - 16:00</p>
+      <p>Sunday: Closed</p>
+    </div>
+    <div class="mobile-nav-brands">
+      <span>BMW</span><span>Audi</span><span>Mercedes</span><span>VW</span><span>Ford</span><span>Porsche</span><span>Toyota</span><span>Renault</span>
+    </div>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb" id="breadcrumb">
+        <a href="/">Home</a>
+        <span>/</span>
+        <a href="vehicles.html">Vehicle List</a>
+        <span>/</span>
+        <span class="current" id="breadcrumb-brand">Loading...</span>
+      </div>
+      <div class="brand-hero" id="brand-hero">
+        <img id="brand-logo" class="brand-hero-logo" src="" alt="" style="display:none;">
+        <div class="brand-hero-info">
+          <h1 id="brand-name">Loading...</h1>
+          <p id="brand-description"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODELS LIST -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <div class="badge" id="models-badge">Models</div>
+        <h2 id="models-heading">Available Models</h2>
+      </div>
+      <div id="models-container"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Can't Find Your Vehicle?</h2>
+      <p>Contact us and we'll check if we can provide tuning files for your specific model.</p>
+      <a href="contact.html" class="btn btn-lg btn-white">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="navbar-brand mb-3">
+            <img src="assets/images/logo.png" alt="EUROFILES" class="brand-logo">
+          </div>
+          <p>Professional ECU chiptuning file service with 12+ years of experience.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="vehicles.html">Vehicle List</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/auth/login">Member Area</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Working Hours</h4>
+          <table class="footer-hours">
+            <tr><td>Mon - Fri</td><td>09:00 - 20:00</td></tr>
+            <tr><td>Saturday</td><td>09:00 - 16:00</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; 2014 - 2026 EUROFILES | All rights reserved</div>
+    </div>
+  </footer>
+
+  <script src="js/vehicle-data.js"></script>
+  <script src="js/engine-data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/brand-details.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth-navbar.js"></script>
+</body>
+</html>

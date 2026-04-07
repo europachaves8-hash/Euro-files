@@ -22,6 +22,7 @@ const nextConfig: NextConfig = {
       { source: "/services", destination: "/services.html" },
       { source: "/pricing", destination: "/pricing.html" },
       { source: "/contact", destination: "/contact.html" },
+      { source: "/brand-details", destination: "/brand-details.html" },
       { source: "/home", destination: "/home.html" },
       { source: "/index.html", destination: "/home.html" },
     ];
