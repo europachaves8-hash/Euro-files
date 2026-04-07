@@ -7,6 +7,17 @@ const PAYPAL_API =
     ? "https://api-m.paypal.com"
     : "https://api-m.sandbox.paypal.com";
 
+function getBaseUrl(request: Request): string {
+  const origin = request.headers.get("origin");
+  if (origin) return origin;
+  const host = request.headers.get("host");
+  if (host) {
+    const protocol = host.includes("localhost") ? "http" : "https";
+    return `${protocol}://${host}`;
+  }
+  return "https://eurofiles.es";
+}
+
 async function getAccessToken() {
   const auth = Buffer.from(
     `${process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID}:${process.env.PAYPAL_CLIENT_SECRET}`
@@ -57,8 +68,8 @@ export async function POST(request: Request) {
           brand_name: "EUROFILES",
           landing_page: "NO_PREFERENCE",
           user_action: "PAY_NOW",
-          return_url: return_url || `${request.headers.get("origin")}/api/paypal/success?order_id=${order_id}`,
-          cancel_url: cancel_url || `${request.headers.get("origin")}/api/paypal/cancel?order_id=${order_id}`,
+          return_url: return_url || `${getBaseUrl(request)}/api/paypal/success?order_id=${order_id}`,
+          cancel_url: cancel_url || `${getBaseUrl(request)}/api/paypal/cancel?order_id=${order_id}`,
         },
       }),
     });

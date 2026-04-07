@@ -408,9 +408,15 @@ export default function NewTicketPage() {
           }),
         });
         const payData = await payRes.json();
+        console.log("PayPal response:", payData);
 
         if (payData.approval_url) {
           window.location.href = payData.approval_url;
+          return;
+        } else {
+          console.error("PayPal error - no approval_url:", payData);
+          setError("Payment error: " + (payData.error || "Could not create PayPal order. Check console for details."));
+          setLoading(false);
           return;
         }
       }
