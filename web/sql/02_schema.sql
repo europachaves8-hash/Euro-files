@@ -61,6 +61,8 @@ CREATE TABLE public.contacts (
   subject TEXT,
   message TEXT NOT NULL,
   is_read BOOLEAN DEFAULT false,
+  admin_reply TEXT,
+  replied_at TIMESTAMPTZ,
   created_at TIMESTAMPTZ DEFAULT now()
 );
 
