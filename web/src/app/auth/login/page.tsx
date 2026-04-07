@@ -41,10 +41,7 @@ function LoginForm() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,rgba(212,25,32,0.08),transparent_70%)]" />
         <div className="relative z-10 max-w-[380px] px-8">
           <Link href="/" className="inline-block mb-10">
-            <span className="text-3xl font-[900] tracking-tight italic">
-              <span className="text-[#d41920]">EURO</span>
-              <span className="text-white">FILES</span>
-            </span>
+            <img src="/assets/images/logo.png" alt="EUROFILES" className="h-16" />
           </Link>
           <h2 className="text-[2.5rem] font-extrabold text-white leading-[1.1] mb-4 tracking-[-0.03em]">
             Professional ECU Tuning Files
@@ -65,10 +62,7 @@ function LoginForm() {
         <div className="w-full max-w-[400px]">
           <div className="lg:hidden mb-8">
             <Link href="/" className="inline-block">
-              <span className="text-2xl font-[900] tracking-tight italic">
-                <span className="text-[#d41920]">EURO</span>
-                <span className="text-[#1e1e1e]">FILES</span>
-              </span>
+              <img src="/assets/images/logo.png" alt="EUROFILES" className="h-12" />
             </Link>
           </div>
 
