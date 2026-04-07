@@ -3,7 +3,10 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 function getPayPalApi() {
-  return process.env.PAYPAL_MODE === "live"
+  const mode = process.env.PAYPAL_MODE;
+  const clientId = process.env.PAYPAL_CLIENT_ID || process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "";
+  const isLive = mode === "live" || clientId.startsWith("AUC");
+  return isLive
     ? "https://api-m.paypal.com"
     : "https://api-m.sandbox.paypal.com";
 }
