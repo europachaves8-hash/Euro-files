@@ -2,7 +2,6 @@
 
 import { useState, Suspense } from "react";
 import { createClient } from "@/lib/supabase-browser";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const COUNTRIES = [
@@ -33,7 +32,6 @@ function RegisterForm() {
   const [agreePrivacy, setAgreePrivacy] = useState(false);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const router = useRouter();
 
   async function handleRegister(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -49,6 +47,7 @@ function RegisterForm() {
     const { error: authError } = await supabase.auth.signUp({
       email, password,
       options: {
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
         data: {
           first_name: firstName, last_name: lastName, phone, is_private: isPrivate,
           company: isPrivate ? null : company, company_reg: isPrivate ? null : companyReg,
@@ -58,7 +57,7 @@ function RegisterForm() {
     });
 
     if (authError) { setError(authError.message); setLoading(false); return; }
-    router.push("/auth/login?registered=true");
+    window.location.href = "/auth/login?registered=true";
   }
 
   const inputClass = "w-full h-[46px] px-4 border-2 border-[#e2e8f0] text-sm font-medium text-[#1a202c] focus:outline-none focus:border-[#d41920] transition-colors bg-white";

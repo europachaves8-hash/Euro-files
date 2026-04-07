@@ -99,7 +99,10 @@
         <!-- Form -->
         <div class="card" style="padding: 40px;">
           <h3 style="margin-bottom: 24px;">Send us a Message</h3>
-          <form id="contact-form" onsubmit="return validateForm('contact-form')">
+          <div id="contact-success" style="display:none;padding:16px;background:#f0fdf4;border:1px solid #bbf7d0;color:#166534;margin-bottom:16px;font-size:14px;font-weight:600;">
+            Message sent successfully! We will get back to you shortly.
+          </div>
+          <form id="contact-form" onsubmit="return handleContactSubmit(event)">
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Full Name</label>
@@ -181,5 +184,46 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth-navbar.js"></script>
+  <script>
+    async function handleContactSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value;
+      const vehicle = document.getElementById('vehicle').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !subject || !message) {
+        alert('Please fill in all required fields.');
+        return false;
+      }
+
+      const btn = e.target.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+
+      try {
+        const fullMessage = vehicle ? message + '\n\nVehicle: ' + vehicle : message;
+        const { error } = await supabaseClient.from('contacts').insert({
+          name, email, subject, message: fullMessage
+        });
+
+        if (error) throw error;
+
+        document.getElementById('contact-success').style.display = 'block';
+        e.target.reset();
+      } catch (err) {
+        alert('Failed to send message. Please try again.');
+        console.error(err);
+      }
+
+      btn.disabled = false;
+      btn.textContent = 'Send Message';
+      return false;
+    }
+  </script>
 </body>
 </html>

@@ -29,7 +29,7 @@ type ProfileData = {
   updated_at: string;
 };
 
-export default function ProfilePage() {
+export default function ClientProfilePage() {
   const supabase = createClient();
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -37,12 +37,10 @@ export default function ProfilePage() {
   const [error, setError] = useState("");
   const [editing, setEditing] = useState(false);
 
-  // Profile
   const [profile, setProfile] = useState<ProfileData | null>(null);
   const [email, setEmail] = useState("");
   const [lastSignIn, setLastSignIn] = useState("");
 
-  // Editable fields
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [phone, setPhone] = useState("");
@@ -55,11 +53,9 @@ export default function ProfilePage() {
   const [vatNumber, setVatNumber] = useState("");
   const [isPrivate, setIsPrivate] = useState(false);
 
-  // Stats
   const [ticketCount, setTicketCount] = useState(0);
   const [totalSpent, setTotalSpent] = useState(0);
 
-  // Avatar
   const [avatarUrl, setAvatarUrl] = useState<string | null>(null);
   const [uploadingAvatar, setUploadingAvatar] = useState(false);
 
@@ -93,7 +89,6 @@ export default function ProfilePage() {
         setIsPrivate(data.is_private || false);
       }
 
-      // Get ticket stats
       const { count } = await supabase
         .from("orders")
         .select("*", { count: "exact", head: true })
@@ -115,7 +110,6 @@ export default function ProfilePage() {
         .from("avatars")
         .getPublicUrl(`${user.id}/avatar`);
       if (avatarData?.publicUrl) {
-        // Check if avatar exists by trying to fetch it
         try {
           const res = await fetch(avatarData.publicUrl, { method: "HEAD" });
           if (res.ok) setAvatarUrl(avatarData.publicUrl + "?t=" + Date.now());
@@ -131,18 +125,13 @@ export default function ProfilePage() {
     const file = e.target.files?.[0];
     if (!file) return;
     setUploadingAvatar(true);
-
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) return;
-
     const { error } = await supabase.storage
       .from("avatars")
       .upload(`${user.id}/avatar`, file, { upsert: true });
-
     if (!error) {
-      const { data } = supabase.storage
-        .from("avatars")
-        .getPublicUrl(`${user.id}/avatar`);
+      const { data } = supabase.storage.from("avatars").getPublicUrl(`${user.id}/avatar`);
       setAvatarUrl(data.publicUrl + "?t=" + Date.now());
     }
     setUploadingAvatar(false);
@@ -186,7 +175,7 @@ export default function ProfilePage() {
   }
 
   function formatDate(d: string) {
-    if (!d) return "—";
+    if (!d) return "\u2014";
     return new Date(d).toLocaleString("en-GB", {
       year: "numeric",
       month: "2-digit",
@@ -220,9 +209,8 @@ export default function ProfilePage() {
 
   return (
     <div className="flex gap-6 items-start">
-      {/* ═══ Left column — Profile card + Stats ═══ */}
+      {/* Left column */}
       <div className="w-[280px] shrink-0 space-y-4">
-        {/* Profile Card */}
         <div className="bg-white rounded-xl border border-[#e2e8f0] p-6 text-center">
           <div className="relative w-24 h-24 mx-auto mb-4 group">
             {avatarUrl ? (
@@ -259,7 +247,6 @@ export default function ProfilePage() {
           </button>
         </div>
 
-        {/* Account Stats */}
         <div className="bg-white rounded-xl border border-[#e2e8f0]">
           <div className="divide-y divide-[#e2e8f0]">
             <div className="flex items-center justify-between px-5 py-3">
@@ -287,12 +274,6 @@ export default function ProfilePage() {
               </span>
             </div>
             <div className="flex items-center justify-between px-5 py-3">
-              <span className={statLabel}>Updated At</span>
-              <span className={statValue}>
-                {formatDate(profile?.updated_at || "")}
-              </span>
-            </div>
-            <div className="flex items-center justify-between px-5 py-3">
               <span className={statLabel}>Last Login At</span>
               <span className={statValue}>{formatDate(lastSignIn)}</span>
             </div>
@@ -300,7 +281,7 @@ export default function ProfilePage() {
         </div>
       </div>
 
-      {/* ═══ Right column ═══ */}
+      {/* Right column */}
       <div className="flex-1 min-w-0">
         {error && (
           <div className="bg-red-50 border border-red-200 px-4 py-3 text-red-600 text-sm mt-4">
@@ -314,219 +295,161 @@ export default function ProfilePage() {
           </div>
         )}
 
-        {/* ═══ Settings ═══ */}
         <div className="bg-white rounded-xl border border-[#e2e8f0] p-6 space-y-8">
-            {/* Personal Info */}
-            <section>
-              <h3 className="flex items-center gap-2 text-sm font-bold text-[#1a202c] mb-4">
-                <User size={16} className="text-[#718096]" />
-                Personal Information
-              </h3>
+          <section>
+            <h3 className="flex items-center gap-2 text-sm font-bold text-[#1a202c] mb-4">
+              <User size={16} className="text-[#718096]" />
+              Personal Information
+            </h3>
 
-              {editing ? (
-                <div className="space-y-4">
+            {editing ? (
+              <div className="space-y-4">
+                <div>
+                  <label className={labelClass}>Email</label>
+                  <input
+                    value={email}
+                    disabled
+                    className={inputClass + " bg-[#f7fafc] text-[#718096] cursor-not-allowed"}
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className={labelClass}>Email</label>
-                    <input
-                      value={email}
-                      disabled
-                      className={
-                        inputClass +
-                        " bg-[#f7fafc] text-[#718096] cursor-not-allowed"
-                      }
-                    />
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <label className={labelClass}>First Name</label>
-                      <input
-                        value={firstName}
-                        onChange={(e) => setFirstName(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
-                    <div>
-                      <label className={labelClass}>Last Name</label>
-                      <input
-                        value={lastName}
-                        onChange={(e) => setLastName(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <label className={labelClass}>Phone</label>
-                      <input
-                        value={phone}
-                        onChange={(e) => setPhone(e.target.value)}
-                        placeholder="+351 912 345 678"
-                        className={inputClass}
-                      />
-                    </div>
-                    <div>
-                      <label className={labelClass}>Country</label>
-                      <input
-                        value={country}
-                        onChange={(e) => setCountry(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <label className={labelClass}>City</label>
-                      <input
-                        value={city}
-                        onChange={(e) => setCity(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
-                    <div>
-                      <label className={labelClass}>Postal Code</label>
-                      <input
-                        value={postalCode}
-                        onChange={(e) => setPostalCode(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
+                    <label className={labelClass}>First Name</label>
+                    <input value={firstName} onChange={(e) => setFirstName(e.target.value)} className={inputClass} />
                   </div>
                   <div>
-                    <label className={labelClass}>Address</label>
-                    <input
-                      value={address}
-                      onChange={(e) => setAddress(e.target.value)}
-                      className={inputClass}
-                    />
+                    <label className={labelClass}>Last Name</label>
+                    <input value={lastName} onChange={(e) => setLastName(e.target.value)} className={inputClass} />
                   </div>
                 </div>
-              ) : (
-                <div className="grid grid-cols-2 gap-x-8 gap-y-3">
-                  {[
-                    ["Email", email],
-                    ["Name", fullName],
-                    ["Phone", phone || "—"],
-                    ["Country", country || "—"],
-                    ["City", city || "—"],
-                    ["Postal Code", postalCode || "—"],
-                    ["Address", address || "—"],
-                  ].map(([label, value]) => (
-                    <div key={label} className="flex justify-between py-1">
-                      <span className="text-xs text-[#718096]">{label}</span>
-                      <span className="text-sm text-[#1a202c] font-medium">
-                        {value}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </section>
-
-            {/* Company Info */}
-            <section>
-              <h3 className="flex items-center gap-2 text-sm font-bold text-[#1a202c] mb-4">
-                <Building2 size={16} className="text-[#718096]" />
-                Company Information
-              </h3>
-
-              {editing ? (
-                <div className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <label className={labelClass}>Company Name</label>
-                      <input
-                        value={company}
-                        onChange={(e) => setCompany(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
-                    <div>
-                      <label className={labelClass}>
-                        Company Registration
-                      </label>
-                      <input
-                        value={companyReg}
-                        onChange={(e) => setCompanyReg(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className={labelClass}>Phone</label>
+                    <input value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="+351 912 345 678" className={inputClass} />
                   </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <label className={labelClass}>VAT Number</label>
-                      <input
-                        value={vatNumber}
-                        onChange={(e) => setVatNumber(e.target.value)}
-                        className={inputClass}
-                      />
-                    </div>
-                    <div>
-                      <label className={labelClass}>Account Type</label>
-                      <div className="flex items-center gap-3 h-[42px]">
-                        <button
-                          onClick={() => setIsPrivate(true)}
-                          className={`px-4 py-2 text-sm font-medium border ${
-                            isPrivate
-                              ? "border-[#d41920] bg-red-50 text-[#d41920]"
-                              : "border-[#e2e8f0] text-[#718096]"
-                          }`}
-                        >
-                          Private
-                        </button>
-                        <button
-                          onClick={() => setIsPrivate(false)}
-                          className={`px-4 py-2 text-sm font-medium border ${
-                            !isPrivate
-                              ? "border-[#d41920] bg-red-50 text-[#d41920]"
-                              : "border-[#e2e8f0] text-[#718096]"
-                          }`}
-                        >
-                          Business
-                        </button>
-                      </div>
-                    </div>
+                  <div>
+                    <label className={labelClass}>Country</label>
+                    <input value={country} onChange={(e) => setCountry(e.target.value)} className={inputClass} />
                   </div>
                 </div>
-              ) : (
-                <div className="grid grid-cols-2 gap-x-8 gap-y-3">
-                  {[
-                    ["Company", company || "—"],
-                    ["Registration", companyReg || "—"],
-                    ["VAT Number", vatNumber || "—"],
-                    ["Account Type", isPrivate ? "Private" : "Business"],
-                  ].map(([label, value]) => (
-                    <div key={label} className="flex justify-between py-1">
-                      <span className="text-xs text-[#718096]">{label}</span>
-                      <span className="text-sm text-[#1a202c] font-medium">
-                        {value}
-                      </span>
-                    </div>
-                  ))}
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className={labelClass}>City</label>
+                    <input value={city} onChange={(e) => setCity(e.target.value)} className={inputClass} />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Postal Code</label>
+                    <input value={postalCode} onChange={(e) => setPostalCode(e.target.value)} className={inputClass} />
+                  </div>
                 </div>
-              )}
-            </section>
-
-            {/* Save button when editing */}
-            {editing && (
-              <div className="flex items-center gap-3 pt-2">
-                <button
-                  onClick={handleSave}
-                  disabled={saving}
-                  className="flex items-center gap-2 px-6 py-2.5 bg-[#d41920] hover:bg-[#b01018] text-white text-sm font-semibold transition-all disabled:opacity-50"
-                >
-                  <Save size={16} />
-                  {saving ? "Saving..." : "Save Changes"}
-                </button>
-                <button
-                  onClick={() => setEditing(false)}
-                  className="px-5 py-2.5 text-sm font-semibold text-[#718096] hover:text-[#1a202c]"
-                >
-                  Cancel
-                </button>
+                <div>
+                  <label className={labelClass}>Address</label>
+                  <input value={address} onChange={(e) => setAddress(e.target.value)} className={inputClass} />
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 gap-x-8 gap-y-3">
+                {[
+                  ["Email", email],
+                  ["Name", fullName],
+                  ["Phone", phone || "\u2014"],
+                  ["Country", country || "\u2014"],
+                  ["City", city || "\u2014"],
+                  ["Postal Code", postalCode || "\u2014"],
+                  ["Address", address || "\u2014"],
+                ].map(([label, value]) => (
+                  <div key={label} className="flex justify-between py-1">
+                    <span className="text-xs text-[#718096]">{label}</span>
+                    <span className="text-sm text-[#1a202c] font-medium">{value}</span>
+                  </div>
+                ))}
               </div>
             )}
+          </section>
 
-          </div>
+          <section>
+            <h3 className="flex items-center gap-2 text-sm font-bold text-[#1a202c] mb-4">
+              <Building2 size={16} className="text-[#718096]" />
+              Company Information
+            </h3>
+
+            {editing ? (
+              <div className="space-y-4">
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className={labelClass}>Company Name</label>
+                    <input value={company} onChange={(e) => setCompany(e.target.value)} className={inputClass} />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Company Registration</label>
+                    <input value={companyReg} onChange={(e) => setCompanyReg(e.target.value)} className={inputClass} />
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className={labelClass}>VAT Number</label>
+                    <input value={vatNumber} onChange={(e) => setVatNumber(e.target.value)} className={inputClass} />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Account Type</label>
+                    <div className="flex items-center gap-3 h-[42px]">
+                      <button
+                        onClick={() => setIsPrivate(true)}
+                        className={`px-4 py-2 text-sm font-medium border ${
+                          isPrivate ? "border-[#d41920] bg-red-50 text-[#d41920]" : "border-[#e2e8f0] text-[#718096]"
+                        }`}
+                      >
+                        Private
+                      </button>
+                      <button
+                        onClick={() => setIsPrivate(false)}
+                        className={`px-4 py-2 text-sm font-medium border ${
+                          !isPrivate ? "border-[#d41920] bg-red-50 text-[#d41920]" : "border-[#e2e8f0] text-[#718096]"
+                        }`}
+                      >
+                        Business
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 gap-x-8 gap-y-3">
+                {[
+                  ["Company", company || "\u2014"],
+                  ["Registration", companyReg || "\u2014"],
+                  ["VAT Number", vatNumber || "\u2014"],
+                  ["Account Type", isPrivate ? "Private" : "Business"],
+                ].map(([label, value]) => (
+                  <div key={label} className="flex justify-between py-1">
+                    <span className="text-xs text-[#718096]">{label}</span>
+                    <span className="text-sm text-[#1a202c] font-medium">{value}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </section>
+
+          {editing && (
+            <div className="flex items-center gap-3 pt-2">
+              <button
+                onClick={handleSave}
+                disabled={saving}
+                className="flex items-center gap-2 px-6 py-2.5 bg-[#d41920] hover:bg-[#b01018] text-white text-sm font-semibold transition-all disabled:opacity-50"
+              >
+                <Save size={16} />
+                {saving ? "Saving..." : "Save Changes"}
+              </button>
+              <button
+                onClick={() => setEditing(false)}
+                className="px-5 py-2.5 text-sm font-semibold text-[#718096] hover:text-[#1a202c]"
+              >
+                Cancel
+              </button>
+            </div>
+          )}
+
+        </div>
       </div>
     </div>
   );

@@ -4,6 +4,11 @@ import { NextResponse, type NextRequest } from "next/server";
 export async function middleware(request: NextRequest) {
   let supabaseResponse = NextResponse.next({ request });
 
+  // DEV ONLY: bypass auth for local development
+  if (process.env.DEV_BYPASS_AUTH === "true" && process.env.NODE_ENV === "development") {
+    return supabaseResponse;
+  }
+
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
@@ -13,13 +18,17 @@ export async function middleware(request: NextRequest) {
           return request.cookies.getAll();
         },
         setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) =>
+          cookiesToSet.forEach(({ name, value }) =>
             request.cookies.set(name, value)
           );
           supabaseResponse = NextResponse.next({ request });
-          cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options)
-          );
+          cookiesToSet.forEach(({ name, value, options }) => {
+            const cookieOptions =
+              process.env.NODE_ENV === "development"
+                ? { ...options, secure: false, sameSite: "lax" as const }
+                : options;
+            supabaseResponse.cookies.set(name, value, cookieOptions);
+          });
         },
       },
     }
@@ -49,11 +58,21 @@ export async function middleware(request: NextRequest) {
     }
   }
 
+  // Rotas de client requerem autenticacao
+  if (path.startsWith("/client")) {
+    if (!user) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/auth/login";
+      url.searchParams.set("redirect", path);
+      return NextResponse.redirect(url);
+    }
+  }
+
   // Rotas de auth: se ja logado, redirecionar
   if (path.startsWith("/auth/") && user) {
     const role = user.app_metadata?.userrole;
     const url = request.nextUrl.clone();
-    url.pathname = role === "ADMIN" ? "/admin/dashboard" : "/";
+    url.pathname = role === "ADMIN" ? "/admin/dashboard" : "/client/dashboard";
     return NextResponse.redirect(url);
   }
 
@@ -61,5 +80,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*", "/auth/:path*"],
+  matcher: ["/admin/:path*", "/client/:path*", "/auth/:path*"],
 };

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SupabaseAuthProvider } from "@/components/supabase-auth-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,7 +23,7 @@ export default function RootLayout({
         />
       </head>
       <body style={{ fontFamily: "'Inter Tight', sans-serif" }}>
-        {children}
+        <SupabaseAuthProvider>{children}</SupabaseAuthProvider>
       </body>
     </html>
   );

@@ -2,7 +2,7 @@
 
 import { useState, Suspense } from "react";
 import { createClient } from "@/lib/supabase-browser";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 function LoginForm() {
@@ -10,7 +10,6 @@ function LoginForm() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const router = useRouter();
   const searchParams = useSearchParams();
   const redirect = searchParams.get("redirect") || "/admin/dashboard";
   const registered = searchParams.get("registered");
@@ -32,8 +31,7 @@ function LoginForm() {
       return;
     }
 
-    router.push(redirect);
-    router.refresh();
+    window.location.href = redirect;
   }
 
   return (

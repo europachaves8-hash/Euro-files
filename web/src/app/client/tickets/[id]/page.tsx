@@ -4,9 +4,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { TicketChat } from "@/components/ticket-chat";
 import { TicketFiles } from "@/components/ticket-files";
-import { TicketStatusSelect } from "@/components/ticket-status-select";
 
-export default async function TicketDetailPage({
+export default async function ClientTicketDetailPage({
   params,
 }: {
   params: Promise<{ id: string }>;
@@ -14,15 +13,11 @@ export default async function TicketDetailPage({
   const { id } = await params;
   const supabase = await createClient();
 
-  // Get current user
   const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const isAdmin =
-    user?.app_metadata?.userrole === "ADMIN" ||
-    user?.app_metadata?.claims_admin === true ||
-    user?.app_metadata?.role === "admin";
+  if (!user) return notFound();
 
   // Fetch ticket
   const { data: ticket } = await supabase
@@ -32,6 +27,9 @@ export default async function TicketDetailPage({
     .single();
 
   if (!ticket) return notFound();
+
+  // Security: ensure ticket belongs to this user
+  if (ticket.user_id !== user.id) return notFound();
 
   // Fetch files
   const { data: files } = await supabase
@@ -73,20 +71,26 @@ export default async function TicketDetailPage({
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
         <Link
-          href="/admin/tickets"
+          href="/client/tickets"
           className="w-9 h-9 rounded-lg bg-white border border-zinc-200 flex items-center justify-center hover:bg-zinc-50 transition-colors"
         >
           <ArrowLeft size={16} className="text-zinc-600" />
         </Link>
         <div className="flex-1">
-          <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
-            Ticket #{ticket.id.slice(0, 8)}
-          </h1>
-          <div className="flex items-center gap-3 mt-1.5">
-            <TicketStatusSelect ticketId={ticket.id} currentStatus={ticket.status} />
+          <div className="flex items-center gap-3">
+            <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
+              Ticket #{ticket.id.slice(0, 8)}
+            </h1>
+            <span
+              className={`inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-white px-2.5 py-1 rounded-full ${
+                statusColors[ticket.status] || "bg-zinc-400"
+              }`}
+            >
+              {ticket.status?.replace("_", " ")}
+            </span>
           </div>
-          <p className="text-sm text-zinc-500 mt-1">
-            Created {createdAt} · Priority: {ticket.priority === "urgent" ? "0-1 hour" : ticket.priority === "low" ? "5-10 hours" : "2-5 hours"}
+          <p className="text-sm text-zinc-500 mt-0.5">
+            Created {createdAt} · Priority: {ticket.priority || "0-1 hour"}
           </p>
         </div>
       </div>
@@ -103,38 +107,34 @@ export default async function TicketDetailPage({
               <div className="grid grid-cols-2 gap-y-3 gap-x-8 text-sm">
                 <div className="flex justify-between">
                   <span className="text-zinc-500">Vehicle</span>
-                  <span className="font-medium text-zinc-800 text-right">{vehicle || "—"}</span>
+                  <span className="font-medium text-zinc-800 text-right">{vehicle || "\u2014"}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-zinc-500">Year</span>
-                  <span className="font-medium text-zinc-800">{ticket.vehicle_year || "—"}</span>
+                  <span className="font-medium text-zinc-800">{ticket.vehicle_year || "\u2014"}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-zinc-500">Gearbox</span>
-                  <span className="font-medium text-zinc-800">{ticket.vehicle_gearbox || "—"}</span>
+                  <span className="font-medium text-zinc-800">{ticket.vehicle_gearbox || "\u2014"}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-zinc-500">Fuel</span>
-                  <span className="font-medium text-zinc-800">{ticket.vehicle_fuel || "—"}</span>
+                  <span className="font-medium text-zinc-800">{ticket.vehicle_fuel || "\u2014"}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-zinc-500">ECU</span>
                   <span className="font-medium text-zinc-800">
-                    {[ticket.ecu_producer, ticket.ecu_type].filter(Boolean).join(" ") || "—"}
+                    {[ticket.ecu_producer, ticket.ecu_type].filter(Boolean).join(" ") || "\u2014"}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-zinc-500">Reading Tool</span>
-                  <span className="font-medium text-zinc-800">{ticket.reading_tool || "—"}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-zinc-500">Client</span>
-                  <span className="font-medium text-zinc-800">{ticket.client_name || "—"}</span>
+                  <span className="font-medium text-zinc-800">{ticket.reading_tool || "\u2014"}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-zinc-500">Price</span>
                   <span className="font-bold text-[#d41920]">
-                    €{Number(ticket.price_eur || ticket.total_credits || 0).toFixed(2)}
+                    &euro;{Number(ticket.price_eur || ticket.total_credits || 0).toFixed(2)}
                   </span>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export default async function TicketDetailPage({
                 <div key={item.id} className="flex items-center justify-between px-5 py-3">
                   <span className="text-sm text-zinc-700">{item.product_name}</span>
                   <span className="text-sm font-semibold text-zinc-800">
-                    €{Number(item.price_credits || 0).toFixed(2)}
+                    &euro;{Number(item.price_credits || 0).toFixed(2)}
                   </span>
                 </div>
               ))}
@@ -171,8 +171,8 @@ export default async function TicketDetailPage({
           <TicketFiles
             ticketId={ticket.id}
             initialFiles={ticketFiles}
-            isAdmin={isAdmin}
-            userId={user?.id || ""}
+            isAdmin={false}
+            userId={user.id}
           />
         </div>
 
@@ -180,13 +180,9 @@ export default async function TicketDetailPage({
         <TicketChat
           ticketId={ticket.id}
           initialMessages={messages || []}
-          isAdmin={isAdmin}
-          userId={user?.id || ""}
-          userName={
-            isAdmin
-              ? "EUROFILES"
-              : ticket.client_name || "Client"
-          }
+          isAdmin={false}
+          userId={user.id}
+          userName={ticket.client_name || "Client"}
         />
       </div>
     </div>

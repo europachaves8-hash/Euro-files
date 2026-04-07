@@ -475,7 +475,7 @@ p, li, td, th, label, span, a {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 180px 0 100px;
+  padding: 180px 0 50px;
   background: var(--dark);
   overflow: hidden;
   min-height: 550px;

@@ -7,39 +7,43 @@ import {
   TrendingUp,
   Plus,
   Eye,
-  FileText,
   Clock,
 } from "lucide-react";
 
-async function getStats() {
+async function getStats(userId: string) {
   const supabase = await createClient();
 
-  const [ordersRes, pendingRes, inProgressRes, completedRes, revenueRes, recentRes] =
+  const [ordersRes, pendingRes, completedRes, revenueRes, recentRes] =
     await Promise.all([
-      supabase.from("orders").select("id", { count: "exact", head: true }),
       supabase
         .from("orders")
         .select("id", { count: "exact", head: true })
+        .eq("user_id", userId),
+      supabase
+        .from("orders")
+        .select("id", { count: "exact", head: true })
+        .eq("user_id", userId)
         .eq("status", "pending"),
       supabase
         .from("orders")
         .select("id", { count: "exact", head: true })
-        .eq("status", "in_progress"),
+        .eq("user_id", userId)
+        .eq("status", "completed"),
       supabase
         .from("orders")
-        .select("id", { count: "exact", head: true })
-        .eq("status", "completed"),
-      supabase.from("orders").select("price_eur, total_credits"),
+        .select("price_eur, total_credits")
+        .eq("user_id", userId),
       supabase
         .from("orders")
         .select(
-          "id, status, price_eur, total_credits, vehicle_make, vehicle_model, vehicle_engine, client_name, priority, created_at"
+          "id, status, price_eur, total_credits, vehicle_make, vehicle_model, vehicle_engine, client_name, priority, created_at, order_items(product_name)"
         )
+        .eq("user_id", userId)
         .order("created_at", { ascending: false })
-        .limit(10),
+        .limit(5),
     ]);
 
-  const totalRevenue =
+  const totalSpent =
     revenueRes.data?.reduce(
       (sum, o) => sum + Number(o.price_eur || o.total_credits || 0),
       0
@@ -48,9 +52,8 @@ async function getStats() {
   return {
     totalOrders: ordersRes.count || 0,
     pending: pendingRes.count || 0,
-    inProgress: inProgressRes.count || 0,
     completed: completedRes.count || 0,
-    totalRevenue,
+    totalSpent,
     recentOrders: recentRes.data || [],
   };
 }
@@ -62,8 +65,15 @@ const statusStyle: Record<string, string> = {
   cancelled: "bg-zinc-100 text-zinc-500",
 };
 
-export default async function DashboardPage() {
-  const stats = await getStats();
+export default async function ClientDashboardPage() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) return null;
+
+  const stats = await getStats(user.id);
 
   return (
     <div>
@@ -79,7 +89,7 @@ export default async function DashboardPage() {
         </div>
         <div className="flex gap-3">
           <Link
-            href="/admin/tickets/new"
+            href="/client/tickets/new"
             className="flex items-center gap-2 px-5 py-2.5 bg-[#d41920] hover:bg-[#b01018] text-white text-sm font-semibold transition-all"
           >
             <Plus size={16} strokeWidth={2.5} />
@@ -95,32 +105,32 @@ export default async function DashboardPage() {
             label: "Total Tickets",
             value: stats.totalOrders,
             icon: Ticket,
-            color: "text-[#1a202c]",
-            link: "/admin/tickets",
-            linkText: "View All",
+            color: "text-[#d41920]",
+            link: "/client/tickets",
+            linkText: "View Tickets",
           },
           {
-            label: "Pending",
+            label: "Open Tickets",
             value: stats.pending,
             icon: Clock,
-            color: "text-amber-600",
-            link: "/admin/tickets",
-            linkText: "View Pending",
+            color: "text-blue-600",
+            link: "/client/tickets",
+            linkText: "View Open",
           },
           {
             label: "Completed",
             value: stats.completed,
             icon: CheckCircle2,
             color: "text-emerald-600",
-            link: "/admin/tickets",
+            link: "/client/tickets",
             linkText: "View History",
           },
           {
-            label: "Total Revenue",
-            value: `${stats.totalRevenue.toFixed(2)} \u20AC`,
-            icon: Wallet,
-            color: "text-[#d41920]",
-            link: "/admin/tickets",
+            label: "Total Spent",
+            value: `${stats.totalSpent.toFixed(2)} \u20AC`,
+            icon: TrendingUp,
+            color: "text-[#1a202c]",
+            link: "/client/tickets",
             linkText: "View Orders",
           },
         ].map((card) => (
@@ -144,12 +154,12 @@ export default async function DashboardPage() {
         ))}
       </div>
 
-      {/* Your Tickets */}
+      {/* Recent Tickets */}
       <div className="bg-white rounded-xl border border-[#e2e8f0] mb-6">
         <div className="flex items-center justify-between px-5 py-4 border-b border-[#e2e8f0]">
-          <h2 className="text-base font-bold text-[#1a202c]">Recent Tickets</h2>
+          <h2 className="text-base font-bold text-[#1a202c]">Your Tickets</h2>
           <Link
-            href="/admin/tickets/new"
+            href="/client/tickets/new"
             className="px-4 py-2 bg-[#d41920] hover:bg-[#b01018] text-white text-xs font-semibold transition-all"
           >
             Create Ticket
@@ -160,20 +170,14 @@ export default async function DashboardPage() {
           <div className="text-center py-12">
             <Ticket size={32} className="text-[#e2e8f0] mx-auto mb-3" strokeWidth={1.5} />
             <p className="text-sm text-[#718096] mb-4">
-              You don't have any tickets yet.
+              You don&apos;t have any tickets yet.
             </p>
             <div className="flex gap-3 justify-center">
               <Link
-                href="/admin/tickets/new"
+                href="/client/tickets/new"
                 className="px-5 py-2.5 bg-[#d41920] hover:bg-[#b01018] text-white text-xs font-semibold transition-all"
               >
                 Place a Ticket
-              </Link>
-              <Link
-                href="/admin/tickets"
-                className="px-5 py-2.5 border border-[#d41920] text-[#d41920] hover:bg-[#d41920] hover:text-white text-xs font-semibold transition-all"
-              >
-                View Tickets
               </Link>
             </div>
           </div>
@@ -185,7 +189,6 @@ export default async function DashboardPage() {
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Status</th>
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">ID</th>
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Vehicle & Engine</th>
-                  <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Client</th>
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Price</th>
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Date</th>
                   <th className="text-left text-[10px] font-semibold text-[#718096] uppercase tracking-wider px-5 py-2.5">Priority</th>
@@ -196,7 +199,6 @@ export default async function DashboardPage() {
                 {stats.recentOrders.map((order: any) => {
                   const vehicle = [order.vehicle_make, order.vehicle_model, order.vehicle_engine]
                     .filter(Boolean).join(" ");
-                  const client = order.client_name || "—";
                   const date = new Date(order.created_at).toLocaleDateString("en-GB", {
                     day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit",
                   });
@@ -211,9 +213,11 @@ export default async function DashboardPage() {
                         #{order.id.slice(0, 8)}
                       </td>
                       <td className="px-5 py-3">
-                        <p className="text-sm font-semibold text-[#1a202c]">{vehicle || "—"}</p>
+                        <p className="text-sm font-semibold text-[#1a202c]">{vehicle || "\u2014"}</p>
+                        <p className="text-[11px] text-[#718096] truncate max-w-[220px]">
+                          {order.order_items?.map((i: any) => i.product_name).join(", ") || "\u2014"}
+                        </p>
                       </td>
-                      <td className="px-5 py-3 text-sm text-[#4a5568]">{client}</td>
                       <td className="px-5 py-3 text-sm font-bold text-[#1a202c]">
                         {Number(order.price_eur || order.total_credits || 0).toFixed(2)} &euro;
                       </td>
@@ -221,11 +225,11 @@ export default async function DashboardPage() {
                       <td className="px-5 py-3">
                         <span className="flex items-center gap-1 text-xs font-medium text-[#d41920]">
                           <Clock size={12} />
-                          {order.priority === "urgent" ? "0-1h" : order.priority === "low" ? "5-10h" : "2-5h"}
+                          {order.priority || "0-1h"}
                         </span>
                       </td>
                       <td className="px-5 py-3">
-                        <Link href={`/admin/tickets/${order.id}`} className="flex items-center gap-1 text-xs font-semibold text-[#d41920] hover:underline">
+                        <Link href={`/client/tickets/${order.id}`} className="flex items-center gap-1 text-xs font-semibold text-[#d41920] hover:underline">
                           <Eye size={13} /> View
                         </Link>
                       </td>
@@ -235,7 +239,7 @@ export default async function DashboardPage() {
               </tbody>
             </table>
             <div className="px-5 py-3 border-t border-[#e2e8f0] text-center">
-              <Link href="/admin/tickets" className="text-xs font-semibold text-[#d41920] hover:underline">
+              <Link href="/client/tickets" className="text-xs font-semibold text-[#d41920] hover:underline">
                 View all tickets &rarr;
               </Link>
             </div>

@@ -397,8 +397,26 @@ export default function NewTicketPage() {
         console.error("File record error:", fileInsertError);
       }
 
-      // Admin skips payment — redirect directly
-      window.location.href = `/admin/tickets/${order.id}`;
+      // Payment flow
+      if (totalPrice > 0) {
+        const payRes = await fetch("/api/paypal/create-order", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            order_id: order.id,
+            amount: totalPrice,
+          }),
+        });
+        const payData = await payRes.json();
+
+        if (payData.approval_url) {
+          window.location.href = payData.approval_url;
+          return;
+        }
+      }
+
+      // Free order or PayPal not configured — redirect directly
+      window.location.href = `/client/tickets/${order.id}`;
     } catch (err: any) {
       setError(err.message || "An error occurred.");
       setLoading(false);
@@ -420,7 +438,7 @@ export default function NewTicketPage() {
       {/* Header */}
       <div className="flex items-center gap-3 mb-5">
         <Link
-          href="/admin/tickets"
+          href="/client/tickets"
           className="w-9 h-9 bg-white border border-[#e2e8f0] flex items-center justify-center hover:bg-[#f7fafc] transition-colors"
         >
           <ArrowLeft size={16} className="text-[#4a5568]" />

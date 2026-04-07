@@ -7,23 +7,19 @@ import {
   LayoutDashboard,
   Ticket,
   PlusCircle,
-  Package,
-  Mail,
   User,
   ArrowLeft,
   LogOut,
 } from "lucide-react";
 
 const navItems = [
-  { href: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/admin/tickets", label: "My Tickets", icon: Ticket },
-  { href: "/admin/tickets/new", label: "Create Ticket", icon: PlusCircle },
-  { href: "/admin/products", label: "Services", icon: Package },
-  { href: "/admin/contacts", label: "Messages", icon: Mail },
-  { href: "/admin/profile", label: "Profile", icon: User },
+  { href: "/client/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/client/tickets", label: "My Tickets", icon: Ticket },
+  { href: "/client/tickets/new", label: "Create Ticket", icon: PlusCircle },
+  { href: "/client/profile", label: "Profile", icon: User },
 ];
 
-export function AdminSidebar() {
+export function ClientSidebar() {
   const pathname = usePathname();
 
   async function handleLogout() {
@@ -53,8 +49,8 @@ export function AdminSidebar() {
         {navItems.map((item) => {
           const isActive =
             pathname === item.href ||
-            (item.href === "/admin/tickets" &&
-              pathname.startsWith("/admin/tickets") &&
+            (item.href === "/client/tickets" &&
+              pathname.startsWith("/client/tickets") &&
               !pathname.includes("/new"));
           return (
             <Link

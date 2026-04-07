@@ -1,8 +1,8 @@
-import { AdminSidebar } from "@/components/admin-sidebar";
+import { ClientSidebar } from "@/components/client-sidebar";
 import { createClient } from "@/lib/supabase-server";
 import { redirect } from "next/navigation";
 
-export default async function AdminLayout({
+export default async function ClientLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -17,14 +17,14 @@ export default async function AdminLayout({
       data: { user },
     } = await supabase.auth.getUser();
 
-    if (!user || user.app_metadata?.userrole !== "ADMIN") {
+    if (!user) {
       redirect("/auth/login");
     }
   }
 
   return (
     <div className="flex min-h-[100dvh]">
-      <AdminSidebar />
+      <ClientSidebar />
       <main className="flex-1 bg-[#f5f5f5] p-6 overflow-auto">{children}</main>
     </div>
   );
