@@ -1298,7 +1298,7 @@ export default function NewTicketPage() {
           </div>
 
           {/* Terms & Privacy */}
-          <div className="space-y-3 mb-5 flex flex-col items-end">
+          <div className="space-y-3 mb-5 flex flex-col sm:items-end">
             <label className="flex items-start gap-3 cursor-pointer group">
               <div
                 className={`w-5 h-5 mt-0.5 border-2 flex items-center justify-center shrink-0 transition-all ${

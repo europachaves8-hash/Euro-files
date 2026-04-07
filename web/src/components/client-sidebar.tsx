@@ -72,6 +72,7 @@ export function ClientSidebar({ isOpen, onClose }: { isOpen: boolean; onClose: (
             <Link
               key={item.href}
               href={item.href}
+              onClick={onClose}
               className={`flex items-center gap-3 px-3 py-2.5 text-[13px] font-medium mb-0.5 transition-all ${
                 isActive
                   ? "bg-[#d41920] text-white"
@@ -90,6 +91,7 @@ export function ClientSidebar({ isOpen, onClose }: { isOpen: boolean; onClose: (
         </p>
         <Link
           href="/"
+          onClick={onClose}
           className="flex items-center gap-3 px-3 py-2.5 text-[13px] text-white/40 hover:text-white hover:bg-white/5 transition-all"
         >
           <ArrowLeft size={17} strokeWidth={1.8} />
