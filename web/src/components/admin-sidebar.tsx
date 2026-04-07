@@ -110,13 +110,7 @@ export function AdminSidebar({ isOpen, onClose }: { isOpen: boolean; onClose: ()
         </p>
         <div className="text-[11px] text-white/40 space-y-0.5">
           <div className="flex justify-between">
-            <span>Mon-Fri</span><span className="text-white/60">09:00 - 20:00</span>
-          </div>
-          <div className="flex justify-between">
-            <span>Saturday</span><span className="text-white/60">09:00 - 16:00</span>
-          </div>
-          <div className="flex justify-between">
-            <span className="text-[#d41920]">Sunday</span><span className="text-[#d41920]">Closed</span>
+            <span>Every Day</span><span className="text-white/60">24 Hours</span>
           </div>
         </div>
       </div>
