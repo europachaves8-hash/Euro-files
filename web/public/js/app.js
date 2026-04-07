@@ -153,7 +153,7 @@ function initMobileNav() {
 
   if (!toggle || !mobileNav) return;
 
-  toggle.addEventListener('click', () => mobileNav.classList.add('open'));
+  toggle.addEventListener('click', () => mobileNav.classList.toggle('open'));
 
   if (closeBtn) {
     closeBtn.addEventListener('click', () => mobileNav.classList.remove('open'));
