@@ -246,7 +246,7 @@ function initMegaMenu() {
   MEGA_MENU_BRANDS.forEach(brand => {
     const a = document.createElement('a');
     a.className = 'mega-brand';
-    a.href = 'vehicles.html';
+    a.href = 'brand-details.html?brand=' + encodeURIComponent(brand);
 
     const icon = document.createElement('span');
     icon.className = 'mega-brand-icon';

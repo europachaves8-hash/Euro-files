@@ -14,33 +14,44 @@
       display: flex;
       align-items: center;
       gap: 24px;
-      margin-top: 16px;
+      margin-top: 24px;
+      justify-content: center;
     }
     .brand-hero-logo {
-      width: 80px;
-      height: 80px;
+      width: 90px;
+      height: 90px;
       object-fit: contain;
-      background: rgba(255,255,255,0.1);
-      border-radius: 12px;
-      padding: 10px;
+      background: rgba(255,255,255,0.15);
+      padding: 14px;
+      flex-shrink: 0;
     }
     .brand-hero-info h1 {
       margin: 0 0 8px;
-      font-size: 2rem;
+      font-size: 2.2rem;
+      color: #fff;
+      font-weight: 800;
     }
     .brand-hero-info p {
       margin: 0;
-      opacity: 0.8;
+      color: rgba(255,255,255,0.7);
       font-size: 0.95rem;
       max-width: 600px;
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .brand-hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      .brand-hero-info h1 {
+        font-size: 1.6rem;
+      }
     }
     .model-card {
       background: #fff;
-      border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      margin-bottom: 12px;
-      border: 1px solid rgba(0,0,0,0.06);
+      margin-bottom: 8px;
+      border: 1px solid #e2e8f0;
     }
     .model-card-header {
       display: flex;
@@ -83,17 +94,20 @@
     }
     .engine-link {
       display: block;
-      padding: 10px 14px;
-      background: #f5f7fa;
-      border-radius: 8px;
-      color: #1a1a2e;
+      padding: 10px 20px;
+      background: #f5f5f5;
+      color: #4a5568;
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       transition: background 0.15s, color 0.15s;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+    .engine-link:last-child {
+      border-bottom: none;
     }
     .engine-link:hover {
-      background: var(--primary, #e63946);
-      color: #fff;
+      background: rgba(212, 25, 32, 0.05);
+      color: #d41920;
     }
     .brand-not-found {
       text-align: center;
