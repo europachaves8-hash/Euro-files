@@ -93,6 +93,7 @@ const fuelTypes = [
 
 const powerOptions = [
   { id: "none", name: "No changes", price: 0, note: "" },
+  { id: "test_payment", name: "TEST - Payment Test", price: 1, note: "Remove after testing" },
   { id: "stage1", name: "Stage 1", price: 50, note: "" },
   { id: "stage1_5", name: "Stage 1.5", price: 80, note: "Max Power. DPF must be removed!" },
   { id: "stage2", name: "Stage 2", price: 150, note: "Exhaust without DPF and CAT is must. Intake/Intercooler upgrade is recommended" },
