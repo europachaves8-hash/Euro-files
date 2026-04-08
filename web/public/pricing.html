@@ -95,6 +95,7 @@
             <tbody>
               <tr><td>Stage 1 Remap</td><td>From 30 &euro;</td></tr>
               <tr><td>Stage 2 Remap</td><td>From 40 &euro;</td></tr>
+              <tr><td>Stage 3 Remap</td><td><a href="contact.html" style="color: var(--primary); font-weight: 600;">Contact Us</a></td></tr>
               <tr><td>DPF / FAP Removal</td><td>From 20 &euro;</td></tr>
               <tr><td>EGR Removal</td><td>From 20 &euro;</td></tr>
               <tr><td>AdBlue / SCR Removal</td><td>From 30 &euro;</td></tr>
@@ -104,6 +105,83 @@
           </table>
         </div>
         <p class="text-center text-light mt-2" style="font-size: 0.85rem;">* Final price depends on the vehicle type, model and ECU. You will see the exact price before payment.</p>
+      </div>
+
+      <!-- Price Simulator -->
+      <div id="price-simulator">
+        <div class="section-title">
+          <div class="badge">Estimate</div>
+          <h2>Price Simulator</h2>
+          <p>Select your vehicle type, a tuning stage and additional services to estimate the total cost.</p>
+        </div>
+
+        <div class="simulator-card">
+          <!-- Step 1: Vehicle Selection -->
+          <div class="sim-step">
+            <label class="sim-label">1. Select Your Vehicle</label>
+            <div class="sim-vehicle-selects">
+              <div class="sim-select-group">
+                <label for="sim-make">Make</label>
+                <select id="sim-make" class="form-control">
+                  <option value="">Select Make</option>
+                </select>
+              </div>
+              <div class="sim-select-group">
+                <label for="sim-model">Model / Generation</label>
+                <select id="sim-model" class="form-control" disabled>
+                  <option value="">Select Model</option>
+                </select>
+              </div>
+              <div class="sim-select-group">
+                <label for="sim-engine">Engine</label>
+                <select id="sim-engine" class="form-control" disabled>
+                  <option value="">Select Engine</option>
+                </select>
+              </div>
+            </div>
+            <div class="sim-vehicle-tag" id="sim-vehicle-tag" style="display:none;"></div>
+          </div>
+
+          <!-- Step 2: Main Tuning Service -->
+          <div class="sim-step">
+            <label class="sim-label">2. Tuning Stage</label>
+            <div class="sim-options" id="sim-stage">
+              <button type="button" class="sim-option" data-value="stage1">Stage 1</button>
+              <button type="button" class="sim-option" data-value="stage2">Stage 2</button>
+              <button type="button" class="sim-option" data-value="stage3">Stage 3</button>
+            </div>
+          </div>
+
+          <!-- Step 3: Additional Services (order bumps) -->
+          <div class="sim-step">
+            <label class="sim-label">3. Additional Services <span style="font-weight:400; color: var(--text-light);">(optional)</span></label>
+            <div class="sim-addons" id="sim-addons">
+              <label class="sim-addon"><input type="checkbox" value="dpf"><span class="checkmark"></span> DPF / FAP Removal</label>
+              <label class="sim-addon"><input type="checkbox" value="egr"><span class="checkmark"></span> EGR Removal</label>
+              <label class="sim-addon"><input type="checkbox" value="adblue"><span class="checkmark"></span> AdBlue / SCR Removal</label>
+              <label class="sim-addon"><input type="checkbox" value="dtc"><span class="checkmark"></span> DTC Removal</label>
+              <label class="sim-addon"><input type="checkbox" value="popbang"><span class="checkmark"></span> Pop &amp; Bangs / Crackles</label>
+              <label class="sim-addon"><input type="checkbox" value="lambda"><span class="checkmark"></span> Lambda / O2 Removal</label>
+              <label class="sim-addon"><input type="checkbox" value="gpf"><span class="checkmark"></span> GPF / OPF Removal</label>
+              <label class="sim-addon"><input type="checkbox" value="startstop"><span class="checkmark"></span> Start-Stop Disable</label>
+              <label class="sim-addon"><input type="checkbox" value="vmax"><span class="checkmark"></span> Speed Limiter Removal</label>
+              <label class="sim-addon"><input type="checkbox" value="flap"><span class="checkmark"></span> Intake / Swirl Flaps</label>
+            </div>
+          </div>
+
+          <!-- Result -->
+          <div class="sim-result" id="sim-result" style="display:none;">
+            <div class="sim-result-inner">
+              <div class="sim-breakdown" id="sim-breakdown"></div>
+              <div class="sim-total">
+                <span>Estimated Total</span>
+                <span class="sim-price" id="sim-total-price">0 &euro;</span>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-light); margin-top: 8px;">* This is an estimate. Final price depends on vehicle model and ECU type.</p>
+              <a href="/auth/register" class="btn btn-primary" style="margin-top: 16px; width: 100%;">Open a Ticket</a>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -184,8 +262,187 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <script src="js/vehicle-data.js"></script>
+  <script src="js/engine-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js"></script>
   <script src="js/auth-navbar.js"></script>
+  <script>
+  (function() {
+    /* ---- Prices by vehicle category ---- */
+    const prices = {
+      car:   { stage1:[30,50], stage2:[40,60], stage3:null, dpf:[20,40], egr:[20,40], dtc:[20,40], adblue:[25,45], popbang:[30,50], lambda:[20,35], gpf:[20,40], startstop:[10,20], vmax:[15,30], flap:[15,30] },
+      truck: { stage1:[50,80], stage2:[60,90], stage3:null, dpf:[40,70], egr:[40,70], dtc:[30,50], adblue:[40,70], popbang:[40,60], lambda:[30,50], gpf:[35,60], startstop:[15,30], vmax:[25,40], flap:[20,40] },
+      agri:  { stage1:[50,100],stage2:[60,110],stage3:null, dpf:[40,80], egr:[40,80], dtc:[30,60], adblue:[40,80], popbang:[40,70], lambda:[30,60], gpf:[35,70], startstop:[15,30], vmax:[25,50], flap:[25,50] },
+      moto:  { stage1:[30,50], stage2:[40,60], stage3:null, dpf:[25,45], egr:[25,45], dtc:[20,40], adblue:[25,45], popbang:[30,50], lambda:[20,35], gpf:[20,40], startstop:[10,20], vmax:[15,30], flap:[15,30] },
+    };
+
+    const serviceNames = {
+      stage1:'Stage 1 Remap', stage2:'Stage 2 Remap', stage3:'Stage 3 Remap',
+      dpf:'DPF / FAP Removal', egr:'EGR Removal', adblue:'AdBlue / SCR Removal',
+      dtc:'DTC Removal', popbang:'Pop & Bangs', lambda:'Lambda / O2 Removal',
+      gpf:'GPF / OPF Removal', startstop:'Start-Stop Disable', vmax:'Speed Limiter Removal',
+      flap:'Intake / Swirl Flaps'
+    };
+
+    /* ---- Detect vehicle category from make ---- */
+    const truckMakes = ['DAF','Iveco','MAN','Scania trucks','Mercedes-Benz Trucks','Renault truck','Volvo Trucks'];
+    const agriMakes = ['Case','Caterpillar','Challenger','Claas','Deutz Fahr','Fendt','JCB','John Deere','Krone','Lamborghini Tractors','Massey Fergusson','McCormick','New Holland','Steyr','Valtra'];
+    const motoMakes = ['Ducati','Harley-Davidson','Kawasaki','KTM','Yamaha','Triumph','Suzuki Moto','Aprilia','MV Agusta'];
+
+    function detectCategory(make) {
+      if (truckMakes.includes(make)) return 'truck';
+      if (agriMakes.includes(make)) return 'agri';
+      if (motoMakes.includes(make)) return 'moto';
+      return 'car';
+    }
+
+    const categoryLabels = { car:'Car', truck:'Truck', agri:'Agricultural', moto:'Motorcycle' };
+
+    /* ---- DOM refs ---- */
+    const makeEl = document.getElementById('sim-make');
+    const modelEl = document.getElementById('sim-model');
+    const engineEl = document.getElementById('sim-engine');
+    const tagEl = document.getElementById('sim-vehicle-tag');
+
+    let vehicleCategory = null;
+    let selectedStage = null;
+
+    function qsa(sel) { return document.querySelectorAll(sel); }
+
+    /* ---- Populate makes from VEHICLE_DATA ---- */
+    if (typeof VEHICLE_DATA !== 'undefined') {
+      Object.keys(VEHICLE_DATA).sort().forEach(make => {
+        const opt = document.createElement('option');
+        opt.value = make;
+        opt.textContent = make;
+        makeEl.appendChild(opt);
+      });
+    }
+
+    /* ---- Make -> Model ---- */
+    makeEl.addEventListener('change', () => {
+      const make = makeEl.value;
+      modelEl.innerHTML = '<option value="">Select Model</option>';
+      engineEl.innerHTML = '<option value="">Select Engine</option>';
+      engineEl.disabled = true;
+
+      if (make && VEHICLE_DATA[make]) {
+        VEHICLE_DATA[make].forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m;
+          opt.textContent = m;
+          modelEl.appendChild(opt);
+        });
+        modelEl.disabled = false;
+        vehicleCategory = detectCategory(make);
+        tagEl.style.display = 'inline-block';
+        tagEl.textContent = categoryLabels[vehicleCategory];
+      } else {
+        modelEl.disabled = true;
+        vehicleCategory = null;
+        tagEl.style.display = 'none';
+      }
+      calculate();
+    });
+
+    /* ---- Model -> Engine ---- */
+    modelEl.addEventListener('change', () => {
+      engineEl.innerHTML = '<option value="">Select Engine</option>';
+      const make = makeEl.value;
+      const model = modelEl.value;
+
+      if (model && typeof ENGINE_DATA !== 'undefined' && ENGINE_DATA[make] && ENGINE_DATA[make][model]) {
+        ENGINE_DATA[make][model].forEach(eng => {
+          const opt = document.createElement('option');
+          opt.value = eng;
+          opt.textContent = eng;
+          engineEl.appendChild(opt);
+        });
+        engineEl.disabled = false;
+      } else if (model) {
+        engineEl.innerHTML += '<option value="all">All Engines</option>';
+        engineEl.disabled = false;
+      } else {
+        engineEl.disabled = true;
+      }
+      calculate();
+    });
+
+    engineEl.addEventListener('change', calculate);
+
+    /* ---- Stage buttons ---- */
+    qsa('#sim-stage .sim-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        qsa('#sim-stage .sim-option').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        selectedStage = btn.dataset.value;
+        calculate();
+      });
+    });
+
+    /* ---- Addon checkboxes ---- */
+    qsa('#sim-addons input').forEach(cb => {
+      cb.addEventListener('change', calculate);
+    });
+
+    /* ---- Calculate ---- */
+    function calculate() {
+      const result = document.getElementById('sim-result');
+      const breakdown = document.getElementById('sim-breakdown');
+      const totalEl = document.getElementById('sim-total-price');
+
+      if (!vehicleCategory || !selectedStage) {
+        result.style.display = 'none';
+        return;
+      }
+
+      result.style.display = 'block';
+      let lines = [];
+      let totalMin = 0;
+      let totalMax = 0;
+      let hasContactUs = false;
+
+      // Vehicle info line
+      const make = makeEl.value;
+      const model = modelEl.value;
+      const engine = engineEl.value;
+      let vehicleLabel = make;
+      if (model) vehicleLabel += ' ' + model;
+      if (engine && engine !== 'all') vehicleLabel += ' — ' + engine;
+      lines.push('<div class="sim-line sim-line-vehicle"><span>' + vehicleLabel + '</span><span class="sim-line-cat">' + categoryLabels[vehicleCategory] + '</span></div>');
+
+      // Stage price
+      const stagePrice = prices[vehicleCategory][selectedStage];
+      if (stagePrice === null) {
+        hasContactUs = true;
+        lines.push('<div class="sim-line"><span>' + serviceNames[selectedStage] + '</span><span class="sim-line-price contact">Contact Us</span></div>');
+      } else {
+        totalMin += stagePrice[0];
+        totalMax += stagePrice[1];
+        lines.push('<div class="sim-line"><span>' + serviceNames[selectedStage] + '</span><span class="sim-line-price">' + stagePrice[0] + ' - ' + stagePrice[1] + ' &euro;</span></div>');
+      }
+
+      // Addons
+      qsa('#sim-addons input:checked').forEach(cb => {
+        const key = cb.value;
+        const p = prices[vehicleCategory][key];
+        if (p) {
+          totalMin += p[0];
+          totalMax += p[1];
+          lines.push('<div class="sim-line"><span>' + serviceNames[key] + '</span><span class="sim-line-price">' + p[0] + ' - ' + p[1] + ' &euro;</span></div>');
+        }
+      });
+
+      breakdown.innerHTML = lines.join('');
+
+      if (hasContactUs) {
+        totalEl.innerHTML = '<a href="contact.html" style="color:var(--primary);text-decoration:none;">Contact Us</a>';
+      } else {
+        totalEl.textContent = totalMin + ' - ' + totalMax + ' \u20AC';
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

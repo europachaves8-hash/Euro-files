@@ -2130,3 +2130,223 @@ body::after {
     gap: 20px;
   }
 }
+
+/* ---------- Price Simulator ---------- */
+#price-simulator {
+  margin-top: 20px;
+}
+
+.simulator-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 32px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.sim-step {
+  margin-bottom: 28px;
+}
+
+.sim-label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.sim-vehicle-selects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.sim-select-group label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-light);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.sim-select-group .form-control {
+  width: 100%;
+}
+
+.sim-vehicle-tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 14px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sim-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.sim-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 2px solid var(--border);
+  background: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.sim-option:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.sim-option.active {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: #fff;
+}
+
+.sim-option svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.sim-line-vehicle {
+  font-weight: 700;
+  background: var(--bg-light);
+  padding: 10px 12px !important;
+  margin-bottom: 4px;
+}
+
+.sim-line-cat {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-light);
+  letter-spacing: 0.3px;
+}
+
+.sim-addons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.sim-addon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  font-size: 0.88rem;
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.sim-addon:hover {
+  border-color: var(--primary);
+}
+
+.sim-addon input {
+  display: none;
+}
+
+.sim-addon .checkmark {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.15s;
+}
+
+.sim-addon input:checked ~ .checkmark {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.sim-addon input:checked ~ .checkmark::after {
+  content: '';
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-top: -2px;
+}
+
+.sim-addon:has(input:checked) {
+  border-color: var(--primary);
+  background: rgba(200, 30, 50, 0.04);
+}
+
+.sim-result-inner {
+  border-top: 2px solid var(--border);
+  padding-top: 24px;
+}
+
+.sim-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.sim-line-price {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.sim-line-price.contact {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.sim-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 0;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.sim-price {
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
+@media (max-width: 600px) {
+  .simulator-card {
+    padding: 20px 16px;
+  }
+  .sim-vehicle-selects {
+    grid-template-columns: 1fr;
+  }
+  .sim-options {
+    flex-direction: column;
+  }
+  .sim-addons {
+    grid-template-columns: 1fr;
+  }
+}
